@@ -18,9 +18,9 @@
 
 .field private final g:Landroid/widget/ImageView;
 
-.field private final h:Lcom/vk/imageloader/view/VKImageView;
+.field private final h:Lcom/vk/messengerageloader/view/VKImageView;
 
-.field private final i:Lcom/vk/imageloader/view/VKCircleImageView;
+.field private final i:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
 .field private final j:Landroid/widget/TextView;
 
@@ -139,9 +139,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    iput-object p2, p0, Lcom/vkontakte/android/live/views/d/a/a;->i:Lcom/vk/imageloader/view/VKCircleImageView;
+    iput-object p2, p0, Lcom/vkontakte/android/live/views/d/a/a;->i:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     const p2, 0x7f0a05a7
 
@@ -161,9 +161,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p2, p0, Lcom/vkontakte/android/live/views/d/a/a;->h:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vkontakte/android/live/views/d/a/a;->h:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p2, 0x7f0a059f
 
@@ -231,9 +231,9 @@
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setVisibility(I)V
 
     .line 84
-    iget-object p1, p0, Lcom/vkontakte/android/live/views/d/a/a;->h:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/live/views/d/a/a;->h:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 85
     iget-object p1, p0, Lcom/vkontakte/android/live/views/d/a/a;->d:Landroid/widget/TextView;
@@ -256,22 +256,22 @@
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setVisibility(I)V
 
     .line 90
-    iget-object p1, p0, Lcom/vkontakte/android/live/views/d/a/a;->i:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/live/views/d/a/a;->i:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     new-instance p2, Lcom/vkontakte/android/live/views/d/a/a$1;
 
     invoke-direct {p2, p0}, Lcom/vkontakte/android/live/views/d/a/a$1;-><init>(Lcom/vkontakte/android/live/views/d/a/a;)V
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKCircleImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKCircleImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 100
-    iget-object p1, p0, Lcom/vkontakte/android/live/views/d/a/a;->h:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/live/views/d/a/a;->h:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance p2, Lcom/vkontakte/android/live/views/d/a/a$2;
 
     invoke-direct {p2, p0}, Lcom/vkontakte/android/live/views/d/a/a$2;-><init>(Lcom/vkontakte/android/live/views/d/a/a;)V
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 110
     new-instance p1, Lcom/vkontakte/android/live/views/d/a/a$3;
@@ -526,11 +526,11 @@
     iput p4, p0, Lcom/vkontakte/android/live/views/d/a/a;->s:I
 
     .line 197
-    iget-object p4, p0, Lcom/vkontakte/android/live/views/d/a/a;->i:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object p4, p0, Lcom/vkontakte/android/live/views/d/a/a;->i:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     iget-object v0, p3, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
-    invoke-virtual {p4, v0}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p4, v0}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     .line 198
     iget-object p4, p0, Lcom/vkontakte/android/live/views/d/a/a;->j:Landroid/widget/TextView;
@@ -602,9 +602,9 @@
     invoke-virtual {p1, p2}, Lcom/vkontakte/android/live/views/addbutton/AddDonationButtonView;->setIsGift(Z)V
 
     .line 207
-    iget-object p1, p0, Lcom/vkontakte/android/live/views/d/a/a;->h:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/live/views/d/a/a;->h:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, p4}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {p1, p4}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 208
     iget-object p1, p0, Lcom/vkontakte/android/live/views/d/a/a;->d:Landroid/widget/TextView;
@@ -645,7 +645,7 @@
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 210
-    iget-object p1, p0, Lcom/vkontakte/android/live/views/d/a/a;->h:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/live/views/d/a/a;->h:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object p2, p0, Lcom/vkontakte/android/live/views/d/a/a;->o:Lcom/vkontakte/android/api/models/CatalogedGift;
 
@@ -653,7 +653,7 @@
 
     iget-object p2, p2, Lcom/vkontakte/android/api/models/Gift;->d:Ljava/lang/String;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 213
     :cond_2

@@ -3,7 +3,7 @@
 .source "VkFilesBridge.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/a/g;
+.implements Lcom/vk/messenger/ui/a/g;
 
 
 # static fields

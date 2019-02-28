@@ -20,7 +20,7 @@
 
 
 # static fields
-.field public static b:Z = false
+.field public static b:Z
 
 .field private static k:[I
 

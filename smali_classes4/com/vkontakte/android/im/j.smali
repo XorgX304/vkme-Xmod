@@ -3,7 +3,7 @@
 .source "ImJobNotificationFactoryImpl.kt"
 
 # interfaces
-.implements Lcom/vk/im/engine/internal/d;
+.implements Lcom/vk/messenger/engine/internal/d;
 
 
 # instance fields
@@ -44,17 +44,17 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 41
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/b;->r()Lcom/vk/im/ui/a/e;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/b;->r()Lcom/vk/messenger/ui/a/e;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/vkontakte/android/im/j;->a:Landroid/content/Context;
 
-    invoke-interface {v0, v1}, Lcom/vk/im/ui/a/e;->d(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-interface {v0, v1}, Lcom/vk/messenger/ui/a/e;->d(Landroid/content/Context;)Landroid/content/Intent;
 
     move-result-object v0
 
@@ -118,17 +118,17 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 28
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/b;->r()Lcom/vk/im/ui/a/e;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/b;->r()Lcom/vk/messenger/ui/a/e;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/vkontakte/android/im/j;->a:Landroid/content/Context;
 
-    invoke-interface {v0, v1}, Lcom/vk/im/ui/a/e;->d(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-interface {v0, v1}, Lcom/vk/messenger/ui/a/e;->d(Landroid/content/Context;)Landroid/content/Intent;
 
     move-result-object v0
 
@@ -205,11 +205,11 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 54
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/b;->j()Lcom/vk/e/w;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/b;->j()Lcom/vk/e/w;
 
     move-result-object v0
 

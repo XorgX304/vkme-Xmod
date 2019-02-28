@@ -18,7 +18,7 @@
 
 .field private final c:Landroid/widget/FrameLayout;
 
-.field private final d:Lcom/vk/imageloader/view/VKImageView;
+.field private final d:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private e:Ljava/lang/ref/WeakReference;
     .annotation system Ldalvik/annotation/Signature;
@@ -87,9 +87,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/live/views/gifts/a/a;->d:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/live/views/gifts/a/a;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x7f0a05c3
 
@@ -133,22 +133,22 @@
     invoke-direct {p0, p2, p1}, Lcom/vkontakte/android/live/views/gifts/a/a;->b(ZZ)V
 
     .line 53
-    iget-object p2, p0, Lcom/vkontakte/android/live/views/gifts/a/a;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vkontakte/android/live/views/gifts/a/a;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance p3, Lcom/vkontakte/android/live/views/gifts/a/a$a;
 
     invoke-direct {p3, p0}, Lcom/vkontakte/android/live/views/gifts/a/a$a;-><init>(Lcom/vkontakte/android/live/views/gifts/a/a;)V
 
-    invoke-virtual {p2, p3}, Lcom/vk/imageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
+    invoke-virtual {p2, p3}, Lcom/vk/messengerageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
 
     .line 54
-    iget-object p2, p0, Lcom/vkontakte/android/live/views/gifts/a/a;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vkontakte/android/live/views/gifts/a/a;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance p3, Lcom/vkontakte/android/live/views/gifts/a/a$1;
 
     invoke-direct {p3, p0}, Lcom/vkontakte/android/live/views/gifts/a/a$1;-><init>(Lcom/vkontakte/android/live/views/gifts/a/a;)V
 
-    invoke-virtual {p2, p3}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p2, p3}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 65
     new-instance p2, Landroid/support/v7/widget/RecyclerView$j;
@@ -269,7 +269,7 @@
     invoke-virtual {p0, p2, p1}, Lcom/vkontakte/android/live/views/gifts/a/a;->a(ZZ)V
 
     .line 87
-    iget-object p2, p0, Lcom/vkontakte/android/live/views/gifts/a/a;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vkontakte/android/live/views/gifts/a/a;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v0, p0, Lcom/vkontakte/android/live/views/gifts/a/a;->f:Lcom/vkontakte/android/api/models/CatalogedGift;
 
@@ -281,7 +281,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p2, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 88
     iget-object p2, p0, Lcom/vkontakte/android/live/views/gifts/a/a;->f:Lcom/vkontakte/android/api/models/CatalogedGift;

@@ -324,7 +324,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getForgegroundView()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getForgegroundView()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
@@ -332,7 +332,7 @@
 
     const/16 v0, 0x8
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 292
     :cond_0

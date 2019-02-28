@@ -6,7 +6,7 @@
 # instance fields
 .field private final a:I
 
-.field private final b:Lcom/vk/im/ui/views/image_zhukov/b;
+.field private final b:Lcom/vk/messenger/ui/views/image_zhukov/b;
 
 
 # direct methods
@@ -22,13 +22,13 @@
     iput v0, p0, Lcom/vk/common/view/flex/strategy/g;->a:I
 
     .line 115
-    sget-object v0, Lcom/vk/im/ui/views/image_zhukov/d;->a:Lcom/vk/im/ui/views/image_zhukov/b;
+    sget-object v0, Lcom/vk/messenger/ui/views/image_zhukov/d;->a:Lcom/vk/messenger/ui/views/image_zhukov/b;
 
     const-string v1, "StrategyFor2.INSTANCE"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    iput-object v0, p0, Lcom/vk/common/view/flex/strategy/g;->b:Lcom/vk/im/ui/views/image_zhukov/b;
+    iput-object v0, p0, Lcom/vk/common/view/flex/strategy/g;->b:Lcom/vk/messenger/ui/views/image_zhukov/b;
 
     .line 116
     invoke-virtual {p0}, Lcom/vk/common/view/flex/strategy/g;->d()V
@@ -47,11 +47,11 @@
     return v0
 .end method
 
-.method protected b()Lcom/vk/im/ui/views/image_zhukov/b;
+.method protected b()Lcom/vk/messenger/ui/views/image_zhukov/b;
     .locals 1
 
     .line 115
-    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/g;->b:Lcom/vk/im/ui/views/image_zhukov/b;
+    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/g;->b:Lcom/vk/messenger/ui/views/image_zhukov/b;
 
     return-object v0
 .end method

@@ -33,9 +33,9 @@
 
 .field private c:Landroid/graphics/Bitmap;
 
-.field private d:Lcom/vk/imageloader/k;
+.field private d:Lcom/vk/messengerageloader/k;
 
-.field private e:Lcom/vk/imageloader/j;
+.field private e:Lcom/vk/messengerageloader/j;
 
 .field private f:Z
 
@@ -50,11 +50,11 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 1415
-    new-instance p1, Lcom/vk/imageloader/k;
+    new-instance p1, Lcom/vk/messengerageloader/k;
 
-    invoke-direct {p1}, Lcom/vk/imageloader/k;-><init>()V
+    invoke-direct {p1}, Lcom/vk/messengerageloader/k;-><init>()V
 
-    iput-object p1, p0, Lcom/vkontakte/android/o$b;->d:Lcom/vk/imageloader/k;
+    iput-object p1, p0, Lcom/vkontakte/android/o$b;->d:Lcom/vk/messengerageloader/k;
 
     const/4 p1, 0x0
 
@@ -99,11 +99,11 @@
     return-object p1
 .end method
 
-.method public a(Lcom/vk/imageloader/j;)V
+.method public a(Lcom/vk/messengerageloader/j;)V
     .locals 0
 
     .line 1471
-    iput-object p1, p0, Lcom/vkontakte/android/o$b;->e:Lcom/vk/imageloader/j;
+    iput-object p1, p0, Lcom/vkontakte/android/o$b;->e:Lcom/vk/messengerageloader/j;
 
     return-void
 .end method
@@ -112,16 +112,16 @@
     .locals 1
 
     .line 1439
-    iget-object p1, p0, Lcom/vkontakte/android/o$b;->d:Lcom/vk/imageloader/k;
+    iget-object p1, p0, Lcom/vkontakte/android/o$b;->d:Lcom/vk/messengerageloader/k;
 
     const/4 v0, 0x1
 
     if-eqz p1, :cond_0
 
     .line 1440
-    iget-object p1, p0, Lcom/vkontakte/android/o$b;->d:Lcom/vk/imageloader/k;
+    iget-object p1, p0, Lcom/vkontakte/android/o$b;->d:Lcom/vk/messengerageloader/k;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/k;->a()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/k;->a()V
 
     .line 1441
     iput-boolean v0, p0, Lcom/vkontakte/android/o$b;->f:Z
@@ -264,11 +264,11 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/vkontakte/android/o$b;->d:Lcom/vk/imageloader/k;
+    iget-object v1, p0, Lcom/vkontakte/android/o$b;->d:Lcom/vk/messengerageloader/k;
 
-    iget-object v2, p0, Lcom/vkontakte/android/o$b;->e:Lcom/vk/imageloader/j;
+    iget-object v2, p0, Lcom/vkontakte/android/o$b;->e:Lcom/vk/messengerageloader/j;
 
-    invoke-static {v0, v1, v2}, Lcom/vk/imageloader/i;->a(Landroid/net/Uri;Lcom/vk/imageloader/k;Lcom/vk/imageloader/j;)Lio/reactivex/j;
+    invoke-static {v0, v1, v2}, Lcom/vk/messengerageloader/i;->a(Landroid/net/Uri;Lcom/vk/messengerageloader/k;Lcom/vk/messengerageloader/j;)Lio/reactivex/j;
 
     move-result-object v0
 

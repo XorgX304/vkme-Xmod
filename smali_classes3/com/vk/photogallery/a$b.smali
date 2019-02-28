@@ -271,9 +271,9 @@
     iget-object v3, p0, Lcom/vk/photogallery/a$b;->o:Lcom/facebook/drawee/view/SimpleDraweeView;
 
     .line 83
-    sget-object v4, Lcom/vk/imageloader/c;->a:Lcom/vk/imageloader/c;
+    sget-object v4, Lcom/vk/messengerageloader/c;->a:Lcom/vk/messengerageloader/c;
 
-    invoke-virtual {v4}, Lcom/vk/imageloader/c;->a()Lcom/facebook/drawee/a/a/f;
+    invoke-virtual {v4}, Lcom/vk/messengerageloader/c;->a()Lcom/facebook/drawee/a/a/f;
 
     move-result-object v4
 

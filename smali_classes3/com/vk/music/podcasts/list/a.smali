@@ -45,7 +45,7 @@
 
 .field private an:Lcom/vk/music/view/a/f;
 
-.field private ao:Lcom/vk/imageloader/view/VKCircleImageView;
+.field private ao:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
 .field private ap:Landroid/widget/TextView;
 
@@ -399,9 +399,9 @@
 
     invoke-static {v5, v6}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast v5, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast v5, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    iput-object v5, v0, Lcom/vk/music/podcasts/list/a;->ao:Lcom/vk/imageloader/view/VKCircleImageView;
+    iput-object v5, v0, Lcom/vk/music/podcasts/list/a;->ao:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     const v5, 0x7f0a0aff
 
@@ -956,7 +956,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 163
-    iget-object v0, p0, Lcom/vk/music/podcasts/list/a;->ao:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object v0, p0, Lcom/vk/music/podcasts/list/a;->ao:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     if-nez v0, :cond_5
 
@@ -969,7 +969,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     .line 164
     invoke-direct {p0}, Lcom/vk/music/podcasts/list/a;->av()V

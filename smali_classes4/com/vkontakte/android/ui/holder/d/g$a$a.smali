@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field public n:Lcom/vk/imageloader/view/VKImageView;
+.field public n:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field final synthetic o:Lcom/vkontakte/android/ui/holder/d/g$a;
 
@@ -37,9 +37,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/d/g$a$a;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/d/g$a$a;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-void
 .end method

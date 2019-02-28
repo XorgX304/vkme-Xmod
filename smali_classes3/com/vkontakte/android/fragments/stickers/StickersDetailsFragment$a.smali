@@ -92,7 +92,7 @@
     if-nez v0, :cond_0
 
     .line 372
-    new-instance p1, Lcom/vk/imageloader/view/VKImageView;
+    new-instance p1, Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object p2, p0, Lcom/vkontakte/android/fragments/stickers/StickersDetailsFragment$a;->a:Lcom/vkontakte/android/fragments/stickers/StickersDetailsFragment;
 
@@ -100,7 +100,7 @@
 
     move-result-object p2
 
-    invoke-direct {p1, p2}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
     return-object p1
 
@@ -153,7 +153,7 @@
 
     .line 386
     :cond_1
-    new-instance v0, Lcom/vk/imageloader/view/VKImageView;
+    new-instance v0, Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p0, Lcom/vkontakte/android/fragments/stickers/StickersDetailsFragment$a;->a:Lcom/vkontakte/android/fragments/stickers/StickersDetailsFragment;
 
@@ -161,10 +161,10 @@
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
     .line 387
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
 
     move-result-object v1
 
@@ -175,7 +175,7 @@
     invoke-virtual {v1, v2}, Lcom/facebook/drawee/generic/a;->a(Lcom/facebook/drawee/drawable/p$b;)V
 
     .line 388
-    invoke-virtual {v0, p2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 389
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V

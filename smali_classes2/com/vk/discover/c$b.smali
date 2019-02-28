@@ -142,7 +142,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/vk/imageloader/i;->e(Landroid/net/Uri;)Lcom/facebook/datasource/b;
+    invoke-static {v1}, Lcom/vk/messengerageloader/i;->e(Landroid/net/Uri;)Lcom/facebook/datasource/b;
 
     add-int/lit8 v0, v0, -0x1
 

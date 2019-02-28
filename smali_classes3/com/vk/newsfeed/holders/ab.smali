@@ -14,7 +14,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final p:Landroid/widget/TextView;
 
@@ -47,9 +47,9 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/ab;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/ab;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 15
     iget-object p1, p0, Lcom/vk/newsfeed/holders/ab;->a:Landroid/view/View;
@@ -86,11 +86,11 @@
     iput-object p1, p0, Lcom/vk/newsfeed/holders/ab;->q:Landroid/widget/TextView;
 
     .line 19
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/ab;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/ab;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x40166666    # 2.35f
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setAspectRatio(F)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setAspectRatio(F)V
 
     return-void
 .end method
@@ -144,9 +144,9 @@
 
     .line 28
     :goto_0
-    iget-object v1, p0, Lcom/vk/newsfeed/holders/ab;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/newsfeed/holders/ab;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 29
     iget-object v0, p0, Lcom/vk/newsfeed/holders/ab;->p:Landroid/widget/TextView;

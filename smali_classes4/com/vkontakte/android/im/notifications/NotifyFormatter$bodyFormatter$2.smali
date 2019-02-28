@@ -20,7 +20,7 @@
     value = {
         "Lkotlin/jvm/internal/Lambda;",
         "Lkotlin/jvm/a/a<",
-        "Lcom/vk/im/ui/formatters/o;",
+        "Lcom/vk/messenger/ui/formatters/o;",
         ">;"
     }
 .end annotation
@@ -59,18 +59,18 @@
     .locals 1
 
     .line 21
-    invoke-virtual {p0}, Lcom/vkontakte/android/im/notifications/NotifyFormatter$bodyFormatter$2;->b()Lcom/vk/im/ui/formatters/o;
+    invoke-virtual {p0}, Lcom/vkontakte/android/im/notifications/NotifyFormatter$bodyFormatter$2;->b()Lcom/vk/messenger/ui/formatters/o;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public final b()Lcom/vk/im/ui/formatters/o;
+.method public final b()Lcom/vk/messenger/ui/formatters/o;
     .locals 3
 
     .line 24
-    new-instance v0, Lcom/vk/im/ui/formatters/o;
+    new-instance v0, Lcom/vk/messenger/ui/formatters/o;
 
     sget-object v1, Lcom/vkontakte/android/im/notifications/i;->b:Lcom/vkontakte/android/im/notifications/i;
 
@@ -82,7 +82,7 @@
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {v0, v1}, Lcom/vk/im/ui/formatters/o;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/vk/messenger/ui/formatters/o;-><init>(Landroid/content/Context;)V
 
     return-object v0
 .end method

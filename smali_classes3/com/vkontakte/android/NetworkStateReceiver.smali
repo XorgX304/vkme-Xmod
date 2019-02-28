@@ -858,7 +858,7 @@
     if-eqz v0, :cond_2
 
     .line 110
-    invoke-static {}, Lcom/vk/imageloader/e;->a()V
+    invoke-static {}, Lcom/vk/messengerageloader/e;->a()V
 
     .line 112
     :cond_2

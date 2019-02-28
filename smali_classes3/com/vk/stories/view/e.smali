@@ -13,7 +13,7 @@
 # instance fields
 .field private b:Lcom/vk/dto/stories/model/StoriesContainer;
 
-.field private c:Lcom/vk/imageloader/view/VKImageView;
+.field private c:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private d:Landroid/widget/TextView;
 
@@ -102,9 +102,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v0, p0, Lcom/vk/stories/view/e;->c:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vk/stories/view/e;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f0a0b4e
 
@@ -210,7 +210,7 @@
     .locals 1
 
     .line 74
-    iget-object v0, p0, Lcom/vk/stories/view/e;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/stories/view/e;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-object v0
 .end method
@@ -255,7 +255,7 @@
     iput-object p1, p0, Lcom/vk/stories/view/e;->b:Lcom/vk/dto/stories/model/StoriesContainer;
 
     .line 81
-    iget-object v0, p0, Lcom/vk/stories/view/e;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/stories/view/e;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/stories/model/StoriesContainer;->q()Lcom/vk/dto/stories/model/StoryEntry;
 
@@ -267,7 +267,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 83
     invoke-virtual {p1}, Lcom/vk/dto/stories/model/StoriesContainer;->i()Ljava/lang/String;

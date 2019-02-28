@@ -3,7 +3,7 @@
 .source "ReplyBarView.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/views/RichEditText$b;
+.implements Lcom/vk/messenger/ui/views/RichEditText$b;
 
 
 # annotations

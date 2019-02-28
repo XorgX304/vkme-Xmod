@@ -31,7 +31,7 @@
 # instance fields
 .field final synthetic n:Lcom/vk/profile/adapter/a/b;
 
-.field private final o:Lcom/vk/imageloader/view/VKImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final p:Landroid/widget/TextView;
 
@@ -90,9 +90,9 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/profile/adapter/a/b$a;->o:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/profile/adapter/a/b$a;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x1020014
 
@@ -220,25 +220,25 @@
     if-nez v0, :cond_2
 
     .line 113
-    iget-object v0, p0, Lcom/vk/profile/adapter/a/b$a;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/adapter/a/b$a;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 115
     :cond_2
-    iget-object p1, p0, Lcom/vk/profile/adapter/a/b$a;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/profile/adapter/a/b$a;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     goto :goto_0
 
     .line 118
     :cond_3
-    iget-object p1, p0, Lcom/vk/profile/adapter/a/b$a;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/profile/adapter/a/b$a;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     :goto_0
     return-void

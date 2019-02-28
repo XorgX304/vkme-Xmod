@@ -185,7 +185,7 @@
 
     move-result-object v1
 
-    instance-of v1, v1, Lcom/vk/imageloader/view/VKImageView;
+    instance-of v1, v1, Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v1, :cond_4
 
@@ -550,7 +550,7 @@
     .line 142
     iget-object v1, p0, Lcom/vk/profile/adapter/items/g$a;->n:Lcom/vk/profile/ui/b/b;
 
-    invoke-virtual {v1}, Lcom/vk/profile/ui/b/b;->getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {v1}, Lcom/vk/profile/ui/b/b;->getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v1
 
@@ -560,7 +560,7 @@
 
     check-cast v2, Landroid/view/View$OnClickListener;
 
-    invoke-virtual {v1, v2}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     goto :goto_8
 
@@ -573,18 +573,18 @@
     .line 149
     iget-object v1, p0, Lcom/vk/profile/adapter/items/g$a;->n:Lcom/vk/profile/ui/b/b;
 
-    invoke-virtual {v1}, Lcom/vk/profile/ui/b/b;->getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {v1}, Lcom/vk/profile/ui/b/b;->getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v1
 
     iget-object v2, v0, Lcom/vkontakte/android/api/k;->j:Ljava/lang/String;
 
-    invoke-virtual {v1, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 151
     iget-object v1, p0, Lcom/vk/profile/adapter/items/g$a;->n:Lcom/vk/profile/ui/b/b;
 
-    invoke-virtual {v1}, Lcom/vk/profile/ui/b/b;->getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {v1}, Lcom/vk/profile/ui/b/b;->getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v1
 
@@ -594,7 +594,7 @@
 
     check-cast v2, Landroid/view/View$OnClickListener;
 
-    invoke-virtual {v1, v2}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 158
     iget-object v0, v0, Lcom/vkontakte/android/api/k;->a:Lcom/vkontakte/android/UserProfile;

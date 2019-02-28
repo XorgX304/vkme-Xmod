@@ -29,7 +29,7 @@
 # instance fields
 .field final synthetic n:Lcom/vk/profile/adapter/a/d;
 
-.field private final o:Lcom/vk/imageloader/view/VKImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final p:Landroid/widget/TextView;
 
@@ -75,9 +75,9 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/profile/adapter/a/d$a;->o:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/profile/adapter/a/d$a;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 98
     iget-object p1, p0, Lcom/vk/profile/adapter/a/d$a;->a:Landroid/view/View;
@@ -274,11 +274,11 @@
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
     .line 117
-    iget-object v0, p0, Lcom/vk/profile/adapter/a/d$a;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/adapter/a/d$a;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object p1, p1, Lcom/vk/dto/common/VideoFile;->q:Ljava/lang/String;
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     return-void
 .end method

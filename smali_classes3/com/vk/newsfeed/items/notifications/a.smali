@@ -54,11 +54,11 @@
 
 .field private final s:Landroid/widget/TextView;
 
-.field private final t:Lcom/vk/imageloader/view/VKImageView;
+.field private final t:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final u:Landroid/widget/TextView;
 
-.field private final v:[Lcom/vk/imageloader/view/VKImageView;
+.field private final v:[Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final w:Landroid/view/View;
 
@@ -196,9 +196,9 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v2, p0, Lcom/vk/newsfeed/items/notifications/a;->t:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v2, p0, Lcom/vk/newsfeed/items/notifications/a;->t:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v2, 0x7f0a0ba4
 
@@ -214,9 +214,9 @@
     const/4 v2, 0x4
 
     .line 72
-    new-array v3, v2, [Lcom/vk/imageloader/view/VKImageView;
+    new-array v3, v2, [Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v3, p0, Lcom/vk/newsfeed/items/notifications/a;->v:[Lcom/vk/imageloader/view/VKImageView;
+    iput-object v3, p0, Lcom/vk/newsfeed/items/notifications/a;->v:[Lcom/vk/messengerageloader/view/VKImageView;
 
     const v3, 0x1020027
 
@@ -505,7 +505,7 @@
 
     .line 137
     :cond_6
-    iget-object p2, p0, Lcom/vk/newsfeed/items/notifications/a;->v:[Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vk/newsfeed/items/notifications/a;->v:[Lcom/vk/messengerageloader/view/VKImageView;
 
     const p3, 0x7f0a0b98
 
@@ -513,12 +513,12 @@
 
     move-result-object p3
 
-    check-cast p3, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p3, Lcom/vk/messengerageloader/view/VKImageView;
 
     aput-object p3, p2, v5
 
     .line 138
-    iget-object p2, p0, Lcom/vk/newsfeed/items/notifications/a;->v:[Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vk/newsfeed/items/notifications/a;->v:[Lcom/vk/messengerageloader/view/VKImageView;
 
     const p3, 0x7f0a0b99
 
@@ -526,12 +526,12 @@
 
     move-result-object p3
 
-    check-cast p3, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p3, Lcom/vk/messengerageloader/view/VKImageView;
 
     aput-object p3, p2, v3
 
     .line 139
-    iget-object p2, p0, Lcom/vk/newsfeed/items/notifications/a;->v:[Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vk/newsfeed/items/notifications/a;->v:[Lcom/vk/messengerageloader/view/VKImageView;
 
     const p3, 0x7f0a0b9a
 
@@ -539,12 +539,12 @@
 
     move-result-object p3
 
-    check-cast p3, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p3, Lcom/vk/messengerageloader/view/VKImageView;
 
     aput-object p3, p2, v0
 
     .line 140
-    iget-object p2, p0, Lcom/vk/newsfeed/items/notifications/a;->v:[Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vk/newsfeed/items/notifications/a;->v:[Lcom/vk/messengerageloader/view/VKImageView;
 
     const p3, 0x7f0a0b9b
 
@@ -552,7 +552,7 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
     aput-object p1, p2, v4
 
@@ -1343,11 +1343,11 @@
     return-void
 .end method
 
-.method public static final synthetic d(Lcom/vk/newsfeed/items/notifications/a;)Lcom/vk/imageloader/view/VKImageView;
+.method public static final synthetic d(Lcom/vk/newsfeed/items/notifications/a;)Lcom/vk/messengerageloader/view/VKImageView;
     .locals 0
 
     .line 60
-    iget-object p0, p0, Lcom/vk/newsfeed/items/notifications/a;->t:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p0, p0, Lcom/vk/newsfeed/items/notifications/a;->t:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-object p0
 .end method
@@ -1591,7 +1591,7 @@
     const/4 v1, 0x0
 
     .line 334
-    iget-object v3, p0, Lcom/vk/newsfeed/items/notifications/a;->v:[Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vk/newsfeed/items/notifications/a;->v:[Lcom/vk/messengerageloader/view/VKImageView;
 
     array-length v3, v3
 
@@ -1607,7 +1607,7 @@
     if-ge v1, v3, :cond_5
 
     .line 335
-    iget-object v4, p0, Lcom/vk/newsfeed/items/notifications/a;->v:[Lcom/vk/imageloader/view/VKImageView;
+    iget-object v4, p0, Lcom/vk/newsfeed/items/notifications/a;->v:[Lcom/vk/messengerageloader/view/VKImageView;
 
     aget-object v4, v4, v1
 
@@ -1621,7 +1621,7 @@
 
     iget-object v5, v5, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
-    invoke-virtual {v4, v5}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v4, v5}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :cond_4
     add-int/lit8 v1, v1, 0x1
@@ -1630,7 +1630,7 @@
 
     .line 338
     :cond_5
-    iget-object v0, p0, Lcom/vk/newsfeed/items/notifications/a;->t:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/items/notifications/a;->t:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_a
 
@@ -1643,7 +1643,7 @@
 
     .line 362
     :pswitch_0
-    iget-object v0, p0, Lcom/vk/newsfeed/items/notifications/a;->t:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/items/notifications/a;->t:Lcom/vk/messengerageloader/view/VKImageView;
 
     const/high16 v1, 0x42400000    # 48.0f
 
@@ -1662,7 +1662,7 @@
     move-result-object v2
 
     :cond_6
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     const-string p1, "view"
 
@@ -1673,7 +1673,7 @@
 
     .line 360
     :pswitch_1
-    iget-object p1, p0, Lcom/vk/newsfeed/items/notifications/a;->t:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/items/notifications/a;->t:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {}, Lcom/vkontakte/android/auth/a;->b()Lcom/vk/c/a;
 
@@ -1683,7 +1683,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -1704,7 +1704,7 @@
     if-eqz p1, :cond_7
 
     .line 352
-    iget-object v0, p0, Lcom/vk/newsfeed/items/notifications/a;->t:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/items/notifications/a;->t:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/common/ImageSize;->c()I
 
@@ -1718,11 +1718,11 @@
 
     int-to-float p1, p1
 
-    invoke-virtual {v0, v1, p1}, Lcom/vk/imageloader/view/VKImageView;->a(FF)V
+    invoke-virtual {v0, v1, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(FF)V
 
     .line 354
     :cond_7
-    iget-object p1, p0, Lcom/vk/newsfeed/items/notifications/a;->t:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/items/notifications/a;->t:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p1, Landroid/view/View;
 
@@ -1753,7 +1753,7 @@
     move-result v0
 
     .line 347
-    iget-object v1, p0, Lcom/vk/newsfeed/items/notifications/a;->t:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/newsfeed/items/notifications/a;->t:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1, v0}, Lcom/vkontakte/android/data/UserNotification;->a(I)Lcom/vk/dto/common/ImageSize;
 
@@ -1766,7 +1766,7 @@
     move-result-object v2
 
     :cond_8
-    invoke-virtual {v1, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -1787,7 +1787,7 @@
     move-result v0
 
     .line 343
-    iget-object v1, p0, Lcom/vk/newsfeed/items/notifications/a;->t:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/newsfeed/items/notifications/a;->t:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1, v0}, Lcom/vkontakte/android/data/UserNotification;->a(I)Lcom/vk/dto/common/ImageSize;
 
@@ -1800,7 +1800,7 @@
     move-result-object v2
 
     :cond_9
-    invoke-virtual {v1, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :goto_2
     return-void

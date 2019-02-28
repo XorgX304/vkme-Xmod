@@ -52,7 +52,7 @@
     xor-int/2addr v1, v2
 
     .line 12
-    invoke-static {p0}, Lcom/vk/im/engine/utils/g;->c(I)Z
+    invoke-static {p0}, Lcom/vk/messenger/engine/utils/g;->c(I)Z
 
     move-result v3
 
@@ -77,7 +77,7 @@
 
     .line 13
     :goto_0
-    invoke-static {p0}, Lcom/vk/im/engine/utils/g;->e(I)Z
+    invoke-static {p0}, Lcom/vk/messenger/engine/utils/g;->e(I)Z
 
     move-result p0
 

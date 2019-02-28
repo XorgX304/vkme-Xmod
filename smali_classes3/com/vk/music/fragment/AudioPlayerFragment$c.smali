@@ -47,7 +47,7 @@
 
 .field final I:Landroid/graphics/drawable/Drawable;
 
-.field final J:Lcom/vk/imageloader/view/VKImageView;
+.field final J:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field final K:Landroid/widget/SeekBar;
 
@@ -231,9 +231,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p2, p0, Lcom/vk/music/fragment/AudioPlayerFragment$c;->J:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vk/music/fragment/AudioPlayerFragment$c;->J:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p2, 0x7f0a09ca
 
@@ -1080,19 +1080,19 @@
     if-eqz v3, :cond_1
 
     .line 908
-    iget-object v3, p0, Lcom/vk/music/fragment/AudioPlayerFragment$c;->J:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vk/music/fragment/AudioPlayerFragment$c;->J:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v5, p0, Lcom/vk/music/fragment/AudioPlayerFragment$c;->S:Landroid/graphics/drawable/Drawable;
 
-    invoke-virtual {v3, v5}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v3, v5}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(Landroid/graphics/drawable/Drawable;)V
 
     goto :goto_1
 
     .line 910
     :cond_1
-    iget-object v3, p0, Lcom/vk/music/fragment/AudioPlayerFragment$c;->J:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vk/music/fragment/AudioPlayerFragment$c;->J:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v3}, Lcom/vk/imageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
+    invoke-virtual {v3}, Lcom/vk/messengerageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
 
     move-result-object v3
 
@@ -1120,18 +1120,18 @@
 
     .line 916
     :cond_2
-    iget-object v3, p0, Lcom/vk/music/fragment/AudioPlayerFragment$c;->J:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vk/music/fragment/AudioPlayerFragment$c;->J:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v3, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v3, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_3
 
     .line 914
     :cond_3
     :goto_2
-    iget-object v1, p0, Lcom/vk/music/fragment/AudioPlayerFragment$c;->J:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/music/fragment/AudioPlayerFragment$c;->J:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {v1}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 918
     :goto_3
@@ -1424,9 +1424,9 @@
     invoke-virtual {p0, v2, v1}, Lcom/vk/music/fragment/AudioPlayerFragment$c;->b(IZ)V
 
     .line 952
-    iget-object v1, p0, Lcom/vk/music/fragment/AudioPlayerFragment$c;->J:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/music/fragment/AudioPlayerFragment$c;->J:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {v1}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 953
     iget-object v1, p0, Lcom/vk/music/fragment/AudioPlayerFragment$c;->n:Landroid/widget/TextView;

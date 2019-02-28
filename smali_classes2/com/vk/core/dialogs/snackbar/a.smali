@@ -365,7 +365,7 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast v1, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     .line 145
     sget v2, Lcom/vk/r/a$e;->tv_message:I
@@ -421,7 +421,7 @@
     invoke-static {v4}, Lcom/vk/extensions/o;->f(Landroid/view/View;)V
 
     .line 151
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     goto :goto_2
 

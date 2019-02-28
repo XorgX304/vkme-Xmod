@@ -24,7 +24,7 @@
 
 
 # instance fields
-.field private final o:Lcom/vk/imageloader/view/VKImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private p:Lcom/vkontakte/android/o;
 
@@ -101,9 +101,9 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/items/likes/f;->o:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/items/likes/f;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 20
     new-instance p1, Lcom/vk/newsfeed/items/likes/PhotoLikeViewHolder$viewerCallback$2;
@@ -119,7 +119,7 @@
     iput-object p1, p0, Lcom/vk/newsfeed/items/likes/f;->q:Lkotlin/d;
 
     .line 23
-    iget-object p1, p0, Lcom/vk/newsfeed/items/likes/f;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/items/likes/f;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p1, Landroid/view/View;
 
@@ -217,9 +217,9 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 44
-    iget-object v0, p0, Lcom/vk/newsfeed/items/likes/f;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/items/likes/f;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
@@ -230,13 +230,13 @@
     iput v1, v0, Landroid/view/ViewGroup$LayoutParams;->width:I
 
     .line 45
-    iget-object v0, p0, Lcom/vk/newsfeed/items/likes/f;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/items/likes/f;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/common/ImageSize;->a()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :cond_0
     return-void

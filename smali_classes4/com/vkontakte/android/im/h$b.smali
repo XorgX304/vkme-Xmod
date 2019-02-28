@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/vkontakte/android/im/h;->a(Lcom/vk/im/engine/models/attaches/AttachVideo;)V
+    value = Lcom/vkontakte/android/im/h;->a(Lcom/vk/messenger/engine/models/attaches/AttachVideo;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

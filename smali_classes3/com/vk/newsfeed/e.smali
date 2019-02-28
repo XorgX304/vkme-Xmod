@@ -10,7 +10,7 @@
 .method static synthetic constructor <clinit>()V
     .locals 3
 
-    invoke-static {}, Lcom/vk/im/ui/views/ScaleType;->values()[Lcom/vk/im/ui/views/ScaleType;
+    invoke-static {}, Lcom/vk/messenger/ui/views/ScaleType;->values()[Lcom/vk/messenger/ui/views/ScaleType;
 
     move-result-object v0
 
@@ -22,9 +22,9 @@
 
     sget-object v0, Lcom/vk/newsfeed/e;->$EnumSwitchMapping$0:[I
 
-    sget-object v1, Lcom/vk/im/ui/views/ScaleType;->CENTER_CROP:Lcom/vk/im/ui/views/ScaleType;
+    sget-object v1, Lcom/vk/messenger/ui/views/ScaleType;->CENTER_CROP:Lcom/vk/messenger/ui/views/ScaleType;
 
-    invoke-virtual {v1}, Lcom/vk/im/ui/views/ScaleType;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/ui/views/ScaleType;->ordinal()I
 
     move-result v1
 
@@ -34,9 +34,9 @@
 
     sget-object v0, Lcom/vk/newsfeed/e;->$EnumSwitchMapping$0:[I
 
-    sget-object v1, Lcom/vk/im/ui/views/ScaleType;->CENTER_INSIDE:Lcom/vk/im/ui/views/ScaleType;
+    sget-object v1, Lcom/vk/messenger/ui/views/ScaleType;->CENTER_INSIDE:Lcom/vk/messenger/ui/views/ScaleType;
 
-    invoke-virtual {v1}, Lcom/vk/im/ui/views/ScaleType;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/ui/views/ScaleType;->ordinal()I
 
     move-result v1
 
@@ -46,9 +46,9 @@
 
     sget-object v0, Lcom/vk/newsfeed/e;->$EnumSwitchMapping$0:[I
 
-    sget-object v1, Lcom/vk/im/ui/views/ScaleType;->FIT_START:Lcom/vk/im/ui/views/ScaleType;
+    sget-object v1, Lcom/vk/messenger/ui/views/ScaleType;->FIT_START:Lcom/vk/messenger/ui/views/ScaleType;
 
-    invoke-virtual {v1}, Lcom/vk/im/ui/views/ScaleType;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/ui/views/ScaleType;->ordinal()I
 
     move-result v1
 
@@ -58,9 +58,9 @@
 
     sget-object v0, Lcom/vk/newsfeed/e;->$EnumSwitchMapping$0:[I
 
-    sget-object v1, Lcom/vk/im/ui/views/ScaleType;->FIT_CENTER:Lcom/vk/im/ui/views/ScaleType;
+    sget-object v1, Lcom/vk/messenger/ui/views/ScaleType;->FIT_CENTER:Lcom/vk/messenger/ui/views/ScaleType;
 
-    invoke-virtual {v1}, Lcom/vk/im/ui/views/ScaleType;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/ui/views/ScaleType;->ordinal()I
 
     move-result v1
 
@@ -70,9 +70,9 @@
 
     sget-object v0, Lcom/vk/newsfeed/e;->$EnumSwitchMapping$0:[I
 
-    sget-object v1, Lcom/vk/im/ui/views/ScaleType;->FIT_END:Lcom/vk/im/ui/views/ScaleType;
+    sget-object v1, Lcom/vk/messenger/ui/views/ScaleType;->FIT_END:Lcom/vk/messenger/ui/views/ScaleType;
 
-    invoke-virtual {v1}, Lcom/vk/im/ui/views/ScaleType;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/ui/views/ScaleType;->ordinal()I
 
     move-result v1
 
@@ -82,9 +82,9 @@
 
     sget-object v0, Lcom/vk/newsfeed/e;->$EnumSwitchMapping$0:[I
 
-    sget-object v1, Lcom/vk/im/ui/views/ScaleType;->FIT_XY:Lcom/vk/im/ui/views/ScaleType;
+    sget-object v1, Lcom/vk/messenger/ui/views/ScaleType;->FIT_XY:Lcom/vk/messenger/ui/views/ScaleType;
 
-    invoke-virtual {v1}, Lcom/vk/im/ui/views/ScaleType;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/ui/views/ScaleType;->ordinal()I
 
     move-result v1
 

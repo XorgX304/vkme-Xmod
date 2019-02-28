@@ -548,9 +548,9 @@
 
     move-result-object v1
 
-    sget-object v2, Lcom/vk/imageloader/ImageSize;->MID:Lcom/vk/imageloader/ImageSize;
+    sget-object v2, Lcom/vk/messengerageloader/ImageSize;->MID:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v2}, Lcom/vk/imageloader/ImageSize;->a()I
+    invoke-virtual {v2}, Lcom/vk/messengerageloader/ImageSize;->a()I
 
     move-result v2
 
@@ -582,9 +582,9 @@
 
     move-result-object v1
 
-    sget-object v2, Lcom/vk/imageloader/ImageSize;->MID:Lcom/vk/imageloader/ImageSize;
+    sget-object v2, Lcom/vk/messengerageloader/ImageSize;->MID:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-static {v1, v2}, Lcom/vk/imageloader/i;->b(Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;)Lio/reactivex/j;
+    invoke-static {v1, v2}, Lcom/vk/messengerageloader/i;->b(Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;)Lio/reactivex/j;
 
     move-result-object v1
 

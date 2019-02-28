@@ -60,7 +60,7 @@
     .line 97
     iget-object p1, p0, Lcom/vk/stories/editor/PhotoCameraEditorView$1;->a:Lcom/vk/stories/editor/PhotoCameraEditorView;
 
-    invoke-static {p1}, Lcom/vk/stories/editor/PhotoCameraEditorView;->b(Lcom/vk/stories/editor/PhotoCameraEditorView;)Lcom/vk/imageloader/view/VKImageView;
+    invoke-static {p1}, Lcom/vk/stories/editor/PhotoCameraEditorView;->b(Lcom/vk/stories/editor/PhotoCameraEditorView;)Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
@@ -70,7 +70,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     return-void
 .end method

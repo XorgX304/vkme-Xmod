@@ -3,7 +3,7 @@
 .source "ImBottomNavigation.kt"
 
 # interfaces
-.implements Lcom/vk/im/signup/b;
+.implements Lcom/vk/messenger/signup/b;
 
 
 # annotations
@@ -42,9 +42,9 @@
     .locals 3
 
     .line 596
-    sget-object v0, Lcom/vk/im/ui/b;->b:Lcom/vk/im/ui/b;
+    sget-object v0, Lcom/vk/messenger/ui/b;->b:Lcom/vk/messenger/ui/b;
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/b;->g()Z
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/b;->g()Z
 
     move-result v0
 
@@ -208,7 +208,7 @@
 
 
 # virtual methods
-.method public a(Lcom/vk/im/signup/a;)V
+.method public a(Lcom/vk/messenger/signup/a;)V
     .locals 7
 
     const-string v0, "authResult"
@@ -216,9 +216,9 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 586
-    sget-object v0, Lcom/vk/im/b;->a:Lcom/vk/im/b;
+    sget-object v0, Lcom/vk/messenger/b;->a:Lcom/vk/messenger/b;
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/b;->a(Lcom/vk/im/signup/a;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/b;->a(Lcom/vk/messenger/signup/a;)V
 
     .line 587
     iget-object v1, p0, Lcom/vk/navigation/h$a;->a:Lcom/vk/navigation/h;

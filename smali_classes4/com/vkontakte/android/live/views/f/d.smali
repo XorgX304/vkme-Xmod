@@ -433,13 +433,13 @@
 
     .line 288
     :goto_0
-    new-instance p3, Lcom/vk/imageloader/view/VKImageView;
+    new-instance p3, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p0}, Lcom/vkontakte/android/live/views/f/d;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {p3, v1}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p3, v1}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
     .line 289
     new-instance v1, Landroid/widget/FrameLayout$LayoutParams;
@@ -451,17 +451,17 @@
     invoke-direct {v1, v2, v3}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
 
     .line 290
-    invoke-virtual {p3, v1}, Lcom/vk/imageloader/view/VKImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {p3, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 291
     sget-object v1, Landroid/widget/ImageView$ScaleType;->CENTER_CROP:Landroid/widget/ImageView$ScaleType;
 
-    invoke-virtual {p3, v1}, Lcom/vk/imageloader/view/VKImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
+    invoke-virtual {p3, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
 
     .line 292
     iget-object p1, p1, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
-    invoke-virtual {p3, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p3, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 294
     invoke-virtual {v0, p3}, Lcom/vkontakte/android/live/base/MaskableFrameLayout;->addView(Landroid/view/View;)V

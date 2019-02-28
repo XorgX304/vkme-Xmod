@@ -18,7 +18,7 @@
     .end annotation
 .end field
 
-.field private c:Lcom/vk/imageloader/view/VKImageView;
+.field private c:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private d:Landroid/widget/TextView;
 
@@ -110,9 +110,9 @@
 
     move-result-object p3
 
-    check-cast p3, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p3, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p3, p0, Lcom/vk/common/view/ActionUserNotificationView;->c:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p3, p0, Lcom/vk/common/view/ActionUserNotificationView;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p3, 0x7f0a0b83
 
@@ -323,11 +323,11 @@
     if-nez p1, :cond_3
 
     .line 28
-    iget-object p1, p0, Lcom/vk/common/view/ActionUserNotificationView;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/common/view/ActionUserNotificationView;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz p1, :cond_1
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 29
     :cond_1
@@ -357,7 +357,7 @@
 
     .line 32
     :cond_3
-    iget-object v0, p0, Lcom/vk/common/view/ActionUserNotificationView;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/common/view/ActionUserNotificationView;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_5
 
@@ -383,7 +383,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 33
     :cond_5

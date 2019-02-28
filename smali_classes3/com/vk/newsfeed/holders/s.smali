@@ -30,7 +30,7 @@
 # instance fields
 .field private A:Lcom/vk/newsfeed/adapters/d$b;
 
-.field private final p:Lcom/vk/imageloader/view/VKCircleImageView;
+.field private final p:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
 .field private final q:Lcom/vkontakte/android/ui/OverlayLinearLayout;
 
@@ -95,9 +95,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/s;->p:Lcom/vk/imageloader/view/VKCircleImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/s;->p:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     .line 51
     iget-object p1, p0, Lcom/vk/newsfeed/holders/s;->a:Landroid/view/View;
@@ -464,9 +464,9 @@
     invoke-virtual {v1, v4, v5, v3, v5}, Lcom/vkontakte/android/ui/OverlayLinearLayout;->setPadding(IIII)V
 
     .line 356
-    iget-object v1, p0, Lcom/vk/newsfeed/holders/s;->p:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object v1, p0, Lcom/vk/newsfeed/holders/s;->p:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    invoke-virtual {v1}, Lcom/vk/imageloader/view/VKCircleImageView;->getId()I
+    invoke-virtual {v1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->getId()I
 
     move-result v1
 
@@ -693,7 +693,7 @@
     .locals 2
 
     .line 250
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/s;->p:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/s;->p:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     if-eqz p1, :cond_0
 
@@ -718,7 +718,7 @@
     const v1, 0x7f080735
 
     :goto_1
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKCircleImageView;->setPlaceholderImage(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->setPlaceholderImage(I)V
 
     if-eqz p1, :cond_2
 
@@ -733,7 +733,7 @@
     const/4 p1, 0x0
 
     :goto_2
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     return-void
 .end method

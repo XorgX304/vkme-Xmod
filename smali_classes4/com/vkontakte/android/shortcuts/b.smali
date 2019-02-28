@@ -136,7 +136,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/vk/im/engine/d;I)Lcom/vkontakte/android/shortcuts/a;
+.method public final a(Lcom/vk/messenger/engine/d;I)Lcom/vkontakte/android/shortcuts/a;
     .locals 8
 
     const-string v0, "imEngine"
@@ -144,9 +144,9 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 48
-    new-instance v0, Lcom/vk/im/engine/commands/dialogs/p;
+    new-instance v0, Lcom/vk/messenger/engine/commands/dialogs/p;
 
-    sget-object v3, Lcom/vk/im/engine/models/Source;->CACHE:Lcom/vk/im/engine/models/Source;
+    sget-object v3, Lcom/vk/messenger/engine/models/Source;->CACHE:Lcom/vk/messenger/engine/models/Source;
 
     const/4 v4, 0x0
 
@@ -160,39 +160,39 @@
 
     move v2, p2
 
-    invoke-direct/range {v1 .. v7}, Lcom/vk/im/engine/commands/dialogs/p;-><init>(ILcom/vk/im/engine/models/Source;ZLjava/lang/Object;ILkotlin/jvm/internal/h;)V
+    invoke-direct/range {v1 .. v7}, Lcom/vk/messenger/engine/commands/dialogs/p;-><init>(ILcom/vk/messenger/engine/models/Source;ZLjava/lang/Object;ILkotlin/jvm/internal/h;)V
 
     .line 49
-    new-instance v1, Lcom/vk/im/engine/commands/dialogs/s;
+    new-instance v1, Lcom/vk/messenger/engine/commands/dialogs/s;
 
-    invoke-direct {v1, v0}, Lcom/vk/im/engine/commands/dialogs/s;-><init>(Lcom/vk/im/engine/commands/dialogs/p;)V
+    invoke-direct {v1, v0}, Lcom/vk/messenger/engine/commands/dialogs/s;-><init>(Lcom/vk/messenger/engine/commands/dialogs/p;)V
 
     .line 50
-    check-cast v1, Lcom/vk/im/engine/commands/c;
+    check-cast v1, Lcom/vk/messenger/engine/commands/c;
 
-    invoke-virtual {p1, p0, v1}, Lcom/vk/im/engine/d;->a(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)Ljava/lang/Object;
+    invoke-virtual {p1, p0, v1}, Lcom/vk/messenger/engine/d;->a(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/im/engine/models/dialogs/f;
+    check-cast p1, Lcom/vk/messenger/engine/models/dialogs/f;
 
     .line 52
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/dialogs/f;->a()Lcom/vk/im/engine/models/b;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/dialogs/f;->a()Lcom/vk/messenger/engine/models/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p2}, Lcom/vk/im/engine/models/b;->h(I)Ljava/lang/Object;
+    invoke-virtual {v0, p2}, Lcom/vk/messenger/engine/models/b;->h(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/dialogs/Dialog;
+    check-cast v0, Lcom/vk/messenger/engine/models/dialogs/Dialog;
 
     .line 53
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/dialogs/f;->b()Lcom/vk/im/engine/models/ProfilesInfo;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/dialogs/f;->b()Lcom/vk/messenger/engine/models/ProfilesInfo;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/ProfilesInfo;->f()Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/ProfilesInfo;->f()Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     move-result-object p1
 
@@ -211,11 +211,11 @@
 
     .line 58
     :cond_0
-    new-instance v1, Lcom/vk/im/ui/formatters/g;
+    new-instance v1, Lcom/vk/messenger/ui/formatters/g;
 
-    invoke-direct {v1}, Lcom/vk/im/ui/formatters/g;-><init>()V
+    invoke-direct {v1}, Lcom/vk/messenger/ui/formatters/g;-><init>()V
 
-    invoke-virtual {v1, v0, p1}, Lcom/vk/im/ui/formatters/g;->a(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesSimpleInfo;)Ljava/lang/String;
+    invoke-virtual {v1, v0, p1}, Lcom/vk/messenger/ui/formatters/g;->a(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -225,15 +225,15 @@
     move-result v2
 
     .line 60
-    sget-object v3, Lcom/vk/im/ui/views/avatars/a;->a:Lcom/vk/im/ui/views/avatars/a;
+    sget-object v3, Lcom/vk/messenger/ui/views/avatars/a;->a:Lcom/vk/messenger/ui/views/avatars/a;
 
     new-instance v4, Lcom/vkontakte/android/shortcuts/ImShortcutHelper$createDialogWidgetArgs$icon$1;
 
-    invoke-direct {v4, v0, p1}, Lcom/vkontakte/android/shortcuts/ImShortcutHelper$createDialogWidgetArgs$icon$1;-><init>(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesSimpleInfo;)V
+    invoke-direct {v4, v0, p1}, Lcom/vkontakte/android/shortcuts/ImShortcutHelper$createDialogWidgetArgs$icon$1;-><init>(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)V
 
     check-cast v4, Lkotlin/jvm/a/b;
 
-    invoke-virtual {v3, v2, v4}, Lcom/vk/im/ui/views/avatars/a;->a(ILkotlin/jvm/a/b;)Landroid/graphics/Bitmap;
+    invoke-virtual {v3, v2, v4}, Lcom/vk/messenger/ui/views/avatars/a;->a(ILkotlin/jvm/a/b;)Landroid/graphics/Bitmap;
 
     move-result-object p1
 

@@ -108,7 +108,7 @@
     iput-object p1, p0, Lcom/vk/attachpicker/fragment/a$c;->n:Lcom/vk/attachpicker/base/c$c;
 
     .line 266
-    invoke-virtual {p0}, Lcom/vk/attachpicker/fragment/a$c;->B()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p0}, Lcom/vk/attachpicker/fragment/a$c;->B()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
@@ -118,7 +118,7 @@
 
     check-cast p2, Landroid/view/View$OnClickListener;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 267
     :cond_1

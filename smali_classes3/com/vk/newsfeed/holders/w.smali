@@ -26,7 +26,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final p:Lcom/vkontakte/android/ui/WriteBar;
 
@@ -95,9 +95,9 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v3, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v3, v0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v3, v0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 74
     iget-object v3, v0, Lcom/vk/newsfeed/holders/w;->a:Landroid/view/View;
@@ -318,9 +318,9 @@
     move-result v2
 
     .line 193
-    iget-object v3, v0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, v0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v3}, Lcom/vk/imageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v3}, Lcom/vk/messengerageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v3
 
@@ -1343,19 +1343,19 @@
 
     .line 353
     :cond_0
-    iget-object v2, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v2, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     const/high16 v3, 0x3f800000    # 1.0f
 
-    invoke-virtual {v2, v3}, Lcom/vk/imageloader/view/VKImageView;->setScaleX(F)V
+    invoke-virtual {v2, v3}, Lcom/vk/messengerageloader/view/VKImageView;->setScaleX(F)V
 
     .line 354
-    iget-object v2, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v2, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v2, v3}, Lcom/vk/imageloader/view/VKImageView;->setScaleY(F)V
+    invoke-virtual {v2, v3}, Lcom/vk/messengerageloader/view/VKImageView;->setScaleY(F)V
 
     .line 355
-    iget-object v2, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v2, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast v2, Landroid/view/View;
 
@@ -1886,11 +1886,11 @@
     return-void
 .end method
 
-.method public static final synthetic j(Lcom/vk/newsfeed/holders/w;)Lcom/vk/imageloader/view/VKImageView;
+.method public static final synthetic j(Lcom/vk/newsfeed/holders/w;)Lcom/vk/messengerageloader/view/VKImageView;
     .locals 0
 
     .line 56
-    iget-object p0, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p0, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-object p0
 .end method
@@ -1992,7 +1992,7 @@
     .locals 5
 
     .line 514
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast v0, Landroid/view/View;
 
@@ -2021,7 +2021,7 @@
     invoke-virtual {v1, v2}, Landroid/view/View;->setEnabled(Z)V
 
     .line 517
-    iget-object v1, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast v1, Landroid/view/View;
 
@@ -2217,21 +2217,21 @@
     if-nez v1, :cond_1
 
     .line 334
-    iget-object v1, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_1
 
     .line 336
     :cond_1
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 338
     :goto_1
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p1, Landroid/view/View;
 
@@ -2296,7 +2296,7 @@
     .locals 4
 
     .line 502
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast v0, Landroid/view/View;
 
@@ -2331,7 +2331,7 @@
     invoke-virtual {v1, v2}, Landroid/view/View;->setEnabled(Z)V
 
     .line 505
-    iget-object v1, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/newsfeed/holders/w;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast v1, Landroid/view/View;
 

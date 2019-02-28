@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
     <FrameLayout android:id="@id/fl_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="156.0dip" android:transformPivotX="0.0dip" android:transformPivotY="0.0dip">
         <com.vk.attachpicker.widget.TextureVideoView android:layout_gravity="center" android:id="@id/vv_video" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <com.vk.imageloader.view.VKImageView android:id="@id/iv_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" fresco:actualImageScaleType="fitCenter" />
+        <com.vk.messengerageloader.view.VKImageView android:id="@id/iv_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" fresco:actualImageScaleType="fitCenter" />
         <ImageView android:layout_gravity="center" android:id="@id/iv_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/picker_ic_gallery_video_play_56" />
         <View android:id="@id/click_handler" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     </FrameLayout>

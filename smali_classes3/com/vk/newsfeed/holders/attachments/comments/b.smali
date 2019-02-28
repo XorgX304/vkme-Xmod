@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKImageView;
 
 
 # direct methods
@@ -35,20 +35,20 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/comments/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/comments/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final A()Lcom/vk/imageloader/view/VKImageView;
+.method public final A()Lcom/vk/messengerageloader/view/VKImageView;
     .locals 1
 
     .line 13
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/comments/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/comments/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-object v0
 .end method

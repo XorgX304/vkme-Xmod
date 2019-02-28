@@ -132,7 +132,7 @@
 
     move-result-object p1
 
-    sget-object v0, Lcom/vk/im/ui/views/avatars/a;->a:Lcom/vk/im/ui/views/avatars/a;
+    sget-object v0, Lcom/vk/messenger/ui/views/avatars/a;->a:Lcom/vk/messenger/ui/views/avatars/a;
 
     const/16 v1, 0x2c
 
@@ -145,7 +145,7 @@
 
     invoke-direct {v2, p0, p2}, Lcom/vkontakte/android/s$2;-><init>(Lcom/vkontakte/android/s;Lcom/vkontakte/android/UserProfile;)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/vk/im/ui/views/avatars/a;->a(ILkotlin/jvm/a/b;)Landroid/graphics/Bitmap;
+    invoke-virtual {v0, v1, v2}, Lcom/vk/messenger/ui/views/avatars/a;->a(ILkotlin/jvm/a/b;)Landroid/graphics/Bitmap;
 
     move-result-object p2
 

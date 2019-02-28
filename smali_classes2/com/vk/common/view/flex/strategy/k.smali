@@ -7,9 +7,9 @@
 
 
 # instance fields
-.field private final a:Lcom/vk/im/ui/views/image_zhukov/b$b;
+.field private final a:Lcom/vk/messenger/ui/views/image_zhukov/b$b;
 
-.field private final b:Lcom/vk/im/ui/views/image_zhukov/b$c;
+.field private final b:Lcom/vk/messenger/ui/views/image_zhukov/b$c;
 
 .field private final c:Lcom/vk/common/view/flex/d;
 
@@ -24,18 +24,18 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 62
-    new-instance v0, Lcom/vk/im/ui/views/image_zhukov/b$b;
+    new-instance v0, Lcom/vk/messenger/ui/views/image_zhukov/b$b;
 
-    invoke-direct {v0}, Lcom/vk/im/ui/views/image_zhukov/b$b;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/ui/views/image_zhukov/b$b;-><init>()V
 
-    iput-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/im/ui/views/image_zhukov/b$b;
+    iput-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/messenger/ui/views/image_zhukov/b$b;
 
     .line 63
-    new-instance v0, Lcom/vk/im/ui/views/image_zhukov/b$c;
+    new-instance v0, Lcom/vk/messenger/ui/views/image_zhukov/b$c;
 
-    invoke-direct {v0}, Lcom/vk/im/ui/views/image_zhukov/b$c;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/ui/views/image_zhukov/b$c;-><init>()V
 
-    iput-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->b:Lcom/vk/im/ui/views/image_zhukov/b$c;
+    iput-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->b:Lcom/vk/messenger/ui/views/image_zhukov/b$c;
 
     .line 64
     new-instance v0, Ljava/util/ArrayList;
@@ -91,58 +91,58 @@
     iput-object p1, p0, Lcom/vk/common/view/flex/strategy/k;->d:Lcom/vk/common/view/flex/b;
 
     .line 88
-    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/im/ui/views/image_zhukov/b$b;
+    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/messenger/ui/views/image_zhukov/b$b;
 
     invoke-virtual {p1}, Lcom/vk/common/view/flex/b;->a()I
 
     move-result v1
 
-    iput v1, v0, Lcom/vk/im/ui/views/image_zhukov/b$b;->a:I
+    iput v1, v0, Lcom/vk/messenger/ui/views/image_zhukov/b$b;->a:I
 
     .line 89
-    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/im/ui/views/image_zhukov/b$b;
+    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/messenger/ui/views/image_zhukov/b$b;
 
     invoke-virtual {p1}, Lcom/vk/common/view/flex/b;->b()I
 
     move-result v1
 
-    iput v1, v0, Lcom/vk/im/ui/views/image_zhukov/b$b;->b:I
+    iput v1, v0, Lcom/vk/messenger/ui/views/image_zhukov/b$b;->b:I
 
     .line 90
-    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/im/ui/views/image_zhukov/b$b;
+    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/messenger/ui/views/image_zhukov/b$b;
 
     invoke-virtual {p1}, Lcom/vk/common/view/flex/b;->c()I
 
     move-result v1
 
-    iput v1, v0, Lcom/vk/im/ui/views/image_zhukov/b$b;->c:I
+    iput v1, v0, Lcom/vk/messenger/ui/views/image_zhukov/b$b;->c:I
 
     .line 91
-    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/im/ui/views/image_zhukov/b$b;
+    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/messenger/ui/views/image_zhukov/b$b;
 
     invoke-virtual {p1}, Lcom/vk/common/view/flex/b;->d()I
 
     move-result v1
 
-    iput v1, v0, Lcom/vk/im/ui/views/image_zhukov/b$b;->d:I
+    iput v1, v0, Lcom/vk/messenger/ui/views/image_zhukov/b$b;->d:I
 
     .line 92
-    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/im/ui/views/image_zhukov/b$b;
+    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/messenger/ui/views/image_zhukov/b$b;
 
     invoke-virtual {p1}, Lcom/vk/common/view/flex/b;->g()I
 
     move-result v1
 
-    iput v1, v0, Lcom/vk/im/ui/views/image_zhukov/b$b;->f:I
+    iput v1, v0, Lcom/vk/messenger/ui/views/image_zhukov/b$b;->f:I
 
     .line 93
-    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/im/ui/views/image_zhukov/b$b;
+    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/messenger/ui/views/image_zhukov/b$b;
 
     invoke-virtual {p1}, Lcom/vk/common/view/flex/b;->f()I
 
     move-result v1
 
-    iput v1, v0, Lcom/vk/im/ui/views/image_zhukov/b$b;->e:I
+    iput v1, v0, Lcom/vk/messenger/ui/views/image_zhukov/b$b;->e:I
 
     .line 94
     invoke-virtual {p0}, Lcom/vk/common/view/flex/strategy/k;->a()I
@@ -155,15 +155,15 @@
     if-ge v1, v0, :cond_0
 
     .line 95
-    iget-object v2, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/im/ui/views/image_zhukov/b$b;
+    iget-object v2, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/messenger/ui/views/image_zhukov/b$b;
 
-    iget-object v2, v2, Lcom/vk/im/ui/views/image_zhukov/b$b;->g:Ljava/util/List;
+    iget-object v2, v2, Lcom/vk/messenger/ui/views/image_zhukov/b$b;->g:Ljava/util/List;
 
     invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
 
-    check-cast v2, Lcom/vk/im/ui/views/image_zhukov/j;
+    check-cast v2, Lcom/vk/messenger/ui/views/image_zhukov/j;
 
     invoke-virtual {p1}, Lcom/vk/common/view/flex/b;->e()Ljava/util/List;
 
@@ -179,18 +179,18 @@
 
     move-result v3
 
-    iput v3, v2, Lcom/vk/im/ui/views/image_zhukov/j;->a:I
+    iput v3, v2, Lcom/vk/messenger/ui/views/image_zhukov/j;->a:I
 
     .line 96
-    iget-object v2, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/im/ui/views/image_zhukov/b$b;
+    iget-object v2, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/messenger/ui/views/image_zhukov/b$b;
 
-    iget-object v2, v2, Lcom/vk/im/ui/views/image_zhukov/b$b;->g:Ljava/util/List;
+    iget-object v2, v2, Lcom/vk/messenger/ui/views/image_zhukov/b$b;->g:Ljava/util/List;
 
     invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
 
-    check-cast v2, Lcom/vk/im/ui/views/image_zhukov/j;
+    check-cast v2, Lcom/vk/messenger/ui/views/image_zhukov/j;
 
     invoke-virtual {p1}, Lcom/vk/common/view/flex/b;->e()Ljava/util/List;
 
@@ -206,7 +206,7 @@
 
     move-result v3
 
-    iput v3, v2, Lcom/vk/im/ui/views/image_zhukov/j;->b:I
+    iput v3, v2, Lcom/vk/messenger/ui/views/image_zhukov/j;->b:I
 
     add-int/lit8 v1, v1, 0x1
 
@@ -229,15 +229,15 @@
     invoke-direct {p0, p1}, Lcom/vk/common/view/flex/strategy/k;->b(Lcom/vk/common/view/flex/b;)V
 
     .line 72
-    invoke-virtual {p0}, Lcom/vk/common/view/flex/strategy/k;->b()Lcom/vk/im/ui/views/image_zhukov/b;
+    invoke-virtual {p0}, Lcom/vk/common/view/flex/strategy/k;->b()Lcom/vk/messenger/ui/views/image_zhukov/b;
 
     move-result-object p1
 
-    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/im/ui/views/image_zhukov/b$b;
+    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/messenger/ui/views/image_zhukov/b$b;
 
-    iget-object v1, p0, Lcom/vk/common/view/flex/strategy/k;->b:Lcom/vk/im/ui/views/image_zhukov/b$c;
+    iget-object v1, p0, Lcom/vk/common/view/flex/strategy/k;->b:Lcom/vk/messenger/ui/views/image_zhukov/b$c;
 
-    invoke-interface {p1, v0, v1}, Lcom/vk/im/ui/views/image_zhukov/b;->a(Lcom/vk/im/ui/views/image_zhukov/b$b;Lcom/vk/im/ui/views/image_zhukov/b$c;)V
+    invoke-interface {p1, v0, v1}, Lcom/vk/messenger/ui/views/image_zhukov/b;->a(Lcom/vk/messenger/ui/views/image_zhukov/b$b;Lcom/vk/messenger/ui/views/image_zhukov/b$c;)V
 
     .line 73
     iget-object p1, p0, Lcom/vk/common/view/flex/strategy/k;->c:Lcom/vk/common/view/flex/d;
@@ -258,20 +258,20 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 101
-    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->b:Lcom/vk/im/ui/views/image_zhukov/b$c;
+    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->b:Lcom/vk/messenger/ui/views/image_zhukov/b$c;
 
-    iget-object v0, v0, Lcom/vk/im/ui/views/image_zhukov/b$c;->a:Lcom/vk/im/ui/views/image_zhukov/j;
+    iget-object v0, v0, Lcom/vk/messenger/ui/views/image_zhukov/b$c;->a:Lcom/vk/messenger/ui/views/image_zhukov/j;
 
-    iget v0, v0, Lcom/vk/im/ui/views/image_zhukov/j;->a:I
+    iget v0, v0, Lcom/vk/messenger/ui/views/image_zhukov/j;->a:I
 
     invoke-virtual {p1, v0}, Lcom/vk/common/view/flex/d;->a(I)V
 
     .line 102
-    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->b:Lcom/vk/im/ui/views/image_zhukov/b$c;
+    iget-object v0, p0, Lcom/vk/common/view/flex/strategy/k;->b:Lcom/vk/messenger/ui/views/image_zhukov/b$c;
 
-    iget-object v0, v0, Lcom/vk/im/ui/views/image_zhukov/b$c;->a:Lcom/vk/im/ui/views/image_zhukov/j;
+    iget-object v0, v0, Lcom/vk/messenger/ui/views/image_zhukov/b$c;->a:Lcom/vk/messenger/ui/views/image_zhukov/j;
 
-    iget v0, v0, Lcom/vk/im/ui/views/image_zhukov/j;->b:I
+    iget v0, v0, Lcom/vk/messenger/ui/views/image_zhukov/j;->b:I
 
     invoke-virtual {p1, v0}, Lcom/vk/common/view/flex/d;->b(I)V
 
@@ -296,9 +296,9 @@
 
     check-cast v2, Lcom/vk/common/view/flex/g;
 
-    iget-object v3, p0, Lcom/vk/common/view/flex/strategy/k;->b:Lcom/vk/im/ui/views/image_zhukov/b$c;
+    iget-object v3, p0, Lcom/vk/common/view/flex/strategy/k;->b:Lcom/vk/messenger/ui/views/image_zhukov/b$c;
 
-    iget-object v3, v3, Lcom/vk/im/ui/views/image_zhukov/b$c;->b:Ljava/util/List;
+    iget-object v3, v3, Lcom/vk/messenger/ui/views/image_zhukov/b$c;->b:Ljava/util/List;
 
     invoke-interface {v3, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -321,9 +321,9 @@
 
     check-cast v2, Lcom/vk/common/view/flex/g;
 
-    iget-object v3, p0, Lcom/vk/common/view/flex/strategy/k;->b:Lcom/vk/im/ui/views/image_zhukov/b$c;
+    iget-object v3, p0, Lcom/vk/common/view/flex/strategy/k;->b:Lcom/vk/messenger/ui/views/image_zhukov/b$c;
 
-    iget-object v3, v3, Lcom/vk/im/ui/views/image_zhukov/b$c;->b:Ljava/util/List;
+    iget-object v3, v3, Lcom/vk/messenger/ui/views/image_zhukov/b$c;->b:Ljava/util/List;
 
     invoke-interface {v3, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -346,9 +346,9 @@
 
     check-cast v2, Lcom/vk/common/view/flex/g;
 
-    iget-object v3, p0, Lcom/vk/common/view/flex/strategy/k;->b:Lcom/vk/im/ui/views/image_zhukov/b$c;
+    iget-object v3, p0, Lcom/vk/common/view/flex/strategy/k;->b:Lcom/vk/messenger/ui/views/image_zhukov/b$c;
 
-    iget-object v3, v3, Lcom/vk/im/ui/views/image_zhukov/b$c;->b:Ljava/util/List;
+    iget-object v3, v3, Lcom/vk/messenger/ui/views/image_zhukov/b$c;->b:Ljava/util/List;
 
     invoke-interface {v3, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -371,9 +371,9 @@
 
     check-cast v2, Lcom/vk/common/view/flex/g;
 
-    iget-object v3, p0, Lcom/vk/common/view/flex/strategy/k;->b:Lcom/vk/im/ui/views/image_zhukov/b$c;
+    iget-object v3, p0, Lcom/vk/common/view/flex/strategy/k;->b:Lcom/vk/messenger/ui/views/image_zhukov/b$c;
 
-    iget-object v3, v3, Lcom/vk/im/ui/views/image_zhukov/b$c;->b:Ljava/util/List;
+    iget-object v3, v3, Lcom/vk/messenger/ui/views/image_zhukov/b$c;->b:Ljava/util/List;
 
     invoke-interface {v3, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -393,7 +393,7 @@
     return-void
 .end method
 
-.method protected abstract b()Lcom/vk/im/ui/views/image_zhukov/b;
+.method protected abstract b()Lcom/vk/messenger/ui/views/image_zhukov/b;
 .end method
 
 .method protected final c()Lcom/vk/common/view/flex/b;
@@ -428,20 +428,20 @@
     if-ge v1, v0, :cond_0
 
     .line 80
-    iget-object v2, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/im/ui/views/image_zhukov/b$b;
+    iget-object v2, p0, Lcom/vk/common/view/flex/strategy/k;->a:Lcom/vk/messenger/ui/views/image_zhukov/b$b;
 
-    iget-object v2, v2, Lcom/vk/im/ui/views/image_zhukov/b$b;->g:Ljava/util/List;
+    iget-object v2, v2, Lcom/vk/messenger/ui/views/image_zhukov/b$b;->g:Ljava/util/List;
 
-    new-instance v3, Lcom/vk/im/ui/views/image_zhukov/j;
+    new-instance v3, Lcom/vk/messenger/ui/views/image_zhukov/j;
 
-    invoke-direct {v3}, Lcom/vk/im/ui/views/image_zhukov/j;-><init>()V
+    invoke-direct {v3}, Lcom/vk/messenger/ui/views/image_zhukov/j;-><init>()V
 
     invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 81
-    iget-object v2, p0, Lcom/vk/common/view/flex/strategy/k;->b:Lcom/vk/im/ui/views/image_zhukov/b$c;
+    iget-object v2, p0, Lcom/vk/common/view/flex/strategy/k;->b:Lcom/vk/messenger/ui/views/image_zhukov/b$c;
 
-    iget-object v2, v2, Lcom/vk/im/ui/views/image_zhukov/b$c;->b:Ljava/util/List;
+    iget-object v2, v2, Lcom/vk/messenger/ui/views/image_zhukov/b$c;->b:Ljava/util/List;
 
     new-instance v3, Landroid/graphics/Rect;
 

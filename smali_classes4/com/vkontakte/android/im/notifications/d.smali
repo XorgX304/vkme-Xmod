@@ -19,18 +19,18 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 35
-    sget-object v0, Lcom/vk/im/engine/concurrent/a;->b:Lcom/vk/im/engine/concurrent/a;
+    sget-object v0, Lcom/vk/messenger/engine/concurrent/a;->b:Lcom/vk/messenger/engine/concurrent/a;
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/concurrent/a;->b()Ljava/util/concurrent/ExecutorService;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/concurrent/a;->b()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/vkontakte/android/im/notifications/d;->a:Ljava/util/concurrent/ExecutorService;
 
     .line 36
-    sget-object v0, Lcom/vk/im/engine/concurrent/a;->b:Lcom/vk/im/engine/concurrent/a;
+    sget-object v0, Lcom/vk/messenger/engine/concurrent/a;->b:Lcom/vk/messenger/engine/concurrent/a;
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/concurrent/a;->a()Ljava/util/concurrent/ScheduledExecutorService;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/concurrent/a;->a()Ljava/util/concurrent/ScheduledExecutorService;
 
     move-result-object v0
 
@@ -142,11 +142,11 @@
     return-object v13
 .end method
 
-.method public static final synthetic a(Lcom/vkontakte/android/im/notifications/d;Landroid/content/Context;Lcom/vk/im/engine/d;II)Lcom/vkontakte/android/im/notifications/h;
+.method public static final synthetic a(Lcom/vkontakte/android/im/notifications/d;Landroid/content/Context;Lcom/vk/messenger/engine/d;II)Lcom/vkontakte/android/im/notifications/h;
     .locals 0
 
     .line 33
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/vkontakte/android/im/notifications/d;->c(Landroid/content/Context;Lcom/vk/im/engine/d;II)Lcom/vkontakte/android/im/notifications/h;
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/vkontakte/android/im/notifications/d;->c(Landroid/content/Context;Lcom/vk/messenger/engine/d;II)Lcom/vkontakte/android/im/notifications/h;
 
     move-result-object p0
 
@@ -336,11 +336,11 @@
     .locals 1
 
     .line 184
-    sget-object v0, Lcom/vk/im/ui/fragments/ChatFragment;->ae:Lcom/vk/im/ui/fragments/ChatFragment;
+    sget-object v0, Lcom/vk/messenger/ui/fragments/ChatFragment;->ae:Lcom/vk/messenger/ui/fragments/ChatFragment;
 
     if-eqz v0, :cond_0
 
-    sget v0, Lcom/vk/im/ui/fragments/ChatFragment;->af:I
+    sget v0, Lcom/vk/messenger/ui/fragments/ChatFragment;->af:I
 
     if-ne v0, p1, :cond_0
 
@@ -388,7 +388,7 @@
     return p1
 .end method
 
-.method private final a(Lcom/vk/im/engine/models/dialogs/Dialog;)Z
+.method private final a(Lcom/vk/messenger/engine/models/dialogs/Dialog;)Z
     .locals 2
 
     .line 201
@@ -399,7 +399,7 @@
     if-eqz p1, :cond_0
 
     .line 202
-    invoke-virtual {p1, v0, v1}, Lcom/vk/im/engine/models/dialogs/Dialog;->a(J)Z
+    invoke-virtual {p1, v0, v1}, Lcom/vk/messenger/engine/models/dialogs/Dialog;->a(J)Z
 
     move-result p1
 
@@ -412,11 +412,11 @@
     return p1
 .end method
 
-.method public static final synthetic b(Lcom/vkontakte/android/im/notifications/d;Landroid/content/Context;Lcom/vk/im/engine/d;II)Lcom/vkontakte/android/im/notifications/h;
+.method public static final synthetic b(Lcom/vkontakte/android/im/notifications/d;Landroid/content/Context;Lcom/vk/messenger/engine/d;II)Lcom/vkontakte/android/im/notifications/h;
     .locals 0
 
     .line 33
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/vkontakte/android/im/notifications/d;->d(Landroid/content/Context;Lcom/vk/im/engine/d;II)Lcom/vkontakte/android/im/notifications/h;
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/vkontakte/android/im/notifications/d;->d(Landroid/content/Context;Lcom/vk/messenger/engine/d;II)Lcom/vkontakte/android/im/notifications/h;
 
     move-result-object p0
 
@@ -574,7 +574,7 @@
     return v0
 .end method
 
-.method private final c(Landroid/content/Context;Lcom/vk/im/engine/d;II)Lcom/vkontakte/android/im/notifications/h;
+.method private final c(Landroid/content/Context;Lcom/vk/messenger/engine/d;II)Lcom/vkontakte/android/im/notifications/h;
     .locals 4
 
     .line 143
@@ -611,11 +611,11 @@
 
     const-string v2, "msg"
 
-    invoke-virtual {p2}, Lcom/vk/im/engine/d;->b()Lcom/vk/im/engine/models/Member;
+    invoke-virtual {p2}, Lcom/vk/messenger/engine/d;->b()Lcom/vk/messenger/engine/models/Member;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/vk/im/engine/models/Member;->b()I
+    invoke-virtual {v3}, Lcom/vk/messenger/engine/models/Member;->b()I
 
     move-result v3
 
@@ -631,7 +631,7 @@
     :cond_2
     sget-object v0, Lcom/vkontakte/android/im/notifications/c;->a:Lcom/vkontakte/android/im/notifications/c;
 
-    invoke-virtual {v0, p2, p3, p4}, Lcom/vkontakte/android/im/notifications/c;->a(Lcom/vk/im/engine/d;II)Lcom/vkontakte/android/im/notifications/b;
+    invoke-virtual {v0, p2, p3, p4}, Lcom/vkontakte/android/im/notifications/c;->a(Lcom/vk/messenger/engine/d;II)Lcom/vkontakte/android/im/notifications/b;
 
     move-result-object p2
 
@@ -641,17 +641,17 @@
 
     .line 161
     :cond_3
-    invoke-virtual {p2}, Lcom/vkontakte/android/im/notifications/b;->a()Lcom/vk/im/engine/models/dialogs/Dialog;
+    invoke-virtual {p2}, Lcom/vkontakte/android/im/notifications/b;->a()Lcom/vk/messenger/engine/models/dialogs/Dialog;
 
     move-result-object p3
 
     .line 162
-    invoke-virtual {p2}, Lcom/vkontakte/android/im/notifications/b;->b()Lcom/vk/im/engine/models/messages/Msg;
+    invoke-virtual {p2}, Lcom/vkontakte/android/im/notifications/b;->b()Lcom/vk/messenger/engine/models/messages/Msg;
 
     move-result-object p4
 
     .line 164
-    invoke-direct {p0, p3}, Lcom/vkontakte/android/im/notifications/d;->a(Lcom/vk/im/engine/models/dialogs/Dialog;)Z
+    invoke-direct {p0, p3}, Lcom/vkontakte/android/im/notifications/d;->a(Lcom/vk/messenger/engine/models/dialogs/Dialog;)Z
 
     move-result v0
 
@@ -661,7 +661,7 @@
 
     .line 165
     :cond_4
-    invoke-virtual {p4}, Lcom/vk/im/engine/models/messages/Msg;->p()Z
+    invoke-virtual {p4}, Lcom/vk/messenger/engine/models/messages/Msg;->p()Z
 
     move-result v0
 
@@ -671,7 +671,7 @@
 
     .line 166
     :cond_5
-    invoke-virtual {p4, p3}, Lcom/vk/im/engine/models/messages/Msg;->a(Lcom/vk/im/engine/models/dialogs/Dialog;)Z
+    invoke-virtual {p4, p3}, Lcom/vk/messenger/engine/models/messages/Msg;->a(Lcom/vk/messenger/engine/models/dialogs/Dialog;)Z
 
     move-result p3
 
@@ -681,13 +681,13 @@
 
     .line 167
     :cond_6
-    instance-of p3, p4, Lcom/vk/im/engine/models/messages/MsgFromUser;
+    instance-of p3, p4, Lcom/vk/messenger/engine/models/messages/MsgFromUser;
 
     if-eqz p3, :cond_7
 
-    check-cast p4, Lcom/vk/im/engine/models/messages/MsgFromUser;
+    check-cast p4, Lcom/vk/messenger/engine/models/messages/MsgFromUser;
 
-    invoke-virtual {p4}, Lcom/vk/im/engine/models/messages/MsgFromUser;->W()Z
+    invoke-virtual {p4}, Lcom/vk/messenger/engine/models/messages/MsgFromUser;->W()Z
 
     move-result p3
 
@@ -711,7 +711,7 @@
     return-object v1
 .end method
 
-.method private final d(Landroid/content/Context;Lcom/vk/im/engine/d;II)Lcom/vkontakte/android/im/notifications/h;
+.method private final d(Landroid/content/Context;Lcom/vk/messenger/engine/d;II)Lcom/vkontakte/android/im/notifications/h;
     .locals 2
 
     .line 173
@@ -729,7 +729,7 @@
     :cond_0
     sget-object v0, Lcom/vkontakte/android/im/notifications/c;->a:Lcom/vkontakte/android/im/notifications/c;
 
-    invoke-virtual {v0, p2, p3, p4}, Lcom/vkontakte/android/im/notifications/c;->a(Lcom/vk/im/engine/d;II)Lcom/vkontakte/android/im/notifications/b;
+    invoke-virtual {v0, p2, p3, p4}, Lcom/vkontakte/android/im/notifications/c;->a(Lcom/vk/messenger/engine/d;II)Lcom/vkontakte/android/im/notifications/b;
 
     move-result-object p2
 
@@ -778,7 +778,7 @@
     throw v0
 .end method
 
-.method public final declared-synchronized a(Landroid/content/Context;Lcom/vk/im/engine/d;II)V
+.method public final declared-synchronized a(Landroid/content/Context;Lcom/vk/messenger/engine/d;II)V
     .locals 8
 
     monitor-enter p0
@@ -822,7 +822,7 @@
 
     move v6, p4
 
-    invoke-direct/range {v1 .. v6}, Lcom/vkontakte/android/im/notifications/d$a;-><init>(Lcom/vkontakte/android/im/notifications/d;Landroid/content/Context;Lcom/vk/im/engine/d;II)V
+    invoke-direct/range {v1 .. v6}, Lcom/vkontakte/android/im/notifications/d$a;-><init>(Lcom/vkontakte/android/im/notifications/d;Landroid/content/Context;Lcom/vk/messenger/engine/d;II)V
 
     check-cast v7, Ljava/lang/Runnable;
 
@@ -844,7 +844,7 @@
     throw p1
 .end method
 
-.method public final b(Landroid/content/Context;Lcom/vk/im/engine/d;II)V
+.method public final b(Landroid/content/Context;Lcom/vk/messenger/engine/d;II)V
     .locals 8
 
     const-string v0, "context"
@@ -880,7 +880,7 @@
 
     move v6, p4
 
-    invoke-direct/range {v1 .. v6}, Lcom/vkontakte/android/im/notifications/d$b;-><init>(Lcom/vkontakte/android/im/notifications/d;Landroid/content/Context;Lcom/vk/im/engine/d;II)V
+    invoke-direct/range {v1 .. v6}, Lcom/vkontakte/android/im/notifications/d$b;-><init>(Lcom/vkontakte/android/im/notifications/d;Landroid/content/Context;Lcom/vk/messenger/engine/d;II)V
 
     check-cast v7, Ljava/lang/Runnable;
 

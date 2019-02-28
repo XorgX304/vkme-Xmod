@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private final A:Lcom/vk/imageloader/view/VKImageView;
+.field private final A:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final B:Landroid/widget/ImageView;
 
@@ -42,7 +42,7 @@
 
 .field private S:Landroid/view/ViewGroup;
 
-.field private T:Lcom/vk/imageloader/view/VKImageView;
+.field private T:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private U:Landroid/widget/ImageView;
 
@@ -228,7 +228,7 @@
 
 .field private final y:Landroid/widget/TextView;
 
-.field private final z:Lcom/vk/imageloader/view/VKImageView;
+.field private final z:Lcom/vk/messengerageloader/view/VKImageView;
 
 
 # direct methods
@@ -628,9 +628,9 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v0, p0, Lcom/vk/voip/m;->z:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vk/voip/m;->z:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f0a051d
 
@@ -643,14 +643,14 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v0, p0, Lcom/vk/voip/m;->A:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vk/voip/m;->A:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 230
-    iget-object v0, p0, Lcom/vk/voip/m;->A:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/voip/m;->A:Lcom/vk/messengerageloader/view/VKImageView;
 
-    new-instance v1, Lcom/vk/imageloader/a/c;
+    new-instance v1, Lcom/vk/messengerageloader/a/c;
 
     const/16 v2, 0xa
 
@@ -660,11 +660,11 @@
 
     iget v3, p0, Lcom/vk/voip/m;->j:I
 
-    invoke-direct {v1, v2, v3}, Lcom/vk/imageloader/a/c;-><init>(II)V
+    invoke-direct {v1, v2, v3}, Lcom/vk/messengerageloader/a/c;-><init>(II)V
 
     check-cast v1, Lcom/facebook/imagepipeline/request/a;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
 
     const v0, 0x7f0a01a0
 
@@ -1044,9 +1044,9 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/voip/m;->T:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/voip/m;->T:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x7f0a03aa
 
@@ -4631,12 +4631,12 @@
     if-eqz v0, :cond_13
 
     .line 625
-    iget-object v0, p0, Lcom/vk/voip/m;->z:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/voip/m;->z:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, v9}, Lcom/vk/imageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {v0, v9}, Lcom/vk/messengerageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
 
     .line 626
-    iget-object v0, p0, Lcom/vk/voip/m;->z:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/voip/m;->z:Lcom/vk/messengerageloader/view/VKImageView;
 
     sget-object v1, Lcom/vk/voip/VoipViewModel;->a:Lcom/vk/voip/VoipViewModel;
 
@@ -4644,10 +4644,10 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 627
-    iget-object v0, p0, Lcom/vk/voip/m;->A:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/voip/m;->A:Lcom/vk/messengerageloader/view/VKImageView;
 
     sget-object v1, Lcom/vk/voip/VoipViewModel;->a:Lcom/vk/voip/VoipViewModel;
 
@@ -4655,10 +4655,10 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 628
-    iget-object v0, p0, Lcom/vk/voip/m;->T:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/voip/m;->T:Lcom/vk/messengerageloader/view/VKImageView;
 
     sget-object v1, Lcom/vk/voip/VoipViewModel;->a:Lcom/vk/voip/VoipViewModel;
 
@@ -4666,7 +4666,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 629
     sget-object v0, Lcom/vk/voip/VoipViewModel;->a:Lcom/vk/voip/VoipViewModel;
@@ -4708,7 +4708,7 @@
     if-eqz v1, :cond_14
 
     .line 636
-    iget-object v2, p0, Lcom/vk/voip/m;->z:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v2, p0, Lcom/vk/voip/m;->z:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance v3, Lcom/vk/voip/a;
 
@@ -4720,10 +4720,10 @@
 
     check-cast v3, Lcom/facebook/imagepipeline/request/a;
 
-    invoke-virtual {v2, v9, v3}, Lcom/vk/imageloader/view/VKImageView;->a(Lcom/facebook/imagepipeline/request/a;Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {v2, v9, v3}, Lcom/vk/messengerageloader/view/VKImageView;->a(Lcom/facebook/imagepipeline/request/a;Lcom/facebook/imagepipeline/request/a;)V
 
     .line 637
-    iget-object v1, p0, Lcom/vk/voip/m;->z:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/voip/m;->z:Lcom/vk/messengerageloader/view/VKImageView;
 
     sget-object v2, Lcom/vk/voip/VoipViewModel;->a:Lcom/vk/voip/VoipViewModel;
 
@@ -4735,15 +4735,15 @@
 
     move-result-object v2
 
-    sget-object v3, Lcom/vk/imageloader/ImageSize;->SIZE_160DP:Lcom/vk/imageloader/ImageSize;
+    sget-object v3, Lcom/vk/messengerageloader/ImageSize;->SIZE_160DP:Lcom/vk/messengerageloader/ImageSize;
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v4
 
-    sget-object v5, Lcom/vk/imageloader/ImageSize;->BIG:Lcom/vk/imageloader/ImageSize;
+    sget-object v5, Lcom/vk/messengerageloader/ImageSize;->BIG:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v1, v2, v3, v4, v5}, Lcom/vk/imageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {v1, v2, v3, v4, v5}, Lcom/vk/messengerageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;)V
 
     .line 638
     iput-object v0, p0, Lcom/vk/voip/m;->K:Ljava/lang/String;

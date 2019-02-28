@@ -3,7 +3,7 @@
 .source "VkSharingBridge.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/a/o;
+.implements Lcom/vk/messenger/ui/a/o;
 
 
 # static fields
@@ -52,7 +52,7 @@
     return-object v0
 .end method
 
-.method public a(Landroid/content/Context;Lcom/vk/im/engine/models/attaches/Attach;)V
+.method public a(Landroid/content/Context;Lcom/vk/messenger/engine/models/attaches/Attach;)V
     .locals 1
 
     const-string v0, "context"
@@ -66,7 +66,7 @@
     .line 12
     sget-object v0, Lcom/vkontakte/android/im/b;->a:Lcom/vkontakte/android/im/b;
 
-    invoke-virtual {v0, p2}, Lcom/vkontakte/android/im/b;->a(Lcom/vk/im/engine/models/attaches/Attach;)Lcom/vk/dto/common/Attachment;
+    invoke-virtual {v0, p2}, Lcom/vkontakte/android/im/b;->a(Lcom/vk/messenger/engine/models/attaches/Attach;)Lcom/vk/dto/common/Attachment;
 
     move-result-object p2
 
@@ -113,7 +113,7 @@
     invoke-static {p2, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
-    invoke-static {p0, p1, p2}, Lcom/vk/im/ui/a/o$a;->a(Lcom/vk/im/ui/a/o;Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {p0, p1, p2}, Lcom/vk/messenger/ui/a/o$a;->a(Lcom/vk/messenger/ui/a/o;Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
 .end method

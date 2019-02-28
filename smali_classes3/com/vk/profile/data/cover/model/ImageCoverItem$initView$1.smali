@@ -66,11 +66,11 @@
     .line 92
     iget-object v0, p0, Lcom/vk/profile/data/cover/model/ImageCoverItem$initView$1;->$view:Lcom/vk/profile/ui/cover/c;
 
-    invoke-virtual {v0}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {v0}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 93
     iget-object v0, p0, Lcom/vk/profile/data/cover/model/ImageCoverItem$initView$1;->this$0:Lcom/vk/profile/data/cover/model/c;

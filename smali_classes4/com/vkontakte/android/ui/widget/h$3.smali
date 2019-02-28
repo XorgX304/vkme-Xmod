@@ -41,11 +41,11 @@
     .line 69
     iget-object v0, p0, Lcom/vkontakte/android/ui/widget/h$3;->a:Lcom/vkontakte/android/ui/widget/h;
 
-    invoke-static {v0}, Lcom/vkontakte/android/ui/widget/h;->b(Lcom/vkontakte/android/ui/widget/h;)Lcom/vk/imageloader/view/VKImageView;
+    invoke-static {v0}, Lcom/vkontakte/android/ui/widget/h;->b(Lcom/vkontakte/android/ui/widget/h;)Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getWidth()I
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getWidth()I
 
     move-result v0
 

@@ -28,7 +28,7 @@
 
 
 # instance fields
-.field private final o:Lcom/vk/imageloader/view/VKSnippetImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
 .field private final p:Landroid/widget/TextView;
 
@@ -85,9 +85,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKSnippetImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ak;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ak;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     .line 21
     iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ak;->a:Landroid/view/View;
@@ -173,23 +173,23 @@
     iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ak;->t:Landroid/view/View;
 
     .line 28
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ak;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ak;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     const/4 v0, 0x0
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKSnippetImageView;->setDrawBorder(Z)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->setDrawBorder(Z)V
 
     .line 29
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ak;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ak;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     const/4 v1, 0x1
 
-    invoke-virtual {p1, v1}, Lcom/vk/imageloader/view/VKSnippetImageView;->setType(I)V
+    invoke-virtual {p1, v1}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->setType(I)V
 
     .line 34
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ak;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ak;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKSnippetImageView;->setBackgroundResource(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->setBackgroundResource(I)V
 
     .line 36
     iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ak;->r:Landroid/widget/TextView;
@@ -365,9 +365,9 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 42
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/ak;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/ak;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKSnippetImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
@@ -383,13 +383,13 @@
     if-eqz v0, :cond_0
 
     .line 45
-    iget-object v1, p0, Lcom/vk/newsfeed/holders/attachments/ak;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object v1, p0, Lcom/vk/newsfeed/holders/attachments/ak;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     invoke-virtual {v0}, Lcom/vk/dto/common/ImageSize;->a()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKSnippetImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->a(Ljava/lang/String;)V
 
     .line 48
     :cond_0

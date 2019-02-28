@@ -24,9 +24,9 @@
     invoke-direct {p0, v0}, Lcom/vk/navigation/v;-><init>(Ljava/lang/Class;)V
 
     .line 144
-    sget-object v0, Lcom/vk/im/ui/themes/a;->b:Lcom/vk/im/ui/themes/a;
+    sget-object v0, Lcom/vk/messenger/ui/themes/a;->b:Lcom/vk/messenger/ui/themes/a;
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/themes/a;->c()I
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/themes/a;->c()I
 
     move-result v0
 

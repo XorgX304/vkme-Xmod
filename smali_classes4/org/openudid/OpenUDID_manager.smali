@@ -25,7 +25,7 @@
 
 .field public static final TAG:Ljava/lang/String; = "OpenUDID"
 
-.field private static mInitialized:Z = false
+.field private static mInitialized:Z
 
 
 # instance fields

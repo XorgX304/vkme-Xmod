@@ -301,7 +301,7 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/vk/imageloader/i;->e(Ljava/lang/String;)V
+    invoke-static {p0}, Lcom/vk/messengerageloader/i;->e(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -406,7 +406,7 @@
     check-cast v1, Ljava/lang/String;
 
     .line 316
-    invoke-static {v1}, Lcom/vk/imageloader/i;->b(Ljava/lang/String;)Z
+    invoke-static {v1}, Lcom/vk/messengerageloader/i;->b(Ljava/lang/String;)Z
 
     move-result v1
 

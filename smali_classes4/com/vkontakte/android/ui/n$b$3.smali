@@ -3,7 +3,7 @@
 .source "PhotoView.java"
 
 # interfaces
-.implements Lcom/vk/imageloader/j;
+.implements Lcom/vk/messengerageloader/j;
 
 
 # annotations

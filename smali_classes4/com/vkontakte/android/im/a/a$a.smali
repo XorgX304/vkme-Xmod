@@ -46,13 +46,13 @@
     .line 17
     iget-object v0, p0, Lcom/vkontakte/android/im/a/a$a;->a:Lcom/vkontakte/android/im/a/a;
 
-    invoke-virtual {v0}, Lcom/vkontakte/android/im/a/a;->a()Lcom/vk/im/engine/internal/a/a$a;
+    invoke-virtual {v0}, Lcom/vkontakte/android/im/a/a;->a()Lcom/vk/messenger/engine/internal/a/a$a;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0, p1}, Lcom/vk/im/engine/internal/a/a$a;->a(I)Ljava/lang/String;
+    invoke-interface {v0, p1}, Lcom/vk/messenger/engine/internal/a/a$a;->a(I)Ljava/lang/String;
 
     move-result-object p1
 

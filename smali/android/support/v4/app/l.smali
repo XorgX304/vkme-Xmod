@@ -31,7 +31,7 @@
 
 .field static final I:Landroid/view/animation/Interpolator;
 
-.field static a:Z = false
+.field static a:Z
 
 .field static q:Ljava/lang/reflect/Field;
 

@@ -154,9 +154,9 @@
     .line 87
     iget-object p1, p0, Lcom/vkontakte/android/ui/holder/video/c;->t:Lcom/vk/newsfeed/FrescoImageView;
 
-    sget-object v0, Lcom/vk/im/ui/views/ScaleType;->CENTER_CROP:Lcom/vk/im/ui/views/ScaleType;
+    sget-object v0, Lcom/vk/messenger/ui/views/ScaleType;->CENTER_CROP:Lcom/vk/messenger/ui/views/ScaleType;
 
-    invoke-virtual {p1, v0}, Lcom/vk/newsfeed/FrescoImageView;->setScaleType(Lcom/vk/im/ui/views/ScaleType;)V
+    invoke-virtual {p1, v0}, Lcom/vk/newsfeed/FrescoImageView;->setScaleType(Lcom/vk/messenger/ui/views/ScaleType;)V
 
     .line 88
     iget-object p1, p0, Lcom/vkontakte/android/ui/holder/video/c;->t:Lcom/vk/newsfeed/FrescoImageView;
@@ -938,15 +938,15 @@
 
     if-eqz v6, :cond_9
 
-    sget-object v0, Lcom/vk/im/ui/views/ScaleType;->FIT_CENTER:Lcom/vk/im/ui/views/ScaleType;
+    sget-object v0, Lcom/vk/messenger/ui/views/ScaleType;->FIT_CENTER:Lcom/vk/messenger/ui/views/ScaleType;
 
     goto :goto_8
 
     :cond_9
-    sget-object v0, Lcom/vk/im/ui/views/ScaleType;->CENTER_CROP:Lcom/vk/im/ui/views/ScaleType;
+    sget-object v0, Lcom/vk/messenger/ui/views/ScaleType;->CENTER_CROP:Lcom/vk/messenger/ui/views/ScaleType;
 
     :goto_8
-    invoke-virtual {p1, v0}, Lcom/vk/newsfeed/FrescoImageView;->setScaleType(Lcom/vk/im/ui/views/ScaleType;)V
+    invoke-virtual {p1, v0}, Lcom/vk/newsfeed/FrescoImageView;->setScaleType(Lcom/vk/messenger/ui/views/ScaleType;)V
 
     .line 187
     iget-object p1, p0, Lcom/vkontakte/android/ui/holder/video/c;->v:Lcom/vkontakte/android/ui/widget/RatioFrameLayout;

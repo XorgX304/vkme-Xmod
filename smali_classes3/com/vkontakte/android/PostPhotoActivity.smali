@@ -438,24 +438,24 @@
     move-result p1
 
     .line 136
-    invoke-static {}, Lcom/vk/im/ui/fragments/ChatFragment;->as()Lcom/vk/im/ui/fragments/a;
+    invoke-static {}, Lcom/vk/messenger/ui/fragments/ChatFragment;->as()Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p2
 
     .line 137
-    invoke-virtual {p2, p1}, Lcom/vk/im/ui/fragments/a;->a(I)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p2, p1}, Lcom/vk/messenger/ui/fragments/a;->a(I)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
     iget-object p2, p0, Lcom/vkontakte/android/PostPhotoActivity;->e:Ljava/util/ArrayList;
 
     .line 138
-    invoke-virtual {p1, p2}, Lcom/vk/im/ui/fragments/a;->a(Ljava/util/ArrayList;)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p1, p2}, Lcom/vk/messenger/ui/fragments/a;->a(Ljava/util/ArrayList;)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
     .line 139
-    invoke-virtual {p1, p0}, Lcom/vk/im/ui/fragments/a;->c(Landroid/content/Context;)V
+    invoke-virtual {p1, p0}, Lcom/vk/messenger/ui/fragments/a;->c(Landroid/content/Context;)V
 
     .line 140
     invoke-virtual {p0}, Lcom/vkontakte/android/PostPhotoActivity;->finish()V

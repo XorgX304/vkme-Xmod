@@ -504,16 +504,16 @@
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setSelected(Z)V
 
     .line 125
-    new-instance v0, Lcom/vk/imageloader/view/VKImageView;
+    new-instance v0, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p0}, Lcom/vk/attachpicker/stickers/g;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
-    invoke-direct {v0, v2}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
     .line 126
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
 
     move-result-object v2
 
@@ -530,7 +530,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 129
     new-instance p1, Landroid/widget/FrameLayout$LayoutParams;

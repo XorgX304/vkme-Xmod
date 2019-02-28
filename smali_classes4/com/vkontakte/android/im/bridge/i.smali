@@ -3,7 +3,7 @@
 .source "VkDirtyHacksBridge.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/a/f;
+.implements Lcom/vk/messenger/ui/a/f;
 
 
 # static fields
@@ -60,9 +60,9 @@
     invoke-virtual {v0, p1, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     .line 55
-    sget-object p1, Lcom/vk/im/ui/a/f;->b:Lcom/vk/im/ui/a/f$a;
+    sget-object p1, Lcom/vk/messenger/ui/a/f;->b:Lcom/vk/messenger/ui/a/f$a;
 
-    invoke-virtual {p1}, Lcom/vk/im/ui/a/f$a;->a()Landroid/content/ComponentName;
+    invoke-virtual {p1}, Lcom/vk/messenger/ui/a/f$a;->a()Landroid/content/ComponentName;
 
     move-result-object p1
 

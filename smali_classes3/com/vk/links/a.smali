@@ -141,9 +141,9 @@
     const-string v0, "android.support.customtabs.extra.TOOLBAR_COLOR"
 
     .line 126
-    sget-object v1, Lcom/vk/im/ui/themes/a;->b:Lcom/vk/im/ui/themes/a;
+    sget-object v1, Lcom/vk/messenger/ui/themes/a;->b:Lcom/vk/messenger/ui/themes/a;
 
-    invoke-virtual {v1}, Lcom/vk/im/ui/themes/a;->d()Landroid/content/Context;
+    invoke-virtual {v1}, Lcom/vk/messenger/ui/themes/a;->d()Landroid/content/Context;
 
     move-result-object v1
 
@@ -1128,7 +1128,7 @@
     .line 112
     new-instance v0, Landroid/content/Intent;
 
-    const-class v1, Lcom/vk/im/ui/share/ImShareActivity;
+    const-class v1, Lcom/vk/messenger/ui/share/ImShareActivity;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 

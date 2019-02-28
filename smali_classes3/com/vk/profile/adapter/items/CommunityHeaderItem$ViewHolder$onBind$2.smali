@@ -113,9 +113,9 @@
     throw p1
 
     :cond_0
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     return-void
 .end method

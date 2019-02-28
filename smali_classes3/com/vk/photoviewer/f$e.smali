@@ -18,14 +18,14 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/vk/imageloader/view/VKZoomableImageView;
+.field final synthetic a:Lcom/vk/messengerageloader/view/VKZoomableImageView;
 
 
 # direct methods
-.method constructor <init>(Lcom/vk/imageloader/view/VKZoomableImageView;)V
+.method constructor <init>(Lcom/vk/messengerageloader/view/VKZoomableImageView;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/vk/photoviewer/f$e;->a:Lcom/vk/imageloader/view/VKZoomableImageView;
+    iput-object p1, p0, Lcom/vk/photoviewer/f$e;->a:Lcom/vk/messengerageloader/view/VKZoomableImageView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -43,13 +43,13 @@
 
     .line 41
     :cond_0
-    iget-object p1, p0, Lcom/vk/photoviewer/f$e;->a:Lcom/vk/imageloader/view/VKZoomableImageView;
+    iget-object p1, p0, Lcom/vk/photoviewer/f$e;->a:Lcom/vk/messengerageloader/view/VKZoomableImageView;
 
     const/high16 p2, 0x3f800000    # 1.0f
 
     const/4 p3, 0x0
 
-    invoke-virtual {p1, p2, p3}, Lcom/vk/imageloader/view/VKZoomableImageView;->a(FZ)V
+    invoke-virtual {p1, p2, p3}, Lcom/vk/messengerageloader/view/VKZoomableImageView;->a(FZ)V
 
     :cond_1
     return-void

@@ -54,7 +54,7 @@
 
     .line 22
     :catch_1
-    invoke-static {}, Lcom/vk/imageloader/i;->a()V
+    invoke-static {}, Lcom/vk/messengerageloader/i;->a()V
 
     .line 23
     new-instance v0, Landroid/webkit/WebView;
@@ -102,7 +102,7 @@
 
     .line 36
     :catch_1
-    invoke-static {}, Lcom/vk/imageloader/i;->a()V
+    invoke-static {}, Lcom/vk/messengerageloader/i;->a()V
 
     .line 37
     new-instance v0, Lcom/vk/articles/c;

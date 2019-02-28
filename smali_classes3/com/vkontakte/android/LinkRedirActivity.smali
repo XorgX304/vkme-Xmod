@@ -438,27 +438,27 @@
     if-eqz v2, :cond_6
 
     .line 98
-    invoke-static {}, Lcom/vk/im/ui/fragments/ChatFragment;->as()Lcom/vk/im/ui/fragments/a;
+    invoke-static {}, Lcom/vk/messenger/ui/fragments/ChatFragment;->as()Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object v1
 
     .line 99
-    invoke-virtual {v1, v0}, Lcom/vk/im/ui/fragments/a;->a(I)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {v1, v0}, Lcom/vk/messenger/ui/fragments/a;->a(I)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object v0
 
     .line 100
-    invoke-virtual {v0}, Lcom/vk/im/ui/fragments/a;->b()Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/fragments/a;->b()Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object v0
 
     const-string v1, "conversation_link"
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/fragments/a;->d(Ljava/lang/String;)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/fragments/a;->d(Ljava/lang/String;)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/vk/im/ui/fragments/a;->c(Landroid/content/Context;)V
+    invoke-virtual {v0, p0}, Lcom/vk/messenger/ui/fragments/a;->c(Landroid/content/Context;)V
 
     .line 101
     invoke-virtual {p0}, Lcom/vkontakte/android/LinkRedirActivity;->finish()V

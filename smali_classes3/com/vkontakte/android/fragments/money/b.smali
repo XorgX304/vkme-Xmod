@@ -396,7 +396,7 @@
     .end packed-switch
 .end method
 
-.method private final a(Lcom/vk/im/engine/models/content/MoneyRequest;Landroid/view/View;)V
+.method private final a(Lcom/vk/messenger/engine/models/content/MoneyRequest;Landroid/view/View;)V
     .locals 7
 
     const v0, 0x7f0a0b5e
@@ -426,7 +426,7 @@
     .line 167
     invoke-static {v0, v3}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance v3, Lcom/vk/im/ui/formatters/r;
+    new-instance v3, Lcom/vk/messenger/ui/formatters/r;
 
     invoke-virtual {p0}, Lcom/vkontakte/android/fragments/money/b;->o()Landroid/content/Context;
 
@@ -441,9 +441,9 @@
 
     invoke-static {v4, v5}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {v3, v4}, Lcom/vk/im/ui/formatters/r;-><init>(Landroid/content/Context;)V
+    invoke-direct {v3, v4}, Lcom/vk/messenger/ui/formatters/r;-><init>(Landroid/content/Context;)V
 
-    invoke-virtual {v3, v1, v2}, Lcom/vk/im/ui/formatters/r;->a(J)Ljava/lang/String;
+    invoke-virtual {v3, v1, v2}, Lcom/vk/messenger/ui/formatters/r;->a(J)Ljava/lang/String;
 
     move-result-object v1
 
@@ -547,11 +547,11 @@
     .line 180
     invoke-static {v0, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-interface {p1}, Lcom/vk/im/engine/models/content/MoneyRequest;->g()Lcom/vk/im/engine/models/content/MoneyRequest$Amount;
+    invoke-interface {p1}, Lcom/vk/messenger/engine/models/content/MoneyRequest;->g()Lcom/vk/messenger/engine/models/content/MoneyRequest$Amount;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/content/MoneyRequest$Amount;->c()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/content/MoneyRequest$Amount;->c()Ljava/lang/String;
 
     move-result-object v1
 
@@ -568,7 +568,7 @@
 
     move-result-object v0
 
-    invoke-interface {p1}, Lcom/vk/im/engine/models/content/MoneyRequest;->b()I
+    invoke-interface {p1}, Lcom/vk/messenger/engine/models/content/MoneyRequest;->b()I
 
     move-result v1
 
@@ -579,22 +579,22 @@
     if-eqz v0, :cond_4
 
     .line 184
-    instance-of v1, p1, Lcom/vk/im/engine/models/content/MoneyRequestChat;
+    instance-of v1, p1, Lcom/vk/messenger/engine/models/content/MoneyRequestChat;
 
     if-eqz v1, :cond_4
 
     move-object v1, p1
 
-    check-cast v1, Lcom/vk/im/engine/models/content/MoneyRequestChat;
+    check-cast v1, Lcom/vk/messenger/engine/models/content/MoneyRequestChat;
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/content/MoneyRequestChat;->j()Lcom/vk/im/engine/models/content/MoneyRequest$Amount;
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/content/MoneyRequestChat;->j()Lcom/vk/messenger/engine/models/content/MoneyRequest$Amount;
 
     move-result-object v1
 
     goto :goto_2
 
     :cond_4
-    invoke-interface {p1}, Lcom/vk/im/engine/models/content/MoneyRequest;->g()Lcom/vk/im/engine/models/content/MoneyRequest$Amount;
+    invoke-interface {p1}, Lcom/vk/messenger/engine/models/content/MoneyRequest;->g()Lcom/vk/messenger/engine/models/content/MoneyRequest$Amount;
 
     move-result-object v1
 
@@ -613,7 +613,7 @@
     .line 186
     invoke-static {v2, v3}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/content/MoneyRequest$Amount;->a()J
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/content/MoneyRequest$Amount;->a()J
 
     move-result-wide v3
 
@@ -641,7 +641,7 @@
     check-cast p2, Landroid/widget/TextView;
 
     .line 189
-    invoke-interface {p1}, Lcom/vk/im/engine/models/content/MoneyRequest;->d()Z
+    invoke-interface {p1}, Lcom/vk/messenger/engine/models/content/MoneyRequest;->d()Z
 
     move-result p1
 
@@ -758,7 +758,7 @@
     return-void
 .end method
 
-.method private final a(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesInfo;Landroid/view/View;)V
+.method private final a(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesInfo;Landroid/view/View;)V
     .locals 4
 
     const v0, 0x7f0a0b65
@@ -775,11 +775,11 @@
     .line 206
     invoke-static {v0, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {p2}, Lcom/vk/im/engine/models/ProfilesInfo;->f()Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    invoke-virtual {p2}, Lcom/vk/messenger/engine/models/ProfilesInfo;->f()Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     move-result-object v1
 
-    invoke-static {p1, v1}, Lcom/vkontakte/android/im/f;->a(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesSimpleInfo;)Ljava/lang/String;
+    invoke-static {p1, v1}, Lcom/vkontakte/android/im/f;->a(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -788,11 +788,11 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 208
-    invoke-virtual {p2}, Lcom/vk/im/engine/models/ProfilesInfo;->f()Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    invoke-virtual {p2}, Lcom/vk/messenger/engine/models/ProfilesInfo;->f()Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/vkontakte/android/im/f;->b(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesSimpleInfo;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/vkontakte/android/im/f;->b(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -808,7 +808,7 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v2, Lcom/vk/messengerageloader/view/VKImageView;
 
     const-string v3, "avatarUri"
 
@@ -830,7 +830,7 @@
     if-eqz v1, :cond_0
 
     .line 213
-    invoke-virtual {v2, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v2, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -842,7 +842,7 @@
 
     const/4 v0, 0x4
 
-    invoke-virtual {v2, v0}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v2, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     const v0, 0x7f0a012c
 
@@ -851,7 +851,7 @@
 
     move-result-object p3
 
-    check-cast p3, Lcom/vk/im/ui/views/avatars/AvatarView;
+    check-cast p3, Lcom/vk/messenger/ui/views/avatars/AvatarView;
 
     const-string v0, "avatarView"
 
@@ -860,10 +860,10 @@
 
     const/4 v0, 0x0
 
-    invoke-virtual {p3, v0}, Lcom/vk/im/ui/views/avatars/AvatarView;->setVisibility(I)V
+    invoke-virtual {p3, v0}, Lcom/vk/messenger/ui/views/avatars/AvatarView;->setVisibility(I)V
 
     .line 218
-    invoke-virtual {p3, p1, p2}, Lcom/vk/im/ui/views/avatars/AvatarView;->a(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesInfo;)V
+    invoke-virtual {p3, p1, p2}, Lcom/vk/messenger/ui/views/avatars/AvatarView;->a(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesInfo;)V
 
     :goto_0
     return-void
@@ -879,12 +879,12 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 99
     iget-object v1, p1, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
@@ -968,7 +968,7 @@
     check-cast p1, Landroid/widget/TextView;
 
     .line 116
-    invoke-virtual {v0, p2}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 117
     invoke-virtual {v1, p2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
@@ -1041,7 +1041,7 @@
 
     move-object v1, v0
 
-    check-cast v1, Lcom/vk/im/engine/models/content/MoneyRequest;
+    check-cast v1, Lcom/vk/messenger/engine/models/content/MoneyRequest;
 
     :cond_2
     if-eqz v1, :cond_3
@@ -1051,7 +1051,7 @@
 
     move-result-object v0
 
-    invoke-interface {v1}, Lcom/vk/im/engine/models/content/MoneyRequest;->f()Ljava/lang/String;
+    invoke-interface {v1}, Lcom/vk/messenger/engine/models/content/MoneyRequest;->f()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1229,7 +1229,7 @@
 
     move-object v1, v0
 
-    check-cast v1, Lcom/vk/im/engine/models/content/MoneyRequest;
+    check-cast v1, Lcom/vk/messenger/engine/models/content/MoneyRequest;
 
     :cond_8
     if-eqz v1, :cond_b
@@ -1244,7 +1244,7 @@
     move-result-object v0
 
     .line 257
-    instance-of v2, v1, Lcom/vk/im/engine/models/content/MoneyRequestChat;
+    instance-of v2, v1, Lcom/vk/messenger/engine/models/content/MoneyRequestChat;
 
     if-eqz v2, :cond_9
 
@@ -1252,14 +1252,14 @@
     invoke-virtual {v0}, Lcom/vkontakte/android/fragments/money/e$b;->c()Lcom/vkontakte/android/fragments/money/e$b;
 
     .line 259
-    invoke-interface {v1}, Lcom/vk/im/engine/models/content/MoneyRequest;->b()I
+    invoke-interface {v1}, Lcom/vk/messenger/engine/models/content/MoneyRequest;->b()I
 
     move-result v2
 
     invoke-virtual {v0, v2}, Lcom/vkontakte/android/fragments/money/e$b;->a(I)Lcom/vkontakte/android/fragments/money/e$b;
 
     .line 260
-    invoke-interface {v1}, Lcom/vk/im/engine/models/content/MoneyRequest;->a()I
+    invoke-interface {v1}, Lcom/vk/messenger/engine/models/content/MoneyRequest;->a()I
 
     move-result v1
 
@@ -1273,7 +1273,7 @@
 
     move-result-object v2
 
-    invoke-interface {v1}, Lcom/vk/im/engine/models/content/MoneyRequest;->b()I
+    invoke-interface {v1}, Lcom/vk/messenger/engine/models/content/MoneyRequest;->b()I
 
     move-result v3
 
@@ -1284,14 +1284,14 @@
     if-eqz v2, :cond_a
 
     .line 263
-    invoke-interface {v1}, Lcom/vk/im/engine/models/content/MoneyRequest;->c()I
+    invoke-interface {v1}, Lcom/vk/messenger/engine/models/content/MoneyRequest;->c()I
 
     move-result v1
 
     goto :goto_2
 
     :cond_a
-    invoke-interface {v1}, Lcom/vk/im/engine/models/content/MoneyRequest;->b()I
+    invoke-interface {v1}, Lcom/vk/messenger/engine/models/content/MoneyRequest;->b()I
 
     move-result v1
 
@@ -1631,7 +1631,7 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/im/engine/models/content/MoneyRequest;
+    check-cast p1, Lcom/vk/messenger/engine/models/content/MoneyRequest;
 
     goto :goto_1
 
@@ -1675,7 +1675,7 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/vk/im/engine/models/dialogs/Dialog;
+    check-cast v3, Lcom/vk/messenger/engine/models/dialogs/Dialog;
 
     goto :goto_3
 
@@ -1696,7 +1696,7 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/im/engine/models/ProfilesInfo;
+    check-cast p2, Lcom/vk/messenger/engine/models/ProfilesInfo;
 
     .line 68
     :cond_8
@@ -1704,7 +1704,7 @@
 
     move-result-object v4
 
-    invoke-interface {p1}, Lcom/vk/im/engine/models/content/MoneyRequest;->b()I
+    invoke-interface {p1}, Lcom/vk/messenger/engine/models/content/MoneyRequest;->b()I
 
     move-result v5
 
@@ -1745,7 +1745,7 @@
     invoke-static {v4}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_b
-    invoke-direct {p0, v3, p2, v2}, Lcom/vkontakte/android/fragments/money/b;->a(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesInfo;Landroid/view/View;)V
+    invoke-direct {p0, v3, p2, v2}, Lcom/vkontakte/android/fragments/money/b;->a(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesInfo;Landroid/view/View;)V
 
     .line 74
     :cond_c
@@ -1759,7 +1759,7 @@
     invoke-static {v2}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_d
-    invoke-direct {p0, p1, p2}, Lcom/vkontakte/android/fragments/money/b;->a(Lcom/vk/im/engine/models/content/MoneyRequest;Landroid/view/View;)V
+    invoke-direct {p0, p1, p2}, Lcom/vkontakte/android/fragments/money/b;->a(Lcom/vk/messenger/engine/models/content/MoneyRequest;Landroid/view/View;)V
 
     .line 78
     :cond_e
@@ -1854,7 +1854,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/content/MoneyRequest;
+    check-cast v0, Lcom/vk/messenger/engine/models/content/MoneyRequest;
 
     goto :goto_0
 
@@ -1900,7 +1900,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/content/MoneyRequest;
+    check-cast v0, Lcom/vk/messenger/engine/models/content/MoneyRequest;
 
     goto :goto_0
 
@@ -1917,7 +1917,7 @@
 
     move-result-object v2
 
-    invoke-interface {v0}, Lcom/vk/im/engine/models/content/MoneyRequest;->b()I
+    invoke-interface {v0}, Lcom/vk/messenger/engine/models/content/MoneyRequest;->b()I
 
     move-result v3
 
@@ -1934,7 +1934,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-interface {v0}, Lcom/vk/im/engine/models/content/MoneyRequest;->d()Z
+    invoke-interface {v0}, Lcom/vk/messenger/engine/models/content/MoneyRequest;->d()Z
 
     move-result v0
 
@@ -2027,7 +2027,7 @@
 
     move-object v1, v0
 
-    check-cast v1, Lcom/vk/im/engine/models/content/MoneyRequest;
+    check-cast v1, Lcom/vk/messenger/engine/models/content/MoneyRequest;
 
     :cond_3
     if-eqz v1, :cond_5
@@ -2037,7 +2037,7 @@
 
     move-result-object v0
 
-    invoke-interface {v1}, Lcom/vk/im/engine/models/content/MoneyRequest;->b()I
+    invoke-interface {v1}, Lcom/vk/messenger/engine/models/content/MoneyRequest;->b()I
 
     move-result v4
 
@@ -2048,7 +2048,7 @@
     if-nez v0, :cond_4
 
     .line 283
-    invoke-interface {v1}, Lcom/vk/im/engine/models/content/MoneyRequest;->d()Z
+    invoke-interface {v1}, Lcom/vk/messenger/engine/models/content/MoneyRequest;->d()Z
 
     move-result v0
 
@@ -2207,7 +2207,7 @@
 
     move-object v1, v0
 
-    check-cast v1, Lcom/vk/im/engine/models/content/MoneyRequest;
+    check-cast v1, Lcom/vk/messenger/engine/models/content/MoneyRequest;
 
     :cond_6
     if-eqz v1, :cond_7
@@ -2344,7 +2344,7 @@
 
     move-result-object v4
 
-    check-cast v4, Lcom/vk/im/engine/models/content/MoneyRequest;
+    check-cast v4, Lcom/vk/messenger/engine/models/content/MoneyRequest;
 
     goto :goto_2
 
@@ -2355,7 +2355,7 @@
     if-eqz v4, :cond_3
 
     .line 336
-    invoke-interface {v4}, Lcom/vk/im/engine/models/content/MoneyRequest;->d()Z
+    invoke-interface {v4}, Lcom/vk/messenger/engine/models/content/MoneyRequest;->d()Z
 
     move-result v4
 

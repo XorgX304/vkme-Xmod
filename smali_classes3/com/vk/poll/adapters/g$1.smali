@@ -57,11 +57,11 @@
     if-eqz p1, :cond_0
 
     .line 22
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/b;->j()Lcom/vk/e/w;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/b;->j()Lcom/vk/e/w;
 
     move-result-object v1
 

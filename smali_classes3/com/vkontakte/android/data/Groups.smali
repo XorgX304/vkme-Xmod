@@ -36,7 +36,7 @@
     .end annotation
 .end field
 
-.field private static volatile d:Z = false
+.field private static volatile d:Z
 
 .field private static final e:Ljava/util/concurrent/ExecutorService;
 

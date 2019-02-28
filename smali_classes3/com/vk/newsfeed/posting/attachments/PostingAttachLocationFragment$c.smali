@@ -31,7 +31,7 @@
 
 .field private final o:Landroid/widget/TextView;
 
-.field private final p:Lcom/vk/imageloader/view/VKImageView;
+.field private final p:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final q:Landroid/widget/TextView;
 
@@ -131,9 +131,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/posting/attachments/PostingAttachLocationFragment$c;->p:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/posting/attachments/PostingAttachLocationFragment$c;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 251
     iget-object p1, p0, Lcom/vk/newsfeed/posting/attachments/PostingAttachLocationFragment$c;->a:Landroid/view/View;
@@ -208,13 +208,13 @@
     if-nez v0, :cond_3
 
     .line 261
-    iget-object v0, p0, Lcom/vk/newsfeed/posting/attachments/PostingAttachLocationFragment$c;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/posting/attachments/PostingAttachLocationFragment$c;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/common/GeoLocation;->h()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-virtual {v0, v3}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v3}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -229,21 +229,21 @@
     if-ne v0, v3, :cond_4
 
     .line 263
-    iget-object v0, p0, Lcom/vk/newsfeed/posting/attachments/PostingAttachLocationFragment$c;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/posting/attachments/PostingAttachLocationFragment$c;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v3, 0x7f0804fa
 
-    invoke-virtual {v0, v3}, Lcom/vk/imageloader/view/VKImageView;->setImageResource(I)V
+    invoke-virtual {v0, v3}, Lcom/vk/messengerageloader/view/VKImageView;->setImageResource(I)V
 
     goto :goto_2
 
     .line 265
     :cond_4
-    iget-object v0, p0, Lcom/vk/newsfeed/posting/attachments/PostingAttachLocationFragment$c;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/posting/attachments/PostingAttachLocationFragment$c;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v3, 0x7f0802af
 
-    invoke-virtual {v0, v3}, Lcom/vk/imageloader/view/VKImageView;->setImageResource(I)V
+    invoke-virtual {v0, v3}, Lcom/vk/messengerageloader/view/VKImageView;->setImageResource(I)V
 
     .line 268
     :goto_2

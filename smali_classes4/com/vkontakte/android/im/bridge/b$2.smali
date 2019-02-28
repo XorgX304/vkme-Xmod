@@ -20,7 +20,7 @@
     value = {
         "Ljava/lang/Object;",
         "Lio/reactivex/b/b<",
-        "Lcom/vk/im/engine/models/c<",
+        "Lcom/vk/messenger/engine/models/c<",
         "Ljava/lang/Integer;",
         ">;",
         "Ljava/lang/Throwable;",
@@ -47,12 +47,12 @@
 
 
 # virtual methods
-.method public a(Lcom/vk/im/engine/models/c;Ljava/lang/Throwable;)V
+.method public a(Lcom/vk/messenger/engine/models/c;Ljava/lang/Throwable;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/vk/im/engine/models/c<",
+            "Lcom/vk/messenger/engine/models/c<",
             "Ljava/lang/Integer;",
             ">;",
             "Ljava/lang/Throwable;",
@@ -81,7 +81,7 @@
 
     .line 130
     :cond_0
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/c;->c()Z
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/c;->c()Z
 
     move-result p2
 
@@ -90,7 +90,7 @@
     .line 131
     iget-object p2, p0, Lcom/vkontakte/android/im/bridge/b$2;->a:Lcom/vkontakte/android/im/bridge/b;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/c;->b()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/c;->b()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -115,11 +115,11 @@
     .end annotation
 
     .line 123
-    check-cast p1, Lcom/vk/im/engine/models/c;
+    check-cast p1, Lcom/vk/messenger/engine/models/c;
 
     check-cast p2, Ljava/lang/Throwable;
 
-    invoke-virtual {p0, p1, p2}, Lcom/vkontakte/android/im/bridge/b$2;->a(Lcom/vk/im/engine/models/c;Ljava/lang/Throwable;)V
+    invoke-virtual {p0, p1, p2}, Lcom/vkontakte/android/im/bridge/b$2;->a(Lcom/vk/messenger/engine/models/c;Ljava/lang/Throwable;)V
 
     return-void
 .end method

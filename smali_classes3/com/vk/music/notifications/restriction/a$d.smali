@@ -23,7 +23,7 @@
         ">",
         "Ljava/lang/Object;",
         "Lio/reactivex/b/g<",
-        "Lcom/vk/im/engine/models/a/z;",
+        "Lcom/vk/messenger/engine/models/a/z;",
         ">;"
     }
 .end annotation
@@ -56,15 +56,15 @@
 
 
 # virtual methods
-.method public final a(Lcom/vk/im/engine/models/a/z;)V
+.method public final a(Lcom/vk/messenger/engine/models/a/z;)V
     .locals 3
 
     .line 53
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/a/z;->a()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/a/z;->a()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/a/z;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/a/z;->b()Ljava/lang/String;
 
     move-result-object p1
 
@@ -140,9 +140,9 @@
     .locals 0
 
     .line 27
-    check-cast p1, Lcom/vk/im/engine/models/a/z;
+    check-cast p1, Lcom/vk/messenger/engine/models/a/z;
 
-    invoke-virtual {p0, p1}, Lcom/vk/music/notifications/restriction/a$d;->a(Lcom/vk/im/engine/models/a/z;)V
+    invoke-virtual {p0, p1}, Lcom/vk/music/notifications/restriction/a$d;->a(Lcom/vk/messenger/engine/models/a/z;)V
 
     return-void
 .end method

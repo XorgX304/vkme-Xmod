@@ -9,7 +9,7 @@
     <FrameLayout android:layout_gravity="bottom|center|left" android:id="@id/left_holder" android:clipChildren="false" android:clipToPadding="false" android:layout_width="128.0dip" android:layout_height="48.0dip" android:layout_marginBottom="61.0dip">
         <FrameLayout android:layout_gravity="left" android:id="@id/photos_button" android:layout_width="48.0dip" android:layout_height="48.0dip" android:foreground="@drawable/picker_white_ripple_unbounded">
             <View android:layout_gravity="center" android:id="@id/photos_button_roll" android:background="@drawable/ic_camera_roll_20" android:layout_width="48.0dip" android:layout_height="48.0dip" />
-            <com.vk.imageloader.view.VKImageView android:layout_gravity="center" android:id="@id/photos_button_thumb" android:layout_width="32.0dip" android:layout_height="32.0dip" app:placeholderImage="@color/camera_roll_thumbnail_placeholder" app:roundedCornerRadius="2.0dip" />
+            <com.vk.messengerageloader.view.VKImageView android:layout_gravity="center" android:id="@id/photos_button_thumb" android:layout_width="32.0dip" android:layout_height="32.0dip" app:placeholderImage="@color/camera_roll_thumbnail_placeholder" app:roundedCornerRadius="2.0dip" />
         </FrameLayout>
         <ImageView android:layout_gravity="left" android:id="@id/flash_button" android:layout_width="48.0dip" android:layout_height="48.0dip" android:foreground="@drawable/picker_white_ripple_unbounded" android:src="@drawable/ic_flash_off_48" />
         <ImageView android:layout_gravity="left" android:id="@id/switch_button_live" android:layout_width="48.0dip" android:layout_height="48.0dip" android:foreground="@drawable/picker_white_ripple_unbounded" android:src="@drawable/switch_camera" />

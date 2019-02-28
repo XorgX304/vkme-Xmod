@@ -14,9 +14,9 @@
 # instance fields
 .field public a:Landroid/graphics/Path;
 
-.field private b:Lcom/vk/imageloader/view/VKImageView;
+.field private b:Lcom/vk/messengerageloader/view/VKImageView;
 
-.field private c:Lcom/vk/imageloader/view/VKImageView;
+.field private c:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private d:Landroid/widget/FrameLayout;
 
@@ -119,13 +119,13 @@
     iput-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->j:Lcom/vkontakte/android/live/widgets/LiveShine$State;
 
     .line 67
-    new-instance p1, Lcom/vk/imageloader/view/VKImageView;
+    new-instance p1, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p0}, Lcom/vkontakte/android/live/widgets/LiveShine;->getContext()Landroid/content/Context;
 
     move-result-object p2
 
-    invoke-direct {p1, p2}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
     .line 68
     new-instance p2, Landroid/widget/FrameLayout$LayoutParams;
@@ -148,26 +148,26 @@
     .line 68
     check-cast p2, Landroid/view/ViewGroup$LayoutParams;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 67
-    iput-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->c:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 72
-    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p1, Landroid/view/View;
 
     invoke-virtual {p0, p1}, Lcom/vkontakte/android/live/widgets/LiveShine;->addView(Landroid/view/View;)V
 
     .line 74
-    new-instance p1, Lcom/vk/imageloader/view/VKImageView;
+    new-instance p1, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p0}, Lcom/vkontakte/android/live/widgets/LiveShine;->getContext()Landroid/content/Context;
 
     move-result-object p2
 
-    invoke-direct {p1, p2}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
     .line 75
     new-instance p2, Landroid/widget/FrameLayout$LayoutParams;
@@ -184,13 +184,13 @@
 
     check-cast p2, Landroid/view/ViewGroup$LayoutParams;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 74
-    iput-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->b:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 77
-    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p1, Landroid/view/View;
 
@@ -463,14 +463,14 @@
 
     .line 56
     :pswitch_0
-    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p1, Landroid/view/View;
 
     invoke-static {p1}, Lcom/vk/extensions/o;->h(Landroid/view/View;)V
 
     .line 57
-    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p1, Landroid/view/View;
 
@@ -484,24 +484,24 @@
     invoke-static {p1}, Lcom/vk/extensions/o;->h(Landroid/view/View;)V
 
     .line 59
-    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f080754
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(I)V
 
     goto :goto_0
 
     .line 50
     :pswitch_1
-    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p1, Landroid/view/View;
 
     invoke-static {p1}, Lcom/vk/extensions/o;->h(Landroid/view/View;)V
 
     .line 51
-    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p1, Landroid/view/View;
 
@@ -515,24 +515,24 @@
     invoke-static {p1}, Lcom/vk/extensions/o;->h(Landroid/view/View;)V
 
     .line 53
-    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f080753
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(I)V
 
     goto :goto_0
 
     .line 43
     :pswitch_2
-    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p1, Landroid/view/View;
 
     invoke-static {p1}, Lcom/vk/extensions/o;->f(Landroid/view/View;)V
 
     .line 44
-    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p1, Landroid/view/View;
 
@@ -546,11 +546,11 @@
     invoke-static {p1}, Lcom/vk/extensions/o;->f(Landroid/view/View;)V
 
     .line 46
-    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/live/widgets/LiveShine;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f080082
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(I)V
 
     .line 47
     invoke-direct {p0}, Lcom/vkontakte/android/live/widgets/LiveShine;->a()V

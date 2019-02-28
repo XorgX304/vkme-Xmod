@@ -4,9 +4,9 @@
 
 
 # static fields
-.field private static _hasNeon:Ljava/lang/Boolean; = null
+.field private static _hasNeon:Ljava/lang/Boolean;
 
-.field private static _nativeLibsLoaded:Z = false
+.field private static _nativeLibsLoaded:Z
 
 .field private static _self:Lru/mail/voip2/VoipImpl2;
     .annotation build Landroid/annotation/SuppressLint;

@@ -20,7 +20,7 @@
     value = {
         "Ljava/lang/Object;",
         "Lio/reactivex/b/g<",
-        "Lcom/vk/im/engine/events/a;",
+        "Lcom/vk/messenger/engine/events/a;",
         ">;"
     }
 .end annotation
@@ -49,7 +49,7 @@
 
 
 # virtual methods
-.method public a(Lcom/vk/im/engine/events/a;)V
+.method public a(Lcom/vk/messenger/engine/events/a;)V
     .locals 2
 
     const-string v0, "e"
@@ -57,15 +57,15 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 534
-    instance-of v0, p1, Lcom/vk/im/engine/events/o;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/o;
 
     if-eqz v0, :cond_0
 
     iget-object v0, p0, Lcom/vk/navigation/h$c;->a:Lcom/vk/navigation/h;
 
-    check-cast p1, Lcom/vk/im/engine/events/o;
+    check-cast p1, Lcom/vk/messenger/engine/events/o;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/o;->a()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/o;->a()I
 
     move-result p1
 
@@ -83,34 +83,34 @@
 
     .line 535
     :cond_0
-    instance-of v0, p1, Lcom/vk/im/engine/events/OnCacheInvalidateEvent;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/OnCacheInvalidateEvent;
 
     if-eqz v0, :cond_1
 
-    check-cast p1, Lcom/vk/im/engine/events/OnCacheInvalidateEvent;
+    check-cast p1, Lcom/vk/messenger/engine/events/OnCacheInvalidateEvent;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/OnCacheInvalidateEvent;->a()Lcom/vk/im/engine/events/OnCacheInvalidateEvent$Reason;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/OnCacheInvalidateEvent;->a()Lcom/vk/messenger/engine/events/OnCacheInvalidateEvent$Reason;
 
     move-result-object p1
 
-    sget-object v0, Lcom/vk/im/engine/events/OnCacheInvalidateEvent$Reason;->SPACE:Lcom/vk/im/engine/events/OnCacheInvalidateEvent$Reason;
+    sget-object v0, Lcom/vk/messenger/engine/events/OnCacheInvalidateEvent$Reason;->SPACE:Lcom/vk/messenger/engine/events/OnCacheInvalidateEvent$Reason;
 
     if-ne p1, v0, :cond_1
 
     .line 536
-    invoke-static {}, Lcom/vk/im/engine/f;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vk/messenger/engine/f;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object p1
 
     const-string v0, "ImBottomNavigation"
 
-    new-instance v1, Lcom/vk/im/engine/commands/requests/a;
+    new-instance v1, Lcom/vk/messenger/engine/commands/requests/a;
 
-    invoke-direct {v1}, Lcom/vk/im/engine/commands/requests/a;-><init>()V
+    invoke-direct {v1}, Lcom/vk/messenger/engine/commands/requests/a;-><init>()V
 
-    check-cast v1, Lcom/vk/im/engine/commands/c;
+    check-cast v1, Lcom/vk/messenger/engine/commands/c;
 
-    invoke-virtual {p1, v0, v1}, Lcom/vk/im/engine/d;->b(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)Lio/reactivex/q;
+    invoke-virtual {p1, v0, v1}, Lcom/vk/messenger/engine/d;->b(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)Lio/reactivex/q;
 
     move-result-object p1
 
@@ -155,9 +155,9 @@
     .locals 0
 
     .line 531
-    check-cast p1, Lcom/vk/im/engine/events/a;
+    check-cast p1, Lcom/vk/messenger/engine/events/a;
 
-    invoke-virtual {p0, p1}, Lcom/vk/navigation/h$c;->a(Lcom/vk/im/engine/events/a;)V
+    invoke-virtual {p0, p1}, Lcom/vk/navigation/h$c;->a(Lcom/vk/messenger/engine/events/a;)V
 
     return-void
 .end method

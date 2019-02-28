@@ -34,7 +34,7 @@
 
 .field private final q:Landroid/view/View;
 
-.field private final r:Lcom/vk/imageloader/view/VKImageView;
+.field private final r:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final s:Landroid/widget/TextView;
 
@@ -131,9 +131,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/inline/e;->r:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/inline/e;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 62
     iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/e;->a:Landroid/view/View;
@@ -228,11 +228,11 @@
     invoke-virtual {p1, v0}, Lcom/vk/newsfeed/holders/FrameLayoutSwiped;->setCallback(Lcom/vk/newsfeed/holders/FrameLayoutSwiped$a;)V
 
     .line 73
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/e;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/e;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f0601d4
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     .line 74
     iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/e;->q:Landroid/view/View;
@@ -969,21 +969,21 @@
     if-ne v4, v5, :cond_b
 
     .line 135
-    iget-object v1, p0, Lcom/vk/newsfeed/holders/inline/e;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/newsfeed/holders/inline/e;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/newsfeed/Owner;->f()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {v1, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_5
 
     .line 137
     :cond_b
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/e;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/e;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 140
     :goto_5

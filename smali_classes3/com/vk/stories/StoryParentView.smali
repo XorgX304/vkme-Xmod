@@ -20,7 +20,7 @@
 
 .field private d:I
 
-.field private e:Lcom/vk/imageloader/view/VKImageView;
+.field private e:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private f:Landroid/widget/TextView;
 
@@ -245,11 +245,11 @@
     return-void
 .end method
 
-.method static synthetic c(Lcom/vk/stories/StoryParentView;)Lcom/vk/imageloader/view/VKImageView;
+.method static synthetic c(Lcom/vk/stories/StoryParentView;)Lcom/vk/messengerageloader/view/VKImageView;
     .locals 0
 
     .line 40
-    iget-object p0, p0, Lcom/vk/stories/StoryParentView;->e:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p0, p0, Lcom/vk/stories/StoryParentView;->e:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-object p0
 .end method
@@ -300,9 +300,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v0, p0, Lcom/vk/stories/StoryParentView;->e:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vk/stories/StoryParentView;->e:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 150
     new-instance v0, Lcom/vk/stories/StoryParentView$1;
@@ -345,9 +345,9 @@
     iput-object v0, p0, Lcom/vk/stories/StoryParentView;->f:Landroid/widget/TextView;
 
     .line 160
-    iget-object v0, p0, Lcom/vk/stories/StoryParentView;->e:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/stories/StoryParentView;->e:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
 
     move-result-object v0
 
@@ -362,13 +362,13 @@
     invoke-virtual {v0, v1}, Lcom/facebook/drawee/generic/a;->e(Landroid/graphics/drawable/Drawable;)V
 
     .line 162
-    iget-object v0, p0, Lcom/vk/stories/StoryParentView;->e:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/stories/StoryParentView;->e:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance v1, Lcom/vk/stories/StoryParentView$2;
 
     invoke-direct {v1, p0}, Lcom/vk/stories/StoryParentView$2;-><init>(Lcom/vk/stories/StoryParentView;)V
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setOnLoadCallback(Lcom/vk/imageloader/g;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setOnLoadCallback(Lcom/vk/messengerageloader/g;)V
 
     const v0, 0x7f0a0418
 
@@ -1017,9 +1017,9 @@
 
     .line 297
     :cond_0
-    iget-object p1, p0, Lcom/vk/stories/StoryParentView;->e:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/stories/StoryParentView;->e:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     const/4 p1, 0x1
 

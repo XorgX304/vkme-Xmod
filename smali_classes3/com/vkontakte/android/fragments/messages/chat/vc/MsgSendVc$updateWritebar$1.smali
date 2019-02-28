@@ -77,11 +77,11 @@
 
     iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc$updateWritebar$1;->this$0:Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;
 
-    invoke-static {p1}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->h(Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;)Lcom/vk/im/ui/components/viewcontrollers/b/b;
+    invoke-static {p1}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->h(Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;)Lcom/vk/messenger/ui/components/viewcontrollers/b/b;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/vk/im/ui/components/viewcontrollers/b/b;->e()V
+    invoke-interface {p1}, Lcom/vk/messenger/ui/components/viewcontrollers/b/b;->e()V
 
     goto :goto_0
 
@@ -89,11 +89,11 @@
     :cond_0
     iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc$updateWritebar$1;->this$0:Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;
 
-    invoke-static {p1}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->h(Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;)Lcom/vk/im/ui/components/viewcontrollers/b/b;
+    invoke-static {p1}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->h(Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;)Lcom/vk/messenger/ui/components/viewcontrollers/b/b;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/vk/im/ui/components/viewcontrollers/b/b;->d()V
+    invoke-interface {p1}, Lcom/vk/messenger/ui/components/viewcontrollers/b/b;->d()V
 
     :goto_0
     return-void

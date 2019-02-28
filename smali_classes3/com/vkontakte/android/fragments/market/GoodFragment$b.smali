@@ -186,7 +186,7 @@
     invoke-virtual {v0}, Lcom/vkontakte/android/data/a$a;->c()Lcom/vkontakte/android/data/a$a;
 
     .line 310
-    invoke-static {}, Lcom/vk/im/ui/fragments/ChatFragment;->as()Lcom/vk/im/ui/fragments/a;
+    invoke-static {}, Lcom/vk/messenger/ui/fragments/ChatFragment;->as()Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object v0
 
@@ -197,7 +197,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/fragments/a;->a(I)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/fragments/a;->a(I)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object v0
 
@@ -220,7 +220,7 @@
 
     aput-object v3, v1, v2
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/fragments/a;->a([Landroid/os/Parcelable;)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/fragments/a;->a([Landroid/os/Parcelable;)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object v0
 
@@ -229,7 +229,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/fragments/a;->c(Landroid/content/Context;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/fragments/a;->c(Landroid/content/Context;)V
 
     const-string p1, "messages"
 

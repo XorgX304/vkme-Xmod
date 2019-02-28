@@ -10,7 +10,7 @@
 .method static synthetic constructor <clinit>()V
     .locals 3
 
-    invoke-static {}, Lcom/vk/im/engine/models/MemberType;->values()[Lcom/vk/im/engine/models/MemberType;
+    invoke-static {}, Lcom/vk/messenger/engine/models/MemberType;->values()[Lcom/vk/messenger/engine/models/MemberType;
 
     move-result-object v0
 
@@ -22,9 +22,9 @@
 
     sget-object v0, Lcom/vkontakte/android/im/g;->$EnumSwitchMapping$0:[I
 
-    sget-object v1, Lcom/vk/im/engine/models/MemberType;->USER:Lcom/vk/im/engine/models/MemberType;
+    sget-object v1, Lcom/vk/messenger/engine/models/MemberType;->USER:Lcom/vk/messenger/engine/models/MemberType;
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/MemberType;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/MemberType;->ordinal()I
 
     move-result v1
 
@@ -34,9 +34,9 @@
 
     sget-object v0, Lcom/vkontakte/android/im/g;->$EnumSwitchMapping$0:[I
 
-    sget-object v1, Lcom/vk/im/engine/models/MemberType;->EMAIL:Lcom/vk/im/engine/models/MemberType;
+    sget-object v1, Lcom/vk/messenger/engine/models/MemberType;->EMAIL:Lcom/vk/messenger/engine/models/MemberType;
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/MemberType;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/MemberType;->ordinal()I
 
     move-result v1
 
@@ -46,9 +46,9 @@
 
     sget-object v0, Lcom/vkontakte/android/im/g;->$EnumSwitchMapping$0:[I
 
-    sget-object v1, Lcom/vk/im/engine/models/MemberType;->GROUP:Lcom/vk/im/engine/models/MemberType;
+    sget-object v1, Lcom/vk/messenger/engine/models/MemberType;->GROUP:Lcom/vk/messenger/engine/models/MemberType;
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/MemberType;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/MemberType;->ordinal()I
 
     move-result v1
 
@@ -58,9 +58,9 @@
 
     sget-object v0, Lcom/vkontakte/android/im/g;->$EnumSwitchMapping$0:[I
 
-    sget-object v1, Lcom/vk/im/engine/models/MemberType;->CONTACT:Lcom/vk/im/engine/models/MemberType;
+    sget-object v1, Lcom/vk/messenger/engine/models/MemberType;->CONTACT:Lcom/vk/messenger/engine/models/MemberType;
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/MemberType;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/MemberType;->ordinal()I
 
     move-result v1
 
@@ -70,9 +70,9 @@
 
     sget-object v0, Lcom/vkontakte/android/im/g;->$EnumSwitchMapping$0:[I
 
-    sget-object v1, Lcom/vk/im/engine/models/MemberType;->UNKNOWN:Lcom/vk/im/engine/models/MemberType;
+    sget-object v1, Lcom/vk/messenger/engine/models/MemberType;->UNKNOWN:Lcom/vk/messenger/engine/models/MemberType;
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/MemberType;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/MemberType;->ordinal()I
 
     move-result v1
 

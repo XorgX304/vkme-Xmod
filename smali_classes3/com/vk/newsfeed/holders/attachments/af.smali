@@ -10,13 +10,13 @@
 # instance fields
 .field private A:Lcom/vk/dto/narratives/Narrative;
 
-.field private final n:Lcom/vk/imageloader/view/VKImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final p:Landroid/view/View;
 
-.field private final q:Lcom/vk/imageloader/view/VKImageView;
+.field private final q:Lcom/vk/messengerageloader/view/VKImageView;
 
-.field private final r:Lcom/vk/imageloader/view/VKImageView;
+.field private final r:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final s:Landroid/widget/ImageView;
 
@@ -65,9 +65,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/af;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/af;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 36
     iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/af;->a:Landroid/view/View;
@@ -97,9 +97,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/af;->q:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/af;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 38
     iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/af;->a:Landroid/view/View;
@@ -114,9 +114,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/af;->r:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/af;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 39
     iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/af;->a:Landroid/view/View;
@@ -236,14 +236,14 @@
     iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/af;->y:Landroid/widget/TextView;
 
     .line 54
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/af;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/af;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f080106
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     .line 55
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/af;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/af;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {}, Lcom/vk/narratives/c;->b()Landroid/graphics/PorterDuffColorFilter;
 
@@ -251,14 +251,14 @@
 
     check-cast v0, Landroid/graphics/ColorFilter;
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setColorFilter(Landroid/graphics/ColorFilter;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setColorFilter(Landroid/graphics/ColorFilter;)V
 
     .line 56
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/af;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/af;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f080104
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     .line 58
     iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/af;->a:Landroid/view/View;
@@ -457,14 +457,14 @@
     .locals 2
 
     .line 174
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/af;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/af;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 175
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/af;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/af;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 176
     iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/af;->v:Landroid/widget/TextView;
@@ -476,9 +476,9 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 177
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/af;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/af;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 179
     iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/af;->x:Landroid/widget/ImageView;
@@ -556,28 +556,28 @@
     if-eqz v1, :cond_0
 
     .line 104
-    iget-object v3, p0, Lcom/vk/newsfeed/holders/attachments/af;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vk/newsfeed/holders/attachments/af;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-static {}, Lcom/vk/narratives/c;->d()Lcom/vk/imageloader/a/f;
+    invoke-static {}, Lcom/vk/narratives/c;->d()Lcom/vk/messengerageloader/a/f;
 
     move-result-object v4
 
     check-cast v4, Lcom/facebook/imagepipeline/request/a;
 
-    invoke-virtual {v3, v4}, Lcom/vk/imageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {v3, v4}, Lcom/vk/messengerageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
 
     .line 105
-    iget-object v3, p0, Lcom/vk/newsfeed/holders/attachments/af;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vk/newsfeed/holders/attachments/af;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    sget-object v4, Lcom/vk/imageloader/ImageSize;->BIG:Lcom/vk/imageloader/ImageSize;
+    sget-object v4, Lcom/vk/messengerageloader/ImageSize;->BIG:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v3, v1, v4}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {v3, v1, v4}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     .line 108
     :cond_0
-    iget-object v1, p0, Lcom/vk/newsfeed/holders/attachments/af;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/newsfeed/holders/attachments/af;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1}, Lcom/vk/imageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v1}, Lcom/vk/messengerageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
@@ -589,9 +589,9 @@
 
     if-eqz v1, :cond_3
 
-    iget-object v3, p0, Lcom/vk/newsfeed/holders/attachments/af;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vk/newsfeed/holders/attachments/af;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v3, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v3, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -666,13 +666,13 @@
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 124
-    iget-object v3, p0, Lcom/vk/newsfeed/holders/attachments/af;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vk/newsfeed/holders/attachments/af;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {v1}, Lcom/vk/dto/newsfeed/Owner;->f()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v3, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v3, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 127
     :cond_4

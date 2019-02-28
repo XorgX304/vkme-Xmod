@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private final a:Lcom/vk/imageloader/view/VKImageView;
+.field private final a:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final b:Landroid/widget/ImageView;
 
@@ -103,9 +103,9 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/video/view/c;->a:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/video/view/c;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x7f0a08f3
 
@@ -201,13 +201,13 @@
     invoke-virtual {v0, p2}, Landroid/widget/ImageView;->setTag(Ljava/lang/Object;)V
 
     .line 42
-    iget-object p2, p0, Lcom/vk/video/view/c;->a:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vk/video/view/c;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Lcom/vk/imageloader/view/VKImageView;->setTag(Ljava/lang/Object;)V
+    invoke-virtual {p2, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setTag(Ljava/lang/Object;)V
 
     .line 43
     iget-object p2, p0, Lcom/vk/video/view/c;->c:Landroid/view/View;
@@ -262,11 +262,11 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 57
-    iget-object v0, p0, Lcom/vk/video/view/c;->a:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/video/view/c;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p1, Lcom/vk/dto/common/VideoFile;->aa:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 59
     iget-object v0, p1, Lcom/vk/dto/common/VideoFile;->Y:Lcom/vk/dto/common/VerifyInfo;
@@ -399,9 +399,9 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 48
-    iget-object v0, p0, Lcom/vk/video/view/c;->a:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/video/view/c;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 49
     iget-object v0, p0, Lcom/vk/video/view/c;->b:Landroid/widget/ImageView;

@@ -2,5 +2,5 @@
 <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/branding" android:layout_width="fill_parent" android:layout_height="44.0dip" android:minHeight="44.0dip"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView android:textSize="14.0dip" android:textColor="@color/caption_gray" android:gravity="center_vertical" android:id="@id/brandingTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
-    <com.vk.imageloader.view.VKImageView android:id="@id/brandingImage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="14.0dip" android:scaleType="centerInside" android:minHeight="14.0dip" android:layout_marginStart="6.0dip" />
+    <com.vk.messengerageloader.view.VKImageView android:id="@id/brandingImage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="14.0dip" android:scaleType="centerInside" android:minHeight="14.0dip" android:layout_marginStart="6.0dip" />
 </LinearLayout>

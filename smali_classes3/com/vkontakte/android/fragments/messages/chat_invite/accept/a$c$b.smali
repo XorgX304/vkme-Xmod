@@ -94,7 +94,7 @@
 
     const/4 v8, 0x0
 
-    invoke-static/range {v1 .. v8}, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$c;->a(Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$c;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Lcom/vk/im/engine/models/chats/ChatPreview;ILjava/lang/Object;)V
+    invoke-static/range {v1 .. v8}, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$c;->a(Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$c;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Lcom/vk/messenger/engine/models/chats/ChatPreview;ILjava/lang/Object;)V
 
     goto :goto_0
 
@@ -104,7 +104,7 @@
     .line 120
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/vk/im/ui/components/common/e;->a(Ljava/lang/Throwable;)V
+    invoke-static {p1}, Lcom/vk/messenger/ui/components/common/e;->a(Ljava/lang/Throwable;)V
 
     :goto_0
     return-void

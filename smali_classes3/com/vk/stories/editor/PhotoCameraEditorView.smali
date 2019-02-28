@@ -18,7 +18,7 @@
 
 .field private r:Landroid/graphics/Bitmap;
 
-.field private s:Lcom/vk/imageloader/view/VKImageView;
+.field private s:Lcom/vk/messengerageloader/view/VKImageView;
 
 
 # direct methods
@@ -263,11 +263,11 @@
     return-void
 .end method
 
-.method static synthetic b(Lcom/vk/stories/editor/PhotoCameraEditorView;)Lcom/vk/imageloader/view/VKImageView;
+.method static synthetic b(Lcom/vk/stories/editor/PhotoCameraEditorView;)Lcom/vk/messengerageloader/view/VKImageView;
     .locals 0
 
     .line 39
-    iget-object p0, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p0, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-object p0
 .end method
@@ -330,34 +330,34 @@
     invoke-virtual {v0, v1}, Lcom/vk/attachpicker/analytics/a;->a(I)V
 
     .line 73
-    new-instance v0, Lcom/vk/imageloader/view/VKImageView;
+    new-instance v0, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p0}, Lcom/vk/stories/editor/PhotoCameraEditorView;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
-    iput-object v0, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->s:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 74
-    iget-object v0, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     sget-object v1, Landroid/widget/ImageView$ScaleType;->CENTER_CROP:Landroid/widget/ImageView$ScaleType;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
 
     .line 75
-    iget-object v0, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     sget-object v1, Lcom/facebook/drawee/drawable/p$b;->g:Lcom/facebook/drawee/drawable/p$b;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
 
     .line 76
     iget-object v0, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->n:Landroid/widget/FrameLayout;
 
-    iget-object v1, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
@@ -374,11 +374,11 @@
     if-eqz v0, :cond_0
 
     .line 80
-    iget-object v0, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->r:Landroid/graphics/Bitmap;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     goto :goto_0
 
@@ -389,7 +389,7 @@
     if-eqz v0, :cond_1
 
     .line 82
-    iget-object v0, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance v1, Lcom/facebook/imagepipeline/j/a;
 
@@ -401,20 +401,20 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v1, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Lcom/facebook/imagepipeline/request/a;Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {v0, v1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Lcom/facebook/imagepipeline/request/a;Lcom/facebook/imagepipeline/request/a;)V
 
     .line 83
-    iget-object v0, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->q:Landroid/net/Uri;
 
-    sget-object v2, Lcom/vk/imageloader/ImageSize;->SMALL:Lcom/vk/imageloader/ImageSize;
+    sget-object v2, Lcom/vk/messengerageloader/ImageSize;->SMALL:Lcom/vk/messengerageloader/ImageSize;
 
     iget-object v3, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->q:Landroid/net/Uri;
 
-    sget-object v4, Lcom/vk/imageloader/ImageSize;->BIG:Lcom/vk/imageloader/ImageSize;
+    sget-object v4, Lcom/vk/messengerageloader/ImageSize;->BIG:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/vk/imageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/vk/messengerageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;)V
 
     .line 85
     iget-object v5, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->q:Landroid/net/Uri;
@@ -431,7 +431,7 @@
 
     const/4 v11, 0x0
 
-    invoke-static/range {v5 .. v11}, Lcom/vk/imageloader/i;->a(Landroid/net/Uri;IIILcom/vk/imageloader/k;Lcom/vk/imageloader/j;Lcom/facebook/imagepipeline/request/b;)Lio/reactivex/j;
+    invoke-static/range {v5 .. v11}, Lcom/vk/messengerageloader/i;->a(Landroid/net/Uri;IIILcom/vk/messengerageloader/k;Lcom/vk/messengerageloader/j;Lcom/facebook/imagepipeline/request/b;)Lio/reactivex/j;
 
     move-result-object v0
 
@@ -478,11 +478,11 @@
     if-eqz p1, :cond_0
 
     .line 161
-    iget-object p1, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v0, p0, Lcom/vk/stories/editor/PhotoCameraEditorView;->r:Landroid/graphics/Bitmap;
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     :cond_0
     return-void

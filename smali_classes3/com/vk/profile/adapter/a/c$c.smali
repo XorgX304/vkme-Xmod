@@ -50,13 +50,13 @@
     .line 122
     iput-object p1, p0, Lcom/vk/profile/adapter/a/c$c;->n:Lcom/vk/profile/adapter/a/c;
 
-    new-instance p1, Lcom/vk/imageloader/view/VKImageView;
+    new-instance p1, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p2}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
     move-result-object p2
 
-    invoke-direct {p1, p2}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
     check-cast p1, Landroid/view/View;
 
@@ -85,16 +85,16 @@
     throw p1
 
     :cond_0
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
     sget-object p2, Lcom/facebook/drawee/drawable/p$b;->g:Lcom/facebook/drawee/drawable/p$b;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
 
     .line 128
     iget-object p1, p0, Lcom/vk/profile/adapter/a/c$c;->a:Landroid/view/View;
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance p2, Landroid/graphics/drawable/ColorDrawable;
 
@@ -112,7 +112,7 @@
 
     check-cast p2, Landroid/graphics/drawable/Drawable;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(Landroid/graphics/drawable/Drawable;)V
 
     return-void
 .end method
@@ -248,13 +248,13 @@
     throw p1
 
     :cond_2
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/common/ImageSize;->a()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     return-void
 .end method

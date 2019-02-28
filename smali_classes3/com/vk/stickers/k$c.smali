@@ -104,9 +104,9 @@
 
     invoke-direct {v1, p0, p1}, Lcom/vk/stickers/k$c$b;-><init>(Lcom/vk/stickers/k$c;Lcom/vk/stickers/k$d;)V
 
-    check-cast v1, Lcom/vk/imageloader/g;
+    check-cast v1, Lcom/vk/messengerageloader/g;
 
-    invoke-virtual {v0, v1}, Lcom/vk/stickers/views/VKStickerCachedImageView;->setOnLoadCallback(Lcom/vk/imageloader/g;)V
+    invoke-virtual {v0, v1}, Lcom/vk/stickers/views/VKStickerCachedImageView;->setOnLoadCallback(Lcom/vk/messengerageloader/g;)V
 
     .line 285
     invoke-virtual {p1}, Lcom/vk/stickers/k$d;->b()Lcom/vk/stickers/views/VKStickerCachedImageView;

@@ -90,7 +90,7 @@
 
 .field private ay:Landroid/widget/ImageView;
 
-.field private az:Lcom/vk/imageloader/view/VKCircleImageView;
+.field private az:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
 
 # direct methods
@@ -2621,7 +2621,7 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     goto :goto_5
 
@@ -2629,7 +2629,7 @@
     move-object p1, v1
 
     :goto_5
-    iput-object p1, p0, Lcom/vk/articles/a;->az:Lcom/vk/imageloader/view/VKCircleImageView;
+    iput-object p1, p0, Lcom/vk/articles/a;->az:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     .line 420
     invoke-direct {p0}, Lcom/vk/articles/a;->av()Lcom/vk/dto/newsfeed/Owner;
@@ -2639,7 +2639,7 @@
     if-eqz p1, :cond_1a
 
     .line 421
-    iget-object v3, p0, Lcom/vk/articles/a;->az:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object v3, p0, Lcom/vk/articles/a;->az:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     if-eqz v3, :cond_15
 
@@ -2657,7 +2657,7 @@
     const v4, 0x7f080735
 
     :goto_6
-    invoke-virtual {v3, v4}, Lcom/vk/imageloader/view/VKCircleImageView;->setPlaceholderImage(I)V
+    invoke-virtual {v3, v4}, Lcom/vk/messengerageloader/view/VKCircleImageView;->setPlaceholderImage(I)V
 
     .line 423
     :cond_15
@@ -2774,7 +2774,7 @@
 
     .line 433
     :cond_19
-    iget-object v3, p0, Lcom/vk/articles/a;->az:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object v3, p0, Lcom/vk/articles/a;->az:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     if-eqz v3, :cond_1a
 
@@ -2783,7 +2783,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v3, v4}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v3, v4}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     .line 435
     invoke-virtual {p1}, Lcom/vk/dto/newsfeed/Owner;->e()Ljava/lang/String;
@@ -2792,12 +2792,12 @@
 
     check-cast p1, Ljava/lang/CharSequence;
 
-    invoke-virtual {v3, p1}, Lcom/vk/imageloader/view/VKCircleImageView;->setContentDescription(Ljava/lang/CharSequence;)V
+    invoke-virtual {v3, p1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->setContentDescription(Ljava/lang/CharSequence;)V
 
     .line 439
     :cond_1a
     :goto_a
-    iget-object p1, p0, Lcom/vk/articles/a;->az:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object p1, p0, Lcom/vk/articles/a;->az:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     if-eqz p1, :cond_1b
 
@@ -3747,11 +3747,11 @@
     return-void
 .end method
 
-.method public static final synthetic i(Lcom/vk/articles/a;)Lcom/vk/imageloader/view/VKCircleImageView;
+.method public static final synthetic i(Lcom/vk/articles/a;)Lcom/vk/messengerageloader/view/VKCircleImageView;
     .locals 0
 
     .line 64
-    iget-object p0, p0, Lcom/vk/articles/a;->az:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object p0, p0, Lcom/vk/articles/a;->az:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     return-object p0
 .end method
@@ -4686,7 +4686,7 @@
     iput-object p1, p0, Lcom/vk/articles/a;->af:Lcom/vk/dto/articles/Article;
 
     .line 827
-    iget-object p1, p0, Lcom/vk/articles/a;->az:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object p1, p0, Lcom/vk/articles/a;->az:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     if-eqz p1, :cond_2
 
@@ -4713,7 +4713,7 @@
     const v0, 0x7f080735
 
     :goto_0
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKCircleImageView;->setPlaceholderImage(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKCircleImageView;->setPlaceholderImage(I)V
 
     .line 828
     :cond_2
@@ -4736,7 +4736,7 @@
     if-eqz p1, :cond_5
 
     .line 829
-    iget-object p1, p0, Lcom/vk/articles/a;->az:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object p1, p0, Lcom/vk/articles/a;->az:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     if-eqz p1, :cond_6
 
@@ -4753,17 +4753,17 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     goto :goto_2
 
     .line 831
     :cond_5
-    iget-object p1, p0, Lcom/vk/articles/a;->az:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object p1, p0, Lcom/vk/articles/a;->az:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     if-eqz p1, :cond_6
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKCircleImageView;->h()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->h()V
 
     .line 833
     :cond_6

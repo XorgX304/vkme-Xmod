@@ -84,7 +84,7 @@
     .line 153
     iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/comments/d$a;->a:Lcom/vk/newsfeed/holders/attachments/comments/d;
 
-    invoke-virtual {v0}, Lcom/vk/newsfeed/holders/attachments/comments/d;->A()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {v0}, Lcom/vk/newsfeed/holders/attachments/comments/d;->A()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
@@ -94,7 +94,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v0, v3}, Lcom/vk/imageloader/view/VKImageView;->getLocationOnScreen([I)V
+    invoke-virtual {v0, v3}, Lcom/vk/messengerageloader/view/VKImageView;->getLocationOnScreen([I)V
 
     .line 154
     iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/comments/d$a;->a:Lcom/vk/newsfeed/holders/attachments/comments/d;
@@ -193,7 +193,7 @@
     .line 137
     iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/comments/d$a;->a:Lcom/vk/newsfeed/holders/attachments/comments/d;
 
-    invoke-virtual {v0}, Lcom/vk/newsfeed/holders/attachments/comments/d;->A()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {v0}, Lcom/vk/newsfeed/holders/attachments/comments/d;->A()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
@@ -204,7 +204,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->getLocationOnScreen([I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->getLocationOnScreen([I)V
 
     .line 139
     new-instance v1, Landroid/graphics/Rect;
@@ -237,7 +237,7 @@
 
     aget v3, v6, v3
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getWidth()I
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getWidth()I
 
     move-result v6
 
@@ -251,7 +251,7 @@
 
     aget v5, v6, v5
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getHeight()I
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getHeight()I
 
     move-result v0
 
@@ -273,11 +273,11 @@
     .line 146
     iget-object v1, p0, Lcom/vk/newsfeed/holders/attachments/comments/d$a;->a:Lcom/vk/newsfeed/holders/attachments/comments/d;
 
-    invoke-virtual {v1}, Lcom/vk/newsfeed/holders/attachments/comments/d;->A()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {v1}, Lcom/vk/newsfeed/holders/attachments/comments/d;->A()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->getGlobalVisibleRect(Landroid/graphics/Rect;)Z
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->getGlobalVisibleRect(Landroid/graphics/Rect;)Z
 
     return-object v0
 .end method

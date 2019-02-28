@@ -3,7 +3,7 @@
 .source "TrimScreen.java"
 
 # interfaces
-.implements Lcom/vk/imageloader/g;
+.implements Lcom/vk/messengerageloader/g;
 
 
 # annotations

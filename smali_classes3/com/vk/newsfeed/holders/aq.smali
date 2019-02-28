@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKCircleImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
 .field private final p:Lcom/vkontakte/android/ui/LinkedTextView;
 
@@ -61,9 +61,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/aq;->n:Lcom/vk/imageloader/view/VKCircleImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/aq;->n:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     .line 30
     iget-object p1, p0, Lcom/vk/newsfeed/holders/aq;->a:Landroid/view/View;
@@ -540,7 +540,7 @@
     invoke-virtual {v0, v2}, Lcom/vkontakte/android/ui/LinkedTextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 57
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/aq;->n:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/aq;->n:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     if-eqz p1, :cond_3
 
@@ -553,7 +553,7 @@
     iget-object v1, p1, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
     :cond_3
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     return-void
 .end method

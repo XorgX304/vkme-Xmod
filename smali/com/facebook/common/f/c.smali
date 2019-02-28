@@ -10,12 +10,12 @@
 
 .field public static final c:Z
 
-.field public static d:Lcom/facebook/common/f/b; = null
+.field public static d:Lcom/facebook/common/f/b;
     .annotation runtime Ljavax/annotation/Nullable;
     .end annotation
 .end field
 
-.field private static e:Z = false
+.field private static e:Z
 
 .field private static final f:[B
 

@@ -2,5 +2,8 @@
 <layer-list
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="?selectableItemBackgroundBorderless" />
-    <item android:drawable="@drawable/bg_input_send_button" />
+    <item android:drawable="@drawable/bg_input_send_button">
+        <solid android:padding="8.0dip" android:color="?header_background" />
+        <corner android:radius="24.0dip" />
+    </item>
 </layer-list>

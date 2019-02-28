@@ -3208,9 +3208,9 @@
 
     move-result-object p1
 
-    sget-object v0, Lcom/vk/imageloader/ImageSize;->SIZE_28DP:Lcom/vk/imageloader/ImageSize;
+    sget-object v0, Lcom/vk/messengerageloader/ImageSize;->SIZE_28DP:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-static {p1, v0}, Lcom/vk/imageloader/i;->b(Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;)Lio/reactivex/j;
+    invoke-static {p1, v0}, Lcom/vk/messengerageloader/i;->b(Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;)Lio/reactivex/j;
 
     move-result-object p1
 

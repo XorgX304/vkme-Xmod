@@ -3,11 +3,11 @@
 
 
 # static fields
-.field private static volatile a:Lru/mail/libverify/api/u; = null
+.field private static volatile a:Lru/mail/libverify/api/u;
 
-.field private static volatile b:Lru/mail/libverify/storage/m; = null
+.field private static volatile b:Lru/mail/libverify/storage/m;
 
-.field private static volatile c:Z = false
+.field private static volatile c:Z
 
 .field private static volatile d:Lru/mail/libverify/api/UncaughtExceptionListener;
 

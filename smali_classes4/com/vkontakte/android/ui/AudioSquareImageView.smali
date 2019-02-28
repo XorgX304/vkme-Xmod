@@ -1,5 +1,5 @@
 .class public Lcom/vkontakte/android/ui/AudioSquareImageView;
-.super Lcom/vk/imageloader/view/VKImageView;
+.super Lcom/vk/messengerageloader/view/VKImageView;
 .source "AudioSquareImageView.java"
 
 
@@ -20,7 +20,7 @@
     .locals 0
 
     .line 18
-    invoke-direct {p0, p1}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
     .line 15
     new-instance p1, Landroid/graphics/Rect;
@@ -36,7 +36,7 @@
     .locals 0
 
     .line 22
-    invoke-direct {p0, p1, p2}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 15
     new-instance p1, Landroid/graphics/Rect;
@@ -52,7 +52,7 @@
     .locals 0
 
     .line 26
-    invoke-direct {p0, p1, p2, p3}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 15
     new-instance p1, Landroid/graphics/Rect;
@@ -127,7 +127,7 @@
 
     .line 58
     :try_start_0
-    invoke-super {p0, p1}, Lcom/vk/imageloader/view/VKImageView;->onDraw(Landroid/graphics/Canvas;)V
+    invoke-super {p0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->onDraw(Landroid/graphics/Canvas;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

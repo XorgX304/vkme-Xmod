@@ -34,11 +34,11 @@
     .line 358
     iget-object p1, p0, Lcom/vk/attachpicker/stickers/c$h;->a:Landroid/view/View;
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setAspectRatio(F)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setAspectRatio(F)V
 
     const/16 p1, 0x8
 
@@ -96,11 +96,11 @@
     .line 375
     iget-object p2, p0, Lcom/vk/attachpicker/stickers/c$h;->a:Landroid/view/View;
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    sget-object v0, Lcom/vk/imageloader/ImageSize;->SMALL:Lcom/vk/imageloader/ImageSize;
+    sget-object v0, Lcom/vk/messengerageloader/ImageSize;->SMALL:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {p2, p1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {p2, p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     return-void
 .end method

@@ -3,7 +3,7 @@
 .source "VkMoneyBridge.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/a/h;
+.implements Lcom/vk/messenger/ui/a/h;
 
 
 # static fields
@@ -104,7 +104,7 @@
     invoke-static {p1, p2}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 23
-    invoke-static {p3}, Lcom/vk/im/engine/utils/g;->g(I)Z
+    invoke-static {p3}, Lcom/vk/messenger/engine/utils/g;->g(I)Z
 
     move-result p2
 

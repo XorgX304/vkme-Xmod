@@ -23,7 +23,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final o:Landroid/widget/TextView;
 
@@ -58,9 +58,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/d/t$b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/d/t$b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 72
     iget-object p1, p0, Lcom/vkontakte/android/ui/holder/d/t$b;->a:Landroid/view/View;
@@ -76,7 +76,7 @@
     iput-object p1, p0, Lcom/vkontakte/android/ui/holder/d/t$b;->o:Landroid/widget/TextView;
 
     .line 75
-    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/d/t$b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/d/t$b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     const-string p2, "image"
 
@@ -84,7 +84,7 @@
 
     const/high16 p2, 0x3f800000    # 1.0f
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setAspectRatio(F)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setAspectRatio(F)V
 
     .line 76
     iget-object p1, p0, Lcom/vkontakte/android/ui/holder/d/t$b;->a:Landroid/view/View;
@@ -116,7 +116,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 80
-    iget-object v0, p0, Lcom/vkontakte/android/ui/holder/d/t$b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/holder/d/t$b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p1, Lcom/vkontakte/android/data/ApiApplication;->c:Lcom/vk/dto/photo/Photo;
 
@@ -138,7 +138,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 81
     iget-object v0, p0, Lcom/vkontakte/android/ui/holder/d/t$b;->o:Landroid/widget/TextView;

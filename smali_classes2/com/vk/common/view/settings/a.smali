@@ -13,7 +13,7 @@
 
 
 # instance fields
-.field private final a:Lcom/vk/imageloader/view/VKImageView;
+.field private final a:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final b:Landroid/widget/TextView;
 
@@ -73,9 +73,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v1, p0, Lcom/vk/common/view/settings/a;->a:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v1, p0, Lcom/vk/common/view/settings/a;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v1, 0x7f0a0b83
 
@@ -117,31 +117,31 @@
     if-eqz p3, :cond_0
 
     .line 48
-    iget-object v1, p0, Lcom/vk/common/view/settings/a;->a:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/common/view/settings/a;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 49
-    iget-object v1, p0, Lcom/vk/common/view/settings/a;->a:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/common/view/settings/a;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p3}, Ljava/lang/Integer;->intValue()I
 
     move-result p3
 
-    invoke-virtual {v1, p3}, Lcom/vk/imageloader/view/VKImageView;->a(I)V
+    invoke-virtual {v1, p3}, Lcom/vk/messengerageloader/view/VKImageView;->a(I)V
 
     goto :goto_0
 
     .line 51
     :cond_0
-    iget-object p3, p0, Lcom/vk/common/view/settings/a;->a:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p3, p0, Lcom/vk/common/view/settings/a;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p3, p4}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {p3, p4}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 52
-    iget-object p3, p0, Lcom/vk/common/view/settings/a;->a:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p3, p0, Lcom/vk/common/view/settings/a;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p3}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {p3}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     :goto_0
     const/4 p3, 0x0

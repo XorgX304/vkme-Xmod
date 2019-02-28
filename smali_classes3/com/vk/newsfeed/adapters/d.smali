@@ -36,7 +36,7 @@
 # instance fields
 .field public a:Lcom/vk/navigation/a;
 
-.field private final d:Lcom/vk/im/ui/views/image_zhukov/k;
+.field private final d:Lcom/vk/messenger/ui/views/image_zhukov/k;
 
 .field private e:Lcom/vk/newsfeed/adapters/d$b;
 
@@ -95,11 +95,11 @@
     invoke-direct {p0}, Lcom/vk/lists/ab;-><init>()V
 
     .line 61
-    new-instance v0, Lcom/vk/im/ui/views/image_zhukov/k;
+    new-instance v0, Lcom/vk/messenger/ui/views/image_zhukov/k;
 
-    invoke-direct {v0}, Lcom/vk/im/ui/views/image_zhukov/k;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/ui/views/image_zhukov/k;-><init>()V
 
-    iput-object v0, p0, Lcom/vk/newsfeed/adapters/d;->d:Lcom/vk/im/ui/views/image_zhukov/k;
+    iput-object v0, p0, Lcom/vk/newsfeed/adapters/d;->d:Lcom/vk/messenger/ui/views/image_zhukov/k;
 
     .line 74
     new-instance v0, Lcom/vk/newsfeed/adapters/d$c;
@@ -163,11 +163,11 @@
     invoke-direct {p0, p1}, Lcom/vk/lists/ab;-><init>(Lcom/vk/lists/b;)V
 
     .line 61
-    new-instance p1, Lcom/vk/im/ui/views/image_zhukov/k;
+    new-instance p1, Lcom/vk/messenger/ui/views/image_zhukov/k;
 
-    invoke-direct {p1}, Lcom/vk/im/ui/views/image_zhukov/k;-><init>()V
+    invoke-direct {p1}, Lcom/vk/messenger/ui/views/image_zhukov/k;-><init>()V
 
-    iput-object p1, p0, Lcom/vk/newsfeed/adapters/d;->d:Lcom/vk/im/ui/views/image_zhukov/k;
+    iput-object p1, p0, Lcom/vk/newsfeed/adapters/d;->d:Lcom/vk/messenger/ui/views/image_zhukov/k;
 
     .line 74
     new-instance p1, Lcom/vk/newsfeed/adapters/d$c;
@@ -1083,9 +1083,9 @@
     :pswitch_49
     new-instance p2, Lcom/vk/newsfeed/holders/attachments/ay;
 
-    iget-object v0, p0, Lcom/vk/newsfeed/adapters/d;->d:Lcom/vk/im/ui/views/image_zhukov/k;
+    iget-object v0, p0, Lcom/vk/newsfeed/adapters/d;->d:Lcom/vk/messenger/ui/views/image_zhukov/k;
 
-    invoke-direct {p2, p1, v0}, Lcom/vk/newsfeed/holders/attachments/ay;-><init>(Landroid/view/ViewGroup;Lcom/vk/im/ui/views/image_zhukov/k;)V
+    invoke-direct {p2, p1, v0}, Lcom/vk/newsfeed/holders/attachments/ay;-><init>(Landroid/view/ViewGroup;Lcom/vk/messenger/ui/views/image_zhukov/k;)V
 
     check-cast p2, Lcom/vk/newsfeed/holders/f;
 

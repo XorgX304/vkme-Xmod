@@ -331,7 +331,7 @@
     if-lt v0, v1, :cond_4
 
     .line 605
-    iget-object p1, p1, Lcom/vkontakte/android/ui/holder/i;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p1, Lcom/vkontakte/android/ui/holder/i;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {}, Lcom/vkontakte/android/fragments/aa;->aE()[I
 
@@ -361,7 +361,7 @@
 
     aget p2, v0, p2
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setImageResource(I)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setImageResource(I)V
 
     :cond_4
     return-void

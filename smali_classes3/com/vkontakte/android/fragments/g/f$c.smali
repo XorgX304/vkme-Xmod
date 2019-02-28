@@ -33,13 +33,13 @@
 # instance fields
 .field final synthetic n:Lcom/vkontakte/android/fragments/g/f;
 
-.field private o:Lcom/vk/imageloader/view/VKImageView;
+.field private o:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private p:Landroid/widget/TextView;
 
 .field private q:Landroid/widget/TextView;
 
-.field private r:Lcom/vk/imageloader/view/VKImageView;
+.field private r:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private s:Landroid/widget/TextView;
 
@@ -67,9 +67,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/fragments/g/f$c;->o:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/fragments/g/f$c;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x7f0a0048
 
@@ -87,9 +87,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/fragments/g/f$c;->r:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/fragments/g/f$c;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x7f0a028b
 
@@ -170,23 +170,23 @@
     if-nez v0, :cond_0
 
     .line 308
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/g/f$c;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/g/f$c;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p1, Lcom/vkontakte/android/api/models/GiftItem;->d:Lcom/vk/dto/user/UserProfileGift;
 
     iget-object v1, v1, Lcom/vk/dto/user/UserProfileGift;->r:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 310
     :cond_0
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/g/f$c;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/g/f$c;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v1, 0x7f080748
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setImageResource(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setImageResource(I)V
 
     .line 312
     :goto_0
@@ -195,13 +195,13 @@
     if-eqz v0, :cond_1
 
     .line 313
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/g/f$c;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/g/f$c;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p1, Lcom/vkontakte/android/api/models/GiftItem;->g:Lcom/vkontakte/android/api/models/Gift;
 
     iget-object v1, v1, Lcom/vkontakte/android/api/models/Gift;->d:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 315
     :cond_1

@@ -1346,7 +1346,7 @@
 
     check-cast p1, Ljava/lang/CharSequence;
 
-    invoke-static {v0, p1}, Lcom/vk/im/ui/utils/a;->a(Landroid/content/Context;Ljava/lang/CharSequence;)V
+    invoke-static {v0, p1}, Lcom/vk/messenger/ui/utils/a;->a(Landroid/content/Context;Ljava/lang/CharSequence;)V
 
     const p1, 0x7f110526
 
@@ -1379,7 +1379,7 @@
 
     check-cast p1, Ljava/lang/CharSequence;
 
-    invoke-static {v0, p1}, Lcom/vk/im/ui/utils/a;->a(Landroid/content/Context;Ljava/lang/CharSequence;)V
+    invoke-static {v0, p1}, Lcom/vk/messenger/ui/utils/a;->a(Landroid/content/Context;Ljava/lang/CharSequence;)V
 
     const p1, 0x7f110c56
 

@@ -70,7 +70,7 @@
 
     move-result-object p1
 
-    instance-of p1, p1, Lcom/vk/im/ui/fragments/ChatFragment;
+    instance-of p1, p1, Lcom/vk/messenger/ui/fragments/ChatFragment;
 
     if-nez p1, :cond_2
 

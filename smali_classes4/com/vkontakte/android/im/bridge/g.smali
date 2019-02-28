@@ -3,7 +3,7 @@
 .source "VkCallsBridge.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/a/d;
+.implements Lcom/vk/messenger/ui/a/d;
 
 
 # static fields

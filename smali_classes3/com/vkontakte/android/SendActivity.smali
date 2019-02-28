@@ -1139,28 +1139,28 @@
     .end annotation
 
     .line 225
-    invoke-static {}, Lcom/vk/im/ui/fragments/ChatFragment;->as()Lcom/vk/im/ui/fragments/a;
+    invoke-static {}, Lcom/vk/messenger/ui/fragments/ChatFragment;->as()Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object v0
 
     iget p1, p1, Lcom/vkontakte/android/UserProfile;->n:I
 
     .line 226
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/fragments/a;->a(I)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/fragments/a;->a(I)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
     const-string v0, "share_external"
 
     .line 227
-    invoke-virtual {p1, v0}, Lcom/vk/im/ui/fragments/a;->d(Ljava/lang/String;)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/ui/fragments/a;->d(Ljava/lang/String;)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
     if-eqz p2, :cond_0
 
     .line 229
-    invoke-virtual {p1, p2}, Lcom/vk/im/ui/fragments/a;->a(Ljava/lang/String;)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p1, p2}, Lcom/vk/messenger/ui/fragments/a;->a(Ljava/lang/String;)Lcom/vk/messenger/ui/fragments/a;
 
     :cond_0
     if-eqz p3, :cond_1
@@ -1178,11 +1178,11 @@
 
     check-cast p2, [Landroid/os/Parcelable;
 
-    invoke-virtual {p1, p2}, Lcom/vk/im/ui/fragments/a;->a([Landroid/os/Parcelable;)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p1, p2}, Lcom/vk/messenger/ui/fragments/a;->a([Landroid/os/Parcelable;)Lcom/vk/messenger/ui/fragments/a;
 
     .line 234
     :cond_1
-    invoke-virtual {p1, p0}, Lcom/vk/im/ui/fragments/a;->c(Landroid/content/Context;)V
+    invoke-virtual {p1, p0}, Lcom/vk/messenger/ui/fragments/a;->c(Landroid/content/Context;)V
 
     .line 235
     invoke-virtual {p0}, Lcom/vkontakte/android/SendActivity;->finish()V

@@ -23,7 +23,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/ArrayList<",
-            "Lcom/vk/im/ui/views/image_zhukov/l;",
+            "Lcom/vk/messenger/ui/views/image_zhukov/l;",
             ">;"
         }
     .end annotation
@@ -261,11 +261,11 @@
     .line 147
     iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/ay$a;->a:Lcom/vk/newsfeed/holders/attachments/ay;
 
-    invoke-static {v0}, Lcom/vk/newsfeed/holders/attachments/ay;->a(Lcom/vk/newsfeed/holders/attachments/ay;)Lcom/vk/im/ui/views/image_zhukov/ZhukovLayout;
+    invoke-static {v0}, Lcom/vk/newsfeed/holders/attachments/ay;->a(Lcom/vk/newsfeed/holders/attachments/ay;)Lcom/vk/messenger/ui/views/image_zhukov/ZhukovLayout;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/views/image_zhukov/ZhukovLayout;->getChildCount()I
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/views/image_zhukov/ZhukovLayout;->getChildCount()I
 
     move-result v0
 
@@ -279,16 +279,16 @@
     .line 149
     iget-object v3, p0, Lcom/vk/newsfeed/holders/attachments/ay$a;->a:Lcom/vk/newsfeed/holders/attachments/ay;
 
-    invoke-static {v3}, Lcom/vk/newsfeed/holders/attachments/ay;->a(Lcom/vk/newsfeed/holders/attachments/ay;)Lcom/vk/im/ui/views/image_zhukov/ZhukovLayout;
+    invoke-static {v3}, Lcom/vk/newsfeed/holders/attachments/ay;->a(Lcom/vk/newsfeed/holders/attachments/ay;)Lcom/vk/messenger/ui/views/image_zhukov/ZhukovLayout;
 
     move-result-object v3
 
-    invoke-virtual {v3, v2}, Lcom/vk/im/ui/views/image_zhukov/ZhukovLayout;->a(I)Lcom/vk/im/ui/views/image_zhukov/l;
+    invoke-virtual {v3, v2}, Lcom/vk/messenger/ui/views/image_zhukov/ZhukovLayout;->a(I)Lcom/vk/messenger/ui/views/image_zhukov/l;
 
     move-result-object v3
 
     .line 150
-    iget v4, v3, Lcom/vk/im/ui/views/image_zhukov/l;->b:I
+    iget v4, v3, Lcom/vk/messenger/ui/views/image_zhukov/l;->b:I
 
     if-eqz v4, :cond_0
 
@@ -319,11 +319,11 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/im/ui/views/image_zhukov/l;
+    check-cast p1, Lcom/vk/messenger/ui/views/image_zhukov/l;
 
     if-eqz p1, :cond_6
 
-    iget-object p1, p1, Lcom/vk/im/ui/views/image_zhukov/l;->a:Landroid/view/View;
+    iget-object p1, p1, Lcom/vk/messenger/ui/views/image_zhukov/l;->a:Landroid/view/View;
 
     if-eqz p1, :cond_6
 

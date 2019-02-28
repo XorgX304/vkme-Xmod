@@ -3,7 +3,7 @@
 .source "ImStoryConverter.kt"
 
 # interfaces
-.implements Lcom/vk/im/engine/k;
+.implements Lcom/vk/messenger/engine/k;
 
 
 # direct methods
@@ -18,7 +18,7 @@
 
 
 # virtual methods
-.method public a(Lcom/vk/im/engine/models/camera/VideoParams;Lcom/vk/im/engine/internal/e;)Landroid/net/Uri;
+.method public a(Lcom/vk/messenger/engine/models/camera/VideoParams;Lcom/vk/messenger/engine/internal/e;)Landroid/net/Uri;
     .locals 3
 
     const-string v0, "params"
@@ -28,14 +28,14 @@
     .line 17
     new-instance v0, Lcom/vk/stories/util/CameraVideoEncoder$Parameters;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/camera/VideoParams;->a()Ljava/io/File;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/camera/VideoParams;->a()Ljava/io/File;
 
     move-result-object v1
 
     invoke-direct {v0, v1}, Lcom/vk/stories/util/CameraVideoEncoder$Parameters;-><init>(Ljava/io/File;)V
 
     .line 18
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/camera/VideoParams;->f()F
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/camera/VideoParams;->f()F
 
     move-result v1
 
@@ -44,7 +44,7 @@
     move-result-object v0
 
     .line 19
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/camera/VideoParams;->e()Z
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/camera/VideoParams;->e()Z
 
     move-result v1
 
@@ -53,7 +53,7 @@
     move-result-object v0
 
     .line 20
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/camera/VideoParams;->g()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/camera/VideoParams;->g()I
 
     move-result v1
 
@@ -62,7 +62,7 @@
     move-result-object v0
 
     .line 21
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/camera/VideoParams;->d()Z
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/camera/VideoParams;->d()Z
 
     move-result v1
 
@@ -71,7 +71,7 @@
     move-result-object v0
 
     .line 22
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/camera/VideoParams;->b()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/camera/VideoParams;->b()I
 
     move-result v1
 
@@ -80,7 +80,7 @@
     move-result-object v0
 
     .line 23
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/camera/VideoParams;->c()Ljava/io/File;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/camera/VideoParams;->c()Ljava/io/File;
 
     move-result-object p1
 
@@ -109,7 +109,7 @@
     .line 26
     new-instance v2, Lcom/vkontakte/android/im/c/b$a;
 
-    invoke-direct {v2, p2, v1, v0}, Lcom/vkontakte/android/im/c/b$a;-><init>(Lcom/vk/im/engine/internal/e;Lkotlin/jvm/internal/Ref$ObjectRef;Ljava/util/concurrent/CountDownLatch;)V
+    invoke-direct {v2, p2, v1, v0}, Lcom/vkontakte/android/im/c/b$a;-><init>(Lcom/vk/messenger/engine/internal/e;Lkotlin/jvm/internal/Ref$ObjectRef;Ljava/util/concurrent/CountDownLatch;)V
 
     check-cast v2, Lcom/vk/stories/util/CameraVideoEncoder$a;
 

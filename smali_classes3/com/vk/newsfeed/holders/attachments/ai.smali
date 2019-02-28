@@ -11,7 +11,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKSnippetImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
 .field private final p:Landroid/widget/TextView;
 
@@ -64,15 +64,15 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKSnippetImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     const/4 v2, 0x6
 
     .line 42
-    invoke-virtual {p1, v2}, Lcom/vk/imageloader/view/VKSnippetImageView;->setType(I)V
+    invoke-virtual {p1, v2}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->setType(I)V
 
     .line 41
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ai;->n:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ai;->n:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     .line 44
     iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ai;->a:Landroid/view/View;
@@ -644,7 +644,7 @@
     move-result-object p1
 
     .line 72
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/ai;->n:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/ai;->n:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     iget-object v1, p1, Lcom/vk/dto/music/MusicTrack;->s:Lcom/vk/dto/podcast/Episode;
 
@@ -678,7 +678,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKSnippetImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->a(Ljava/lang/String;)V
 
     .line 73
     iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/ai;->p:Landroid/widget/TextView;

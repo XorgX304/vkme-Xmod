@@ -223,16 +223,16 @@
 
     .line 558
     :cond_0
-    new-instance v1, Lcom/vk/imageloader/view/VKImageView;
+    new-instance v1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-direct {v1, v0}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
     .line 559
     new-instance v0, Lcom/vk/attachpicker/widget/i;
 
     invoke-direct {v0}, Lcom/vk/attachpicker/widget/i;-><init>()V
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(Landroid/graphics/drawable/Drawable;)V
 
     .line 560
     new-instance v0, Lcom/vkontakte/android/fragments/i/a$9;
@@ -244,7 +244,7 @@
     .line 567
     sget-object v0, Landroid/widget/ImageView$ScaleType;->CENTER_CROP:Landroid/widget/ImageView$ScaleType;
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
 
     .line 568
     iget-object v0, p0, Lcom/vkontakte/android/fragments/i/a;->aq:Landroid/view/ViewGroup;
@@ -329,7 +329,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 580
     iput-object p1, p0, Lcom/vkontakte/android/fragments/i/a;->ao:Landroid/location/Location;

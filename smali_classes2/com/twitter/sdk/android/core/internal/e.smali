@@ -94,7 +94,7 @@
     .line 72
     new-instance v1, Landroid/content/Intent;
 
-    const-string v3, "com.google.android.gms.ads.identifier.service.START"
+    const-string v3, "com.google.android.gms.ads.identifier.service.STARTes"
 
     invoke-direct {v1, v3}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 

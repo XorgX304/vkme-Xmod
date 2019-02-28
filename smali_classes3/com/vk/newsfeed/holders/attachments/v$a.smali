@@ -1,5 +1,5 @@
 .class public final Lcom/vk/newsfeed/holders/attachments/v$a;
-.super Lcom/vk/im/ui/utils/c/b;
+.super Lcom/vk/messenger/ui/utils/c/b;
 .source "DocumentPreviewsHolder.kt"
 
 
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/vk/im/ui/utils/c/b<",
+        "Lcom/vk/messenger/ui/utils/c/b<",
         "Lcom/vk/newsfeed/holders/attachments/w;",
         ">;"
     }
@@ -35,9 +35,9 @@
 
     invoke-direct {v0, p1}, Lcom/vk/newsfeed/holders/attachments/w$a;-><init>(Landroid/view/ViewGroup;)V
 
-    check-cast v0, Lcom/vk/im/ui/utils/c/a;
+    check-cast v0, Lcom/vk/messenger/ui/utils/c/a;
 
-    invoke-direct {p0, v0}, Lcom/vk/im/ui/utils/c/b;-><init>(Lcom/vk/im/ui/utils/c/a;)V
+    invoke-direct {p0, v0}, Lcom/vk/messenger/ui/utils/c/b;-><init>(Lcom/vk/messenger/ui/utils/c/a;)V
 
     return-void
 .end method

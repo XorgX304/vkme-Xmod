@@ -10,7 +10,7 @@
 
 .field private c:Landroid/view/View;
 
-.field private d:Lcom/vk/imageloader/view/VKImageView;
+.field private d:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private e:Landroid/widget/TextView;
 
@@ -145,9 +145,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v0, p0, Lcom/vk/attachpicker/f;->d:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vk/attachpicker/f;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f0a0b7a
 
@@ -172,7 +172,7 @@
     div-float/2addr v0, v1
 
     .line 52
-    iget-object v1, p0, Lcom/vk/attachpicker/f;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/attachpicker/f;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     const/high16 v2, 0x40000000    # 2.0f
 
@@ -186,19 +186,19 @@
 
     move-result v0
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->setAspectRatio(F)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setAspectRatio(F)V
 
     .line 53
-    iget-object v0, p0, Lcom/vk/attachpicker/f;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/attachpicker/f;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p2, Lcom/vkontakte/android/api/Document;->j:Ljava/lang/String;
 
-    sget-object v2, Lcom/vk/imageloader/ImageSize;->MID:Lcom/vk/imageloader/ImageSize;
+    sget-object v2, Lcom/vk/messengerageloader/ImageSize;->MID:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v0, v1, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {v0, v1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     .line 55
-    iget-object v0, p0, Lcom/vk/attachpicker/f;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/attachpicker/f;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {}, Lcom/vk/core/util/Screen;->f()I
 
@@ -212,10 +212,10 @@
 
     sub-int/2addr v1, v2
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setMaxHeight(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setMaxHeight(I)V
 
     .line 56
-    iget-object v0, p0, Lcom/vk/attachpicker/f;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/attachpicker/f;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {}, Lcom/vk/core/util/Screen;->f()I
 
@@ -229,16 +229,16 @@
 
     sub-int/2addr v1, v2
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setMaxWidth(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setMaxWidth(I)V
 
     .line 57
-    iget-object v0, p0, Lcom/vk/attachpicker/f;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/attachpicker/f;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance v1, Lcom/vk/attachpicker/f$1;
 
     invoke-direct {v1, p0}, Lcom/vk/attachpicker/f$1;-><init>(Lcom/vk/attachpicker/f;)V
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 62
     iget-object v0, p0, Lcom/vk/attachpicker/f;->b:Landroid/view/View;

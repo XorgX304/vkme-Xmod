@@ -12,9 +12,9 @@
 
 
 # static fields
-.field private static a:Lorg/slf4j/helpers/g$a; = null
+.field private static a:Lorg/slf4j/helpers/g$a;
 
-.field private static b:Z = false
+.field private static b:Z
 
 
 # direct methods

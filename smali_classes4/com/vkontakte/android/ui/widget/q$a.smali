@@ -1,5 +1,5 @@
 .class Lcom/vkontakte/android/ui/widget/q$a;
-.super Lcom/vk/imageloader/view/VKImageView;
+.super Lcom/vk/messengerageloader/view/VKImageView;
 .source "WidgetTableView.java"
 
 
@@ -19,7 +19,7 @@
     .locals 0
 
     .line 240
-    invoke-direct {p0, p1}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
     return-void
 .end method
@@ -30,7 +30,7 @@
     .locals 1
 
     .line 245
-    invoke-super {p0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Lcom/facebook/drawee/generic/b;)V
+    invoke-super {p0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Lcom/facebook/drawee/generic/b;)V
 
     const/high16 v0, 0x40000000    # 2.0f
 

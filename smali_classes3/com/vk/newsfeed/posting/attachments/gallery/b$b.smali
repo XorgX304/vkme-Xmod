@@ -25,7 +25,7 @@
 # instance fields
 .field private a:Landroid/view/View;
 
-.field private d:Lcom/vk/imageloader/view/VKImageView;
+.field private d:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private e:Landroid/widget/TextView;
 
@@ -81,7 +81,7 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
     goto :goto_0
 
@@ -89,7 +89,7 @@
     move-object p1, p2
 
     :goto_0
-    iput-object p1, p0, Lcom/vk/newsfeed/posting/attachments/gallery/b$b;->d:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/posting/attachments/gallery/b$b;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 89
     iget-object p1, p0, Lcom/vk/newsfeed/posting/attachments/gallery/b$b;->a:Landroid/view/View;
@@ -177,19 +177,19 @@
     if-nez p2, :cond_2
 
     .line 97
-    iget-object p2, p0, Lcom/vk/newsfeed/posting/attachments/gallery/b$b;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vk/newsfeed/posting/attachments/gallery/b$b;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz p2, :cond_3
 
     const v1, 0x7f08070c
 
-    invoke-virtual {p2, v1}, Lcom/vk/imageloader/view/VKImageView;->setImageResource(I)V
+    invoke-virtual {p2, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setImageResource(I)V
 
     goto :goto_1
 
     .line 99
     :cond_2
-    iget-object p2, p0, Lcom/vk/newsfeed/posting/attachments/gallery/b$b;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vk/newsfeed/posting/attachments/gallery/b$b;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz p2, :cond_3
 
@@ -199,11 +199,11 @@
 
     iget-object v1, v1, Lcom/vk/mediastore/MediaStoreEntry;->b:Landroid/net/Uri;
 
-    invoke-static {v0}, Lcom/vk/imageloader/i;->a(Z)Lcom/vk/imageloader/ImageSize;
+    invoke-static {v0}, Lcom/vk/messengerageloader/i;->a(Z)Lcom/vk/messengerageloader/ImageSize;
 
     move-result-object v2
 
-    invoke-virtual {p2, v1, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {p2, v1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;)V
 
     .line 101
     :cond_3

@@ -34,7 +34,7 @@
 
 .field an:Lcom/vkontakte/android/ui/widget/ViewPagerInfinite;
 
-.field ao:Lcom/vk/imageloader/view/VKHorizontalParallaxImageView;
+.field ao:Lcom/vk/messengerageloader/view/VKHorizontalParallaxImageView;
 
 .field ap:Landroid/widget/TextView;
 
@@ -528,7 +528,7 @@
     add-float/2addr p1, p2
 
     .line 316
-    iget-object p2, p0, Lcom/vkontakte/android/fragments/stickers/StickersDetailsFragment;->ao:Lcom/vk/imageloader/view/VKHorizontalParallaxImageView;
+    iget-object p2, p0, Lcom/vkontakte/android/fragments/stickers/StickersDetailsFragment;->ao:Lcom/vk/messengerageloader/view/VKHorizontalParallaxImageView;
 
     neg-float p1, p1
 
@@ -538,7 +538,7 @@
 
     div-float/2addr p1, p3
 
-    invoke-virtual {p2, p1}, Lcom/vk/imageloader/view/VKHorizontalParallaxImageView;->setOffset(F)V
+    invoke-virtual {p2, p1}, Lcom/vk/messengerageloader/view/VKHorizontalParallaxImageView;->setOffset(F)V
 
     return-void
 .end method
@@ -641,9 +641,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKHorizontalParallaxImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKHorizontalParallaxImageView;
 
-    iput-object p2, p0, Lcom/vkontakte/android/fragments/stickers/StickersDetailsFragment;->ao:Lcom/vk/imageloader/view/VKHorizontalParallaxImageView;
+    iput-object p2, p0, Lcom/vkontakte/android/fragments/stickers/StickersDetailsFragment;->ao:Lcom/vk/messengerageloader/view/VKHorizontalParallaxImageView;
 
     const p2, 0x7f0a0aff
 
@@ -762,7 +762,7 @@
     invoke-virtual {p2, p1}, Landroid/widget/ProgressBar;->setProgressDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 192
-    iget-object p1, p0, Lcom/vkontakte/android/fragments/stickers/StickersDetailsFragment;->ao:Lcom/vk/imageloader/view/VKHorizontalParallaxImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/fragments/stickers/StickersDetailsFragment;->ao:Lcom/vk/messengerageloader/view/VKHorizontalParallaxImageView;
 
     iget-object p2, p0, Lcom/vkontakte/android/fragments/stickers/StickersDetailsFragment;->ae:Lcom/vk/dto/stickers/StickerStockItem;
 
@@ -770,7 +770,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKHorizontalParallaxImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKHorizontalParallaxImageView;->a(Ljava/lang/String;)V
 
     return-void
 .end method

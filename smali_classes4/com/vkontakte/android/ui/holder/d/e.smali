@@ -28,9 +28,9 @@
 
 .field private final q:Landroid/widget/TextView;
 
-.field private final r:Lcom/vk/imageloader/view/VKImageView;
+.field private final r:Lcom/vk/messengerageloader/view/VKImageView;
 
-.field private final s:Lcom/vk/imageloader/view/VKImageView;
+.field private final s:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final t:I
 
@@ -70,14 +70,14 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/d/e;->s:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/d/e;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 62
-    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/d/e;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/d/e;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, p0}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p1, p0}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     const p1, 0x7f0a0767
 
@@ -86,20 +86,20 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/d/e;->r:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/d/e;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     const/4 p1, 0x2
 
     if-ne p2, p1, :cond_0
 
     .line 65
-    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/d/e;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/d/e;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     const/16 p2, 0x8
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     :cond_0
     return-void
@@ -244,7 +244,7 @@
     .locals 3
 
     .line 78
-    iget-object v0, p0, Lcom/vkontakte/android/ui/holder/d/e;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/holder/d/e;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p1, Lcom/vk/dto/games/GameFeedEntry;->f:Lcom/vkontakte/android/UserProfile;
 
@@ -254,16 +254,16 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setTag(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setTag(Ljava/lang/Object;)V
 
     .line 79
-    iget-object v0, p0, Lcom/vkontakte/android/ui/holder/d/e;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/holder/d/e;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p1, Lcom/vk/dto/games/GameFeedEntry;->f:Lcom/vkontakte/android/UserProfile;
 
     iget-object v1, v1, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 81
     iget-object v0, p1, Lcom/vk/dto/games/GameFeedEntry;->g:Lcom/vkontakte/android/data/ApiApplication;
@@ -333,9 +333,9 @@
 
     .line 89
     :goto_0
-    iget-object v1, p0, Lcom/vkontakte/android/ui/holder/d/e;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vkontakte/android/ui/holder/d/e;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 90
     invoke-virtual {p1}, Lcom/vk/dto/games/GameFeedEntry;->a()Ljava/lang/Object;

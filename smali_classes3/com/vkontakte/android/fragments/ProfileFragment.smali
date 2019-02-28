@@ -756,13 +756,13 @@
     .locals 3
 
     .line 382
-    new-instance v0, Lcom/vk/im/ui/components/viewcontrollers/dialog_actions_delegate/popup/a;
+    new-instance v0, Lcom/vk/messenger/ui/components/viewcontrollers/dialog_actions_delegate/popup/a;
 
     invoke-virtual {p0}, Lcom/vkontakte/android/fragments/ProfileFragment;->az()Landroid/support/v7/widget/Toolbar;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/vk/im/ui/components/viewcontrollers/dialog_actions_delegate/popup/a;-><init>(Landroid/view/View;)V
+    invoke-direct {v0, v1}, Lcom/vk/messenger/ui/components/viewcontrollers/dialog_actions_delegate/popup/a;-><init>(Landroid/view/View;)V
 
     .line 383
     new-instance v1, Ljava/util/ArrayList;
@@ -770,21 +770,21 @@
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     .line 388
-    sget-object v2, Lcom/vk/im/ui/components/common/DialogAction;->AUDIO_BTN_AUDIO_CALL:Lcom/vk/im/ui/components/common/DialogAction;
+    sget-object v2, Lcom/vk/messenger/ui/components/common/DialogAction;->AUDIO_BTN_AUDIO_CALL:Lcom/vk/messenger/ui/components/common/DialogAction;
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 389
-    sget-object v2, Lcom/vk/im/ui/components/common/DialogAction;->AUDIO_BTN_VIDEO_CALL:Lcom/vk/im/ui/components/common/DialogAction;
+    sget-object v2, Lcom/vk/messenger/ui/components/common/DialogAction;->AUDIO_BTN_VIDEO_CALL:Lcom/vk/messenger/ui/components/common/DialogAction;
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 392
     new-instance v2, Lcom/vkontakte/android/fragments/ProfileFragment$9;
 
-    invoke-direct {v2, p0, v0}, Lcom/vkontakte/android/fragments/ProfileFragment$9;-><init>(Lcom/vkontakte/android/fragments/ProfileFragment;Lcom/vk/im/ui/components/viewcontrollers/dialog_actions_delegate/popup/a;)V
+    invoke-direct {v2, p0, v0}, Lcom/vkontakte/android/fragments/ProfileFragment$9;-><init>(Lcom/vkontakte/android/fragments/ProfileFragment;Lcom/vk/messenger/ui/components/viewcontrollers/dialog_actions_delegate/popup/a;)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/vk/im/ui/components/viewcontrollers/dialog_actions_delegate/popup/a;->a(Ljava/util/List;Lkotlin/jvm/a/b;)V
+    invoke-virtual {v0, v1, v2}, Lcom/vk/messenger/ui/components/viewcontrollers/dialog_actions_delegate/popup/a;->a(Ljava/util/List;Lkotlin/jvm/a/b;)V
 
     return-void
 .end method

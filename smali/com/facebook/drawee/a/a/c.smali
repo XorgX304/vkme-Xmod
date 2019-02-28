@@ -13,9 +13,9 @@
     .end annotation
 .end field
 
-.field private static b:Lcom/facebook/drawee/a/a/f; = null
+.field private static b:Lcom/facebook/drawee/a/a/f;
 
-.field private static volatile c:Z = false
+.field private static volatile c:Z
 
 
 # direct methods

@@ -49,7 +49,7 @@
 
 .field private m:Landroid/view/View;
 
-.field private n:Lcom/vk/imageloader/view/VKImageView;
+.field private n:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private o:Landroid/view/View;
 
@@ -574,9 +574,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v0, p0, Lcom/vk/newsfeed/posting/viewpresenter/header/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vk/newsfeed/posting/viewpresenter/header/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f0a08a0
 
@@ -739,13 +739,13 @@
 
     .line 123
     :cond_0
-    iget-object v0, p0, Lcom/vk/newsfeed/posting/viewpresenter/header/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/posting/viewpresenter/header/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_1
 
     iget-object v1, p1, Lcom/vk/sharing/target/Target;->d:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 124
     :cond_1
@@ -1095,9 +1095,9 @@
     .line 98
     move-object v1, v0
 
-    check-cast v1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v1, p0, Lcom/vk/newsfeed/posting/viewpresenter/header/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v1, p0, Lcom/vk/newsfeed/posting/viewpresenter/header/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 99
     move-object v1, v0

@@ -16,11 +16,11 @@
 
 
 # instance fields
-.field private final b:Lcom/vk/im/engine/d;
+.field private final b:Lcom/vk/messenger/engine/d;
 
 .field private final c:Lio/reactivex/disposables/a;
 
-.field private final d:Lcom/vk/im/ui/media/audio/a;
+.field private final d:Lcom/vk/messenger/ui/media/audio/a;
 
 .field private final e:Lcom/vk/navigation/i$a;
 
@@ -57,11 +57,11 @@
     iput-object p1, p0, Lcom/vk/navigation/i;->i:Lcom/vk/core/view/BottomMenuView;
 
     .line 30
-    invoke-static {}, Lcom/vk/im/engine/f;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vk/messenger/engine/f;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/vk/navigation/i;->b:Lcom/vk/im/engine/d;
+    iput-object p1, p0, Lcom/vk/navigation/i;->b:Lcom/vk/messenger/engine/d;
 
     .line 31
     new-instance p1, Lio/reactivex/disposables/a;
@@ -71,15 +71,15 @@
     iput-object p1, p0, Lcom/vk/navigation/i;->c:Lio/reactivex/disposables/a;
 
     .line 32
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/vk/im/ui/a/b;->l()Lcom/vk/im/ui/media/audio/a;
+    invoke-interface {p1}, Lcom/vk/messenger/ui/a/b;->l()Lcom/vk/messenger/ui/media/audio/a;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/vk/navigation/i;->d:Lcom/vk/im/ui/media/audio/a;
+    iput-object p1, p0, Lcom/vk/navigation/i;->d:Lcom/vk/messenger/ui/media/audio/a;
 
     .line 33
     new-instance p1, Lcom/vk/navigation/i$a;
@@ -94,21 +94,21 @@
     new-array p1, p1, [Ljava/lang/Class;
 
     .line 37
-    const-class v0, Lcom/vk/im/ui/contacts/b;
+    const-class v0, Lcom/vk/messenger/ui/contacts/b;
 
     const/4 v1, 0x0
 
     aput-object v0, p1, v1
 
     .line 38
-    const-class v0, Lcom/vk/im/ui/dialogs_list/a;
+    const-class v0, Lcom/vk/messenger/ui/dialogs_list/a;
 
     const/4 v1, 0x1
 
     aput-object v0, p1, v1
 
     .line 39
-    const-class v0, Lcom/vk/im/ui/settings/j;
+    const-class v0, Lcom/vk/messenger/ui/settings/j;
 
     const/4 v1, 0x2
 
@@ -189,13 +189,13 @@
     return p1
 .end method
 
-.method private final a(Lcom/vk/im/engine/models/dialogs/DialogsFilter;)V
+.method private final a(Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;)V
     .locals 2
 
     .line 140
     sget-object v0, Lcom/vk/navigation/j;->$EnumSwitchMapping$0:[I
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/dialogs/DialogsFilter;->ordinal()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;->ordinal()I
 
     move-result p1
 
@@ -232,11 +232,11 @@
     return-void
 .end method
 
-.method public static final synthetic a(Lcom/vk/navigation/i;Lcom/vk/im/engine/models/dialogs/DialogsFilter;)V
+.method public static final synthetic a(Lcom/vk/navigation/i;Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;)V
     .locals 0
 
     .line 28
-    invoke-direct {p0, p1}, Lcom/vk/navigation/i;->a(Lcom/vk/im/engine/models/dialogs/DialogsFilter;)V
+    invoke-direct {p0, p1}, Lcom/vk/navigation/i;->a(Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;)V
 
     return-void
 .end method
@@ -315,13 +315,13 @@
     .locals 1
 
     .line 104
-    sget-object v0, Lcom/vk/im/ui/b;->b:Lcom/vk/im/ui/b;
+    sget-object v0, Lcom/vk/messenger/ui/b;->b:Lcom/vk/messenger/ui/b;
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/b;->b()Lcom/vk/im/engine/models/dialogs/DialogsFilter;
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/b;->b()Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lcom/vk/navigation/i;->a(Lcom/vk/im/engine/models/dialogs/DialogsFilter;)V
+    invoke-direct {p0, v0}, Lcom/vk/navigation/i;->a(Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;)V
 
     return-void
 .end method
@@ -330,9 +330,9 @@
     .locals 2
 
     .line 108
-    sget-object v0, Lcom/vk/im/ui/b;->b:Lcom/vk/im/ui/b;
+    sget-object v0, Lcom/vk/messenger/ui/b;->b:Lcom/vk/messenger/ui/b;
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/b;->c()Lio/reactivex/subjects/PublishSubject;
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/b;->c()Lio/reactivex/subjects/PublishSubject;
 
     move-result-object v0
 
@@ -354,7 +354,7 @@
     .line 110
     iget-object v1, p0, Lcom/vk/navigation/i;->c:Lio/reactivex/disposables/a;
 
-    invoke-static {v0, v1}, Lcom/vk/im/ui/components/d;->a(Lio/reactivex/disposables/b;Lio/reactivex/disposables/a;)V
+    invoke-static {v0, v1}, Lcom/vk/messenger/ui/components/d;->a(Lio/reactivex/disposables/b;Lio/reactivex/disposables/a;)V
 
     return-void
 .end method
@@ -363,44 +363,44 @@
     .locals 5
 
     .line 114
-    new-instance v0, Lcom/vk/im/engine/commands/dialogs/l;
+    new-instance v0, Lcom/vk/messenger/engine/commands/dialogs/l;
 
-    sget-object v1, Lcom/vk/im/engine/models/dialogs/DialogsFilter;->UNREAD:Lcom/vk/im/engine/models/dialogs/DialogsFilter;
+    sget-object v1, Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;->UNREAD:Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;
 
-    sget-object v2, Lcom/vk/im/engine/models/Source;->ACTUAL:Lcom/vk/im/engine/models/Source;
+    sget-object v2, Lcom/vk/messenger/engine/models/Source;->ACTUAL:Lcom/vk/messenger/engine/models/Source;
 
     const/4 v3, 0x1
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/vk/im/engine/commands/dialogs/l;-><init>(Lcom/vk/im/engine/models/dialogs/DialogsFilter;Lcom/vk/im/engine/models/Source;Z)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/vk/messenger/engine/commands/dialogs/l;-><init>(Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;Lcom/vk/messenger/engine/models/Source;Z)V
 
     .line 115
-    iget-object v1, p0, Lcom/vk/navigation/i;->b:Lcom/vk/im/engine/d;
+    iget-object v1, p0, Lcom/vk/navigation/i;->b:Lcom/vk/messenger/engine/d;
 
     const-string v2, "ImBottomNavigationMenuController"
 
-    check-cast v0, Lcom/vk/im/engine/commands/c;
+    check-cast v0, Lcom/vk/messenger/engine/commands/c;
 
-    invoke-virtual {v1, v2, v0}, Lcom/vk/im/engine/d;->b(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)Lio/reactivex/q;
+    invoke-virtual {v1, v2, v0}, Lcom/vk/messenger/engine/d;->b(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)Lio/reactivex/q;
 
     move-result-object v0
 
     .line 116
-    new-instance v1, Lcom/vk/im/engine/commands/dialogs/l;
+    new-instance v1, Lcom/vk/messenger/engine/commands/dialogs/l;
 
-    sget-object v2, Lcom/vk/im/engine/models/dialogs/DialogsFilter;->REQUESTS:Lcom/vk/im/engine/models/dialogs/DialogsFilter;
+    sget-object v2, Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;->REQUESTS:Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;
 
-    sget-object v4, Lcom/vk/im/engine/models/Source;->ACTUAL:Lcom/vk/im/engine/models/Source;
+    sget-object v4, Lcom/vk/messenger/engine/models/Source;->ACTUAL:Lcom/vk/messenger/engine/models/Source;
 
-    invoke-direct {v1, v2, v4, v3}, Lcom/vk/im/engine/commands/dialogs/l;-><init>(Lcom/vk/im/engine/models/dialogs/DialogsFilter;Lcom/vk/im/engine/models/Source;Z)V
+    invoke-direct {v1, v2, v4, v3}, Lcom/vk/messenger/engine/commands/dialogs/l;-><init>(Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;Lcom/vk/messenger/engine/models/Source;Z)V
 
     .line 117
-    iget-object v2, p0, Lcom/vk/navigation/i;->b:Lcom/vk/im/engine/d;
+    iget-object v2, p0, Lcom/vk/navigation/i;->b:Lcom/vk/messenger/engine/d;
 
     const-string v3, "ImBottomNavigationMenuController"
 
-    check-cast v1, Lcom/vk/im/engine/commands/c;
+    check-cast v1, Lcom/vk/messenger/engine/commands/c;
 
-    invoke-virtual {v2, v3, v1}, Lcom/vk/im/engine/d;->b(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)Lio/reactivex/q;
+    invoke-virtual {v2, v3, v1}, Lcom/vk/messenger/engine/d;->b(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)Lio/reactivex/q;
 
     move-result-object v1
 
@@ -461,7 +461,7 @@
     .line 124
     iget-object v1, p0, Lcom/vk/navigation/i;->c:Lio/reactivex/disposables/a;
 
-    invoke-static {v0, v1}, Lcom/vk/im/ui/components/d;->a(Lio/reactivex/disposables/b;Lio/reactivex/disposables/a;)V
+    invoke-static {v0, v1}, Lcom/vk/messenger/ui/components/d;->a(Lio/reactivex/disposables/b;Lio/reactivex/disposables/a;)V
 
     return-void
 .end method
@@ -470,9 +470,9 @@
     .locals 2
 
     .line 128
-    iget-object v0, p0, Lcom/vk/navigation/i;->b:Lcom/vk/im/engine/d;
+    iget-object v0, p0, Lcom/vk/navigation/i;->b:Lcom/vk/messenger/engine/d;
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/d;->j()Lio/reactivex/j;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/d;->j()Lio/reactivex/j;
 
     move-result-object v0
 
@@ -503,7 +503,7 @@
     .line 136
     iget-object v1, p0, Lcom/vk/navigation/i;->c:Lio/reactivex/disposables/a;
 
-    invoke-static {v0, v1}, Lcom/vk/im/ui/components/d;->a(Lio/reactivex/disposables/b;Lio/reactivex/disposables/a;)V
+    invoke-static {v0, v1}, Lcom/vk/messenger/ui/components/d;->a(Lio/reactivex/disposables/b;Lio/reactivex/disposables/a;)V
 
     return-void
 .end method
@@ -512,18 +512,18 @@
     .locals 2
 
     .line 154
-    iget-object v0, p0, Lcom/vk/navigation/i;->d:Lcom/vk/im/ui/media/audio/a;
+    iget-object v0, p0, Lcom/vk/navigation/i;->d:Lcom/vk/messenger/ui/media/audio/a;
 
-    invoke-interface {v0}, Lcom/vk/im/ui/media/audio/a;->a()V
+    invoke-interface {v0}, Lcom/vk/messenger/ui/media/audio/a;->a()V
 
     .line 155
-    iget-object v0, p0, Lcom/vk/navigation/i;->d:Lcom/vk/im/ui/media/audio/a;
+    iget-object v0, p0, Lcom/vk/navigation/i;->d:Lcom/vk/messenger/ui/media/audio/a;
 
     iget-object v1, p0, Lcom/vk/navigation/i;->e:Lcom/vk/navigation/i$a;
 
-    check-cast v1, Lcom/vk/im/ui/media/audio/b;
+    check-cast v1, Lcom/vk/messenger/ui/media/audio/b;
 
-    invoke-interface {v0, v1}, Lcom/vk/im/ui/media/audio/a;->a(Lcom/vk/im/ui/media/audio/b;)V
+    invoke-interface {v0, v1}, Lcom/vk/messenger/ui/media/audio/a;->a(Lcom/vk/messenger/ui/media/audio/b;)V
 
     return-void
 .end method
@@ -532,18 +532,18 @@
     .locals 2
 
     .line 159
-    iget-object v0, p0, Lcom/vk/navigation/i;->d:Lcom/vk/im/ui/media/audio/a;
+    iget-object v0, p0, Lcom/vk/navigation/i;->d:Lcom/vk/messenger/ui/media/audio/a;
 
     iget-object v1, p0, Lcom/vk/navigation/i;->e:Lcom/vk/navigation/i$a;
 
-    check-cast v1, Lcom/vk/im/ui/media/audio/b;
+    check-cast v1, Lcom/vk/messenger/ui/media/audio/b;
 
-    invoke-interface {v0, v1}, Lcom/vk/im/ui/media/audio/a;->b(Lcom/vk/im/ui/media/audio/b;)V
+    invoke-interface {v0, v1}, Lcom/vk/messenger/ui/media/audio/a;->b(Lcom/vk/messenger/ui/media/audio/b;)V
 
     .line 160
-    iget-object v0, p0, Lcom/vk/navigation/i;->d:Lcom/vk/im/ui/media/audio/a;
+    iget-object v0, p0, Lcom/vk/navigation/i;->d:Lcom/vk/messenger/ui/media/audio/a;
 
-    invoke-interface {v0}, Lcom/vk/im/ui/media/audio/a;->b()V
+    invoke-interface {v0}, Lcom/vk/messenger/ui/media/audio/a;->b()V
 
     return-void
 .end method
@@ -625,7 +625,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    const-class v0, Lcom/vk/im/ui/dialogs_list/a;
+    const-class v0, Lcom/vk/messenger/ui/dialogs_list/a;
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 

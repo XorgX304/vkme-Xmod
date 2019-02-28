@@ -36,7 +36,7 @@
 
 .field private k:Lcom/vk/attachpicker/widget/TextureVideoView;
 
-.field private l:Lcom/vk/imageloader/view/VKImageView;
+.field private l:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private m:Landroid/view/View;
 
@@ -446,9 +446,9 @@
     invoke-direct {p0, v1}, Lcom/vk/attachpicker/f/d;->a(Z)V
 
     .line 342
-    iget-object v2, p0, Lcom/vk/attachpicker/f/d;->l:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v2, p0, Lcom/vk/attachpicker/f/d;->l:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v2}, Lcom/vk/imageloader/view/VKImageView;->getImageAspectRatio()F
+    invoke-virtual {v2}, Lcom/vk/messengerageloader/view/VKImageView;->getImageAspectRatio()F
 
     move-result v2
 
@@ -836,14 +836,14 @@
     invoke-direct {p0, v0}, Lcom/vk/attachpicker/f/d;->a(Z)V
 
     .line 390
-    iget-object v1, p0, Lcom/vk/attachpicker/f/d;->l:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/attachpicker/f/d;->l:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 392
-    iget-object v1, p0, Lcom/vk/attachpicker/f/d;->l:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/attachpicker/f/d;->l:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1}, Lcom/vk/imageloader/view/VKImageView;->getImageAspectRatio()F
+    invoke-virtual {v1}, Lcom/vk/messengerageloader/view/VKImageView;->getImageAspectRatio()F
 
     move-result v1
 
@@ -1196,11 +1196,11 @@
     .end array-data
 .end method
 
-.method static synthetic h(Lcom/vk/attachpicker/f/d;)Lcom/vk/imageloader/view/VKImageView;
+.method static synthetic h(Lcom/vk/attachpicker/f/d;)Lcom/vk/messengerageloader/view/VKImageView;
     .locals 0
 
     .line 53
-    iget-object p0, p0, Lcom/vk/attachpicker/f/d;->l:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p0, p0, Lcom/vk/attachpicker/f/d;->l:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-object p0
 .end method
@@ -1676,9 +1676,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v0, p0, Lcom/vk/attachpicker/f/d;->l:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vk/attachpicker/f/d;->l:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f0a0c8d
 
@@ -1874,22 +1874,22 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 259
-    iget-object v0, p0, Lcom/vk/attachpicker/f/d;->l:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/attachpicker/f/d;->l:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p0, Lcom/vk/attachpicker/f/d;->f:Landroid/net/Uri;
 
-    sget-object v2, Lcom/vk/imageloader/ImageSize;->VERY_BIG:Lcom/vk/imageloader/ImageSize;
+    sget-object v2, Lcom/vk/messengerageloader/ImageSize;->VERY_BIG:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v0, v1, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {v0, v1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;)V
 
     .line 260
-    iget-object v0, p0, Lcom/vk/attachpicker/f/d;->l:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/attachpicker/f/d;->l:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance v1, Lcom/vk/attachpicker/f/d$11;
 
     invoke-direct {v1, p0}, Lcom/vk/attachpicker/f/d$11;-><init>(Lcom/vk/attachpicker/f/d;)V
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setOnLoadCallback(Lcom/vk/imageloader/g;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setOnLoadCallback(Lcom/vk/messengerageloader/g;)V
 
     const/4 v0, 0x1
 
@@ -2037,9 +2037,9 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/vk/attachpicker/f/d;->l:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/attachpicker/f/d;->l:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->g()Z
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->g()Z
 
     move-result v0
 

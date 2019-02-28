@@ -19,7 +19,7 @@
 
 .field private b:Lcom/vk/dto/masks/MaskSection;
 
-.field private c:Lcom/vk/imageloader/view/VKImageView;
+.field private c:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private d:Landroid/widget/TextView;
 
@@ -86,9 +86,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v0, p0, Lcom/vk/stories/masks/MasksView$c;->c:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vk/stories/masks/MasksView$c;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f0a0b79
 
@@ -184,11 +184,11 @@
     if-nez p1, :cond_4
 
     .line 307
-    iget-object p1, p0, Lcom/vk/stories/masks/MasksView$c;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/stories/masks/MasksView$c;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz p1, :cond_3
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 308
     :cond_3
@@ -202,17 +202,17 @@
 
     .line 310
     :cond_4
-    iget-object v1, p0, Lcom/vk/stories/masks/MasksView$c;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/stories/masks/MasksView$c;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_5
 
-    invoke-virtual {v1, v2}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 311
     :cond_5
-    iget-object v1, p0, Lcom/vk/stories/masks/MasksView$c;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/stories/masks/MasksView$c;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v1, :cond_6
 
@@ -220,7 +220,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v3}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v3}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 313
     :cond_6

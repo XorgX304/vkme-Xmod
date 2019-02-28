@@ -5,9 +5,9 @@
 # static fields
 .field private static final a:Ljava/lang/Object;
 
-.field private static volatile b:Lcom/google/android/gms/common/stats/a; = null
+.field private static volatile b:Lcom/google/android/gms/common/stats/a;
 
-.field private static c:Z = false
+.field private static c:Z
 
 
 # instance fields

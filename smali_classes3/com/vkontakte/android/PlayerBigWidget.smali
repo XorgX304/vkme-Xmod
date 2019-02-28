@@ -461,7 +461,7 @@
 
     .line 77
     :cond_9
-    invoke-static {v4}, Lcom/vk/imageloader/i;->c(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {v4}, Lcom/vk/messengerageloader/i;->c(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v4
 

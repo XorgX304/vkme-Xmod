@@ -557,18 +557,18 @@
     if-eqz v0, :cond_0
 
     .line 433
-    new-instance p4, Lcom/vk/im/ui/views/image_zhukov/j;
+    new-instance p4, Lcom/vk/messenger/ui/views/image_zhukov/j;
 
-    invoke-direct {p4}, Lcom/vk/im/ui/views/image_zhukov/j;-><init>()V
+    invoke-direct {p4}, Lcom/vk/messenger/ui/views/image_zhukov/j;-><init>()V
 
     .line 434
-    invoke-virtual {v0, p2, p4}, Lcom/vk/newsfeed/posting/viewpresenter/attachments/adapter/b;->a(ILcom/vk/im/ui/views/image_zhukov/j;)V
+    invoke-virtual {v0, p2, p4}, Lcom/vk/newsfeed/posting/viewpresenter/attachments/adapter/b;->a(ILcom/vk/messenger/ui/views/image_zhukov/j;)V
 
     .line 435
-    iget p2, p4, Lcom/vk/im/ui/views/image_zhukov/j;->a:I
+    iget p2, p4, Lcom/vk/messenger/ui/views/image_zhukov/j;->a:I
 
     .line 436
-    iget p4, p4, Lcom/vk/im/ui/views/image_zhukov/j;->b:I
+    iget p4, p4, Lcom/vk/messenger/ui/views/image_zhukov/j;->b:I
 
     goto :goto_0
 

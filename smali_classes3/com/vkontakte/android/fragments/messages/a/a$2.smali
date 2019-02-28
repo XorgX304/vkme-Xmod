@@ -41,7 +41,7 @@
     .line 252
     iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/a/a$2;->a:Lcom/vkontakte/android/fragments/messages/a/a;
 
-    invoke-static {p1}, Lcom/vkontakte/android/fragments/messages/a/a;->b(Lcom/vkontakte/android/fragments/messages/a/a;)Lcom/vk/im/ui/components/chat_settings/a;
+    invoke-static {p1}, Lcom/vkontakte/android/fragments/messages/a/a;->b(Lcom/vkontakte/android/fragments/messages/a/a;)Lcom/vk/messenger/ui/components/chat_settings/a;
 
     move-result-object p1
 
@@ -51,7 +51,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/vk/im/ui/components/chat_settings/a;->b(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/ui/components/chat_settings/a;->b(Ljava/lang/String;)V
 
     const/4 p1, 0x1
 

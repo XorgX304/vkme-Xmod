@@ -3,7 +3,7 @@
 .source "ChatSettingsFragment.java"
 
 # interfaces
-.implements Lcom/vk/im/ui/components/chat_settings/d;
+.implements Lcom/vk/messenger/ui/components/chat_settings/d;
 
 
 # annotations
@@ -78,20 +78,20 @@
     return-void
 .end method
 
-.method public a(Lcom/vk/im/engine/models/dialogs/d;)V
+.method public a(Lcom/vk/messenger/engine/models/dialogs/d;)V
     .locals 4
 
     .line 303
     new-instance v0, Ljava/util/ArrayList;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/dialogs/d;->a()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/dialogs/d;->a()I
 
     move-result v1
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
     .line 304
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/dialogs/d;->iterator()Ljava/util/Iterator;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/dialogs/d;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
@@ -106,16 +106,16 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/vk/im/engine/models/dialogs/DialogMember;
+    check-cast v1, Lcom/vk/messenger/engine/models/dialogs/DialogMember;
 
     .line 305
     sget-object v2, Lcom/vkontakte/android/fragments/messages/a/a$3;->a:[I
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/dialogs/DialogMember;->a()Lcom/vk/im/engine/models/MemberType;
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/dialogs/DialogMember;->a()Lcom/vk/messenger/engine/models/MemberType;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/vk/im/engine/models/MemberType;->ordinal()I
+    invoke-virtual {v3}, Lcom/vk/messenger/engine/models/MemberType;->ordinal()I
 
     move-result v3
 
@@ -129,7 +129,7 @@
 
     .line 307
     :cond_0
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/dialogs/DialogMember;->b()I
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/dialogs/DialogMember;->b()I
 
     move-result v1
 

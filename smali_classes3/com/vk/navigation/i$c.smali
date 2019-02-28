@@ -23,7 +23,7 @@
         ">",
         "Ljava/lang/Object;",
         "Lio/reactivex/b/g<",
-        "Lcom/vk/im/engine/events/a;",
+        "Lcom/vk/messenger/engine/events/a;",
         ">;"
     }
 .end annotation
@@ -46,11 +46,11 @@
 
 
 # virtual methods
-.method public final a(Lcom/vk/im/engine/events/a;)V
+.method public final a(Lcom/vk/messenger/engine/events/a;)V
     .locals 1
 
     .line 132
-    instance-of v0, p1, Lcom/vk/im/engine/events/w;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/w;
 
     if-eqz v0, :cond_0
 
@@ -62,7 +62,7 @@
 
     .line 133
     :cond_0
-    instance-of v0, p1, Lcom/vk/im/engine/events/OnCacheInvalidateEvent;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/OnCacheInvalidateEvent;
 
     if-eqz v0, :cond_1
 
@@ -74,7 +74,7 @@
 
     .line 134
     :cond_1
-    instance-of p1, p1, Lcom/vk/im/engine/events/s;
+    instance-of p1, p1, Lcom/vk/messenger/engine/events/s;
 
     if-eqz p1, :cond_2
 
@@ -91,9 +91,9 @@
     .locals 0
 
     .line 28
-    check-cast p1, Lcom/vk/im/engine/events/a;
+    check-cast p1, Lcom/vk/messenger/engine/events/a;
 
-    invoke-virtual {p0, p1}, Lcom/vk/navigation/i$c;->a(Lcom/vk/im/engine/events/a;)V
+    invoke-virtual {p0, p1}, Lcom/vk/navigation/i$c;->a(Lcom/vk/messenger/engine/events/a;)V
 
     return-void
 .end method

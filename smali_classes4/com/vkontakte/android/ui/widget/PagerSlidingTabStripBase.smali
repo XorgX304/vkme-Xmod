@@ -758,21 +758,21 @@
     .locals 3
 
     .line 392
-    new-instance v0, Lcom/vk/imageloader/view/VKImageView;
+    new-instance v0, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p0}, Lcom/vkontakte/android/ui/widget/PagerSlidingTabStripBase;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
     const/4 v1, 0x1
 
     .line 393
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setFocusable(Z)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setFocusable(Z)V
 
     .line 394
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
 
     move-result-object v1
 
@@ -787,14 +787,14 @@
 
     move-result-object p2
 
-    invoke-virtual {v0, p2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 397
     new-instance p2, Lcom/vkontakte/android/ui/widget/PagerSlidingTabStripBase$5;
 
     invoke-direct {p2, p0, p1}, Lcom/vkontakte/android/ui/widget/PagerSlidingTabStripBase$5;-><init>(Lcom/vkontakte/android/ui/widget/PagerSlidingTabStripBase;I)V
 
-    invoke-virtual {v0, p2}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 404
     iget-object p1, p0, Lcom/vkontakte/android/ui/widget/PagerSlidingTabStripBase;->f:Landroid/widget/LinearLayout;

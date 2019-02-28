@@ -75,7 +75,7 @@
     :cond_0
     sget-object v0, Lcom/vkontakte/android/im/a;->a:Lcom/vkontakte/android/im/a;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/vkontakte/android/im/a;->a(ILcom/vk/dto/stickers/StickerItem;Ljava/lang/String;)Lcom/vk/im/engine/models/attaches/AttachSticker;
+    invoke-virtual {v0, p1, p2, p3}, Lcom/vkontakte/android/im/a;->a(ILcom/vk/dto/stickers/StickerItem;Ljava/lang/String;)Lcom/vk/messenger/engine/models/attaches/AttachSticker;
 
     move-result-object p1
 
@@ -86,13 +86,13 @@
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/vkontakte/android/ui/WriteBar;->getReplyMessage()Lcom/vk/im/engine/models/messages/MsgFromUser;
+    invoke-virtual {p2}, Lcom/vkontakte/android/ui/WriteBar;->getReplyMessage()Lcom/vk/messenger/engine/models/messages/MsgFromUser;
 
     move-result-object p2
 
     if-eqz p2, :cond_1
 
-    invoke-virtual {p2}, Lcom/vk/im/engine/models/messages/MsgFromUser;->c()I
+    invoke-virtual {p2}, Lcom/vk/messenger/engine/models/messages/MsgFromUser;->c()I
 
     move-result p2
 
@@ -114,7 +114,7 @@
     :goto_1
     iget-object p2, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc$f;->b:Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;
 
-    invoke-static {p2}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->h(Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;)Lcom/vk/im/ui/components/viewcontrollers/b/b;
+    invoke-static {p2}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->h(Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;)Lcom/vk/messenger/ui/components/viewcontrollers/b/b;
 
     move-result-object v0
 
@@ -140,7 +140,7 @@
 
     const/4 v11, 0x0
 
-    invoke-static/range {v0 .. v11}, Lcom/vk/im/ui/components/viewcontrollers/b/b$a;->a(Lcom/vk/im/ui/components/viewcontrollers/b/b;ILjava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Integer;Lcom/vk/im/engine/models/messages/MsgSendSource;Lcom/vk/im/engine/utils/collection/h;Lio/reactivex/b/g;Lio/reactivex/b/a;ILjava/lang/Object;)V
+    invoke-static/range {v0 .. v11}, Lcom/vk/messenger/ui/components/viewcontrollers/b/b$a;->a(Lcom/vk/messenger/ui/components/viewcontrollers/b/b;ILjava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Integer;Lcom/vk/messenger/engine/models/messages/MsgSendSource;Lcom/vk/messenger/engine/utils/collection/h;Lio/reactivex/b/g;Lio/reactivex/b/a;ILjava/lang/Object;)V
 
     .line 179
     iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc$f;->b:Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;

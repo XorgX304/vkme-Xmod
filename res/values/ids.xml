@@ -3093,4 +3093,5 @@
     <item type="id" name="x_container">false</item>
     <item type="id" name="youtube">false</item>
     <item type="id" name="zhukov">false</item>
+    <item type="id" name="offline">false</item>
 </resources>

@@ -37,7 +37,7 @@
 
 .field private r:Landroid/view/View;
 
-.field private s:[Lcom/vk/imageloader/view/VKImageView;
+.field private s:[Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private t:Landroid/view/View;
 
@@ -92,9 +92,9 @@
 
     array-length p1, p1
 
-    new-array p1, p1, [Lcom/vk/imageloader/view/VKImageView;
+    new-array p1, p1, [Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/d/g;->s:[Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/d/g;->s:[Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 66
     iput-object p2, p0, Lcom/vkontakte/android/ui/holder/d/g;->o:Lme/grishka/appkit/views/UsableRecyclerView$a;
@@ -141,7 +141,7 @@
     if-ge v0, v1, :cond_0
 
     .line 72
-    iget-object v1, p0, Lcom/vkontakte/android/ui/holder/d/g;->s:[Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vkontakte/android/ui/holder/d/g;->s:[Lcom/vk/messengerageloader/view/VKImageView;
 
     sget-object v2, Lcom/vkontakte/android/ui/holder/d/g;->n:[I
 
@@ -151,7 +151,7 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v2, Lcom/vk/messengerageloader/view/VKImageView;
 
     aput-object v2, v1, v0
 
@@ -301,14 +301,14 @@
 
     .line 99
     :goto_1
-    iget-object v4, p0, Lcom/vkontakte/android/ui/holder/d/g;->s:[Lcom/vk/imageloader/view/VKImageView;
+    iget-object v4, p0, Lcom/vkontakte/android/ui/holder/d/g;->s:[Lcom/vk/messengerageloader/view/VKImageView;
 
     array-length v4, v4
 
     if-ge v0, v4, :cond_2
 
     .line 100
-    iget-object v4, p0, Lcom/vkontakte/android/ui/holder/d/g;->s:[Lcom/vk/imageloader/view/VKImageView;
+    iget-object v4, p0, Lcom/vkontakte/android/ui/holder/d/g;->s:[Lcom/vk/messengerageloader/view/VKImageView;
 
     aget-object v4, v4, v0
 
@@ -322,20 +322,20 @@
     if-ge v0, v5, :cond_1
 
     .line 102
-    invoke-virtual {v4, v3}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v4, v3}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 103
     invoke-virtual {p1, v0}, Lcom/vkontakte/android/ui/holder/d/g$b;->a(I)Ljava/lang/String;
 
     move-result-object v5
 
-    invoke-virtual {v4, v5}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v4, v5}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_2
 
     .line 105
     :cond_1
-    invoke-virtual {v4, v1}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v4, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     :goto_2
     add-int/lit8 v0, v0, 0x1

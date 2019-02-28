@@ -182,7 +182,7 @@
     :cond_1
     iget-object p1, p0, Lcom/vk/newsfeed/holders/w$1;->a:Lcom/vk/newsfeed/holders/w;
 
-    invoke-static {p1}, Lcom/vk/newsfeed/holders/w;->j(Lcom/vk/newsfeed/holders/w;)Lcom/vk/imageloader/view/VKImageView;
+    invoke-static {p1}, Lcom/vk/newsfeed/holders/w;->j(Lcom/vk/newsfeed/holders/w;)Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 

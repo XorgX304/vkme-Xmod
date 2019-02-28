@@ -3,7 +3,7 @@
 .source "MsgSendVc.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/components/bot_keyboard/e$a;
+.implements Lcom/vk/messenger/ui/components/bot_keyboard/e$a;
 
 
 # annotations
@@ -78,7 +78,7 @@
     :cond_1
     iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc$c;->a:Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;
 
-    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->h(Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;)Lcom/vk/im/ui/components/viewcontrollers/b/b;
+    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->h(Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;)Lcom/vk/messenger/ui/components/viewcontrollers/b/b;
 
     move-result-object v1
 
@@ -88,7 +88,7 @@
 
     const/4 v6, 0x0
 
-    sget-object v7, Lcom/vk/im/engine/models/messages/MsgSendSource;->BOT_KEYBOARD:Lcom/vk/im/engine/models/messages/MsgSendSource;
+    sget-object v7, Lcom/vk/messenger/engine/models/messages/MsgSendSource;->BOT_KEYBOARD:Lcom/vk/messenger/engine/models/messages/MsgSendSource;
 
     const/4 v8, 0x0
 
@@ -104,7 +104,7 @@
 
     move-object v4, p2
 
-    invoke-static/range {v1 .. v12}, Lcom/vk/im/ui/components/viewcontrollers/b/b$a;->a(Lcom/vk/im/ui/components/viewcontrollers/b/b;ILjava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Integer;Lcom/vk/im/engine/models/messages/MsgSendSource;Lcom/vk/im/engine/utils/collection/h;Lio/reactivex/b/g;Lio/reactivex/b/a;ILjava/lang/Object;)V
+    invoke-static/range {v1 .. v12}, Lcom/vk/messenger/ui/components/viewcontrollers/b/b$a;->a(Lcom/vk/messenger/ui/components/viewcontrollers/b/b;ILjava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Integer;Lcom/vk/messenger/engine/models/messages/MsgSendSource;Lcom/vk/messenger/engine/utils/collection/h;Lio/reactivex/b/g;Lio/reactivex/b/a;ILjava/lang/Object;)V
 
     return-void
 .end method

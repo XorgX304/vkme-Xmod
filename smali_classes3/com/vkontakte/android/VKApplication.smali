@@ -162,12 +162,12 @@
     .locals 7
 
     .line 422
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
     .line 423
-    invoke-static {}, Lcom/vkontakte/android/im/i;->b()Lcom/vk/im/engine/b;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->b()Lcom/vk/messenger/engine/b;
 
     move-result-object v1
 
@@ -188,7 +188,7 @@
     if-eqz v3, :cond_2
 
     .line 428
-    new-instance v3, Lcom/vk/im/engine/models/credentials/UserCredentials;
+    new-instance v3, Lcom/vk/messenger/engine/models/credentials/UserCredentials;
 
     .line 429
     invoke-virtual {v2}, Lcom/vk/c/a;->a()I
@@ -230,7 +230,7 @@
 
     .line 428
     :goto_1
-    invoke-direct {v3, v4, v5, v2}, Lcom/vk/im/engine/models/credentials/UserCredentials;-><init>(ILjava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v3, v4, v5, v2}, Lcom/vk/messenger/engine/models/credentials/UserCredentials;-><init>(ILjava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -239,31 +239,31 @@
 
     .line 436
     :goto_2
-    new-instance v2, Lcom/vk/im/engine/b$a;
+    new-instance v2, Lcom/vk/messenger/engine/b$a;
 
-    invoke-direct {v2}, Lcom/vk/im/engine/b$a;-><init>()V
+    invoke-direct {v2}, Lcom/vk/messenger/engine/b$a;-><init>()V
 
     const-string v4, "defConfig"
 
     .line 437
     invoke-static {v1, v4}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v2, v1}, Lcom/vk/im/engine/b$a;->a(Lcom/vk/im/engine/b;)Lcom/vk/im/engine/b$a;
+    invoke-virtual {v2, v1}, Lcom/vk/messenger/engine/b$a;->a(Lcom/vk/messenger/engine/b;)Lcom/vk/messenger/engine/b$a;
 
     move-result-object v1
 
     .line 438
-    invoke-virtual {v1, v3}, Lcom/vk/im/engine/b$a;->a(Lcom/vk/im/engine/models/credentials/UserCredentials;)Lcom/vk/im/engine/b$a;
+    invoke-virtual {v1, v3}, Lcom/vk/messenger/engine/b$a;->a(Lcom/vk/messenger/engine/models/credentials/UserCredentials;)Lcom/vk/messenger/engine/b$a;
 
     move-result-object v1
 
     .line 439
-    invoke-virtual {v1}, Lcom/vk/im/engine/b$a;->V()Lcom/vk/im/engine/b;
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/b$a;->V()Lcom/vk/messenger/engine/b;
 
     move-result-object v1
 
     .line 440
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/d;->a(Lcom/vk/im/engine/b;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/d;->a(Lcom/vk/messenger/engine/b;)V
 
     if-eqz v3, :cond_3
 
@@ -299,9 +299,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/vk/imageloader/f$a;
+    check-cast v1, Lcom/vk/messengerageloader/f$a;
 
-    invoke-static {v0, v1}, Lcom/vk/imageloader/i;->a(Landroid/content/Context;Lcom/vk/imageloader/f$a;)V
+    invoke-static {v0, v1}, Lcom/vk/messengerageloader/i;->a(Landroid/content/Context;Lcom/vk/messengerageloader/f$a;)V
 
     .line 156
     sget-object v0, Lcom/vk/core/util/f;->a:Landroid/content/Context;
@@ -968,23 +968,23 @@
     .locals 4
 
     .line 405
-    sget-object v0, Lcom/vk/im/ui/b;->b:Lcom/vk/im/ui/b;
+    sget-object v0, Lcom/vk/messenger/ui/b;->b:Lcom/vk/messenger/ui/b;
 
     move-object v1, p0
 
     check-cast v1, Landroid/content/Context;
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/b;->a(Landroid/content/Context;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/b;->a(Landroid/content/Context;)V
 
     .line 406
-    invoke-static {v1}, Lcom/vkontakte/android/im/i;->a(Landroid/content/Context;)Lcom/vk/im/engine/b;
+    invoke-static {v1}, Lcom/vkontakte/android/im/i;->a(Landroid/content/Context;)Lcom/vk/messenger/engine/b;
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/vkontakte/android/im/i;->a(Landroid/content/Context;Lcom/vk/im/engine/b;)V
+    invoke-static {v1, v0}, Lcom/vkontakte/android/im/i;->a(Landroid/content/Context;Lcom/vk/messenger/engine/b;)V
 
     .line 407
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
@@ -992,19 +992,19 @@
 
     invoke-static {v0, v2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/vk/im/engine/f;->a(Lcom/vk/im/engine/d;)V
+    invoke-static {v0}, Lcom/vk/messenger/engine/f;->a(Lcom/vk/messenger/engine/d;)V
 
     .line 408
     sget-object v0, Lcom/vkontakte/android/im/bridge/f;->a:Lcom/vkontakte/android/im/bridge/f;
 
-    check-cast v0, Lcom/vk/im/ui/a/b;
+    check-cast v0, Lcom/vk/messenger/ui/a/b;
 
-    invoke-static {v0}, Lcom/vk/im/ui/a/c;->a(Lcom/vk/im/ui/a/b;)V
+    invoke-static {v0}, Lcom/vk/messenger/ui/a/c;->a(Lcom/vk/messenger/ui/a/b;)V
 
     .line 409
-    sget-object v0, Lcom/vk/im/ui/themes/ImTheme;->VKAPP_LIGHT:Lcom/vk/im/ui/themes/ImTheme;
+    sget-object v0, Lcom/vk/messenger/ui/themes/ImTheme;->VKAPP_LIGHT:Lcom/vk/messenger/ui/themes/ImTheme;
 
-    invoke-static {v0}, Lcom/vk/im/ui/themes/a;->b(Lcom/vk/im/ui/themes/ImTheme;)V
+    invoke-static {v0}, Lcom/vk/messenger/ui/themes/a;->b(Lcom/vk/messenger/ui/themes/ImTheme;)V
 
     .line 412
     invoke-direct {p0, v1}, Lcom/vkontakte/android/VKApplication;->a(Landroid/content/Context;)V
@@ -1059,16 +1059,16 @@
     .locals 3
 
     .line 457
-    invoke-static {}, Lcom/vk/im/engine/f;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vk/messenger/engine/f;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/d;->j()Lio/reactivex/j;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/d;->j()Lio/reactivex/j;
 
     move-result-object v0
 
     .line 458
-    const-class v1, Lcom/vk/im/engine/events/ah;
+    const-class v1, Lcom/vk/messenger/engine/events/ah;
 
     invoke-virtual {v0, v1}, Lio/reactivex/j;->b(Ljava/lang/Class;)Lio/reactivex/j;
 
@@ -1341,7 +1341,7 @@
     .locals 2
 
     .line 206
-    invoke-static {}, Lcom/vk/imageloader/i;->a()V
+    invoke-static {}, Lcom/vk/messengerageloader/i;->a()V
 
     .line 207
     sget-object v0, Lcom/vk/articles/preload/a;->a:Lcom/vk/articles/preload/a;
@@ -1365,7 +1365,7 @@
     .locals 0
 
     .line 213
-    invoke-static {p1}, Lcom/vk/imageloader/i;->a(I)V
+    invoke-static {p1}, Lcom/vk/messengerageloader/i;->a(I)V
 
     .line 214
     invoke-super {p0, p1}, Landroid/app/Application;->onTrimMemory(I)V

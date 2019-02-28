@@ -31,5 +31,5 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/vk/imageloader/j;)V
+.method public abstract a(Lcom/vk/messengerageloader/j;)V
 .end method

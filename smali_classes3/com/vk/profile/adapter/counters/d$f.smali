@@ -25,7 +25,7 @@
 # instance fields
 .field final synthetic n:Lcom/vk/profile/adapter/counters/d;
 
-.field private final p:Lcom/vk/imageloader/view/VKImageView;
+.field private final p:Lcom/vk/messengerageloader/view/VKImageView;
 
 
 # direct methods
@@ -51,20 +51,20 @@
     invoke-direct {p0, p1, v0, p2}, Lcom/vk/profile/adapter/counters/d$c;-><init>(Lcom/vk/profile/adapter/counters/d;ILandroid/view/ViewGroup;)V
 
     .line 220
-    new-instance p1, Lcom/vk/imageloader/view/VKImageView;
+    new-instance p1, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p2}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
     move-result-object p2
 
-    invoke-direct {p1, p2}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
-    iput-object p1, p0, Lcom/vk/profile/adapter/counters/d$f;->p:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/profile/adapter/counters/d$f;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 223
-    iget-object p1, p0, Lcom/vk/profile/adapter/counters/d$f;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/profile/adapter/counters/d$f;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
 
     move-result-object p1
 
@@ -79,9 +79,9 @@
     invoke-virtual {p1, p2}, Lcom/facebook/drawee/generic/a;->a(Lcom/facebook/drawee/drawable/p$b;)V
 
     .line 224
-    iget-object p1, p0, Lcom/vk/profile/adapter/counters/d$f;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/profile/adapter/counters/d$f;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
 
     move-result-object p1
 
@@ -124,22 +124,22 @@
     invoke-virtual {p1, p2}, Lcom/facebook/drawee/generic/a;->a(Lcom/facebook/drawee/generic/RoundingParams;)V
 
     .line 225
-    iget-object p1, p0, Lcom/vk/profile/adapter/counters/d$f;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/profile/adapter/counters/d$f;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
-    new-instance p2, Lcom/vk/imageloader/a/e;
+    new-instance p2, Lcom/vk/messengerageloader/a/e;
 
-    invoke-direct {p2}, Lcom/vk/imageloader/a/e;-><init>()V
+    invoke-direct {p2}, Lcom/vk/messengerageloader/a/e;-><init>()V
 
     check-cast p2, Lcom/facebook/imagepipeline/request/a;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
 
     .line 226
     invoke-virtual {p0}, Lcom/vk/profile/adapter/counters/d$f;->z()Landroid/widget/FrameLayout;
 
     move-result-object p1
 
-    iget-object p2, p0, Lcom/vk/profile/adapter/counters/d$f;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vk/profile/adapter/counters/d$f;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p2, Landroid/view/View;
 
@@ -186,9 +186,9 @@
     if-eqz p1, :cond_0
 
     .line 233
-    iget-object v1, p0, Lcom/vk/profile/adapter/counters/d$f;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/profile/adapter/counters/d$f;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 236
     :cond_0

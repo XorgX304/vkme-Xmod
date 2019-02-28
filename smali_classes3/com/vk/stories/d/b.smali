@@ -14,7 +14,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/im/ui/views/avatars/AvatarView;
+.field private final n:Lcom/vk/messenger/ui/views/avatars/AvatarView;
 
 .field private final o:Landroid/widget/TextView;
 
@@ -62,9 +62,9 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/im/ui/views/avatars/AvatarView;
+    check-cast p1, Lcom/vk/messenger/ui/views/avatars/AvatarView;
 
-    iput-object p1, p0, Lcom/vk/stories/d/b;->n:Lcom/vk/im/ui/views/avatars/AvatarView;
+    iput-object p1, p0, Lcom/vk/stories/d/b;->n:Lcom/vk/messenger/ui/views/avatars/AvatarView;
 
     .line 14
     iget-object p1, p0, Lcom/vk/stories/d/b;->a:Landroid/view/View;
@@ -180,30 +180,30 @@
     if-eqz v0, :cond_0
 
     .line 31
-    iget-object v1, p0, Lcom/vk/stories/d/b;->n:Lcom/vk/im/ui/views/avatars/AvatarView;
+    iget-object v1, p0, Lcom/vk/stories/d/b;->n:Lcom/vk/messenger/ui/views/avatars/AvatarView;
 
-    invoke-virtual {v0}, Lcom/vk/stories/c/a;->a()Lcom/vk/im/engine/models/dialogs/Dialog;
+    invoke-virtual {v0}, Lcom/vk/stories/c/a;->a()Lcom/vk/messenger/engine/models/dialogs/Dialog;
 
     move-result-object v2
 
-    invoke-virtual {v0}, Lcom/vk/stories/c/a;->b()Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    invoke-virtual {v0}, Lcom/vk/stories/c/a;->b()Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     move-result-object v0
 
-    invoke-virtual {v1, v2, v0}, Lcom/vk/im/ui/views/avatars/AvatarView;->a(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesSimpleInfo;)V
+    invoke-virtual {v1, v2, v0}, Lcom/vk/messenger/ui/views/avatars/AvatarView;->a(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)V
 
     .line 33
     :cond_0
-    invoke-virtual {p1}, Lcom/vk/stories/c/b;->d()Lcom/vk/im/engine/models/users/User;
+    invoke-virtual {p1}, Lcom/vk/stories/c/b;->d()Lcom/vk/messenger/engine/models/users/User;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
     .line 34
-    iget-object v0, p0, Lcom/vk/stories/d/b;->n:Lcom/vk/im/ui/views/avatars/AvatarView;
+    iget-object v0, p0, Lcom/vk/stories/d/b;->n:Lcom/vk/messenger/ui/views/avatars/AvatarView;
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/views/avatars/AvatarView;->a(Lcom/vk/im/engine/models/users/User;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/views/avatars/AvatarView;->a(Lcom/vk/messenger/engine/models/users/User;)V
 
     :cond_1
     return-void

@@ -2218,21 +2218,21 @@
     .line 658
     iget-object v0, p0, Lcom/vkontakte/android/ui/widget/a;->d:Lcom/vkontakte/android/ui/widget/a$e;
 
-    iget-object v0, v0, Lcom/vkontakte/android/ui/widget/a$e;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, v0, Lcom/vkontakte/android/ui/widget/a$e;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->setScaleX(F)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setScaleX(F)V
 
     .line 659
     iget-object v0, p0, Lcom/vkontakte/android/ui/widget/a;->d:Lcom/vkontakte/android/ui/widget/a$e;
 
-    iget-object v0, v0, Lcom/vkontakte/android/ui/widget/a$e;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, v0, Lcom/vkontakte/android/ui/widget/a$e;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->setScaleY(F)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setScaleY(F)V
 
     .line 660
     iget-object v0, p0, Lcom/vkontakte/android/ui/widget/a;->d:Lcom/vkontakte/android/ui/widget/a$e;
 
-    iget-object v0, v0, Lcom/vkontakte/android/ui/widget/a$e;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, v0, Lcom/vkontakte/android/ui/widget/a$e;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     const/high16 v2, 0x42a80000    # 84.0f
 
@@ -2248,7 +2248,7 @@
 
     mul-float v2, v2, v5
 
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->setTranslationY(F)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setTranslationY(F)V
 
     const/high16 v0, -0x3e200000    # -28.0f
 

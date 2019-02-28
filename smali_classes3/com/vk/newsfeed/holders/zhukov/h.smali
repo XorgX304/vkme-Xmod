@@ -29,9 +29,9 @@
 # instance fields
 .field private final b:I
 
-.field private final c:Lcom/vk/im/ui/views/msg/upload/UploadProgressView;
+.field private final c:Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;
 
-.field private final d:Lcom/vk/imageloader/view/VKImageView;
+.field private final d:Lcom/vk/messengerageloader/view/VKImageView;
 
 
 # direct methods
@@ -123,43 +123,43 @@
     iput v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->b:I
 
     .line 255
-    new-instance v0, Lcom/vk/im/ui/views/msg/upload/UploadProgressView;
+    new-instance v0, Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;
 
     invoke-virtual {p1}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/vk/im/ui/views/msg/upload/UploadProgressView;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;-><init>(Landroid/content/Context;)V
 
     const v1, 0x7f0a089c
 
     .line 256
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/views/msg/upload/UploadProgressView;->setId(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;->setId(I)V
 
     const/4 v1, 0x1
 
     .line 257
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/views/msg/upload/UploadProgressView;->setCancelIconVisible(Z)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;->setCancelIconVisible(Z)V
 
     .line 258
     iget v1, p0, Lcom/vk/newsfeed/holders/zhukov/h;->b:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/views/msg/upload/UploadProgressView;->setLayerColor(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;->setLayerColor(I)V
 
     const/4 v1, -0x1
 
     .line 259
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/views/msg/upload/UploadProgressView;->setLineColor(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;->setLineColor(I)V
 
     const v1, 0x7f080829
 
     .line 260
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/views/msg/upload/UploadProgressView;->setCancelIconResource(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;->setCancelIconResource(I)V
 
     .line 261
     sget v1, Lcom/vk/newsfeed/holders/zhukov/h;->f:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/views/msg/upload/UploadProgressView;->setLineWidth(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;->setLineWidth(I)V
 
     .line 262
     move-object v1, v0
@@ -171,21 +171,21 @@
     invoke-static {v1, v2}, Lcom/vk/extensions/o;->a(Landroid/view/View;Z)V
 
     .line 255
-    iput-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->c:Lcom/vk/im/ui/views/msg/upload/UploadProgressView;
+    iput-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->c:Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;
 
     .line 265
-    new-instance v0, Lcom/vk/imageloader/view/VKImageView;
+    new-instance v0, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
     const v1, 0x7f0a0899
 
     .line 266
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setId(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setId(I)V
 
     .line 267
     new-instance v1, Landroid/graphics/drawable/ShapeDrawable;
@@ -204,12 +204,12 @@
 
     invoke-static {v1, v3}, Lcom/vk/core/extensions/f;->a(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     const v1, 0x7f080550
 
     .line 268
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setImageResource(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setImageResource(I)V
 
     .line 269
     sget v1, Lcom/vk/newsfeed/holders/zhukov/h;->h:I
@@ -220,7 +220,7 @@
 
     sget v5, Lcom/vk/newsfeed/holders/zhukov/h;->h:I
 
-    invoke-virtual {v0, v1, v3, v4, v5}, Lcom/vk/imageloader/view/VKImageView;->setPadding(IIII)V
+    invoke-virtual {v0, v1, v3, v4, v5}, Lcom/vk/messengerageloader/view/VKImageView;->setPadding(IIII)V
 
     .line 270
     move-object v1, v0
@@ -230,10 +230,10 @@
     invoke-static {v1, v2}, Lcom/vk/extensions/o;->a(Landroid/view/View;Z)V
 
     .line 265
-    iput-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->d:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 274
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast v0, Landroid/view/View;
 
@@ -254,7 +254,7 @@
     invoke-virtual {p1, v0, v1}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 275
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->c:Lcom/vk/im/ui/views/msg/upload/UploadProgressView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->c:Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;
 
     check-cast v0, Landroid/view/View;
 
@@ -281,9 +281,9 @@
     .locals 1
 
     .line 308
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
@@ -303,9 +303,9 @@
     iput p1, v0, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
     .line 309
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->c:Lcom/vk/im/ui/views/msg/upload/UploadProgressView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->c:Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/views/msg/upload/UploadProgressView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
@@ -331,7 +331,7 @@
     .locals 2
 
     .line 288
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast v0, Landroid/view/View;
 
@@ -342,7 +342,7 @@
     if-eqz v0, :cond_0
 
     .line 289
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast v0, Landroid/view/View;
 
@@ -352,7 +352,7 @@
 
     .line 291
     :cond_0
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->c:Lcom/vk/im/ui/views/msg/upload/UploadProgressView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->c:Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;
 
     check-cast v0, Landroid/view/View;
 
@@ -369,14 +369,14 @@
 
     .line 294
     :cond_1
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->c:Lcom/vk/im/ui/views/msg/upload/UploadProgressView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->c:Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/views/msg/upload/UploadProgressView;->setProgressValue(I)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;->setProgressValue(I)V
 
     .line 295
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/zhukov/h;->c:Lcom/vk/im/ui/views/msg/upload/UploadProgressView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/zhukov/h;->c:Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;
 
-    invoke-virtual {p1, p2}, Lcom/vk/im/ui/views/msg/upload/UploadProgressView;->setProgressMax(I)V
+    invoke-virtual {p1, p2}, Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;->setProgressMax(I)V
 
     return-void
 .end method
@@ -389,9 +389,9 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 300
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->c:Lcom/vk/im/ui/views/msg/upload/UploadProgressView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->c:Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/views/msg/upload/UploadProgressView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     return-void
 .end method
@@ -400,7 +400,7 @@
     .locals 1
 
     .line 280
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast v0, Landroid/view/View;
 
@@ -417,9 +417,9 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 304
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     return-void
 .end method
@@ -428,7 +428,7 @@
     .locals 3
 
     .line 284
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->c:Lcom/vk/im/ui/views/msg/upload/UploadProgressView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/zhukov/h;->c:Lcom/vk/messenger/ui/views/msg/upload/UploadProgressView;
 
     check-cast v0, Landroid/view/View;
 

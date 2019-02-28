@@ -16,7 +16,7 @@
             <TextView android:textSize="14.0sp" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/continue_" style="@style/VKUIButton.White" />
         </LinearLayout>
         <View android:layout_gravity="center" android:id="@id/logo_background" android:background="@drawable/bg_place" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginTop="2.0dip" />
-        <com.vk.imageloader.view.VKImageView android:layout_gravity="center" android:id="@id/community_logo" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="2.0dip" />
+        <com.vk.messengerageloader.view.VKImageView android:layout_gravity="center" android:id="@id/community_logo" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="2.0dip" />
     </com.vkontakte.android.ui.widget.RatioFrameLayout>
     <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
         <ImageView android:layout_gravity="center_vertical" android:id="@id/location_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip" android:layout_marginStart="16.0dip" />

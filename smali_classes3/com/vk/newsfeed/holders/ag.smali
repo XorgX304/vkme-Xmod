@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKCircleImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
 .field private final p:Lcom/vkontakte/android/ui/OverlayLinearLayout;
 
@@ -59,9 +59,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/ag;->n:Lcom/vk/imageloader/view/VKCircleImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/ag;->n:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     .line 27
     iget-object p1, p0, Lcom/vk/newsfeed/holders/ag;->a:Landroid/view/View;
@@ -363,7 +363,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
     .line 47
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/ag;->n:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/ag;->n:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/newsfeed/entries/Post;->n()Lcom/vk/dto/newsfeed/Owner;
 
@@ -373,10 +373,10 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     .line 48
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/ag;->n:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/ag;->n:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/newsfeed/entries/Post;->n()Lcom/vk/dto/newsfeed/Owner;
 
@@ -396,7 +396,7 @@
     const v1, 0x7f080735
 
     :goto_3
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKCircleImageView;->setPlaceholderImage(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->setPlaceholderImage(I)V
 
     .line 50
     iget-object v0, p0, Lcom/vk/newsfeed/holders/ag;->s:Landroid/text/SpannableStringBuilder;

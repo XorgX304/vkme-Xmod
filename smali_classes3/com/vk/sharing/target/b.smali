@@ -14,7 +14,7 @@
 # static fields
 .field private static final a:Ljava/lang/String; = "b"
 
-.field private static final b:Lcom/vk/im/engine/d;
+.field private static final b:Lcom/vk/messenger/engine/d;
 
 
 # instance fields
@@ -34,11 +34,11 @@
     .locals 1
 
     .line 50
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
-    sput-object v0, Lcom/vk/sharing/target/b;->b:Lcom/vk/im/engine/d;
+    sput-object v0, Lcom/vk/sharing/target/b;->b:Lcom/vk/messenger/engine/d;
 
     return-void
 .end method
@@ -64,22 +64,22 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/vk/im/engine/commands/messages/v$a;)Ljava/util/ArrayList;
+.method static synthetic a(Lcom/vk/messenger/engine/commands/messages/v$a;)Ljava/util/ArrayList;
     .locals 0
 
     .line 46
-    invoke-static {p0}, Lcom/vk/sharing/target/b;->b(Lcom/vk/im/engine/commands/messages/v$a;)Ljava/util/ArrayList;
+    invoke-static {p0}, Lcom/vk/sharing/target/b;->b(Lcom/vk/messenger/engine/commands/messages/v$a;)Ljava/util/ArrayList;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method static synthetic a(Lcom/vk/im/engine/models/dialogs/DialogsHistory;Lcom/vk/im/engine/models/ProfilesInfo;)Ljava/util/ArrayList;
+.method static synthetic a(Lcom/vk/messenger/engine/models/dialogs/DialogsHistory;Lcom/vk/messenger/engine/models/ProfilesInfo;)Ljava/util/ArrayList;
     .locals 0
 
     .line 46
-    invoke-static {p0, p1}, Lcom/vk/sharing/target/b;->b(Lcom/vk/im/engine/models/dialogs/DialogsHistory;Lcom/vk/im/engine/models/ProfilesInfo;)Ljava/util/ArrayList;
+    invoke-static {p0, p1}, Lcom/vk/sharing/target/b;->b(Lcom/vk/messenger/engine/models/dialogs/DialogsHistory;Lcom/vk/messenger/engine/models/ProfilesInfo;)Ljava/util/ArrayList;
 
     move-result-object p0
 
@@ -140,12 +140,12 @@
     return-void
 .end method
 
-.method private static b(Lcom/vk/im/engine/commands/messages/v$a;)Ljava/util/ArrayList;
+.method private static b(Lcom/vk/messenger/engine/commands/messages/v$a;)Ljava/util/ArrayList;
     .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/vk/im/engine/commands/messages/v$a;",
+            "Lcom/vk/messenger/engine/commands/messages/v$a;",
             ")",
             "Ljava/util/ArrayList<",
             "Lcom/vk/sharing/target/Target;",
@@ -159,7 +159,7 @@
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 99
-    invoke-virtual {p0}, Lcom/vk/im/engine/commands/messages/v$a;->a()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/vk/messenger/engine/commands/messages/v$a;->a()Ljava/util/List;
 
     move-result-object v1
 
@@ -179,12 +179,12 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/vk/im/engine/models/dialogs/Dialog;
+    check-cast v2, Lcom/vk/messenger/engine/models/dialogs/Dialog;
 
     if-eqz v2, :cond_0
 
     .line 100
-    invoke-virtual {v2}, Lcom/vk/im/engine/models/dialogs/Dialog;->u()Z
+    invoke-virtual {v2}, Lcom/vk/messenger/engine/models/dialogs/Dialog;->u()Z
 
     move-result v3
 
@@ -193,11 +193,11 @@
     .line 101
     new-instance v3, Lcom/vk/sharing/target/Target;
 
-    invoke-virtual {p0}, Lcom/vk/im/engine/commands/messages/v$a;->d()Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    invoke-virtual {p0}, Lcom/vk/messenger/engine/commands/messages/v$a;->d()Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     move-result-object v4
 
-    invoke-direct {v3, v2, v4}, Lcom/vk/sharing/target/Target;-><init>(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesSimpleInfo;)V
+    invoke-direct {v3, v2, v4}, Lcom/vk/sharing/target/Target;-><init>(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)V
 
     invoke-virtual {v0, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -207,13 +207,13 @@
     return-object v0
 .end method
 
-.method private static b(Lcom/vk/im/engine/models/dialogs/DialogsHistory;Lcom/vk/im/engine/models/ProfilesInfo;)Ljava/util/ArrayList;
+.method private static b(Lcom/vk/messenger/engine/models/dialogs/DialogsHistory;Lcom/vk/messenger/engine/models/ProfilesInfo;)Ljava/util/ArrayList;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/vk/im/engine/models/dialogs/DialogsHistory;",
-            "Lcom/vk/im/engine/models/ProfilesInfo;",
+            "Lcom/vk/messenger/engine/models/dialogs/DialogsHistory;",
+            "Lcom/vk/messenger/engine/models/ProfilesInfo;",
             ")",
             "Ljava/util/ArrayList<",
             "Lcom/vk/sharing/target/Target;",
@@ -227,12 +227,12 @@
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 73
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/ProfilesInfo;->f()Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/ProfilesInfo;->f()Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     move-result-object p1
 
     .line 74
-    iget-object p0, p0, Lcom/vk/im/engine/models/dialogs/DialogsHistory;->list:Ljava/util/List;
+    iget-object p0, p0, Lcom/vk/messenger/engine/models/dialogs/DialogsHistory;->list:Ljava/util/List;
 
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -250,10 +250,10 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/vk/im/engine/models/dialogs/Dialog;
+    check-cast v1, Lcom/vk/messenger/engine/models/dialogs/Dialog;
 
     .line 75
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/dialogs/Dialog;->u()Z
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/dialogs/Dialog;->u()Z
 
     move-result v2
 
@@ -262,7 +262,7 @@
     .line 76
     new-instance v2, Lcom/vk/sharing/target/Target;
 
-    invoke-direct {v2, v1, p1}, Lcom/vk/sharing/target/Target;-><init>(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesSimpleInfo;)V
+    invoke-direct {v2, v1, p1}, Lcom/vk/sharing/target/Target;-><init>(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)V
 
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -468,11 +468,11 @@
     return-void
 .end method
 
-.method static synthetic e()Lcom/vk/im/engine/d;
+.method static synthetic e()Lcom/vk/messenger/engine/d;
     .locals 1
 
     .line 46
-    sget-object v0, Lcom/vk/sharing/target/b;->b:Lcom/vk/im/engine/d;
+    sget-object v0, Lcom/vk/sharing/target/b;->b:Lcom/vk/messenger/engine/d;
 
     return-object v0
 .end method
@@ -627,18 +627,18 @@
     invoke-direct {p0}, Lcom/vk/sharing/target/b;->i()V
 
     .line 129
-    new-instance p1, Lcom/vk/im/engine/commands/dialogs/w;
+    new-instance p1, Lcom/vk/messenger/engine/commands/dialogs/w;
 
     .line 130
-    invoke-static {}, Lcom/vk/im/engine/models/p;->h()Lcom/vk/im/engine/models/p;
+    invoke-static {}, Lcom/vk/messenger/engine/models/p;->h()Lcom/vk/messenger/engine/models/p;
 
     move-result-object v1
 
-    sget-object v2, Lcom/vk/im/engine/models/dialogs/DialogsFilter;->MAIN:Lcom/vk/im/engine/models/dialogs/DialogsFilter;
+    sget-object v2, Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;->MAIN:Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;
 
     const/16 v3, 0xa
 
-    sget-object v4, Lcom/vk/im/engine/models/Source;->ACTUAL:Lcom/vk/im/engine/models/Source;
+    sget-object v4, Lcom/vk/messenger/engine/models/Source;->ACTUAL:Lcom/vk/messenger/engine/models/Source;
 
     const/4 v5, 0x1
 
@@ -646,17 +646,17 @@
 
     move-object v0, p1
 
-    invoke-direct/range {v0 .. v6}, Lcom/vk/im/engine/commands/dialogs/w;-><init>(Lcom/vk/im/engine/models/p;Lcom/vk/im/engine/models/dialogs/DialogsFilter;ILcom/vk/im/engine/models/Source;ZLjava/lang/Object;)V
+    invoke-direct/range {v0 .. v6}, Lcom/vk/messenger/engine/commands/dialogs/w;-><init>(Lcom/vk/messenger/engine/models/p;Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;ILcom/vk/messenger/engine/models/Source;ZLjava/lang/Object;)V
 
     .line 132
-    new-instance v0, Lcom/vk/im/engine/commands/dialogs/u;
+    new-instance v0, Lcom/vk/messenger/engine/commands/dialogs/u;
 
-    invoke-direct {v0, p1}, Lcom/vk/im/engine/commands/dialogs/u;-><init>(Lcom/vk/im/engine/commands/dialogs/w;)V
+    invoke-direct {v0, p1}, Lcom/vk/messenger/engine/commands/dialogs/u;-><init>(Lcom/vk/messenger/engine/commands/dialogs/w;)V
 
     .line 133
-    sget-object p1, Lcom/vk/sharing/target/b;->b:Lcom/vk/im/engine/d;
+    sget-object p1, Lcom/vk/sharing/target/b;->b:Lcom/vk/messenger/engine/d;
 
-    invoke-virtual {p1, p0, v0}, Lcom/vk/im/engine/d;->b(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)Lio/reactivex/q;
+    invoke-virtual {p1, p0, v0}, Lcom/vk/messenger/engine/d;->b(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)Lio/reactivex/q;
 
     move-result-object p1
 
@@ -703,29 +703,29 @@
     invoke-direct {p0}, Lcom/vk/sharing/target/b;->k()V
 
     .line 311
-    new-instance v0, Lcom/vk/im/engine/commands/messages/v;
+    new-instance v0, Lcom/vk/messenger/engine/commands/messages/v;
 
-    sget-object v1, Lcom/vk/im/engine/models/Source;->NETWORK:Lcom/vk/im/engine/models/Source;
+    sget-object v1, Lcom/vk/messenger/engine/models/Source;->NETWORK:Lcom/vk/messenger/engine/models/Source;
 
-    sget-object v2, Lcom/vk/im/engine/models/SearchMode;->PEERS:Lcom/vk/im/engine/models/SearchMode;
+    sget-object v2, Lcom/vk/messenger/engine/models/SearchMode;->PEERS:Lcom/vk/messenger/engine/models/SearchMode;
 
-    invoke-direct {v0, p1, v1, v2}, Lcom/vk/im/engine/commands/messages/v;-><init>(Ljava/lang/String;Lcom/vk/im/engine/models/Source;Lcom/vk/im/engine/models/SearchMode;)V
+    invoke-direct {v0, p1, v1, v2}, Lcom/vk/messenger/engine/commands/messages/v;-><init>(Ljava/lang/String;Lcom/vk/messenger/engine/models/Source;Lcom/vk/messenger/engine/models/SearchMode;)V
 
     .line 312
-    new-instance v1, Lcom/vk/im/engine/commands/messages/v;
+    new-instance v1, Lcom/vk/messenger/engine/commands/messages/v;
 
-    sget-object v2, Lcom/vk/im/engine/models/Source;->CACHE:Lcom/vk/im/engine/models/Source;
+    sget-object v2, Lcom/vk/messenger/engine/models/Source;->CACHE:Lcom/vk/messenger/engine/models/Source;
 
-    sget-object v3, Lcom/vk/im/engine/models/SearchMode;->PEERS:Lcom/vk/im/engine/models/SearchMode;
+    sget-object v3, Lcom/vk/messenger/engine/models/SearchMode;->PEERS:Lcom/vk/messenger/engine/models/SearchMode;
 
-    invoke-direct {v1, p1, v2, v3}, Lcom/vk/im/engine/commands/messages/v;-><init>(Ljava/lang/String;Lcom/vk/im/engine/models/Source;Lcom/vk/im/engine/models/SearchMode;)V
+    invoke-direct {v1, p1, v2, v3}, Lcom/vk/messenger/engine/commands/messages/v;-><init>(Ljava/lang/String;Lcom/vk/messenger/engine/models/Source;Lcom/vk/messenger/engine/models/SearchMode;)V
 
     .line 314
-    sget-object p1, Lcom/vk/sharing/target/b;->b:Lcom/vk/im/engine/d;
+    sget-object p1, Lcom/vk/sharing/target/b;->b:Lcom/vk/messenger/engine/d;
 
     const-string v2, "TargetsLoader"
 
-    invoke-virtual {p1, v2, v0}, Lcom/vk/im/engine/d;->b(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)Lio/reactivex/q;
+    invoke-virtual {p1, v2, v0}, Lcom/vk/messenger/engine/d;->b(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)Lio/reactivex/q;
 
     move-result-object p1
 
@@ -740,7 +740,7 @@
 
     new-instance v0, Lcom/vk/sharing/target/b$8;
 
-    invoke-direct {v0, p0, v1}, Lcom/vk/sharing/target/b$8;-><init>(Lcom/vk/sharing/target/b;Lcom/vk/im/engine/commands/messages/v;)V
+    invoke-direct {v0, p0, v1}, Lcom/vk/sharing/target/b$8;-><init>(Lcom/vk/sharing/target/b;Lcom/vk/messenger/engine/commands/messages/v;)V
 
     .line 316
     invoke-virtual {p1, v0}, Lio/reactivex/q;->d(Lio/reactivex/b/h;)Lio/reactivex/q;

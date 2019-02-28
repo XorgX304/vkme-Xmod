@@ -432,7 +432,7 @@
     .line 64
     :catch_1
     :try_start_6
-    invoke-static {}, Lcom/vk/imageloader/i;->a()V
+    invoke-static {}, Lcom/vk/messengerageloader/i;->a()V
 
     .line 65
     check-cast v8, Ljava/io/InputStream;
@@ -512,7 +512,7 @@
     .line 76
     :catch_2
     :try_start_8
-    invoke-static {}, Lcom/vk/imageloader/i;->a()V
+    invoke-static {}, Lcom/vk/messengerageloader/i;->a()V
 
     const/4 v12, 0x0
 

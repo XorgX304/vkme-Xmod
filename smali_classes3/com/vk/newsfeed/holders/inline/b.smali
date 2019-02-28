@@ -8,7 +8,7 @@
 
 
 # instance fields
-.field private final q:Lcom/vk/imageloader/view/VKImageView;
+.field private final q:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private r:Z
 
@@ -43,18 +43,18 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/inline/b;->q:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/inline/b;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 30
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/b;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/b;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     move-object v0, p0
 
     check-cast v0, Landroid/view/View$OnClickListener;
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 31
     iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/b;->a:Landroid/view/View;
@@ -88,9 +88,9 @@
 
     .line 73
     :goto_0
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/inline/b;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/inline/b;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->setImageResource(I)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->setImageResource(I)V
 
     return-void
 .end method
@@ -463,7 +463,7 @@
     .locals 6
 
     .line 45
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/inline/b;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/inline/b;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 

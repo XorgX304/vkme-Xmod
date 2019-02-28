@@ -14,7 +14,7 @@
 # instance fields
 .field private final a:Landroid/support/v7/widget/Toolbar;
 
-.field private final b:Lcom/vk/imageloader/view/VKImageView;
+.field private final b:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final c:Landroid/view/View;
 
@@ -111,9 +111,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v0, p0, Lcom/vk/music/artists/b;->b:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vk/music/artists/b;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f0a00a2
 
@@ -588,9 +588,9 @@
     if-ne v2, v7, :cond_c
 
     .line 114
-    iget-object v2, v0, Lcom/vk/music/artists/b;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v2, v0, Lcom/vk/music/artists/b;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
-    new-instance v4, Lcom/vk/imageloader/a/c;
+    new-instance v4, Lcom/vk/messengerageloader/a/c;
 
     const/16 v6, 0x32
 
@@ -602,11 +602,11 @@
 
     move-result v3
 
-    invoke-direct {v4, v6, v3}, Lcom/vk/imageloader/a/c;-><init>(II)V
+    invoke-direct {v4, v6, v3}, Lcom/vk/messengerageloader/a/c;-><init>(II)V
 
     check-cast v4, Lcom/facebook/imagepipeline/request/a;
 
-    invoke-virtual {v2, v4}, Lcom/vk/imageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {v2, v4}, Lcom/vk/messengerageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
 
     goto :goto_6
 
@@ -636,9 +636,9 @@
 
     if-eqz v2, :cond_d
 
-    iget-object v3, v0, Lcom/vk/music/artists/b;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, v0, Lcom/vk/music/artists/b;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v3}, Lcom/vk/imageloader/view/VKImageView;->getWidth()I
+    invoke-virtual {v3}, Lcom/vk/messengerageloader/view/VKImageView;->getWidth()I
 
     move-result v3
 
@@ -655,9 +655,9 @@
     if-eqz v2, :cond_d
 
     .line 120
-    iget-object v3, v0, Lcom/vk/music/artists/b;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, v0, Lcom/vk/music/artists/b;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v3, v2}, Lcom/vk/imageloader/view/VKImageView;->b(Ljava/lang/String;)V
+    invoke-virtual {v3, v2}, Lcom/vk/messengerageloader/view/VKImageView;->b(Ljava/lang/String;)V
 
     .line 124
     :cond_d

@@ -1,11 +1,11 @@
 .class public final Lcom/vk/photoviewer/f$c;
-.super Lcom/vk/imageloader/b;
+.super Lcom/vk/messengerageloader/b;
 .source "PhotoAdapter.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/vk/photoviewer/f;->a(Lcom/vk/imageloader/view/VKZoomableImageView;Landroid/view/ViewGroup;Lcom/vk/photoviewer/h$d;ILcom/vk/photoviewer/ClippingImageView;)V
+    value = Lcom/vk/photoviewer/f;->a(Lcom/vk/messengerageloader/view/VKZoomableImageView;Landroid/view/ViewGroup;Lcom/vk/photoviewer/h$d;ILcom/vk/photoviewer/ClippingImageView;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,18 +19,18 @@
 
 .field final synthetic b:I
 
-.field final synthetic c:Lcom/vk/imageloader/view/VKZoomableImageView;
+.field final synthetic c:Lcom/vk/messengerageloader/view/VKZoomableImageView;
 
 .field final synthetic d:Lcom/vk/photoviewer/ClippingImageView;
 
 
 # direct methods
-.method constructor <init>(Lcom/vk/photoviewer/f;ILcom/vk/imageloader/view/VKZoomableImageView;Lcom/vk/photoviewer/ClippingImageView;)V
+.method constructor <init>(Lcom/vk/photoviewer/f;ILcom/vk/messengerageloader/view/VKZoomableImageView;Lcom/vk/photoviewer/ClippingImageView;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
-            "Lcom/vk/imageloader/view/VKZoomableImageView;",
+            "Lcom/vk/messengerageloader/view/VKZoomableImageView;",
             "Lcom/vk/photoviewer/ClippingImageView;",
             ")V"
         }
@@ -41,11 +41,11 @@
 
     iput p2, p0, Lcom/vk/photoviewer/f$c;->b:I
 
-    iput-object p3, p0, Lcom/vk/photoviewer/f$c;->c:Lcom/vk/imageloader/view/VKZoomableImageView;
+    iput-object p3, p0, Lcom/vk/photoviewer/f$c;->c:Lcom/vk/messengerageloader/view/VKZoomableImageView;
 
     iput-object p4, p0, Lcom/vk/photoviewer/f$c;->d:Lcom/vk/photoviewer/ClippingImageView;
 
-    invoke-direct {p0}, Lcom/vk/imageloader/b;-><init>()V
+    invoke-direct {p0}, Lcom/vk/messengerageloader/b;-><init>()V
 
     return-void
 .end method
@@ -69,7 +69,7 @@
     invoke-virtual {p1, p3, v0}, Landroid/util/SparseBooleanArray;->put(IZ)V
 
     .line 95
-    iget-object p1, p0, Lcom/vk/photoviewer/f$c;->c:Lcom/vk/imageloader/view/VKZoomableImageView;
+    iget-object p1, p0, Lcom/vk/photoviewer/f$c;->c:Lcom/vk/messengerageloader/view/VKZoomableImageView;
 
     new-instance p3, Lcom/vk/photoviewer/f$c$a;
 
@@ -77,7 +77,7 @@
 
     check-cast p3, Ljava/lang/Runnable;
 
-    invoke-virtual {p1, p3}, Lcom/vk/imageloader/view/VKZoomableImageView;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p1, p3}, Lcom/vk/messengerageloader/view/VKZoomableImageView;->post(Ljava/lang/Runnable;)Z
 
     return-void
 .end method

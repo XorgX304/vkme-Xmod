@@ -14,7 +14,7 @@
 # static fields
 .field private static final a:Ljava/lang/String;
 
-.field private static b:Z = false
+.field private static b:Z
 
 .field public static volatile context:Landroid/content/Context;
     .annotation build Landroid/support/annotation/Keep;

@@ -37,7 +37,7 @@
 
 .field private r:Landroid/widget/TextView;
 
-.field private s:Lcom/vk/imageloader/view/VKImageView;
+.field private s:Lcom/vk/messengerageloader/view/VKImageView;
 
 
 # direct methods
@@ -117,9 +117,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v0, p0, Lcom/vkontakte/android/fragments/ab$d;->s:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vkontakte/android/fragments/ab$d;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 132
     invoke-virtual {p1}, Lcom/vkontakte/android/fragments/ab;->q()Landroid/support/v4/app/FragmentActivity;
@@ -289,24 +289,24 @@
     if-nez v0, :cond_3
 
     .line 160
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/ab$d;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/ab$d;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 161
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/ab$d;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/ab$d;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v3, p1, Lcom/vk/profile/data/DetailsItem;->i:Ljava/lang/String;
 
-    invoke-virtual {v0, v3}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v3}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_3
 
     .line 163
     :cond_3
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/ab$d;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/ab$d;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 165
     :goto_3

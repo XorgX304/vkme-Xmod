@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/vk/newsfeed/holders/attachments/ay;-><init>(Landroid/view/ViewGroup;Lcom/vk/im/ui/views/image_zhukov/k;)V
+    value = Lcom/vk/newsfeed/holders/attachments/ay;-><init>(Landroid/view/ViewGroup;Lcom/vk/messenger/ui/views/image_zhukov/k;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

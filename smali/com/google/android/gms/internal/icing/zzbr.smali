@@ -3,7 +3,7 @@
 
 
 # static fields
-.field private static volatile zzeb:Z = false
+.field private static volatile zzeb:Z
 
 
 # instance fields

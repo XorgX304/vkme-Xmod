@@ -74,9 +74,9 @@
     :cond_0
     sget-object v0, Lcom/vkontakte/android/im/e;->b:Lcom/vkontakte/android/sync/im/a;
 
-    sget-object v1, Lcom/vk/im/engine/StartCause;->LOGIN:Lcom/vk/im/engine/StartCause;
+    sget-object v1, Lcom/vk/messenger/engine/StartCause;->LOGIN:Lcom/vk/messenger/engine/StartCause;
 
-    invoke-virtual {v0, v1}, Lcom/vkontakte/android/sync/im/a;->a(Lcom/vk/im/engine/StartCause;)V
+    invoke-virtual {v0, v1}, Lcom/vkontakte/android/sync/im/a;->a(Lcom/vk/messenger/engine/StartCause;)V
 
     return-void
 .end method
@@ -87,9 +87,9 @@
     .line 29
     sget-object v0, Lcom/vkontakte/android/im/e;->b:Lcom/vkontakte/android/sync/im/a;
 
-    sget-object v1, Lcom/vk/im/engine/StopCause;->LOGOUT:Lcom/vk/im/engine/StopCause;
+    sget-object v1, Lcom/vk/messenger/engine/StopCause;->LOGOUT:Lcom/vk/messenger/engine/StopCause;
 
-    invoke-virtual {v0, v1}, Lcom/vkontakte/android/sync/im/a;->a(Lcom/vk/im/engine/StopCause;)V
+    invoke-virtual {v0, v1}, Lcom/vkontakte/android/sync/im/a;->a(Lcom/vk/messenger/engine/StopCause;)V
 
     return-void
 .end method
@@ -112,9 +112,9 @@
     :cond_0
     sget-object v0, Lcom/vkontakte/android/im/e;->b:Lcom/vkontakte/android/sync/im/a;
 
-    sget-object v1, Lcom/vk/im/engine/StartCause;->APP_RESUME:Lcom/vk/im/engine/StartCause;
+    sget-object v1, Lcom/vk/messenger/engine/StartCause;->APP_RESUME:Lcom/vk/messenger/engine/StartCause;
 
-    invoke-virtual {v0, v1}, Lcom/vkontakte/android/sync/im/a;->a(Lcom/vk/im/engine/StartCause;)V
+    invoke-virtual {v0, v1}, Lcom/vkontakte/android/sync/im/a;->a(Lcom/vk/messenger/engine/StartCause;)V
 
     return-void
 .end method
@@ -137,11 +137,11 @@
     :cond_0
     sget-object v0, Lcom/vkontakte/android/im/e;->b:Lcom/vkontakte/android/sync/im/a;
 
-    sget-object v1, Lcom/vk/im/engine/StopCause;->APP_PAUSE:Lcom/vk/im/engine/StopCause;
+    sget-object v1, Lcom/vk/messenger/engine/StopCause;->APP_PAUSE:Lcom/vk/messenger/engine/StopCause;
 
     sget-wide v2, Lcom/vkontakte/android/im/e;->c:J
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/vkontakte/android/sync/im/a;->a(Lcom/vk/im/engine/StopCause;J)V
+    invoke-virtual {v0, v1, v2, v3}, Lcom/vkontakte/android/sync/im/a;->a(Lcom/vk/messenger/engine/StopCause;J)V
 
     return-void
 .end method
@@ -194,9 +194,9 @@
     :cond_1
     sget-object v0, Lcom/vkontakte/android/im/e;->b:Lcom/vkontakte/android/sync/im/a;
 
-    sget-object v1, Lcom/vk/im/engine/StartCause;->PUSH:Lcom/vk/im/engine/StartCause;
+    sget-object v1, Lcom/vk/messenger/engine/StartCause;->PUSH:Lcom/vk/messenger/engine/StartCause;
 
-    invoke-virtual {v0, v1}, Lcom/vkontakte/android/sync/im/a;->b(Lcom/vk/im/engine/StartCause;)V
+    invoke-virtual {v0, v1}, Lcom/vkontakte/android/sync/im/a;->b(Lcom/vk/messenger/engine/StartCause;)V
 
     return-void
 .end method
@@ -205,11 +205,11 @@
     .locals 1
 
     .line 59
-    invoke-static {}, Lcom/vk/im/engine/f;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vk/messenger/engine/f;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/d;->h()Z
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/d;->h()Z
 
     move-result v0
 

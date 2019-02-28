@@ -23,7 +23,7 @@
     .locals 3
 
     .line 305
-    invoke-static {}, Lcom/vk/im/engine/models/MemberType;->values()[Lcom/vk/im/engine/models/MemberType;
+    invoke-static {}, Lcom/vk/messenger/engine/models/MemberType;->values()[Lcom/vk/messenger/engine/models/MemberType;
 
     move-result-object v0
 
@@ -36,9 +36,9 @@
     :try_start_0
     sget-object v0, Lcom/vkontakte/android/fragments/messages/a/a$3;->a:[I
 
-    sget-object v1, Lcom/vk/im/engine/models/MemberType;->USER:Lcom/vk/im/engine/models/MemberType;
+    sget-object v1, Lcom/vk/messenger/engine/models/MemberType;->USER:Lcom/vk/messenger/engine/models/MemberType;
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/MemberType;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/MemberType;->ordinal()I
 
     move-result v1
 

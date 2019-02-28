@@ -3,12 +3,12 @@
 .source "PhotoAdapter.kt"
 
 # interfaces
-.implements Lcom/vk/imageloader/view/a/c;
+.implements Lcom/vk/messengerageloader/view/a/c;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/vk/photoviewer/f;->a(Lcom/vk/imageloader/view/VKZoomableImageView;Landroid/view/ViewGroup;Lcom/vk/photoviewer/h$d;ILcom/vk/photoviewer/ClippingImageView;)V
+    value = Lcom/vk/photoviewer/f;->a(Lcom/vk/messengerageloader/view/VKZoomableImageView;Landroid/view/ViewGroup;Lcom/vk/photoviewer/h$d;ILcom/vk/photoviewer/ClippingImageView;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

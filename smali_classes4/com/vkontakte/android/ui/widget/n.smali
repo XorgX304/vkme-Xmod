@@ -8,9 +8,9 @@
 
 
 # instance fields
-.field private final b:Lcom/vk/imageloader/view/VKImageView;
+.field private final b:Lcom/vk/messengerageloader/view/VKImageView;
 
-.field private final c:Lcom/vk/imageloader/view/VKImageView;
+.field private final c:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final d:Landroid/view/View;
 
@@ -34,7 +34,7 @@
 
 .field private final n:Landroid/widget/TextView;
 
-.field private final o:Lcom/vk/imageloader/view/VKImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final p:Landroid/view/View;
 
@@ -103,9 +103,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p2, p0, Lcom/vkontakte/android/ui/widget/n;->b:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vkontakte/android/ui/widget/n;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p2, 0x7f0a0acb
 
@@ -114,9 +114,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p2, p0, Lcom/vkontakte/android/ui/widget/n;->c:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vkontakte/android/ui/widget/n;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p2, 0x7f0a0acd
 
@@ -238,9 +238,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p2, p0, Lcom/vkontakte/android/ui/widget/n;->o:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vkontakte/android/ui/widget/n;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p2, 0x7f0a017b
 
@@ -424,25 +424,25 @@
     if-eqz p1, :cond_3
 
     .line 152
-    iget-object v1, p0, Lcom/vkontakte/android/ui/widget/n;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vkontakte/android/ui/widget/n;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/common/ImageSize;->a()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {v1, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :cond_3
     if-eqz v0, :cond_4
 
     .line 155
-    iget-object p1, p0, Lcom/vkontakte/android/ui/widget/n;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/widget/n;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {v0}, Lcom/vk/dto/common/ImageSize;->a()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :cond_4
     if-nez p2, :cond_5
@@ -523,20 +523,20 @@
     if-nez p1, :cond_6
 
     .line 168
-    iget-object p1, p0, Lcom/vkontakte/android/ui/widget/n;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/widget/n;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, v6}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {p1, v6}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     goto :goto_3
 
     .line 170
     :cond_6
-    iget-object p1, p0, Lcom/vkontakte/android/ui/widget/n;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/widget/n;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, v4}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {p1, v4}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 171
-    iget-object p1, p0, Lcom/vkontakte/android/ui/widget/n;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/widget/n;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p2}, Lcom/vkontakte/android/api/widget/WidgetBranding;->b()Lcom/vk/dto/common/Image;
 
@@ -546,18 +546,18 @@
 
     move-result v0
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setAspectRatio(F)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setAspectRatio(F)V
 
     .line 172
-    iget-object p1, p0, Lcom/vkontakte/android/ui/widget/n;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/widget/n;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p1
 
-    iget-object v0, p0, Lcom/vkontakte/android/ui/widget/n;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/widget/n;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
@@ -586,7 +586,7 @@
     iput v0, p1, Landroid/view/ViewGroup$LayoutParams;->width:I
 
     .line 173
-    iget-object p1, p0, Lcom/vkontakte/android/ui/widget/n;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/widget/n;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p2}, Lcom/vkontakte/android/api/widget/WidgetBranding;->b()Lcom/vk/dto/common/Image;
 
@@ -606,7 +606,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :goto_3
     return-void
@@ -649,18 +649,18 @@
     invoke-super {p0, p1, p2}, Lcom/vkontakte/android/ui/widget/u;->onMeasure(II)V
 
     .line 81
-    iget-object v0, p0, Lcom/vkontakte/android/ui/widget/n;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/widget/n;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/FrameLayout$LayoutParams;
 
     .line 82
-    iget-object v1, p0, Lcom/vkontakte/android/ui/widget/n;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vkontakte/android/ui/widget/n;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1}, Lcom/vk/imageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v1}, Lcom/vk/messengerageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 

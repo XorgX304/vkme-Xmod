@@ -20,7 +20,7 @@
     value = {
         "Ljava/lang/Object;",
         "Lkotlin/jvm/a/b<",
-        "Lcom/vk/im/ui/views/avatars/AvatarView;",
+        "Lcom/vk/messenger/ui/views/avatars/AvatarView;",
         "Lkotlin/l;",
         ">;"
     }
@@ -53,26 +53,26 @@
     .locals 0
 
     .line 234
-    check-cast p1, Lcom/vk/im/ui/views/avatars/AvatarView;
+    check-cast p1, Lcom/vk/messenger/ui/views/avatars/AvatarView;
 
-    invoke-virtual {p0, p1}, Lcom/vkontakte/android/s$2;->a(Lcom/vk/im/ui/views/avatars/AvatarView;)Lkotlin/l;
+    invoke-virtual {p0, p1}, Lcom/vkontakte/android/s$2;->a(Lcom/vk/messenger/ui/views/avatars/AvatarView;)Lkotlin/l;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public a(Lcom/vk/im/ui/views/avatars/AvatarView;)Lkotlin/l;
+.method public a(Lcom/vk/messenger/ui/views/avatars/AvatarView;)Lkotlin/l;
     .locals 1
 
     .line 237
     iget-object v0, p0, Lcom/vkontakte/android/s$2;->a:Lcom/vkontakte/android/UserProfile;
 
-    invoke-static {v0}, Lcom/vkontakte/android/im/k;->a(Lcom/vkontakte/android/UserProfile;)Lcom/vk/im/engine/models/users/User;
+    invoke-static {v0}, Lcom/vkontakte/android/im/k;->a(Lcom/vkontakte/android/UserProfile;)Lcom/vk/messenger/engine/models/users/User;
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/vk/im/ui/views/avatars/AvatarView;->a(Lcom/vk/im/engine/models/users/User;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/ui/views/avatars/AvatarView;->a(Lcom/vk/messenger/engine/models/users/User;)V
 
     .line 238
     sget-object p1, Lkotlin/l;->a:Lkotlin/l;

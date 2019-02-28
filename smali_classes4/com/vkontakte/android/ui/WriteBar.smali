@@ -3,7 +3,7 @@
 .source "WriteBar.java"
 
 # interfaces
-.implements Lcom/vk/im/ui/media/a/b;
+.implements Lcom/vk/messenger/ui/media/a/b;
 .implements Lcom/vk/stickers/c/a$c;
 
 
@@ -29,7 +29,7 @@
 
 .field private C:Landroid/view/ViewGroup;
 
-.field private D:Lcom/vk/im/ui/views/RichEditText;
+.field private D:Lcom/vk/messenger/ui/views/RichEditText;
 
 .field private E:Landroid/widget/TextView;
 
@@ -41,13 +41,13 @@
 
 .field private I:Landroid/view/ViewGroup;
 
-.field private J:Lcom/vk/im/ui/views/ReplyView;
+.field private J:Lcom/vk/messenger/ui/views/ReplyView;
 
 .field private K:Landroid/view/View;
 
-.field private L:Lcom/vk/im/engine/models/messages/MsgFromUser;
+.field private L:Lcom/vk/messenger/engine/models/messages/MsgFromUser;
 
-.field private M:Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+.field private M:Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
 .field private final N:Landroid/view/View$OnLayoutChangeListener;
 
@@ -87,7 +87,7 @@
 
 .field private d:Lcom/vk/navigation/a;
 
-.field private e:Lcom/vk/im/ui/media/a/a;
+.field private e:Lcom/vk/messenger/ui/media/a/a;
 
 .field private f:Lcom/vkontakte/android/ui/AttachmentsEditorView;
 
@@ -564,7 +564,7 @@
     .locals 1
 
     .line 1299
-    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->e:Lcom/vk/im/ui/media/a/a;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->e:Lcom/vk/messenger/ui/media/a/a;
 
     if-nez v0, :cond_0
 
@@ -572,14 +572,14 @@
 
     .line 1302
     :cond_0
-    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->e:Lcom/vk/im/ui/media/a/a;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->e:Lcom/vk/messenger/ui/media/a/a;
 
-    invoke-interface {v0, p0}, Lcom/vk/im/ui/media/a/a;->b(Lcom/vk/im/ui/media/a/b;)V
+    invoke-interface {v0, p0}, Lcom/vk/messenger/ui/media/a/a;->b(Lcom/vk/messenger/ui/media/a/b;)V
 
     const/4 v0, 0x0
 
     .line 1303
-    iput-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->e:Lcom/vk/im/ui/media/a/a;
+    iput-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->e:Lcom/vk/messenger/ui/media/a/a;
 
     return-void
 .end method
@@ -1263,11 +1263,11 @@
     invoke-direct {p0, p1}, Lcom/vkontakte/android/ui/WriteBar;->a(Z)V
 
     .line 1173
-    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/im/ui/views/RichEditText;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/messenger/ui/views/RichEditText;
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/views/RichEditText;->setKeepFocus(Z)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/views/RichEditText;->setKeepFocus(Z)V
 
     .line 1174
     iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->u:Landroid/view/View;
@@ -1444,11 +1444,11 @@
     invoke-virtual {v0}, Lcom/vkontakte/android/ui/widget/f;->b()V
 
     .line 1197
-    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/im/ui/views/RichEditText;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/messenger/ui/views/RichEditText;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/views/RichEditText;->setKeepFocus(Z)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/views/RichEditText;->setKeepFocus(Z)V
 
     .line 1198
     invoke-direct {p0, v1}, Lcom/vkontakte/android/ui/WriteBar;->a(Z)V
@@ -1693,9 +1693,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/vk/im/ui/views/ReplyView;
+    check-cast v1, Lcom/vk/messenger/ui/views/ReplyView;
 
-    iput-object v1, p0, Lcom/vkontakte/android/ui/WriteBar;->J:Lcom/vk/im/ui/views/ReplyView;
+    iput-object v1, p0, Lcom/vkontakte/android/ui/WriteBar;->J:Lcom/vk/messenger/ui/views/ReplyView;
 
     const v1, 0x7f0a0cd4
 
@@ -1905,9 +1905,9 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/vk/im/ui/views/RichEditText;
+    check-cast v2, Lcom/vk/messenger/ui/views/RichEditText;
 
-    iput-object v2, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/im/ui/views/RichEditText;
+    iput-object v2, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/messenger/ui/views/RichEditText;
 
     const v2, 0x7f0a0cdf
 
@@ -2068,22 +2068,22 @@
     invoke-static {p0}, Lcom/vkontakte/android/w;->b(Landroid/view/View;)V
 
     .line 563
-    iget-object v2, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/im/ui/views/RichEditText;
+    iget-object v2, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/messenger/ui/views/RichEditText;
 
     new-instance v3, Lcom/vkontakte/android/ui/WriteBar$6;
 
     invoke-direct {v3, p0}, Lcom/vkontakte/android/ui/WriteBar$6;-><init>(Lcom/vkontakte/android/ui/WriteBar;)V
 
-    invoke-virtual {v2, v3}, Lcom/vk/im/ui/views/RichEditText;->setOnKeyListener(Landroid/view/View$OnKeyListener;)V
+    invoke-virtual {v2, v3}, Lcom/vk/messenger/ui/views/RichEditText;->setOnKeyListener(Landroid/view/View$OnKeyListener;)V
 
     .line 575
-    iget-object v2, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/im/ui/views/RichEditText;
+    iget-object v2, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/messenger/ui/views/RichEditText;
 
     new-instance v3, Lcom/vkontakte/android/ui/WriteBar$7;
 
     invoke-direct {v3, p0}, Lcom/vkontakte/android/ui/WriteBar$7;-><init>(Lcom/vkontakte/android/ui/WriteBar;)V
 
-    invoke-virtual {v2, v3}, Lcom/vk/im/ui/views/RichEditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
+    invoke-virtual {v2, v3}, Lcom/vk/messenger/ui/views/RichEditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
     .line 588
     new-instance v2, Lcom/vkontakte/android/ui/widget/f;
@@ -2105,7 +2105,7 @@
     .line 590
     new-instance v2, Lcom/vk/stickers/b;
 
-    iget-object v3, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/im/ui/views/RichEditText;
+    iget-object v3, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/messenger/ui/views/RichEditText;
 
     invoke-direct {v2, v0, v3, v1}, Lcom/vk/stickers/b;-><init>(Landroid/content/Context;Landroid/widget/EditText;Landroid/view/View;)V
 
@@ -2328,11 +2328,11 @@
     return-void
 .end method
 
-.method static synthetic s(Lcom/vkontakte/android/ui/WriteBar;)Lcom/vk/im/ui/views/RichEditText;
+.method static synthetic s(Lcom/vkontakte/android/ui/WriteBar;)Lcom/vk/messenger/ui/views/RichEditText;
     .locals 0
 
     .line 123
-    iget-object p0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/im/ui/views/RichEditText;
+    iget-object p0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/messenger/ui/views/RichEditText;
 
     return-object p0
 .end method
@@ -2558,9 +2558,9 @@
     invoke-virtual {v0}, Lcom/vkontakte/android/ui/widget/f;->b()V
 
     .line 1151
-    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/im/ui/views/RichEditText;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/messenger/ui/views/RichEditText;
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/views/RichEditText;->setKeepFocus(Z)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/views/RichEditText;->setKeepFocus(Z)V
 
     return-void
 .end method
@@ -2660,11 +2660,11 @@
     invoke-virtual {v0}, Lcom/vkontakte/android/ui/widget/f;->a()V
 
     .line 1168
-    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/im/ui/views/RichEditText;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/messenger/ui/views/RichEditText;
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/views/RichEditText;->setKeepFocus(Z)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/views/RichEditText;->setKeepFocus(Z)V
 
     return-void
 .end method
@@ -3825,7 +3825,7 @@
     return-void
 .end method
 
-.method public a(Lcom/vk/im/engine/models/messages/MsgFromUser;Lcom/vk/im/engine/models/ProfilesSimpleInfo;)V
+.method public a(Lcom/vk/messenger/engine/models/messages/MsgFromUser;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)V
     .locals 2
 
     if-eqz p1, :cond_1
@@ -3843,15 +3843,15 @@
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setVisibility(I)V
 
     .line 878
-    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->J:Lcom/vk/im/ui/views/ReplyView;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->J:Lcom/vk/messenger/ui/views/ReplyView;
 
-    invoke-virtual {v0, p1, p2}, Lcom/vk/im/ui/views/ReplyView;->a(Lcom/vk/im/engine/models/messages/g;Lcom/vk/im/engine/models/ProfilesSimpleInfo;)V
+    invoke-virtual {v0, p1, p2}, Lcom/vk/messenger/ui/views/ReplyView;->a(Lcom/vk/messenger/engine/models/messages/g;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)V
 
     .line 879
-    iput-object p1, p0, Lcom/vkontakte/android/ui/WriteBar;->L:Lcom/vk/im/engine/models/messages/MsgFromUser;
+    iput-object p1, p0, Lcom/vkontakte/android/ui/WriteBar;->L:Lcom/vk/messenger/engine/models/messages/MsgFromUser;
 
     .line 880
-    iput-object p2, p0, Lcom/vkontakte/android/ui/WriteBar;->M:Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    iput-object p2, p0, Lcom/vkontakte/android/ui/WriteBar;->M:Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     .line 881
     invoke-virtual {p0}, Lcom/vkontakte/android/ui/WriteBar;->e()V
@@ -3860,7 +3860,7 @@
     invoke-direct {p0}, Lcom/vkontakte/android/ui/WriteBar;->p()V
 
     .line 883
-    iget-object p1, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/im/ui/views/RichEditText;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/messenger/ui/views/RichEditText;
 
     invoke-static {p1}, Lcom/vk/core/util/af;->a(Landroid/view/View;)V
 
@@ -3874,11 +3874,11 @@
     return-void
 .end method
 
-.method public a(Lcom/vk/im/ui/media/a/a;)V
+.method public a(Lcom/vk/messenger/ui/media/a/a;)V
     .locals 5
 
     .line 1308
-    invoke-interface {p1}, Lcom/vk/im/ui/media/a/a;->d()Lcom/vk/audio/AudioMsgTrack;
+    invoke-interface {p1}, Lcom/vk/messenger/ui/media/a/a;->d()Lcom/vk/audio/AudioMsgTrack;
 
     move-result-object p1
 
@@ -4086,7 +4086,7 @@
 
     .line 964
     :cond_2
-    invoke-virtual {p0, v3, v3}, Lcom/vkontakte/android/ui/WriteBar;->a(Lcom/vk/im/engine/models/messages/MsgFromUser;Lcom/vk/im/engine/models/ProfilesSimpleInfo;)V
+    invoke-virtual {p0, v3, v3}, Lcom/vkontakte/android/ui/WriteBar;->a(Lcom/vk/messenger/engine/models/messages/MsgFromUser;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)V
 
     return-void
 .end method
@@ -4394,12 +4394,12 @@
     .locals 2
 
     .line 723
-    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/im/ui/views/RichEditText;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/messenger/ui/views/RichEditText;
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/views/RichEditText;->requestFocus()Z
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/views/RichEditText;->requestFocus()Z
 
     .line 724
-    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/im/ui/views/RichEditText;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/messenger/ui/views/RichEditText;
 
     invoke-virtual {p0}, Lcom/vkontakte/android/ui/WriteBar;->getText()Ljava/lang/String;
 
@@ -4409,10 +4409,10 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/views/RichEditText;->setSelection(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/views/RichEditText;->setSelection(I)V
 
     .line 725
-    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/im/ui/views/RichEditText;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/messenger/ui/views/RichEditText;
 
     invoke-static {v0}, Lcom/vk/core/util/af;->a(Landroid/view/View;)V
 
@@ -4432,10 +4432,10 @@
     const/4 v0, 0x0
 
     .line 888
-    iput-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->L:Lcom/vk/im/engine/models/messages/MsgFromUser;
+    iput-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->L:Lcom/vk/messenger/engine/models/messages/MsgFromUser;
 
     .line 889
-    iput-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->M:Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    iput-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->M:Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     .line 890
     invoke-direct {p0}, Lcom/vkontakte/android/ui/WriteBar;->p()V
@@ -4473,20 +4473,20 @@
     return-object v0
 .end method
 
-.method public getReplyMessage()Lcom/vk/im/engine/models/messages/MsgFromUser;
+.method public getReplyMessage()Lcom/vk/messenger/engine/models/messages/MsgFromUser;
     .locals 1
 
     .line 864
-    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->L:Lcom/vk/im/engine/models/messages/MsgFromUser;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->L:Lcom/vk/messenger/engine/models/messages/MsgFromUser;
 
     return-object v0
 .end method
 
-.method public getReplyMsgMembers()Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+.method public getReplyMsgMembers()Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
     .locals 1
 
     .line 869
-    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->M:Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->M:Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     return-object v0
 .end method
@@ -4495,9 +4495,9 @@
     .locals 1
 
     .line 631
-    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/im/ui/views/RichEditText;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/messenger/ui/views/RichEditText;
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/views/RichEditText;->getText()Landroid/text/Editable;
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/views/RichEditText;->getText()Landroid/text/Editable;
 
     move-result-object v0
 
@@ -4512,9 +4512,9 @@
     .locals 3
 
     .line 1069
-    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/im/ui/views/RichEditText;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/messenger/ui/views/RichEditText;
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/views/RichEditText;->getText()Landroid/text/Editable;
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/views/RichEditText;->getText()Landroid/text/Editable;
 
     move-result-object v0
 
@@ -4798,7 +4798,7 @@
     return-void
 .end method
 
-.method public setAudioMsgPlayer(Lcom/vk/im/ui/media/a/a;)V
+.method public setAudioMsgPlayer(Lcom/vk/messenger/ui/media/a/a;)V
     .locals 0
 
     if-nez p1, :cond_0
@@ -4810,12 +4810,12 @@
     invoke-direct {p0}, Lcom/vkontakte/android/ui/WriteBar;->B()V
 
     .line 1294
-    iput-object p1, p0, Lcom/vkontakte/android/ui/WriteBar;->e:Lcom/vk/im/ui/media/a/a;
+    iput-object p1, p0, Lcom/vkontakte/android/ui/WriteBar;->e:Lcom/vk/messenger/ui/media/a/a;
 
     .line 1295
-    iget-object p1, p0, Lcom/vkontakte/android/ui/WriteBar;->e:Lcom/vk/im/ui/media/a/a;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/WriteBar;->e:Lcom/vk/messenger/ui/media/a/a;
 
-    invoke-interface {p1, p0}, Lcom/vk/im/ui/media/a/a;->a(Lcom/vk/im/ui/media/a/b;)V
+    invoke-interface {p1, p0}, Lcom/vk/messenger/ui/media/a/a;->a(Lcom/vk/messenger/ui/media/a/b;)V
 
     return-void
 .end method
@@ -5125,9 +5125,9 @@
     .locals 1
 
     .line 635
-    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/im/ui/views/RichEditText;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar;->D:Lcom/vk/messenger/ui/views/RichEditText;
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/views/RichEditText;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/views/RichEditText;->setText(Ljava/lang/CharSequence;)V
 
     const/4 p1, 0x1
 

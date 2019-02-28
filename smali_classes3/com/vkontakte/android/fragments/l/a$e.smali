@@ -47,21 +47,21 @@
 
     .line 384
     :pswitch_0
-    iget-object p1, p0, Lcom/vkontakte/android/fragments/l/a$e;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/fragments/l/a$e;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     sget-object p2, Lcom/facebook/drawee/drawable/p$b;->g:Lcom/facebook/drawee/drawable/p$b;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
 
     goto :goto_0
 
     .line 381
     :pswitch_1
-    iget-object p1, p0, Lcom/vkontakte/android/fragments/l/a$e;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/fragments/l/a$e;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     sget-object p2, Lcom/facebook/drawee/drawable/p$b;->e:Lcom/facebook/drawee/drawable/p$b;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
 
     :goto_0
     return-void
@@ -102,11 +102,11 @@
     invoke-static {p1, v0, v1}, Lcom/vkontakte/android/w;->a(Landroid/widget/TextView;Ljava/lang/Object;Z)V
 
     .line 393
-    iget-object p1, p0, Lcom/vkontakte/android/fragments/l/a$e;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/fragments/l/a$e;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget p2, p2, Lcom/vkontakte/android/fragments/l/a$d;->a:I
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->a(I)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->a(I)V
 
     return-void
 .end method

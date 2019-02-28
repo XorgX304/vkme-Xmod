@@ -2,7 +2,7 @@
 <merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <com.vk.imageloader.view.VKImageView android:id="@id/group_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:orientation="horizontal" app:viewAspectRatio="4.0" />
+        <com.vk.messengerageloader.view.VKImageView android:id="@id/group_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:orientation="horizontal" app:viewAspectRatio="4.0" />
         <View android:id="@id/profile_scrim1" android:background="@drawable/scrim_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="112.0dip" android:alpha="0.5" />
         <View android:id="@id/profile_photo_overlay" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/group_cover" android:layout_alignBottom="@id/group_cover" android:alpha="0.0" app:theme="?actionBarTheme" />
     </RelativeLayout>
@@ -17,6 +17,6 @@
                 <TextView android:textSize="15.0sp" android:ellipsize="end" android:id="@id/profile_btn3" android:layout_width="wrap_content" android:layout_height="36.0dip" android:singleLine="true" android:layout_marginEnd="8.0dip" style="@style/secondary_button" />
             </LinearLayout>
         </LinearLayout>
-        <com.vk.imageloader.view.VKCircleImageView android:id="@id/profile_photo" android:layout_width="160.0dip" android:layout_height="160.0dip" android:layout_marginEnd="@dimen/post_side_padding" />
+        <com.vk.messengerageloader.view.VKCircleImageView android:id="@id/profile_photo" android:layout_width="160.0dip" android:layout_height="160.0dip" android:layout_marginEnd="@dimen/post_side_padding" />
     </LinearLayout>
 </merge>

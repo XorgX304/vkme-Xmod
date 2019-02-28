@@ -354,9 +354,9 @@
     .line 122
     iget-object p1, p0, Lcom/vk/newsfeed/posting/viewpresenter/bottom/b$e;->o:Lcom/vk/newsfeed/FrescoImageView;
 
-    sget-object p2, Lcom/vk/im/ui/views/ScaleType;->FIT_CENTER:Lcom/vk/im/ui/views/ScaleType;
+    sget-object p2, Lcom/vk/messenger/ui/views/ScaleType;->FIT_CENTER:Lcom/vk/messenger/ui/views/ScaleType;
 
-    invoke-virtual {p1, p2}, Lcom/vk/newsfeed/FrescoImageView;->setScaleType(Lcom/vk/im/ui/views/ScaleType;)V
+    invoke-virtual {p1, p2}, Lcom/vk/newsfeed/FrescoImageView;->setScaleType(Lcom/vk/messenger/ui/views/ScaleType;)V
 
     .line 123
     iget-object p1, p0, Lcom/vk/newsfeed/posting/viewpresenter/bottom/b$e;->r:Landroid/widget/FrameLayout;

@@ -27,7 +27,7 @@
 
 .field private o:Landroid/widget/TextView;
 
-.field private p:Lcom/vk/imageloader/view/VKImageView;
+.field private p:Lcom/vk/messengerageloader/view/VKImageView;
 
 
 # direct methods
@@ -74,9 +74,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/fragments/r$b;->p:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/fragments/r$b;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-void
 .end method
@@ -183,7 +183,7 @@
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 247
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/r$b;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/r$b;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object p1, p1, Lcom/vkontakte/android/api/apps/AppsGetGameLeaderboard$LeaderboardData;->a:Lcom/vkontakte/android/data/ApiApplication;
 
@@ -203,7 +203,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     return-void
 

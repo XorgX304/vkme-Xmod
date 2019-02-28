@@ -2319,7 +2319,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 398
-    invoke-static {p1}, Lcom/vk/imageloader/i;->c(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {p1}, Lcom/vk/messengerageloader/i;->c(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -2330,7 +2330,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/vk/imageloader/i;->f(Landroid/net/Uri;)Lio/reactivex/j;
+    invoke-static {p1}, Lcom/vk/messengerageloader/i;->f(Landroid/net/Uri;)Lio/reactivex/j;
 
     move-result-object p1
 

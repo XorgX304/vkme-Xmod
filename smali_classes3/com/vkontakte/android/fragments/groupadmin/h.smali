@@ -957,13 +957,13 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object p3, p0, Lcom/vkontakte/android/fragments/groupadmin/h;->ae:Lcom/vkontakte/android/UserProfile;
 
     iget-object p3, p3, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
-    invoke-virtual {p2, p3}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p2, p3}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 122
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

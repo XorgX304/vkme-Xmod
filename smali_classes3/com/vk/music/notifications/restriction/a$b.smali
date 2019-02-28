@@ -57,7 +57,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/vk/im/engine/events/a;)Lcom/vk/im/engine/events/a;
+.method public final a(Lcom/vk/messenger/engine/events/a;)Lcom/vk/messenger/engine/events/a;
     .locals 1
 
     const-string v0, "lpe"
@@ -71,9 +71,9 @@
     .locals 0
 
     .line 27
-    check-cast p1, Lcom/vk/im/engine/events/a;
+    check-cast p1, Lcom/vk/messenger/engine/events/a;
 
-    invoke-virtual {p0, p1}, Lcom/vk/music/notifications/restriction/a$b;->a(Lcom/vk/im/engine/events/a;)Lcom/vk/im/engine/events/a;
+    invoke-virtual {p0, p1}, Lcom/vk/music/notifications/restriction/a$b;->a(Lcom/vk/messenger/engine/events/a;)Lcom/vk/messenger/engine/events/a;
 
     move-result-object p1
 

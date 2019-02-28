@@ -505,7 +505,7 @@
     invoke-direct {v1, v3}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
     .line 188
-    invoke-static {v2}, Lcom/vk/im/engine/internal/c/c;->b(Ljava/io/File;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/vk/messenger/engine/internal/c/c;->b(Ljava/io/File;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -621,7 +621,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/vk/imageloader/i;->c(Landroid/net/Uri;)Lcom/facebook/imagepipeline/g/d;
+    invoke-static {v0}, Lcom/vk/messengerageloader/i;->c(Landroid/net/Uri;)Lcom/facebook/imagepipeline/g/d;
 
     move-result-object v0
 

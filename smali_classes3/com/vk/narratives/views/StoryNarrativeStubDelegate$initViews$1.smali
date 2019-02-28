@@ -82,7 +82,7 @@
 
     iget-object v1, p0, Lcom/vk/narratives/views/StoryNarrativeStubDelegate$initViews$1;->this$0:Lcom/vk/narratives/views/b;
 
-    invoke-static {v1}, Lcom/vk/narratives/views/b;->a(Lcom/vk/narratives/views/b;)Lcom/vk/imageloader/view/VKImageView;
+    invoke-static {v1}, Lcom/vk/narratives/views/b;->a(Lcom/vk/narratives/views/b;)Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v1
 

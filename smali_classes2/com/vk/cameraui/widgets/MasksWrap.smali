@@ -59,7 +59,7 @@
 
 .field private h:Landroid/widget/FrameLayout;
 
-.field private i:Lcom/vk/imageloader/view/VKCircleImageView;
+.field private i:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
 .field private j:Landroid/widget/TextView;
 
@@ -264,9 +264,9 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    iput-object p1, p0, Lcom/vk/cameraui/widgets/MasksWrap;->i:Lcom/vk/imageloader/view/VKCircleImageView;
+    iput-object p1, p0, Lcom/vk/cameraui/widgets/MasksWrap;->i:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     const p1, 0x7f0a0684
 
@@ -793,13 +793,13 @@
     if-eqz v0, :cond_0
 
     .line 544
-    iget-object v0, p0, Lcom/vk/cameraui/widgets/MasksWrap;->i:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object v0, p0, Lcom/vk/cameraui/widgets/MasksWrap;->i:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/masks/Mask;->c()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     .line 545
     iget-object v0, p0, Lcom/vk/cameraui/widgets/MasksWrap;->j:Landroid/widget/TextView;
@@ -856,9 +856,9 @@
 
     .line 555
     :cond_0
-    iget-object p1, p0, Lcom/vk/cameraui/widgets/MasksWrap;->i:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object p1, p0, Lcom/vk/cameraui/widgets/MasksWrap;->i:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKCircleImageView;->h()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->h()V
 
     .line 556
     iget-object p1, p0, Lcom/vk/cameraui/widgets/MasksWrap;->j:Landroid/widget/TextView;

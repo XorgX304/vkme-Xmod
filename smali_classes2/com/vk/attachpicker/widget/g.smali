@@ -1,5 +1,5 @@
 .class public Lcom/vk/attachpicker/widget/g;
-.super Lcom/vk/imageloader/view/VKZoomableImageView;
+.super Lcom/vk/messengerageloader/view/VKZoomableImageView;
 .source "ImageViewerImageView.java"
 
 
@@ -16,7 +16,7 @@
     .locals 0
 
     .line 19
-    invoke-direct {p0, p1}, Lcom/vk/imageloader/view/VKZoomableImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lcom/vk/messengerageloader/view/VKZoomableImageView;-><init>(Landroid/content/Context;)V
 
     const/4 p1, 0x0
 
@@ -50,7 +50,7 @@
 
     move-result v1
 
-    invoke-super {p0, v0, v1}, Lcom/vk/imageloader/view/VKZoomableImageView;->b(II)V
+    invoke-super {p0, v0, v1}, Lcom/vk/messengerageloader/view/VKZoomableImageView;->b(II)V
 
     :cond_0
     return-void
@@ -78,19 +78,19 @@
 
     const/4 v0, 0x0
 
-    invoke-static {v0}, Lcom/vk/imageloader/i;->a(Z)Lcom/vk/imageloader/ImageSize;
+    invoke-static {v0}, Lcom/vk/messengerageloader/i;->a(Z)Lcom/vk/messengerageloader/ImageSize;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
     .line 35
-    invoke-static {v1}, Lcom/vk/imageloader/i;->a(Z)Lcom/vk/imageloader/ImageSize;
+    invoke-static {v1}, Lcom/vk/messengerageloader/i;->a(Z)Lcom/vk/messengerageloader/ImageSize;
 
     move-result-object v1
 
     .line 34
-    invoke-virtual {p0, p1, v0, v1}, Lcom/vk/attachpicker/widget/g;->a(Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {p0, p1, v0, v1}, Lcom/vk/attachpicker/widget/g;->a(Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;Lcom/vk/messengerageloader/ImageSize;)V
 
     return-void
 .end method

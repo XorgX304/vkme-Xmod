@@ -110,7 +110,7 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {}, Lcom/vkontakte/android/auth/a;->b()Lcom/vk/c/a;
 
@@ -120,7 +120,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     return-void
 .end method

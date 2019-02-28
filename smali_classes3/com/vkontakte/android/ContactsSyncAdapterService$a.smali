@@ -244,7 +244,7 @@
 
     move-result-object v7
 
-    new-instance v8, Lcom/vk/imageloader/a/a;
+    new-instance v8, Lcom/vk/messengerageloader/a/a;
 
     iget-object v9, v4, Lcom/vkontakte/android/ContactsSyncAdapterService$b;->d:Landroid/graphics/RectF;
 
@@ -252,9 +252,9 @@
 
     move-result v10
 
-    invoke-direct {v8, v9, v10}, Lcom/vk/imageloader/a/a;-><init>(Landroid/graphics/RectF;I)V
+    invoke-direct {v8, v9, v10}, Lcom/vk/messengerageloader/a/a;-><init>(Landroid/graphics/RectF;I)V
 
-    invoke-static {v7, v8}, Lcom/vk/imageloader/i;->a(Landroid/net/Uri;Lcom/facebook/imagepipeline/request/b;)Lio/reactivex/j;
+    invoke-static {v7, v8}, Lcom/vk/messengerageloader/i;->a(Landroid/net/Uri;Lcom/facebook/imagepipeline/request/b;)Lio/reactivex/j;
 
     move-result-object v7
 

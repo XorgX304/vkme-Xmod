@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/vkontakte/android/sync/im/VkImSyncService;->a(Lcom/vk/im/engine/StartCause;Z)V
+    value = Lcom/vkontakte/android/sync/im/VkImSyncService;->a(Lcom/vk/messenger/engine/StartCause;Z)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

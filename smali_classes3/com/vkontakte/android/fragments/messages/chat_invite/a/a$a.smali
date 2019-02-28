@@ -15,7 +15,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/vk/im/engine/models/dialogs/DialogExt;)V
+.method public constructor <init>(Lcom/vk/messenger/engine/models/dialogs/DialogExt;)V
     .locals 2
 
     const-string v0, "dialog"
@@ -28,9 +28,9 @@
     invoke-direct {p0, v0}, Lcom/vk/navigation/v;-><init>(Ljava/lang/Class;)V
 
     .line 28
-    sget-object v0, Lcom/vk/im/ui/themes/a;->b:Lcom/vk/im/ui/themes/a;
+    sget-object v0, Lcom/vk/messenger/ui/themes/a;->b:Lcom/vk/messenger/ui/themes/a;
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/themes/a;->c()I
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/themes/a;->c()I
 
     move-result v0
 

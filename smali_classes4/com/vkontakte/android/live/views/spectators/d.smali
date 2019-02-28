@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private final a:Lcom/vk/imageloader/view/VKCircleImageView;
+.field private final a:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
 .field private final b:Landroid/widget/TextView;
 
@@ -90,9 +90,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    iput-object p2, p0, Lcom/vkontakte/android/live/views/spectators/d;->a:Lcom/vk/imageloader/view/VKCircleImageView;
+    iput-object p2, p0, Lcom/vkontakte/android/live/views/spectators/d;->a:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     const p2, 0x7f0a05e0
 
@@ -263,9 +263,9 @@
     invoke-direct {p1, p0}, Lcom/vkontakte/android/live/views/spectators/d$1;-><init>(Lcom/vkontakte/android/live/views/spectators/d;)V
 
     .line 82
-    iget-object p2, p0, Lcom/vkontakte/android/live/views/spectators/d;->a:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object p2, p0, Lcom/vkontakte/android/live/views/spectators/d;->a:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    invoke-virtual {p2, p1}, Lcom/vk/imageloader/view/VKCircleImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p2, p1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 83
     iget-object p2, p0, Lcom/vkontakte/android/live/views/spectators/d;->h:Landroid/widget/LinearLayout;
@@ -331,9 +331,9 @@
     .locals 1
 
     .line 138
-    iget-object p3, p0, Lcom/vkontakte/android/live/views/spectators/d;->a:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object p3, p0, Lcom/vkontakte/android/live/views/spectators/d;->a:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    invoke-virtual {p3, p2}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p3, p2}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     if-eqz p1, :cond_0
 

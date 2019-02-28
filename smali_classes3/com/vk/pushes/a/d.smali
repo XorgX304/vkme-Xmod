@@ -256,7 +256,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {v0}, Lcom/vk/imageloader/i;->f(Ljava/lang/String;)Lio/reactivex/j;
+    invoke-static {v0}, Lcom/vk/messengerageloader/i;->f(Ljava/lang/String;)Lio/reactivex/j;
 
     move-result-object p1
 
@@ -264,7 +264,7 @@
 
     .line 121
     :cond_0
-    invoke-static {v0}, Lcom/vk/imageloader/i;->g(Ljava/lang/String;)Lio/reactivex/j;
+    invoke-static {v0}, Lcom/vk/messengerageloader/i;->g(Ljava/lang/String;)Lio/reactivex/j;
 
     move-result-object p1
 
@@ -795,9 +795,9 @@
     move-result-object p1
 
     .line 109
-    sget-object v1, Lcom/vk/imageloader/ImageSize;->SIZE_56DP:Lcom/vk/imageloader/ImageSize;
+    sget-object v1, Lcom/vk/messengerageloader/ImageSize;->SIZE_56DP:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v1}, Lcom/vk/imageloader/ImageSize;->a()I
+    invoke-virtual {v1}, Lcom/vk/messengerageloader/ImageSize;->a()I
 
     move-result v1
 

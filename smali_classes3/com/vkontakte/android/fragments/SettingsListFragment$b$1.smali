@@ -62,21 +62,21 @@
     if-eqz v0, :cond_0
 
     .line 187
-    sget-object v0, Lcom/vk/im/ui/themes/a;->b:Lcom/vk/im/ui/themes/a;
+    sget-object v0, Lcom/vk/messenger/ui/themes/a;->b:Lcom/vk/messenger/ui/themes/a;
 
-    sget-object v1, Lcom/vk/im/ui/themes/ImTheme;->VKAPP_LIGHT:Lcom/vk/im/ui/themes/ImTheme;
+    sget-object v1, Lcom/vk/messenger/ui/themes/ImTheme;->VKAPP_LIGHT:Lcom/vk/messenger/ui/themes/ImTheme;
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/themes/a;->a(Lcom/vk/im/ui/themes/ImTheme;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/themes/a;->a(Lcom/vk/messenger/ui/themes/ImTheme;)V
 
     goto :goto_0
 
     .line 189
     :cond_0
-    sget-object v0, Lcom/vk/im/ui/themes/a;->b:Lcom/vk/im/ui/themes/a;
+    sget-object v0, Lcom/vk/messenger/ui/themes/a;->b:Lcom/vk/messenger/ui/themes/a;
 
-    sget-object v1, Lcom/vk/im/ui/themes/ImTheme;->VKAPP_DARK:Lcom/vk/im/ui/themes/ImTheme;
+    sget-object v1, Lcom/vk/messenger/ui/themes/ImTheme;->VKAPP_DARK:Lcom/vk/messenger/ui/themes/ImTheme;
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/themes/a;->a(Lcom/vk/im/ui/themes/ImTheme;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/themes/a;->a(Lcom/vk/messenger/ui/themes/ImTheme;)V
 
     .line 192
     :goto_0

@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/vkontakte/android/im/i;->a(Landroid/content/Context;)Lcom/vk/im/engine/b;
+    value = Lcom/vkontakte/android/im/i;->a(Landroid/content/Context;)Lcom/vk/messenger/engine/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

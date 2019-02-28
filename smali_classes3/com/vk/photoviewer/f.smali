@@ -128,7 +128,7 @@
     return-object p0
 .end method
 
-.method private final a(Lcom/vk/imageloader/view/VKZoomableImageView;Landroid/view/ViewGroup;Lcom/vk/photoviewer/h$d;ILcom/vk/photoviewer/ClippingImageView;)V
+.method private final a(Lcom/vk/messengerageloader/view/VKZoomableImageView;Landroid/view/ViewGroup;Lcom/vk/photoviewer/h$d;ILcom/vk/photoviewer/ClippingImageView;)V
     .locals 3
 
     .line 83
@@ -136,17 +136,17 @@
 
     invoke-direct {v0, p0}, Lcom/vk/photoviewer/f$b;-><init>(Lcom/vk/photoviewer/f;)V
 
-    check-cast v0, Lcom/vk/imageloader/view/a/c;
+    check-cast v0, Lcom/vk/messengerageloader/view/a/c;
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKZoomableImageView;->setOnPhotoTapListener(Lcom/vk/imageloader/view/a/c;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKZoomableImageView;->setOnPhotoTapListener(Lcom/vk/messengerageloader/view/a/c;)V
 
     const/4 v0, 0x0
 
     .line 84
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKZoomableImageView;->setZoomable(Z)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKZoomableImageView;->setZoomable(Z)V
 
     .line 85
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKZoomableImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKZoomableImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
 
     move-result-object v1
 
@@ -159,7 +159,7 @@
     invoke-virtual {v1, v0}, Lcom/facebook/drawee/generic/a;->a(I)V
 
     .line 86
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKZoomableImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKZoomableImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
 
     move-result-object v0
 
@@ -182,9 +182,9 @@
     invoke-virtual {v0, v1}, Lcom/facebook/drawee/generic/a;->d(Landroid/graphics/drawable/Drawable;)V
 
     .line 87
-    sget-object p2, Lcom/vk/imageloader/c;->a:Lcom/vk/imageloader/c;
+    sget-object p2, Lcom/vk/messengerageloader/c;->a:Lcom/vk/messengerageloader/c;
 
-    invoke-virtual {p2}, Lcom/vk/imageloader/c;->a()Lcom/facebook/drawee/a/a/f;
+    invoke-virtual {p2}, Lcom/vk/messengerageloader/c;->a()Lcom/facebook/drawee/a/a/f;
 
     move-result-object p2
 
@@ -193,7 +193,7 @@
     move-result-object p2
 
     .line 88
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKZoomableImageView;->getController()Lcom/facebook/drawee/d/a;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKZoomableImageView;->getController()Lcom/facebook/drawee/d/a;
 
     move-result-object v0
 
@@ -246,7 +246,7 @@
     .line 92
     new-instance p3, Lcom/vk/photoviewer/f$c;
 
-    invoke-direct {p3, p0, p4, p1, p5}, Lcom/vk/photoviewer/f$c;-><init>(Lcom/vk/photoviewer/f;ILcom/vk/imageloader/view/VKZoomableImageView;Lcom/vk/photoviewer/ClippingImageView;)V
+    invoke-direct {p3, p0, p4, p1, p5}, Lcom/vk/photoviewer/f$c;-><init>(Lcom/vk/photoviewer/f;ILcom/vk/messengerageloader/view/VKZoomableImageView;Lcom/vk/photoviewer/ClippingImageView;)V
 
     check-cast p3, Lcom/facebook/drawee/controller/c;
 
@@ -263,7 +263,7 @@
 
     check-cast p2, Lcom/facebook/drawee/d/a;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKZoomableImageView;->setController(Lcom/facebook/drawee/d/a;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKZoomableImageView;->setController(Lcom/facebook/drawee/d/a;)V
 
     return-void
 .end method
@@ -334,7 +334,7 @@
 
     move-object v8, v1
 
-    check-cast v8, Lcom/vk/imageloader/view/VKZoomableImageView;
+    check-cast v8, Lcom/vk/messengerageloader/view/VKZoomableImageView;
 
     .line 33
     sget v1, Lcom/vk/photoviewer/j$a;->pv_lq_image_view:I
@@ -376,7 +376,7 @@
     .line 39
     new-instance v1, Lcom/vk/photoviewer/f$e;
 
-    invoke-direct {v1, v8}, Lcom/vk/photoviewer/f$e;-><init>(Lcom/vk/imageloader/view/VKZoomableImageView;)V
+    invoke-direct {v1, v8}, Lcom/vk/photoviewer/f$e;-><init>(Lcom/vk/messengerageloader/view/VKZoomableImageView;)V
 
     check-cast v1, Landroid/view/View$OnLayoutChangeListener;
 
@@ -435,7 +435,7 @@
     move-object v6, v9
 
     .line 52
-    invoke-direct/range {v1 .. v6}, Lcom/vk/photoviewer/f;->a(Lcom/vk/imageloader/view/VKZoomableImageView;Landroid/view/ViewGroup;Lcom/vk/photoviewer/h$d;ILcom/vk/photoviewer/ClippingImageView;)V
+    invoke-direct/range {v1 .. v6}, Lcom/vk/photoviewer/f;->a(Lcom/vk/messengerageloader/view/VKZoomableImageView;Landroid/view/ViewGroup;Lcom/vk/photoviewer/h$d;ILcom/vk/photoviewer/ClippingImageView;)V
 
     move-object v1, v10
 
@@ -477,9 +477,9 @@
     move-result-object v2
 
     .line 63
-    sget-object v3, Lcom/vk/imageloader/c;->a:Lcom/vk/imageloader/c;
+    sget-object v3, Lcom/vk/messengerageloader/c;->a:Lcom/vk/messengerageloader/c;
 
-    invoke-virtual {v3}, Lcom/vk/imageloader/c;->a()Lcom/facebook/drawee/a/a/f;
+    invoke-virtual {v3}, Lcom/vk/messengerageloader/c;->a()Lcom/facebook/drawee/a/a/f;
 
     move-result-object v3
 
@@ -664,14 +664,14 @@
 
     move-result-object v0
 
-    instance-of v1, v0, Lcom/vk/imageloader/view/VKZoomableImageView;
+    instance-of v1, v0, Lcom/vk/messengerageloader/view/VKZoomableImageView;
 
     if-nez v1, :cond_1
 
     const/4 v0, 0x0
 
     :cond_1
-    check-cast v0, Lcom/vk/imageloader/view/VKZoomableImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKZoomableImageView;
 
     if-eqz v0, :cond_2
 
@@ -681,7 +681,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKZoomableImageView;->setZoomable(Z)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKZoomableImageView;->setZoomable(Z)V
 
     .line 116
     :cond_2
@@ -739,21 +739,21 @@
 
     move-result-object p1
 
-    instance-of v0, p1, Lcom/vk/imageloader/view/VKZoomableImageView;
+    instance-of v0, p1, Lcom/vk/messengerageloader/view/VKZoomableImageView;
 
     if-nez v0, :cond_0
 
     const/4 p1, 0x0
 
     :cond_0
-    check-cast p1, Lcom/vk/imageloader/view/VKZoomableImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKZoomableImageView;
 
     const/high16 v0, 0x3f800000    # 1.0f
 
     if-eqz p1, :cond_1
 
     .line 124
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKZoomableImageView;->getScale()F
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKZoomableImageView;->getScale()F
 
     move-result v1
 
@@ -771,7 +771,7 @@
 
     if-eqz p1, :cond_2
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKZoomableImageView;->k()Z
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKZoomableImageView;->k()Z
 
     move-result p1
 

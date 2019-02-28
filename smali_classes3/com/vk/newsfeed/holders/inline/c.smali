@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private final q:Lcom/vk/imageloader/view/VKImageView;
+.field private final q:Lcom/vk/messengerageloader/view/VKImageView;
 
 
 # direct methods
@@ -37,32 +37,32 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 22
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f0601d4
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     .line 23
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     sget-object v0, Lcom/facebook/drawee/drawable/p$b;->g:Lcom/facebook/drawee/drawable/p$b;
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
 
     .line 24
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     move-object v0, p0
 
     check-cast v0, Landroid/view/View$OnClickListener;
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     return-void
 .end method
@@ -88,7 +88,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/inline/c;->A()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/inline/c;->A()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
@@ -100,7 +100,7 @@
     if-nez p1, :cond_2
 
     .line 61
-    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/inline/c;->A()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/inline/c;->A()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
@@ -110,7 +110,7 @@
 
     .line 62
     :cond_2
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p1, Landroid/view/View;
 
@@ -226,17 +226,17 @@
     if-eq p1, v1, :cond_3
 
     .line 32
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     const/16 v0, 0x8
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     return-void
 
     .line 35
     :cond_3
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {v0}, Lkotlin/collections/m;->h(Ljava/util/List;)Ljava/lang/Object;
 
@@ -244,12 +244,12 @@
 
     check-cast v0, Lcom/vk/dto/common/Attachment;
 
-    invoke-virtual {p0, p1, v0}, Lcom/vk/newsfeed/holders/inline/c;->a(Lcom/vk/imageloader/view/VKImageView;Lcom/vk/dto/common/Attachment;)V
+    invoke-virtual {p0, p1, v0}, Lcom/vk/newsfeed/holders/inline/c;->a(Lcom/vk/messengerageloader/view/VKImageView;Lcom/vk/dto/common/Attachment;)V
 
     .line 36
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, v2}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {p1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     return-void
 
@@ -280,7 +280,7 @@
     invoke-virtual {p0, v0}, Lcom/vk/newsfeed/holders/inline/c;->a(Z)V
 
     .line 42
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -295,7 +295,7 @@
     if-nez p1, :cond_4
 
     .line 43
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/c;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p1, Landroid/view/View;
 

@@ -23,7 +23,7 @@
 
 .field d:Landroid/widget/TextView;
 
-.field e:Lcom/vk/imageloader/view/VKImageView;
+.field e:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field f:Lcom/vk/music/view/d;
 
@@ -120,9 +120,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v0, p0, Lcom/vk/music/view/f;->e:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vk/music/view/f;->e:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f0a0a8b
 
@@ -183,14 +183,14 @@
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 74
-    iget-object v0, p0, Lcom/vk/music/view/f;->e:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/music/view/f;->e:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_2
 
     .line 75
-    iget-object v0, p0, Lcom/vk/music/view/f;->e:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/music/view/f;->e:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 78
     :cond_2
@@ -286,14 +286,14 @@
 
     if-nez v0, :cond_1
 
-    iget-object v0, p0, Lcom/vk/music/view/f;->e:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/music/view/f;->e:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_1
 
     .line 108
-    iget-object v0, p0, Lcom/vk/music/view/f;->e:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/music/view/f;->e:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :cond_1
     return-void

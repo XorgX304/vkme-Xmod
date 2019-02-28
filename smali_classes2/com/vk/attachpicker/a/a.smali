@@ -250,11 +250,11 @@
 
     move-result-object v0
 
-    invoke-static {v1}, Lcom/vk/imageloader/i;->a(Z)Lcom/vk/imageloader/ImageSize;
+    invoke-static {v1}, Lcom/vk/messengerageloader/i;->a(Z)Lcom/vk/messengerageloader/ImageSize;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/vk/imageloader/i;->b(Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;)Lio/reactivex/j;
+    invoke-static {v0, v1}, Lcom/vk/messengerageloader/i;->b(Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;)Lio/reactivex/j;
 
     move-result-object v0
 
@@ -274,11 +274,11 @@
 
     iget-object v0, v0, Lcom/vk/mediastore/MediaStoreEntry;->b:Landroid/net/Uri;
 
-    invoke-static {v1}, Lcom/vk/imageloader/i;->a(Z)Lcom/vk/imageloader/ImageSize;
+    invoke-static {v1}, Lcom/vk/messengerageloader/i;->a(Z)Lcom/vk/messengerageloader/ImageSize;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/vk/imageloader/i;->b(Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;)Lio/reactivex/j;
+    invoke-static {v0, v1}, Lcom/vk/messengerageloader/i;->b(Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;)Lio/reactivex/j;
 
     move-result-object v0
 

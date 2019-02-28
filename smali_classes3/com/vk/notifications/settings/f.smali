@@ -6,7 +6,7 @@
 # instance fields
 .field private n:Lcom/vk/dto/notifications/settings/NotificationSettingsCategory;
 
-.field private final o:Lcom/vk/imageloader/view/VKCircleImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
 .field private final p:Landroid/widget/TextView;
 
@@ -74,9 +74,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    iput-object p1, p0, Lcom/vk/notifications/settings/f;->o:Lcom/vk/imageloader/view/VKCircleImageView;
+    iput-object p1, p0, Lcom/vk/notifications/settings/f;->o:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     .line 37
     iget-object p1, p0, Lcom/vk/notifications/settings/f;->a:Landroid/view/View;
@@ -174,15 +174,15 @@
     if-eqz v0, :cond_0
 
     .line 47
-    iget-object v0, p0, Lcom/vk/notifications/settings/f;->o:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object v0, p0, Lcom/vk/notifications/settings/f;->o:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/notifications/settings/NotificationSettingsCategory;->n()Ljava/lang/String;
 
     move-result-object v1
 
-    sget-object v2, Lcom/vk/imageloader/ImageSize;->SIZE_28DP:Lcom/vk/imageloader/ImageSize;
+    sget-object v2, Lcom/vk/messengerageloader/ImageSize;->SIZE_28DP:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v0, v1, v2}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {v0, v1, v2}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     goto :goto_0
 
@@ -195,17 +195,17 @@
     if-eqz v0, :cond_1
 
     .line 51
-    iget-object v1, p0, Lcom/vk/notifications/settings/f;->o:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object v1, p0, Lcom/vk/notifications/settings/f;->o:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKCircleImageView;->a(I)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(I)V
 
     goto :goto_0
 
     .line 53
     :cond_1
-    iget-object v0, p0, Lcom/vk/notifications/settings/f;->o:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object v0, p0, Lcom/vk/notifications/settings/f;->o:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKCircleImageView;->h()V
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKCircleImageView;->h()V
 
     .line 58
     :goto_0
@@ -339,9 +339,9 @@
 
     .line 78
     :cond_7
-    iget-object p1, p0, Lcom/vk/notifications/settings/f;->o:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object p1, p0, Lcom/vk/notifications/settings/f;->o:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKCircleImageView;->h()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->h()V
 
     .line 79
     iget-object p1, p0, Lcom/vk/notifications/settings/f;->p:Landroid/widget/TextView;

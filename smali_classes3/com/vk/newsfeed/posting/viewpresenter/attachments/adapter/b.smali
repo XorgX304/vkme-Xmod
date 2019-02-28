@@ -81,7 +81,7 @@
     return-void
 .end method
 
-.method private final a(IILcom/vk/im/ui/views/image_zhukov/j;)V
+.method private final a(IILcom/vk/messenger/ui/views/image_zhukov/j;)V
     .locals 2
 
     .line 122
@@ -106,16 +106,16 @@
 
     move-result p1
 
-    iput p1, p3, Lcom/vk/im/ui/views/image_zhukov/j;->a:I
+    iput p1, p3, Lcom/vk/messenger/ui/views/image_zhukov/j;->a:I
 
     .line 125
-    iget p1, p3, Lcom/vk/im/ui/views/image_zhukov/j;->a:I
+    iget p1, p3, Lcom/vk/messenger/ui/views/image_zhukov/j;->a:I
 
     div-int/lit8 p1, p1, 0x10
 
     mul-int/lit8 p1, p1, 0x9
 
-    iput p1, p3, Lcom/vk/im/ui/views/image_zhukov/j;->b:I
+    iput p1, p3, Lcom/vk/messenger/ui/views/image_zhukov/j;->b:I
 
     goto :goto_3
 
@@ -133,7 +133,7 @@
     move-result p1
 
     :goto_1
-    iput p1, p3, Lcom/vk/im/ui/views/image_zhukov/j;->a:I
+    iput p1, p3, Lcom/vk/messenger/ui/views/image_zhukov/j;->a:I
 
     if-lez p2, :cond_3
 
@@ -148,7 +148,7 @@
     move-result p2
 
     :goto_2
-    iput p2, p3, Lcom/vk/im/ui/views/image_zhukov/j;->b:I
+    iput p2, p3, Lcom/vk/messenger/ui/views/image_zhukov/j;->b:I
 
     :goto_3
     return-void
@@ -378,7 +378,7 @@
     .end packed-switch
 .end method
 
-.method public a(ILcom/vk/im/ui/views/image_zhukov/j;)V
+.method public a(ILcom/vk/messenger/ui/views/image_zhukov/j;)V
     .locals 2
 
     const-string v0, "outSize"
@@ -420,7 +420,7 @@
     move-result p1
 
     :goto_0
-    iput p1, p2, Lcom/vk/im/ui/views/image_zhukov/j;->a:I
+    iput p1, p2, Lcom/vk/messenger/ui/views/image_zhukov/j;->a:I
 
     .line 50
     iget p1, v0, Lcom/vkontakte/android/attachments/PendingDocumentAttachment;->l:I
@@ -439,7 +439,7 @@
     move-result p1
 
     :goto_1
-    iput p1, p2, Lcom/vk/im/ui/views/image_zhukov/j;->b:I
+    iput p1, p2, Lcom/vk/messenger/ui/views/image_zhukov/j;->b:I
 
     goto/16 :goto_6
 
@@ -472,7 +472,7 @@
     move-result p1
 
     :goto_2
-    iput p1, p2, Lcom/vk/im/ui/views/image_zhukov/j;->a:I
+    iput p1, p2, Lcom/vk/messenger/ui/views/image_zhukov/j;->a:I
 
     .line 54
     invoke-virtual {v0}, Lcom/vkontakte/android/attachments/PendingPhotoAttachment;->i()I
@@ -495,7 +495,7 @@
     move-result p1
 
     :goto_3
-    iput p1, p2, Lcom/vk/im/ui/views/image_zhukov/j;->b:I
+    iput p1, p2, Lcom/vk/messenger/ui/views/image_zhukov/j;->b:I
 
     goto :goto_6
 
@@ -516,7 +516,7 @@
 
     move-result v0
 
-    invoke-direct {p0, p1, v0, p2}, Lcom/vk/newsfeed/posting/viewpresenter/attachments/adapter/b;->a(IILcom/vk/im/ui/views/image_zhukov/j;)V
+    invoke-direct {p0, p1, v0, p2}, Lcom/vk/newsfeed/posting/viewpresenter/attachments/adapter/b;->a(IILcom/vk/messenger/ui/views/image_zhukov/j;)V
 
     goto :goto_6
 
@@ -560,7 +560,7 @@
     if-eqz v1, :cond_9
 
     .line 61
-    invoke-super {p0, p1, p2}, Lcom/vk/newsfeed/adapters/b;->a(ILcom/vk/im/ui/views/image_zhukov/j;)V
+    invoke-super {p0, p1, p2}, Lcom/vk/newsfeed/adapters/b;->a(ILcom/vk/messenger/ui/views/image_zhukov/j;)V
 
     goto :goto_6
 
@@ -574,13 +574,13 @@
 
     move-result v0
 
-    invoke-direct {p0, p1, v0, p2}, Lcom/vk/newsfeed/posting/viewpresenter/attachments/adapter/b;->a(IILcom/vk/im/ui/views/image_zhukov/j;)V
+    invoke-direct {p0, p1, v0, p2}, Lcom/vk/newsfeed/posting/viewpresenter/attachments/adapter/b;->a(IILcom/vk/messenger/ui/views/image_zhukov/j;)V
 
     goto :goto_6
 
     .line 66
     :cond_a
-    invoke-super {p0, p1, p2}, Lcom/vk/newsfeed/adapters/b;->a(ILcom/vk/im/ui/views/image_zhukov/j;)V
+    invoke-super {p0, p1, p2}, Lcom/vk/newsfeed/adapters/b;->a(ILcom/vk/messenger/ui/views/image_zhukov/j;)V
 
     :goto_6
     return-void
@@ -711,7 +711,7 @@
     return-void
 .end method
 
-.method public synthetic b(Landroid/view/ViewGroup;I)Lcom/vk/im/ui/views/image_zhukov/l;
+.method public synthetic b(Landroid/view/ViewGroup;I)Lcom/vk/messenger/ui/views/image_zhukov/l;
     .locals 0
 
     .line 16
@@ -719,7 +719,7 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/im/ui/views/image_zhukov/l;
+    check-cast p1, Lcom/vk/messenger/ui/views/image_zhukov/l;
 
     return-object p1
 .end method

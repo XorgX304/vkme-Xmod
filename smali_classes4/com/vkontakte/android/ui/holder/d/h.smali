@@ -24,9 +24,9 @@
 
 .field public p:Landroid/widget/TextView;
 
-.field public q:Lcom/vk/imageloader/view/VKImageView;
+.field public q:Lcom/vk/messengerageloader/view/VKImageView;
 
-.field public r:Lcom/vk/imageloader/view/VKImageView;
+.field public r:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field public final s:Lcom/vkontakte/android/ui/drawables/RequestBgDrawable;
 
@@ -105,9 +105,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/d/h;->r:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/d/h;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x7f0a008a
 
@@ -116,14 +116,14 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/d/h;->q:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/d/h;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 62
-    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/d/h;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/d/h;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, p0}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p1, p0}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     const p1, 0x7f0a0815
 
@@ -517,32 +517,32 @@
     if-eqz v0, :cond_1
 
     .line 111
-    iget-object v3, p0, Lcom/vkontakte/android/ui/holder/d/h;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vkontakte/android/ui/holder/d/h;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v4, v0, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
-    invoke-virtual {v3, v4}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v3, v4}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_1
 
     .line 113
     :cond_1
-    iget-object v3, p0, Lcom/vkontakte/android/ui/holder/d/h;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vkontakte/android/ui/holder/d/h;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v3, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v3, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 116
     :goto_1
-    iget-object v3, p0, Lcom/vkontakte/android/ui/holder/d/h;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vkontakte/android/ui/holder/d/h;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v3, :cond_2
 
     .line 117
-    iget-object v3, p0, Lcom/vkontakte/android/ui/holder/d/h;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vkontakte/android/ui/holder/d/h;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v4, p1, Lcom/vk/dto/games/GameRequest;->f:Ljava/lang/String;
 
-    invoke-virtual {v3, v4}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v3, v4}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 120
     :cond_2
@@ -692,7 +692,7 @@
     .line 140
     :cond_9
     :goto_3
-    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/d/h;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/d/h;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-nez v0, :cond_a
 
@@ -706,7 +706,7 @@
     move-result-object v2
 
     :goto_4
-    invoke-virtual {p1, v2}, Lcom/vk/imageloader/view/VKImageView;->setTag(Ljava/lang/Object;)V
+    invoke-virtual {p1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setTag(Ljava/lang/Object;)V
 
     .line 142
     iget-object p1, p0, Lcom/vkontakte/android/ui/holder/d/h;->s:Lcom/vkontakte/android/ui/drawables/RequestBgDrawable;

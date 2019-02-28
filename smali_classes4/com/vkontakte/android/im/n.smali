@@ -6,7 +6,7 @@
 # static fields
 .field public static final a:Lcom/vkontakte/android/im/n;
 
-.field private static final b:Lcom/vk/im/engine/d;
+.field private static final b:Lcom/vk/messenger/engine/d;
 
 
 # direct methods
@@ -21,11 +21,11 @@
     sput-object v0, Lcom/vkontakte/android/im/n;->a:Lcom/vkontakte/android/im/n;
 
     .line 20
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
-    sput-object v0, Lcom/vkontakte/android/im/n;->b:Lcom/vk/im/engine/d;
+    sput-object v0, Lcom/vkontakte/android/im/n;->b:Lcom/vk/messenger/engine/d;
 
     return-void
 .end method
@@ -39,7 +39,7 @@
     return-void
 .end method
 
-.method private final a(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)V
+.method private final a(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)V
     .locals 1
     .annotation build Landroid/annotation/SuppressLint;
         value = {
@@ -53,15 +53,15 @@
             "Ljava/lang/Object;",
             ">(",
             "Ljava/lang/Object;",
-            "Lcom/vk/im/engine/commands/c<",
+            "Lcom/vk/messenger/engine/commands/c<",
             "TT;>;)V"
         }
     .end annotation
 
     .line 81
-    sget-object v0, Lcom/vkontakte/android/im/n;->b:Lcom/vk/im/engine/d;
+    sget-object v0, Lcom/vkontakte/android/im/n;->b:Lcom/vk/messenger/engine/d;
 
-    invoke-virtual {v0, p1, p2}, Lcom/vk/im/engine/d;->b(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)Lio/reactivex/q;
+    invoke-virtual {v0, p1, p2}, Lcom/vk/messenger/engine/d;->b(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)Lio/reactivex/q;
 
     move-result-object p1
 
@@ -86,13 +86,13 @@
             "(I",
             "Ljava/util/List<",
             "+",
-            "Lcom/vk/im/engine/models/attaches/Attach;",
+            "Lcom/vk/messenger/engine/models/attaches/Attach;",
             ">;)Z"
         }
     .end annotation
 
     .line 86
-    invoke-static {p1}, Lcom/vk/im/engine/internal/h;->a(I)Z
+    invoke-static {p1}, Lcom/vk/messenger/engine/internal/h;->a(I)Z
 
     move-result p1
 
@@ -107,7 +107,7 @@
     :try_start_0
     check-cast p2, Ljava/util/Collection;
 
-    invoke-static {p2}, Lcom/vk/im/engine/internal/h;->a(Ljava/util/Collection;)V
+    invoke-static {p2}, Lcom/vk/messenger/engine/internal/h;->a(Ljava/util/Collection;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -170,7 +170,7 @@
             "Ljava/lang/String;",
             "Ljava/util/List<",
             "+",
-            "Lcom/vk/im/engine/models/attaches/Attach;",
+            "Lcom/vk/messenger/engine/models/attaches/Attach;",
             ">;",
             "Ljava/util/Set<",
             "Ljava/lang/Integer;",
@@ -197,14 +197,14 @@
     invoke-static {p5, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 71
-    new-instance v0, Lcom/vk/im/engine/commands/messages/z;
+    new-instance v0, Lcom/vk/messenger/engine/commands/messages/z;
 
-    invoke-direct {v0, p4, p2, p3, p5}, Lcom/vk/im/engine/commands/messages/z;-><init>(Ljava/util/Set;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)V
+    invoke-direct {v0, p4, p2, p3, p5}, Lcom/vk/messenger/engine/commands/messages/z;-><init>(Ljava/util/Set;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)V
 
-    check-cast v0, Lcom/vk/im/engine/commands/c;
+    check-cast v0, Lcom/vk/messenger/engine/commands/c;
 
     .line 70
-    invoke-direct {p0, p1, v0}, Lcom/vkontakte/android/im/n;->a(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)V
+    invoke-direct {p0, p1, v0}, Lcom/vkontakte/android/im/n;->a(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)V
 
     return-void
 .end method
@@ -247,7 +247,7 @@
     .line 48
     sget-object v0, Lcom/vkontakte/android/im/a;->a:Lcom/vkontakte/android/im/a;
 
-    invoke-virtual {v0, p5}, Lcom/vkontakte/android/im/a;->a(Lcom/vk/dto/common/Attachment;)Lcom/vk/im/engine/models/attaches/Attach;
+    invoke-virtual {v0, p5}, Lcom/vkontakte/android/im/a;->a(Lcom/vk/dto/common/Attachment;)Lcom/vk/messenger/engine/models/attaches/Attach;
 
     move-result-object p5
 
@@ -314,7 +314,7 @@
 
     .line 55
     :cond_1
-    new-instance v6, Lcom/vk/im/engine/commands/messages/ab;
+    new-instance v6, Lcom/vk/messenger/engine/commands/messages/ab;
 
     if-eqz p4, :cond_2
 
@@ -336,7 +336,7 @@
 
     move-object v4, p4
 
-    check-cast v4, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v4, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     const-string v5, "share"
 
@@ -347,12 +347,12 @@
     move-object v2, p3
 
     .line 55
-    invoke-direct/range {v0 .. v5}, Lcom/vk/im/engine/commands/messages/ab;-><init>(ILjava/lang/String;Ljava/lang/String;Lcom/vk/im/engine/models/attaches/Attach;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v5}, Lcom/vk/messenger/engine/commands/messages/ab;-><init>(ILjava/lang/String;Ljava/lang/String;Lcom/vk/messenger/engine/models/attaches/Attach;Ljava/lang/String;)V
 
-    check-cast v6, Lcom/vk/im/engine/commands/c;
+    check-cast v6, Lcom/vk/messenger/engine/commands/c;
 
     .line 54
-    invoke-direct {p0, p1, v6}, Lcom/vkontakte/android/im/n;->a(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)V
+    invoke-direct {p0, p1, v6}, Lcom/vkontakte/android/im/n;->a(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)V
 
     const/4 p1, 0x1
 
@@ -467,7 +467,7 @@
     .line 28
     sget-object v4, Lcom/vkontakte/android/im/a;->a:Lcom/vkontakte/android/im/a;
 
-    invoke-virtual {v4, v3}, Lcom/vkontakte/android/im/a;->a(Lcom/vk/dto/common/Attachment;)Lcom/vk/im/engine/models/attaches/Attach;
+    invoke-virtual {v4, v3}, Lcom/vkontakte/android/im/a;->a(Lcom/vk/dto/common/Attachment;)Lcom/vk/messenger/engine/models/attaches/Attach;
 
     move-result-object v3
 
@@ -535,7 +535,7 @@
 
     .line 34
     :cond_2
-    new-instance v2, Lcom/vk/im/engine/commands/messages/ac;
+    new-instance v2, Lcom/vk/messenger/engine/commands/messages/ac;
 
     const/4 v6, 0x0
 
@@ -561,7 +561,7 @@
 
     move-object/from16 v15, v16
 
-    invoke-direct/range {v3 .. v15}, Lcom/vk/im/engine/commands/messages/ac;-><init>(ILjava/lang/String;Lcom/vk/im/engine/models/messages/MsgSendSource;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lcom/vk/im/engine/utils/collection/h;Ljava/lang/Integer;ILkotlin/jvm/internal/h;)V
+    invoke-direct/range {v3 .. v15}, Lcom/vk/messenger/engine/commands/messages/ac;-><init>(ILjava/lang/String;Lcom/vk/messenger/engine/models/messages/MsgSendSource;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lcom/vk/messenger/engine/utils/collection/h;Ljava/lang/Integer;ILkotlin/jvm/internal/h;)V
 
     if-eqz p1, :cond_3
 
@@ -576,9 +576,9 @@
     move-object v15, v1
 
     :goto_1
-    check-cast v2, Lcom/vk/im/engine/commands/c;
+    check-cast v2, Lcom/vk/messenger/engine/commands/c;
 
-    invoke-direct {v0, v15, v2}, Lcom/vkontakte/android/im/n;->a(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)V
+    invoke-direct {v0, v15, v2}, Lcom/vkontakte/android/im/n;->a(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)V
 
     const/4 v1, 0x1
 

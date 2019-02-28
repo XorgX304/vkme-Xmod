@@ -25,7 +25,7 @@
 # instance fields
 .field final synthetic n:Lcom/vk/profile/adapter/counters/d;
 
-.field private final p:Lcom/vk/imageloader/view/b;
+.field private final p:Lcom/vk/messengerageloader/view/b;
 
 
 # direct methods
@@ -67,18 +67,18 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/vk/profile/a;->b(Landroid/content/Context;)Lcom/vk/imageloader/view/b;
+    invoke-static {p1}, Lcom/vk/profile/a;->b(Landroid/content/Context;)Lcom/vk/messengerageloader/view/b;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/vk/profile/adapter/counters/d$b;->p:Lcom/vk/imageloader/view/b;
+    iput-object p1, p0, Lcom/vk/profile/adapter/counters/d$b;->p:Lcom/vk/messengerageloader/view/b;
 
     .line 193
     invoke-virtual {p0}, Lcom/vk/profile/adapter/counters/d$b;->z()Landroid/widget/FrameLayout;
 
     move-result-object p1
 
-    iget-object p2, p0, Lcom/vk/profile/adapter/counters/d$b;->p:Lcom/vk/imageloader/view/b;
+    iget-object p2, p0, Lcom/vk/profile/adapter/counters/d$b;->p:Lcom/vk/messengerageloader/view/b;
 
     check-cast p2, Landroid/view/View;
 
@@ -102,7 +102,7 @@
     invoke-super {p0, p1}, Lcom/vk/profile/adapter/counters/d$c;->c(Ljava/lang/Object;)V
 
     .line 198
-    iget-object v0, p0, Lcom/vk/profile/adapter/counters/d$b;->p:Lcom/vk/imageloader/view/b;
+    iget-object v0, p0, Lcom/vk/profile/adapter/counters/d$b;->p:Lcom/vk/messengerageloader/view/b;
 
     invoke-virtual {p1}, Lcom/vk/profile/adapter/counters/f$b;->a()Ljava/util/List;
 
@@ -110,7 +110,7 @@
 
     const/4 v1, 0x6
 
-    invoke-static {v0, p1, v1}, Lcom/vk/profile/adapter/counters/e;->a(Lcom/vk/imageloader/view/b;Ljava/util/List;I)V
+    invoke-static {v0, p1, v1}, Lcom/vk/profile/adapter/counters/e;->a(Lcom/vk/messengerageloader/view/b;Ljava/util/List;I)V
 
     return-void
 .end method

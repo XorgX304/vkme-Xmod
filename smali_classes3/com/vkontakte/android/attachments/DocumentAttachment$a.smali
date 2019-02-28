@@ -21,7 +21,7 @@
 # instance fields
 .field private final a:Lcom/vkontakte/android/ui/o;
 
-.field private final b:Lcom/vk/imageloader/view/VKImageView;
+.field private final b:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final c:Landroid/widget/TextView;
 
@@ -83,9 +83,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p2, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p2, 0x7f0a00a8
 
@@ -163,11 +163,11 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/vkontakte/android/attachments/DocumentAttachment$a;)Lcom/vk/imageloader/view/VKImageView;
+.method static synthetic a(Lcom/vkontakte/android/attachments/DocumentAttachment$a;)Lcom/vk/messengerageloader/view/VKImageView;
     .locals 0
 
     .line 580
-    iget-object p0, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p0, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-object p0
 .end method
@@ -218,7 +218,7 @@
     if-eqz v0, :cond_1
 
     .line 737
-    iget-object v2, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v2, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-nez v2, :cond_0
 
@@ -247,17 +247,17 @@
     add-int/2addr v0, v5
 
     .line 746
-    iget-object v6, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v6, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v6, v3}, Lcom/vk/imageloader/view/VKImageView;->getLocationOnScreen([I)V
+    invoke-virtual {v6, v3}, Lcom/vk/messengerageloader/view/VKImageView;->getLocationOnScreen([I)V
 
     .line 747
     aget v3, v3, v4
 
     .line 748
-    iget-object v4, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v4, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v4}, Lcom/vk/imageloader/view/VKImageView;->getHeight()I
+    invoke-virtual {v4}, Lcom/vk/messengerageloader/view/VKImageView;->getHeight()I
 
     move-result v4
 
@@ -343,24 +343,24 @@
 
     .line 615
     :cond_0
-    iget-object v0, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {p1}, Lcom/vkontakte/android/attachments/DocumentAttachment;->b(Lcom/vkontakte/android/attachments/DocumentAttachment;)Lcom/vk/medianative/MediaAnimationDrawable;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     goto :goto_1
 
     .line 613
     :cond_1
     :goto_0
-    iget-object v0, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p1, Lcom/vkontakte/android/attachments/DocumentAttachment;->e:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 618
     :goto_1
@@ -375,13 +375,13 @@
     div-float/2addr v0, p1
 
     .line 619
-    iget-object p1, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {p2, v0}, Ljava/lang/Math;->max(FF)F
 
     move-result p2
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setAspectRatio(F)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setAspectRatio(F)V
 
     .line 620
     invoke-virtual {p0}, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->c()V
@@ -421,9 +421,9 @@
 
     int-to-long v1, v1
 
-    iget-object v3, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v3}, Lcom/vk/imageloader/view/VKImageView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v3}, Lcom/vk/messengerageloader/view/VKImageView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -460,7 +460,7 @@
     if-eqz v0, :cond_2
 
     .line 764
-    iget-object v2, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v2, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-nez v2, :cond_0
 
@@ -489,17 +489,17 @@
     add-int/2addr v0, v4
 
     .line 773
-    iget-object v5, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v5, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v5, v2}, Lcom/vk/imageloader/view/VKImageView;->getLocationOnScreen([I)V
+    invoke-virtual {v5, v2}, Lcom/vk/messengerageloader/view/VKImageView;->getLocationOnScreen([I)V
 
     .line 774
     aget v2, v2, v3
 
     .line 775
-    iget-object v3, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v3}, Lcom/vk/imageloader/view/VKImageView;->getHeight()I
+    invoke-virtual {v3}, Lcom/vk/messengerageloader/view/VKImageView;->getHeight()I
 
     move-result v3
 
@@ -615,13 +615,13 @@
     invoke-virtual {p0}, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->h()V
 
     .line 820
-    iget-object v0, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->i:Lcom/vkontakte/android/attachments/DocumentAttachment;
 
     iget-object v1, v1, Lcom/vkontakte/android/attachments/DocumentAttachment;->e:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_0
 

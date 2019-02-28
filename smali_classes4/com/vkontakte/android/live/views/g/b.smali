@@ -186,7 +186,7 @@
     iget-object v1, p0, Lcom/vkontakte/android/live/views/g/b;->c:Ljava/util/ArrayList;
 
     .line 83
-    invoke-static {v0}, Lcom/vk/imageloader/i;->f(Landroid/net/Uri;)Lio/reactivex/j;
+    invoke-static {v0}, Lcom/vk/messengerageloader/i;->f(Landroid/net/Uri;)Lio/reactivex/j;
 
     move-result-object v0
 
@@ -277,7 +277,7 @@
     iget-object p2, p0, Lcom/vkontakte/android/live/views/g/b;->c:Ljava/util/ArrayList;
 
     .line 119
-    invoke-static {p1}, Lcom/vk/imageloader/i;->f(Landroid/net/Uri;)Lio/reactivex/j;
+    invoke-static {p1}, Lcom/vk/messengerageloader/i;->f(Landroid/net/Uri;)Lio/reactivex/j;
 
     move-result-object p1
 
@@ -340,7 +340,7 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/vk/imageloader/i;->f(Landroid/net/Uri;)Lio/reactivex/j;
+    invoke-static {p2}, Lcom/vk/messengerageloader/i;->f(Landroid/net/Uri;)Lio/reactivex/j;
 
     move-result-object p2
 

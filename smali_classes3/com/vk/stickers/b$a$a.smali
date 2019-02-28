@@ -46,11 +46,11 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
     sget v1, Lcom/vk/stickers/o;->g:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setFixedSize(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setFixedSize(I)V
 
     .line 490
     invoke-virtual {p2, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V

@@ -23,7 +23,7 @@
         ">",
         "Ljava/lang/Object;",
         "Lio/reactivex/b/g<",
-        "Lcom/vk/im/engine/events/b;",
+        "Lcom/vk/messenger/engine/events/b;",
         ">;"
     }
 .end annotation
@@ -56,11 +56,11 @@
 
 
 # virtual methods
-.method public final a(Lcom/vk/im/engine/events/b;)V
+.method public final a(Lcom/vk/messenger/engine/events/b;)V
     .locals 3
 
     .line 188
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/b;->a()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/b;->a()Ljava/util/List;
 
     move-result-object p1
 
@@ -80,10 +80,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/a/n;
+    check-cast v0, Lcom/vk/messenger/engine/models/a/n;
 
     .line 189
-    instance-of v1, v0, Lcom/vk/im/engine/models/a/ac;
+    instance-of v1, v0, Lcom/vk/messenger/engine/models/a/ac;
 
     if-eqz v1, :cond_0
 
@@ -107,9 +107,9 @@
     .line 192
     sget-object v1, Lcom/vk/voip/VoipWrapper;->a:Lcom/vk/voip/VoipWrapper;
 
-    check-cast v0, Lcom/vk/im/engine/models/a/ac;
+    check-cast v0, Lcom/vk/messenger/engine/models/a/ac;
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/models/a/ac;->a()Lorg/json/JSONObject;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/models/a/ac;->a()Lorg/json/JSONObject;
 
     move-result-object v0
 
@@ -127,9 +127,9 @@
     .locals 0
 
     .line 95
-    check-cast p1, Lcom/vk/im/engine/events/b;
+    check-cast p1, Lcom/vk/messenger/engine/events/b;
 
-    invoke-virtual {p0, p1}, Lcom/vkontakte/android/VKApplication$j$1;->a(Lcom/vk/im/engine/events/b;)V
+    invoke-virtual {p0, p1}, Lcom/vkontakte/android/VKApplication$j$1;->a(Lcom/vk/messenger/engine/events/b;)V
 
     return-void
 .end method

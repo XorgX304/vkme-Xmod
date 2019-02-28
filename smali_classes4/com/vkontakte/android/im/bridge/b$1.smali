@@ -69,17 +69,17 @@
     .line 60
     iget-object p2, p0, Lcom/vkontakte/android/im/bridge/b$1;->a:Lcom/vkontakte/android/im/bridge/b;
 
-    invoke-static {p2}, Lcom/vkontakte/android/im/bridge/b;->b(Lcom/vkontakte/android/im/bridge/b;)Lcom/vk/im/engine/d;
+    invoke-static {p2}, Lcom/vkontakte/android/im/bridge/b;->b(Lcom/vkontakte/android/im/bridge/b;)Lcom/vk/messenger/engine/d;
 
     move-result-object p2
 
-    new-instance v0, Lcom/vk/im/engine/commands/dialogs/q;
+    new-instance v0, Lcom/vk/messenger/engine/commands/dialogs/q;
 
-    sget-object v1, Lcom/vk/im/engine/models/Source;->NETWORK:Lcom/vk/im/engine/models/Source;
+    sget-object v1, Lcom/vk/messenger/engine/models/Source;->NETWORK:Lcom/vk/messenger/engine/models/Source;
 
-    invoke-direct {v0, p1, v1}, Lcom/vk/im/engine/commands/dialogs/q;-><init>(ILcom/vk/im/engine/models/Source;)V
+    invoke-direct {v0, p1, v1}, Lcom/vk/messenger/engine/commands/dialogs/q;-><init>(ILcom/vk/messenger/engine/models/Source;)V
 
-    invoke-virtual {p2, v0}, Lcom/vk/im/engine/d;->b(Lcom/vk/im/engine/commands/c;)V
+    invoke-virtual {p2, v0}, Lcom/vk/messenger/engine/d;->b(Lcom/vk/messenger/engine/commands/c;)V
 
     :cond_0
     return-void

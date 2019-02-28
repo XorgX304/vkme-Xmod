@@ -20,7 +20,7 @@
     value = {
         "Ljava/lang/Object;",
         "Lkotlin/jvm/a/b<",
-        "Lcom/vk/im/ui/components/common/DialogAction;",
+        "Lcom/vk/messenger/ui/components/common/DialogAction;",
         "Lkotlin/l;",
         ">;"
     }
@@ -28,19 +28,19 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/vk/im/ui/components/viewcontrollers/dialog_actions_delegate/popup/a;
+.field final synthetic a:Lcom/vk/messenger/ui/components/viewcontrollers/dialog_actions_delegate/popup/a;
 
 .field final synthetic b:Lcom/vkontakte/android/fragments/ProfileFragment;
 
 
 # direct methods
-.method constructor <init>(Lcom/vkontakte/android/fragments/ProfileFragment;Lcom/vk/im/ui/components/viewcontrollers/dialog_actions_delegate/popup/a;)V
+.method constructor <init>(Lcom/vkontakte/android/fragments/ProfileFragment;Lcom/vk/messenger/ui/components/viewcontrollers/dialog_actions_delegate/popup/a;)V
     .locals 0
 
     .line 392
     iput-object p1, p0, Lcom/vkontakte/android/fragments/ProfileFragment$9;->b:Lcom/vkontakte/android/fragments/ProfileFragment;
 
-    iput-object p2, p0, Lcom/vkontakte/android/fragments/ProfileFragment$9;->a:Lcom/vk/im/ui/components/viewcontrollers/dialog_actions_delegate/popup/a;
+    iput-object p2, p0, Lcom/vkontakte/android/fragments/ProfileFragment$9;->a:Lcom/vk/messenger/ui/components/viewcontrollers/dialog_actions_delegate/popup/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -53,33 +53,33 @@
     .locals 0
 
     .line 392
-    check-cast p1, Lcom/vk/im/ui/components/common/DialogAction;
+    check-cast p1, Lcom/vk/messenger/ui/components/common/DialogAction;
 
-    invoke-virtual {p0, p1}, Lcom/vkontakte/android/fragments/ProfileFragment$9;->a(Lcom/vk/im/ui/components/common/DialogAction;)Lkotlin/l;
+    invoke-virtual {p0, p1}, Lcom/vkontakte/android/fragments/ProfileFragment$9;->a(Lcom/vk/messenger/ui/components/common/DialogAction;)Lkotlin/l;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public a(Lcom/vk/im/ui/components/common/DialogAction;)Lkotlin/l;
+.method public a(Lcom/vk/messenger/ui/components/common/DialogAction;)Lkotlin/l;
     .locals 3
 
     .line 395
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/ProfileFragment$9;->a:Lcom/vk/im/ui/components/viewcontrollers/dialog_actions_delegate/popup/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/ProfileFragment$9;->a:Lcom/vk/messenger/ui/components/viewcontrollers/dialog_actions_delegate/popup/a;
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/components/viewcontrollers/dialog_actions_delegate/popup/a;->a(Z)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/components/viewcontrollers/dialog_actions_delegate/popup/a;->a(Z)V
 
     .line 396
     iget-object v0, p0, Lcom/vkontakte/android/fragments/ProfileFragment$9;->b:Lcom/vkontakte/android/fragments/ProfileFragment;
 
-    sget-object v2, Lcom/vk/im/ui/components/common/DialogAction;->AUDIO_BTN_VIDEO_CALL:Lcom/vk/im/ui/components/common/DialogAction;
+    sget-object v2, Lcom/vk/messenger/ui/components/common/DialogAction;->AUDIO_BTN_VIDEO_CALL:Lcom/vk/messenger/ui/components/common/DialogAction;
 
     if-eq p1, v2, :cond_1
 
-    sget-object v2, Lcom/vk/im/ui/components/common/DialogAction;->VIDEO_BTN_VIDEO_CALL:Lcom/vk/im/ui/components/common/DialogAction;
+    sget-object v2, Lcom/vk/messenger/ui/components/common/DialogAction;->VIDEO_BTN_VIDEO_CALL:Lcom/vk/messenger/ui/components/common/DialogAction;
 
     if-ne p1, v2, :cond_0
 

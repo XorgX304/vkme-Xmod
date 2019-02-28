@@ -35,7 +35,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesSimpleInfo;Z)Lcom/vk/stories/c/b;
+.method public final a(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;Z)Lcom/vk/stories/c/b;
     .locals 8
 
     const-string v0, "dialog"
@@ -49,17 +49,17 @@
     .line 14
     new-instance v0, Lcom/vk/stories/c/b;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/dialogs/Dialog;->a()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/dialogs/Dialog;->a()I
 
     move-result v2
 
-    invoke-static {p1, p2}, Lcom/vkontakte/android/im/f;->a(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesSimpleInfo;)Ljava/lang/String;
+    invoke-static {p1, p2}, Lcom/vkontakte/android/im/f;->a(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)Ljava/lang/String;
 
     move-result-object v3
 
     new-instance v4, Lcom/vk/stories/c/a;
 
-    invoke-direct {v4, p1, p2}, Lcom/vk/stories/c/a;-><init>(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesSimpleInfo;)V
+    invoke-direct {v4, p1, p2}, Lcom/vk/stories/c/a;-><init>(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)V
 
     const/4 v5, 0x0
 
@@ -69,7 +69,7 @@
 
     move v6, p3
 
-    invoke-direct/range {v1 .. v7}, Lcom/vk/stories/c/b;-><init>(ILjava/lang/String;Lcom/vk/stories/c/a;Lcom/vk/im/engine/models/users/User;ZLkotlin/jvm/internal/h;)V
+    invoke-direct/range {v1 .. v7}, Lcom/vk/stories/c/b;-><init>(ILjava/lang/String;Lcom/vk/stories/c/a;Lcom/vk/messenger/engine/models/users/User;ZLkotlin/jvm/internal/h;)V
 
     return-object v0
 .end method

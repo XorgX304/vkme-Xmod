@@ -33,7 +33,7 @@
 
 
 # instance fields
-.field private final o:Lcom/vk/imageloader/view/VKSnippetImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
 .field private final p:Landroid/widget/TextView;
 
@@ -105,9 +105,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKSnippetImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
-    iput-object p2, p0, Lcom/vk/newsfeed/holders/k;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iput-object p2, p0, Lcom/vk/newsfeed/holders/k;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     .line 26
     iget-object p2, p0, Lcom/vk/newsfeed/holders/k;->a:Landroid/view/View;
@@ -181,28 +181,28 @@
     invoke-virtual {p2, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 34
-    iget-object p2, p0, Lcom/vk/newsfeed/holders/k;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object p2, p0, Lcom/vk/newsfeed/holders/k;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     const/4 v1, 0x0
 
-    invoke-virtual {p2, v1}, Lcom/vk/imageloader/view/VKSnippetImageView;->setDrawBorder(Z)V
+    invoke-virtual {p2, v1}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->setDrawBorder(Z)V
 
     .line 35
-    iget-object p2, p0, Lcom/vk/newsfeed/holders/k;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object p2, p0, Lcom/vk/newsfeed/holders/k;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     const/4 v2, 0x7
 
-    invoke-virtual {p2, v2}, Lcom/vk/imageloader/view/VKSnippetImageView;->setType(I)V
+    invoke-virtual {p2, v2}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->setType(I)V
 
     .line 36
-    iget-object p2, p0, Lcom/vk/newsfeed/holders/k;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object p2, p0, Lcom/vk/newsfeed/holders/k;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     sget-object v3, Lcom/facebook/drawee/drawable/p$b;->g:Lcom/facebook/drawee/drawable/p$b;
 
-    invoke-virtual {p2, v3}, Lcom/vk/imageloader/view/VKSnippetImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
+    invoke-virtual {p2, v3}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
 
     .line 37
-    iget-object p2, p0, Lcom/vk/newsfeed/holders/k;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object p2, p0, Lcom/vk/newsfeed/holders/k;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     new-instance v3, Lcom/facebook/drawee/drawable/l;
 
@@ -266,10 +266,10 @@
 
     check-cast v3, Landroid/graphics/drawable/Drawable;
 
-    invoke-virtual {p2, v3}, Lcom/vk/imageloader/view/VKSnippetImageView;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p2, v3}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     .line 45
-    iget-object p2, p0, Lcom/vk/newsfeed/holders/k;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object p2, p0, Lcom/vk/newsfeed/holders/k;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     .line 46
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
@@ -290,7 +290,7 @@
     sget-object v0, Lcom/facebook/drawee/drawable/p$b;->e:Lcom/facebook/drawee/drawable/p$b;
 
     .line 45
-    invoke-virtual {p2, p1, v0}, Lcom/vk/imageloader/view/VKSnippetImageView;->a(Landroid/graphics/drawable/Drawable;Lcom/facebook/drawee/drawable/p$b;)V
+    invoke-virtual {p2, p1, v0}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->a(Landroid/graphics/drawable/Drawable;Lcom/facebook/drawee/drawable/p$b;)V
 
     return-void
 .end method
@@ -305,7 +305,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 52
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/k;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/k;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/discover/carousel/CarouselItem;->b()Lcom/vk/dto/common/Image;
 
@@ -337,7 +337,7 @@
     move-object v1, v2
 
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKSnippetImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->a(Ljava/lang/String;)V
 
     .line 54
     iget-object v0, p0, Lcom/vk/newsfeed/holders/k;->p:Landroid/widget/TextView;

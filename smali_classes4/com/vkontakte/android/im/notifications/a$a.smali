@@ -3,12 +3,12 @@
 .source "ImNotificationHelper.kt"
 
 # interfaces
-.implements Lcom/vk/im/engine/utils/collection/d$a;
+.implements Lcom/vk/messenger/engine/utils/collection/d$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/vkontakte/android/im/notifications/a;->a(ILcom/vk/im/engine/utils/collection/d;Lcom/vk/im/engine/utils/collection/d;)V
+    value = Lcom/vkontakte/android/im/notifications/a;->a(ILcom/vk/messenger/engine/utils/collection/d;Lcom/vk/messenger/engine/utils/collection/d;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/vk/im/engine/utils/collection/d;
+.field final synthetic a:Lcom/vk/messenger/engine/utils/collection/d;
 
 .field final synthetic b:I
 
 
 # direct methods
-.method constructor <init>(Lcom/vk/im/engine/utils/collection/d;I)V
+.method constructor <init>(Lcom/vk/messenger/engine/utils/collection/d;I)V
     .locals 0
 
-    iput-object p1, p0, Lcom/vkontakte/android/im/notifications/a$a;->a:Lcom/vk/im/engine/utils/collection/d;
+    iput-object p1, p0, Lcom/vkontakte/android/im/notifications/a$a;->a:Lcom/vk/messenger/engine/utils/collection/d;
 
     iput p2, p0, Lcom/vkontakte/android/im/notifications/a$a;->b:I
 
@@ -42,9 +42,9 @@
     .locals 2
 
     .line 23
-    iget-object v0, p0, Lcom/vkontakte/android/im/notifications/a$a;->a:Lcom/vk/im/engine/utils/collection/d;
+    iget-object v0, p0, Lcom/vkontakte/android/im/notifications/a$a;->a:Lcom/vk/messenger/engine/utils/collection/d;
 
-    invoke-interface {v0, p1}, Lcom/vk/im/engine/utils/collection/d;->b(I)Z
+    invoke-interface {v0, p1}, Lcom/vk/messenger/engine/utils/collection/d;->b(I)Z
 
     move-result v0
 

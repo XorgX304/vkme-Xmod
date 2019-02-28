@@ -103,11 +103,11 @@
 
     iget-object p3, p0, Lcom/vkontakte/android/ui/WriteBar$6;->a:Lcom/vkontakte/android/ui/WriteBar;
 
-    invoke-static {p3}, Lcom/vkontakte/android/ui/WriteBar;->s(Lcom/vkontakte/android/ui/WriteBar;)Lcom/vk/im/ui/views/RichEditText;
+    invoke-static {p3}, Lcom/vkontakte/android/ui/WriteBar;->s(Lcom/vkontakte/android/ui/WriteBar;)Lcom/vk/messenger/ui/views/RichEditText;
 
     move-result-object p3
 
-    invoke-virtual {p3}, Lcom/vk/im/ui/views/RichEditText;->getText()Landroid/text/Editable;
+    invoke-virtual {p3}, Lcom/vk/messenger/ui/views/RichEditText;->getText()Landroid/text/Editable;
 
     move-result-object p3
 

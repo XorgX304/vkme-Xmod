@@ -764,11 +764,11 @@
     if-eqz v0, :cond_0
 
     .line 502
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/b;->B()Lcom/vk/im/ui/a/f;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/b;->B()Lcom/vk/messenger/ui/a/f;
 
     move-result-object v0
 
@@ -778,7 +778,7 @@
 
     check-cast v2, Landroid/content/Context;
 
-    invoke-interface {v0, v2}, Lcom/vk/im/ui/a/f;->a(Landroid/content/Context;)V
+    invoke-interface {v0, v2}, Lcom/vk/messenger/ui/a/f;->a(Landroid/content/Context;)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0
 

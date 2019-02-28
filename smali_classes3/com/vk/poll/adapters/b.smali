@@ -14,7 +14,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final o:Landroid/widget/FrameLayout;
 
@@ -58,9 +58,9 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/poll/adapters/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/poll/adapters/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 24
     iget-object p1, p0, Lcom/vk/poll/adapters/b;->a:Landroid/view/View;
@@ -103,9 +103,9 @@
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->setForeground(Landroid/graphics/drawable/Drawable;)V
 
     .line 28
-    iget-object v0, p0, Lcom/vk/poll/adapters/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/poll/adapters/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setOverlayImage(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setOverlayImage(Landroid/graphics/drawable/Drawable;)V
 
     .line 31
     instance-of v0, p1, Lcom/vk/dto/polls/PollGradient;
@@ -117,7 +117,7 @@
     if-eqz v0, :cond_0
 
     .line 32
-    iget-object v0, p0, Lcom/vk/poll/adapters/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/poll/adapters/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance v3, Lcom/vk/polls/ui/views/c;
 
@@ -133,7 +133,7 @@
 
     check-cast v3, Landroid/graphics/drawable/Drawable;
 
-    invoke-virtual {v0, v3}, Lcom/vk/imageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v3}, Lcom/vk/messengerageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 33
     iget-object v0, p0, Lcom/vk/poll/adapters/b;->o:Landroid/widget/FrameLayout;
@@ -157,7 +157,7 @@
     if-eqz v0, :cond_1
 
     .line 36
-    iget-object v0, p0, Lcom/vk/poll/adapters/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/poll/adapters/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 37
     sget-object v3, Lcom/vk/polls/ui/views/f;->a:Lcom/vk/polls/ui/views/f$a;
@@ -171,10 +171,10 @@
     move-result-object v2
 
     .line 36
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->setDrawableFactory(Lcom/facebook/imagepipeline/f/a;)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setDrawableFactory(Lcom/facebook/imagepipeline/f/a;)V
 
     .line 39
-    iget-object v0, p0, Lcom/vk/poll/adapters/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/poll/adapters/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 40
     sget-object v2, Lcom/vk/polls/ui/views/f;->a:Lcom/vk/polls/ui/views/f$a;
@@ -198,7 +198,7 @@
     move-result-object v2
 
     .line 39
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 42
     invoke-virtual {p0}, Lcom/vk/poll/adapters/b;->S()Landroid/content/res/Resources;
@@ -228,11 +228,11 @@
     invoke-virtual {v1, v0, v2}, Landroid/graphics/drawable/BitmapDrawable;->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
 
     .line 45
-    iget-object v0, p0, Lcom/vk/poll/adapters/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/poll/adapters/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast v1, Landroid/graphics/drawable/Drawable;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setOverlayImage(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setOverlayImage(Landroid/graphics/drawable/Drawable;)V
 
     .line 48
     :cond_1

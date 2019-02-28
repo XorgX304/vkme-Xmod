@@ -23,7 +23,7 @@
         ">",
         "Ljava/lang/Object;",
         "Lio/reactivex/b/l<",
-        "Lcom/vk/im/engine/events/ah;",
+        "Lcom/vk/messenger/engine/events/ah;",
         ">;"
     }
 .end annotation
@@ -56,7 +56,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/vk/im/engine/events/ah;)Z
+.method public final a(Lcom/vk/messenger/engine/events/ah;)Z
     .locals 1
 
     const-string v0, "event"
@@ -64,9 +64,9 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 459
-    iget-object p1, p1, Lcom/vk/im/engine/events/ah;->b:Lcom/vk/im/engine/models/SyncState;
+    iget-object p1, p1, Lcom/vk/messenger/engine/events/ah;->b:Lcom/vk/messenger/engine/models/SyncState;
 
-    sget-object v0, Lcom/vk/im/engine/models/SyncState;->CONNECTED:Lcom/vk/im/engine/models/SyncState;
+    sget-object v0, Lcom/vk/messenger/engine/models/SyncState;->CONNECTED:Lcom/vk/messenger/engine/models/SyncState;
 
     if-ne p1, v0, :cond_0
 
@@ -85,9 +85,9 @@
     .locals 0
 
     .line 95
-    check-cast p1, Lcom/vk/im/engine/events/ah;
+    check-cast p1, Lcom/vk/messenger/engine/events/ah;
 
-    invoke-virtual {p0, p1}, Lcom/vkontakte/android/VKApplication$k;->a(Lcom/vk/im/engine/events/ah;)Z
+    invoke-virtual {p0, p1}, Lcom/vkontakte/android/VKApplication$k;->a(Lcom/vk/messenger/engine/events/ah;)Z
 
     move-result p1
 

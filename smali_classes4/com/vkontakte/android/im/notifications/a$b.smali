@@ -3,12 +3,12 @@
 .source "ImNotificationHelper.kt"
 
 # interfaces
-.implements Lcom/vk/im/engine/utils/collection/d$a;
+.implements Lcom/vk/messenger/engine/utils/collection/d$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/vkontakte/android/im/notifications/a;->a(ILcom/vk/im/engine/utils/collection/d;)V
+    value = Lcom/vkontakte/android/im/notifications/a;->a(ILcom/vk/messenger/engine/utils/collection/d;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

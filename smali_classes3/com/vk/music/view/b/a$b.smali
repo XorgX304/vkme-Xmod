@@ -17,7 +17,7 @@
 # instance fields
 .field final a:Landroid/view/ViewGroup;
 
-.field final b:[Lcom/vk/imageloader/view/VKImageView;
+.field final b:[Lcom/vk/messengerageloader/view/VKImageView;
 
 
 # direct methods
@@ -53,20 +53,20 @@
 
     move-result p1
 
-    new-array p1, p1, [Lcom/vk/imageloader/view/VKImageView;
+    new-array p1, p1, [Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/music/view/b/a$b;->b:[Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/music/view/b/a$b;->b:[Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 163
     :goto_0
-    iget-object p1, p0, Lcom/vk/music/view/b/a$b;->b:[Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/music/view/b/a$b;->b:[Lcom/vk/messengerageloader/view/VKImageView;
 
     array-length p1, p1
 
     if-ge v1, p1, :cond_0
 
     .line 164
-    iget-object p1, p0, Lcom/vk/music/view/b/a$b;->b:[Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/music/view/b/a$b;->b:[Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object p2, p0, Lcom/vk/music/view/b/a$b;->a:Landroid/view/ViewGroup;
 
@@ -80,7 +80,7 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
     aput-object p2, p1, v1
 

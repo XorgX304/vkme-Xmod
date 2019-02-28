@@ -94,7 +94,7 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v1, Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 88
     iget-object v2, p0, Lcom/vkontakte/android/ui/holder/d/c$a;->b:Ljava/util/ArrayList;
@@ -108,7 +108,7 @@
     .line 89
     iget-object v2, p2, Lcom/vkontakte/android/data/ApiApplication;->e:Ljava/lang/String;
 
-    invoke-virtual {v1, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 90
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V

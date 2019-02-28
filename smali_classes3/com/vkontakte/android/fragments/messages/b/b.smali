@@ -3,7 +3,7 @@
 .source "HeaderCallbackImpl.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/components/msg_view/header/b;
+.implements Lcom/vk/messenger/ui/components/msg_view/header/b;
 
 
 # instance fields

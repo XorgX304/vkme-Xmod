@@ -47,7 +47,9 @@
 .method private final a(Lorg/json/JSONObject;)Landroid/os/Bundle;
     .locals 4
 
-    const-string v0, "ads"
+    const/4 v0, 0x0
+
+    return-object v0
 
     .line 233
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->has(Ljava/lang/String;)Z

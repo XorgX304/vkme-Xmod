@@ -20,7 +20,7 @@
     value = {
         "Ljava/lang/Object;",
         "Lio/reactivex/b/g<",
-        "Lcom/vk/im/engine/models/dialogs/g;",
+        "Lcom/vk/messenger/engine/models/dialogs/g;",
         ">;"
     }
 .end annotation
@@ -44,7 +44,7 @@
 
 
 # virtual methods
-.method public a(Lcom/vk/im/engine/models/dialogs/g;)V
+.method public a(Lcom/vk/messenger/engine/models/dialogs/g;)V
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -58,15 +58,15 @@
     invoke-static {v0}, Lcom/vk/sharing/target/b;->a(Lcom/vk/sharing/target/b;)V
 
     .line 138
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/dialogs/g;->a()Lcom/vk/im/engine/models/dialogs/DialogsHistory;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/dialogs/g;->a()Lcom/vk/messenger/engine/models/dialogs/DialogsHistory;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/dialogs/g;->b()Lcom/vk/im/engine/models/ProfilesInfo;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/dialogs/g;->b()Lcom/vk/messenger/engine/models/ProfilesInfo;
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/vk/sharing/target/b;->a(Lcom/vk/im/engine/models/dialogs/DialogsHistory;Lcom/vk/im/engine/models/ProfilesInfo;)Ljava/util/ArrayList;
+    invoke-static {v0, p1}, Lcom/vk/sharing/target/b;->a(Lcom/vk/messenger/engine/models/dialogs/DialogsHistory;Lcom/vk/messenger/engine/models/ProfilesInfo;)Ljava/util/ArrayList;
 
     move-result-object p1
 
@@ -87,9 +87,9 @@
     .end annotation
 
     .line 134
-    check-cast p1, Lcom/vk/im/engine/models/dialogs/g;
+    check-cast p1, Lcom/vk/messenger/engine/models/dialogs/g;
 
-    invoke-virtual {p0, p1}, Lcom/vk/sharing/target/b$1;->a(Lcom/vk/im/engine/models/dialogs/g;)V
+    invoke-virtual {p0, p1}, Lcom/vk/sharing/target/b$1;->a(Lcom/vk/messenger/engine/models/dialogs/g;)V
 
     return-void
 .end method

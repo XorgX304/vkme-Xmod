@@ -29,7 +29,7 @@
 # instance fields
 .field final synthetic n:Lcom/vk/menu/d$b;
 
-.field private final o:Lcom/vk/imageloader/view/VKImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final p:Landroid/widget/TextView;
 
@@ -74,9 +74,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/menu/d$b$a;->o:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/menu/d$b$a;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 821
     iget-object p1, p0, Lcom/vk/menu/d$b$a;->a:Landroid/view/View;
@@ -109,9 +109,9 @@
     invoke-static {p1, p2}, Lcom/vk/extensions/o;->b(Landroid/view/View;Landroid/view/View$OnClickListener;)V
 
     .line 825
-    iget-object p1, p0, Lcom/vk/menu/d$b$a;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/menu/d$b$a;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
 
     move-result-object p1
 
@@ -148,7 +148,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 829
-    iget-object v0, p0, Lcom/vk/menu/d$b$a;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/menu/d$b$a;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p1, Lcom/vkontakte/android/data/ApiApplication;->c:Lcom/vk/dto/photo/Photo;
 
@@ -170,7 +170,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 830
     iget-object v0, p0, Lcom/vk/menu/d$b$a;->p:Landroid/widget/TextView;

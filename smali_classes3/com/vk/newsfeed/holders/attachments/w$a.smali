@@ -1,5 +1,5 @@
 .class public final Lcom/vk/newsfeed/holders/attachments/w$a;
-.super Lcom/vk/im/ui/utils/c/a;
+.super Lcom/vk/messenger/ui/utils/c/a;
 .source "DocumentThumbnailHolder.kt"
 
 
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/vk/im/ui/utils/c/a<",
+        "Lcom/vk/messenger/ui/utils/c/a<",
         "Lcom/vk/newsfeed/holders/attachments/w;",
         ">;"
     }
@@ -43,7 +43,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 122
-    invoke-direct {p0}, Lcom/vk/im/ui/utils/c/a;-><init>()V
+    invoke-direct {p0}, Lcom/vk/messenger/ui/utils/c/a;-><init>()V
 
     .line 123
     new-instance v0, Ljava/lang/ref/WeakReference;

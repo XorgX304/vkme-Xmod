@@ -26,9 +26,9 @@
 
 .field private ah:Landroid/view/ViewGroup;
 
-.field private ai:Lcom/vk/imageloader/view/VKImageView;
+.field private ai:Lcom/vk/messengerageloader/view/VKImageView;
 
-.field private al:Lcom/vk/imageloader/view/VKImageView;
+.field private al:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private am:Landroid/widget/TextView;
 
@@ -120,12 +120,12 @@
     .line 96
     move-object v2, v0
 
-    check-cast v2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v2, p0, Lcom/vk/newsfeed/postpreview/b;->ai:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v2, p0, Lcom/vk/newsfeed/postpreview/b;->ai:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 97
-    iput-object v2, p0, Lcom/vk/newsfeed/postpreview/b;->al:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v2, p0, Lcom/vk/newsfeed/postpreview/b;->al:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 98
     iput-object v1, p0, Lcom/vk/newsfeed/postpreview/b;->am:Landroid/widget/TextView;
@@ -268,9 +268,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p2, p0, Lcom/vk/newsfeed/postpreview/b;->ai:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vk/newsfeed/postpreview/b;->ai:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p2, 0x7f0a08d6
 
@@ -279,9 +279,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p2, p0, Lcom/vk/newsfeed/postpreview/b;->al:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vk/newsfeed/postpreview/b;->al:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p2, 0x7f0a08d7
 
@@ -531,11 +531,11 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 127
-    iget-object v0, p0, Lcom/vk/newsfeed/postpreview/b;->ai:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/postpreview/b;->ai:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :cond_0
     return-void
@@ -553,11 +553,11 @@
     invoke-static {p2, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 131
-    iget-object v0, p0, Lcom/vk/newsfeed/postpreview/b;->al:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/postpreview/b;->al:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :cond_0
     const/4 p2, 0x0

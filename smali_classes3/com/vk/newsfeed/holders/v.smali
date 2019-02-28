@@ -28,7 +28,7 @@
 
 
 # instance fields
-.field private final o:Lcom/vk/imageloader/view/VKSnippetImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
 .field private final p:Landroid/widget/TextView;
 
@@ -85,9 +85,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKSnippetImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/v;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/v;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     .line 23
     iget-object p1, p0, Lcom/vk/newsfeed/holders/v;->a:Landroid/view/View;
@@ -172,11 +172,11 @@
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 33
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/v;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/v;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     const/4 v0, 0x7
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKSnippetImageView;->setType(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->setType(I)V
 
     return-void
 .end method
@@ -222,7 +222,7 @@
     move-result-object v0
 
     .line 41
-    iget-object v1, p0, Lcom/vk/newsfeed/holders/v;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object v1, p0, Lcom/vk/newsfeed/holders/v;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     if-eqz v0, :cond_0
 
@@ -236,15 +236,15 @@
     const/4 v0, 0x0
 
     :goto_0
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKSnippetImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->a(Ljava/lang/String;)V
 
     goto :goto_1
 
     .line 43
     :cond_1
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/v;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/v;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKSnippetImageView;->h()V
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->h()V
 
     .line 45
     :goto_1

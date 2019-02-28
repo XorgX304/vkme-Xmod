@@ -3,7 +3,7 @@
 .source "VkDialogsBridge.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/a/e;
+.implements Lcom/vk/messenger/ui/a/e;
 
 
 # static fields
@@ -42,7 +42,7 @@
             "(",
             "Ljava/util/Collection<",
             "+",
-            "Lcom/vk/im/engine/models/messages/Msg;",
+            "Lcom/vk/messenger/engine/models/messages/Msg;",
             ">;)",
             "Landroid/os/Bundle;"
         }
@@ -53,18 +53,18 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 23
-    invoke-static {p0, p1}, Lcom/vk/im/ui/a/e$b;->a(Lcom/vk/im/ui/a/e;Ljava/util/Collection;)Landroid/os/Bundle;
+    invoke-static {p0, p1}, Lcom/vk/messenger/ui/a/e$b;->a(Lcom/vk/messenger/ui/a/e;Ljava/util/Collection;)Landroid/os/Bundle;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public a()Lcom/vk/im/ui/fragments/a;
+.method public a()Lcom/vk/messenger/ui/fragments/a;
     .locals 1
 
     .line 23
-    invoke-static {p0}, Lcom/vk/im/ui/a/e$b;->a(Lcom/vk/im/ui/a/e;)Lcom/vk/im/ui/fragments/a;
+    invoke-static {p0}, Lcom/vk/messenger/ui/a/e$b;->a(Lcom/vk/messenger/ui/a/e;)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object v0
 
@@ -132,7 +132,7 @@
     return-void
 .end method
 
-.method public a(Landroid/content/Context;Lcom/vk/im/engine/models/dialogs/DialogExt;)V
+.method public a(Landroid/content/Context;Lcom/vk/messenger/engine/models/dialogs/DialogExt;)V
     .locals 1
 
     const-string v0, "context"
@@ -146,14 +146,14 @@
     .line 66
     new-instance v0, Lcom/vkontakte/android/fragments/messages/a/a$a;
 
-    invoke-direct {v0, p2}, Lcom/vkontakte/android/fragments/messages/a/a$a;-><init>(Lcom/vk/im/engine/models/dialogs/DialogExt;)V
+    invoke-direct {v0, p2}, Lcom/vkontakte/android/fragments/messages/a/a$a;-><init>(Lcom/vk/messenger/engine/models/dialogs/DialogExt;)V
 
     invoke-virtual {v0, p1}, Lcom/vkontakte/android/fragments/messages/a/a$a;->c(Landroid/content/Context;)V
 
     return-void
 .end method
 
-.method public a(Landroid/content/Context;Lcom/vk/im/engine/models/messages/NestedMsg;Lcom/vk/im/engine/models/dialogs/DialogExt;)V
+.method public a(Landroid/content/Context;Lcom/vk/messenger/engine/models/messages/NestedMsg;Lcom/vk/messenger/engine/models/dialogs/DialogExt;)V
     .locals 1
 
     const-string v0, "context"
@@ -174,12 +174,12 @@
     invoke-direct {v0}, Lcom/vkontakte/android/fragments/messages/b/c$a;-><init>()V
 
     .line 60
-    invoke-virtual {v0, p2}, Lcom/vkontakte/android/fragments/messages/b/c$a;->a(Lcom/vk/im/engine/models/messages/NestedMsg;)Lcom/vkontakte/android/fragments/messages/b/c$a;
+    invoke-virtual {v0, p2}, Lcom/vkontakte/android/fragments/messages/b/c$a;->a(Lcom/vk/messenger/engine/models/messages/NestedMsg;)Lcom/vkontakte/android/fragments/messages/b/c$a;
 
     move-result-object p2
 
     .line 61
-    invoke-virtual {p2, p3}, Lcom/vkontakte/android/fragments/messages/b/c$a;->a(Lcom/vk/im/engine/models/dialogs/DialogExt;)Lcom/vkontakte/android/fragments/messages/b/c$a;
+    invoke-virtual {p2, p3}, Lcom/vkontakte/android/fragments/messages/b/c$a;->a(Lcom/vk/messenger/engine/models/dialogs/DialogExt;)Lcom/vkontakte/android/fragments/messages/b/c$a;
 
     move-result-object p2
 
@@ -189,7 +189,7 @@
     return-void
 .end method
 
-.method public a(Landroid/content/Context;Lcom/vk/im/engine/models/messages/PinnedMsg;Lcom/vk/im/engine/models/dialogs/DialogExt;)V
+.method public a(Landroid/content/Context;Lcom/vk/messenger/engine/models/messages/PinnedMsg;Lcom/vk/messenger/engine/models/dialogs/DialogExt;)V
     .locals 1
 
     const-string v0, "context"
@@ -210,12 +210,12 @@
     invoke-direct {v0}, Lcom/vkontakte/android/fragments/messages/b/c$a;-><init>()V
 
     .line 53
-    invoke-virtual {v0, p2}, Lcom/vkontakte/android/fragments/messages/b/c$a;->a(Lcom/vk/im/engine/models/messages/PinnedMsg;)Lcom/vkontakte/android/fragments/messages/b/c$a;
+    invoke-virtual {v0, p2}, Lcom/vkontakte/android/fragments/messages/b/c$a;->a(Lcom/vk/messenger/engine/models/messages/PinnedMsg;)Lcom/vkontakte/android/fragments/messages/b/c$a;
 
     move-result-object p2
 
     .line 54
-    invoke-virtual {p2, p3}, Lcom/vkontakte/android/fragments/messages/b/c$a;->a(Lcom/vk/im/engine/models/dialogs/DialogExt;)Lcom/vkontakte/android/fragments/messages/b/c$a;
+    invoke-virtual {p2, p3}, Lcom/vkontakte/android/fragments/messages/b/c$a;->a(Lcom/vk/messenger/engine/models/dialogs/DialogExt;)Lcom/vkontakte/android/fragments/messages/b/c$a;
 
     move-result-object p2
 
@@ -233,7 +233,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 23
-    invoke-static {p0, p1}, Lcom/vk/im/ui/a/e$b;->a(Lcom/vk/im/ui/a/e;Lcom/vk/navigation/a;)V
+    invoke-static {p0, p1}, Lcom/vk/messenger/ui/a/e$b;->a(Lcom/vk/messenger/ui/a/e;Lcom/vk/navigation/a;)V
 
     return-void
 .end method
@@ -273,9 +273,9 @@
     .line 43
     invoke-static {p2, p3}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget-object p3, Lcom/vk/im/ui/a/e;->b:Lcom/vk/im/ui/a/e$a;
+    sget-object p3, Lcom/vk/messenger/ui/a/e;->b:Lcom/vk/messenger/ui/a/e$a;
 
-    invoke-virtual {p3}, Lcom/vk/im/ui/a/e$a;->a()I
+    invoke-virtual {p3}, Lcom/vk/messenger/ui/a/e$a;->a()I
 
     move-result p3
 
@@ -284,7 +284,7 @@
     return-void
 .end method
 
-.method public b(Landroid/content/Context;Lcom/vk/im/engine/models/dialogs/DialogExt;)V
+.method public b(Landroid/content/Context;Lcom/vk/messenger/engine/models/dialogs/DialogExt;)V
     .locals 1
 
     const-string v0, "context"
@@ -298,7 +298,7 @@
     .line 74
     new-instance v0, Lcom/vkontakte/android/fragments/messages/chat_invite/a/a$a;
 
-    invoke-direct {v0, p2}, Lcom/vkontakte/android/fragments/messages/chat_invite/a/a$a;-><init>(Lcom/vk/im/engine/models/dialogs/DialogExt;)V
+    invoke-direct {v0, p2}, Lcom/vkontakte/android/fragments/messages/chat_invite/a/a$a;-><init>(Lcom/vk/messenger/engine/models/dialogs/DialogExt;)V
 
     invoke-virtual {v0, p1}, Lcom/vkontakte/android/fragments/messages/chat_invite/a/a$a;->c(Landroid/content/Context;)V
 

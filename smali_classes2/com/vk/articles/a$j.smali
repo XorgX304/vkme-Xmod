@@ -63,13 +63,13 @@
     .line 429
     iget-object v0, p0, Lcom/vk/articles/a$j;->a:Lcom/vk/articles/a;
 
-    invoke-static {v0}, Lcom/vk/articles/a;->i(Lcom/vk/articles/a;)Lcom/vk/imageloader/view/VKCircleImageView;
+    invoke-static {v0}, Lcom/vk/articles/a;->i(Lcom/vk/articles/a;)Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     :cond_0
     return-void

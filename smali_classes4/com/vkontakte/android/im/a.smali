@@ -30,17 +30,17 @@
     return-void
 .end method
 
-.method private final a(Lcom/vk/dto/common/NotificationImage;)Lcom/vk/im/engine/models/ImageList;
+.method private final a(Lcom/vk/dto/common/NotificationImage;)Lcom/vk/messenger/engine/models/ImageList;
     .locals 8
 
     .line 272
-    new-instance v0, Lcom/vk/im/engine/models/ImageList;
+    new-instance v0, Lcom/vk/messenger/engine/models/ImageList;
 
     const/4 v1, 0x1
 
     const/4 v2, 0x0
 
-    invoke-direct {v0, v2, v1, v2}, Lcom/vk/im/engine/models/ImageList;-><init>(Ljava/util/List;ILkotlin/jvm/internal/h;)V
+    invoke-direct {v0, v2, v1, v2}, Lcom/vk/messenger/engine/models/ImageList;-><init>(Ljava/util/List;ILkotlin/jvm/internal/h;)V
 
     .line 273
     invoke-virtual {p1}, Lcom/vk/dto/common/NotificationImage;->a()[I
@@ -75,7 +75,7 @@
     if-eqz v5, :cond_1
 
     .line 280
-    new-instance v4, Lcom/vk/im/engine/models/Image;
+    new-instance v4, Lcom/vk/messenger/engine/models/Image;
 
     aget v5, v1, v2
 
@@ -91,9 +91,9 @@
     const-string v7, ""
 
     :goto_1
-    invoke-direct {v4, v5, v6, v7}, Lcom/vk/im/engine/models/Image;-><init>(IILjava/lang/String;)V
+    invoke-direct {v4, v5, v6, v7}, Lcom/vk/messenger/engine/models/Image;-><init>(IILjava/lang/String;)V
 
-    invoke-virtual {v0, v4}, Lcom/vk/im/engine/models/ImageList;->a(Lcom/vk/im/engine/models/Image;)Z
+    invoke-virtual {v0, v4}, Lcom/vk/messenger/engine/models/ImageList;->a(Lcom/vk/messenger/engine/models/Image;)Z
 
     :cond_1
     add-int/lit8 v2, v2, 0x1
@@ -104,17 +104,17 @@
     return-object v0
 .end method
 
-.method private final a(Lcom/vk/dto/music/Playlist;)Lcom/vk/im/engine/models/ImageList;
+.method private final a(Lcom/vk/dto/music/Playlist;)Lcom/vk/messenger/engine/models/ImageList;
     .locals 5
 
     .line 105
-    new-instance v0, Lcom/vk/im/engine/models/ImageList;
+    new-instance v0, Lcom/vk/messenger/engine/models/ImageList;
 
     const/4 v1, 0x0
 
     const/4 v2, 0x1
 
-    invoke-direct {v0, v1, v2, v1}, Lcom/vk/im/engine/models/ImageList;-><init>(Ljava/util/List;ILkotlin/jvm/internal/h;)V
+    invoke-direct {v0, v1, v2, v1}, Lcom/vk/messenger/engine/models/ImageList;-><init>(Ljava/util/List;ILkotlin/jvm/internal/h;)V
 
     .line 106
     iget-object p1, p1, Lcom/vk/dto/music/Playlist;->p:Ljava/util/List;
@@ -166,7 +166,7 @@
 
     .line 108
     :goto_2
-    new-instance v3, Lcom/vk/im/engine/models/Image;
+    new-instance v3, Lcom/vk/messenger/engine/models/Image;
 
     iget v4, v1, Lcom/vk/dto/music/Thumb;->a:I
 
@@ -177,9 +177,9 @@
     invoke-static {}, Lkotlin/jvm/internal/l;->a()V
 
     :cond_2
-    invoke-direct {v3, v4, v1, v2}, Lcom/vk/im/engine/models/Image;-><init>(IILjava/lang/String;)V
+    invoke-direct {v3, v4, v1, v2}, Lcom/vk/messenger/engine/models/Image;-><init>(IILjava/lang/String;)V
 
-    invoke-virtual {v0, v3}, Lcom/vk/im/engine/models/ImageList;->a(Lcom/vk/im/engine/models/Image;)Z
+    invoke-virtual {v0, v3}, Lcom/vk/messenger/engine/models/ImageList;->a(Lcom/vk/messenger/engine/models/Image;)Z
 
     goto :goto_1
 
@@ -187,7 +187,7 @@
     return-object v0
 .end method
 
-.method private final a(Ljava/util/List;)Lcom/vk/im/engine/models/ImageList;
+.method private final a(Ljava/util/List;)Lcom/vk/messenger/engine/models/ImageList;
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -196,20 +196,20 @@
             "+",
             "Lcom/vk/dto/common/ImageSize;",
             ">;)",
-            "Lcom/vk/im/engine/models/ImageList;"
+            "Lcom/vk/messenger/engine/models/ImageList;"
         }
     .end annotation
 
     if-nez p1, :cond_0
 
     .line 417
-    new-instance p1, Lcom/vk/im/engine/models/ImageList;
+    new-instance p1, Lcom/vk/messenger/engine/models/ImageList;
 
     const/4 v0, 0x1
 
     const/4 v1, 0x0
 
-    invoke-direct {p1, v1, v0, v1}, Lcom/vk/im/engine/models/ImageList;-><init>(Ljava/util/List;ILkotlin/jvm/internal/h;)V
+    invoke-direct {p1, v1, v0, v1}, Lcom/vk/messenger/engine/models/ImageList;-><init>(Ljava/util/List;ILkotlin/jvm/internal/h;)V
 
     return-object p1
 
@@ -250,7 +250,7 @@
     check-cast v1, Lcom/vk/dto/common/ImageSize;
 
     .line 420
-    new-instance v2, Lcom/vk/im/engine/models/Image;
+    new-instance v2, Lcom/vk/messenger/engine/models/Image;
 
     invoke-virtual {v1}, Lcom/vk/dto/common/ImageSize;->c()I
 
@@ -268,7 +268,7 @@
 
     invoke-static {v1, v5}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {v2, v3, v4, v1}, Lcom/vk/im/engine/models/Image;-><init>(IILjava/lang/String;)V
+    invoke-direct {v2, v3, v4, v1}, Lcom/vk/messenger/engine/models/Image;-><init>(IILjava/lang/String;)V
 
     invoke-interface {v0, v2}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
@@ -279,7 +279,7 @@
     check-cast v0, Ljava/util/List;
 
     .line 422
-    new-instance p1, Lcom/vk/im/engine/models/ImageList;
+    new-instance p1, Lcom/vk/messenger/engine/models/ImageList;
 
     check-cast v0, Ljava/util/Collection;
 
@@ -287,12 +287,12 @@
 
     move-result-object v0
 
-    invoke-direct {p1, v0}, Lcom/vk/im/engine/models/ImageList;-><init>(Ljava/util/List;)V
+    invoke-direct {p1, v0}, Lcom/vk/messenger/engine/models/ImageList;-><init>(Ljava/util/List;)V
 
     return-object p1
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/AudioArtistAttachment;)Lcom/vk/im/engine/models/attaches/Attach;
+.method private final a(Lcom/vkontakte/android/attachments/AudioArtistAttachment;)Lcom/vk/messenger/engine/models/attaches/Attach;
     .locals 11
 
     .line 99
@@ -301,7 +301,7 @@
     move-result-object p1
 
     .line 100
-    new-instance v10, Lcom/vk/im/engine/models/attaches/AttachArtist;
+    new-instance v10, Lcom/vk/messenger/engine/models/attaches/AttachArtist;
 
     invoke-virtual {p1}, Lcom/vk/dto/music/Artist;->c()Ljava/lang/String;
 
@@ -343,7 +343,7 @@
     const/4 v0, 0x0
 
     :goto_2
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Ljava/util/List;)Lcom/vk/im/engine/models/ImageList;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Ljava/util/List;)Lcom/vk/messenger/engine/models/ImageList;
 
     move-result-object v3
 
@@ -364,14 +364,14 @@
     move-object v0, v10
 
     .line 100
-    invoke-direct/range {v0 .. v9}, Lcom/vk/im/engine/models/attaches/AttachArtist;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/vk/im/engine/models/ImageList;ZIILcom/vk/im/engine/models/attaches/AttachSyncState;ILkotlin/jvm/internal/h;)V
+    invoke-direct/range {v0 .. v9}, Lcom/vk/messenger/engine/models/attaches/AttachArtist;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/vk/messenger/engine/models/ImageList;ZIILcom/vk/messenger/engine/models/attaches/AttachSyncState;ILkotlin/jvm/internal/h;)V
 
-    check-cast v10, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v10, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     return-object v10
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/ArticleAttachment;)Lcom/vk/im/engine/models/attaches/AttachArticle;
+.method private final a(Lcom/vkontakte/android/attachments/ArticleAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachArticle;
     .locals 4
 
     .line 76
@@ -391,7 +391,7 @@
 
     .line 78
     :cond_0
-    new-instance v0, Lcom/vk/im/engine/models/attaches/AttachArticle;
+    new-instance v0, Lcom/vk/messenger/engine/models/attaches/AttachArticle;
 
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/ArticleAttachment;->m()Lcom/vk/dto/articles/Article;
 
@@ -447,32 +447,32 @@
 
     .line 78
     :goto_0
-    invoke-direct {v0, v1, v2, v3, p1}, Lcom/vk/im/engine/models/attaches/AttachArticle;-><init>(IILjava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2, v3, p1}, Lcom/vk/messenger/engine/models/attaches/AttachArticle;-><init>(IILjava/lang/String;Ljava/lang/String;)V
 
     return-object v0
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/AudioAttachment;)Lcom/vk/im/engine/models/attaches/AttachAudio;
+.method private final a(Lcom/vkontakte/android/attachments/AudioAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachAudio;
     .locals 2
 
     .line 221
-    new-instance v0, Lcom/vk/im/engine/models/attaches/AttachAudio;
+    new-instance v0, Lcom/vk/messenger/engine/models/attaches/AttachAudio;
 
-    invoke-direct {v0}, Lcom/vk/im/engine/models/attaches/AttachAudio;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/engine/models/attaches/AttachAudio;-><init>()V
 
     .line 222
     iget-object v1, p1, Lcom/vkontakte/android/attachments/AudioAttachment;->b:Lcom/vk/dto/music/MusicTrack;
 
     iget v1, v1, Lcom/vk/dto/music/MusicTrack;->b:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachAudio;->c(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachAudio;->c(I)V
 
     .line 223
     iget-object v1, p1, Lcom/vkontakte/android/attachments/AudioAttachment;->b:Lcom/vk/dto/music/MusicTrack;
 
     iget v1, v1, Lcom/vk/dto/music/MusicTrack;->c:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachAudio;->b(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachAudio;->b(I)V
 
     .line 224
     iget-object v1, p1, Lcom/vkontakte/android/attachments/AudioAttachment;->b:Lcom/vk/dto/music/MusicTrack;
@@ -481,7 +481,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachAudio;->e(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachAudio;->e(I)V
 
     .line 225
     iget-object v1, p1, Lcom/vkontakte/android/attachments/AudioAttachment;->b:Lcom/vk/dto/music/MusicTrack;
@@ -496,7 +496,7 @@
     const-string v1, ""
 
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachAudio;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachAudio;->a(Ljava/lang/String;)V
 
     .line 226
     iget-object v1, p1, Lcom/vkontakte/android/attachments/AudioAttachment;->b:Lcom/vk/dto/music/MusicTrack;
@@ -511,14 +511,14 @@
     const-string v1, ""
 
     :goto_1
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachAudio;->b(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachAudio;->b(Ljava/lang/String;)V
 
     .line 227
     iget-object v1, p1, Lcom/vkontakte/android/attachments/AudioAttachment;->b:Lcom/vk/dto/music/MusicTrack;
 
     iget v1, v1, Lcom/vk/dto/music/MusicTrack;->f:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachAudio;->d(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachAudio;->d(I)V
 
     .line 228
     iget-object v1, p1, Lcom/vkontakte/android/attachments/AudioAttachment;->b:Lcom/vk/dto/music/MusicTrack;
@@ -533,7 +533,7 @@
     const-string v1, ""
 
     :goto_2
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachAudio;->c(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachAudio;->c(Ljava/lang/String;)V
 
     .line 229
     iget-object p1, p1, Lcom/vkontakte/android/attachments/AudioAttachment;->b:Lcom/vk/dto/music/MusicTrack;
@@ -548,12 +548,12 @@
     const-string p1, ""
 
     :goto_3
-    invoke-virtual {v0, p1}, Lcom/vk/im/engine/models/attaches/AttachAudio;->e(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/engine/models/attaches/AttachAudio;->e(Ljava/lang/String;)V
 
     return-object v0
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/PendingAudioMessageAttachment;)Lcom/vk/im/engine/models/attaches/AttachAudioMsg;
+.method private final a(Lcom/vkontakte/android/attachments/PendingAudioMessageAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachAudioMsg;
     .locals 2
 
     .line 397
@@ -568,19 +568,19 @@
     move-result-object v0
 
     .line 399
-    new-instance v1, Lcom/vk/im/engine/models/attaches/AttachAudioMsg;
+    new-instance v1, Lcom/vk/messenger/engine/models/attaches/AttachAudioMsg;
 
-    invoke-direct {v1}, Lcom/vk/im/engine/models/attaches/AttachAudioMsg;-><init>()V
+    invoke-direct {v1}, Lcom/vk/messenger/engine/models/attaches/AttachAudioMsg;-><init>()V
 
     .line 400
-    invoke-virtual {v1, v0}, Lcom/vk/im/engine/models/attaches/AttachAudioMsg;->c(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messenger/engine/models/attaches/AttachAudioMsg;->c(Ljava/lang/String;)V
 
     .line 401
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/PendingAudioMessageAttachment;->h()I
 
     move-result v0
 
-    invoke-virtual {v1, v0}, Lcom/vk/im/engine/models/attaches/AttachAudioMsg;->d(I)V
+    invoke-virtual {v1, v0}, Lcom/vk/messenger/engine/models/attaches/AttachAudioMsg;->d(I)V
 
     .line 402
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/PendingAudioMessageAttachment;->g()[B
@@ -592,28 +592,28 @@
     invoke-static {}, Lkotlin/jvm/internal/l;->a()V
 
     :cond_0
-    invoke-virtual {v1, p1}, Lcom/vk/im/engine/models/attaches/AttachAudioMsg;->a([B)V
+    invoke-virtual {v1, p1}, Lcom/vk/messenger/engine/models/attaches/AttachAudioMsg;->a([B)V
 
     return-object v1
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/DocumentAttachment;)Lcom/vk/im/engine/models/attaches/AttachDoc;
+.method private final a(Lcom/vkontakte/android/attachments/DocumentAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachDoc;
     .locals 9
 
     .line 288
-    new-instance v0, Lcom/vk/im/engine/models/attaches/AttachDoc;
+    new-instance v0, Lcom/vk/messenger/engine/models/attaches/AttachDoc;
 
-    invoke-direct {v0}, Lcom/vk/im/engine/models/attaches/AttachDoc;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/engine/models/attaches/AttachDoc;-><init>()V
 
     .line 289
     iget v1, p1, Lcom/vkontakte/android/attachments/DocumentAttachment;->j:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachDoc;->c(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachDoc;->c(I)V
 
     .line 290
     iget v1, p1, Lcom/vkontakte/android/attachments/DocumentAttachment;->i:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachDoc;->b(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachDoc;->b(I)V
 
     .line 291
     iget-object v1, p1, Lcom/vkontakte/android/attachments/DocumentAttachment;->c:Ljava/lang/String;
@@ -634,7 +634,7 @@
 
     .line 291
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachDoc;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachDoc;->a(Ljava/lang/String;)V
 
     .line 295
     iget-object v1, p1, Lcom/vkontakte/android/attachments/DocumentAttachment;->f:Ljava/lang/String;
@@ -643,17 +643,17 @@
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachDoc;->b(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachDoc;->b(Ljava/lang/String;)V
 
     const/16 v1, 0x8
 
     .line 296
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachDoc;->e(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachDoc;->e(I)V
 
     .line 297
     iget v1, p1, Lcom/vkontakte/android/attachments/DocumentAttachment;->h:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachDoc;->d(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachDoc;->d(I)V
 
     .line 298
     iget-object v1, p1, Lcom/vkontakte/android/attachments/DocumentAttachment;->d:Ljava/lang/String;
@@ -662,7 +662,7 @@
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachDoc;->c(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachDoc;->c(Ljava/lang/String;)V
 
     .line 300
     iget-object v1, p1, Lcom/vkontakte/android/attachments/DocumentAttachment;->e:Ljava/lang/String;
@@ -680,9 +680,9 @@
     if-nez v1, :cond_1
 
     .line 301
-    new-array v1, v3, [Lcom/vk/im/engine/models/Image;
+    new-array v1, v3, [Lcom/vk/messenger/engine/models/Image;
 
-    new-instance v4, Lcom/vk/im/engine/models/Image;
+    new-instance v4, Lcom/vk/messenger/engine/models/Image;
 
     iget v5, p1, Lcom/vkontakte/android/attachments/DocumentAttachment;->k:I
 
@@ -694,7 +694,7 @@
 
     invoke-static {v7, v8}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {v4, v5, v6, v7}, Lcom/vk/im/engine/models/Image;-><init>(IILjava/lang/String;)V
+    invoke-direct {v4, v5, v6, v7}, Lcom/vk/messenger/engine/models/Image;-><init>(IILjava/lang/String;)V
 
     aput-object v4, v1, v2
 
@@ -702,7 +702,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachDoc;->a(Ljava/util/List;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachDoc;->a(Ljava/util/List;)V
 
     goto :goto_1
 
@@ -714,7 +714,7 @@
 
     check-cast v1, Ljava/util/List;
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachDoc;->b(Ljava/util/List;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachDoc;->b(Ljava/util/List;)V
 
     .line 306
     :goto_1
@@ -729,9 +729,9 @@
     if-nez v1, :cond_3
 
     .line 307
-    new-instance v1, Lcom/vk/im/engine/models/VideoPreview;
+    new-instance v1, Lcom/vk/messenger/engine/models/VideoPreview;
 
-    invoke-direct {v1}, Lcom/vk/im/engine/models/VideoPreview;-><init>()V
+    invoke-direct {v1}, Lcom/vk/messenger/engine/models/VideoPreview;-><init>()V
 
     .line 308
     iget-object v4, p1, Lcom/vkontakte/android/attachments/DocumentAttachment;->n:Ljava/lang/String;
@@ -744,25 +744,25 @@
     const-string v4, ""
 
     :goto_2
-    invoke-virtual {v1, v4}, Lcom/vk/im/engine/models/VideoPreview;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v4}, Lcom/vk/messenger/engine/models/VideoPreview;->a(Ljava/lang/String;)V
 
     .line 309
     iget v4, p1, Lcom/vkontakte/android/attachments/DocumentAttachment;->k:I
 
-    invoke-virtual {v1, v4}, Lcom/vk/im/engine/models/VideoPreview;->a(I)V
+    invoke-virtual {v1, v4}, Lcom/vk/messenger/engine/models/VideoPreview;->a(I)V
 
     .line 310
     iget v4, p1, Lcom/vkontakte/android/attachments/DocumentAttachment;->l:I
 
-    invoke-virtual {v1, v4}, Lcom/vk/im/engine/models/VideoPreview;->b(I)V
+    invoke-virtual {v1, v4}, Lcom/vk/messenger/engine/models/VideoPreview;->b(I)V
 
     const/4 v4, -0x1
 
     .line 311
-    invoke-virtual {v1, v4}, Lcom/vk/im/engine/models/VideoPreview;->c(I)V
+    invoke-virtual {v1, v4}, Lcom/vk/messenger/engine/models/VideoPreview;->c(I)V
 
     .line 312
-    new-array v3, v3, [Lcom/vk/im/engine/models/VideoPreview;
+    new-array v3, v3, [Lcom/vk/messenger/engine/models/VideoPreview;
 
     aput-object v1, v3, v2
 
@@ -770,7 +770,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachDoc;->b(Ljava/util/List;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachDoc;->b(Ljava/util/List;)V
 
     goto :goto_3
 
@@ -782,7 +782,7 @@
 
     check-cast v1, Ljava/util/List;
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachDoc;->b(Ljava/util/List;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachDoc;->b(Ljava/util/List;)V
 
     .line 317
     :goto_3
@@ -804,12 +804,12 @@
 
     .line 317
     :goto_4
-    invoke-virtual {v0, p1}, Lcom/vk/im/engine/models/attaches/AttachDoc;->e(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/engine/models/attaches/AttachDoc;->e(Ljava/lang/String;)V
 
     return-object v0
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/PendingDocumentAttachment;)Lcom/vk/im/engine/models/attaches/AttachDoc;
+.method private final a(Lcom/vkontakte/android/attachments/PendingDocumentAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachDoc;
     .locals 1
 
     .line 326
@@ -824,40 +824,40 @@
     move-result-object p1
 
     .line 328
-    new-instance v0, Lcom/vk/im/engine/models/attaches/AttachDoc;
+    new-instance v0, Lcom/vk/messenger/engine/models/attaches/AttachDoc;
 
-    invoke-direct {v0}, Lcom/vk/im/engine/models/attaches/AttachDoc;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/engine/models/attaches/AttachDoc;-><init>()V
 
     .line 329
-    invoke-virtual {v0, p1}, Lcom/vk/im/engine/models/attaches/AttachDoc;->d(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/engine/models/attaches/AttachDoc;->d(Ljava/lang/String;)V
 
     return-object v0
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/GraffitiAttachment;)Lcom/vk/im/engine/models/attaches/AttachGraffiti;
+.method private final a(Lcom/vkontakte/android/attachments/GraffitiAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachGraffiti;
     .locals 7
 
     .line 380
-    new-instance v0, Lcom/vk/im/engine/models/attaches/AttachGraffiti;
+    new-instance v0, Lcom/vk/messenger/engine/models/attaches/AttachGraffiti;
 
-    invoke-direct {v0}, Lcom/vk/im/engine/models/attaches/AttachGraffiti;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/engine/models/attaches/AttachGraffiti;-><init>()V
 
     .line 381
     iget v1, p1, Lcom/vkontakte/android/attachments/GraffitiAttachment;->b:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachGraffiti;->c(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachGraffiti;->c(I)V
 
     .line 382
     iget v1, p1, Lcom/vkontakte/android/attachments/GraffitiAttachment;->c:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachGraffiti;->b(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachGraffiti;->b(I)V
 
     const/4 v1, 0x1
 
     .line 383
-    new-array v1, v1, [Lcom/vk/im/engine/models/Image;
+    new-array v1, v1, [Lcom/vk/messenger/engine/models/Image;
 
-    new-instance v2, Lcom/vk/im/engine/models/Image;
+    new-instance v2, Lcom/vk/messenger/engine/models/Image;
 
     iget v3, p1, Lcom/vkontakte/android/attachments/GraffitiAttachment;->e:I
 
@@ -869,7 +869,7 @@
 
     invoke-static {v5, v6}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {v2, v3, v4, v5}, Lcom/vk/im/engine/models/Image;-><init>(IILjava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5}, Lcom/vk/messenger/engine/models/Image;-><init>(IILjava/lang/String;)V
 
     const/4 v3, 0x0
 
@@ -879,7 +879,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachGraffiti;->a(Ljava/util/List;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachGraffiti;->a(Ljava/util/List;)V
 
     .line 384
     iget-object p1, p1, Lcom/vkontakte/android/attachments/GraffitiAttachment;->g:Ljava/lang/String;
@@ -892,12 +892,12 @@
     const-string p1, ""
 
     :goto_0
-    invoke-virtual {v0, p1}, Lcom/vk/im/engine/models/attaches/AttachGraffiti;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/engine/models/attaches/AttachGraffiti;->a(Ljava/lang/String;)V
 
     return-object v0
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/PendingGraffitiAttachment;)Lcom/vk/im/engine/models/attaches/AttachGraffiti;
+.method private final a(Lcom/vkontakte/android/attachments/PendingGraffitiAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachGraffiti;
     .locals 4
 
     .line 389
@@ -912,20 +912,20 @@
     move-result-object p1
 
     .line 391
-    new-instance v0, Lcom/vk/im/engine/models/attaches/AttachGraffiti;
+    new-instance v0, Lcom/vk/messenger/engine/models/attaches/AttachGraffiti;
 
-    invoke-direct {v0}, Lcom/vk/im/engine/models/attaches/AttachGraffiti;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/engine/models/attaches/AttachGraffiti;-><init>()V
 
     const/4 v1, 0x1
 
     .line 392
-    new-array v1, v1, [Lcom/vk/im/engine/models/Image;
+    new-array v1, v1, [Lcom/vk/messenger/engine/models/Image;
 
-    new-instance v2, Lcom/vk/im/engine/models/Image;
+    new-instance v2, Lcom/vk/messenger/engine/models/Image;
 
     const/4 v3, -0x1
 
-    invoke-direct {v2, v3, v3, p1}, Lcom/vk/im/engine/models/Image;-><init>(IILjava/lang/String;)V
+    invoke-direct {v2, v3, v3, p1}, Lcom/vk/messenger/engine/models/Image;-><init>(IILjava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -935,12 +935,12 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/engine/models/attaches/AttachGraffiti;->b(Ljava/util/List;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/engine/models/attaches/AttachGraffiti;->b(Ljava/util/List;)V
 
     return-object v0
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/PendingPhotoAttachment;)Lcom/vk/im/engine/models/attaches/AttachImage;
+.method private final a(Lcom/vkontakte/android/attachments/PendingPhotoAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachImage;
     .locals 4
 
     .line 165
@@ -957,16 +957,16 @@
     move-result-object p1
 
     .line 167
-    new-instance v0, Lcom/vk/im/engine/models/attaches/AttachImage;
+    new-instance v0, Lcom/vk/messenger/engine/models/attaches/AttachImage;
 
-    invoke-direct {v0}, Lcom/vk/im/engine/models/attaches/AttachImage;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/engine/models/attaches/AttachImage;-><init>()V
 
     const/4 v1, 0x1
 
     .line 168
-    new-array v1, v1, [Lcom/vk/im/engine/models/Image;
+    new-array v1, v1, [Lcom/vk/messenger/engine/models/Image;
 
-    new-instance v2, Lcom/vk/im/engine/models/Image;
+    new-instance v2, Lcom/vk/messenger/engine/models/Image;
 
     invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -982,7 +982,7 @@
 
     const/4 v3, -0x1
 
-    invoke-direct {v2, v3, v3, p1}, Lcom/vk/im/engine/models/Image;-><init>(IILjava/lang/String;)V
+    invoke-direct {v2, v3, v3, p1}, Lcom/vk/messenger/engine/models/Image;-><init>(IILjava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -992,12 +992,12 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/engine/models/attaches/AttachImage;->b(Ljava/util/List;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/engine/models/attaches/AttachImage;->b(Ljava/util/List;)V
 
     return-object v0
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/PhotoAttachment;)Lcom/vk/im/engine/models/attaches/AttachImage;
+.method private final a(Lcom/vkontakte/android/attachments/PhotoAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachImage;
     .locals 8
 
     .line 148
@@ -1021,24 +1021,24 @@
 
     .line 152
     :cond_0
-    new-instance v0, Lcom/vk/im/engine/models/attaches/AttachImage;
+    new-instance v0, Lcom/vk/messenger/engine/models/attaches/AttachImage;
 
-    invoke-direct {v0}, Lcom/vk/im/engine/models/attaches/AttachImage;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/engine/models/attaches/AttachImage;-><init>()V
 
     .line 153
     iget v1, p1, Lcom/vkontakte/android/attachments/PhotoAttachment;->c:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachImage;->c(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachImage;->c(I)V
 
     .line 154
     iget v1, p1, Lcom/vkontakte/android/attachments/PhotoAttachment;->e:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachImage;->d(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachImage;->d(I)V
 
     .line 155
     iget v1, p1, Lcom/vkontakte/android/attachments/PhotoAttachment;->d:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachImage;->b(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachImage;->b(I)V
 
     const/16 v1, 0x3e8
 
@@ -1051,7 +1051,7 @@
 
     mul-long v1, v1, v3
 
-    invoke-virtual {v0, v1, v2}, Lcom/vk/im/engine/models/attaches/AttachImage;->a(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/vk/messenger/engine/models/attaches/AttachImage;->a(J)V
 
     .line 157
     iget-object v1, p1, Lcom/vkontakte/android/attachments/PhotoAttachment;->i:Lcom/vk/dto/photo/Photo;
@@ -1101,7 +1101,7 @@
     check-cast v3, Lcom/vk/dto/common/ImageSize;
 
     .line 157
-    new-instance v4, Lcom/vk/im/engine/models/Image;
+    new-instance v4, Lcom/vk/messenger/engine/models/Image;
 
     const-string v5, "it"
 
@@ -1123,7 +1123,7 @@
 
     invoke-static {v3, v7}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {v4, v5, v6, v3}, Lcom/vk/im/engine/models/Image;-><init>(IILjava/lang/String;)V
+    invoke-direct {v4, v5, v6, v3}, Lcom/vk/messenger/engine/models/Image;-><init>(IILjava/lang/String;)V
 
     invoke-interface {v2, v4}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
@@ -1140,7 +1140,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachImage;->a(Ljava/util/List;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachImage;->a(Ljava/util/List;)V
 
     .line 158
     iget-object v1, p1, Lcom/vkontakte/android/attachments/PhotoAttachment;->j:Ljava/lang/String;
@@ -1153,7 +1153,7 @@
     const-string v1, ""
 
     :goto_1
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachImage;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachImage;->a(Ljava/lang/String;)V
 
     .line 159
     iget-object v1, p1, Lcom/vkontakte/android/attachments/PhotoAttachment;->k:Ljava/lang/String;
@@ -1172,12 +1172,12 @@
     invoke-static {p1, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     :goto_2
-    invoke-virtual {v0, p1}, Lcom/vk/im/engine/models/attaches/AttachImage;->b(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/engine/models/attaches/AttachImage;->b(Ljava/lang/String;)V
 
     return-object v0
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/LinkAttachment;)Lcom/vk/im/engine/models/attaches/AttachLink;
+.method private final a(Lcom/vkontakte/android/attachments/LinkAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachLink;
     .locals 1
 
     .line 114
@@ -1188,7 +1188,7 @@
     move-result-object p1
 
     .line 115
-    new-instance v0, Lcom/vk/im/engine/models/attaches/AttachLink;
+    new-instance v0, Lcom/vk/messenger/engine/models/attaches/AttachLink;
 
     if-eqz p1, :cond_0
 
@@ -1198,28 +1198,28 @@
     const-string p1, ""
 
     :goto_0
-    invoke-direct {v0, p1}, Lcom/vk/im/engine/models/attaches/AttachLink;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Lcom/vk/messenger/engine/models/attaches/AttachLink;-><init>(Ljava/lang/String;)V
 
     return-object v0
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/GeoAttachment;)Lcom/vk/im/engine/models/attaches/AttachMap;
+.method private final a(Lcom/vkontakte/android/attachments/GeoAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachMap;
     .locals 3
 
     .line 244
-    new-instance v0, Lcom/vk/im/engine/models/attaches/AttachMap;
+    new-instance v0, Lcom/vk/messenger/engine/models/attaches/AttachMap;
 
-    invoke-direct {v0}, Lcom/vk/im/engine/models/attaches/AttachMap;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/engine/models/attaches/AttachMap;-><init>()V
 
     .line 245
     iget-wide v1, p1, Lcom/vkontakte/android/attachments/GeoAttachment;->c:D
 
-    invoke-virtual {v0, v1, v2}, Lcom/vk/im/engine/models/attaches/AttachMap;->b(D)V
+    invoke-virtual {v0, v1, v2}, Lcom/vk/messenger/engine/models/attaches/AttachMap;->b(D)V
 
     .line 246
     iget-wide v1, p1, Lcom/vkontakte/android/attachments/GeoAttachment;->b:D
 
-    invoke-virtual {v0, v1, v2}, Lcom/vk/im/engine/models/attaches/AttachMap;->a(D)V
+    invoke-virtual {v0, v1, v2}, Lcom/vk/messenger/engine/models/attaches/AttachMap;->a(D)V
 
     .line 247
     iget-object v1, p1, Lcom/vkontakte/android/attachments/GeoAttachment;->d:Ljava/lang/String;
@@ -1240,35 +1240,35 @@
 
     .line 247
     :goto_0
-    invoke-virtual {v0, p1}, Lcom/vk/im/engine/models/attaches/AttachMap;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/engine/models/attaches/AttachMap;->a(Ljava/lang/String;)V
 
     const-string p1, ""
 
     .line 251
-    invoke-virtual {v0, p1}, Lcom/vk/im/engine/models/attaches/AttachMap;->b(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/engine/models/attaches/AttachMap;->b(Ljava/lang/String;)V
 
     const-string p1, ""
 
     .line 252
-    invoke-virtual {v0, p1}, Lcom/vk/im/engine/models/attaches/AttachMap;->c(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/engine/models/attaches/AttachMap;->c(Ljava/lang/String;)V
 
     return-object v0
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/MarketAttachment;)Lcom/vk/im/engine/models/attaches/AttachMarket;
+.method private final a(Lcom/vkontakte/android/attachments/MarketAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachMarket;
     .locals 7
 
     .line 355
-    new-instance v0, Lcom/vk/im/engine/models/attaches/AttachMarket;
+    new-instance v0, Lcom/vk/messenger/engine/models/attaches/AttachMarket;
 
-    invoke-direct {v0}, Lcom/vk/im/engine/models/attaches/AttachMarket;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/engine/models/attaches/AttachMarket;-><init>()V
 
     .line 356
     iget-object v1, p1, Lcom/vkontakte/android/attachments/MarketAttachment;->a:Lcom/vk/dto/common/Good;
 
     iget v1, v1, Lcom/vk/dto/common/Good;->a:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachMarket;->c(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachMarket;->c(I)V
 
     .line 357
     iget-object v1, p1, Lcom/vkontakte/android/attachments/MarketAttachment;->a:Lcom/vk/dto/common/Good;
@@ -1283,7 +1283,7 @@
     const-string v1, ""
 
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachMarket;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachMarket;->a(Ljava/lang/String;)V
 
     .line 358
     iget-object v1, p1, Lcom/vkontakte/android/attachments/MarketAttachment;->a:Lcom/vk/dto/common/Good;
@@ -1298,14 +1298,14 @@
     const-string v1, ""
 
     :goto_1
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachMarket;->b(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachMarket;->b(Ljava/lang/String;)V
 
     .line 359
     iget-object v1, p1, Lcom/vkontakte/android/attachments/MarketAttachment;->a:Lcom/vk/dto/common/Good;
 
     iget v1, v1, Lcom/vk/dto/common/Good;->b:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachMarket;->b(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachMarket;->b(I)V
 
     .line 360
     iget-object v1, p1, Lcom/vkontakte/android/attachments/MarketAttachment;->a:Lcom/vk/dto/common/Good;
@@ -1320,7 +1320,7 @@
     const-string v1, ""
 
     :goto_2
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachMarket;->c(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachMarket;->c(Ljava/lang/String;)V
 
     .line 362
     iget-object p1, p1, Lcom/vkontakte/android/attachments/MarketAttachment;->a:Lcom/vk/dto/common/Good;
@@ -1370,7 +1370,7 @@
 
     check-cast v1, Ljava/util/List;
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachMarket;->a(Ljava/util/List;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachMarket;->a(Ljava/util/List;)V
 
     .line 369
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1391,11 +1391,11 @@
     check-cast v1, Lcom/vk/dto/common/ImageSize;
 
     .line 370
-    invoke-virtual {v0}, Lcom/vk/im/engine/models/attaches/AttachMarket;->h()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/models/attaches/AttachMarket;->h()Ljava/util/List;
 
     move-result-object v2
 
-    new-instance v3, Lcom/vk/im/engine/models/Image;
+    new-instance v3, Lcom/vk/messenger/engine/models/Image;
 
     const-string v4, "image"
 
@@ -1417,7 +1417,7 @@
 
     invoke-static {v1, v6}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {v3, v4, v5, v1}, Lcom/vk/im/engine/models/Image;-><init>(IILjava/lang/String;)V
+    invoke-direct {v3, v4, v5, v1}, Lcom/vk/messenger/engine/models/Image;-><init>(IILjava/lang/String;)V
 
     invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -1432,18 +1432,18 @@
 
     check-cast p1, Ljava/util/List;
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/engine/models/attaches/AttachMarket;->a(Ljava/util/List;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/engine/models/attaches/AttachMarket;->a(Ljava/util/List;)V
 
     :cond_6
     const-string p1, ""
 
     .line 374
-    invoke-virtual {v0, p1}, Lcom/vk/im/engine/models/attaches/AttachMarket;->d(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/engine/models/attaches/AttachMarket;->d(Ljava/lang/String;)V
 
     return-object v0
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/NarrativeAttachment;)Lcom/vk/im/engine/models/attaches/AttachNarrative;
+.method private final a(Lcom/vkontakte/android/attachments/NarrativeAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachNarrative;
     .locals 18
 
     .line 119
@@ -1452,7 +1452,7 @@
     move-result-object v0
 
     .line 120
-    new-instance v11, Lcom/vk/im/engine/models/attaches/AttachNarrative;
+    new-instance v11, Lcom/vk/messenger/engine/models/attaches/AttachNarrative;
 
     .line 121
     invoke-virtual {v0}, Lcom/vk/dto/narratives/Narrative;->d()I
@@ -1488,7 +1488,7 @@
 
     .line 126
     :goto_1
-    sget-object v12, Lcom/vk/im/engine/models/ImageList;->a:Lcom/vk/im/engine/models/ImageList$b;
+    sget-object v12, Lcom/vk/messenger/engine/models/ImageList;->a:Lcom/vk/messenger/engine/models/ImageList$b;
 
     invoke-virtual {v0}, Lcom/vk/dto/narratives/Narrative;->h()Lcom/vk/dto/stories/model/StoryEntry;
 
@@ -1517,7 +1517,7 @@
 
     const/16 v17, 0x0
 
-    invoke-static/range {v12 .. v17}, Lcom/vk/im/engine/models/ImageList$b;->a(Lcom/vk/im/engine/models/ImageList$b;Ljava/lang/String;IIILjava/lang/Object;)Lcom/vk/im/engine/models/ImageList;
+    invoke-static/range {v12 .. v17}, Lcom/vk/messenger/engine/models/ImageList$b;->a(Lcom/vk/messenger/engine/models/ImageList$b;Ljava/lang/String;IIILjava/lang/Object;)Lcom/vk/messenger/engine/models/ImageList;
 
     move-result-object v7
 
@@ -1532,12 +1532,12 @@
     move-object v1, v11
 
     .line 120
-    invoke-direct/range {v1 .. v10}, Lcom/vk/im/engine/models/attaches/AttachNarrative;-><init>(ILjava/lang/String;IILjava/lang/String;Lcom/vk/im/engine/models/ImageList;Lcom/vk/im/engine/models/attaches/AttachSyncState;ILkotlin/jvm/internal/h;)V
+    invoke-direct/range {v1 .. v10}, Lcom/vk/messenger/engine/models/attaches/AttachNarrative;-><init>(ILjava/lang/String;IILjava/lang/String;Lcom/vk/messenger/engine/models/ImageList;Lcom/vk/messenger/engine/models/attaches/AttachSyncState;ILkotlin/jvm/internal/h;)V
 
     return-object v11
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/AudioPlaylistAttachment;)Lcom/vk/im/engine/models/attaches/AttachPlaylist;
+.method private final a(Lcom/vkontakte/android/attachments/AudioPlaylistAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachPlaylist;
     .locals 11
 
     .line 84
@@ -1546,7 +1546,7 @@
     move-result-object p1
 
     .line 85
-    new-instance v10, Lcom/vk/im/engine/models/attaches/AttachPlaylist;
+    new-instance v10, Lcom/vk/messenger/engine/models/attaches/AttachPlaylist;
 
     .line 86
     iget v1, p1, Lcom/vk/dto/music/Playlist;->b:I
@@ -1597,7 +1597,7 @@
     .line 92
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {p0, p1}, Lcom/vkontakte/android/im/a;->a(Lcom/vk/dto/music/Playlist;)Lcom/vk/im/engine/models/ImageList;
+    invoke-direct {p0, p1}, Lcom/vkontakte/android/im/a;->a(Lcom/vk/dto/music/Playlist;)Lcom/vk/messenger/engine/models/ImageList;
 
     move-result-object v7
 
@@ -1623,12 +1623,12 @@
     move-object v0, v10
 
     .line 85
-    invoke-direct/range {v0 .. v9}, Lcom/vk/im/engine/models/attaches/AttachPlaylist;-><init>(IILjava/lang/String;Ljava/lang/String;IILcom/vk/im/engine/models/ImageList;Ljava/lang/String;Ljava/util/List;)V
+    invoke-direct/range {v0 .. v9}, Lcom/vk/messenger/engine/models/attaches/AttachPlaylist;-><init>(IILjava/lang/String;Ljava/lang/String;IILcom/vk/messenger/engine/models/ImageList;Ljava/lang/String;Ljava/util/List;)V
 
     return-object v10
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/PodcastAttachment;)Lcom/vk/im/engine/models/attaches/AttachPodcastEpisode;
+.method private final a(Lcom/vkontakte/android/attachments/PodcastAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachPodcastEpisode;
     .locals 8
 
     .line 233
@@ -1637,9 +1637,9 @@
     move-result-object p1
 
     .line 234
-    new-instance v6, Lcom/vk/im/engine/models/attaches/AttachPodcastEpisode;
+    new-instance v6, Lcom/vk/messenger/engine/models/attaches/AttachPodcastEpisode;
 
-    new-instance v7, Lcom/vk/im/engine/models/content/PodcastEpisode;
+    new-instance v7, Lcom/vk/messenger/engine/models/content/PodcastEpisode;
 
     .line 235
     iget v1, p1, Lcom/vk/dto/music/MusicTrack;->b:I
@@ -1689,7 +1689,7 @@
     move-object v0, v7
 
     .line 234
-    invoke-direct/range {v0 .. v5}, Lcom/vk/im/engine/models/content/PodcastEpisode;-><init>(IILjava/lang/String;Ljava/lang/String;Lcom/vk/dto/common/Image;)V
+    invoke-direct/range {v0 .. v5}, Lcom/vk/messenger/engine/models/content/PodcastEpisode;-><init>(IILjava/lang/String;Ljava/lang/String;Lcom/vk/dto/common/Image;)V
 
     const/4 v4, 0x3
 
@@ -1703,19 +1703,19 @@
 
     move-object v3, v7
 
-    invoke-direct/range {v0 .. v5}, Lcom/vk/im/engine/models/attaches/AttachPodcastEpisode;-><init>(ILcom/vk/im/engine/models/attaches/AttachSyncState;Lcom/vk/im/engine/models/content/PodcastEpisode;ILkotlin/jvm/internal/h;)V
+    invoke-direct/range {v0 .. v5}, Lcom/vk/messenger/engine/models/attaches/AttachPodcastEpisode;-><init>(ILcom/vk/messenger/engine/models/attaches/AttachSyncState;Lcom/vk/messenger/engine/models/content/PodcastEpisode;ILkotlin/jvm/internal/h;)V
 
     return-object v6
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/PollAttachment;)Lcom/vk/im/engine/models/attaches/AttachPoll;
+.method private final a(Lcom/vkontakte/android/attachments/PollAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachPoll;
     .locals 4
 
     .line 408
-    new-instance v0, Lcom/vk/im/engine/models/attaches/AttachPoll;
+    new-instance v0, Lcom/vk/messenger/engine/models/attaches/AttachPoll;
 
     .line 410
-    sget-object v1, Lcom/vk/im/engine/models/attaches/AttachSyncState;->DONE:Lcom/vk/im/engine/models/attaches/AttachSyncState;
+    sget-object v1, Lcom/vk/messenger/engine/models/attaches/AttachSyncState;->DONE:Lcom/vk/messenger/engine/models/attaches/AttachSyncState;
 
     .line 411
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/PollAttachment;->h()I
@@ -1734,12 +1734,12 @@
     const/4 v3, 0x0
 
     .line 408
-    invoke-direct {v0, v3, v1, v2, p1}, Lcom/vk/im/engine/models/attaches/AttachPoll;-><init>(ILcom/vk/im/engine/models/attaches/AttachSyncState;ILcom/vk/dto/polls/Poll;)V
+    invoke-direct {v0, v3, v1, v2, p1}, Lcom/vk/messenger/engine/models/attaches/AttachPoll;-><init>(ILcom/vk/messenger/engine/models/attaches/AttachSyncState;ILcom/vk/dto/polls/Poll;)V
 
     return-object v0
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/PendingStoryAttachment;)Lcom/vk/im/engine/models/attaches/AttachStory;
+.method private final a(Lcom/vkontakte/android/attachments/PendingStoryAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachStory;
     .locals 12
 
     .line 58
@@ -1752,7 +1752,7 @@
     if-eqz v0, :cond_0
 
     .line 59
-    new-instance v10, Lcom/vk/im/engine/models/camera/VideoParams;
+    new-instance v10, Lcom/vk/messenger/engine/models/camera/VideoParams;
 
     invoke-virtual {v0}, Lcom/vk/stories/util/CameraVideoEncoder$Parameters;->a()Ljava/io/File;
 
@@ -1792,7 +1792,7 @@
 
     move-object v2, v10
 
-    invoke-direct/range {v2 .. v9}, Lcom/vk/im/engine/models/camera/VideoParams;-><init>(Ljava/io/File;ILjava/io/File;ZZFI)V
+    invoke-direct/range {v2 .. v9}, Lcom/vk/messenger/engine/models/camera/VideoParams;-><init>(Ljava/io/File;ILjava/io/File;ZZFI)V
 
     goto :goto_0
 
@@ -1806,7 +1806,7 @@
     move-result-object v0
 
     .line 62
-    new-instance v11, Lcom/vk/im/engine/models/camera/UploadParams;
+    new-instance v11, Lcom/vk/messenger/engine/models/camera/UploadParams;
 
     const-string v2, "it"
 
@@ -1899,7 +1899,7 @@
     move-object v2, v11
 
     .line 62
-    invoke-direct/range {v2 .. v9}, Lcom/vk/im/engine/models/camera/UploadParams;-><init>(Ljava/lang/String;ILandroid/location/Location;ZLjava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;)V
+    invoke-direct/range {v2 .. v9}, Lcom/vk/messenger/engine/models/camera/UploadParams;-><init>(Ljava/lang/String;ILandroid/location/Location;ZLjava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;)V
 
     .line 71
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/PendingStoryAttachment;->d()Ljava/io/File;
@@ -1908,24 +1908,24 @@
 
     if-eqz p1, :cond_4
 
-    new-instance v1, Lcom/vk/im/engine/models/camera/PhotoParams;
+    new-instance v1, Lcom/vk/messenger/engine/models/camera/PhotoParams;
 
     const-string v0, "it"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {v1, p1}, Lcom/vk/im/engine/models/camera/PhotoParams;-><init>(Ljava/io/File;)V
+    invoke-direct {v1, p1}, Lcom/vk/messenger/engine/models/camera/PhotoParams;-><init>(Ljava/io/File;)V
 
     .line 72
     :cond_4
-    new-instance p1, Lcom/vk/im/engine/models/attaches/AttachStory;
+    new-instance p1, Lcom/vk/messenger/engine/models/attaches/AttachStory;
 
-    invoke-direct {p1, v11, v10, v1}, Lcom/vk/im/engine/models/attaches/AttachStory;-><init>(Lcom/vk/im/engine/models/camera/UploadParams;Lcom/vk/im/engine/models/camera/VideoParams;Lcom/vk/im/engine/models/camera/PhotoParams;)V
+    invoke-direct {p1, v11, v10, v1}, Lcom/vk/messenger/engine/models/attaches/AttachStory;-><init>(Lcom/vk/messenger/engine/models/camera/UploadParams;Lcom/vk/messenger/engine/models/camera/VideoParams;Lcom/vk/messenger/engine/models/camera/PhotoParams;)V
 
     return-object p1
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/StoryAttachment;)Lcom/vk/im/engine/models/attaches/AttachStory;
+.method private final a(Lcom/vkontakte/android/attachments/StoryAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachStory;
     .locals 26
 
     .line 130
@@ -1934,13 +1934,13 @@
     move-result-object v0
 
     .line 131
-    new-instance v15, Lcom/vk/im/engine/models/attaches/AttachStory;
+    new-instance v15, Lcom/vk/messenger/engine/models/attaches/AttachStory;
 
     .line 132
     iget v2, v0, Lcom/vk/dto/stories/model/StoryEntry;->c:I
 
     .line 134
-    sget-object v4, Lcom/vk/im/engine/models/attaches/AttachSyncState;->DONE:Lcom/vk/im/engine/models/attaches/AttachSyncState;
+    sget-object v4, Lcom/vk/messenger/engine/models/attaches/AttachSyncState;->DONE:Lcom/vk/messenger/engine/models/attaches/AttachSyncState;
 
     .line 135
     invoke-virtual/range {p1 .. p1}, Lcom/vkontakte/android/attachments/StoryAttachment;->a()Ljava/lang/String;
@@ -1967,7 +1967,7 @@
     iget v7, v0, Lcom/vk/dto/stories/model/StoryEntry;->b:I
 
     .line 138
-    new-instance v8, Lcom/vk/im/engine/models/camera/UploadParams;
+    new-instance v8, Lcom/vk/messenger/engine/models/camera/UploadParams;
 
     const/16 v17, 0x0
 
@@ -1989,23 +1989,23 @@
 
     move-object/from16 v16, v8
 
-    invoke-direct/range {v16 .. v25}, Lcom/vk/im/engine/models/camera/UploadParams;-><init>(Ljava/lang/String;ILandroid/location/Location;ZLjava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;ILkotlin/jvm/internal/h;)V
+    invoke-direct/range {v16 .. v25}, Lcom/vk/messenger/engine/models/camera/UploadParams;-><init>(Ljava/lang/String;ILandroid/location/Location;ZLjava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;ILkotlin/jvm/internal/h;)V
 
     const/4 v9, 0x0
 
     const/4 v10, 0x0
 
     .line 141
-    new-instance v11, Lcom/vk/im/engine/models/ImageList;
+    new-instance v11, Lcom/vk/messenger/engine/models/ImageList;
 
     const/4 v1, 0x1
 
     const/4 v3, 0x0
 
-    invoke-direct {v11, v3, v1, v3}, Lcom/vk/im/engine/models/ImageList;-><init>(Ljava/util/List;ILkotlin/jvm/internal/h;)V
+    invoke-direct {v11, v3, v1, v3}, Lcom/vk/messenger/engine/models/ImageList;-><init>(Ljava/util/List;ILkotlin/jvm/internal/h;)V
 
     .line 142
-    sget-object v16, Lcom/vk/im/engine/models/ImageList;->a:Lcom/vk/im/engine/models/ImageList$b;
+    sget-object v16, Lcom/vk/messenger/engine/models/ImageList;->a:Lcom/vk/messenger/engine/models/ImageList$b;
 
     iget-object v1, v0, Lcom/vk/dto/stories/model/StoryEntry;->i:Ljava/lang/String;
 
@@ -2015,7 +2015,7 @@
 
     move-object/from16 v17, v1
 
-    invoke-static/range {v16 .. v21}, Lcom/vk/im/engine/models/ImageList$b;->a(Lcom/vk/im/engine/models/ImageList$b;Ljava/lang/String;IIILjava/lang/Object;)Lcom/vk/im/engine/models/ImageList;
+    invoke-static/range {v16 .. v21}, Lcom/vk/messenger/engine/models/ImageList$b;->a(Lcom/vk/messenger/engine/models/ImageList$b;Ljava/lang/String;IIILjava/lang/Object;)Lcom/vk/messenger/engine/models/ImageList;
 
     move-result-object v12
 
@@ -2042,12 +2042,12 @@
     move-object v1, v15
 
     .line 131
-    invoke-direct/range {v1 .. v14}, Lcom/vk/im/engine/models/attaches/AttachStory;-><init>(IILcom/vk/im/engine/models/attaches/AttachSyncState;Ljava/lang/String;Ljava/lang/String;ILcom/vk/im/engine/models/camera/UploadParams;Lcom/vk/im/engine/models/camera/VideoParams;Lcom/vk/im/engine/models/camera/PhotoParams;Lcom/vk/im/engine/models/ImageList;Lcom/vk/im/engine/models/ImageList;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v1 .. v14}, Lcom/vk/messenger/engine/models/attaches/AttachStory;-><init>(IILcom/vk/messenger/engine/models/attaches/AttachSyncState;Ljava/lang/String;Ljava/lang/String;ILcom/vk/messenger/engine/models/camera/UploadParams;Lcom/vk/messenger/engine/models/camera/VideoParams;Lcom/vk/messenger/engine/models/camera/PhotoParams;Lcom/vk/messenger/engine/models/ImageList;Lcom/vk/messenger/engine/models/ImageList;Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v15
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/PendingVideoAttachment;)Lcom/vk/im/engine/models/attaches/AttachVideo;
+.method private final a(Lcom/vkontakte/android/attachments/PendingVideoAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachVideo;
     .locals 1
 
     .line 209
@@ -2078,17 +2078,17 @@
     move-result-object p1
 
     .line 215
-    new-instance v0, Lcom/vk/im/engine/models/attaches/AttachVideo;
+    new-instance v0, Lcom/vk/messenger/engine/models/attaches/AttachVideo;
 
-    invoke-direct {v0}, Lcom/vk/im/engine/models/attaches/AttachVideo;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/engine/models/attaches/AttachVideo;-><init>()V
 
     .line 216
-    invoke-virtual {v0, p1}, Lcom/vk/im/engine/models/attaches/AttachVideo;->d(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/engine/models/attaches/AttachVideo;->d(Ljava/lang/String;)V
 
     return-object v0
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/VideoAttachment;)Lcom/vk/im/engine/models/attaches/AttachVideo;
+.method private final a(Lcom/vkontakte/android/attachments/VideoAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachVideo;
     .locals 8
 
     .line 173
@@ -2104,9 +2104,9 @@
 
     .line 177
     :cond_0
-    new-instance v0, Lcom/vk/im/engine/models/attaches/AttachVideo;
+    new-instance v0, Lcom/vk/messenger/engine/models/attaches/AttachVideo;
 
-    invoke-direct {v0}, Lcom/vk/im/engine/models/attaches/AttachVideo;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/engine/models/attaches/AttachVideo;-><init>()V
 
     .line 178
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/VideoAttachment;->m()Lcom/vk/dto/common/VideoFile;
@@ -2115,7 +2115,7 @@
 
     iget v2, v2, Lcom/vk/dto/common/VideoFile;->b:I
 
-    invoke-virtual {v0, v2}, Lcom/vk/im/engine/models/attaches/AttachVideo;->c(I)V
+    invoke-virtual {v0, v2}, Lcom/vk/messenger/engine/models/attaches/AttachVideo;->c(I)V
 
     .line 179
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/VideoAttachment;->m()Lcom/vk/dto/common/VideoFile;
@@ -2124,7 +2124,7 @@
 
     iget v2, v2, Lcom/vk/dto/common/VideoFile;->a:I
 
-    invoke-virtual {v0, v2}, Lcom/vk/im/engine/models/attaches/AttachVideo;->b(I)V
+    invoke-virtual {v0, v2}, Lcom/vk/messenger/engine/models/attaches/AttachVideo;->b(I)V
 
     .line 180
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/VideoAttachment;->m()Lcom/vk/dto/common/VideoFile;
@@ -2153,7 +2153,7 @@
 
     .line 180
     :goto_0
-    invoke-virtual {v0, v2}, Lcom/vk/im/engine/models/attaches/AttachVideo;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v2}, Lcom/vk/messenger/engine/models/attaches/AttachVideo;->a(Ljava/lang/String;)V
 
     .line 184
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/VideoAttachment;->m()Lcom/vk/dto/common/VideoFile;
@@ -2182,7 +2182,7 @@
 
     .line 184
     :goto_1
-    invoke-virtual {v0, v2}, Lcom/vk/im/engine/models/attaches/AttachVideo;->b(Ljava/lang/String;)V
+    invoke-virtual {v0, v2}, Lcom/vk/messenger/engine/models/attaches/AttachVideo;->b(Ljava/lang/String;)V
 
     .line 188
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/VideoAttachment;->m()Lcom/vk/dto/common/VideoFile;
@@ -2205,7 +2205,7 @@
     iget v2, v2, Lcom/vk/dto/common/VideoFile;->d:I
 
     :goto_2
-    invoke-virtual {v0, v2}, Lcom/vk/im/engine/models/attaches/AttachVideo;->d(I)V
+    invoke-virtual {v0, v2}, Lcom/vk/messenger/engine/models/attaches/AttachVideo;->d(I)V
 
     .line 189
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/VideoAttachment;->m()Lcom/vk/dto/common/VideoFile;
@@ -2214,7 +2214,7 @@
 
     iget v2, v2, Lcom/vk/dto/common/VideoFile;->T:I
 
-    invoke-virtual {v0, v2}, Lcom/vk/im/engine/models/attaches/AttachVideo;->e(I)V
+    invoke-virtual {v0, v2}, Lcom/vk/messenger/engine/models/attaches/AttachVideo;->e(I)V
 
     .line 190
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/VideoAttachment;->m()Lcom/vk/dto/common/VideoFile;
@@ -2223,7 +2223,7 @@
 
     iget v2, v2, Lcom/vk/dto/common/VideoFile;->U:I
 
-    invoke-virtual {v0, v2}, Lcom/vk/im/engine/models/attaches/AttachVideo;->f(I)V
+    invoke-virtual {v0, v2}, Lcom/vk/messenger/engine/models/attaches/AttachVideo;->f(I)V
 
     .line 191
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/VideoAttachment;->m()Lcom/vk/dto/common/VideoFile;
@@ -2236,7 +2236,7 @@
 
     invoke-static {v2, v3}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v0, v2}, Lcom/vk/im/engine/models/attaches/AttachVideo;->c(Ljava/lang/String;)V
+    invoke-virtual {v0, v2}, Lcom/vk/messenger/engine/models/attaches/AttachVideo;->c(Ljava/lang/String;)V
 
     .line 192
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/VideoAttachment;->m()Lcom/vk/dto/common/VideoFile;
@@ -2258,9 +2258,9 @@
     if-nez v2, :cond_4
 
     .line 193
-    new-array v1, v4, [Lcom/vk/im/engine/models/Image;
+    new-array v1, v4, [Lcom/vk/messenger/engine/models/Image;
 
-    new-instance v2, Lcom/vk/im/engine/models/Image;
+    new-instance v2, Lcom/vk/messenger/engine/models/Image;
 
     const/16 v4, 0x140
 
@@ -2276,7 +2276,7 @@
 
     invoke-static {v6, v7}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {v2, v4, v5, v6}, Lcom/vk/im/engine/models/Image;-><init>(IILjava/lang/String;)V
+    invoke-direct {v2, v4, v5, v6}, Lcom/vk/messenger/engine/models/Image;-><init>(IILjava/lang/String;)V
 
     aput-object v2, v1, v3
 
@@ -2284,7 +2284,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachVideo;->a(Ljava/util/List;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachVideo;->a(Ljava/util/List;)V
 
     goto :goto_3
 
@@ -2305,9 +2305,9 @@
     if-nez v2, :cond_6
 
     .line 195
-    new-array v1, v4, [Lcom/vk/im/engine/models/Image;
+    new-array v1, v4, [Lcom/vk/messenger/engine/models/Image;
 
-    new-instance v2, Lcom/vk/im/engine/models/Image;
+    new-instance v2, Lcom/vk/messenger/engine/models/Image;
 
     const/16 v4, 0x82
 
@@ -2323,7 +2323,7 @@
 
     invoke-static {v6, v7}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {v2, v4, v5, v6}, Lcom/vk/im/engine/models/Image;-><init>(IILjava/lang/String;)V
+    invoke-direct {v2, v4, v5, v6}, Lcom/vk/messenger/engine/models/Image;-><init>(IILjava/lang/String;)V
 
     aput-object v2, v1, v3
 
@@ -2331,7 +2331,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachVideo;->a(Ljava/util/List;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachVideo;->a(Ljava/util/List;)V
 
     .line 199
     :goto_3
@@ -2341,7 +2341,7 @@
 
     iget-boolean v1, v1, Lcom/vk/dto/common/VideoFile;->J:Z
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachVideo;->a(Z)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachVideo;->a(Z)V
 
     .line 200
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/VideoAttachment;->m()Lcom/vk/dto/common/VideoFile;
@@ -2370,7 +2370,7 @@
 
     .line 200
     :goto_4
-    invoke-virtual {v0, p1}, Lcom/vk/im/engine/models/attaches/AttachVideo;->e(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/engine/models/attaches/AttachVideo;->e(Ljava/lang/String;)V
 
     return-object v0
 
@@ -2378,28 +2378,28 @@
     return-object v1
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/PostAttachment;)Lcom/vk/im/engine/models/attaches/AttachWall;
+.method private final a(Lcom/vkontakte/android/attachments/PostAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachWall;
     .locals 2
 
     .line 334
-    new-instance v0, Lcom/vk/im/engine/models/attaches/AttachWall;
+    new-instance v0, Lcom/vk/messenger/engine/models/attaches/AttachWall;
 
-    invoke-direct {v0}, Lcom/vk/im/engine/models/attaches/AttachWall;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/engine/models/attaches/AttachWall;-><init>()V
 
     .line 335
     iget v1, p1, Lcom/vkontakte/android/attachments/PostAttachment;->b:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachWall;->c(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachWall;->c(I)V
 
     .line 336
     iget-boolean v1, p1, Lcom/vkontakte/android/attachments/PostAttachment;->d:Z
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachWall;->a(Z)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachWall;->a(Z)V
 
     .line 337
     iget v1, p1, Lcom/vkontakte/android/attachments/PostAttachment;->a:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachWall;->b(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachWall;->b(I)V
 
     .line 338
     iget-object p1, p1, Lcom/vkontakte/android/attachments/PostAttachment;->c:Ljava/lang/String;
@@ -2408,65 +2408,65 @@
 
     invoke-static {p1, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/engine/models/attaches/AttachWall;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/engine/models/attaches/AttachWall;->a(Ljava/lang/String;)V
 
     const-string p1, ""
 
     .line 339
-    invoke-virtual {v0, p1}, Lcom/vk/im/engine/models/attaches/AttachWall;->b(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/engine/models/attaches/AttachWall;->b(Ljava/lang/String;)V
 
     return-object v0
 .end method
 
-.method private final a(Lcom/vkontakte/android/attachments/PostReplyAttachment;)Lcom/vk/im/engine/models/attaches/AttachWallReply;
+.method private final a(Lcom/vkontakte/android/attachments/PostReplyAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachWallReply;
     .locals 2
 
     .line 344
-    new-instance v0, Lcom/vk/im/engine/models/attaches/AttachWallReply;
+    new-instance v0, Lcom/vk/messenger/engine/models/attaches/AttachWallReply;
 
-    invoke-direct {v0}, Lcom/vk/im/engine/models/attaches/AttachWallReply;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/engine/models/attaches/AttachWallReply;-><init>()V
 
     .line 345
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/PostReplyAttachment;->g()I
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachWallReply;->c(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachWallReply;->c(I)V
 
     .line 346
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/PostReplyAttachment;->h()I
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachWallReply;->d(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachWallReply;->d(I)V
 
     .line 347
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/PostReplyAttachment;->d()I
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachWallReply;->e(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachWallReply;->e(I)V
 
     .line 348
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/PostReplyAttachment;->a()I
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachWallReply;->b(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachWallReply;->b(I)V
 
     .line 349
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/PostReplyAttachment;->i()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/attaches/AttachWallReply;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/attaches/AttachWallReply;->a(Ljava/lang/String;)V
 
     .line 350
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/PostReplyAttachment;->j()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/engine/models/attaches/AttachWallReply;->b(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/engine/models/attaches/AttachWallReply;->b(Ljava/lang/String;)V
 
     return-object v0
 .end method
@@ -2565,7 +2565,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/vk/dto/common/Attachment;)Lcom/vk/im/engine/models/attaches/Attach;
+.method public final a(Lcom/vk/dto/common/Attachment;)Lcom/vk/messenger/engine/models/attaches/Attach;
     .locals 3
 
     .line 24
@@ -2577,11 +2577,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/PendingPhotoAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PendingPhotoAttachment;)Lcom/vk/im/engine/models/attaches/AttachImage;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PendingPhotoAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachImage;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto/16 :goto_0
 
@@ -2595,11 +2595,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/PendingVideoAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PendingVideoAttachment;)Lcom/vk/im/engine/models/attaches/AttachVideo;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PendingVideoAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachVideo;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto/16 :goto_0
 
@@ -2613,11 +2613,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/PendingDocumentAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PendingDocumentAttachment;)Lcom/vk/im/engine/models/attaches/AttachDoc;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PendingDocumentAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachDoc;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto/16 :goto_0
 
@@ -2631,11 +2631,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/PendingStoryAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PendingStoryAttachment;)Lcom/vk/im/engine/models/attaches/AttachStory;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PendingStoryAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachStory;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto/16 :goto_0
 
@@ -2649,11 +2649,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/PendingGraffitiAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PendingGraffitiAttachment;)Lcom/vk/im/engine/models/attaches/AttachGraffiti;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PendingGraffitiAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachGraffiti;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto/16 :goto_0
 
@@ -2667,11 +2667,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/StoryAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/StoryAttachment;)Lcom/vk/im/engine/models/attaches/AttachStory;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/StoryAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachStory;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto/16 :goto_0
 
@@ -2685,11 +2685,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/NarrativeAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/NarrativeAttachment;)Lcom/vk/im/engine/models/attaches/AttachNarrative;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/NarrativeAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachNarrative;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto/16 :goto_0
 
@@ -2703,11 +2703,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/PhotoAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PhotoAttachment;)Lcom/vk/im/engine/models/attaches/AttachImage;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PhotoAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachImage;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto/16 :goto_0
 
@@ -2721,11 +2721,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/VideoAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/VideoAttachment;)Lcom/vk/im/engine/models/attaches/AttachVideo;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/VideoAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachVideo;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto/16 :goto_0
 
@@ -2739,11 +2739,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/PendingAudioMessageAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PendingAudioMessageAttachment;)Lcom/vk/im/engine/models/attaches/AttachAudioMsg;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PendingAudioMessageAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachAudioMsg;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto/16 :goto_0
 
@@ -2757,11 +2757,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/AudioAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/AudioAttachment;)Lcom/vk/im/engine/models/attaches/AttachAudio;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/AudioAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachAudio;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto/16 :goto_0
 
@@ -2775,11 +2775,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/GeoAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/GeoAttachment;)Lcom/vk/im/engine/models/attaches/AttachMap;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/GeoAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachMap;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto/16 :goto_0
 
@@ -2793,11 +2793,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/DocumentAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/DocumentAttachment;)Lcom/vk/im/engine/models/attaches/AttachDoc;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/DocumentAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachDoc;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto/16 :goto_0
 
@@ -2811,11 +2811,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/MarketAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/MarketAttachment;)Lcom/vk/im/engine/models/attaches/AttachMarket;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/MarketAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachMarket;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto/16 :goto_0
 
@@ -2829,11 +2829,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/PostAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PostAttachment;)Lcom/vk/im/engine/models/attaches/AttachWall;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PostAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachWall;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto/16 :goto_0
 
@@ -2847,11 +2847,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/PostReplyAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PostReplyAttachment;)Lcom/vk/im/engine/models/attaches/AttachWallReply;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PostReplyAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachWallReply;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto :goto_0
 
@@ -2865,11 +2865,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/ArticleAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/ArticleAttachment;)Lcom/vk/im/engine/models/attaches/AttachArticle;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/ArticleAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachArticle;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto :goto_0
 
@@ -2883,11 +2883,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/AudioPlaylistAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/AudioPlaylistAttachment;)Lcom/vk/im/engine/models/attaches/AttachPlaylist;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/AudioPlaylistAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachPlaylist;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto :goto_0
 
@@ -2901,7 +2901,7 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/AudioArtistAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/AudioArtistAttachment;)Lcom/vk/im/engine/models/attaches/Attach;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/AudioArtistAttachment;)Lcom/vk/messenger/engine/models/attaches/Attach;
 
     move-result-object v0
 
@@ -2917,11 +2917,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/GraffitiAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/GraffitiAttachment;)Lcom/vk/im/engine/models/attaches/AttachGraffiti;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/GraffitiAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachGraffiti;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto :goto_0
 
@@ -2935,11 +2935,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/LinkAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/LinkAttachment;)Lcom/vk/im/engine/models/attaches/AttachLink;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/LinkAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachLink;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto :goto_0
 
@@ -2963,11 +2963,11 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/PollAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PollAttachment;)Lcom/vk/im/engine/models/attaches/AttachPoll;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PollAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachPoll;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     goto :goto_0
 
@@ -2981,15 +2981,15 @@
 
     check-cast v0, Lcom/vkontakte/android/attachments/PodcastAttachment;
 
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PodcastAttachment;)Lcom/vk/im/engine/models/attaches/AttachPodcastEpisode;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/im/a;->a(Lcom/vkontakte/android/attachments/PodcastAttachment;)Lcom/vk/messenger/engine/models/attaches/AttachPodcastEpisode;
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast v0, Lcom/vk/messenger/engine/models/attaches/Attach;
 
     .line 51
     :goto_0
-    instance-of v1, v0, Lcom/vk/im/engine/models/t;
+    instance-of v1, v0, Lcom/vk/messenger/engine/models/t;
 
     if-eqz v1, :cond_17
 
@@ -2998,7 +2998,7 @@
 
     move-result p1
 
-    invoke-interface {v0, p1}, Lcom/vk/im/engine/models/attaches/Attach;->a(I)V
+    invoke-interface {v0, p1}, Lcom/vk/messenger/engine/models/attaches/Attach;->a(I)V
 
     :cond_17
     return-object v0
@@ -3050,7 +3050,7 @@
     throw p1
 .end method
 
-.method public final a(ILcom/vk/dto/stickers/StickerItem;Ljava/lang/String;)Lcom/vk/im/engine/models/attaches/AttachSticker;
+.method public final a(ILcom/vk/dto/stickers/StickerItem;Ljava/lang/String;)Lcom/vk/messenger/engine/models/attaches/AttachSticker;
     .locals 6
 
     const-string v0, "stickerItem"
@@ -3058,7 +3058,7 @@
     invoke-static {p2, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 260
-    new-instance v0, Lcom/vk/im/engine/models/attaches/AttachSticker;
+    new-instance v0, Lcom/vk/messenger/engine/models/attaches/AttachSticker;
 
     .line 261
     invoke-virtual {p2}, Lcom/vk/dto/stickers/StickerItem;->b()I
@@ -3066,7 +3066,7 @@
     move-result v1
 
     .line 263
-    new-instance v2, Lcom/vk/im/engine/models/Sticker;
+    new-instance v2, Lcom/vk/messenger/engine/models/Sticker;
 
     .line 264
     invoke-virtual {p2}, Lcom/vk/dto/stickers/StickerItem;->b()I
@@ -3083,7 +3083,7 @@
     invoke-static {}, Lkotlin/jvm/internal/l;->a()V
 
     :cond_0
-    invoke-direct {p0, v4}, Lcom/vkontakte/android/im/a;->a(Lcom/vk/dto/common/NotificationImage;)Lcom/vk/im/engine/models/ImageList;
+    invoke-direct {p0, v4}, Lcom/vkontakte/android/im/a;->a(Lcom/vk/dto/common/NotificationImage;)Lcom/vk/messenger/engine/models/ImageList;
 
     move-result-object v4
 
@@ -3097,7 +3097,7 @@
     invoke-static {}, Lkotlin/jvm/internal/l;->a()V
 
     :cond_1
-    invoke-direct {p0, v5}, Lcom/vkontakte/android/im/a;->a(Lcom/vk/dto/common/NotificationImage;)Lcom/vk/im/engine/models/ImageList;
+    invoke-direct {p0, v5}, Lcom/vkontakte/android/im/a;->a(Lcom/vk/dto/common/NotificationImage;)Lcom/vk/messenger/engine/models/ImageList;
 
     move-result-object v5
 
@@ -3115,7 +3115,7 @@
 
     .line 263
     :goto_0
-    invoke-direct {v2, v3, v4, v5, p2}, Lcom/vk/im/engine/models/Sticker;-><init>(ILcom/vk/im/engine/models/ImageList;Lcom/vk/im/engine/models/ImageList;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, p2}, Lcom/vk/messenger/engine/models/Sticker;-><init>(ILcom/vk/messenger/engine/models/ImageList;Lcom/vk/messenger/engine/models/ImageList;Ljava/lang/String;)V
 
     if-eqz p3, :cond_3
 
@@ -3123,7 +3123,7 @@
 
     .line 268
     :cond_3
-    invoke-static {}, Lcom/vk/im/engine/models/d/a;->a()Ljava/lang/String;
+    invoke-static {}, Lcom/vk/messenger/engine/models/d/a;->a()Ljava/lang/String;
 
     move-result-object p3
 
@@ -3133,7 +3133,7 @@
 
     .line 260
     :goto_1
-    invoke-direct {v0, v1, p1, v2, p3}, Lcom/vk/im/engine/models/attaches/AttachSticker;-><init>(IILcom/vk/im/engine/models/Sticker;Ljava/lang/String;)V
+    invoke-direct {v0, v1, p1, v2, p3}, Lcom/vk/messenger/engine/models/attaches/AttachSticker;-><init>(IILcom/vk/messenger/engine/models/Sticker;Ljava/lang/String;)V
 
     return-object v0
 .end method

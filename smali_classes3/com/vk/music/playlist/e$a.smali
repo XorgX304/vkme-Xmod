@@ -545,7 +545,7 @@
 
     check-cast p1, Ljava/lang/CharSequence;
 
-    invoke-static {v0, p1}, Lcom/vk/im/ui/utils/a;->a(Landroid/content/Context;Ljava/lang/CharSequence;)V
+    invoke-static {v0, p1}, Lcom/vk/messenger/ui/utils/a;->a(Landroid/content/Context;Ljava/lang/CharSequence;)V
 
     .line 247
     iget-object p1, p0, Lcom/vk/music/playlist/e$a;->a:Lcom/vk/music/playlist/e;

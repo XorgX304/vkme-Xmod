@@ -43,13 +43,13 @@
 
     iget-object v0, v0, Lcom/vkontakte/android/ui/WriteBar$d;->a:Lcom/vkontakte/android/ui/WriteBar;
 
-    invoke-static {v0}, Lcom/vkontakte/android/ui/WriteBar;->s(Lcom/vkontakte/android/ui/WriteBar;)Lcom/vk/im/ui/views/RichEditText;
+    invoke-static {v0}, Lcom/vkontakte/android/ui/WriteBar;->s(Lcom/vkontakte/android/ui/WriteBar;)Lcom/vk/messenger/ui/views/RichEditText;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/views/RichEditText;->setKeepFocus(Z)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/views/RichEditText;->setKeepFocus(Z)V
 
     return-void
 .end method

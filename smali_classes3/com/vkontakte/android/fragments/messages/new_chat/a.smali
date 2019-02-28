@@ -22,7 +22,7 @@
 
 .field private ag:Landroid/widget/FrameLayout;
 
-.field private ah:Lcom/vk/im/ui/components/new_chat/f;
+.field private ah:Lcom/vk/messenger/ui/components/new_chat/f;
 
 .field private ai:Z
 
@@ -69,11 +69,11 @@
     return-object p0
 .end method
 
-.method public static final synthetic c(Lcom/vkontakte/android/fragments/messages/new_chat/a;)Lcom/vk/im/ui/components/new_chat/f;
+.method public static final synthetic c(Lcom/vkontakte/android/fragments/messages/new_chat/a;)Lcom/vk/messenger/ui/components/new_chat/f;
     .locals 1
 
     .line 30
-    iget-object p0, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/im/ui/components/new_chat/f;
+    iget-object p0, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/messenger/ui/components/new_chat/f;
 
     if-nez p0, :cond_0
 
@@ -94,7 +94,7 @@
     invoke-super {p0}, Lcom/vk/core/fragments/d;->B_()V
 
     .line 109
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/im/ui/components/new_chat/f;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/messenger/ui/components/new_chat/f;
 
     if-nez v0, :cond_0
 
@@ -103,7 +103,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_0
-    invoke-virtual {v0}, Lcom/vk/im/ui/components/new_chat/f;->d()V
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/components/new_chat/f;->d()V
 
     return-void
 .end method
@@ -115,7 +115,7 @@
     invoke-super {p0}, Lcom/vk/core/fragments/d;->J()V
 
     .line 114
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/im/ui/components/new_chat/f;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/messenger/ui/components/new_chat/f;
 
     if-nez v0, :cond_0
 
@@ -126,12 +126,12 @@
     :cond_0
     const/4 v1, 0x0
 
-    check-cast v1, Lcom/vk/im/ui/components/new_chat/f$a;
+    check-cast v1, Lcom/vk/messenger/ui/components/new_chat/f$a;
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/components/new_chat/f;->a(Lcom/vk/im/ui/components/new_chat/f$a;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/components/new_chat/f;->a(Lcom/vk/messenger/ui/components/new_chat/f$a;)V
 
     .line 115
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/im/ui/components/new_chat/f;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/messenger/ui/components/new_chat/f;
 
     if-nez v0, :cond_1
 
@@ -140,7 +140,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_1
-    invoke-virtual {v0}, Lcom/vk/im/ui/components/new_chat/f;->e()V
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/components/new_chat/f;->e()V
 
     return-void
 .end method
@@ -235,7 +235,7 @@
     iput-object p1, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ag:Landroid/widget/FrameLayout;
 
     .line 55
-    iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/im/ui/components/new_chat/f;
+    iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/messenger/ui/components/new_chat/f;
 
     if-nez p1, :cond_1
 
@@ -248,9 +248,9 @@
 
     invoke-direct {v0, p0}, Lcom/vkontakte/android/fragments/messages/new_chat/a$b;-><init>(Lcom/vkontakte/android/fragments/messages/new_chat/a;)V
 
-    check-cast v0, Lcom/vk/im/ui/components/new_chat/f$a;
+    check-cast v0, Lcom/vk/messenger/ui/components/new_chat/f$a;
 
-    invoke-virtual {p1, v0}, Lcom/vk/im/ui/components/new_chat/f;->a(Lcom/vk/im/ui/components/new_chat/f$a;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/ui/components/new_chat/f;->a(Lcom/vk/messenger/ui/components/new_chat/f$a;)V
 
     .line 56
     iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ag:Landroid/widget/FrameLayout;
@@ -262,7 +262,7 @@
     invoke-static {v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_2
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/im/ui/components/new_chat/f;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/messenger/ui/components/new_chat/f;
 
     if-nez v0, :cond_3
 
@@ -271,7 +271,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_3
-    invoke-virtual {v0, p2, p3}, Lcom/vk/im/ui/components/new_chat/f;->a(Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-virtual {v0, p2, p3}, Lcom/vk/messenger/ui/components/new_chat/f;->a(Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     move-result-object p3
 
@@ -299,13 +299,13 @@
     invoke-virtual {p0, v0}, Lcom/vkontakte/android/fragments/messages/new_chat/a;->n_(Z)V
 
     .line 41
-    new-instance v0, Lcom/vk/im/ui/components/new_chat/f;
+    new-instance v0, Lcom/vk/messenger/ui/components/new_chat/f;
 
     .line 42
     check-cast p1, Landroid/content/Context;
 
     .line 43
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v1
 
@@ -334,9 +334,9 @@
     invoke-static {v2, v3}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 41
-    invoke-direct {v0, p1, v1, v2}, Lcom/vk/im/ui/components/new_chat/f;-><init>(Landroid/content/Context;Lcom/vk/im/engine/d;[I)V
+    invoke-direct {v0, p1, v1, v2}, Lcom/vk/messenger/ui/components/new_chat/f;-><init>(Landroid/content/Context;Lcom/vk/messenger/engine/d;[I)V
 
-    iput-object v0, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/im/ui/components/new_chat/f;
+    iput-object v0, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/messenger/ui/components/new_chat/f;
 
     return-void
 .end method
@@ -577,7 +577,7 @@
     if-ne p1, v0, :cond_1
 
     .line 90
-    iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/im/ui/components/new_chat/f;
+    iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/messenger/ui/components/new_chat/f;
 
     if-nez p1, :cond_0
 
@@ -586,7 +586,7 @@
     invoke-static {v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_0
-    invoke-virtual {p1}, Lcom/vk/im/ui/components/new_chat/f;->n()V
+    invoke-virtual {p1}, Lcom/vk/messenger/ui/components/new_chat/f;->n()V
 
     const/4 p1, 0x1
 
@@ -610,7 +610,7 @@
     invoke-super {p0, p1}, Lcom/vk/core/fragments/d;->e(Landroid/os/Bundle;)V
 
     .line 99
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/im/ui/components/new_chat/f;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/messenger/ui/components/new_chat/f;
 
     if-nez v0, :cond_0
 
@@ -619,7 +619,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_0
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/components/new_chat/f;->a(Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/components/new_chat/f;->a(Landroid/os/Bundle;)V
 
     return-void
 .end method
@@ -631,7 +631,7 @@
     invoke-super {p0, p1}, Lcom/vk/core/fragments/d;->k(Landroid/os/Bundle;)V
 
     .line 104
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/im/ui/components/new_chat/f;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/new_chat/a;->ah:Lcom/vk/messenger/ui/components/new_chat/f;
 
     if-nez v0, :cond_0
 
@@ -640,7 +640,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_0
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/components/new_chat/f;->b(Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/components/new_chat/f;->b(Landroid/os/Bundle;)V
 
     return-void
 .end method

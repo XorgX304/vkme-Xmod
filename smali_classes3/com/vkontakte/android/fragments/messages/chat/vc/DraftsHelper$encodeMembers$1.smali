@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/vkontakte/android/fragments/messages/chat/vc/a;->a(Lcom/vk/im/engine/models/ProfilesSimpleInfo;)Ljava/lang/String;
+    value = Lcom/vkontakte/android/fragments/messages/chat/vc/a;->a(Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)Ljava/lang/String;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,14 +27,14 @@
 
 
 # instance fields
-.field final synthetic $source:Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+.field final synthetic $source:Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
 
 # direct methods
-.method constructor <init>(Lcom/vk/im/engine/models/ProfilesSimpleInfo;)V
+.method constructor <init>(Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/DraftsHelper$encodeMembers$1;->$source:Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    iput-object p1, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/DraftsHelper$encodeMembers$1;->$source:Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     const/4 p1, 0x0
 
@@ -60,11 +60,11 @@
     .locals 1
 
     .line 102
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/DraftsHelper$encodeMembers$1;->$source:Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/DraftsHelper$encodeMembers$1;->$source:Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/models/ProfilesSimpleInfo;->e()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;->e()Ljava/lang/String;
 
     move-result-object v0
 

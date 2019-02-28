@@ -35,7 +35,7 @@
 
 .field private final q:Landroid/widget/TextView;
 
-.field private final r:Lcom/vk/imageloader/view/VKImageView;
+.field private final r:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final s:Landroid/view/View;
 
@@ -147,9 +147,9 @@
     invoke-static {}, Lkotlin/jvm/internal/l;->a()V
 
     :cond_4
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v0, p0, Lcom/vk/profile/adapter/items/a$a;->r:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vk/profile/adapter/items/a$a;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 57
     iget-object v0, p0, Lcom/vk/profile/adapter/items/a$a;->a:Landroid/view/View;
@@ -341,9 +341,9 @@
     invoke-virtual {v1, v2, v3}, Lcom/facebook/drawee/generic/RoundingParams;->a(IF)Lcom/facebook/drawee/generic/RoundingParams;
 
     .line 93
-    iget-object v1, p0, Lcom/vk/profile/adapter/items/a$a;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/profile/adapter/items/a$a;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1}, Lcom/vk/imageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
+    invoke-virtual {v1}, Lcom/vk/messengerageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
 
     move-result-object v1
 
@@ -739,9 +739,9 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     .line 130
-    iget-object v0, p0, Lcom/vk/profile/adapter/items/a$a;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/adapter/items/a$a;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     goto :goto_0
 
@@ -780,12 +780,12 @@
     invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
     .line 137
-    iget-object v0, p0, Lcom/vk/profile/adapter/items/a$a;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/adapter/items/a$a;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 138
-    iget-object v0, p0, Lcom/vk/profile/adapter/items/a$a;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/adapter/items/a$a;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/profile/adapter/items/a;->i()Lcom/vkontakte/android/api/k;
 
@@ -793,7 +793,7 @@
 
     iget-object v1, v1, Lcom/vkontakte/android/api/k;->j:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 141
     :goto_0

@@ -31,7 +31,7 @@
 
 .field private q:Landroid/widget/ImageView;
 
-.field private r:Lcom/vk/imageloader/view/VKImageView;
+.field private r:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private s:Lcom/vk/dto/games/GameLeaderboard;
 
@@ -96,9 +96,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p2, p0, Lcom/vkontakte/android/fragments/r$e;->r:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vkontakte/android/fragments/r$e;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 267
     iget-object p2, p0, Lcom/vkontakte/android/fragments/r$e;->a:Landroid/view/View;
@@ -139,13 +139,13 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 281
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/r$e;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/r$e;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p1, Lcom/vk/dto/games/GameLeaderboard;->d:Lcom/vkontakte/android/UserProfile;
 
     iget-object v1, v1, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 282
     iget-boolean v0, p1, Lcom/vk/dto/games/GameLeaderboard;->h:Z

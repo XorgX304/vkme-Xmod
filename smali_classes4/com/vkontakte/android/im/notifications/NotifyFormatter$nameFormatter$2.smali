@@ -20,7 +20,7 @@
     value = {
         "Lkotlin/jvm/internal/Lambda;",
         "Lkotlin/jvm/a/a<",
-        "Lcom/vk/im/ui/formatters/g;",
+        "Lcom/vk/messenger/ui/formatters/g;",
         ">;"
     }
 .end annotation
@@ -59,20 +59,20 @@
     .locals 1
 
     .line 21
-    invoke-virtual {p0}, Lcom/vkontakte/android/im/notifications/NotifyFormatter$nameFormatter$2;->b()Lcom/vk/im/ui/formatters/g;
+    invoke-virtual {p0}, Lcom/vkontakte/android/im/notifications/NotifyFormatter$nameFormatter$2;->b()Lcom/vk/messenger/ui/formatters/g;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public final b()Lcom/vk/im/ui/formatters/g;
+.method public final b()Lcom/vk/messenger/ui/formatters/g;
     .locals 1
 
     .line 23
-    new-instance v0, Lcom/vk/im/ui/formatters/g;
+    new-instance v0, Lcom/vk/messenger/ui/formatters/g;
 
-    invoke-direct {v0}, Lcom/vk/im/ui/formatters/g;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/ui/formatters/g;-><init>()V
 
     return-object v0
 .end method

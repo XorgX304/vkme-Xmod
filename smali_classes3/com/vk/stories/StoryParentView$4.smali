@@ -103,7 +103,7 @@
     .line 333
     iget-object p1, p0, Lcom/vk/stories/StoryParentView$4;->c:Lcom/vk/stories/StoryParentView;
 
-    invoke-static {p1}, Lcom/vk/stories/StoryParentView;->c(Lcom/vk/stories/StoryParentView;)Lcom/vk/imageloader/view/VKImageView;
+    invoke-static {p1}, Lcom/vk/stories/StoryParentView;->c(Lcom/vk/stories/StoryParentView;)Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
@@ -117,7 +117,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_1
 

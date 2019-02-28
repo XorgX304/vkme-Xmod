@@ -28,7 +28,7 @@
 
 .field private q:Landroid/widget/TextView;
 
-.field private r:Lcom/vk/imageloader/view/VKImageView;
+.field private r:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private s:Landroid/view/View;
 
@@ -147,9 +147,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/c;->r:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/c;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x7f0a07b3
 
@@ -161,11 +161,11 @@
     iput-object p1, p0, Lcom/vkontakte/android/ui/holder/c;->s:Landroid/view/View;
 
     .line 67
-    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/c;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/c;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p2, 0x7f080250
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     .line 69
     iget-object p1, p0, Lcom/vkontakte/android/ui/holder/c;->a:Landroid/view/View;
@@ -387,11 +387,11 @@
 
     .line 91
     :cond_0
-    iget-object v0, p0, Lcom/vkontakte/android/ui/holder/c;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/holder/c;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v2, p1, Lcom/vkontakte/android/api/models/Group;->c:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 93
     new-instance v0, Landroid/text/SpannableStringBuilder;

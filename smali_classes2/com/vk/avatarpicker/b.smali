@@ -401,7 +401,7 @@
     invoke-static {p2}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_2
-    invoke-static {p1}, Lcom/vk/imageloader/i;->f(Landroid/net/Uri;)Lio/reactivex/j;
+    invoke-static {p1}, Lcom/vk/messengerageloader/i;->f(Landroid/net/Uri;)Lio/reactivex/j;
 
     move-result-object p1
 

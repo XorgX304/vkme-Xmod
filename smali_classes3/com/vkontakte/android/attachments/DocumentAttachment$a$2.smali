@@ -438,11 +438,11 @@
     :cond_0
     iget-object v0, p0, Lcom/vkontakte/android/attachments/DocumentAttachment$a$2;->c:Lcom/vkontakte/android/attachments/DocumentAttachment$a;
 
-    invoke-static {v0}, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->a(Lcom/vkontakte/android/attachments/DocumentAttachment$a;)Lcom/vk/imageloader/view/VKImageView;
+    invoke-static {v0}, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->a(Lcom/vkontakte/android/attachments/DocumentAttachment$a;)Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 

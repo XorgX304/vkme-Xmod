@@ -13,13 +13,13 @@
 
 
 # instance fields
-.field private ae:Lcom/vk/im/engine/models/dialogs/DialogExt;
+.field private ae:Lcom/vk/messenger/engine/models/dialogs/DialogExt;
 
-.field private final af:Lcom/vk/im/engine/d;
+.field private final af:Lcom/vk/messenger/engine/d;
 
-.field private final ag:Lcom/vk/im/ui/a/b;
+.field private final ag:Lcom/vk/messenger/ui/a/b;
 
-.field private ah:Lcom/vk/im/ui/components/chat_settings/a;
+.field private ah:Lcom/vk/messenger/ui/components/chat_settings/a;
 
 .field private ai:Landroid/support/v7/widget/Toolbar;
 
@@ -36,18 +36,18 @@
     invoke-direct {p0}, Lcom/vk/core/fragments/d;-><init>()V
 
     .line 66
-    invoke-static {}, Lcom/vk/im/engine/f;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vk/messenger/engine/f;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->af:Lcom/vk/im/engine/d;
+    iput-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->af:Lcom/vk/messenger/engine/d;
 
     .line 67
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ag:Lcom/vk/im/ui/a/b;
+    iput-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ag:Lcom/vk/messenger/ui/a/b;
 
     const/4 v0, 0x0
 
@@ -71,20 +71,20 @@
     return-object p0
 .end method
 
-.method static synthetic b(Lcom/vkontakte/android/fragments/messages/a/a;)Lcom/vk/im/ui/components/chat_settings/a;
+.method static synthetic b(Lcom/vkontakte/android/fragments/messages/a/a;)Lcom/vk/messenger/ui/components/chat_settings/a;
     .locals 0
 
     .line 51
-    iget-object p0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/im/ui/components/chat_settings/a;
+    iget-object p0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/messenger/ui/components/chat_settings/a;
 
     return-object p0
 .end method
 
-.method static synthetic c(Lcom/vkontakte/android/fragments/messages/a/a;)Lcom/vk/im/ui/a/b;
+.method static synthetic c(Lcom/vkontakte/android/fragments/messages/a/a;)Lcom/vk/messenger/ui/a/b;
     .locals 0
 
     .line 51
-    iget-object p0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ag:Lcom/vk/im/ui/a/b;
+    iget-object p0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ag:Lcom/vk/messenger/ui/a/b;
 
     return-object p0
 .end method
@@ -98,9 +98,9 @@
     invoke-super {p0}, Lcom/vk/core/fragments/d;->B_()V
 
     .line 158
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/im/ui/components/chat_settings/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/messenger/ui/components/chat_settings/a;
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/components/chat_settings/a;->d()V
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/components/chat_settings/a;->d()V
 
     return-void
 .end method
@@ -112,9 +112,9 @@
     invoke-super {p0}, Lcom/vk/core/fragments/d;->D_()V
 
     .line 133
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/im/ui/components/chat_settings/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/messenger/ui/components/chat_settings/a;
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/components/chat_settings/a;->b()V
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/components/chat_settings/a;->b()V
 
     return-void
 .end method
@@ -126,9 +126,9 @@
     invoke-super {p0}, Lcom/vk/core/fragments/d;->E_()V
 
     .line 151
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/im/ui/components/chat_settings/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/messenger/ui/components/chat_settings/a;
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/components/chat_settings/a;->c()V
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/components/chat_settings/a;->c()V
 
     return-void
 .end method
@@ -140,19 +140,19 @@
     invoke-super {p0}, Lcom/vk/core/fragments/d;->J()V
 
     .line 165
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/im/ui/components/chat_settings/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/messenger/ui/components/chat_settings/a;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/components/chat_settings/a;->a(Lcom/vk/im/ui/components/chat_settings/d;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/components/chat_settings/a;->a(Lcom/vk/messenger/ui/components/chat_settings/d;)V
 
     .line 166
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/im/ui/components/chat_settings/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/messenger/ui/components/chat_settings/a;
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/components/chat_settings/a;->e()V
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/components/chat_settings/a;->e()V
 
     .line 167
-    iput-object v1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/im/ui/components/chat_settings/a;
+    iput-object v1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/messenger/ui/components/chat_settings/a;
 
     return-void
 .end method
@@ -181,32 +181,32 @@
     iput-object v1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ai:Landroid/support/v7/widget/Toolbar;
 
     .line 91
-    new-instance v1, Lcom/vk/im/ui/components/chat_settings/a;
+    new-instance v1, Lcom/vk/messenger/ui/components/chat_settings/a;
 
     invoke-virtual {p1}, Landroid/view/LayoutInflater;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
-    iget-object v3, p0, Lcom/vkontakte/android/fragments/messages/a/a;->af:Lcom/vk/im/engine/d;
+    iget-object v3, p0, Lcom/vkontakte/android/fragments/messages/a/a;->af:Lcom/vk/messenger/engine/d;
 
-    iget-object v4, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ag:Lcom/vk/im/ui/a/b;
+    iget-object v4, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ag:Lcom/vk/messenger/ui/a/b;
 
-    iget-object v5, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ae:Lcom/vk/im/engine/models/dialogs/DialogExt;
+    iget-object v5, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ae:Lcom/vk/messenger/engine/models/dialogs/DialogExt;
 
-    invoke-virtual {v5}, Lcom/vk/im/engine/models/dialogs/DialogExt;->a()Lcom/vk/im/engine/models/dialogs/Dialog;
+    invoke-virtual {v5}, Lcom/vk/messenger/engine/models/dialogs/DialogExt;->a()Lcom/vk/messenger/engine/models/dialogs/Dialog;
 
     move-result-object v5
 
-    invoke-virtual {v5}, Lcom/vk/im/engine/models/dialogs/Dialog;->a()I
+    invoke-virtual {v5}, Lcom/vk/messenger/engine/models/dialogs/Dialog;->a()I
 
     move-result v5
 
-    invoke-direct {v1, v2, v3, v4, v5}, Lcom/vk/im/ui/components/chat_settings/a;-><init>(Landroid/content/Context;Lcom/vk/im/engine/d;Lcom/vk/im/ui/a/b;I)V
+    invoke-direct {v1, v2, v3, v4, v5}, Lcom/vk/messenger/ui/components/chat_settings/a;-><init>(Landroid/content/Context;Lcom/vk/messenger/engine/d;Lcom/vk/messenger/ui/a/b;I)V
 
-    iput-object v1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/im/ui/components/chat_settings/a;
+    iput-object v1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/messenger/ui/components/chat_settings/a;
 
     .line 92
-    iget-object v1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/im/ui/components/chat_settings/a;
+    iget-object v1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/messenger/ui/components/chat_settings/a;
 
     new-instance v2, Lcom/vkontakte/android/fragments/messages/a/a$b;
 
@@ -214,23 +214,23 @@
 
     invoke-direct {v2, p0, v3}, Lcom/vkontakte/android/fragments/messages/a/a$b;-><init>(Lcom/vkontakte/android/fragments/messages/a/a;Lcom/vkontakte/android/fragments/messages/a/a$1;)V
 
-    invoke-virtual {v1, v2}, Lcom/vk/im/ui/components/chat_settings/a;->a(Lcom/vk/im/ui/components/chat_settings/d;)V
+    invoke-virtual {v1, v2}, Lcom/vk/messenger/ui/components/chat_settings/a;->a(Lcom/vk/messenger/ui/components/chat_settings/d;)V
 
     .line 93
-    iget-object v1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/im/ui/components/chat_settings/a;
+    iget-object v1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/messenger/ui/components/chat_settings/a;
 
-    iget-object v2, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ae:Lcom/vk/im/engine/models/dialogs/DialogExt;
+    iget-object v2, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ae:Lcom/vk/messenger/engine/models/dialogs/DialogExt;
 
-    invoke-virtual {v1, v2}, Lcom/vk/im/ui/components/chat_settings/a;->a(Lcom/vk/im/engine/models/dialogs/DialogExt;)V
+    invoke-virtual {v1, v2}, Lcom/vk/messenger/ui/components/chat_settings/a;->a(Lcom/vk/messenger/engine/models/dialogs/DialogExt;)V
 
     .line 95
-    iget-object v1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/im/ui/components/chat_settings/a;
+    iget-object v1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/messenger/ui/components/chat_settings/a;
 
     invoke-virtual {p1}, Landroid/view/LayoutInflater;->getContext()Landroid/content/Context;
 
     move-result-object p1
 
-    invoke-virtual {v1, p1, p2, p3}, Lcom/vk/im/ui/components/chat_settings/a;->a(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-virtual {v1, p1, p2, p3}, Lcom/vk/messenger/ui/components/chat_settings/a;->a(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     move-result-object p1
 
@@ -247,7 +247,7 @@
     invoke-virtual {p2, p1}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
     .line 98
-    iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/im/ui/components/chat_settings/a;
+    iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/messenger/ui/components/chat_settings/a;
 
     invoke-virtual {p0}, Lcom/vkontakte/android/fragments/messages/a/a;->s()Landroid/content/res/Resources;
 
@@ -257,7 +257,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/vk/im/ui/components/chat_settings/a;->a(Landroid/content/res/Configuration;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messenger/ui/components/chat_settings/a;->a(Landroid/content/res/Configuration;)V
 
     return-object v0
 .end method
@@ -415,13 +415,13 @@
     invoke-super {p0, p1, p2}, Lcom/vk/core/fragments/d;->a(Landroid/view/View;Landroid/os/Bundle;)V
 
     .line 105
-    iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ae:Lcom/vk/im/engine/models/dialogs/DialogExt;
+    iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ae:Lcom/vk/messenger/engine/models/dialogs/DialogExt;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/dialogs/DialogExt;->a()Lcom/vk/im/engine/models/dialogs/Dialog;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/dialogs/DialogExt;->a()Lcom/vk/messenger/engine/models/dialogs/Dialog;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/dialogs/Dialog;->x()Z
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/dialogs/Dialog;->x()Z
 
     move-result p1
 
@@ -469,9 +469,9 @@
     .end annotation
 
     .line 219
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ag:Lcom/vk/im/ui/a/b;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ag:Lcom/vk/messenger/ui/a/b;
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/b;->j()Lcom/vk/e/w;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/b;->j()Lcom/vk/e/w;
 
     move-result-object v1
 
@@ -572,11 +572,11 @@
     if-eqz v3, :cond_0
 
     .line 232
-    new-instance v4, Lcom/vk/im/engine/models/Member;
+    new-instance v4, Lcom/vk/messenger/engine/models/Member;
 
-    sget-object v5, Lcom/vk/im/engine/models/MemberType;->USER:Lcom/vk/im/engine/models/MemberType;
+    sget-object v5, Lcom/vk/messenger/engine/models/MemberType;->USER:Lcom/vk/messenger/engine/models/MemberType;
 
-    invoke-direct {v4, v5, v3}, Lcom/vk/im/engine/models/Member;-><init>(Lcom/vk/im/engine/models/MemberType;I)V
+    invoke-direct {v4, v5, v3}, Lcom/vk/messenger/engine/models/Member;-><init>(Lcom/vk/messenger/engine/models/MemberType;I)V
 
     invoke-interface {v0, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -587,9 +587,9 @@
 
     .line 235
     :cond_1
-    iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/im/ui/components/chat_settings/a;
+    iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/messenger/ui/components/chat_settings/a;
 
-    invoke-virtual {p1, v0}, Lcom/vk/im/ui/components/chat_settings/a;->a(Ljava/util/List;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/ui/components/chat_settings/a;->a(Ljava/util/List;)V
 
     return-void
 .end method
@@ -611,12 +611,12 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/im/engine/models/dialogs/DialogExt;
+    check-cast p1, Lcom/vk/messenger/engine/models/dialogs/DialogExt;
 
-    iput-object p1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ae:Lcom/vk/im/engine/models/dialogs/DialogExt;
+    iput-object p1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ae:Lcom/vk/messenger/engine/models/dialogs/DialogExt;
 
     .line 78
-    iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ae:Lcom/vk/im/engine/models/dialogs/DialogExt;
+    iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ae:Lcom/vk/messenger/engine/models/dialogs/DialogExt;
 
     if-nez p1, :cond_0
 
@@ -645,9 +645,9 @@
     .locals 1
 
     .line 215
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/im/ui/components/chat_settings/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/messenger/ui/components/chat_settings/a;
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/components/chat_settings/a;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/components/chat_settings/a;->a(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -659,9 +659,9 @@
     invoke-super {p0, p1}, Lcom/vk/core/fragments/d;->e(Landroid/os/Bundle;)V
 
     .line 139
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/im/ui/components/chat_settings/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/messenger/ui/components/chat_settings/a;
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/components/chat_settings/a;->a(Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/components/chat_settings/a;->a(Landroid/os/Bundle;)V
 
     return-void
 .end method
@@ -673,9 +673,9 @@
     invoke-super {p0, p1}, Lcom/vk/core/fragments/d;->k(Landroid/os/Bundle;)V
 
     .line 145
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/im/ui/components/chat_settings/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/messenger/ui/components/chat_settings/a;
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/components/chat_settings/a;->b(Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/components/chat_settings/a;->b(Landroid/os/Bundle;)V
 
     return-void
 .end method
@@ -687,9 +687,9 @@
     invoke-super {p0, p1}, Lcom/vk/core/fragments/d;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
     .line 121
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/im/ui/components/chat_settings/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a/a;->ah:Lcom/vk/messenger/ui/components/chat_settings/a;
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/components/chat_settings/a;->a(Landroid/content/res/Configuration;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/components/chat_settings/a;->a(Landroid/content/res/Configuration;)V
 
     return-void
 .end method

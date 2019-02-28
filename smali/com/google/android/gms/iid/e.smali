@@ -13,9 +13,9 @@
     .end annotation
 .end field
 
-.field private static b:Ljava/lang/String; = null
+.field private static b:Ljava/lang/String;
 
-.field private static c:Z = false
+.field private static c:Z
 
 .field private static d:I
 

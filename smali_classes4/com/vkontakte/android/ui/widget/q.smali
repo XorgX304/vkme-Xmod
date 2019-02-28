@@ -250,12 +250,12 @@
     invoke-direct {v1, p0}, Lcom/vkontakte/android/ui/widget/q$a;-><init>(Landroid/content/Context;)V
 
     .line 153
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     const v0, 0x7f0a04b3
 
     .line 154
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->setId(I)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setId(I)V
 
     .line 155
     invoke-static {p0, p1, p2, v2, v2}, Lcom/vkontakte/android/ui/widget/q;->a(Landroid/content/Context;Landroid/widget/TableRow$LayoutParams;Ljava/lang/String;ZZ)Landroid/widget/TextView;
@@ -528,7 +528,7 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v2, Lcom/vk/messengerageloader/view/VKImageView;
 
     :goto_0
     if-eqz v0, :cond_1
@@ -666,12 +666,12 @@
 
     .line 228
     :goto_4
-    invoke-virtual {v2, p0}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v2, p0}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     if-nez p2, :cond_7
 
     .line 230
-    invoke-virtual {v2, v1}, Lcom/vk/imageloader/view/VKImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {v2, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     goto :goto_5
 
@@ -681,7 +681,7 @@
 
     move-result-object p0
 
-    invoke-virtual {v2, p0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v2, p0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :cond_8
     :goto_5

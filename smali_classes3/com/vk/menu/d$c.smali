@@ -486,11 +486,11 @@
     if-eqz p2, :cond_3
 
     .line 955
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object p2
 
-    invoke-interface {p2}, Lcom/vk/im/ui/a/b;->B()Lcom/vk/im/ui/a/f;
+    invoke-interface {p2}, Lcom/vk/messenger/ui/a/b;->B()Lcom/vk/messenger/ui/a/f;
 
     move-result-object p2
 
@@ -500,7 +500,7 @@
 
     check-cast p1, Landroid/content/Context;
 
-    invoke-interface {p2, p1}, Lcom/vk/im/ui/a/f;->a(Landroid/content/Context;)V
+    invoke-interface {p2, p1}, Lcom/vk/messenger/ui/a/f;->a(Landroid/content/Context;)V
 
     goto :goto_2
 

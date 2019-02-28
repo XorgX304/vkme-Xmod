@@ -16,7 +16,7 @@
 # instance fields
 .field private final A:Lcom/vk/fave/fragments/holders/FaveSmallSize;
 
-.field private final n:Lcom/vk/imageloader/view/VKImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final p:Landroid/widget/TextView;
 
@@ -77,9 +77,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/fave/fragments/holders/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/fave/fragments/holders/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 34
     iget-object p1, p0, Lcom/vk/fave/fragments/holders/b;->a:Landroid/view/View;
@@ -248,11 +248,11 @@
     iput-object p1, p0, Lcom/vk/fave/fragments/holders/b;->y:Landroid/view/View;
 
     .line 48
-    iget-object p1, p0, Lcom/vk/fave/fragments/holders/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/fave/fragments/holders/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p2, 0x7f080222
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     .line 49
     iget-object p1, p0, Lcom/vk/fave/fragments/holders/b;->u:Landroid/view/View;
@@ -284,9 +284,9 @@
 
     .line 61
     :pswitch_0
-    iget-object p1, p0, Lcom/vk/fave/fragments/holders/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/fave/fragments/holders/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p1
 
@@ -297,9 +297,9 @@
     iput v0, p1, Landroid/view/ViewGroup$LayoutParams;->width:I
 
     .line 62
-    iget-object p1, p0, Lcom/vk/fave/fragments/holders/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/fave/fragments/holders/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p1
 
@@ -313,9 +313,9 @@
 
     .line 57
     :pswitch_1
-    iget-object p1, p0, Lcom/vk/fave/fragments/holders/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/fave/fragments/holders/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p1
 
@@ -328,9 +328,9 @@
     iput p2, p1, Landroid/view/ViewGroup$LayoutParams;->width:I
 
     .line 58
-    iget-object p1, p0, Lcom/vk/fave/fragments/holders/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/fave/fragments/holders/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p1
 
@@ -346,9 +346,9 @@
 
     .line 53
     :pswitch_2
-    iget-object p1, p0, Lcom/vk/fave/fragments/holders/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/fave/fragments/holders/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p1
 
@@ -359,9 +359,9 @@
     iput p2, p1, Landroid/view/ViewGroup$LayoutParams;->width:I
 
     .line 54
-    iget-object p1, p0, Lcom/vk/fave/fragments/holders/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/fave/fragments/holders/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p1
 
@@ -1068,13 +1068,13 @@
 
     .line 165
     :cond_5
-    sget-object v0, Lcom/vk/im/ui/components/dialogs_list/formatters/e;->a:Lcom/vk/im/ui/components/dialogs_list/formatters/e;
+    sget-object v0, Lcom/vk/messenger/ui/components/dialogs_list/formatters/e;->a:Lcom/vk/messenger/ui/components/dialogs_list/formatters/e;
 
     iget-object p1, p1, Lcom/vk/dto/common/VideoFile;->s:Ljava/lang/String;
 
     check-cast p1, Ljava/lang/CharSequence;
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/components/dialogs_list/formatters/e;->a(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/components/dialogs_list/formatters/e;->a(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     move-result-object p1
 
@@ -1376,9 +1376,9 @@
     move-result-object v0
 
     .line 79
-    iget-object v2, p0, Lcom/vk/fave/fragments/holders/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v2, p0, Lcom/vk/fave/fragments/holders/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v2, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v2, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 80
     iget-object v2, p0, Lcom/vk/fave/fragments/holders/b;->w:Landroid/widget/ImageView;

@@ -64,34 +64,34 @@
     move-result p1
 
     .line 68
-    invoke-static {}, Lcom/vk/im/ui/fragments/ChatFragment;->as()Lcom/vk/im/ui/fragments/a;
+    invoke-static {}, Lcom/vk/messenger/ui/fragments/ChatFragment;->as()Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p3
 
     .line 69
-    invoke-virtual {p3, p2}, Lcom/vk/im/ui/fragments/a;->a(Z)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p3, p2}, Lcom/vk/messenger/ui/fragments/a;->a(Z)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p2
 
     .line 70
-    invoke-virtual {p2}, Lcom/vk/im/ui/fragments/a;->b()Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p2}, Lcom/vk/messenger/ui/fragments/a;->b()Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p2
 
     .line 71
-    invoke-virtual {p2, p1}, Lcom/vk/im/ui/fragments/a;->a(I)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p2, p1}, Lcom/vk/messenger/ui/fragments/a;->a(I)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
     iget-object p2, p0, Lcom/vkontakte/android/RepostActivity;->b:[Lcom/vk/dto/common/Attachment;
 
     .line 72
-    invoke-virtual {p1, p2}, Lcom/vk/im/ui/fragments/a;->a([Landroid/os/Parcelable;)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p1, p2}, Lcom/vk/messenger/ui/fragments/a;->a([Landroid/os/Parcelable;)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
     .line 73
-    invoke-virtual {p1, p0}, Lcom/vk/im/ui/fragments/a;->c(Landroid/content/Context;)V
+    invoke-virtual {p1, p0}, Lcom/vk/messenger/ui/fragments/a;->c(Landroid/content/Context;)V
 
     .line 75
     :cond_1

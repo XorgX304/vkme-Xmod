@@ -5178,7 +5178,7 @@
 
     invoke-direct {v1, p0}, Lcom/vk/attachpicker/f/c$16;-><init>(Lcom/vk/attachpicker/f/c;)V
 
-    invoke-virtual {p1, v1}, Lcom/vk/attachpicker/widget/LocalImageView;->setOnLoadCallback(Lcom/vk/imageloader/g;)V
+    invoke-virtual {p1, v1}, Lcom/vk/attachpicker/widget/LocalImageView;->setOnLoadCallback(Lcom/vk/messengerageloader/g;)V
 
     .line 585
     iget-object p1, p0, Lcom/vk/attachpicker/f/c;->B:Lcom/vk/attachpicker/widget/LocalImageView;

@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKCircleImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
 .field private final o:Landroid/widget/TextView;
 
@@ -61,9 +61,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/b/a;->n:Lcom/vk/imageloader/view/VKCircleImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/b/a;->n:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     .line 23
     iget-object p1, p0, Lcom/vk/newsfeed/holders/b/a;->a:Landroid/view/View;
@@ -254,7 +254,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 35
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/b/a;->n:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/b/a;->n:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/newsfeed/SubscriptionCounter;->a()Lcom/vk/dto/newsfeed/Owner;
 
@@ -270,7 +270,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     .line 36
     iget-object v0, p0, Lcom/vk/newsfeed/holders/b/a;->o:Landroid/widget/TextView;

@@ -118,7 +118,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     const v1, 0x7f0a0a8b
 
@@ -230,7 +230,7 @@
     .line 94
     invoke-static {v0, p2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v0, v4}, Lcom/vk/imageloader/view/VKCircleImageView;->setVisibility(I)V
+    invoke-virtual {v0, v4}, Lcom/vk/messengerageloader/view/VKCircleImageView;->setVisibility(I)V
 
     :cond_2
     const-string p2, "image_res_arg"
@@ -274,14 +274,14 @@
 
     .line 98
     :cond_4
-    invoke-virtual {v0, p2}, Lcom/vk/imageloader/view/VKCircleImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, p2}, Lcom/vk/messengerageloader/view/VKCircleImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     const-string v1, "photo"
 
     .line 99
     invoke-static {v0, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKCircleImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKCircleImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
@@ -316,7 +316,7 @@
 
     move-result-object p2
 
-    invoke-virtual {v0, p2}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p2}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     :cond_6
     const-string p2, "content"

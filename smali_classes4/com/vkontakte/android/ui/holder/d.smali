@@ -28,7 +28,7 @@
 
 .field private final q:Landroid/widget/TextView;
 
-.field private final r:Lcom/vk/imageloader/view/VKImageView;
+.field private final r:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final s:Landroid/widget/TextView;
 
@@ -141,9 +141,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/d;->r:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/d;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x7f0a0885
 
@@ -189,11 +189,11 @@
     invoke-virtual {p1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 63
-    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/d;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/d;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f080250
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     .line 64
     iget-object p1, p0, Lcom/vkontakte/android/ui/holder/d;->a:Landroid/view/View;
@@ -277,13 +277,13 @@
 
     .line 80
     :cond_0
-    iget-object v0, p0, Lcom/vkontakte/android/ui/holder/d;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/holder/d;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v3, p1, Lcom/vkontakte/android/api/models/a;->a:Lcom/vkontakte/android/api/models/Group;
 
     iget-object v3, v3, Lcom/vkontakte/android/api/models/Group;->c:Ljava/lang/String;
 
-    invoke-virtual {v0, v3}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v3}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 81
     iget-object v0, p0, Lcom/vkontakte/android/ui/holder/d;->o:Landroid/widget/TextView;

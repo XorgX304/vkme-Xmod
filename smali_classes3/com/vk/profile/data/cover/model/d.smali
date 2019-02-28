@@ -528,18 +528,18 @@
 
     .line 54
     :goto_1
-    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 55
-    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getForgegroundView()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getForgegroundView()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -1048,13 +1048,13 @@
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {v1}, Lcom/vk/profile/ui/cover/c;->getForgegroundView()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {v1}, Lcom/vk/profile/ui/cover/c;->getForgegroundView()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 218
     :cond_0
@@ -1072,13 +1072,13 @@
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {v1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {v1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 221
     :cond_1
@@ -1244,7 +1244,7 @@
     if-eqz v3, :cond_2
 
     .line 178
-    invoke-virtual {v3}, Lcom/vk/profile/ui/cover/c;->getForgegroundView()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {v3}, Lcom/vk/profile/ui/cover/c;->getForgegroundView()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v3
 
@@ -1264,7 +1264,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-virtual {v3, v1}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v3, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 179
     iget-boolean v1, p0, Lcom/vk/profile/data/cover/model/d;->e:Z

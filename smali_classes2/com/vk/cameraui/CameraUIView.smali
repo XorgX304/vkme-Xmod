@@ -46,7 +46,7 @@
 
 .field private F:Landroid/view/View;
 
-.field private G:Lcom/vk/imageloader/view/VKImageView;
+.field private G:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private H:Landroid/view/View;
 
@@ -2043,13 +2043,13 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 616
-    iget-object v0, p0, Lcom/vk/cameraui/CameraUIView;->G:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/cameraui/CameraUIView;->G:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_0
 
-    sget-object v1, Lcom/vk/imageloader/ImageSize;->VERY_SMALL:Lcom/vk/imageloader/ImageSize;
+    sget-object v1, Lcom/vk/messengerageloader/ImageSize;->VERY_SMALL:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v0, p1, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {v0, p1, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;)V
 
     .line 617
     :cond_0
@@ -2668,9 +2668,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v0, p0, Lcom/vk/cameraui/CameraUIView;->G:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vk/cameraui/CameraUIView;->G:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f0a07fe
 
@@ -4187,13 +4187,13 @@
     .locals 2
 
     .line 621
-    iget-object v0, p0, Lcom/vk/cameraui/CameraUIView;->G:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/cameraui/CameraUIView;->G:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_0
 
     const v1, 0x7f080378
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setImageResource(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setImageResource(I)V
 
     .line 622
     :cond_0

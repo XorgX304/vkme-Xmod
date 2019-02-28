@@ -193,7 +193,7 @@
 
     move-result p1
 
-    invoke-static {p1, v0}, Lcom/vkontakte/android/im/f;->a(ILcom/vkontakte/android/UserProfile;)Lcom/vk/im/engine/models/dialogs/DialogExt;
+    invoke-static {p1, v0}, Lcom/vkontakte/android/im/f;->a(ILcom/vkontakte/android/UserProfile;)Lcom/vk/messenger/engine/models/dialogs/DialogExt;
 
     move-result-object p1
 
@@ -202,28 +202,28 @@
 
     iget-object v0, v0, Lcom/vkontakte/android/fragments/messages/dialogs/a$b;->a:Lcom/vkontakte/android/fragments/messages/dialogs/a;
 
-    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/dialogs/a;->d(Lcom/vkontakte/android/fragments/messages/dialogs/a;)Lcom/vk/im/ui/a/b;
+    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/dialogs/a;->d(Lcom/vkontakte/android/fragments/messages/dialogs/a;)Lcom/vk/messenger/ui/a/b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/b;->r()Lcom/vk/im/ui/a/e;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/b;->r()Lcom/vk/messenger/ui/a/e;
 
     move-result-object v0
 
     .line 519
-    invoke-interface {v0}, Lcom/vk/im/ui/a/e;->a()Lcom/vk/im/ui/fragments/a;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/e;->a()Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object v0
 
     .line 520
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/fragments/a;->a(Lcom/vk/im/engine/models/dialogs/DialogExt;)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/fragments/a;->a(Lcom/vk/messenger/engine/models/dialogs/DialogExt;)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
     const-string v0, "conversation_plus_button"
 
     .line 521
-    invoke-virtual {p1, v0}, Lcom/vk/im/ui/fragments/a;->d(Ljava/lang/String;)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/ui/fragments/a;->d(Ljava/lang/String;)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
@@ -236,7 +236,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/vk/im/ui/fragments/a;->c(Landroid/content/Context;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/ui/fragments/a;->c(Landroid/content/Context;)V
 
     :goto_0
     return-void

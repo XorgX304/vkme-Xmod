@@ -10,7 +10,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/Map<",
-            "Lcom/vk/im/engine/models/Online;",
+            "Lcom/vk/messenger/engine/models/Online;",
             "Ljava/lang/Integer;",
             ">;"
         }
@@ -35,7 +35,7 @@
     new-array v1, v0, [Lkotlin/Pair;
 
     .line 8
-    sget-object v2, Lcom/vk/im/engine/models/Online;->NONE:Lcom/vk/im/engine/models/Online;
+    sget-object v2, Lcom/vk/messenger/engine/models/Online;->NONE:Lcom/vk/messenger/engine/models/Online;
 
     const/4 v3, 0x0
 
@@ -50,7 +50,7 @@
     aput-object v2, v1, v3
 
     .line 9
-    sget-object v2, Lcom/vk/im/engine/models/Online;->MOBILE:Lcom/vk/im/engine/models/Online;
+    sget-object v2, Lcom/vk/messenger/engine/models/Online;->MOBILE:Lcom/vk/messenger/engine/models/Online;
 
     const/4 v3, 0x3
 
@@ -67,7 +67,7 @@
     aput-object v2, v1, v4
 
     .line 10
-    sget-object v2, Lcom/vk/im/engine/models/Online;->VK_MOBILE:Lcom/vk/im/engine/models/Online;
+    sget-object v2, Lcom/vk/messenger/engine/models/Online;->VK_MOBILE:Lcom/vk/messenger/engine/models/Online;
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -82,7 +82,7 @@
     aput-object v0, v1, v2
 
     .line 11
-    sget-object v0, Lcom/vk/im/engine/models/Online;->WEB:Lcom/vk/im/engine/models/Online;
+    sget-object v0, Lcom/vk/messenger/engine/models/Online;->WEB:Lcom/vk/messenger/engine/models/Online;
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -113,7 +113,7 @@
     return-void
 .end method
 
-.method public static final a(Lcom/vk/im/engine/models/Online;)I
+.method public static final a(Lcom/vk/messenger/engine/models/Online;)I
     .locals 1
 
     const-string v0, "imOnline"

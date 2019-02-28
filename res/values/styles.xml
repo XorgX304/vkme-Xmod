@@ -4526,11 +4526,11 @@
         <item name="android:textColor">@color/red</item>
     </style>
     <style name="VkIm.TabLayout" parent="@style/Widget.Design.TabLayout">
-        <item name="tabBackground">?header_background</item>
+        <item name="tabBackground">?background_content</item>
         <item name="tabGravity">fill</item>
         <item name="tabIndicatorColor">?header_tab_active_indicator</item>
         <item name="tabMode">scrollable</item>
-        <item name="tabSelectedTextColor">?header_tab_active_text</item>
+        <item name="tabSelectedTextColor">?text_primary</item>
         <item name="tabTextAppearance">@style/VkIm.Toolbar.Title</item>
         <item name="tabTextColor">?header_tab_inactive_text</item>
     </style>
@@ -4835,7 +4835,7 @@
         <item name="attach_picker_tab_inactive_background">@color/gray_800</item>
         <item name="attach_picker_tab_inactive_icon">@color/gray_100</item>
         <item name="attach_picker_tab_inactive_text">@color/gray_500</item>
-        <item name="background_content">@color/gray_900</item>
+        <item name="background_content">#ff19191a</item>
         <item name="background_highlighted">@color/white_alpha12</item>
         <item name="background_keyboard">@color/gray_800</item>
         <item name="background_light">@color/gray_850</item>
@@ -4960,8 +4960,8 @@
         <item name="im_history_divider_separator">#1e000000</item>
         <item name="im_history_image_bubbleless_border">#1e000000</item>
         <item name="im_history_incoming_attachment_icon">@color/im_old_accent_muted</item>
-        <item name="im_history_incoming_background">#ffebeced</item>
-        <item name="im_history_incoming_background_selected">#ffc2c7cc</item>
+        <item name="im_history_incoming_background">#ff2c2e30</item>
+        <item name="im_history_incoming_background_selected">#ff414243</item>
         <item name="im_history_incoming_button">@color/im_old_accent</item>
         <item name="im_history_incoming_foreground">@color/black</item>
         <item name="im_history_incoming_foreground_caption">@color/im_old_gray_medium</item>
@@ -4975,8 +4975,8 @@
         <item name="im_history_info_bar_border">#26000000</item>
         <item name="im_history_live_badge_background">#ffff3347</item>
         <item name="im_history_outgoing_attachment_icon">@color/im_old_accent_muted</item>
-        <item name="im_history_outgoing_background">#ffc2ddfc</item>
-        <item name="im_history_outgoing_background_selected">#ffa3bedc</item>
+        <item name="im_history_outgoing_background">#ff343536</item>
+        <item name="im_history_outgoing_background_selected">#ff414243</item>
         <item name="im_history_outgoing_button">@color/im_old_accent_muted</item>
         <item name="im_history_outgoing_foreground">@color/black</item>
         <item name="im_history_outgoing_foreground_caption">@color/im_old_gray_medium</item>
@@ -5143,8 +5143,8 @@
         <item name="im_accent_dark">@color/im_old_accent_muted</item>
         <item name="im_alert">@color/red</item>
         <item name="im_app_background_chat">@color/messages_background_color</item>
-        <item name="im_app_background_navbar">@color/black</item>
-        <item name="im_app_background_navbar_light">false</item>
+        <item name="im_app_background_navbar">#fffafafa</item>
+        <item name="im_app_background_navbar_light">true</item>
         <item name="im_app_background_secondary">#ffebedf0</item>
         <item name="im_app_background_statusbar">@color/muted_blue</item>
         <item name="im_app_background_statusbar_light">false</item>
@@ -5307,7 +5307,7 @@
         <item name="toolbar_attach_background_to">@color/steel_gray_250</item>
     </style>
     <style name="VkIm.Theme.VkMe" parent="@style/VkIm.Theme.Base">
-        <item name="android:windowBackground">@drawable/bg_splash_screen_me</item>
+        <item name="android:windowBackground">?background_content</item>
         <item name="im_appbar_collapsing_style">@style/VkIm.Theme.Appbar</item>
         <item name="im_chat_avatar_end_color_1">#ffe6404b</item>
         <item name="im_chat_avatar_end_color_2">#fffa7f14</item>
@@ -5459,8 +5459,8 @@
         <item name="float_button_background_highlighted">@color/gray_1000</item>
         <item name="float_button_border">@color/black_alpha12</item>
         <item name="float_button_foreground">@color/gray_300</item>
-        <item name="header_alternate_background">@color/gray_800</item>
-        <item name="header_background">@color/gray_800</item>
+        <item name="header_alternate_background">#ff1b1b1c</item>
+        <item name="header_background">#ff1b1b1c</item>
         <item name="header_background_before_blur">@color/gray_950</item>
         <item name="header_background_before_blur_alternate">@color/gray_950</item>
         <item name="header_search_field_background">@color/gray_700</item>
@@ -5482,13 +5482,13 @@
         <item name="im_accent">@color/im_dark_accent</item>
         <item name="im_accent_dark">@color/im_dark_accent_muted</item>
         <item name="im_alert">#ffc03642</item>
-        <item name="im_app_background_chat">@color/black</item>
-        <item name="im_app_background_navbar">@color/black</item>
+        <item name="im_app_background_chat">#ff19191a</item>
+        <item name="im_app_background_navbar">#ff19191a</item>
         <item name="im_app_background_navbar_light">false</item>
         <item name="im_app_background_secondary">#ff232323</item>
-        <item name="im_app_background_statusbar">@color/black</item>
+        <item name="im_app_background_statusbar">#ff1b1b1c</item>
         <item name="im_app_background_statusbar_light">false</item>
-        <item name="im_app_background_tabbar">#ff0f0f0f</item>
+        <item name="im_app_background_tabbar">#ff1a1a1b</item>
         <item name="im_app_icon">@color/im_dark_accent</item>
         <item name="im_app_icon_destructive">@color/red_error</item>
         <item name="im_app_icon_inv">@color/white</item>
@@ -5533,7 +5533,7 @@
         <item name="im_conversation_unread_counter_foreground">@color/white</item>
         <item name="im_conversation_unread_counter_muted_background">#ffa9b0b8</item>
         <item name="im_conversation_verified_icon">#ff67a5eb</item>
-        <item name="im_forward_line_tint">@color/white</item>
+        <item name="im_forward_line_tint">#ff19191a</item>
         <item name="im_history_common_badge_background">#66000000</item>
         <item name="im_history_common_badge_foreground">@color/white</item>
         <item name="im_history_divider_background">@color/white</item>
@@ -5541,10 +5541,10 @@
         <item name="im_history_divider_separator">#1e000000</item>
         <item name="im_history_image_bubbleless_border">#1e000000</item>
         <item name="im_history_incoming_attachment_icon">@color/im_dark_accent_muted</item>
-        <item name="im_history_incoming_background">#ff5a5c5e</item>
+        <item name="im_history_incoming_background">#ff2c2d2e</item>
         <item name="im_history_incoming_background_gift">#ffa47c1d</item>
         <item name="im_history_incoming_background_gift_selected">#ffcaa241</item>
-        <item name="im_history_incoming_background_selected">#ffc2c7cc</item>
+        <item name="im_history_incoming_background_selected">#ff414243</item>
         <item name="im_history_incoming_button">@color/im_dark_accent</item>
         <item name="im_history_incoming_foreground">@color/black</item>
         <item name="im_history_incoming_foreground_caption">@color/im_dark_gray_medium</item>
@@ -5558,10 +5558,10 @@
         <item name="im_history_info_bar_border">#26000000</item>
         <item name="im_history_live_badge_background">#ffff3347</item>
         <item name="im_history_outgoing_attachment_icon">@color/im_dark_accent_muted</item>
-        <item name="im_history_outgoing_background">#ff5b6d83</item>
+        <item name="im_history_outgoing_background">#ff454647</item>
         <item name="im_history_outgoing_background_gift">#ffa47c1d</item>
         <item name="im_history_outgoing_background_gift_selected">#ffcaa241</item>
-        <item name="im_history_outgoing_background_selected">#ffa3bedc</item>
+        <item name="im_history_outgoing_background_selected">#ff414243</item>
         <item name="im_history_outgoing_button">@color/im_dark_accent_muted</item>
         <item name="im_history_outgoing_foreground">@color/black</item>
         <item name="im_history_outgoing_foreground_caption">@color/im_dark_gray_medium</item>
@@ -5575,11 +5575,12 @@
         <item name="im_history_sticker_badge_foreground">@color/im_dark_gray_medium</item>
         <item name="im_history_unread_icon">@color/im_dark_accent</item>
         <item name="im_is_vk_me">true</item>
-        <item name="im_item_foreground_caption">@color/im_dark_gray_medium</item>
+        <item name="im_item_foreground_caption">#ff76787a</item>
         <item name="im_item_foreground_name">@color/im_dark_accent_muted</item>
         <item name="im_item_foreground_subhead">@color/im_dark_gray_dark</item>
         <item name="im_item_foreground_tertiary">@color/im_dark_gray_light</item>
         <item name="im_menu_foreground">#eeffffff</item>
+        <item name="im_msg_part_time_sticker_bg">@color/gray_800</item>
         <item name="im_reply_sender_text">@color/white</item>
         <item name="im_reply_separator">@color/white</item>
         <item name="im_service_message_text">@color/steel_gray_400</item>
@@ -5635,7 +5636,7 @@
         <item name="stories_skeleton_loader_background">@color/gray_700</item>
         <item name="switch_ios_off_border">@color/gray_800</item>
         <item name="tabbar_active_icon">@color/white</item>
-        <item name="tabbar_background">@color/gray_800</item>
+        <item name="tabbar_background">#ff1b1b1c</item>
         <item name="tabbar_inactive_icon">@color/gray_500</item>
         <item name="text_action_counter">@color/gray_300</item>
         <item name="text_link">@color/sky_300</item>
@@ -5643,7 +5644,7 @@
         <item name="text_muted">@color/gray_200</item>
         <item name="text_name">@color/gray_100</item>
         <item name="text_placeholder">@color/gray_300</item>
-        <item name="text_primary">@color/gray_100</item>
+        <item name="text_primary">#ffe1e2e5</item>
         <item name="text_secondary">@color/gray_500</item>
         <item name="text_subhead">@color/gray_400</item>
         <item name="text_tertiary">@color/gray_600</item>
@@ -5928,7 +5929,7 @@
         <item name="elevation">0.0dip</item>
         <item name="logo">@null</item>
         <item name="navigationContentDescription">@string/vkim_accessibility_toolbar_back_exit</item>
-        <item name="navigationIcon">@drawable/vkim_ic_back_theme_tinted</item>
+        <item name="navigationIcon">@null</item>
         <item name="popupTheme">@style/VkIm.Toolbar.PopupTheme</item>
         <item name="theme">@style/VkIm.Toolbar.Theme</item>
         <item name="titleMarginStart">0.0dip</item>
@@ -5957,7 +5958,7 @@
         <item name="contentInsetStart">0.0dip</item>
         <item name="contentInsetStartWithNavigation">0.0dip</item>
         <item name="navigationContentDescription">@string/vkim_accessibility_toolbar_back_exit</item>
-        <item name="navigationIcon">@drawable/vkim_ic_back_theme_tinted</item>
+        <item name="navigationIcon">@null</item>
         <item name="titleTextAppearance">@style/VkIm.Toolbar.Title.Large</item>
     </style>
     <style name="VkIm.Toolbar.Subtitle" parent="@style/VkIm.Toolbar">

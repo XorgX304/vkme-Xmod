@@ -3,7 +3,7 @@
 .source "ChatAttachmentHistoryFragment.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/components/e;
+.implements Lcom/vk/messenger/ui/components/e;
 
 
 # annotations
@@ -16,7 +16,7 @@
 
 
 # instance fields
-.field private ae:Lcom/vk/im/ui/components/attaches_history/tabs/a;
+.field private ae:Lcom/vk/messenger/ui/components/attaches_history/tabs/a;
 
 
 # direct methods
@@ -38,7 +38,7 @@
     invoke-super {p0}, Lcom/vk/core/fragments/d;->B_()V
 
     .line 58
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a;->ae:Lcom/vk/im/ui/components/attaches_history/tabs/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a;->ae:Lcom/vk/messenger/ui/components/attaches_history/tabs/a;
 
     if-nez v0, :cond_0
 
@@ -47,7 +47,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_0
-    invoke-virtual {v0}, Lcom/vk/im/ui/components/attaches_history/tabs/a;->d()V
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/components/attaches_history/tabs/a;->d()V
 
     return-void
 .end method
@@ -59,7 +59,7 @@
     invoke-super {p0}, Lcom/vk/core/fragments/d;->D_()V
 
     .line 48
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a;->ae:Lcom/vk/im/ui/components/attaches_history/tabs/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a;->ae:Lcom/vk/messenger/ui/components/attaches_history/tabs/a;
 
     if-nez v0, :cond_0
 
@@ -68,7 +68,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_0
-    invoke-virtual {v0}, Lcom/vk/im/ui/components/attaches_history/tabs/a;->b()V
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/components/attaches_history/tabs/a;->b()V
 
     return-void
 .end method
@@ -80,7 +80,7 @@
     invoke-super {p0}, Lcom/vk/core/fragments/d;->E_()V
 
     .line 53
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a;->ae:Lcom/vk/im/ui/components/attaches_history/tabs/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a;->ae:Lcom/vk/messenger/ui/components/attaches_history/tabs/a;
 
     if-nez v0, :cond_0
 
@@ -89,7 +89,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_0
-    invoke-virtual {v0}, Lcom/vk/im/ui/components/attaches_history/tabs/a;->c()V
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/components/attaches_history/tabs/a;->c()V
 
     return-void
 .end method
@@ -101,7 +101,7 @@
     invoke-super {p0}, Lcom/vk/core/fragments/d;->J()V
 
     .line 63
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a;->ae:Lcom/vk/im/ui/components/attaches_history/tabs/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a;->ae:Lcom/vk/messenger/ui/components/attaches_history/tabs/a;
 
     if-nez v0, :cond_0
 
@@ -110,7 +110,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_0
-    invoke-virtual {v0}, Lcom/vk/im/ui/components/attaches_history/tabs/a;->e()V
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/components/attaches_history/tabs/a;->e()V
 
     return-void
 .end method
@@ -123,7 +123,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 44
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a;->ae:Lcom/vk/im/ui/components/attaches_history/tabs/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a;->ae:Lcom/vk/messenger/ui/components/attaches_history/tabs/a;
 
     if-nez v0, :cond_0
 
@@ -139,7 +139,7 @@
     :cond_1
     const/4 v1, 0x0
 
-    invoke-virtual {v0, p1, p2, v1, p3}, Lcom/vk/im/ui/components/attaches_history/tabs/a;->a(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/view/ViewStub;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-virtual {v0, p1, p2, v1, p3}, Lcom/vk/messenger/ui/components/attaches_history/tabs/a;->a(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/view/ViewStub;Landroid/os/Bundle;)Landroid/view/View;
 
     move-result-object p1
 
@@ -197,16 +197,16 @@
 
     check-cast v0, Landroid/content/Context;
 
-    sget-object v1, Lcom/vk/im/ui/themes/a;->b:Lcom/vk/im/ui/themes/a;
+    sget-object v1, Lcom/vk/messenger/ui/themes/a;->b:Lcom/vk/messenger/ui/themes/a;
 
-    invoke-virtual {v1}, Lcom/vk/im/ui/themes/a;->c()I
+    invoke-virtual {v1}, Lcom/vk/messenger/ui/themes/a;->c()I
 
     move-result v1
 
     invoke-direct {p1, v0, v1}, Landroid/view/ContextThemeWrapper;-><init>(Landroid/content/Context;I)V
 
     .line 36
-    new-instance v7, Lcom/vk/im/ui/components/attaches_history/tabs/a;
+    new-instance v7, Lcom/vk/messenger/ui/components/attaches_history/tabs/a;
 
     .line 37
     move-object v1, p1
@@ -219,14 +219,14 @@
 
     move-object v2, p1
 
-    check-cast v2, Lcom/vk/im/ui/components/attaches_history/tabs/c;
+    check-cast v2, Lcom/vk/messenger/ui/components/attaches_history/tabs/c;
 
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object v3
 
     .line 38
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v4
 
@@ -241,9 +241,9 @@
     move-object v0, v7
 
     .line 36
-    invoke-direct/range {v0 .. v6}, Lcom/vk/im/ui/components/attaches_history/tabs/a;-><init>(Landroid/content/Context;Lcom/vk/im/ui/components/attaches_history/tabs/c;Lcom/vk/im/ui/a/b;Lcom/vk/im/engine/d;Lcom/vk/e/k;I)V
+    invoke-direct/range {v0 .. v6}, Lcom/vk/messenger/ui/components/attaches_history/tabs/a;-><init>(Landroid/content/Context;Lcom/vk/messenger/ui/components/attaches_history/tabs/c;Lcom/vk/messenger/ui/a/b;Lcom/vk/messenger/engine/d;Lcom/vk/e/k;I)V
 
-    iput-object v7, p0, Lcom/vkontakte/android/fragments/messages/a;->ae:Lcom/vk/im/ui/components/attaches_history/tabs/a;
+    iput-object v7, p0, Lcom/vkontakte/android/fragments/messages/a;->ae:Lcom/vk/messenger/ui/components/attaches_history/tabs/a;
 
     return-void
 .end method
@@ -255,7 +255,7 @@
     invoke-super {p0, p1}, Lcom/vk/core/fragments/d;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
     .line 68
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a;->ae:Lcom/vk/im/ui/components/attaches_history/tabs/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/a;->ae:Lcom/vk/messenger/ui/components/attaches_history/tabs/a;
 
     if-nez v0, :cond_0
 
@@ -264,7 +264,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_0
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/components/attaches_history/tabs/a;->a(Landroid/content/res/Configuration;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/components/attaches_history/tabs/a;->a(Landroid/content/res/Configuration;)V
 
     return-void
 .end method

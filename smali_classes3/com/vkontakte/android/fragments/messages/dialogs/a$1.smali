@@ -41,9 +41,9 @@
     .line 220
     iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/dialogs/a$1;->a:Lcom/vkontakte/android/fragments/messages/dialogs/a;
 
-    sget-object v1, Lcom/vk/im/ui/components/msg_search/vc/HideReason;->FRAGMENT_SWITCHED:Lcom/vk/im/ui/components/msg_search/vc/HideReason;
+    sget-object v1, Lcom/vk/messenger/ui/components/msg_search/vc/HideReason;->FRAGMENT_SWITCHED:Lcom/vk/messenger/ui/components/msg_search/vc/HideReason;
 
-    invoke-static {v0, v1}, Lcom/vkontakte/android/fragments/messages/dialogs/a;->a(Lcom/vkontakte/android/fragments/messages/dialogs/a;Lcom/vk/im/ui/components/msg_search/vc/HideReason;)V
+    invoke-static {v0, v1}, Lcom/vkontakte/android/fragments/messages/dialogs/a;->a(Lcom/vkontakte/android/fragments/messages/dialogs/a;Lcom/vk/messenger/ui/components/msg_search/vc/HideReason;)V
 
     return-void
 .end method

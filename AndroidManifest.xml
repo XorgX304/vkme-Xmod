@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.vk.im">
-    <uses-permission android:name="com.android.vending.BILLING"/>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="23" android:compileSdkVersionCodename="6.0-2438415" package="com.vk.messenger" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
     <uses-permission android:name="android.permission.CAMERA"/>
@@ -13,9 +12,9 @@
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
     <uses-permission android:name="com.vk.usersstore.permission.SAVE"/>
     <uses-permission android:name="com.vk.usersstore.permission.LOAD"/>
-    <permission android:name="com.vkontakte.android.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
-    <permission android:name="com.vkontakte.android.permission.ACCESS_DATA" android:protectionLevel="signature"/>
-    <uses-permission android:name="com.vkontakte.android.permission.ACCESS_DATA"/>
+    <permission android:name="com.vkontakte.androidd.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
+    <permission android:name="com.vkontakte.androidd.permission.ACCESS_DATA" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.vkontakte.androidd.permission.ACCESS_DATA"/>
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
     <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
@@ -46,13 +45,11 @@
     <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE"/>
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.QUICKBOOT_POWERON"/>
-    <permission android:name="com.vk.usersstore.permission.SAVE" android:protectionLevel="signature"/>
-    <permission android:name="com.vk.usersstore.permission.LOAD" android:protectionLevel="signature"/>
-    <application android:allowBackup="false" android:hardwareAccelerated="true" android:icon="@drawable/ic_launcher_me" android:label="@string/im_app_name" android:largeHeap="true" android:name="com.vk.im.ImApplication" android:networkSecurityConfig="@xml/network_security_config" android:resizeableActivity="true" android:roundIcon="@drawable/ic_launcher_me_round" android:supportsRtl="true" android:theme="@style/VkIm.Theme.VkMe.Light">
+    <application android:allowBackup="false" android:hardwareAccelerated="true" android:icon="@drawable/ic_launcher_me" android:label="@string/im_app_name" android:largeHeap="true" android:name="com.vk.messenger.ImApplication" android:networkSecurityConfig="@xml/network_security_config" android:resizeableActivity="true" android:roundIcon="@drawable/ic_launcher_me_round" android:supportsRtl="true" android:theme="@style/VkIm.Theme.VkMe.Dark">
         <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyAvrvAACdzmgDYFM9hvJS88KdSlQsafID0"/>
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
         <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/cornflower_blue"/>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/im_app_name" android:launchMode="singleTask" android:name="com.vk.im.ui.MainActivity" android:windowSoftInputMode="adjustResize">
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/im_app_name" android:launchMode="singleTask" android:name="com.vk.messenger.ui.MainActivity" android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <action android:name="android.intent.action.VIEW"/>
@@ -60,21 +57,20 @@
                 <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="com.vk.im.ACTION_DIALOGS"/>
-                <action android:name="com.vk.im.ACTION_CHAT"/>
+                <action android:name="com.vk.messenger.ACTION_DIALOGS"/>
+                <action android:name="com.vk.messenger.ACTION_CHAT"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.vk.im.ui.ImActivity" android:windowSoftInputMode="adjustResize"/>
-        <activity android:configChanges="orientation" android:excludeFromRecents="true" android:label="" android:name="com.vk.im.ui.ImChatInviteActivity" android:theme="@style/VkIm.Theme.ImChatInvite" android:windowSoftInputMode="adjustResize|stateHidden"/>
-        <activity android:allowTaskReparenting="false" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:finishOnTaskLaunch="true" android:name="com.vk.im.ui.share.ImShareActivity" android:windowSoftInputMode="adjustResize">
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.vk.messenger.ui.ImActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="orientation" android:excludeFromRecents="true" android:label="" android:name="com.vk.messenger.ui.ImChatInviteActivity" android:theme="@style/VkIm.Theme.ImChatInvite" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:allowTaskReparenting="false" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:finishOnTaskLaunch="true" android:name="com.vk.messenger.ui.share.ImShareActivity" android:windowSoftInputMode="adjustResize">
             <intent-filter android:label="@string/im_app_name">
                 <action android:name="android.intent.action.SEND"/>
                 <action android:name="android.intent.action.SEND_MULTIPLE"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="*/*"/>
             </intent-filter>
-            <meta-data android:name="android.service.chooser.chooser_target_service" android:value="com.vkontakte.android.directshare.ImDirectShareService"/>
         </activity>
         <activity android:launchMode="singleInstance" android:name="com.vk.pushes.PushOpenActivity" android:theme="@style/PushOpenTheme"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/video" android:name="com.vk.video.VideoActivity" android:theme="@style/VideoPlayerTranslucentStyle"/>
@@ -187,8 +183,8 @@
                 <category android:name="android.intent.category.NOTIFICATION_PREFERENCES"/>
             </intent-filter>
         </activity>
-        <provider android:authorities="com.vk.im.providers.im" android:exported="true" android:name="com.vkontakte.android.im.bridge.contentprovider.ImContentProvider" android:permission="com.vkontakte.android.permission.ACCESS_DATA"/>
-        <provider android:authorities="@string/vkim_file_provider_authority" android:exported="false" android:grantUriPermissions="true" android:name="com.vk.im.files.VkImFileProvider">
+        <provider android:authorities="com.vk.messenger.providers.im" android:exported="true" android:name="com.vkontakte.android.im.bridge.contentprovider.ImContentProvider" android:permission="com.vkontakte.android.permission.ACCESS_DATA"/>
+        <provider android:authorities="com.vkim.common.VKFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.vk.messenger.files.VkImFileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
         </provider>
         <service android:enabled="true" android:exported="true" android:name="com.vk.pushes.FirebasePushService" android:stopWithTask="false">
@@ -199,11 +195,6 @@
         <service android:name="com.vk.pushes.VkFirebaseInstanceIdService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
-            </intent-filter>
-        </service>
-        <service android:exported="true" android:name="com.vkontakte.android.directshare.ImDirectShareService" android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE">
-            <intent-filter>
-                <action android:name="android.service.chooser.ChooserTargetService"/>
             </intent-filter>
         </service>
         <service android:exported="true" android:name="com.vk.contacts.ImContactsSyncService">
@@ -227,49 +218,31 @@
         <activity android:name="com.vk.api.sdk.ui.VKWebViewAuthActivity" android:theme="@style/VK.Transparent"/>
         <activity android:name="com.vk.api.sdk.ui.VKCaptchaActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <activity android:name="com.vk.api.sdk.ui.VKConfirmationActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
-        <provider android:authorities="com.vk.im.VKInitProvider" android:exported="false" android:name="com.vk.api.sdk.internal.VKInitProvider"/>
+        <provider android:authorities="com.vk.messenger.VKInitProvider" android:exported="false" android:name="com.vk.api.sdk.internal.VKInitProvider"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.my.target.common.MyTargetActivity"/>
         <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"/>
-        <provider android:authorities="com.vk.im.firebaseperfprovider" android:exported="false" android:initOrder="101" android:name="com.google.firebase.perf.provider.FirebasePerfProvider"/>
+        <provider android:authorities="com.vk.messenger.firebaseperfprovider" android:exported="false" android:initOrder="101" android:name="com.google.firebase.perf.provider.FirebasePerfProvider"/>
         <service android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
             <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.component.FirebasePerfRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
             <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
             <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
         </service>
-        <service android:exported="true" android:name="com.google.firebase.messaging.FirebaseMessagingService">
-            <intent-filter android:priority="-500">
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
-            </intent-filter>
-        </service>
-        <meta-data android:name="io.fabric.ApiKey" android:value="fa4544c0ae024bad990428ea1b7c5c8451ee792a"/>
-        <meta-data android:name="net.hockeyapp.android.appIdentifier" android:value="74ebab9a054240ba88d509791b4f764f"/>
-        <meta-data android:name="net.hockeyapp.android.appSecret" android:value="4c4c9924b667d3878aad7ab2c1764333"/>
+        <meta-data android:name="io.fabric.ApiKey" android:value=""/>
+        <meta-data android:name="net.hockeyapp.android.appIdentifier" android:value=""/>
+        <meta-data android:name="net.hockeyapp.android.appSecret" android:value=""/>
         <receiver android:exported="true" android:name="ly.count.android.sdk.ReferrerReceiver">
             <intent-filter>
                 <action android:name="com.android.vending.INSTALL_REFERRER"/>
             </intent-filter>
         </receiver>
-        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
-        <receiver android:enabled="true" android:exported="true" android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES">
-            <intent-filter>
-                <action android:name="com.android.vending.INSTALL_REFERRER"/>
-            </intent-filter>
-        </receiver>
-        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
-        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
         <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
             </intent-filter>
         </receiver>
-        <service android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdService">
-            <intent-filter android:priority="-500">
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
-            </intent-filter>
-        </service>
-        <provider android:authorities="com.vk.im.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <provider android:authorities="com.vk.messenger.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
         <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <activity android:name="net.hockeyapp.android.UpdateActivity"/>
         <activity android:name="net.hockeyapp.android.FeedbackActivity"/>
@@ -337,14 +310,7 @@
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
             </intent-filter>
         </receiver>
-        <receiver android:name="ru.mail.libverify.utils.ScreenStateReceiver">
-            <intent-filter>
-                <action android:name="android.intent.action.SCREEN_OFF"/>
-                <action android:name="android.intent.action.SCREEN_ON"/>
-            </intent-filter>
-        </receiver>
         <service android:enabled="true" android:exported="false" android:name="ru.mail.libverify.utils.VerificationService"/>
-        <service android:enabled="true" android:exported="false" android:name="ru.mail.libverify.utils.VerificationJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
         <service android:enabled="true" android:exported="false" android:name="ru.mail.libverify.utils.network.NetworkCheckService" android:permission="android.permission.BIND_JOB_SERVICE"/>
         <receiver android:label="PackageStateReceiver:184" android:name="ru.mail.libverify.utils.PackageStateReceiver">
             <intent-filter>
@@ -373,14 +339,6 @@
             </intent-filter>
         </receiver>
         <receiver android:name="ru.mail.libverify.utils.AlarmReceiver"/>
-        <receiver android:enabled="false" android:name="ru.mail.libverify.utils.BatteryLevelReceiver">
-            <intent-filter>
-                <action android:name="android.intent.action.BATTERY_LOW"/>
-                <action android:name="android.intent.action.BATTERY_OKAY"/>
-                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
-                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
-            </intent-filter>
-        </receiver>
         <activity android:name="ru.mail.libverify.utils.permissions.ShadowActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <receiver android:name="receivers.TimeSyncRequestedReceiver"/>
         <service android:enabled="true" android:exported="false" android:name="com.vk.instantjobs.services.JobsBackgroundService" android:stopWithTask="false"/>
@@ -393,10 +351,9 @@
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
             </intent-filter>
         </receiver>
-        <provider android:authorities="com.vk.im.UsersContentProvider" android:exported="true" android:name="com.vk.usersstore.UsersContentProvider" android:readPermission="com.vk.usersstore.permission.LOAD" android:writePermission="com.vk.usersstore.permission.SAVE"/>
-        <provider android:authorities="com.vk.im.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <provider android:authorities="com.vk.messenger.UsersContentProvider" android:exported="true" android:name="com.vk.usersstore.UsersContentProvider" android:readPermission="com.vk.usersstore.permission.LOAD" android:writePermission="com.vk.usersstore.permission.SAVE"/>
+        <provider android:authorities="com.vk.messenger.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
         <meta-data android:name="android.support.VERSION" android:value="26.1.0"/>
-        <provider android:authorities="com.vk.im.crashlyticsinitprovider" android:exported="false" android:initOrder="100" android:name="com.crashlytics.android.CrashlyticsInitProvider"/>
         <uses-library android:name="android.test.runner"/>
     </application>
 </manifest>

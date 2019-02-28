@@ -27,13 +27,13 @@
     .end annotation
 .end field
 
-.field private final c:Lcom/vk/im/engine/models/messages/MsgFromUser;
+.field private final c:Lcom/vk/messenger/engine/models/messages/MsgFromUser;
 
-.field private final d:Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+.field private final d:Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Ljava/util/List;Lcom/vk/im/engine/models/messages/MsgFromUser;Lcom/vk/im/engine/models/ProfilesSimpleInfo;)V
+.method public constructor <init>(Ljava/lang/String;Ljava/util/List;Lcom/vk/messenger/engine/models/messages/MsgFromUser;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -43,8 +43,8 @@
             "+",
             "Lcom/vk/dto/common/Attachment;",
             ">;",
-            "Lcom/vk/im/engine/models/messages/MsgFromUser;",
-            "Lcom/vk/im/engine/models/ProfilesSimpleInfo;",
+            "Lcom/vk/messenger/engine/models/messages/MsgFromUser;",
+            "Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;",
             ")V"
         }
     .end annotation
@@ -64,9 +64,9 @@
 
     iput-object p2, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->b:Ljava/util/List;
 
-    iput-object p3, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->c:Lcom/vk/im/engine/models/messages/MsgFromUser;
+    iput-object p3, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->c:Lcom/vk/messenger/engine/models/messages/MsgFromUser;
 
-    iput-object p4, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->d:Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    iput-object p4, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->d:Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     return-void
 .end method
@@ -141,20 +141,20 @@
     return-object v0
 .end method
 
-.method public final d()Lcom/vk/im/engine/models/messages/MsgFromUser;
+.method public final d()Lcom/vk/messenger/engine/models/messages/MsgFromUser;
     .locals 1
 
     .line 22
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->c:Lcom/vk/im/engine/models/messages/MsgFromUser;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->c:Lcom/vk/messenger/engine/models/messages/MsgFromUser;
 
     return-object v0
 .end method
 
-.method public final e()Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+.method public final e()Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
     .locals 1
 
     .line 23
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->d:Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->d:Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     return-object v0
 .end method
@@ -190,9 +190,9 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->c:Lcom/vk/im/engine/models/messages/MsgFromUser;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->c:Lcom/vk/messenger/engine/models/messages/MsgFromUser;
 
-    iget-object v1, p1, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->c:Lcom/vk/im/engine/models/messages/MsgFromUser;
+    iget-object v1, p1, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->c:Lcom/vk/messenger/engine/models/messages/MsgFromUser;
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -200,9 +200,9 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->d:Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->d:Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
-    iget-object p1, p1, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->d:Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    iget-object p1, p1, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->d:Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     invoke-static {v0, p1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -263,7 +263,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v2, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->c:Lcom/vk/im/engine/models/messages/MsgFromUser;
+    iget-object v2, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->c:Lcom/vk/messenger/engine/models/messages/MsgFromUser;
 
     if-eqz v2, :cond_2
 
@@ -281,7 +281,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v2, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->d:Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    iget-object v2, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->d:Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     if-eqz v2, :cond_3
 
@@ -322,7 +322,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->c:Lcom/vk/im/engine/models/messages/MsgFromUser;
+    iget-object v1, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->c:Lcom/vk/messenger/engine/models/messages/MsgFromUser;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -330,7 +330,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->d:Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    iget-object v1, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/a$b;->d:Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 

@@ -132,7 +132,7 @@
     if-eqz v0, :cond_4
 
     .line 181
-    const-class v1, Lcom/vk/im/ui/dialogs_list/a;
+    const-class v1, Lcom/vk/messenger/ui/dialogs_list/a;
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -161,7 +161,7 @@
 
     .line 184
     :cond_3
-    const-class v1, Lcom/vk/im/ui/fragments/ChatFragment;
+    const-class v1, Lcom/vk/messenger/ui/fragments/ChatFragment;
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 

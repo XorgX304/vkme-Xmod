@@ -2,5 +2,5 @@
 <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <com.vk.video.SimpleVideoView android:id="@id/im_video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <com.vk.im.ui.views.msg.upload.UploadProgressView android:layout_gravity="center" android:id="@id/im_progress" android:visibility="invisible" android:layout_width="40.0dip" android:layout_height="40.0dip" app:vkim_cancelIconVisible="false" style="@style/VkIm.MsgPart.UploadIndicator.Default" />
+    <com.vk.messenger.ui.views.msg.upload.UploadProgressView android:layout_gravity="center" android:id="@id/im_progress" android:visibility="invisible" android:layout_width="40.0dip" android:layout_height="40.0dip" app:vkim_cancelIconVisible="false" style="@style/VkIm.MsgPart.UploadIndicator.Default" />
 </FrameLayout>

@@ -44,11 +44,11 @@
     .locals 1
 
     .line 606
-    sget-object p1, Lcom/vk/im/ui/b;->b:Lcom/vk/im/ui/b;
+    sget-object p1, Lcom/vk/messenger/ui/b;->b:Lcom/vk/messenger/ui/b;
 
     const/4 v0, 0x1
 
-    invoke-virtual {p1, v0}, Lcom/vk/im/ui/b;->a(Z)V
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/ui/b;->a(Z)V
 
     .line 607
     iget-object p1, p0, Lcom/vk/navigation/h$a$a;->a:Lcom/vk/navigation/h$a;

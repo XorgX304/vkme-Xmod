@@ -73,11 +73,11 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/profile/ui/b/c;->getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {v0}, Lcom/vk/profile/ui/b/c;->getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
-    new-instance v1, Lcom/vk/imageloader/a/d;
+    new-instance v1, Lcom/vk/messengerageloader/a/d;
 
     iget-object v2, p0, Lcom/vk/profile/adapter/items/n$b$c;->a:Lcom/vk/profile/adapter/items/n$b;
 
@@ -99,11 +99,11 @@
 
     iget-object v3, v3, Lcom/vkontakte/android/api/ExtendedUserProfile;->l:Landroid/graphics/RectF;
 
-    invoke-direct {v1, v2, v3}, Lcom/vk/imageloader/a/d;-><init>(FLandroid/graphics/RectF;)V
+    invoke-direct {v1, v2, v3}, Lcom/vk/messengerageloader/a/d;-><init>(FLandroid/graphics/RectF;)V
 
     check-cast v1, Lcom/facebook/imagepipeline/request/a;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
 
     .line 89
     iget-object v0, p0, Lcom/vk/profile/adapter/items/n$b$c;->a:Lcom/vk/profile/adapter/items/n$b;
@@ -112,7 +112,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/profile/ui/b/c;->getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {v0}, Lcom/vk/profile/ui/b/c;->getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
@@ -122,7 +122,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     const/4 v0, 0x1
 

@@ -254,7 +254,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_2
 
@@ -266,7 +266,7 @@
     .line 31
     iget v1, p0, Lcom/vk/music/notifications/restriction/popup/b;->d:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(I)V
 
     goto :goto_1
 
@@ -301,7 +301,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :cond_2
     :goto_1

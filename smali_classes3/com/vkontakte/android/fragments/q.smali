@@ -6,13 +6,13 @@
 # instance fields
 .field private ae:Lcom/vkontakte/android/ui/BadooTextView;
 
-.field private af:Lcom/vk/imageloader/view/VKImageView;
+.field private af:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private ag:Lcom/vkontakte/android/ui/BadooTextView;
 
 .field private ah:Lcom/vkontakte/android/ui/BadooTextView;
 
-.field private ai:Lcom/vk/imageloader/view/VKImageView;
+.field private ai:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private al:Lcom/vkontakte/android/ui/BadooTextView;
 
@@ -254,7 +254,7 @@
     invoke-virtual {v0, v2}, Lcom/vkontakte/android/ui/BadooTextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 172
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/q;->af:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/q;->af:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {}, Lcom/vkontakte/android/auth/a;->b()Lcom/vk/c/a;
 
@@ -264,7 +264,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 173
     iget-object v0, p0, Lcom/vkontakte/android/fragments/q;->ag:Lcom/vkontakte/android/ui/BadooTextView;
@@ -320,13 +320,13 @@
     if-nez v1, :cond_0
 
     .line 178
-    iget-object v1, p0, Lcom/vkontakte/android/fragments/q;->ai:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vkontakte/android/fragments/q;->ai:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {v0}, Lcom/vk/dto/common/ImageSize;->a()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :cond_0
     return-void
@@ -420,7 +420,7 @@
     iput-object v0, p0, Lcom/vkontakte/android/fragments/q;->ae:Lcom/vkontakte/android/ui/BadooTextView;
 
     .line 156
-    iput-object v0, p0, Lcom/vkontakte/android/fragments/q;->af:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vkontakte/android/fragments/q;->af:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 157
     iput-object v0, p0, Lcom/vkontakte/android/fragments/q;->ag:Lcom/vkontakte/android/ui/BadooTextView;
@@ -429,7 +429,7 @@
     iput-object v0, p0, Lcom/vkontakte/android/fragments/q;->ah:Lcom/vkontakte/android/ui/BadooTextView;
 
     .line 159
-    iput-object v0, p0, Lcom/vkontakte/android/fragments/q;->ai:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vkontakte/android/fragments/q;->ai:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 160
     iput-object v0, p0, Lcom/vkontakte/android/fragments/q;->al:Lcom/vkontakte/android/ui/BadooTextView;
@@ -479,9 +479,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p2, p0, Lcom/vkontakte/android/fragments/q;->af:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vkontakte/android/fragments/q;->af:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p2, 0x7f0a0b51
 
@@ -512,9 +512,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p2, p0, Lcom/vkontakte/android/fragments/q;->ai:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vkontakte/android/fragments/q;->ai:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p2, 0x7f0a0885
 

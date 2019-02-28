@@ -18,7 +18,7 @@
         value = {
             "(I",
             "Ljava/util/List<",
-            "Lcom/vk/im/engine/models/attaches/AttachImage;",
+            "Lcom/vk/messenger/engine/models/attaches/AttachImage;",
             ">;",
             "Landroid/app/Activity;",
             "Lcom/vk/e/k$a;",
@@ -27,7 +27,7 @@
     .end annotation
 .end method
 
-.method public abstract a(Lcom/vk/im/engine/models/attaches/AttachDoc;Landroid/app/Activity;Lcom/vk/e/k$a;)V
+.method public abstract a(Lcom/vk/messenger/engine/models/attaches/AttachDoc;Landroid/app/Activity;Lcom/vk/e/k$a;)V
 .end method
 
 .method public abstract a(Ljava/util/List;Landroid/content/Context;Lcom/vk/e/k$a;)V
@@ -50,7 +50,7 @@
         value = {
             "(I",
             "Ljava/util/List<",
-            "Lcom/vk/im/engine/models/attaches/AttachDoc;",
+            "Lcom/vk/messenger/engine/models/attaches/AttachDoc;",
             ">;",
             "Landroid/app/Activity;",
             "Lcom/vk/e/k$a;",

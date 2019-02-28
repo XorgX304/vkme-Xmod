@@ -20,7 +20,7 @@
     value = {
         "Ljava/lang/Object;",
         "Lio/reactivex/b/h<",
-        "Lcom/vk/im/engine/commands/messages/v$a;",
+        "Lcom/vk/messenger/engine/commands/messages/v$a;",
         "Ljava/util/List<",
         "Lcom/vk/stories/c/b;",
         ">;>;"
@@ -55,21 +55,21 @@
     .end annotation
 
     .line 387
-    check-cast p1, Lcom/vk/im/engine/commands/messages/v$a;
+    check-cast p1, Lcom/vk/messenger/engine/commands/messages/v$a;
 
-    invoke-virtual {p0, p1}, Lcom/vk/stories/ShareStoryActivity$3;->a(Lcom/vk/im/engine/commands/messages/v$a;)Ljava/util/List;
+    invoke-virtual {p0, p1}, Lcom/vk/stories/ShareStoryActivity$3;->a(Lcom/vk/messenger/engine/commands/messages/v$a;)Ljava/util/List;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public a(Lcom/vk/im/engine/commands/messages/v$a;)Ljava/util/List;
+.method public a(Lcom/vk/messenger/engine/commands/messages/v$a;)Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/vk/im/engine/commands/messages/v$a;",
+            "Lcom/vk/messenger/engine/commands/messages/v$a;",
             ")",
             "Ljava/util/List<",
             "Lcom/vk/stories/c/b;",
@@ -80,7 +80,7 @@
     .line 390
     iget-object v0, p0, Lcom/vk/stories/ShareStoryActivity$3;->a:Lcom/vk/stories/ShareStoryActivity;
 
-    invoke-static {v0, p1}, Lcom/vk/stories/ShareStoryActivity;->a(Lcom/vk/stories/ShareStoryActivity;Lcom/vk/im/engine/commands/messages/v$a;)Ljava/util/List;
+    invoke-static {v0, p1}, Lcom/vk/stories/ShareStoryActivity;->a(Lcom/vk/stories/ShareStoryActivity;Lcom/vk/messenger/engine/commands/messages/v$a;)Ljava/util/List;
 
     move-result-object p1
 

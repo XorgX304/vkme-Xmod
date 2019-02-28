@@ -3,7 +3,7 @@
 .source "VkImPodcastsBridge.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/a/j;
+.implements Lcom/vk/messenger/ui/a/j;
 
 
 # static fields
@@ -35,7 +35,7 @@
 
 
 # virtual methods
-.method public a(Landroid/content/Context;Lcom/vk/im/engine/models/content/PodcastEpisode;)V
+.method public a(Landroid/content/Context;Lcom/vk/messenger/engine/models/content/PodcastEpisode;)V
     .locals 2
 
     const-string v0, "context"
@@ -49,11 +49,11 @@
     .line 10
     new-instance v0, Lcom/vk/music/podcasts/single/a$a;
 
-    invoke-virtual {p2}, Lcom/vk/im/engine/models/content/PodcastEpisode;->b()I
+    invoke-virtual {p2}, Lcom/vk/messenger/engine/models/content/PodcastEpisode;->b()I
 
     move-result v1
 
-    invoke-virtual {p2}, Lcom/vk/im/engine/models/content/PodcastEpisode;->a()I
+    invoke-virtual {p2}, Lcom/vk/messenger/engine/models/content/PodcastEpisode;->a()I
 
     move-result p2
 

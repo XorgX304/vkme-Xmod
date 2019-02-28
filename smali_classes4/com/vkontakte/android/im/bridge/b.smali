@@ -12,9 +12,9 @@
 
 .field private c:Landroid/content/Context;
 
-.field private d:Lcom/vk/im/ui/a/b;
+.field private d:Lcom/vk/messenger/ui/a/b;
 
-.field private e:Lcom/vk/im/engine/d;
+.field private e:Lcom/vk/messenger/engine/d;
 
 .field private f:Lio/reactivex/disposables/a;
 
@@ -56,14 +56,14 @@
     const/4 p1, 0x0
 
     .line 68
-    iput-object p1, p0, Lcom/vkontakte/android/im/bridge/b;->e:Lcom/vk/im/engine/d;
+    iput-object p1, p0, Lcom/vkontakte/android/im/bridge/b;->e:Lcom/vk/messenger/engine/d;
 
     .line 69
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/vkontakte/android/im/bridge/b;->d:Lcom/vk/im/ui/a/b;
+    iput-object v0, p0, Lcom/vkontakte/android/im/bridge/b;->d:Lcom/vk/messenger/ui/a/b;
 
     .line 70
     iput-object p1, p0, Lcom/vkontakte/android/im/bridge/b;->f:Lio/reactivex/disposables/a;
@@ -86,11 +86,11 @@
     return p0
 .end method
 
-.method static synthetic b(Lcom/vkontakte/android/im/bridge/b;)Lcom/vk/im/engine/d;
+.method static synthetic b(Lcom/vkontakte/android/im/bridge/b;)Lcom/vk/messenger/engine/d;
     .locals 0
 
     .line 42
-    iget-object p0, p0, Lcom/vkontakte/android/im/bridge/b;->e:Lcom/vk/im/engine/d;
+    iget-object p0, p0, Lcom/vkontakte/android/im/bridge/b;->e:Lcom/vk/messenger/engine/d;
 
     return-object p0
 .end method
@@ -126,13 +126,13 @@
     return-void
 .end method
 
-.method a(ILcom/vk/im/engine/utils/collection/d;Lcom/vk/im/engine/utils/collection/d;)V
+.method a(ILcom/vk/messenger/engine/utils/collection/d;Lcom/vk/messenger/engine/utils/collection/d;)V
     .locals 1
 
     .line 147
     sget-object v0, Lcom/vkontakte/android/im/notifications/a;->a:Lcom/vkontakte/android/im/notifications/a;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/vkontakte/android/im/notifications/a;->a(ILcom/vk/im/engine/utils/collection/d;Lcom/vk/im/engine/utils/collection/d;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/vkontakte/android/im/notifications/a;->a(ILcom/vk/messenger/engine/utils/collection/d;Lcom/vk/messenger/engine/utils/collection/d;)V
 
     return-void
 .end method
@@ -143,33 +143,33 @@
         value = {
             "(",
             "Landroid/util/SparseArray<",
-            "Lcom/vk/im/engine/models/users/User;",
+            "Lcom/vk/messenger/engine/models/users/User;",
             ">;)V"
         }
     .end annotation
 
     .line 151
-    iget-object v0, p0, Lcom/vkontakte/android/im/bridge/b;->d:Lcom/vk/im/ui/a/b;
+    iget-object v0, p0, Lcom/vkontakte/android/im/bridge/b;->d:Lcom/vk/messenger/ui/a/b;
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/b;->h()Lcom/vk/im/ui/a/i;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/b;->h()Lcom/vk/messenger/ui/a/i;
 
     move-result-object v0
 
-    invoke-interface {v0, p1}, Lcom/vk/im/ui/a/i;->a(Landroid/util/SparseArray;)V
+    invoke-interface {v0, p1}, Lcom/vk/messenger/ui/a/i;->a(Landroid/util/SparseArray;)V
 
     return-void
 .end method
 
-.method public a(Lcom/vk/im/engine/events/v;)V
+.method public a(Lcom/vk/messenger/engine/events/v;)V
     .locals 1
 
     .line 159
-    iget-object v0, p0, Lcom/vkontakte/android/im/bridge/b;->e:Lcom/vk/im/engine/d;
+    iget-object v0, p0, Lcom/vkontakte/android/im/bridge/b;->e:Lcom/vk/messenger/engine/d;
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/d;->i()Ljava/util/concurrent/Future;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/d;->i()Ljava/util/concurrent/Future;
 
     .line 160
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/v;->b()Lcom/vk/im/engine/internal/causation/a;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/v;->b()Lcom/vk/messenger/engine/internal/causation/a;
 
     move-result-object p1
 
@@ -178,7 +178,7 @@
     .line 162
     sget-object v0, Lcom/vk/analytics/eventtracking/VkTracker;->b:Lcom/vk/analytics/eventtracking/VkTracker;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/internal/causation/a;->b()Ljava/lang/Throwable;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/internal/causation/a;->b()Ljava/lang/Throwable;
 
     move-result-object p1
 
@@ -216,11 +216,11 @@
     iput-boolean v0, p0, Lcom/vkontakte/android/im/bridge/b;->b:Z
 
     .line 88
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/vkontakte/android/im/bridge/b;->e:Lcom/vk/im/engine/d;
+    iput-object v0, p0, Lcom/vkontakte/android/im/bridge/b;->e:Lcom/vk/messenger/engine/d;
 
     .line 89
     new-instance v0, Lio/reactivex/disposables/a;
@@ -237,9 +237,9 @@
     iput-object v0, p0, Lcom/vkontakte/android/im/bridge/b;->g:Lio/reactivex/disposables/a;
 
     .line 91
-    iget-object v0, p0, Lcom/vkontakte/android/im/bridge/b;->e:Lcom/vk/im/engine/d;
+    iget-object v0, p0, Lcom/vkontakte/android/im/bridge/b;->e:Lcom/vk/messenger/engine/d;
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/d;->j()Lio/reactivex/j;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/d;->j()Lio/reactivex/j;
 
     move-result-object v0
 
@@ -319,7 +319,7 @@
     const/4 v0, 0x0
 
     .line 109
-    iput-object v0, p0, Lcom/vkontakte/android/im/bridge/b;->e:Lcom/vk/im/engine/d;
+    iput-object v0, p0, Lcom/vkontakte/android/im/bridge/b;->e:Lcom/vk/messenger/engine/d;
 
     .line 110
     iget-object v0, p0, Lcom/vkontakte/android/im/bridge/b;->c:Landroid/content/Context;
@@ -344,20 +344,20 @@
     .locals 4
 
     .line 121
-    new-instance v0, Lcom/vk/im/engine/commands/dialogs/l;
+    new-instance v0, Lcom/vk/messenger/engine/commands/dialogs/l;
 
-    sget-object v1, Lcom/vk/im/engine/models/dialogs/DialogsFilter;->UNREAD:Lcom/vk/im/engine/models/dialogs/DialogsFilter;
+    sget-object v1, Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;->UNREAD:Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;
 
-    sget-object v2, Lcom/vk/im/engine/models/Source;->CACHE:Lcom/vk/im/engine/models/Source;
+    sget-object v2, Lcom/vk/messenger/engine/models/Source;->CACHE:Lcom/vk/messenger/engine/models/Source;
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/vk/im/engine/commands/dialogs/l;-><init>(Lcom/vk/im/engine/models/dialogs/DialogsFilter;Lcom/vk/im/engine/models/Source;Z)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/vk/messenger/engine/commands/dialogs/l;-><init>(Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;Lcom/vk/messenger/engine/models/Source;Z)V
 
     .line 122
-    iget-object v1, p0, Lcom/vkontakte/android/im/bridge/b;->e:Lcom/vk/im/engine/d;
+    iget-object v1, p0, Lcom/vkontakte/android/im/bridge/b;->e:Lcom/vk/messenger/engine/d;
 
-    invoke-virtual {v1, p0, v0}, Lcom/vk/im/engine/d;->b(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)Lio/reactivex/q;
+    invoke-virtual {v1, p0, v0}, Lcom/vk/messenger/engine/d;->b(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)Lio/reactivex/q;
 
     move-result-object v0
 
@@ -382,13 +382,13 @@
     .locals 1
 
     .line 155
-    iget-object v0, p0, Lcom/vkontakte/android/im/bridge/b;->d:Lcom/vk/im/ui/a/b;
+    iget-object v0, p0, Lcom/vkontakte/android/im/bridge/b;->d:Lcom/vk/messenger/ui/a/b;
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/b;->h()Lcom/vk/im/ui/a/i;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/b;->h()Lcom/vk/messenger/ui/a/i;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/i;->a()V
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/i;->a()V
 
     return-void
 .end method

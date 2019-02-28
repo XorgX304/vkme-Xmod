@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private final a:Lcom/vk/imageloader/view/VKCircleImageView;
+.field private final a:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
 .field private final b:Landroid/widget/TextView;
 
@@ -80,9 +80,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    iput-object p2, p0, Lcom/vkontakte/android/live/views/spectators/a;->a:Lcom/vk/imageloader/view/VKCircleImageView;
+    iput-object p2, p0, Lcom/vkontakte/android/live/views/spectators/a;->a:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     const p2, 0x7f0a05e4
 
@@ -183,9 +183,9 @@
     .locals 0
 
     .line 101
-    iget-object p1, p0, Lcom/vkontakte/android/live/views/spectators/a;->a:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/live/views/spectators/a;->a:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     if-eqz p5, :cond_2
 

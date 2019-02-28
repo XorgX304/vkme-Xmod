@@ -80,7 +80,7 @@
     move-result-object v2
 
     .line 133
-    invoke-static {v2}, Lcom/vk/imageloader/i;->e(Ljava/lang/String;)V
+    invoke-static {v2}, Lcom/vk/messengerageloader/i;->e(Ljava/lang/String;)V
 
     add-int/lit8 v1, v1, 0x1
 

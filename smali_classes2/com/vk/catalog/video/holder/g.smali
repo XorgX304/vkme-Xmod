@@ -20,11 +20,11 @@
 
 .field private final p:Landroid/widget/TextView;
 
-.field private final q:Lcom/vk/imageloader/view/VKImageView;
+.field private final q:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final r:Lcom/vk/libvideo/ui/DurationView;
 
-.field private final s:Lcom/vk/imageloader/view/VKImageView;
+.field private final s:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final t:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -128,9 +128,9 @@
 
     invoke-static {p1, p3}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/catalog/video/holder/g;->q:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/catalog/video/holder/g;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 25
     iget-object p1, p0, Lcom/vk/catalog/video/holder/g;->a:Landroid/view/View;
@@ -162,9 +162,9 @@
 
     invoke-static {p1, p3}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/catalog/video/holder/g;->s:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/catalog/video/holder/g;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 29
     iget-object p1, p0, Lcom/vk/catalog/video/holder/g;->a:Landroid/view/View;
@@ -176,11 +176,11 @@
 
 
 # virtual methods
-.method protected final A()Lcom/vk/imageloader/view/VKImageView;
+.method protected final A()Lcom/vk/messengerageloader/view/VKImageView;
     .locals 1
 
     .line 26
-    iget-object v0, p0, Lcom/vk/catalog/video/holder/g;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/catalog/video/holder/g;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-object v0
 .end method
@@ -353,7 +353,7 @@
     invoke-virtual {v0, v2}, Lcom/vk/libvideo/ui/DurationView;->setText(Ljava/lang/String;)V
 
     .line 50
-    iget-object v0, p0, Lcom/vk/catalog/video/holder/g;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/catalog/video/holder/g;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget v2, p1, Lcom/vk/dto/common/VideoFile;->a:I
 
@@ -367,17 +367,17 @@
     sget v2, Lcom/vk/catalog/video/a$c;->placeholder_user_36:I
 
     :goto_3
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     .line 51
-    iget-object v0, p0, Lcom/vk/catalog/video/holder/g;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/catalog/video/holder/g;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v2, p1, Lcom/vk/dto/common/VideoFile;->aa:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 52
-    iget-object v0, p0, Lcom/vk/catalog/video/holder/g;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/catalog/video/holder/g;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object p1, p1, Lcom/vk/dto/common/VideoFile;->av:Lcom/vk/dto/common/Image;
 
@@ -413,7 +413,7 @@
     const/4 p1, 0x0
 
     :goto_4
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     return-void
 .end method

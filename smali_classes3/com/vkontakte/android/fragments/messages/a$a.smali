@@ -31,9 +31,9 @@
     invoke-virtual {v0, v1, p1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
     .line 26
-    sget-object p1, Lcom/vk/im/ui/themes/a;->b:Lcom/vk/im/ui/themes/a;
+    sget-object p1, Lcom/vk/messenger/ui/themes/a;->b:Lcom/vk/messenger/ui/themes/a;
 
-    invoke-virtual {p1}, Lcom/vk/im/ui/themes/a;->c()I
+    invoke-virtual {p1}, Lcom/vk/messenger/ui/themes/a;->c()I
 
     move-result p1
 

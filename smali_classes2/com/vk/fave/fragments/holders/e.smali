@@ -27,7 +27,7 @@
 
 
 # instance fields
-.field private final o:Lcom/vk/imageloader/view/VKImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final p:Landroid/widget/ImageView;
 
@@ -84,9 +84,9 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/fave/fragments/holders/e;->o:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/fave/fragments/holders/e;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 28
     iget-object p1, p0, Lcom/vk/fave/fragments/holders/e;->a:Landroid/view/View;
@@ -434,7 +434,7 @@
     move-result-object v0
 
     .line 47
-    iget-object v1, p0, Lcom/vk/fave/fragments/holders/e;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/fave/fragments/holders/e;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 48
     invoke-virtual {v0}, Lcom/vk/fave/entities/FavePage;->b()Ljava/lang/String;
@@ -458,10 +458,10 @@
 
     .line 47
     :goto_0
-    invoke-virtual {v1, v2}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {v1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     .line 50
-    iget-object v1, p0, Lcom/vk/fave/fragments/holders/e;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/fave/fragments/holders/e;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {v0}, Lcom/vk/fave/entities/FavePage;->e()Lcom/vk/dto/newsfeed/Owner;
 
@@ -487,7 +487,7 @@
     move-object v2, v3
 
     :goto_1
-    invoke-virtual {v1, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 51
     iget-object v1, p0, Lcom/vk/fave/fragments/holders/e;->p:Landroid/widget/ImageView;

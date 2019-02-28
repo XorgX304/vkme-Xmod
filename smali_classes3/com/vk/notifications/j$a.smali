@@ -454,7 +454,7 @@
     return-object v0
 .end method
 
-.method public final a(Lcom/vk/dto/notifications/NotificationEntity;Lcom/vk/imageloader/ImageSize;)Ljava/lang/String;
+.method public final a(Lcom/vk/dto/notifications/NotificationEntity;Lcom/vk/messengerageloader/ImageSize;)Ljava/lang/String;
     .locals 3
 
     const-string v0, "item"
@@ -521,7 +521,7 @@
 
     if-eqz p1, :cond_4
 
-    invoke-virtual {p2}, Lcom/vk/imageloader/ImageSize;->a()I
+    invoke-virtual {p2}, Lcom/vk/messengerageloader/ImageSize;->a()I
 
     move-result p2
 
@@ -547,7 +547,7 @@
     if-eqz v0, :cond_9
 
     .line 656
-    invoke-virtual {p2}, Lcom/vk/imageloader/ImageSize;->a()I
+    invoke-virtual {p2}, Lcom/vk/messengerageloader/ImageSize;->a()I
 
     move-result p2
 
@@ -595,7 +595,7 @@
 
     if-eqz p1, :cond_a
 
-    invoke-virtual {p2}, Lcom/vk/imageloader/ImageSize;->a()I
+    invoke-virtual {p2}, Lcom/vk/messengerageloader/ImageSize;->a()I
 
     move-result p2
 
@@ -629,7 +629,7 @@
 
     if-eqz p1, :cond_c
 
-    invoke-virtual {p2}, Lcom/vk/imageloader/ImageSize;->a()I
+    invoke-virtual {p2}, Lcom/vk/messengerageloader/ImageSize;->a()I
 
     move-result p2
 
@@ -669,15 +669,15 @@
     invoke-static {}, Lkotlin/jvm/internal/l;->a()V
 
     :cond_0
-    sget-object v2, Lcom/vk/imageloader/ImageSize;->SIZE_48DP:Lcom/vk/imageloader/ImageSize;
+    sget-object v2, Lcom/vk/messengerageloader/ImageSize;->SIZE_48DP:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v0, v1, v2}, Lcom/vk/notifications/j$a;->a(Lcom/vk/dto/notifications/NotificationEntity;Lcom/vk/imageloader/ImageSize;)Ljava/lang/String;
+    invoke-virtual {v0, v1, v2}, Lcom/vk/notifications/j$a;->a(Lcom/vk/dto/notifications/NotificationEntity;Lcom/vk/messengerageloader/ImageSize;)Ljava/lang/String;
 
     move-result-object v1
 
-    sget-object v2, Lcom/vk/imageloader/ImageSize;->SIZE_48DP:Lcom/vk/imageloader/ImageSize;
+    sget-object v2, Lcom/vk/messengerageloader/ImageSize;->SIZE_48DP:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-static {v1, v2}, Lcom/vk/imageloader/i;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-static {v1, v2}, Lcom/vk/messengerageloader/i;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     .line 637
     invoke-virtual {p1}, Lcom/vk/dto/notifications/NotificationItem;->p()Lcom/vk/dto/notifications/NotificationEntity;
@@ -689,24 +689,24 @@
     invoke-static {}, Lkotlin/jvm/internal/l;->a()V
 
     :cond_1
-    sget-object v2, Lcom/vk/imageloader/ImageSize;->SIZE_48DP:Lcom/vk/imageloader/ImageSize;
+    sget-object v2, Lcom/vk/messengerageloader/ImageSize;->SIZE_48DP:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v0, v1, v2}, Lcom/vk/notifications/j$a;->a(Lcom/vk/dto/notifications/NotificationEntity;Lcom/vk/imageloader/ImageSize;)Ljava/lang/String;
+    invoke-virtual {v0, v1, v2}, Lcom/vk/notifications/j$a;->a(Lcom/vk/dto/notifications/NotificationEntity;Lcom/vk/messengerageloader/ImageSize;)Ljava/lang/String;
 
     move-result-object v1
 
-    sget-object v2, Lcom/vk/imageloader/ImageSize;->SIZE_48DP:Lcom/vk/imageloader/ImageSize;
+    sget-object v2, Lcom/vk/messengerageloader/ImageSize;->SIZE_48DP:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-static {v1, v2}, Lcom/vk/imageloader/i;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-static {v1, v2}, Lcom/vk/messengerageloader/i;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     .line 638
     invoke-virtual {p1}, Lcom/vk/dto/notifications/NotificationItem;->l()Ljava/lang/String;
 
     move-result-object v1
 
-    sget-object v2, Lcom/vk/imageloader/ImageSize;->SIZE_20DP:Lcom/vk/imageloader/ImageSize;
+    sget-object v2, Lcom/vk/messengerageloader/ImageSize;->SIZE_20DP:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-static {v1, v2}, Lcom/vk/imageloader/i;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-static {v1, v2}, Lcom/vk/messengerageloader/i;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     .line 639
     invoke-virtual {p1}, Lcom/vk/dto/notifications/NotificationItem;->q()Ljava/util/ArrayList;
@@ -752,15 +752,15 @@
 
     check-cast v3, Lcom/vk/dto/notifications/NotificationEntity;
 
-    sget-object v4, Lcom/vk/imageloader/ImageSize;->SIZE_36DP:Lcom/vk/imageloader/ImageSize;
+    sget-object v4, Lcom/vk/messengerageloader/ImageSize;->SIZE_36DP:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v0, v3, v4}, Lcom/vk/notifications/j$a;->a(Lcom/vk/dto/notifications/NotificationEntity;Lcom/vk/imageloader/ImageSize;)Ljava/lang/String;
+    invoke-virtual {v0, v3, v4}, Lcom/vk/notifications/j$a;->a(Lcom/vk/dto/notifications/NotificationEntity;Lcom/vk/messengerageloader/ImageSize;)Ljava/lang/String;
 
     move-result-object v3
 
-    sget-object v4, Lcom/vk/imageloader/ImageSize;->SIZE_36DP:Lcom/vk/imageloader/ImageSize;
+    sget-object v4, Lcom/vk/messengerageloader/ImageSize;->SIZE_36DP:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-static {v3, v4}, Lcom/vk/imageloader/i;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-static {v3, v4}, Lcom/vk/messengerageloader/i;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     add-int/lit8 v1, v1, 0x1
 

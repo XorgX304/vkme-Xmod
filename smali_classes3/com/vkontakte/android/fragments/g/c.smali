@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final o:Landroid/widget/TextView;
 
@@ -66,9 +66,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/fragments/g/c;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/fragments/g/c;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x7f0a0aff
 
@@ -82,9 +82,9 @@
     iput-object p1, p0, Lcom/vkontakte/android/fragments/g/c;->o:Landroid/widget/TextView;
 
     .line 30
-    iget-object p1, p0, Lcom/vkontakte/android/fragments/g/c;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/fragments/g/c;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, p0}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p1, p0}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 31
     iget-object p1, p0, Lcom/vkontakte/android/fragments/g/c;->a:Landroid/view/View;
@@ -92,11 +92,11 @@
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 32
-    iget-object p1, p0, Lcom/vkontakte/android/fragments/g/c;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/fragments/g/c;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget v0, p0, Lcom/vkontakte/android/fragments/g/c;->p:I
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setFixedSize(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setFixedSize(I)V
 
     return-void
 .end method
@@ -115,11 +115,11 @@
     iput p1, p0, Lcom/vkontakte/android/fragments/g/c;->p:I
 
     .line 38
-    iget-object p1, p0, Lcom/vkontakte/android/fragments/g/c;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/fragments/g/c;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget v0, p0, Lcom/vkontakte/android/fragments/g/c;->p:I
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setFixedSize(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setFixedSize(I)V
 
     :cond_0
     return-object p0
@@ -182,7 +182,7 @@
 
     .line 51
     :goto_0
-    iget-object v3, p0, Lcom/vkontakte/android/fragments/g/c;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vkontakte/android/fragments/g/c;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-boolean v4, p1, Lcom/vkontakte/android/api/models/CatalogedGift;->h:Z
 
@@ -196,7 +196,7 @@
     const/high16 v4, 0x3f800000    # 1.0f
 
     :goto_1
-    invoke-virtual {v3, v4}, Lcom/vk/imageloader/view/VKImageView;->setAlpha(F)V
+    invoke-virtual {v3, v4}, Lcom/vk/messengerageloader/view/VKImageView;->setAlpha(F)V
 
     .line 52
     iget-object v3, p0, Lcom/vkontakte/android/fragments/g/c;->o:Landroid/widget/TextView;
@@ -290,7 +290,7 @@
     invoke-virtual {v3, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 55
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/g/c;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/g/c;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object p1, p1, Lcom/vkontakte/android/api/models/CatalogedGift;->a:Lcom/vkontakte/android/api/models/Gift;
 
@@ -300,7 +300,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     return-void
 .end method

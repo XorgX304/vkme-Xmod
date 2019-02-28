@@ -52,21 +52,21 @@
     if-nez v0, :cond_0
 
     .line 118
-    invoke-static {}, Lcom/vk/im/ui/fragments/ChatFragment;->as()Lcom/vk/im/ui/fragments/a;
+    invoke-static {}, Lcom/vk/messenger/ui/fragments/ChatFragment;->as()Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object v0
 
     .line 119
     iget v1, p0, Lcom/vk/voip/l$a$a;->b:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/fragments/a;->a(I)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/fragments/a;->a(I)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object v0
 
     .line 120
     iget-object v1, p0, Lcom/vk/voip/l$a$a;->c:Landroid/content/Context;
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/fragments/a;->c(Landroid/content/Context;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/fragments/a;->c(Landroid/content/Context;)V
 
     goto :goto_0
 

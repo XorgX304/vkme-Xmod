@@ -2423,14 +2423,14 @@
     if-eqz v0, :cond_1
 
     .line 411
-    invoke-static {}, Lcom/vk/im/ui/fragments/ChatFragment;->as()Lcom/vk/im/ui/fragments/a;
+    invoke-static {}, Lcom/vk/messenger/ui/fragments/ChatFragment;->as()Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
     iget p2, p0, Lcom/vk/profile/ui/a;->ag:I
 
     .line 412
-    invoke-virtual {p1, p2}, Lcom/vk/im/ui/fragments/a;->a(I)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p1, p2}, Lcom/vk/messenger/ui/fragments/a;->a(I)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
@@ -2439,11 +2439,11 @@
     iget-object v0, p0, Lcom/vk/profile/ui/a;->ah:Lcom/vkontakte/android/api/ExtendedUserProfile;
 
     .line 413
-    invoke-static {p2, v0}, Lcom/vkontakte/android/im/f;->a(ILcom/vkontakte/android/api/ExtendedUserProfile;)Lcom/vk/im/engine/models/dialogs/DialogExt;
+    invoke-static {p2, v0}, Lcom/vkontakte/android/im/f;->a(ILcom/vkontakte/android/api/ExtendedUserProfile;)Lcom/vk/messenger/engine/models/dialogs/DialogExt;
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/vk/im/ui/fragments/a;->a(Lcom/vk/im/engine/models/dialogs/DialogExt;)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p1, p2}, Lcom/vk/messenger/ui/fragments/a;->a(Lcom/vk/messenger/engine/models/dialogs/DialogExt;)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
@@ -2460,7 +2460,7 @@
 
     .line 414
     :goto_0
-    invoke-virtual {p1, p2}, Lcom/vk/im/ui/fragments/a;->d(Ljava/lang/String;)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p1, p2}, Lcom/vk/messenger/ui/fragments/a;->d(Ljava/lang/String;)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
@@ -2469,7 +2469,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/vk/im/ui/fragments/a;->c(Landroid/content/Context;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messenger/ui/fragments/a;->c(Landroid/content/Context;)V
 
     goto :goto_1
 

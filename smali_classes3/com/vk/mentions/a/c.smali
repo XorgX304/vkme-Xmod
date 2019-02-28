@@ -33,7 +33,7 @@
 
 
 # instance fields
-.field private final o:Lcom/vk/imageloader/view/VKCircleImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
 .field private final p:Landroid/widget/TextView;
 
@@ -111,9 +111,9 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    iput-object p1, p0, Lcom/vk/mentions/a/c;->o:Lcom/vk/imageloader/view/VKCircleImageView;
+    iput-object p1, p0, Lcom/vk/mentions/a/c;->o:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     .line 49
     iget-object p1, p0, Lcom/vk/mentions/a/c;->a:Landroid/view/View;
@@ -188,13 +188,13 @@
     iput-object p1, p0, Lcom/vk/mentions/a/c;->r:Lcom/vk/mentions/f;
 
     .line 61
-    iget-object v0, p0, Lcom/vk/mentions/a/c;->o:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object v0, p0, Lcom/vk/mentions/a/c;->o:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     invoke-virtual {p1}, Lcom/vk/mentions/f;->d()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     .line 62
     iget-object v0, p0, Lcom/vk/mentions/a/c;->p:Landroid/widget/TextView;

@@ -11,7 +11,7 @@
     value = {
         "Ljava/lang/Object;",
         "Lio/reactivex/b/g<",
-        "Lcom/vk/im/engine/events/a;",
+        "Lcom/vk/messenger/engine/events/a;",
         ">;"
     }
 .end annotation
@@ -39,7 +39,7 @@
 
 
 # virtual methods
-.method public a(Lcom/vk/im/engine/events/a;)V
+.method public a(Lcom/vk/messenger/engine/events/a;)V
     .locals 4
 
     const-string v0, "e"
@@ -47,7 +47,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 20
-    instance-of v0, p1, Lcom/vk/im/engine/events/n;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/n;
 
     if-eqz v0, :cond_0
 
@@ -59,7 +59,7 @@
 
     .line 21
     :cond_0
-    instance-of v0, p1, Lcom/vk/im/engine/events/OnCacheInvalidateEvent;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/OnCacheInvalidateEvent;
 
     if-eqz v0, :cond_1
 
@@ -72,23 +72,23 @@
 
     .line 24
     :cond_1
-    instance-of v0, p1, Lcom/vk/im/engine/events/s;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/s;
 
     if-eqz v0, :cond_2
 
-    check-cast p1, Lcom/vk/im/engine/events/s;
+    check-cast p1, Lcom/vk/messenger/engine/events/s;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/s;->a()Lcom/vk/im/engine/models/dialogs/DialogsFilter;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/s;->a()Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;
 
     move-result-object v0
 
-    sget-object v1, Lcom/vk/im/engine/models/dialogs/DialogsFilter;->UNREAD:Lcom/vk/im/engine/models/dialogs/DialogsFilter;
+    sget-object v1, Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;->UNREAD:Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;
 
     if-ne v0, v1, :cond_13
 
     iget-object v0, p0, Lcom/vkontakte/android/im/bridge/a;->a:Lcom/vkontakte/android/im/bridge/b;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/s;->c()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/s;->c()I
 
     move-result p1
 
@@ -98,37 +98,37 @@
 
     .line 25
     :cond_2
-    instance-of v0, p1, Lcom/vk/im/engine/events/x;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/x;
 
     if-eqz v0, :cond_3
 
     iget-object v0, p0, Lcom/vkontakte/android/im/bridge/a;->a:Lcom/vkontakte/android/im/bridge/b;
 
-    check-cast p1, Lcom/vk/im/engine/events/x;
+    check-cast p1, Lcom/vk/messenger/engine/events/x;
 
-    iget v1, p1, Lcom/vk/im/engine/events/x;->b:I
+    iget v1, p1, Lcom/vk/messenger/engine/events/x;->b:I
 
-    iget-object v2, p1, Lcom/vk/im/engine/events/x;->c:Lcom/vk/im/engine/utils/collection/d;
+    iget-object v2, p1, Lcom/vk/messenger/engine/events/x;->c:Lcom/vk/messenger/engine/utils/collection/d;
 
-    iget-object p1, p1, Lcom/vk/im/engine/events/x;->d:Lcom/vk/im/engine/utils/collection/d;
+    iget-object p1, p1, Lcom/vk/messenger/engine/events/x;->d:Lcom/vk/messenger/engine/utils/collection/d;
 
-    invoke-virtual {v0, v1, v2, p1}, Lcom/vkontakte/android/im/bridge/b;->a(ILcom/vk/im/engine/utils/collection/d;Lcom/vk/im/engine/utils/collection/d;)V
+    invoke-virtual {v0, v1, v2, p1}, Lcom/vkontakte/android/im/bridge/b;->a(ILcom/vk/messenger/engine/utils/collection/d;Lcom/vk/messenger/engine/utils/collection/d;)V
 
     goto/16 :goto_2
 
     .line 26
     :cond_3
-    instance-of v0, p1, Lcom/vk/im/engine/events/aa;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/aa;
 
     if-eqz v0, :cond_4
 
     iget-object v0, p0, Lcom/vkontakte/android/im/bridge/a;->a:Lcom/vkontakte/android/im/bridge/b;
 
-    check-cast p1, Lcom/vk/im/engine/events/aa;
+    check-cast p1, Lcom/vk/messenger/engine/events/aa;
 
-    iget v1, p1, Lcom/vk/im/engine/events/aa;->b:I
+    iget v1, p1, Lcom/vk/messenger/engine/events/aa;->b:I
 
-    iget p1, p1, Lcom/vk/im/engine/events/aa;->c:I
+    iget p1, p1, Lcom/vk/messenger/engine/events/aa;->c:I
 
     invoke-virtual {v0, v1, p1}, Lcom/vkontakte/android/im/bridge/b;->a(II)V
 
@@ -136,14 +136,14 @@
 
     .line 27
     :cond_4
-    instance-of v0, p1, Lcom/vk/im/engine/events/ab;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/ab;
 
     if-eqz v0, :cond_5
 
     .line 28
-    check-cast p1, Lcom/vk/im/engine/events/ab;
+    check-cast p1, Lcom/vk/messenger/engine/events/ab;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/ab;->d()Z
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/ab;->d()Z
 
     move-result v0
 
@@ -152,11 +152,11 @@
     .line 29
     sget-object v0, Lcom/vkontakte/android/im/notifications/a;->a:Lcom/vkontakte/android/im/notifications/a;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/ab;->a()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/ab;->a()I
 
     move-result v1
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/ab;->c()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/ab;->c()I
 
     move-result p1
 
@@ -166,19 +166,19 @@
 
     .line 32
     :cond_5
-    instance-of v0, p1, Lcom/vk/im/engine/events/z;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/z;
 
     if-eqz v0, :cond_6
 
     sget-object v0, Lcom/vkontakte/android/im/notifications/a;->a:Lcom/vkontakte/android/im/notifications/a;
 
-    check-cast p1, Lcom/vk/im/engine/events/z;
+    check-cast p1, Lcom/vk/messenger/engine/events/z;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/z;->a()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/z;->a()I
 
     move-result v1
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/z;->c()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/z;->c()I
 
     move-result p1
 
@@ -188,23 +188,23 @@
 
     .line 33
     :cond_6
-    instance-of v0, p1, Lcom/vk/im/engine/events/ag;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/ag;
 
     if-eqz v0, :cond_7
 
     iget-object v0, p0, Lcom/vkontakte/android/im/bridge/a;->a:Lcom/vkontakte/android/im/bridge/b;
 
-    check-cast p1, Lcom/vk/im/engine/events/ag;
+    check-cast p1, Lcom/vk/messenger/engine/events/ag;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/ag;->a()Lcom/vk/im/engine/models/ProfilesInfo;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/ProfilesInfo;->g()Lcom/vk/im/engine/models/b;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/ag;->a()Lcom/vk/messenger/engine/models/ProfilesInfo;
 
     move-result-object p1
 
-    iget-object p1, p1, Lcom/vk/im/engine/models/b;->c:Landroid/util/SparseArray;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/ProfilesInfo;->g()Lcom/vk/messenger/engine/models/b;
+
+    move-result-object p1
+
+    iget-object p1, p1, Lcom/vk/messenger/engine/models/b;->c:Landroid/util/SparseArray;
 
     invoke-virtual {v0, p1}, Lcom/vkontakte/android/im/bridge/b;->a(Landroid/util/SparseArray;)V
 
@@ -212,7 +212,7 @@
 
     .line 34
     :cond_7
-    instance-of v0, p1, Lcom/vk/im/engine/events/al;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/al;
 
     if-eqz v0, :cond_8
 
@@ -224,7 +224,7 @@
 
     .line 35
     :cond_8
-    instance-of v0, p1, Lcom/vk/im/engine/events/u;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/u;
 
     if-eqz v0, :cond_9
 
@@ -238,20 +238,20 @@
 
     .line 36
     :cond_9
-    instance-of v0, p1, Lcom/vk/im/engine/events/v;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/v;
 
     if-eqz v0, :cond_e
 
     .line 37
-    check-cast p1, Lcom/vk/im/engine/events/v;
+    check-cast p1, Lcom/vk/messenger/engine/events/v;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/v;->a()Lcom/vk/im/engine/internal/causation/a;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/v;->a()Lcom/vk/messenger/engine/internal/causation/a;
 
     move-result-object v0
 
     if-eqz v0, :cond_a
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/internal/causation/a;->b()Ljava/lang/Throwable;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/internal/causation/a;->b()Ljava/lang/Throwable;
 
     move-result-object v0
 
@@ -270,7 +270,7 @@
 
     .line 41
     :cond_b
-    instance-of v1, v0, Lcom/vk/im/engine/exceptions/CycleInvocationException;
+    instance-of v1, v0, Lcom/vk/messenger/engine/exceptions/CycleInvocationException;
 
     if-eqz v1, :cond_c
 
@@ -298,25 +298,25 @@
     :cond_d
     iget-object v0, p0, Lcom/vkontakte/android/im/bridge/a;->a:Lcom/vkontakte/android/im/bridge/b;
 
-    invoke-virtual {v0, p1}, Lcom/vkontakte/android/im/bridge/b;->a(Lcom/vk/im/engine/events/v;)V
+    invoke-virtual {v0, p1}, Lcom/vkontakte/android/im/bridge/b;->a(Lcom/vk/messenger/engine/events/v;)V
 
     goto/16 :goto_2
 
     .line 49
     :cond_e
-    instance-of v0, p1, Lcom/vk/im/engine/events/b;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/b;
 
     if-eqz v0, :cond_f
 
-    check-cast p1, Lcom/vk/im/engine/events/b;
+    check-cast p1, Lcom/vk/messenger/engine/events/b;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/b;->c()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/b;->c()Ljava/util/List;
 
     move-result-object p1
 
     check-cast p1, Ljava/lang/Iterable;
 
-    const-class v0, Lcom/vk/im/engine/events/y;
+    const-class v0, Lcom/vk/messenger/engine/events/y;
 
     invoke-static {p1, v0}, Lkotlin/collections/m;->a(Ljava/lang/Iterable;Ljava/lang/Class;)Ljava/util/List;
 
@@ -340,34 +340,34 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/engine/events/y;
+    check-cast v0, Lcom/vk/messenger/engine/events/y;
 
     .line 50
     sget-object v1, Lcom/vkontakte/android/im/notifications/a;->a:Lcom/vkontakte/android/im/notifications/a;
 
-    iget v2, v0, Lcom/vk/im/engine/events/y;->b:I
+    iget v2, v0, Lcom/vk/messenger/engine/events/y;->b:I
 
-    iget-object v0, v0, Lcom/vk/im/engine/events/y;->c:Lcom/vk/im/engine/utils/collection/d;
+    iget-object v0, v0, Lcom/vk/messenger/engine/events/y;->c:Lcom/vk/messenger/engine/utils/collection/d;
 
     const-string v3, "it.msgIds"
 
     invoke-static {v0, v3}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v1, v2, v0}, Lcom/vkontakte/android/im/notifications/a;->a(ILcom/vk/im/engine/utils/collection/d;)V
+    invoke-virtual {v1, v2, v0}, Lcom/vkontakte/android/im/notifications/a;->a(ILcom/vk/messenger/engine/utils/collection/d;)V
 
     goto :goto_1
 
     .line 52
     :cond_f
-    instance-of v0, p1, Lcom/vk/im/engine/events/ad;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/ad;
 
     if-eqz v0, :cond_10
 
     sget-object v0, Lcom/vkontakte/android/im/notifications/a;->a:Lcom/vkontakte/android/im/notifications/a;
 
-    check-cast p1, Lcom/vk/im/engine/events/ad;
+    check-cast p1, Lcom/vk/messenger/engine/events/ad;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/ad;->a()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/ad;->a()I
 
     move-result p1
 
@@ -377,15 +377,15 @@
 
     .line 53
     :cond_10
-    instance-of v0, p1, Lcom/vk/im/engine/events/ac;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/ac;
 
     if-eqz v0, :cond_11
 
     sget-object v0, Lcom/vkontakte/android/im/notifications/a;->a:Lcom/vkontakte/android/im/notifications/a;
 
-    check-cast p1, Lcom/vk/im/engine/events/ac;
+    check-cast p1, Lcom/vk/messenger/engine/events/ac;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/ac;->a()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/ac;->a()I
 
     move-result p1
 
@@ -395,19 +395,19 @@
 
     .line 54
     :cond_11
-    instance-of v0, p1, Lcom/vk/im/engine/events/o;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/o;
 
     if-eqz v0, :cond_12
 
     sget-object v0, Lcom/vkontakte/android/im/notifications/a;->a:Lcom/vkontakte/android/im/notifications/a;
 
-    check-cast p1, Lcom/vk/im/engine/events/o;
+    check-cast p1, Lcom/vk/messenger/engine/events/o;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/o;->a()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/o;->a()I
 
     move-result v1
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/o;->c()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/o;->c()I
 
     move-result p1
 
@@ -417,15 +417,15 @@
 
     .line 55
     :cond_12
-    instance-of v0, p1, Lcom/vk/im/engine/events/l;
+    instance-of v0, p1, Lcom/vk/messenger/engine/events/l;
 
     if-eqz v0, :cond_13
 
     sget-object v0, Lcom/vkontakte/android/im/notifications/a;->a:Lcom/vkontakte/android/im/notifications/a;
 
-    check-cast p1, Lcom/vk/im/engine/events/l;
+    check-cast p1, Lcom/vk/messenger/engine/events/l;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/l;->a()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/l;->a()I
 
     move-result p1
 
@@ -440,9 +440,9 @@
     .locals 0
 
     .line 16
-    check-cast p1, Lcom/vk/im/engine/events/a;
+    check-cast p1, Lcom/vk/messenger/engine/events/a;
 
-    invoke-virtual {p0, p1}, Lcom/vkontakte/android/im/bridge/a;->a(Lcom/vk/im/engine/events/a;)V
+    invoke-virtual {p0, p1}, Lcom/vkontakte/android/im/bridge/a;->a(Lcom/vk/messenger/engine/events/a;)V
 
     return-void
 .end method

@@ -6,9 +6,9 @@
 # instance fields
 .field private final a:Lcom/vk/media/player/video/VideoTextureView;
 
-.field private final b:Lcom/vk/imageloader/view/VKImageView;
+.field private final b:Lcom/vk/messengerageloader/view/VKImageView;
 
-.field private final c:Lcom/vk/imageloader/view/VKImageView;
+.field private final c:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final d:Landroid/view/View;
 
@@ -56,18 +56,18 @@
     iput-object p2, p0, Lcom/vk/profile/ui/cover/c;->a:Lcom/vk/media/player/video/VideoTextureView;
 
     .line 31
-    new-instance p2, Lcom/vk/imageloader/view/VKImageView;
+    new-instance p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-direct {p2, p1}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p2, p1}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
-    iput-object p2, p0, Lcom/vk/profile/ui/cover/c;->b:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vk/profile/ui/cover/c;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 32
-    new-instance p2, Lcom/vk/imageloader/view/VKImageView;
+    new-instance p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-direct {p2, p1}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p2, p1}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
-    iput-object p2, p0, Lcom/vk/profile/ui/cover/c;->c:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vk/profile/ui/cover/c;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 34
     invoke-static {p1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
@@ -175,7 +175,7 @@
     invoke-virtual {p0, p1}, Lcom/vk/profile/ui/cover/c;->setBackgroundColor(I)V
 
     .line 68
-    iget-object p1, p0, Lcom/vk/profile/ui/cover/c;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/profile/ui/cover/c;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p1, Landroid/view/View;
 
@@ -189,7 +189,7 @@
     invoke-virtual {p0, p1}, Lcom/vk/profile/ui/cover/c;->addView(Landroid/view/View;)V
 
     .line 70
-    iget-object p1, p0, Lcom/vk/profile/ui/cover/c;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/profile/ui/cover/c;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p1, Landroid/view/View;
 
@@ -257,11 +257,11 @@
     invoke-virtual {p1, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 82
-    iget-object p1, p0, Lcom/vk/profile/ui/cover/c;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/profile/ui/cover/c;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     sget-object p2, Lcom/facebook/drawee/drawable/p$b;->g:Lcom/facebook/drawee/drawable/p$b;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
 
     .line 84
     iget-object p1, p0, Lcom/vk/profile/ui/cover/c;->j:Landroid/view/View;
@@ -348,7 +348,7 @@
     .locals 2
 
     .line 89
-    iget-object v0, p0, Lcom/vk/profile/ui/cover/c;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/ui/cover/c;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v1, 0x3dcccccd    # 0.1f
 
@@ -358,12 +358,12 @@
 
     add-float/2addr p1, v1
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->setScaleX(F)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->setScaleX(F)V
 
     .line 90
-    iget-object v0, p0, Lcom/vk/profile/ui/cover/c;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/ui/cover/c;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->setScaleY(F)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->setScaleY(F)V
 
     .line 91
     invoke-virtual {p0}, Lcom/vk/profile/ui/cover/c;->invalidate()V
@@ -449,11 +449,11 @@
     return-object v0
 .end method
 
-.method public final getForgegroundView()Lcom/vk/imageloader/view/VKImageView;
+.method public final getForgegroundView()Lcom/vk/messengerageloader/view/VKImageView;
     .locals 1
 
     .line 32
-    iget-object v0, p0, Lcom/vk/profile/ui/cover/c;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/ui/cover/c;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-object v0
 .end method
@@ -467,11 +467,11 @@
     return v0
 .end method
 
-.method public final getImageView()Lcom/vk/imageloader/view/VKImageView;
+.method public final getImageView()Lcom/vk/messengerageloader/view/VKImageView;
     .locals 1
 
     .line 31
-    iget-object v0, p0, Lcom/vk/profile/ui/cover/c;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/ui/cover/c;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-object v0
 .end method

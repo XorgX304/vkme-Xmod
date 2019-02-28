@@ -3,7 +3,7 @@
 .source "ImageCoverItem.kt"
 
 # interfaces
-.implements Lcom/vk/imageloader/g;
+.implements Lcom/vk/messengerageloader/g;
 
 
 # annotations

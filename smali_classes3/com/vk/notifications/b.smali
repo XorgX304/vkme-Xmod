@@ -9,7 +9,7 @@
 # instance fields
 .field private final n:Landroid/content/Context;
 
-.field private final o:Lcom/vk/imageloader/view/VKImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final p:Landroid/widget/TextView;
 
@@ -79,9 +79,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/notifications/b;->o:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/notifications/b;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 24
     iget-object p1, p0, Lcom/vk/notifications/b;->a:Landroid/view/View;
@@ -144,9 +144,9 @@
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 29
-    iget-object p1, p0, Lcom/vk/notifications/b;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/notifications/b;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 30
     iget-object p1, p0, Lcom/vk/notifications/b;->p:Landroid/widget/TextView;
@@ -201,11 +201,11 @@
 
     .line 38
     :cond_0
-    iget-object v2, p0, Lcom/vk/notifications/b;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v2, p0, Lcom/vk/notifications/b;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v3, v0, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
-    invoke-virtual {v2, v3}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 40
     invoke-virtual {p1}, Lcom/vk/dto/notifications/FriendRequestsItem;->b()I
@@ -280,9 +280,9 @@
 
     .line 49
     :cond_2
-    iget-object v0, p0, Lcom/vk/notifications/b;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/notifications/b;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 50
     iget-object v0, p0, Lcom/vk/notifications/b;->q:Landroid/widget/TextView;

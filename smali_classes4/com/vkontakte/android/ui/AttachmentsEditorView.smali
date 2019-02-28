@@ -469,13 +469,13 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object p1, p1, Lcom/vkontakte/android/attachments/DocumentAttachment;->e:Ljava/lang/String;
 
-    sget-object v1, Lcom/vk/imageloader/ImageSize;->VERY_SMALL:Lcom/vk/imageloader/ImageSize;
+    sget-object v1, Lcom/vk/messengerageloader/ImageSize;->VERY_SMALL:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {p2, p1, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {p2, p1, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     const p1, 0x7f0a00ce
 
@@ -635,15 +635,15 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v1, Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object p1, p1, Lcom/vkontakte/android/attachments/MarketAttachment;->a:Lcom/vk/dto/common/Good;
 
     iget-object p1, p1, Lcom/vk/dto/common/Good;->m:Ljava/lang/String;
 
-    sget-object v2, Lcom/vk/imageloader/ImageSize;->VERY_SMALL:Lcom/vk/imageloader/ImageSize;
+    sget-object v2, Lcom/vk/messengerageloader/ImageSize;->VERY_SMALL:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v1, p1, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {v1, p1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     return-object v0
 .end method
@@ -699,15 +699,15 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v1, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/PendingStoryAttachment;->h()Ljava/lang/String;
 
     move-result-object p1
 
-    sget-object v2, Lcom/vk/imageloader/ImageSize;->VERY_SMALL:Lcom/vk/imageloader/ImageSize;
+    sget-object v2, Lcom/vk/messengerageloader/ImageSize;->VERY_SMALL:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v1, p1, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {v1, p1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     const p1, 0x7f0a00ce
 
@@ -796,14 +796,14 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v2, Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 803
     iget-object p1, p1, Lcom/vk/dto/common/VideoFile;->q:Ljava/lang/String;
 
-    sget-object v3, Lcom/vk/imageloader/ImageSize;->VERY_SMALL:Lcom/vk/imageloader/ImageSize;
+    sget-object v3, Lcom/vk/messengerageloader/ImageSize;->VERY_SMALL:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v2, p1, v3}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {v2, p1, v3}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     const p1, 0x7f0a00ce
 
@@ -930,7 +930,7 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v1, Lcom/vk/messengerageloader/view/VKImageView;
 
     iget v2, p0, Lcom/vkontakte/android/ui/AttachmentsEditorView;->t:I
 
@@ -938,7 +938,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v1, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     const p1, 0x7f0a00ce
 
@@ -1027,14 +1027,14 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v1, Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 791
     iget-object p1, p1, Lcom/vk/dto/common/VideoFile;->q:Ljava/lang/String;
 
-    sget-object v2, Lcom/vk/imageloader/ImageSize;->VERY_SMALL:Lcom/vk/imageloader/ImageSize;
+    sget-object v2, Lcom/vk/messengerageloader/ImageSize;->VERY_SMALL:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v1, p1, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {v1, p1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     const p1, 0x7f0a00ce
 
@@ -1112,15 +1112,15 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v1, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
 
-    sget-object v2, Lcom/vk/imageloader/ImageSize;->VERY_SMALL:Lcom/vk/imageloader/ImageSize;
+    sget-object v2, Lcom/vk/messengerageloader/ImageSize;->VERY_SMALL:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v1, p1, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {v1, p1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;)V
 
     const p1, 0x7f0a00ce
 

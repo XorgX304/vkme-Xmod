@@ -75,7 +75,7 @@
     .line 214
     iget-object v0, p0, Lcom/vkontakte/android/im/d$a;->a:Lcom/vkontakte/android/im/d;
 
-    invoke-static {v0}, Lcom/vkontakte/android/im/d;->b(Lcom/vkontakte/android/im/d;)Lcom/vk/im/ui/media/audio/AudioTrack;
+    invoke-static {v0}, Lcom/vkontakte/android/im/d;->b(Lcom/vkontakte/android/im/d;)Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     move-result-object v0
 
@@ -85,7 +85,7 @@
 
     move-result p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/media/audio/AudioTrack;->b(F)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->b(F)V
 
     .line 215
     :cond_0
@@ -138,7 +138,7 @@
     .line 221
     iget-object v0, p0, Lcom/vkontakte/android/im/d$a;->a:Lcom/vkontakte/android/im/d;
 
-    invoke-static {v0}, Lcom/vkontakte/android/im/d;->b(Lcom/vkontakte/android/im/d;)Lcom/vk/im/ui/media/audio/AudioTrack;
+    invoke-static {v0}, Lcom/vkontakte/android/im/d;->b(Lcom/vkontakte/android/im/d;)Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     move-result-object v0
 
@@ -146,13 +146,13 @@
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/media/audio/AudioTrack;->a(Z)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->a(Z)V
 
     .line 222
     :cond_0
     iget-object v0, p0, Lcom/vkontakte/android/im/d$a;->a:Lcom/vkontakte/android/im/d;
 
-    invoke-static {v0}, Lcom/vkontakte/android/im/d;->b(Lcom/vkontakte/android/im/d;)Lcom/vk/im/ui/media/audio/AudioTrack;
+    invoke-static {v0}, Lcom/vkontakte/android/im/d;->b(Lcom/vkontakte/android/im/d;)Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     move-result-object v0
 
@@ -164,7 +164,7 @@
 
     div-float/2addr p1, v1
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/media/audio/AudioTrack;->a(F)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->a(F)V
 
     goto :goto_0
 
@@ -172,7 +172,7 @@
     :cond_1
     iget-object p1, p0, Lcom/vkontakte/android/im/d$a;->a:Lcom/vkontakte/android/im/d;
 
-    invoke-static {p1}, Lcom/vkontakte/android/im/d;->b(Lcom/vkontakte/android/im/d;)Lcom/vk/im/ui/media/audio/AudioTrack;
+    invoke-static {p1}, Lcom/vkontakte/android/im/d;->b(Lcom/vkontakte/android/im/d;)Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     move-result-object p1
 
@@ -180,13 +180,13 @@
 
     const/4 v0, 0x0
 
-    invoke-virtual {p1, v0}, Lcom/vk/im/ui/media/audio/AudioTrack;->a(Z)V
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->a(Z)V
 
     .line 225
     :cond_2
     iget-object p1, p0, Lcom/vkontakte/android/im/d$a;->a:Lcom/vkontakte/android/im/d;
 
-    invoke-static {p1}, Lcom/vkontakte/android/im/d;->b(Lcom/vkontakte/android/im/d;)Lcom/vk/im/ui/media/audio/AudioTrack;
+    invoke-static {p1}, Lcom/vkontakte/android/im/d;->b(Lcom/vkontakte/android/im/d;)Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     move-result-object p1
 
@@ -194,7 +194,7 @@
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    invoke-virtual {p1, v0}, Lcom/vk/im/ui/media/audio/AudioTrack;->a(F)V
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->a(F)V
 
     :cond_3
     :goto_0

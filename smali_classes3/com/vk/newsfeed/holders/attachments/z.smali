@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKImageView;
 
 
 # direct methods
@@ -37,9 +37,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/z;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/z;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 18
     iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/z;->a:Landroid/view/View;
@@ -129,7 +129,7 @@
 
     .line 39
     :cond_2
-    iget-object v3, p0, Lcom/vk/newsfeed/holders/attachments/z;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vk/newsfeed/holders/attachments/z;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     int-to-float v4, v0
 
@@ -137,10 +137,10 @@
 
     div-float v5, v4, v5
 
-    invoke-virtual {v3, v5}, Lcom/vk/imageloader/view/VKImageView;->setAspectRatio(F)V
+    invoke-virtual {v3, v5}, Lcom/vk/messengerageloader/view/VKImageView;->setAspectRatio(F)V
 
     .line 40
-    iget-object v3, p0, Lcom/vk/newsfeed/holders/attachments/z;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vk/newsfeed/holders/attachments/z;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-le v0, v1, :cond_3
 
@@ -153,7 +153,7 @@
     float-to-int v2, v0
 
     :cond_3
-    invoke-virtual {v3, v2}, Lcom/vk/imageloader/view/VKImageView;->setMaxHeight(I)V
+    invoke-virtual {v3, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setMaxHeight(I)V
 
     .line 41
     invoke-virtual {p0, p1}, Lcom/vk/newsfeed/holders/attachments/z;->a(Lcom/vkontakte/android/attachments/GraffitiAttachment;)V
@@ -181,25 +181,25 @@
     if-nez v0, :cond_0
 
     .line 48
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/z;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/z;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object p1, p1, Lcom/vkontakte/android/attachments/GraffitiAttachment;->d:Ljava/lang/String;
 
-    sget-object v1, Lcom/vk/imageloader/ImageSize;->MID:Lcom/vk/imageloader/ImageSize;
+    sget-object v1, Lcom/vk/messengerageloader/ImageSize;->MID:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v0, p1, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {v0, p1, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     goto :goto_0
 
     .line 50
     :cond_0
-    iget-object v1, p0, Lcom/vk/newsfeed/holders/attachments/z;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/newsfeed/holders/attachments/z;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
 
-    sget-object v2, Lcom/vk/imageloader/ImageSize;->MID:Lcom/vk/imageloader/ImageSize;
+    sget-object v2, Lcom/vk/messengerageloader/ImageSize;->MID:Lcom/vk/messengerageloader/ImageSize;
 
     iget-object p1, p1, Lcom/vkontakte/android/attachments/GraffitiAttachment;->d:Ljava/lang/String;
 
@@ -207,9 +207,9 @@
 
     move-result-object p1
 
-    sget-object v3, Lcom/vk/imageloader/ImageSize;->MID:Lcom/vk/imageloader/ImageSize;
+    sget-object v3, Lcom/vk/messengerageloader/ImageSize;->MID:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v1, v0, v2, p1, v3}, Lcom/vk/imageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {v1, v0, v2, p1, v3}, Lcom/vk/messengerageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;)V
 
     :goto_0
     return-void

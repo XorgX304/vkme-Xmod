@@ -1,5 +1,5 @@
 .class public final Lcom/vkontakte/android/im/a/a;
-.super Lcom/vk/im/engine/internal/a/a;
+.super Lcom/vk/messenger/engine/internal/a/a;
 .source "ArticleCacheControllerBridge.kt"
 
 
@@ -10,7 +10,7 @@
 
 .field private final c:Lcom/vkontakte/android/im/a/a$a;
 
-.field private d:Lcom/vk/im/engine/internal/a/a$a;
+.field private d:Lcom/vk/messenger/engine/internal/a/a$a;
 
 
 # direct methods
@@ -18,7 +18,7 @@
     .locals 4
 
     .line 13
-    invoke-direct {p0}, Lcom/vk/im/engine/internal/a/a;-><init>()V
+    invoke-direct {p0}, Lcom/vk/messenger/engine/internal/a/a;-><init>()V
 
     .line 14
     new-instance v0, Lcom/vk/articles/preload/c;
@@ -65,11 +65,11 @@
 
 
 # virtual methods
-.method public a()Lcom/vk/im/engine/internal/a/a$a;
+.method public a()Lcom/vk/messenger/engine/internal/a/a$a;
     .locals 1
 
     .line 19
-    iget-object v0, p0, Lcom/vkontakte/android/im/a/a;->d:Lcom/vk/im/engine/internal/a/a$a;
+    iget-object v0, p0, Lcom/vkontakte/android/im/a/a;->d:Lcom/vk/messenger/engine/internal/a/a$a;
 
     return-object v0
 .end method
@@ -119,11 +119,11 @@
     return-void
 .end method
 
-.method public a(Lcom/vk/im/engine/internal/a/a$a;)V
+.method public a(Lcom/vk/messenger/engine/internal/a/a$a;)V
     .locals 0
 
     .line 19
-    iput-object p1, p0, Lcom/vkontakte/android/im/a/a;->d:Lcom/vk/im/engine/internal/a/a$a;
+    iput-object p1, p0, Lcom/vkontakte/android/im/a/a;->d:Lcom/vk/messenger/engine/internal/a/a$a;
 
     return-void
 .end method

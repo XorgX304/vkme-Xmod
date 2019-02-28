@@ -23,7 +23,7 @@
         ">",
         "Ljava/lang/Object;",
         "Lio/reactivex/b/g<",
-        "Lcom/vk/im/engine/models/ProfilesInfo;",
+        "Lcom/vk/messenger/engine/models/ProfilesInfo;",
         ">;"
     }
 .end annotation
@@ -58,13 +58,13 @@
 
 
 # virtual methods
-.method public final a(Lcom/vk/im/engine/models/ProfilesInfo;)V
+.method public final a(Lcom/vk/messenger/engine/models/ProfilesInfo;)V
     .locals 3
 
     .line 836
     iget v0, p0, Lcom/vk/common/links/h$ac;->a:I
 
-    invoke-virtual {p1, v0}, Lcom/vk/im/engine/models/ProfilesInfo;->a(I)Lcom/vk/im/engine/models/j;
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/engine/models/ProfilesInfo;->a(I)Lcom/vk/messenger/engine/models/j;
 
     move-result-object p1
 
@@ -73,7 +73,7 @@
     .line 838
     sget-object v0, Lcom/vkontakte/android/im/f;->b:Lcom/vkontakte/android/im/f;
 
-    invoke-virtual {v0, p1}, Lcom/vkontakte/android/im/f;->a(Lcom/vk/im/engine/models/j;)Lcom/vkontakte/android/UserProfile;
+    invoke-virtual {v0, p1}, Lcom/vkontakte/android/im/f;->a(Lcom/vk/messenger/engine/models/j;)Lcom/vkontakte/android/UserProfile;
 
     move-result-object p1
 
@@ -111,9 +111,9 @@
 .method public bridge synthetic a(Ljava/lang/Object;)V
     .locals 0
 
-    check-cast p1, Lcom/vk/im/engine/models/ProfilesInfo;
+    check-cast p1, Lcom/vk/messenger/engine/models/ProfilesInfo;
 
-    invoke-virtual {p0, p1}, Lcom/vk/common/links/h$ac;->a(Lcom/vk/im/engine/models/ProfilesInfo;)V
+    invoke-virtual {p0, p1}, Lcom/vk/common/links/h$ac;->a(Lcom/vk/messenger/engine/models/ProfilesInfo;)V
 
     return-void
 .end method

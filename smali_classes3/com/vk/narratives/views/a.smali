@@ -496,9 +496,9 @@
     invoke-virtual {v0, v1}, Lcom/vk/stories/StoryParentView;->setVisibility(I)V
 
     .line 198
-    iget-object v0, p0, Lcom/vk/narratives/views/a;->w:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/narratives/views/a;->w:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 199
     iget-object v0, p0, Lcom/vk/narratives/views/a;->v:Lcom/vk/video/SimpleVideoView;
@@ -550,7 +550,7 @@
     invoke-virtual {p0, v0}, Lcom/vk/narratives/views/a;->b(Z)V
 
     .line 210
-    iget-object v0, p0, Lcom/vk/narratives/views/a;->w:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/narratives/views/a;->w:Lcom/vk/messengerageloader/view/VKImageView;
 
     const-string v1, "imagePreview"
 
@@ -562,21 +562,21 @@
 
     check-cast v1, Landroid/graphics/ColorFilter;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setColorFilter(Landroid/graphics/ColorFilter;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setColorFilter(Landroid/graphics/ColorFilter;)V
 
     .line 211
-    iget-object v0, p0, Lcom/vk/narratives/views/a;->w:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/narratives/views/a;->w:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-static {}, Lcom/vk/narratives/c;->c()Lcom/vk/imageloader/a/f;
+    invoke-static {}, Lcom/vk/narratives/c;->c()Lcom/vk/messengerageloader/a/f;
 
     move-result-object v1
 
     check-cast v1, Lcom/facebook/imagepipeline/request/a;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
 
     .line 212
-    iget-object v0, p0, Lcom/vk/narratives/views/a;->w:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/narratives/views/a;->w:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p0}, Lcom/vk/narratives/views/a;->getStoriesContainer()Lcom/vk/dto/stories/model/StoriesContainer;
 
@@ -602,9 +602,9 @@
     const/4 v1, 0x0
 
     :goto_0
-    sget-object v3, Lcom/vk/imageloader/ImageSize;->BIG:Lcom/vk/imageloader/ImageSize;
+    sget-object v3, Lcom/vk/messengerageloader/ImageSize;->BIG:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v0, v1, v3}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {v0, v1, v3}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     .line 214
     iget-object v0, p0, Lcom/vk/narratives/views/a;->F:Landroid/view/ViewGroup;
@@ -1663,18 +1663,18 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     .line 125
-    iget-object v0, p0, Lcom/vk/narratives/views/a;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/narratives/views/a;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 126
-    iget-object v0, p0, Lcom/vk/narratives/views/a;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/narratives/views/a;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     const-string v1, "avatarImageView"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v0, v3}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v0, v3}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 128
     iget-object v0, p0, Lcom/vk/narratives/views/a;->t:Landroid/widget/TextView;
@@ -1719,15 +1719,15 @@
 
     move-result-object v0
 
-    sget-object v1, Lcom/vk/imageloader/ImageSize;->BIG:Lcom/vk/imageloader/ImageSize;
+    sget-object v1, Lcom/vk/messengerageloader/ImageSize;->BIG:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-static {}, Lcom/vk/narratives/c;->c()Lcom/vk/imageloader/a/f;
+    invoke-static {}, Lcom/vk/narratives/c;->c()Lcom/vk/messengerageloader/a/f;
 
     move-result-object v2
 
     check-cast v2, Lcom/facebook/imagepipeline/request/b;
 
-    invoke-static {v0, v1, v2}, Lcom/vk/imageloader/i;->a(Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;Lcom/facebook/imagepipeline/request/b;)V
+    invoke-static {v0, v1, v2}, Lcom/vk/messengerageloader/i;->a(Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;Lcom/facebook/imagepipeline/request/b;)V
 
     .line 136
     :cond_b

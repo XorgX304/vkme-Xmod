@@ -15,9 +15,9 @@
 
 
 # static fields
-.field static b:Ljava/lang/reflect/Field; = null
+.field static b:Ljava/lang/reflect/Field;
 
-.field static c:Z = false
+.field static c:Z
 
 .field private static d:Ljava/lang/reflect/Field;
 

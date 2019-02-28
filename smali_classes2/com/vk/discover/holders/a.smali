@@ -22,7 +22,7 @@
 
 .field private final o:Landroid/widget/TextView;
 
-.field private final p:Lcom/vk/imageloader/view/VKImageView;
+.field private final p:Lcom/vk/messengerageloader/view/VKImageView;
 
 
 # direct methods
@@ -85,9 +85,9 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/discover/holders/a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/discover/holders/a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 58
     iget-object p1, p0, Lcom/vk/discover/holders/a;->a:Landroid/view/View;
@@ -99,7 +99,7 @@
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 59
-    iget-object p1, p0, Lcom/vk/discover/holders/a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/discover/holders/a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance v6, Landroid/graphics/drawable/InsetDrawable;
 
@@ -145,7 +145,7 @@
 
     check-cast v6, Landroid/graphics/drawable/Drawable;
 
-    invoke-virtual {p1, v6}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p1, v6}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(Landroid/graphics/drawable/Drawable;)V
 
     return-void
 .end method
@@ -236,16 +236,16 @@
     :goto_2
     if-eqz v0, :cond_3
 
-    iget-object p1, p0, Lcom/vk/discover/holders/a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/discover/holders/a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     goto :goto_3
 
     :cond_3
-    iget-object v0, p0, Lcom/vk/discover/holders/a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/discover/holders/a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :goto_3
     return-void

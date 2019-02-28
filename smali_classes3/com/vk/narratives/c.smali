@@ -67,7 +67,7 @@
 
     const-string v3, "storyNarrativeProcessor"
 
-    const-string v4, "getStoryNarrativeProcessor()Lcom/vk/imageloader/transform/StoryPreviewPostProcessor;"
+    const-string v4, "getStoryNarrativeProcessor()Lcom/vk/messengerageloader/transform/StoryPreviewPostProcessor;"
 
     invoke-direct {v1, v2, v3, v4}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/f/c;Ljava/lang/String;Ljava/lang/String;)V
 
@@ -91,7 +91,7 @@
 
     const-string v3, "narrativeSnippetProcessor"
 
-    const-string v4, "getNarrativeSnippetProcessor()Lcom/vk/imageloader/transform/StoryPreviewPostProcessor;"
+    const-string v4, "getNarrativeSnippetProcessor()Lcom/vk/messengerageloader/transform/StoryPreviewPostProcessor;"
 
     invoke-direct {v1, v2, v3, v4}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/f/c;Ljava/lang/String;Ljava/lang/String;)V
 
@@ -474,7 +474,7 @@
     return-object p0
 .end method
 
-.method public static final c()Lcom/vk/imageloader/a/f;
+.method public static final c()Lcom/vk/messengerageloader/a/f;
     .locals 3
 
     sget-object v0, Lcom/vk/narratives/c;->e:Lkotlin/d;
@@ -491,12 +491,12 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/a/f;
+    check-cast v0, Lcom/vk/messengerageloader/a/f;
 
     return-object v0
 .end method
 
-.method public static final d()Lcom/vk/imageloader/a/f;
+.method public static final d()Lcom/vk/messengerageloader/a/f;
     .locals 3
 
     sget-object v0, Lcom/vk/narratives/c;->f:Lkotlin/d;
@@ -513,7 +513,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/a/f;
+    check-cast v0, Lcom/vk/messengerageloader/a/f;
 
     return-object v0
 .end method

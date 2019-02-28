@@ -33,7 +33,7 @@
     if-eqz v0, :cond_0
 
     .line 16
-    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/attachments/ag;->A()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/attachments/ag;->A()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
@@ -55,7 +55,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setImageResource(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setImageResource(I)V
 
     .line 17
     invoke-virtual {p0}, Lcom/vk/newsfeed/holders/attachments/ag;->H()Landroid/widget/TextView;

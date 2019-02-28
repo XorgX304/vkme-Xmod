@@ -300,9 +300,9 @@
     invoke-virtual {v1, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     .line 180
-    sget-object v2, Lcom/vk/im/ui/a/f;->b:Lcom/vk/im/ui/a/f$a;
+    sget-object v2, Lcom/vk/messenger/ui/a/f;->b:Lcom/vk/messenger/ui/a/f$a;
 
-    invoke-virtual {v2}, Lcom/vk/im/ui/a/f$a;->b()Landroid/content/ComponentName;
+    invoke-virtual {v2}, Lcom/vk/messenger/ui/a/f$a;->b()Landroid/content/ComponentName;
 
     move-result-object v2
 
@@ -699,15 +699,15 @@
     move-object/from16 v0, p0
 
     .line 217
-    sget-object v1, Lcom/vk/im/ui/b;->b:Lcom/vk/im/ui/b;
+    sget-object v1, Lcom/vk/messenger/ui/b;->b:Lcom/vk/messenger/ui/b;
 
-    invoke-virtual {v1}, Lcom/vk/im/ui/b;->f()Lcom/vk/im/engine/models/camera/CameraState;
+    invoke-virtual {v1}, Lcom/vk/messenger/ui/b;->f()Lcom/vk/messenger/engine/models/camera/CameraState;
 
     move-result-object v1
 
     sget-object v2, Lcom/vk/navigation/n;->$EnumSwitchMapping$0:[I
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/camera/CameraState;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/camera/CameraState;->ordinal()I
 
     move-result v1
 

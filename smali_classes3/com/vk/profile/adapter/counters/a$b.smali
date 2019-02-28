@@ -133,13 +133,13 @@
     move-result-object p1
 
     .line 151
-    new-instance v1, Lcom/vk/imageloader/a/f;
+    new-instance v1, Lcom/vk/messengerageloader/a/f;
 
     const/16 v2, 0x14
 
     const/16 v3, 0x96
 
-    invoke-direct {v1, v2, v3}, Lcom/vk/imageloader/a/f;-><init>(II)V
+    invoke-direct {v1, v2, v3}, Lcom/vk/messengerageloader/a/f;-><init>(II)V
 
     check-cast v1, Lcom/facebook/imagepipeline/request/a;
 

@@ -45,7 +45,7 @@
 
 .field private final r:Landroid/widget/TextView;
 
-.field private final s:Lcom/vk/imageloader/view/VKImageView;
+.field private final s:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final t:Lcom/vk/core/util/ae;
     .annotation system Ldalvik/annotation/Signature;
@@ -201,9 +201,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/attachpicker/fragment/d$b;->s:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/attachpicker/fragment/d$b;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 83
     iget-object p1, p0, Lcom/vk/attachpicker/fragment/d$b;->a:Landroid/view/View;
@@ -215,9 +215,9 @@
     invoke-virtual {p1, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 84
-    iget-object p1, p0, Lcom/vk/attachpicker/fragment/d$b;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/attachpicker/fragment/d$b;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     return-void
 .end method
@@ -242,11 +242,11 @@
     invoke-virtual {v0, v1}, Lcom/vk/attachpicker/base/c$c;->a(Lcom/vk/core/serialize/Serializer$StreamParcelable;)V
 
     .line 90
-    iget-object v0, p0, Lcom/vk/attachpicker/fragment/d$b;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/attachpicker/fragment/d$b;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p1, Lcom/vk/dto/common/VideoFile;->q:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 91
     iget-object v0, p0, Lcom/vk/attachpicker/fragment/d$b;->o:Landroid/widget/TextView;
@@ -490,7 +490,7 @@
     if-nez v0, :cond_3
 
     .line 117
-    iget-object v0, p0, Lcom/vk/attachpicker/fragment/d$b;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/attachpicker/fragment/d$b;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 

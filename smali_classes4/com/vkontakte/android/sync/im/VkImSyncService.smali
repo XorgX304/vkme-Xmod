@@ -30,7 +30,7 @@
 
 
 # instance fields
-.field private final b:Lcom/vk/im/engine/d;
+.field private final b:Lcom/vk/messenger/engine/d;
 
 .field private c:Lio/reactivex/disposables/b;
 
@@ -57,22 +57,22 @@
     invoke-direct {p0}, Landroid/app/Service;-><init>()V
 
     .line 81
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/vkontakte/android/sync/im/VkImSyncService;->b:Lcom/vk/im/engine/d;
+    iput-object v0, p0, Lcom/vkontakte/android/sync/im/VkImSyncService;->b:Lcom/vk/messenger/engine/d;
 
     return-void
 .end method
 
-.method private final a(Lcom/vk/im/engine/StartCause;Z)V
+.method private final a(Lcom/vk/messenger/engine/StartCause;Z)V
     .locals 2
 
     .line 116
-    iget-object v0, p0, Lcom/vkontakte/android/sync/im/VkImSyncService;->b:Lcom/vk/im/engine/d;
+    iget-object v0, p0, Lcom/vkontakte/android/sync/im/VkImSyncService;->b:Lcom/vk/messenger/engine/d;
 
-    invoke-virtual {v0, p1, p2}, Lcom/vk/im/engine/d;->a(Lcom/vk/im/engine/StartCause;Z)V
+    invoke-virtual {v0, p1, p2}, Lcom/vk/messenger/engine/d;->a(Lcom/vk/messenger/engine/StartCause;Z)V
 
     if-nez p2, :cond_0
 
@@ -82,20 +82,20 @@
     if-nez p1, :cond_0
 
     .line 118
-    iget-object p1, p0, Lcom/vkontakte/android/sync/im/VkImSyncService;->b:Lcom/vk/im/engine/d;
+    iget-object p1, p0, Lcom/vkontakte/android/sync/im/VkImSyncService;->b:Lcom/vk/messenger/engine/d;
 
     .line 119
-    new-instance p2, Lcom/vk/im/engine/commands/account/i;
+    new-instance p2, Lcom/vk/messenger/engine/commands/account/i;
 
-    sget-object v0, Lcom/vk/im/engine/models/Source;->ACTUAL:Lcom/vk/im/engine/models/Source;
+    sget-object v0, Lcom/vk/messenger/engine/models/Source;->ACTUAL:Lcom/vk/messenger/engine/models/Source;
 
     const/4 v1, 0x1
 
-    invoke-direct {p2, v0, v1}, Lcom/vk/im/engine/commands/account/i;-><init>(Lcom/vk/im/engine/models/Source;Z)V
+    invoke-direct {p2, v0, v1}, Lcom/vk/messenger/engine/commands/account/i;-><init>(Lcom/vk/messenger/engine/models/Source;Z)V
 
-    check-cast p2, Lcom/vk/im/engine/commands/c;
+    check-cast p2, Lcom/vk/messenger/engine/commands/c;
 
-    invoke-virtual {p1, p0, p2}, Lcom/vk/im/engine/d;->b(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)Lio/reactivex/q;
+    invoke-virtual {p1, p0, p2}, Lcom/vk/messenger/engine/d;->b(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)Lio/reactivex/q;
 
     move-result-object p1
 
@@ -121,13 +121,13 @@
     return-void
 .end method
 
-.method private final a(Lcom/vk/im/engine/StopCause;Z)V
+.method private final a(Lcom/vk/messenger/engine/StopCause;Z)V
     .locals 1
 
     .line 126
-    iget-object v0, p0, Lcom/vkontakte/android/sync/im/VkImSyncService;->b:Lcom/vk/im/engine/d;
+    iget-object v0, p0, Lcom/vkontakte/android/sync/im/VkImSyncService;->b:Lcom/vk/messenger/engine/d;
 
-    invoke-virtual {v0, p1, p2}, Lcom/vk/im/engine/d;->a(Lcom/vk/im/engine/StopCause;Z)V
+    invoke-virtual {v0, p1, p2}, Lcom/vk/messenger/engine/d;->a(Lcom/vk/messenger/engine/StopCause;Z)V
 
     .line 127
     iget-object p1, p0, Lcom/vkontakte/android/sync/im/VkImSyncService;->c:Lio/reactivex/disposables/b;
@@ -206,11 +206,11 @@
     invoke-super {p0}, Landroid/app/Service;->onDestroy()V
 
     .line 105
-    sget-object v0, Lcom/vk/im/engine/StopCause;->SERVICE_DESTROY:Lcom/vk/im/engine/StopCause;
+    sget-object v0, Lcom/vk/messenger/engine/StopCause;->SERVICE_DESTROY:Lcom/vk/messenger/engine/StopCause;
 
     const/4 v1, 0x0
 
-    invoke-direct {p0, v0, v1}, Lcom/vkontakte/android/sync/im/VkImSyncService;->a(Lcom/vk/im/engine/StopCause;Z)V
+    invoke-direct {p0, v0, v1}, Lcom/vkontakte/android/sync/im/VkImSyncService;->a(Lcom/vk/messenger/engine/StopCause;Z)V
 
     .line 106
     sget-object v0, Lcom/vkontakte/android/sync/im/VkImSyncService;->a:Lcom/vkontakte/android/sync/im/VkImSyncService$a;
@@ -310,9 +310,9 @@
     throw p1
 
     :cond_4
-    check-cast p1, Lcom/vk/im/engine/StartCause;
+    check-cast p1, Lcom/vk/messenger/engine/StartCause;
 
-    invoke-direct {p0, p1, v2}, Lcom/vkontakte/android/sync/im/VkImSyncService;->a(Lcom/vk/im/engine/StartCause;Z)V
+    invoke-direct {p0, p1, v2}, Lcom/vkontakte/android/sync/im/VkImSyncService;->a(Lcom/vk/messenger/engine/StartCause;Z)V
 
     goto :goto_0
 
@@ -338,11 +338,11 @@
     throw p1
 
     :cond_6
-    check-cast p1, Lcom/vk/im/engine/StartCause;
+    check-cast p1, Lcom/vk/messenger/engine/StartCause;
 
     const/4 p3, 0x0
 
-    invoke-direct {p0, p1, p3}, Lcom/vkontakte/android/sync/im/VkImSyncService;->a(Lcom/vk/im/engine/StartCause;Z)V
+    invoke-direct {p0, p1, p3}, Lcom/vkontakte/android/sync/im/VkImSyncService;->a(Lcom/vk/messenger/engine/StartCause;Z)V
 
     goto :goto_0
 
@@ -368,9 +368,9 @@
     throw p1
 
     :cond_8
-    check-cast p1, Lcom/vk/im/engine/StopCause;
+    check-cast p1, Lcom/vk/messenger/engine/StopCause;
 
-    invoke-direct {p0, p1, v2}, Lcom/vkontakte/android/sync/im/VkImSyncService;->a(Lcom/vk/im/engine/StopCause;Z)V
+    invoke-direct {p0, p1, v2}, Lcom/vkontakte/android/sync/im/VkImSyncService;->a(Lcom/vk/messenger/engine/StopCause;Z)V
 
     .line 99
     :goto_0

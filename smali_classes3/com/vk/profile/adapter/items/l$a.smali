@@ -15,5 +15,5 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/vk/imageloader/view/VKImageView;Lcom/vk/imageloader/ImageSize;)V
+.method public abstract a(Lcom/vk/messengerageloader/view/VKImageView;Lcom/vk/messengerageloader/ImageSize;)V
 .end method

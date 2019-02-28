@@ -14,7 +14,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final o:Landroid/widget/ImageView;
 
@@ -62,9 +62,9 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/fave/fragments/holders/g;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/fave/fragments/holders/g;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 14
     iget-object p1, p0, Lcom/vk/fave/fragments/holders/g;->a:Landroid/view/View;
@@ -122,7 +122,7 @@
     if-eqz p1, :cond_4
 
     .line 23
-    iget-object v0, p0, Lcom/vk/fave/fragments/holders/g;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/fave/fragments/holders/g;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 24
     invoke-virtual {p1}, Lcom/vk/fave/entities/FavePage;->b()Ljava/lang/String;
@@ -146,10 +146,10 @@
 
     .line 23
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     .line 26
-    iget-object v0, p0, Lcom/vk/fave/fragments/holders/g;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/fave/fragments/holders/g;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/fave/entities/FavePage;->e()Lcom/vk/dto/newsfeed/Owner;
 
@@ -169,7 +169,7 @@
     move-object v1, v2
 
     :goto_1
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 27
     iget-object v0, p0, Lcom/vk/fave/fragments/holders/g;->p:Landroid/widget/TextView;

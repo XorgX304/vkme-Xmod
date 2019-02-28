@@ -232,7 +232,7 @@
     :goto_0
     iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc$e;->a:Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;
 
-    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->h(Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;)Lcom/vk/im/ui/components/viewcontrollers/b/b;
+    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->h(Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;)Lcom/vk/messenger/ui/components/viewcontrollers/b/b;
 
     move-result-object v0
 
@@ -242,7 +242,7 @@
 
     move-result v2
 
-    invoke-interface {v0, v2, v1}, Lcom/vk/im/ui/components/viewcontrollers/b/b;->a(IZ)V
+    invoke-interface {v0, v2, v1}, Lcom/vk/messenger/ui/components/viewcontrollers/b/b;->a(IZ)V
 
     .line 202
     iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc$e;->a:Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;
@@ -279,11 +279,11 @@
     .line 213
     iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc$e;->a:Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;
 
-    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->h(Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;)Lcom/vk/im/ui/components/viewcontrollers/b/b;
+    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->h(Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;)Lcom/vk/messenger/ui/components/viewcontrollers/b/b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/vk/im/ui/components/viewcontrollers/b/b;->c()V
+    invoke-interface {v0}, Lcom/vk/messenger/ui/components/viewcontrollers/b/b;->c()V
 
     return-void
 .end method

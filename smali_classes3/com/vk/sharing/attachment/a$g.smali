@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field private a:Lcom/vk/imageloader/view/VKImageView;
+.field private a:Lcom/vk/messengerageloader/view/VKImageView;
 
 
 # direct methods
@@ -39,21 +39,21 @@
     invoke-direct {p2, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
     .line 149
-    new-instance v0, Lcom/vk/imageloader/view/VKImageView;
+    new-instance v0, Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-direct {v0, p1}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
-    iput-object v0, p0, Lcom/vk/sharing/attachment/a$g;->a:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vk/sharing/attachment/a$g;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 150
-    iget-object p1, p0, Lcom/vk/sharing/attachment/a$g;->a:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/sharing/attachment/a$g;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f0806e5
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     .line 151
-    iget-object p1, p0, Lcom/vk/sharing/attachment/a$g;->a:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/sharing/attachment/a$g;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance v0, Landroid/widget/FrameLayout$LayoutParams;
 
@@ -80,12 +80,12 @@
     .locals 2
 
     .line 157
-    iget-object v0, p0, Lcom/vk/sharing/attachment/a$g;->a:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/sharing/attachment/a$g;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_0
 
     .line 158
-    iget-object v0, p0, Lcom/vk/sharing/attachment/a$g;->a:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/sharing/attachment/a$g;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
     const-string v1, "thumbUrl"
 
@@ -93,7 +93,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :cond_0
     return-void

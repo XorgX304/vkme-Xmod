@@ -29,7 +29,7 @@
 # instance fields
 .field final synthetic n:Lcom/vk/menu/d;
 
-.field private final o:Lcom/vk/imageloader/view/VKImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final p:Landroid/widget/TextView;
 
@@ -78,9 +78,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/menu/d$g;->o:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/menu/d$g;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 564
     iget-object p1, p0, Lcom/vk/menu/d$g;->a:Landroid/view/View;
@@ -173,11 +173,11 @@
     if-eqz p1, :cond_2
 
     .line 575
-    iget-object v0, p0, Lcom/vk/menu/d$g;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/menu/d$g;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p1, Lcom/vkontakte/android/cache/Cache$BirthdayEntry;->r:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 576
     iget-object v0, p0, Lcom/vk/menu/d$g;->p:Landroid/widget/TextView;

@@ -227,10 +227,6 @@
     if-nez v1, :cond_2
 
     .line 107
-    sget-object v1, Lcom/vk/analytics/eventtracking/VkTracker;->b:Lcom/vk/analytics/eventtracking/VkTracker;
-
-    invoke-virtual {v1, v0}, Lcom/vk/analytics/eventtracking/VkTracker;->a(Z)V
-
     :cond_2
     return-void
 .end method

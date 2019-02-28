@@ -63,11 +63,11 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->a(Lcom/vkontakte/android/attachments/DocumentAttachment$a;)Lcom/vk/imageloader/view/VKImageView;
+    invoke-static {v0}, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->a(Lcom/vkontakte/android/attachments/DocumentAttachment$a;)Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 547
     :cond_0

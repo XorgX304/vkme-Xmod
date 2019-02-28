@@ -29,7 +29,7 @@
 # instance fields
 .field final synthetic n:Lcom/vk/menu/d;
 
-.field private final o:Lcom/vk/imageloader/view/VKImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final p:Landroid/widget/TextView;
 
@@ -78,9 +78,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/menu/d$j;->o:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/menu/d$j;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 606
     iget-object p1, p0, Lcom/vk/menu/d$j;->a:Landroid/view/View;
@@ -197,9 +197,9 @@
     move-result-object v0
 
     .line 619
-    iget-object v1, p0, Lcom/vk/menu/d$j;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/menu/d$j;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 620
     iget-object v0, p0, Lcom/vk/menu/d$j;->p:Landroid/widget/TextView;

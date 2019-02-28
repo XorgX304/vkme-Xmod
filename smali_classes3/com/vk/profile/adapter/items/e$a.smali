@@ -31,7 +31,7 @@
 
 .field private final o:Landroid/widget/TextView;
 
-.field private final p:Lcom/vk/imageloader/view/VKImageView;
+.field private final p:Lcom/vk/messengerageloader/view/VKImageView;
 
 
 # direct methods
@@ -80,16 +80,16 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/profile/adapter/items/e$a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/profile/adapter/items/e$a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 37
-    iget-object p1, p0, Lcom/vk/profile/adapter/items/e$a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/profile/adapter/items/e$a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p2, 0x7f0800a0
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setBackgroundResource(I)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setBackgroundResource(I)V
 
     return-void
 .end method
@@ -128,23 +128,23 @@
     if-eqz v0, :cond_0
 
     .line 43
-    iget-object p1, p0, Lcom/vk/profile/adapter/items/e$a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/profile/adapter/items/e$a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f080305
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(I)V
 
     goto :goto_0
 
     .line 45
     :cond_0
-    iget-object v0, p0, Lcom/vk/profile/adapter/items/e$a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/adapter/items/e$a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/profile/adapter/items/e;->b()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :goto_0
     return-void

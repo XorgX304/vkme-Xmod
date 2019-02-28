@@ -99,8 +99,6 @@
 
     .line 21
     :cond_0
-    sget-object v1, Lcom/vk/analytics/eventtracking/VkTracker;->b:Lcom/vk/analytics/eventtracking/VkTracker;
-
     sget-object v2, Lcom/vk/analytics/eventtracking/Event;->a:Lcom/vk/analytics/eventtracking/Event$b;
 
     invoke-virtual {v2}, Lcom/vk/analytics/eventtracking/Event$b;->a()Lcom/vk/analytics/eventtracking/Event$a;
@@ -148,8 +146,6 @@
     move-result-object p1
 
     .line 21
-    invoke-virtual {v1, p1}, Lcom/vk/analytics/eventtracking/VkTracker;->a(Lcom/vk/analytics/eventtracking/Event;)V
-
     .line 27
     sget-object p1, Lcom/vk/analytics/c/c;->b:Landroid/util/SparseIntArray;
 

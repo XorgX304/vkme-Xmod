@@ -69,11 +69,11 @@
     .line 76
     iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/new_chat/NewChatFragment$onViewCreated$4;->this$0:Lcom/vkontakte/android/fragments/messages/new_chat/a;
 
-    invoke-static {p1}, Lcom/vkontakte/android/fragments/messages/new_chat/a;->c(Lcom/vkontakte/android/fragments/messages/new_chat/a;)Lcom/vk/im/ui/components/new_chat/f;
+    invoke-static {p1}, Lcom/vkontakte/android/fragments/messages/new_chat/a;->c(Lcom/vkontakte/android/fragments/messages/new_chat/a;)Lcom/vk/messenger/ui/components/new_chat/f;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/vk/im/ui/components/new_chat/f;->n()V
+    invoke-virtual {p1}, Lcom/vk/messenger/ui/components/new_chat/f;->n()V
 
     return-void
 .end method

@@ -28,7 +28,7 @@
 
 
 # instance fields
-.field n:Lcom/vk/imageloader/view/VKImageView;
+.field n:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field o:Landroid/widget/TextView;
 
@@ -62,9 +62,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/a;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/a;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x7f0a0167
 
@@ -177,21 +177,21 @@
     if-eqz v0, :cond_0
 
     .line 64
-    iget-object v0, p0, Lcom/vkontakte/android/ui/holder/a;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/holder/a;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p1, Lcom/vkontakte/android/api/e;->j:Lcom/vkontakte/android/UserProfile;
 
     iget-object v1, v1, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 66
     :cond_0
-    iget-object v0, p0, Lcom/vkontakte/android/ui/holder/a;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/holder/a;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 68
     :goto_0

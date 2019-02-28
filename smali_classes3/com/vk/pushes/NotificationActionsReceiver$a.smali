@@ -869,40 +869,40 @@
 
     .line 194
     :goto_0
-    new-instance v2, Lcom/vk/im/engine/commands/dialogs/af$a;
+    new-instance v2, Lcom/vk/messenger/engine/commands/dialogs/af$a;
 
-    invoke-direct {v2}, Lcom/vk/im/engine/commands/dialogs/af$a;-><init>()V
+    invoke-direct {v2}, Lcom/vk/messenger/engine/commands/dialogs/af$a;-><init>()V
 
     .line 195
-    invoke-virtual {v2, v0}, Lcom/vk/im/engine/commands/dialogs/af$a;->a(I)Lcom/vk/im/engine/commands/dialogs/af$a;
+    invoke-virtual {v2, v0}, Lcom/vk/messenger/engine/commands/dialogs/af$a;->a(I)Lcom/vk/messenger/engine/commands/dialogs/af$a;
 
     move-result-object v0
 
     .line 196
-    invoke-virtual {v0, v1, v3, v4}, Lcom/vk/im/engine/commands/dialogs/af$a;->a(ZJ)Lcom/vk/im/engine/commands/dialogs/af$a;
+    invoke-virtual {v0, v1, v3, v4}, Lcom/vk/messenger/engine/commands/dialogs/af$a;->a(ZJ)Lcom/vk/messenger/engine/commands/dialogs/af$a;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
     .line 197
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/commands/dialogs/af$a;->a(Z)Lcom/vk/im/engine/commands/dialogs/af$a;
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/commands/dialogs/af$a;->a(Z)Lcom/vk/messenger/engine/commands/dialogs/af$a;
 
     move-result-object v0
 
     .line 198
-    invoke-virtual {v0}, Lcom/vk/im/engine/commands/dialogs/af$a;->a()Lcom/vk/im/engine/commands/dialogs/af;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/commands/dialogs/af$a;->a()Lcom/vk/messenger/engine/commands/dialogs/af;
 
     move-result-object v0
 
     .line 199
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v1
 
-    check-cast v0, Lcom/vk/im/engine/commands/c;
+    check-cast v0, Lcom/vk/messenger/engine/commands/c;
 
-    invoke-virtual {v1, v0}, Lcom/vk/im/engine/d;->b(Lcom/vk/im/engine/commands/c;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messenger/engine/d;->b(Lcom/vk/messenger/engine/commands/c;)V
 
     .line 201
     move-object v2, p0
@@ -1016,13 +1016,13 @@
     if-eqz p2, :cond_0
 
     .line 219
-    invoke-static {}, Lcom/vk/im/engine/f;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vk/messenger/engine/f;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
-    new-instance v1, Lcom/vk/im/engine/commands/requests/b;
+    new-instance v1, Lcom/vk/messenger/engine/commands/requests/b;
 
-    sget-object v4, Lcom/vk/im/engine/models/MsgRequestStatus;->ACCEPTED:Lcom/vk/im/engine/models/MsgRequestStatus;
+    sget-object v4, Lcom/vk/messenger/engine/models/MsgRequestStatus;->ACCEPTED:Lcom/vk/messenger/engine/models/MsgRequestStatus;
 
     const/4 v5, 0x0
 
@@ -1034,11 +1034,11 @@
 
     move v3, p2
 
-    invoke-direct/range {v2 .. v7}, Lcom/vk/im/engine/commands/requests/b;-><init>(ILcom/vk/im/engine/models/MsgRequestStatus;Ljava/lang/Object;ILkotlin/jvm/internal/h;)V
+    invoke-direct/range {v2 .. v7}, Lcom/vk/messenger/engine/commands/requests/b;-><init>(ILcom/vk/messenger/engine/models/MsgRequestStatus;Ljava/lang/Object;ILkotlin/jvm/internal/h;)V
 
-    check-cast v1, Lcom/vk/im/engine/commands/c;
+    check-cast v1, Lcom/vk/messenger/engine/commands/c;
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/d;->b(Lcom/vk/im/engine/commands/c;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/d;->b(Lcom/vk/messenger/engine/commands/c;)V
 
     .line 220
     sget-object v0, Lcom/vk/pushes/a/e;->a:Lcom/vk/pushes/a/e;
@@ -1082,13 +1082,13 @@
     if-eqz p2, :cond_0
 
     .line 228
-    invoke-static {}, Lcom/vk/im/engine/f;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vk/messenger/engine/f;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
-    new-instance v1, Lcom/vk/im/engine/commands/requests/b;
+    new-instance v1, Lcom/vk/messenger/engine/commands/requests/b;
 
-    sget-object v4, Lcom/vk/im/engine/models/MsgRequestStatus;->REJECTED:Lcom/vk/im/engine/models/MsgRequestStatus;
+    sget-object v4, Lcom/vk/messenger/engine/models/MsgRequestStatus;->REJECTED:Lcom/vk/messenger/engine/models/MsgRequestStatus;
 
     const/4 v5, 0x0
 
@@ -1100,11 +1100,11 @@
 
     move v3, p2
 
-    invoke-direct/range {v2 .. v7}, Lcom/vk/im/engine/commands/requests/b;-><init>(ILcom/vk/im/engine/models/MsgRequestStatus;Ljava/lang/Object;ILkotlin/jvm/internal/h;)V
+    invoke-direct/range {v2 .. v7}, Lcom/vk/messenger/engine/commands/requests/b;-><init>(ILcom/vk/messenger/engine/models/MsgRequestStatus;Ljava/lang/Object;ILkotlin/jvm/internal/h;)V
 
-    check-cast v1, Lcom/vk/im/engine/commands/c;
+    check-cast v1, Lcom/vk/messenger/engine/commands/c;
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/d;->b(Lcom/vk/im/engine/commands/c;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/d;->b(Lcom/vk/messenger/engine/commands/c;)V
 
     .line 229
     sget-object v0, Lcom/vk/pushes/a/e;->a:Lcom/vk/pushes/a/e;
@@ -1254,7 +1254,7 @@
     if-eqz v3, :cond_5
 
     .line 250
-    new-instance v3, Lcom/vk/im/engine/commands/messages/ac;
+    new-instance v3, Lcom/vk/messenger/engine/commands/messages/ac;
 
     const/4 v7, 0x0
 
@@ -1280,16 +1280,16 @@
 
     move v5, v2
 
-    invoke-direct/range {v4 .. v16}, Lcom/vk/im/engine/commands/messages/ac;-><init>(ILjava/lang/String;Lcom/vk/im/engine/models/messages/MsgSendSource;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lcom/vk/im/engine/utils/collection/h;Ljava/lang/Integer;ILkotlin/jvm/internal/h;)V
+    invoke-direct/range {v4 .. v16}, Lcom/vk/messenger/engine/commands/messages/ac;-><init>(ILjava/lang/String;Lcom/vk/messenger/engine/models/messages/MsgSendSource;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lcom/vk/messenger/engine/utils/collection/h;Ljava/lang/Integer;ILkotlin/jvm/internal/h;)V
 
     .line 254
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v4
 
-    check-cast v3, Lcom/vk/im/engine/commands/c;
+    check-cast v3, Lcom/vk/messenger/engine/commands/c;
 
-    invoke-virtual {v4, v3}, Lcom/vk/im/engine/d;->b(Lcom/vk/im/engine/commands/c;)V
+    invoke-virtual {v4, v3}, Lcom/vk/messenger/engine/d;->b(Lcom/vk/messenger/engine/commands/c;)V
 
     .line 255
     move-object/from16 v4, p0
@@ -1354,11 +1354,11 @@
     move-result v4
 
     .line 274
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v1
 
-    new-instance v8, Lcom/vk/im/engine/commands/messages/u;
+    new-instance v8, Lcom/vk/messenger/engine/commands/messages/u;
 
     const/4 v5, 0x0
 
@@ -1370,11 +1370,11 @@
 
     move v3, v0
 
-    invoke-direct/range {v2 .. v7}, Lcom/vk/im/engine/commands/messages/u;-><init>(IILjava/lang/Object;ILkotlin/jvm/internal/h;)V
+    invoke-direct/range {v2 .. v7}, Lcom/vk/messenger/engine/commands/messages/u;-><init>(IILjava/lang/Object;ILkotlin/jvm/internal/h;)V
 
-    check-cast v8, Lcom/vk/im/engine/commands/c;
+    check-cast v8, Lcom/vk/messenger/engine/commands/c;
 
-    invoke-virtual {v1, v8}, Lcom/vk/im/engine/d;->b(Lcom/vk/im/engine/commands/c;)V
+    invoke-virtual {v1, v8}, Lcom/vk/messenger/engine/d;->b(Lcom/vk/messenger/engine/commands/c;)V
 
     .line 275
     sget-object v1, Lcom/vk/pushes/a/b;->a:Lcom/vk/pushes/a/b;

@@ -72,13 +72,13 @@
     .line 597
     iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar$8;->b:Lcom/vkontakte/android/ui/WriteBar;
 
-    invoke-static {v0}, Lcom/vkontakte/android/ui/WriteBar;->s(Lcom/vkontakte/android/ui/WriteBar;)Lcom/vk/im/ui/views/RichEditText;
+    invoke-static {v0}, Lcom/vkontakte/android/ui/WriteBar;->s(Lcom/vkontakte/android/ui/WriteBar;)Lcom/vk/messenger/ui/views/RichEditText;
 
     move-result-object v0
 
     const-string v1, ""
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/views/RichEditText;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/views/RichEditText;->setText(Ljava/lang/CharSequence;)V
 
     .line 598
     iget-object v0, p0, Lcom/vkontakte/android/ui/WriteBar$8;->b:Lcom/vkontakte/android/ui/WriteBar;

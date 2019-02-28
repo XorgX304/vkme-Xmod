@@ -499,9 +499,9 @@
     .line 202
     iget-object p1, p0, Lcom/vkontakte/android/ui/holder/video/BaseAutoPlayHolder;->B:Lcom/vk/newsfeed/FrescoImageView;
 
-    sget-object p2, Lcom/vk/im/ui/views/ScaleType;->CENTER_CROP:Lcom/vk/im/ui/views/ScaleType;
+    sget-object p2, Lcom/vk/messenger/ui/views/ScaleType;->CENTER_CROP:Lcom/vk/messenger/ui/views/ScaleType;
 
-    invoke-virtual {p1, p2}, Lcom/vk/newsfeed/FrescoImageView;->setScaleType(Lcom/vk/im/ui/views/ScaleType;)V
+    invoke-virtual {p1, p2}, Lcom/vk/newsfeed/FrescoImageView;->setScaleType(Lcom/vk/messenger/ui/views/ScaleType;)V
 
     .line 203
     iget-object p1, p0, Lcom/vkontakte/android/ui/holder/video/BaseAutoPlayHolder;->B:Lcom/vk/newsfeed/FrescoImageView;

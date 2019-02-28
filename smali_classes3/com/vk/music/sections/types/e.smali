@@ -14,7 +14,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final o:Landroid/widget/TextView;
 
@@ -73,9 +73,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p2, p0, Lcom/vk/music/sections/types/e;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vk/music/sections/types/e;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 27
     iget-object p2, p0, Lcom/vk/music/sections/types/e;->a:Landroid/view/View;
@@ -209,9 +209,9 @@
     if-ne p1, p2, :cond_0
 
     .line 43
-    iget-object p1, p0, Lcom/vk/music/sections/types/e;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/music/sections/types/e;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    new-instance p2, Lcom/vk/imageloader/a/c;
+    new-instance p2, Lcom/vk/messengerageloader/a/c;
 
     const/16 p3, 0x32
 
@@ -233,11 +233,11 @@
     move-result v0
 
     .line 43
-    invoke-direct {p2, p3, v0}, Lcom/vk/imageloader/a/c;-><init>(II)V
+    invoke-direct {p2, p3, v0}, Lcom/vk/messengerageloader/a/c;-><init>(II)V
 
     check-cast p2, Lcom/facebook/imagepipeline/request/a;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
 
     .line 45
     iget-object p1, p0, Lcom/vk/music/sections/types/e;->q:Landroid/view/View;
@@ -320,17 +320,17 @@
 
     if-eqz v1, :cond_2
 
-    iget-object v2, p0, Lcom/vk/music/sections/types/e;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v2, p0, Lcom/vk/music/sections/types/e;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v2}, Lcom/vk/imageloader/view/VKImageView;->getWidth()I
+    invoke-virtual {v2}, Lcom/vk/messengerageloader/view/VKImageView;->getWidth()I
 
     move-result v2
 
     if-lez v2, :cond_1
 
-    iget-object v0, p0, Lcom/vk/music/sections/types/e;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/music/sections/types/e;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getWidth()I
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getWidth()I
 
     move-result v0
 
@@ -348,9 +348,9 @@
     if-eqz v0, :cond_2
 
     .line 55
-    iget-object v1, p0, Lcom/vk/music/sections/types/e;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/music/sections/types/e;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->b(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->b(Ljava/lang/String;)V
 
     .line 57
     :cond_2

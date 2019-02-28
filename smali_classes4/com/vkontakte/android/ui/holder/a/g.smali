@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private final o:Lcom/vk/imageloader/view/VKImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final p:Lcom/vk/wall/e$c;
 
@@ -44,9 +44,9 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/a/g;->o:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/a/g;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 18
     iget-object p1, p0, Lcom/vkontakte/android/ui/holder/a/g;->a:Landroid/view/View;
@@ -121,7 +121,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 22
-    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/a/g;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/a/g;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {}, Lcom/vkontakte/android/auth/a;->b()Lcom/vk/c/a;
 
@@ -131,7 +131,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     return-void
 .end method

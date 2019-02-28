@@ -70,7 +70,7 @@
 
     aput v5, v0, v1
 
-    invoke-static {}, Lcom/vk/im/engine/models/WritePermission;->values()[Lcom/vk/im/engine/models/WritePermission;
+    invoke-static {}, Lcom/vk/messenger/engine/models/WritePermission;->values()[Lcom/vk/messenger/engine/models/WritePermission;
 
     move-result-object v0
 
@@ -82,9 +82,9 @@
 
     sget-object v0, Lcom/vkontakte/android/fragments/messages/chat/vc/b;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/vk/im/engine/models/WritePermission;->DISABLED_SENDER_KICKED:Lcom/vk/im/engine/models/WritePermission;
+    sget-object v1, Lcom/vk/messenger/engine/models/WritePermission;->DISABLED_SENDER_KICKED:Lcom/vk/messenger/engine/models/WritePermission;
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/WritePermission;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/WritePermission;->ordinal()I
 
     move-result v1
 
@@ -92,9 +92,9 @@
 
     sget-object v0, Lcom/vkontakte/android/fragments/messages/chat/vc/b;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/vk/im/engine/models/WritePermission;->DISABLED_SENDER_LEFT:Lcom/vk/im/engine/models/WritePermission;
+    sget-object v1, Lcom/vk/messenger/engine/models/WritePermission;->DISABLED_SENDER_LEFT:Lcom/vk/messenger/engine/models/WritePermission;
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/WritePermission;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/WritePermission;->ordinal()I
 
     move-result v1
 
@@ -102,9 +102,9 @@
 
     sget-object v0, Lcom/vkontakte/android/fragments/messages/chat/vc/b;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/vk/im/engine/models/WritePermission;->DISABLED_SENDER_FORBIDDEN:Lcom/vk/im/engine/models/WritePermission;
+    sget-object v1, Lcom/vk/messenger/engine/models/WritePermission;->DISABLED_SENDER_FORBIDDEN:Lcom/vk/messenger/engine/models/WritePermission;
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/WritePermission;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/WritePermission;->ordinal()I
 
     move-result v1
 
@@ -112,9 +112,9 @@
 
     sget-object v0, Lcom/vkontakte/android/fragments/messages/chat/vc/b;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/vk/im/engine/models/WritePermission;->DISABLED_RECEIVER_PRIVACY_SETTINGS:Lcom/vk/im/engine/models/WritePermission;
+    sget-object v1, Lcom/vk/messenger/engine/models/WritePermission;->DISABLED_RECEIVER_PRIVACY_SETTINGS:Lcom/vk/messenger/engine/models/WritePermission;
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/WritePermission;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/WritePermission;->ordinal()I
 
     move-result v1
 
@@ -122,9 +122,9 @@
 
     sget-object v0, Lcom/vkontakte/android/fragments/messages/chat/vc/b;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/vk/im/engine/models/WritePermission;->DISABLED_RECEIVER_PERMISSION_REQUIRED:Lcom/vk/im/engine/models/WritePermission;
+    sget-object v1, Lcom/vk/messenger/engine/models/WritePermission;->DISABLED_RECEIVER_PERMISSION_REQUIRED:Lcom/vk/messenger/engine/models/WritePermission;
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/WritePermission;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/WritePermission;->ordinal()I
 
     move-result v1
 
@@ -134,9 +134,9 @@
 
     sget-object v0, Lcom/vkontakte/android/fragments/messages/chat/vc/b;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/vk/im/engine/models/WritePermission;->DISABLED_RECEIVER_ACCESS_DENIED:Lcom/vk/im/engine/models/WritePermission;
+    sget-object v1, Lcom/vk/messenger/engine/models/WritePermission;->DISABLED_RECEIVER_ACCESS_DENIED:Lcom/vk/messenger/engine/models/WritePermission;
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/WritePermission;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/WritePermission;->ordinal()I
 
     move-result v1
 
@@ -146,9 +146,9 @@
 
     sget-object v0, Lcom/vkontakte/android/fragments/messages/chat/vc/b;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/vk/im/engine/models/WritePermission;->DISABLED_RECEIVER_MSG_NOT_ENABLED:Lcom/vk/im/engine/models/WritePermission;
+    sget-object v1, Lcom/vk/messenger/engine/models/WritePermission;->DISABLED_RECEIVER_MSG_NOT_ENABLED:Lcom/vk/messenger/engine/models/WritePermission;
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/WritePermission;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/WritePermission;->ordinal()I
 
     move-result v1
 
@@ -158,9 +158,9 @@
 
     sget-object v0, Lcom/vkontakte/android/fragments/messages/chat/vc/b;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/vk/im/engine/models/WritePermission;->DISABLED_RECEIVER_DELETED:Lcom/vk/im/engine/models/WritePermission;
+    sget-object v1, Lcom/vk/messenger/engine/models/WritePermission;->DISABLED_RECEIVER_DELETED:Lcom/vk/messenger/engine/models/WritePermission;
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/WritePermission;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/WritePermission;->ordinal()I
 
     move-result v1
 
@@ -170,9 +170,9 @@
 
     sget-object v0, Lcom/vkontakte/android/fragments/messages/chat/vc/b;->$EnumSwitchMapping$1:[I
 
-    sget-object v1, Lcom/vk/im/engine/models/WritePermission;->DISABLED_UNKNOWN:Lcom/vk/im/engine/models/WritePermission;
+    sget-object v1, Lcom/vk/messenger/engine/models/WritePermission;->DISABLED_UNKNOWN:Lcom/vk/messenger/engine/models/WritePermission;
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/WritePermission;->ordinal()I
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/WritePermission;->ordinal()I
 
     move-result v1
 

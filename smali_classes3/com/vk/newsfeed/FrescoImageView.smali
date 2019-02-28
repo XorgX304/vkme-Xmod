@@ -44,9 +44,9 @@
 
 .field private final f:[Lcom/facebook/imagepipeline/request/ImageRequest;
 
-.field private final g:Lcom/vk/im/ui/views/e$a;
+.field private final g:Lcom/vk/messenger/ui/views/e$a;
 
-.field private final h:Lcom/vk/im/ui/views/e$b;
+.field private final h:Lcom/vk/messenger/ui/views/e$b;
 
 .field private final i:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -84,13 +84,13 @@
 
 .field private r:Z
 
-.field private s:Lcom/vk/im/ui/views/c;
+.field private s:Lcom/vk/messenger/ui/views/c;
 
 .field private t:I
 
 .field private u:Lcom/facebook/imagepipeline/request/b;
 
-.field private v:Lcom/vk/im/ui/views/ScaleType;
+.field private v:Lcom/vk/messenger/ui/views/ScaleType;
 
 .field private w:F
 
@@ -182,9 +182,9 @@
     iput-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->a:Lcom/facebook/imagepipeline/j/a;
 
     .line 46
-    sget-object v0, Lcom/vk/imageloader/c;->a:Lcom/vk/imageloader/c;
+    sget-object v0, Lcom/vk/messengerageloader/c;->a:Lcom/vk/messengerageloader/c;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/c;->b()Lcom/facebook/drawee/a/a/e;
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/c;->b()Lcom/facebook/drawee/a/a/e;
 
     move-result-object v0
 
@@ -251,18 +251,18 @@
     iput-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->f:[Lcom/facebook/imagepipeline/request/ImageRequest;
 
     .line 54
-    new-instance v0, Lcom/vk/im/ui/views/e$a;
+    new-instance v0, Lcom/vk/messenger/ui/views/e$a;
 
-    invoke-direct {v0}, Lcom/vk/im/ui/views/e$a;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/ui/views/e$a;-><init>()V
 
-    iput-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->g:Lcom/vk/im/ui/views/e$a;
+    iput-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->g:Lcom/vk/messenger/ui/views/e$a;
 
     .line 55
-    new-instance v0, Lcom/vk/im/ui/views/e$b;
+    new-instance v0, Lcom/vk/messenger/ui/views/e$b;
 
-    invoke-direct {v0}, Lcom/vk/im/ui/views/e$b;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/ui/views/e$b;-><init>()V
 
-    iput-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/im/ui/views/e$b;
+    iput-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/messenger/ui/views/e$b;
 
     .line 57
     new-instance v0, Ljava/util/ArrayList;
@@ -292,7 +292,7 @@
     iput-boolean v2, p0, Lcom/vk/newsfeed/FrescoImageView;->q:Z
 
     .line 87
-    new-instance v0, Lcom/vk/im/ui/views/c;
+    new-instance v0, Lcom/vk/messenger/ui/views/c;
 
     const/4 v5, 0x0
 
@@ -308,9 +308,9 @@
 
     move-object v4, v0
 
-    invoke-direct/range {v4 .. v10}, Lcom/vk/im/ui/views/c;-><init>(IIIIILkotlin/jvm/internal/h;)V
+    invoke-direct/range {v4 .. v10}, Lcom/vk/messenger/ui/views/c;-><init>(IIIIILkotlin/jvm/internal/h;)V
 
-    iput-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/im/ui/views/c;
+    iput-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/messenger/ui/views/c;
 
     .line 138
     iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->e:Lcom/facebook/drawee/view/b;
@@ -334,7 +334,7 @@
     invoke-virtual {v0, v1}, Landroid/graphics/drawable/Drawable;->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V
 
     .line 140
-    sget-object v0, Lcom/vk/im/ui/d$n;->FrescoImageView:[I
+    sget-object v0, Lcom/vk/messenger/ui/d$n;->FrescoImageView:[I
 
     invoke-virtual {p1, p2, v0, p3, v3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -459,7 +459,7 @@
     return-object p1
 .end method
 
-.method private final a(Lcom/vk/dto/common/ImageSize;IILcom/vk/im/ui/views/ScaleType;)Lcom/facebook/imagepipeline/common/d;
+.method private final a(Lcom/vk/dto/common/ImageSize;IILcom/vk/messenger/ui/views/ScaleType;)Lcom/facebook/imagepipeline/common/d;
     .locals 2
 
     .line 675
@@ -485,7 +485,7 @@
     move-result p1
 
     .line 680
-    sget-object v1, Lcom/vk/im/ui/views/ScaleType;->CENTER_CROP:Lcom/vk/im/ui/views/ScaleType;
+    sget-object v1, Lcom/vk/messenger/ui/views/ScaleType;->CENTER_CROP:Lcom/vk/messenger/ui/views/ScaleType;
 
     if-ne p4, v1, :cond_1
 
@@ -530,19 +530,19 @@
 
     .line 690
     :cond_1
-    sget-object v1, Lcom/vk/im/ui/views/ScaleType;->CENTER_INSIDE:Lcom/vk/im/ui/views/ScaleType;
+    sget-object v1, Lcom/vk/messenger/ui/views/ScaleType;->CENTER_INSIDE:Lcom/vk/messenger/ui/views/ScaleType;
 
     if-eq p4, v1, :cond_3
 
-    sget-object v1, Lcom/vk/im/ui/views/ScaleType;->FIT_START:Lcom/vk/im/ui/views/ScaleType;
+    sget-object v1, Lcom/vk/messenger/ui/views/ScaleType;->FIT_START:Lcom/vk/messenger/ui/views/ScaleType;
 
     if-eq p4, v1, :cond_3
 
-    sget-object v1, Lcom/vk/im/ui/views/ScaleType;->FIT_CENTER:Lcom/vk/im/ui/views/ScaleType;
+    sget-object v1, Lcom/vk/messenger/ui/views/ScaleType;->FIT_CENTER:Lcom/vk/messenger/ui/views/ScaleType;
 
     if-eq p4, v1, :cond_3
 
-    sget-object v1, Lcom/vk/im/ui/views/ScaleType;->FIT_END:Lcom/vk/im/ui/views/ScaleType;
+    sget-object v1, Lcom/vk/messenger/ui/views/ScaleType;->FIT_END:Lcom/vk/messenger/ui/views/ScaleType;
 
     if-ne p4, v1, :cond_2
 
@@ -648,9 +648,9 @@
     iput-boolean v0, p0, Lcom/vk/newsfeed/FrescoImageView;->r:Z
 
     .line 270
-    iget-object v1, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/im/ui/views/c;
+    iget-object v1, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/messenger/ui/views/c;
 
-    invoke-virtual {v1}, Lcom/vk/im/ui/views/c;->c()V
+    invoke-virtual {v1}, Lcom/vk/messenger/ui/views/c;->c()V
 
     .line 271
     iput v0, p0, Lcom/vk/newsfeed/FrescoImageView;->t:I
@@ -954,9 +954,9 @@
     .line 713
     invoke-static {v0, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/vk/newsfeed/FrescoImageView;->v:Lcom/vk/im/ui/views/ScaleType;
+    iget-object v1, p0, Lcom/vk/newsfeed/FrescoImageView;->v:Lcom/vk/messenger/ui/views/ScaleType;
 
-    invoke-direct {p0, p1, p2, p3, v1}, Lcom/vk/newsfeed/FrescoImageView;->a(Lcom/vk/dto/common/ImageSize;IILcom/vk/im/ui/views/ScaleType;)Lcom/facebook/imagepipeline/common/d;
+    invoke-direct {p0, p1, p2, p3, v1}, Lcom/vk/newsfeed/FrescoImageView;->a(Lcom/vk/dto/common/ImageSize;IILcom/vk/messenger/ui/views/ScaleType;)Lcom/facebook/imagepipeline/common/d;
 
     move-result-object p1
 
@@ -1123,9 +1123,9 @@
 
     .line 510
     :cond_1
-    iget-object p1, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/im/ui/views/c;
+    iget-object p1, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/messenger/ui/views/c;
 
-    invoke-virtual {p1}, Lcom/vk/im/ui/views/c;->b()Z
+    invoke-virtual {p1}, Lcom/vk/messenger/ui/views/c;->b()Z
 
     move-result p1
 
@@ -1158,36 +1158,36 @@
     iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->c:Lcom/facebook/drawee/generic/RoundingParams;
 
     .line 532
-    iget-object v1, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/im/ui/views/c;
+    iget-object v1, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/messenger/ui/views/c;
 
-    invoke-virtual {v1}, Lcom/vk/im/ui/views/c;->d()I
+    invoke-virtual {v1}, Lcom/vk/messenger/ui/views/c;->d()I
 
     move-result v1
 
     int-to-float v1, v1
 
     .line 533
-    iget-object v2, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/im/ui/views/c;
+    iget-object v2, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/messenger/ui/views/c;
 
-    invoke-virtual {v2}, Lcom/vk/im/ui/views/c;->e()I
+    invoke-virtual {v2}, Lcom/vk/messenger/ui/views/c;->e()I
 
     move-result v2
 
     int-to-float v2, v2
 
     .line 534
-    iget-object v3, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/im/ui/views/c;
+    iget-object v3, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/messenger/ui/views/c;
 
-    invoke-virtual {v3}, Lcom/vk/im/ui/views/c;->g()I
+    invoke-virtual {v3}, Lcom/vk/messenger/ui/views/c;->g()I
 
     move-result v3
 
     int-to-float v3, v3
 
     .line 535
-    iget-object v4, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/im/ui/views/c;
+    iget-object v4, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/messenger/ui/views/c;
 
-    invoke-virtual {v4}, Lcom/vk/im/ui/views/c;->f()I
+    invoke-virtual {v4}, Lcom/vk/messenger/ui/views/c;->f()I
 
     move-result v4
 
@@ -1639,9 +1639,9 @@
     const/16 v0, 0x8
 
     .line 166
-    sget-object v1, Lcom/vk/im/ui/views/ScaleType;->CENTER_INSIDE:Lcom/vk/im/ui/views/ScaleType;
+    sget-object v1, Lcom/vk/messenger/ui/views/ScaleType;->CENTER_INSIDE:Lcom/vk/messenger/ui/views/ScaleType;
 
-    invoke-virtual {v1}, Lcom/vk/im/ui/views/ScaleType;->a()I
+    invoke-virtual {v1}, Lcom/vk/messenger/ui/views/ScaleType;->a()I
 
     move-result v1
 
@@ -1651,11 +1651,11 @@
     move-result v0
 
     .line 167
-    invoke-static {v0}, Lcom/vk/im/ui/views/ScaleType;->a(I)Lcom/vk/im/ui/views/ScaleType;
+    invoke-static {v0}, Lcom/vk/messenger/ui/views/ScaleType;->a(I)Lcom/vk/messenger/ui/views/ScaleType;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/vk/newsfeed/FrescoImageView;->setScaleType(Lcom/vk/im/ui/views/ScaleType;)V
+    invoke-virtual {p0, v0}, Lcom/vk/newsfeed/FrescoImageView;->setScaleType(Lcom/vk/messenger/ui/views/ScaleType;)V
 
     const/high16 v0, -0x40800000    # -1.0f
 
@@ -1760,9 +1760,9 @@
     invoke-direct {p0}, Lcom/vk/newsfeed/FrescoImageView;->a()V
 
     .line 238
-    iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/im/ui/views/c;
+    iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/messenger/ui/views/c;
 
-    invoke-virtual {v0, p1, p2}, Lcom/vk/im/ui/views/c;->a(II)Lcom/vk/im/ui/views/c;
+    invoke-virtual {v0, p1, p2}, Lcom/vk/messenger/ui/views/c;->a(II)Lcom/vk/messenger/ui/views/c;
 
     const/4 p1, 0x1
 
@@ -1782,9 +1782,9 @@
     invoke-direct {p0}, Lcom/vk/newsfeed/FrescoImageView;->a()V
 
     .line 249
-    iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/im/ui/views/c;
+    iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/messenger/ui/views/c;
 
-    invoke-virtual {v0, p1, p2, p3, p4}, Lcom/vk/im/ui/views/c;->a(IIII)Lcom/vk/im/ui/views/c;
+    invoke-virtual {v0, p1, p2, p3, p4}, Lcom/vk/messenger/ui/views/c;->a(IIII)Lcom/vk/messenger/ui/views/c;
 
     const/4 p1, 0x1
 
@@ -1952,11 +1952,11 @@
     return v0
 .end method
 
-.method public final getCorners()Lcom/vk/im/ui/views/c;
+.method public final getCorners()Lcom/vk/messenger/ui/views/c;
     .locals 1
 
     .line 232
-    iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/im/ui/views/c;
+    iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/messenger/ui/views/c;
 
     return-object v0
 .end method
@@ -1998,11 +1998,11 @@
     return v0
 .end method
 
-.method public final getScaleType()Lcom/vk/im/ui/views/ScaleType;
+.method public final getScaleType()Lcom/vk/messenger/ui/views/ScaleType;
     .locals 1
 
     .line 93
-    iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->v:Lcom/vk/im/ui/views/ScaleType;
+    iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->v:Lcom/vk/messenger/ui/views/ScaleType;
 
     return-object v0
 .end method
@@ -2055,9 +2055,9 @@
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
     .line 477
-    iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/im/ui/views/e$b;
+    iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/messenger/ui/views/e$b;
 
-    iget v0, v0, Lcom/vk/im/ui/views/e$b;->c:I
+    iget v0, v0, Lcom/vk/messenger/ui/views/e$b;->c:I
 
     const/4 v1, 0x1
 
@@ -2065,9 +2065,9 @@
 
     if-lez v0, :cond_0
 
-    iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/im/ui/views/e$b;
+    iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/messenger/ui/views/e$b;
 
-    iget v0, v0, Lcom/vk/im/ui/views/e$b;->d:I
+    iget v0, v0, Lcom/vk/messenger/ui/views/e$b;->d:I
 
     if-lez v0, :cond_0
 
@@ -2080,15 +2080,15 @@
 
     .line 481
     :goto_0
-    iget-object v3, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/im/ui/views/e$b;
+    iget-object v3, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/messenger/ui/views/e$b;
 
-    iget v3, v3, Lcom/vk/im/ui/views/e$b;->c:I
+    iget v3, v3, Lcom/vk/messenger/ui/views/e$b;->c:I
 
     if-nez v3, :cond_1
 
-    iget-object v3, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/im/ui/views/e$b;
+    iget-object v3, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/messenger/ui/views/e$b;
 
-    iget v3, v3, Lcom/vk/im/ui/views/e$b;->d:I
+    iget v3, v3, Lcom/vk/messenger/ui/views/e$b;->d:I
 
     if-nez v3, :cond_1
 
@@ -2119,13 +2119,13 @@
 
     .line 486
     :cond_2
-    iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/im/ui/views/e$b;
+    iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/messenger/ui/views/e$b;
 
-    iget v0, v0, Lcom/vk/im/ui/views/e$b;->a:I
+    iget v0, v0, Lcom/vk/messenger/ui/views/e$b;->a:I
 
-    iget-object v1, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/im/ui/views/e$b;
+    iget-object v1, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/messenger/ui/views/e$b;
 
-    iget v1, v1, Lcom/vk/im/ui/views/e$b;->b:I
+    iget v1, v1, Lcom/vk/messenger/ui/views/e$b;->b:I
 
     invoke-direct {p0, v0, v1}, Lcom/vk/newsfeed/FrescoImageView;->c(II)V
 
@@ -2139,13 +2139,13 @@
     if-eqz v0, :cond_4
 
     .line 491
-    iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/im/ui/views/e$b;
+    iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/messenger/ui/views/e$b;
 
-    iget v0, v0, Lcom/vk/im/ui/views/e$b;->c:I
+    iget v0, v0, Lcom/vk/messenger/ui/views/e$b;->c:I
 
-    iget-object v1, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/im/ui/views/e$b;
+    iget-object v1, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/messenger/ui/views/e$b;
 
-    iget v1, v1, Lcom/vk/im/ui/views/e$b;->d:I
+    iget v1, v1, Lcom/vk/messenger/ui/views/e$b;->d:I
 
     invoke-direct {p0, v0, v1}, Lcom/vk/newsfeed/FrescoImageView;->b(II)V
 
@@ -2154,9 +2154,9 @@
     iput-boolean v2, p0, Lcom/vk/newsfeed/FrescoImageView;->l:Z
 
     .line 495
-    iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/im/ui/views/e$b;
+    iget-object v0, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/messenger/ui/views/e$b;
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/views/e$b;->a()Z
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/views/e$b;->a()Z
 
     move-result v0
 
@@ -2246,23 +2246,23 @@
     add-int/2addr p3, v0
 
     .line 425
-    iget-object v1, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/im/ui/views/e$b;
+    iget-object v1, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/messenger/ui/views/e$b;
 
-    iget v1, v1, Lcom/vk/im/ui/views/e$b;->c:I
+    iget v1, v1, Lcom/vk/messenger/ui/views/e$b;->c:I
 
     .line 426
-    iget-object v2, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/im/ui/views/e$b;
+    iget-object v2, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/messenger/ui/views/e$b;
 
-    iget v2, v2, Lcom/vk/im/ui/views/e$b;->d:I
+    iget v2, v2, Lcom/vk/messenger/ui/views/e$b;->d:I
 
     .line 428
     iget-object v3, p0, Lcom/vk/newsfeed/FrescoImageView;->x:Landroid/graphics/drawable/Drawable;
 
     if-eqz v3, :cond_0
 
-    iget-object v3, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/im/ui/views/e$b;
+    iget-object v3, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/messenger/ui/views/e$b;
 
-    invoke-virtual {v3}, Lcom/vk/im/ui/views/e$b;->a()Z
+    invoke-virtual {v3}, Lcom/vk/messenger/ui/views/e$b;->a()Z
 
     move-result v3
 
@@ -2277,24 +2277,24 @@
 
     .line 438
     :cond_0
-    iget-object v3, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/im/ui/views/c;
+    iget-object v3, p0, Lcom/vk/newsfeed/FrescoImageView;->s:Lcom/vk/messenger/ui/views/c;
 
-    invoke-virtual {v3}, Lcom/vk/im/ui/views/c;->b()Z
+    invoke-virtual {v3}, Lcom/vk/messenger/ui/views/c;->b()Z
 
     move-result v3
 
     if-nez v3, :cond_4
 
     .line 439
-    iget-object v3, p0, Lcom/vk/newsfeed/FrescoImageView;->v:Lcom/vk/im/ui/views/ScaleType;
+    iget-object v3, p0, Lcom/vk/newsfeed/FrescoImageView;->v:Lcom/vk/messenger/ui/views/ScaleType;
 
-    sget-object v4, Lcom/vk/im/ui/views/ScaleType;->CENTER_INSIDE:Lcom/vk/im/ui/views/ScaleType;
+    sget-object v4, Lcom/vk/messenger/ui/views/ScaleType;->CENTER_INSIDE:Lcom/vk/messenger/ui/views/ScaleType;
 
     if-eq v3, v4, :cond_3
 
-    iget-object v3, p0, Lcom/vk/newsfeed/FrescoImageView;->v:Lcom/vk/im/ui/views/ScaleType;
+    iget-object v3, p0, Lcom/vk/newsfeed/FrescoImageView;->v:Lcom/vk/messenger/ui/views/ScaleType;
 
-    sget-object v4, Lcom/vk/im/ui/views/ScaleType;->FIT_CENTER:Lcom/vk/im/ui/views/ScaleType;
+    sget-object v4, Lcom/vk/messenger/ui/views/ScaleType;->FIT_CENTER:Lcom/vk/messenger/ui/views/ScaleType;
 
     if-ne v3, v4, :cond_1
 
@@ -2302,9 +2302,9 @@
 
     .line 444
     :cond_1
-    iget-object p2, p0, Lcom/vk/newsfeed/FrescoImageView;->v:Lcom/vk/im/ui/views/ScaleType;
+    iget-object p2, p0, Lcom/vk/newsfeed/FrescoImageView;->v:Lcom/vk/messenger/ui/views/ScaleType;
 
-    sget-object p3, Lcom/vk/im/ui/views/ScaleType;->FIT_START:Lcom/vk/im/ui/views/ScaleType;
+    sget-object p3, Lcom/vk/messenger/ui/views/ScaleType;->FIT_START:Lcom/vk/messenger/ui/views/ScaleType;
 
     if-ne p2, p3, :cond_2
 
@@ -2316,9 +2316,9 @@
 
     .line 449
     :cond_2
-    iget-object p2, p0, Lcom/vk/newsfeed/FrescoImageView;->v:Lcom/vk/im/ui/views/ScaleType;
+    iget-object p2, p0, Lcom/vk/newsfeed/FrescoImageView;->v:Lcom/vk/messenger/ui/views/ScaleType;
 
-    sget-object p3, Lcom/vk/im/ui/views/ScaleType;->FIT_END:Lcom/vk/im/ui/views/ScaleType;
+    sget-object p3, Lcom/vk/messenger/ui/views/ScaleType;->FIT_END:Lcom/vk/messenger/ui/views/ScaleType;
 
     if-ne p2, p3, :cond_4
 
@@ -2408,7 +2408,7 @@
     iget v5, p0, Lcom/vk/newsfeed/FrescoImageView;->p:I
 
     .line 382
-    iget-object v6, p0, Lcom/vk/newsfeed/FrescoImageView;->v:Lcom/vk/im/ui/views/ScaleType;
+    iget-object v6, p0, Lcom/vk/newsfeed/FrescoImageView;->v:Lcom/vk/messenger/ui/views/ScaleType;
 
     .line 383
     iget v7, p0, Lcom/vk/newsfeed/FrescoImageView;->w:F
@@ -2463,7 +2463,7 @@
 
     .line 396
     :cond_2
-    iget-object v9, p0, Lcom/vk/newsfeed/FrescoImageView;->g:Lcom/vk/im/ui/views/e$a;
+    iget-object v9, p0, Lcom/vk/newsfeed/FrescoImageView;->g:Lcom/vk/messenger/ui/views/e$a;
 
     const/4 v10, 0x0
 
@@ -2480,7 +2480,7 @@
     move-result v11
 
     :goto_0
-    iput v11, v9, Lcom/vk/im/ui/views/e$a;->a:I
+    iput v11, v9, Lcom/vk/messenger/ui/views/e$a;->a:I
 
     if-nez v8, :cond_4
 
@@ -2493,53 +2493,53 @@
     move-result v10
 
     :goto_1
-    iput v10, v9, Lcom/vk/im/ui/views/e$a;->b:I
+    iput v10, v9, Lcom/vk/messenger/ui/views/e$a;->b:I
 
     .line 399
-    iput p1, v9, Lcom/vk/im/ui/views/e$a;->c:I
+    iput p1, v9, Lcom/vk/messenger/ui/views/e$a;->c:I
 
     .line 400
-    iput p2, v9, Lcom/vk/im/ui/views/e$a;->d:I
+    iput p2, v9, Lcom/vk/messenger/ui/views/e$a;->d:I
 
     .line 401
-    iput v2, v9, Lcom/vk/im/ui/views/e$a;->e:I
+    iput v2, v9, Lcom/vk/messenger/ui/views/e$a;->e:I
 
     .line 402
-    iput v3, v9, Lcom/vk/im/ui/views/e$a;->f:I
+    iput v3, v9, Lcom/vk/messenger/ui/views/e$a;->f:I
 
     .line 403
-    iput v4, v9, Lcom/vk/im/ui/views/e$a;->g:I
+    iput v4, v9, Lcom/vk/messenger/ui/views/e$a;->g:I
 
     .line 404
-    iput v5, v9, Lcom/vk/im/ui/views/e$a;->h:I
+    iput v5, v9, Lcom/vk/messenger/ui/views/e$a;->h:I
 
     .line 405
-    iput v0, v9, Lcom/vk/im/ui/views/e$a;->i:I
+    iput v0, v9, Lcom/vk/messenger/ui/views/e$a;->i:I
 
     .line 406
-    iput v1, v9, Lcom/vk/im/ui/views/e$a;->j:I
+    iput v1, v9, Lcom/vk/messenger/ui/views/e$a;->j:I
 
     .line 407
-    iput-object v6, v9, Lcom/vk/im/ui/views/e$a;->k:Lcom/vk/im/ui/views/ScaleType;
+    iput-object v6, v9, Lcom/vk/messenger/ui/views/e$a;->k:Lcom/vk/messenger/ui/views/ScaleType;
 
     .line 408
-    iput v7, v9, Lcom/vk/im/ui/views/e$a;->l:F
+    iput v7, v9, Lcom/vk/messenger/ui/views/e$a;->l:F
 
     .line 411
-    iget-object p1, p0, Lcom/vk/newsfeed/FrescoImageView;->g:Lcom/vk/im/ui/views/e$a;
+    iget-object p1, p0, Lcom/vk/newsfeed/FrescoImageView;->g:Lcom/vk/messenger/ui/views/e$a;
 
-    iget-object p2, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/im/ui/views/e$b;
+    iget-object p2, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/messenger/ui/views/e$b;
 
-    invoke-static {p1, p2}, Lcom/vk/im/ui/views/e;->a(Lcom/vk/im/ui/views/e$a;Lcom/vk/im/ui/views/e$b;)V
+    invoke-static {p1, p2}, Lcom/vk/messenger/ui/views/e;->a(Lcom/vk/messenger/ui/views/e$a;Lcom/vk/messenger/ui/views/e$b;)V
 
     .line 412
-    iget-object p1, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/im/ui/views/e$b;
+    iget-object p1, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/messenger/ui/views/e$b;
 
-    iget p1, p1, Lcom/vk/im/ui/views/e$b;->a:I
+    iget p1, p1, Lcom/vk/messenger/ui/views/e$b;->a:I
 
-    iget-object p2, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/im/ui/views/e$b;
+    iget-object p2, p0, Lcom/vk/newsfeed/FrescoImageView;->h:Lcom/vk/messenger/ui/views/e$b;
 
-    iget p2, p2, Lcom/vk/im/ui/views/e$b;->b:I
+    iget p2, p2, Lcom/vk/messenger/ui/views/e$b;->b:I
 
     invoke-virtual {p0, p1, p2}, Lcom/vk/newsfeed/FrescoImageView;->setMeasuredDimension(II)V
 
@@ -2695,7 +2695,7 @@
     return-void
 .end method
 
-.method public final setCornerRadius(Lcom/vk/im/ui/views/c;)V
+.method public final setCornerRadius(Lcom/vk/messenger/ui/views/c;)V
     .locals 3
 
     const-string v0, "corners"
@@ -2703,19 +2703,19 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 244
-    invoke-virtual {p1}, Lcom/vk/im/ui/views/c;->d()I
+    invoke-virtual {p1}, Lcom/vk/messenger/ui/views/c;->d()I
 
     move-result v0
 
-    invoke-virtual {p1}, Lcom/vk/im/ui/views/c;->e()I
+    invoke-virtual {p1}, Lcom/vk/messenger/ui/views/c;->e()I
 
     move-result v1
 
-    invoke-virtual {p1}, Lcom/vk/im/ui/views/c;->f()I
+    invoke-virtual {p1}, Lcom/vk/messenger/ui/views/c;->f()I
 
     move-result v2
 
-    invoke-virtual {p1}, Lcom/vk/im/ui/views/c;->g()I
+    invoke-virtual {p1}, Lcom/vk/messenger/ui/views/c;->g()I
 
     move-result p1
 
@@ -2981,14 +2981,14 @@
     return-void
 .end method
 
-.method public final setScaleType(Lcom/vk/im/ui/views/ScaleType;)V
+.method public final setScaleType(Lcom/vk/messenger/ui/views/ScaleType;)V
     .locals 1
 
     .line 95
-    iput-object p1, p0, Lcom/vk/newsfeed/FrescoImageView;->v:Lcom/vk/im/ui/views/ScaleType;
+    iput-object p1, p0, Lcom/vk/newsfeed/FrescoImageView;->v:Lcom/vk/messenger/ui/views/ScaleType;
 
     .line 97
-    iget-object p1, p0, Lcom/vk/newsfeed/FrescoImageView;->v:Lcom/vk/im/ui/views/ScaleType;
+    iget-object p1, p0, Lcom/vk/newsfeed/FrescoImageView;->v:Lcom/vk/messenger/ui/views/ScaleType;
 
     if-nez p1, :cond_0
 
@@ -2997,7 +2997,7 @@
     :cond_0
     sget-object v0, Lcom/vk/newsfeed/e;->$EnumSwitchMapping$0:[I
 
-    invoke-virtual {p1}, Lcom/vk/im/ui/views/ScaleType;->ordinal()I
+    invoke-virtual {p1}, Lcom/vk/messenger/ui/views/ScaleType;->ordinal()I
 
     move-result p1
 

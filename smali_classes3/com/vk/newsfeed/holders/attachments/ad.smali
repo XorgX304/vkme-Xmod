@@ -8,7 +8,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKSnippetImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
 .field private final p:Landroid/widget/ImageView;
 
@@ -63,9 +63,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKSnippetImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ad;->n:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ad;->n:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     .line 26
     iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ad;->a:Landroid/view/View;
@@ -300,18 +300,18 @@
 
     .line 47
     :cond_0
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ad;->n:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ad;->n:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     const/4 v0, 0x0
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKSnippetImageView;->setType(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->setType(I)V
 
     .line 48
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ad;->n:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ad;->n:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     const v0, 0x7f08073d
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKSnippetImageView;->setPlaceholderImage(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->setPlaceholderImage(I)V
 
     .line 50
     iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ad;->a:Landroid/view/View;
@@ -542,13 +542,13 @@
 
     .line 66
     :cond_1
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/ad;->n:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/ad;->n:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/MarketAttachment;->l()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKSnippetImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->a(Ljava/lang/String;)V
 
     :cond_2
     return-void

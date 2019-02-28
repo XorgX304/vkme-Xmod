@@ -18,7 +18,7 @@
 
 .field private s:Lcom/vk/dto/music/Artist;
 
-.field private final t:Lcom/vk/imageloader/a/c;
+.field private final t:Lcom/vk/messengerageloader/a/c;
 
 
 # direct methods
@@ -193,13 +193,13 @@
     move-result p1
 
     .line 46
-    new-instance v0, Lcom/vk/imageloader/a/c;
+    new-instance v0, Lcom/vk/messengerageloader/a/c;
 
     const/16 v1, 0x32
 
-    invoke-direct {v0, v1, p1}, Lcom/vk/imageloader/a/c;-><init>(II)V
+    invoke-direct {v0, v1, p1}, Lcom/vk/messengerageloader/a/c;-><init>(II)V
 
-    iput-object v0, p0, Lcom/vk/newsfeed/holders/attachments/i;->t:Lcom/vk/imageloader/a/c;
+    iput-object v0, p0, Lcom/vk/newsfeed/holders/attachments/i;->t:Lcom/vk/messengerageloader/a/c;
 
     return-void
 .end method
@@ -274,7 +274,7 @@
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lcom/vk/newsfeed/holders/attachments/i;->t:Lcom/vk/imageloader/a/c;
+    iget-object v1, p0, Lcom/vk/newsfeed/holders/attachments/i;->t:Lcom/vk/messengerageloader/a/c;
 
     goto :goto_0
 

@@ -12,7 +12,7 @@
 
 
 # instance fields
-.field private final d:Lcom/vk/imageloader/view/VKImageView;
+.field private final d:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final e:Landroid/widget/TextView;
 
@@ -103,9 +103,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p2, p0, Lcom/vkontakte/android/ui/widget/s;->d:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vkontakte/android/ui/widget/s;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p2, 0x7f0a0aff
 
@@ -201,17 +201,17 @@
     if-nez p1, :cond_0
 
     .line 79
-    iget-object p1, p0, Lcom/vkontakte/android/ui/widget/s;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/widget/s;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     const/4 v0, 0x0
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     goto :goto_0
 
     .line 81
     :cond_0
-    iget-object v0, p0, Lcom/vkontakte/android/ui/widget/s;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/widget/s;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/common/ImageSize;->c()I
 
@@ -225,16 +225,16 @@
 
     int-to-float v2, v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/vk/imageloader/view/VKImageView;->a(FF)V
+    invoke-virtual {v0, v1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(FF)V
 
     .line 82
-    iget-object v0, p0, Lcom/vkontakte/android/ui/widget/s;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/widget/s;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/common/ImageSize;->a()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :goto_0
     return-void

@@ -38,7 +38,7 @@
 
     if-nez v0, :cond_1
 
-    sget v0, Lcom/vk/im/ui/fragments/ChatFragment;->af:I
+    sget v0, Lcom/vk/messenger/ui/fragments/ChatFragment;->af:I
 
     if-ne v0, p0, :cond_0
 
@@ -67,7 +67,7 @@
 
     if-nez v0, :cond_1
 
-    sget v0, Lcom/vk/im/ui/fragments/ChatFragment;->af:I
+    sget v0, Lcom/vk/messenger/ui/fragments/ChatFragment;->af:I
 
     if-eqz v0, :cond_0
 

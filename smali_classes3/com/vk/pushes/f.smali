@@ -367,7 +367,7 @@
     sput-boolean v3, Lcom/vk/pushes/f;->b:Z
 
     .line 66
-    new-instance v0, Lcom/vk/im/engine/commands/account/l;
+    new-instance v0, Lcom/vk/messenger/engine/commands/account/l;
 
     invoke-virtual {v2}, Lcom/vk/pushes/f$a;->c()Ljava/lang/String;
 
@@ -381,22 +381,22 @@
 
     move-result-object v4
 
-    invoke-direct {v0, v1, v3, v4}, Lcom/vk/im/engine/commands/account/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {v0, v1, v3, v4}, Lcom/vk/messenger/engine/commands/account/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 67
-    invoke-static {}, Lcom/vk/im/engine/f;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vk/messenger/engine/f;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v1
 
     const-string v3, "PushSubscriber"
 
-    invoke-static {v3, p2}, Lcom/vk/im/engine/internal/causation/c;->a(Ljava/lang/Object;Ljava/lang/Throwable;)Lcom/vk/im/engine/internal/causation/f;
+    invoke-static {v3, p2}, Lcom/vk/messenger/engine/internal/causation/c;->a(Ljava/lang/Object;Ljava/lang/Throwable;)Lcom/vk/messenger/engine/internal/causation/f;
 
     move-result-object v3
 
-    check-cast v0, Lcom/vk/im/engine/commands/c;
+    check-cast v0, Lcom/vk/messenger/engine/commands/c;
 
-    invoke-virtual {v1, v3, v0}, Lcom/vk/im/engine/d;->b(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)Lio/reactivex/q;
+    invoke-virtual {v1, v3, v0}, Lcom/vk/messenger/engine/d;->b(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)Lio/reactivex/q;
 
     move-result-object v0
 

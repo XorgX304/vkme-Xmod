@@ -507,7 +507,7 @@
     invoke-static {v3}, Lcom/vkontakte/android/utils/L;->d([Ljava/lang/Object;)V
 
     .line 76
-    invoke-static {}, Lcom/vk/imageloader/i;->a()V
+    invoke-static {}, Lcom/vk/messengerageloader/i;->a()V
 
     .line 77
     move-object v3, v5
@@ -985,7 +985,7 @@
     .line 120
     :catch_6
     :try_start_10
-    invoke-static {}, Lcom/vk/imageloader/i;->a()V
+    invoke-static {}, Lcom/vk/messengerageloader/i;->a()V
 
     const/16 v17, 0x0
 

@@ -10,13 +10,13 @@
 # static fields
 .field private static final sLock:Ljava/lang/Object;
 
-.field private static zzbxg:Z = false
+.field private static zzbxg:Z
     .annotation build Ljavax/annotation/concurrent/GuardedBy;
         value = "sLock"
     .end annotation
 .end field
 
-.field private static zzsh:Z = false
+.field private static zzsh:Z
     .annotation build Ljavax/annotation/concurrent/GuardedBy;
         value = "sLock"
     .end annotation

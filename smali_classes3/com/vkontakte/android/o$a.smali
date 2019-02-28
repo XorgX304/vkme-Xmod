@@ -177,7 +177,7 @@
 
     move-result-object v4
 
-    invoke-static {v4}, Lcom/vk/imageloader/i;->b(Ljava/lang/String;)Z
+    invoke-static {v4}, Lcom/vk/messengerageloader/i;->b(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -209,7 +209,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/vk/imageloader/i;->f(Landroid/net/Uri;)Lio/reactivex/j;
+    invoke-static {p1}, Lcom/vk/messengerageloader/i;->f(Landroid/net/Uri;)Lio/reactivex/j;
 
     move-result-object p1
 
@@ -251,7 +251,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/vk/imageloader/i;->a(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/vk/messengerageloader/i;->a(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -266,7 +266,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/vk/imageloader/i;->f(Landroid/net/Uri;)Lio/reactivex/j;
+    invoke-static {p1}, Lcom/vk/messengerageloader/i;->f(Landroid/net/Uri;)Lio/reactivex/j;
 
     move-result-object p1
 
@@ -349,7 +349,7 @@
 
     .line 1390
     :goto_1
-    invoke-static {p1}, Lcom/vk/imageloader/i;->a(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/vk/messengerageloader/i;->a(Ljava/lang/String;)Z
 
     move-result p1
 

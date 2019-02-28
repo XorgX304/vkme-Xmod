@@ -23,13 +23,13 @@
 
 .field static final sCanceledAvailabilityNotification:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-.field private static zzag:Z = false
+.field private static zzag:Z
 
-.field private static zzah:Z = false
+.field private static zzah:Z
 
-.field private static zzai:Z = false
+.field private static zzai:Z
 
-.field private static zzaj:Z = false
+.field private static zzaj:Z
 
 .field private static final zzak:Ljava/util/concurrent/atomic/AtomicBoolean;
 

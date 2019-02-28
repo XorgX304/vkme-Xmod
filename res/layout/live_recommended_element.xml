@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout android:id="@id/liveRecommendedTop" android:background="@color/live_recommended_element_back" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?android:selectableItemBackground"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.vk.imageloader.view.VKImageView android:id="@id/liveRecommendedImg" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="centerCrop" app:overlayImage="@drawable/gift_item_selector" />
+    <com.vk.messengerageloader.view.VKImageView android:id="@id/liveRecommendedImg" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="centerCrop" app:overlayImage="@drawable/gift_item_selector" />
     <View android:layout_gravity="bottom" android:background="@drawable/scrim_bottom" android:layout_width="fill_parent" android:layout_height="100.0dip" android:alpha="0.9" />
     <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="10.0dip">
         <com.vkontakte.android.live.widgets.timeprogress.CircularTimeBar android:id="@id/liveRecommendedTimeBar" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginBottom="20.0dip" />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout android:id="@id/common_holder_frame_layout" android:paddingLeft="@dimen/post_side_padding" android:paddingTop="8.0dip" android:paddingRight="@dimen/post_side_padding" android:paddingBottom="8.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.vk.imageloader.view.VKImageView android:id="@id/attach_icon" android:layout_width="@dimen/post_attach_common_icon_size" android:layout_height="@dimen/post_attach_common_icon_size" app:actualImageScaleType="centerCrop" />
+    <com.vk.messengerageloader.view.VKImageView android:id="@id/attach_icon" android:layout_width="@dimen/post_attach_common_icon_size" android:layout_height="@dimen/post_attach_common_icon_size" app:actualImageScaleType="centerCrop" />
     <FrameLayout android:id="@id/attach_error_view" android:visibility="gone" android:layout_width="@dimen/post_attach_common_icon_size" android:layout_height="@dimen/post_attach_common_icon_size">
         <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_replay_36" />
     </FrameLayout>

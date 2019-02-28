@@ -23,7 +23,7 @@
         ">",
         "Ljava/lang/Object;",
         "Lio/reactivex/b/g<",
-        "Lcom/vk/im/engine/events/ah;",
+        "Lcom/vk/messenger/engine/events/ah;",
         ">;"
     }
 .end annotation
@@ -56,7 +56,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/vk/im/engine/events/ah;)V
+.method public final a(Lcom/vk/messenger/engine/events/ah;)V
     .locals 0
 
     .line 462
@@ -69,9 +69,9 @@
     .locals 0
 
     .line 95
-    check-cast p1, Lcom/vk/im/engine/events/ah;
+    check-cast p1, Lcom/vk/messenger/engine/events/ah;
 
-    invoke-virtual {p0, p1}, Lcom/vkontakte/android/VKApplication$l;->a(Lcom/vk/im/engine/events/ah;)V
+    invoke-virtual {p0, p1}, Lcom/vkontakte/android/VKApplication$l;->a(Lcom/vk/messenger/engine/events/ah;)V
 
     return-void
 .end method

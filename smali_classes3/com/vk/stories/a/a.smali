@@ -14,7 +14,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final o:Landroid/widget/TextView;
 
@@ -60,9 +60,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/stories/a/a;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/stories/a/a;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 13
     iget-object p1, p0, Lcom/vk/stories/a/a;->a:Landroid/view/View;
@@ -133,7 +133,7 @@
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 23
-    iget-object v0, p0, Lcom/vk/stories/a/a;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/stories/a/a;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz p1, :cond_1
 
@@ -142,7 +142,7 @@
     move-result-object v1
 
     :cond_1
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     return-void
 .end method

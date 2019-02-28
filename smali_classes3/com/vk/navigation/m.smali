@@ -41,13 +41,13 @@
         value = {
             "()",
             "Ljava/lang/Class<",
-            "Lcom/vk/im/ui/MainActivity;",
+            "Lcom/vk/messenger/ui/MainActivity;",
             ">;"
         }
     .end annotation
 
     .line 9
-    const-class v0, Lcom/vk/im/ui/MainActivity;
+    const-class v0, Lcom/vk/messenger/ui/MainActivity;
 
     return-object v0
 .end method
@@ -58,13 +58,13 @@
         value = {
             "()",
             "Ljava/lang/Class<",
-            "Lcom/vk/im/ui/ImActivity;",
+            "Lcom/vk/messenger/ui/ImActivity;",
             ">;"
         }
     .end annotation
 
     .line 10
-    const-class v0, Lcom/vk/im/ui/ImActivity;
+    const-class v0, Lcom/vk/messenger/ui/ImActivity;
 
     return-object v0
 .end method
@@ -73,9 +73,9 @@
     .locals 1
 
     .line 11
-    sget-object v0, Lcom/vk/im/b;->a:Lcom/vk/im/b;
+    sget-object v0, Lcom/vk/messenger/b;->a:Lcom/vk/messenger/b;
 
-    invoke-virtual {v0}, Lcom/vk/im/b;->b()Z
+    invoke-virtual {v0}, Lcom/vk/messenger/b;->b()Z
 
     move-result v0
 
@@ -88,13 +88,13 @@
         value = {
             "()",
             "Ljava/lang/Class<",
-            "Lcom/vk/im/ui/dialogs_list/a;",
+            "Lcom/vk/messenger/ui/dialogs_list/a;",
             ">;"
         }
     .end annotation
 
     .line 12
-    const-class v0, Lcom/vk/im/ui/dialogs_list/a;
+    const-class v0, Lcom/vk/messenger/ui/dialogs_list/a;
 
     return-object v0
 .end method

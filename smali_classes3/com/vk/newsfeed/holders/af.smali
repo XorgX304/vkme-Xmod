@@ -42,35 +42,35 @@
     iput-object p1, p0, Lcom/vk/newsfeed/holders/af;->o:Landroid/widget/TextView;
 
     .line 14
-    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/af;->z()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/af;->z()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
-    instance-of p1, p1, Lcom/vk/imageloader/view/VKSnippetImageView;
+    instance-of p1, p1, Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     if-eqz p1, :cond_0
 
     .line 15
-    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/af;->z()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/af;->z()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKSnippetImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     const v0, 0x2d000c1a
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKSnippetImageView;->setBorderColor(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->setBorderColor(I)V
 
     .line 16
-    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/af;->z()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/af;->z()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKSnippetImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     const/4 v0, 0x7
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKSnippetImageView;->setType(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->setType(I)V
 
     :cond_0
     return-void

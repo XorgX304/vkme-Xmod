@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/vkontakte/android/im/c/b;->a(Lcom/vk/im/engine/models/camera/VideoParams;Lcom/vk/im/engine/internal/e;)Landroid/net/Uri;
+    value = Lcom/vkontakte/android/im/c/b;->a(Lcom/vk/messenger/engine/models/camera/VideoParams;Lcom/vk/messenger/engine/internal/e;)Landroid/net/Uri;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/vk/im/engine/internal/e;
+.field final synthetic a:Lcom/vk/messenger/engine/internal/e;
 
 .field final synthetic b:Lkotlin/jvm/internal/Ref$ObjectRef;
 
@@ -26,11 +26,11 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/vk/im/engine/internal/e;Lkotlin/jvm/internal/Ref$ObjectRef;Ljava/util/concurrent/CountDownLatch;)V
+.method constructor <init>(Lcom/vk/messenger/engine/internal/e;Lkotlin/jvm/internal/Ref$ObjectRef;Ljava/util/concurrent/CountDownLatch;)V
     .locals 0
 
     .line 26
-    iput-object p1, p0, Lcom/vkontakte/android/im/c/b$a;->a:Lcom/vk/im/engine/internal/e;
+    iput-object p1, p0, Lcom/vkontakte/android/im/c/b$a;->a:Lcom/vk/messenger/engine/internal/e;
 
     iput-object p2, p0, Lcom/vkontakte/android/im/c/b$a;->b:Lkotlin/jvm/internal/Ref$ObjectRef;
 
@@ -53,7 +53,7 @@
     .locals 2
 
     .line 28
-    iget-object v0, p0, Lcom/vkontakte/android/im/c/b$a;->a:Lcom/vk/im/engine/internal/e;
+    iget-object v0, p0, Lcom/vkontakte/android/im/c/b$a;->a:Lcom/vk/messenger/engine/internal/e;
 
     if-eqz v0, :cond_0
 
@@ -67,7 +67,7 @@
 
     const/16 v1, 0x3e8
 
-    invoke-interface {v0, p1, v1}, Lcom/vk/im/engine/internal/e;->a(II)V
+    invoke-interface {v0, p1, v1}, Lcom/vk/messenger/engine/internal/e;->a(II)V
 
     :cond_0
     return-void

@@ -57,7 +57,7 @@
     .line 143
     iget-object v0, p1, Lcom/vkontakte/android/RequestUserProfile;->r:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/vk/imageloader/i;->e(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/vk/messengerageloader/i;->e(Ljava/lang/String;)V
 
     .line 144
     iget-object p1, p1, Lcom/vkontakte/android/RequestUserProfile;->c:[Lcom/vkontakte/android/UserProfile;
@@ -77,7 +77,7 @@
 
     iget-object v2, v2, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/vk/imageloader/i;->e(Ljava/lang/String;)V
+    invoke-static {v2}, Lcom/vk/messengerageloader/i;->e(Ljava/lang/String;)V
 
     add-int/lit8 v0, v0, 0x1
 

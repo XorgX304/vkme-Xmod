@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/vkontakte/android/fragments/messages/chat/vc/a;->c(Ljava/lang/String;)Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    value = Lcom/vkontakte/android/fragments/messages/chat/vc/a;->c(Ljava/lang/String;)Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
     value = {
         "Lkotlin/jvm/internal/Lambda;",
         "Lkotlin/jvm/a/a<",
-        "Lcom/vk/im/engine/models/ProfilesSimpleInfo;",
+        "Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;",
         ">;"
     }
 .end annotation
@@ -49,14 +49,14 @@
     .locals 1
 
     .line 18
-    invoke-virtual {p0}, Lcom/vkontakte/android/fragments/messages/chat/vc/DraftsHelper$decodeMembers$1;->b()Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    invoke-virtual {p0}, Lcom/vkontakte/android/fragments/messages/chat/vc/DraftsHelper$decodeMembers$1;->b()Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public final b()Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+.method public final b()Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
     .locals 2
 
     .line 105
@@ -69,11 +69,11 @@
     goto :goto_0
 
     :cond_0
-    sget-object v0, Lcom/vk/im/engine/models/ProfilesSimpleInfo;->a:Lcom/vk/im/engine/models/ProfilesSimpleInfo$b;
+    sget-object v0, Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;->a:Lcom/vk/messenger/engine/models/ProfilesSimpleInfo$b;
 
     iget-object v1, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/DraftsHelper$decodeMembers$1;->$source:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/ProfilesSimpleInfo$b;->a(Ljava/lang/String;)Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/ProfilesSimpleInfo$b;->a(Ljava/lang/String;)Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     move-result-object v0
 

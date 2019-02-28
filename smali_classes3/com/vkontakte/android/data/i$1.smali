@@ -87,7 +87,7 @@
 
     move-result v3
 
-    const-string v4, "account.setOnline"
+    const-string v4, "account.setOnliner"
 
     invoke-virtual {p1}, Lcom/vk/api/sdk/exceptions/VKApiExecutionException;->getMessage()Ljava/lang/String;
 

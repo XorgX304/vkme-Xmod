@@ -43,13 +43,13 @@
 
     iget-object v0, v0, Lcom/vk/attachpicker/f/d$1;->a:Lcom/vk/attachpicker/f/d;
 
-    invoke-static {v0}, Lcom/vk/attachpicker/f/d;->h(Lcom/vk/attachpicker/f/d;)Lcom/vk/imageloader/view/VKImageView;
+    invoke-static {v0}, Lcom/vk/attachpicker/f/d;->h(Lcom/vk/attachpicker/f/d;)Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
     const/16 v1, 0x8
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     return-void
 .end method

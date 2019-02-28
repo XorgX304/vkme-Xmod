@@ -184,11 +184,11 @@
     invoke-static {v0, v1}, Lcom/vkontakte/android/audio/AudioFacade;->a(Lcom/vkontakte/android/audio/player/l;Z)V
 
     .line 47
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/d;->j()Lio/reactivex/j;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/d;->j()Lio/reactivex/j;
 
     move-result-object v0
 
@@ -202,7 +202,7 @@
     move-result-object v0
 
     .line 49
-    const-class v1, Lcom/vk/im/engine/events/b;
+    const-class v1, Lcom/vk/messenger/engine/events/b;
 
     invoke-virtual {v0, v1}, Lio/reactivex/j;->b(Ljava/lang/Class;)Lio/reactivex/j;
 
@@ -218,7 +218,7 @@
     move-result-object v0
 
     .line 51
-    const-class v1, Lcom/vk/im/engine/models/a/z;
+    const-class v1, Lcom/vk/messenger/engine/models/a/z;
 
     invoke-virtual {v0, v1}, Lio/reactivex/j;->b(Ljava/lang/Class;)Lio/reactivex/j;
 

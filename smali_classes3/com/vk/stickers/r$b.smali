@@ -42,9 +42,9 @@
     iput-object p1, p0, Lcom/vk/stickers/r$b;->n:Lcom/vk/stickers/r;
 
     .line 174
-    new-instance p1, Lcom/vk/imageloader/view/VKImageView;
+    new-instance p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-direct {p1, p2}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
     check-cast p1, Landroid/view/View;
 
@@ -65,7 +65,7 @@
     throw p1
 
     :cond_0
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
     const/16 p2, 0xc
 
@@ -80,7 +80,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {p1, v0, v1, p2, v1}, Lcom/vk/imageloader/view/VKImageView;->setPadding(IIII)V
+    invoke-virtual {p1, v0, v1, p2, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setPadding(IIII)V
 
     const/16 p2, 0x30
 
@@ -95,12 +95,12 @@
 
     move-result v0
 
-    invoke-virtual {p1, p2, v0}, Lcom/vk/imageloader/view/VKImageView;->a(II)V
+    invoke-virtual {p1, p2, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(II)V
 
     .line 182
     sget-object p2, Lcom/facebook/drawee/drawable/p$b;->f:Lcom/facebook/drawee/drawable/p$b;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
 
     .line 183
     check-cast p1, Landroid/view/View;
@@ -454,18 +454,18 @@
     throw p1
 
     :cond_0
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-direct {p0}, Lcom/vk/stickers/r$b;->A()Landroid/graphics/drawable/Drawable;
 
     move-result-object v3
 
-    invoke-virtual {v0, v3}, Lcom/vk/imageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v3}, Lcom/vk/messengerageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 196
     iget-object v0, p0, Lcom/vk/stickers/r$b;->a:Landroid/view/View;
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-direct {p0}, Lcom/vk/stickers/r$b;->C()Landroid/content/Context;
 
@@ -479,7 +479,7 @@
 
     check-cast v3, Ljava/lang/CharSequence;
 
-    invoke-virtual {v0, v3}, Lcom/vk/imageloader/view/VKImageView;->setContentDescription(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v3}, Lcom/vk/messengerageloader/view/VKImageView;->setContentDescription(Ljava/lang/CharSequence;)V
 
     .line 197
     check-cast v2, Ljava/lang/String;
@@ -512,18 +512,18 @@
     throw p1
 
     :cond_2
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-direct {p0}, Lcom/vk/stickers/r$b;->z()Landroid/graphics/drawable/Drawable;
 
     move-result-object v3
 
-    invoke-virtual {v0, v3}, Lcom/vk/imageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v3}, Lcom/vk/messengerageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 200
     iget-object v0, p0, Lcom/vk/stickers/r$b;->a:Landroid/view/View;
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-direct {p0}, Lcom/vk/stickers/r$b;->C()Landroid/content/Context;
 
@@ -537,7 +537,7 @@
 
     check-cast v3, Ljava/lang/CharSequence;
 
-    invoke-virtual {v0, v3}, Lcom/vk/imageloader/view/VKImageView;->setContentDescription(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v3}, Lcom/vk/messengerageloader/view/VKImageView;->setContentDescription(Ljava/lang/CharSequence;)V
 
     .line 201
     check-cast v2, Ljava/lang/String;
@@ -568,18 +568,18 @@
     throw p1
 
     :cond_4
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-direct {p0}, Lcom/vk/stickers/r$b;->B()Landroid/graphics/drawable/Drawable;
 
     move-result-object v3
 
-    invoke-virtual {v0, v3}, Lcom/vk/imageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v3}, Lcom/vk/messengerageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 204
     iget-object v0, p0, Lcom/vk/stickers/r$b;->a:Landroid/view/View;
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-direct {p0}, Lcom/vk/stickers/r$b;->C()Landroid/content/Context;
 
@@ -593,7 +593,7 @@
 
     check-cast v3, Ljava/lang/CharSequence;
 
-    invoke-virtual {v0, v3}, Lcom/vk/imageloader/view/VKImageView;->setContentDescription(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v3}, Lcom/vk/messengerageloader/view/VKImageView;->setContentDescription(Ljava/lang/CharSequence;)V
 
     .line 205
     check-cast v2, Ljava/lang/String;
@@ -632,18 +632,18 @@
     throw p1
 
     :cond_6
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/stickers/b/d;->b()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 208
     iget-object v0, p0, Lcom/vk/stickers/r$b;->a:Landroid/view/View;
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/stickers/b/d;->e()Ljava/lang/String;
 
@@ -651,7 +651,7 @@
 
     check-cast v2, Ljava/lang/CharSequence;
 
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->setContentDescription(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setContentDescription(Ljava/lang/CharSequence;)V
 
     .line 209
     invoke-virtual {p1}, Lcom/vk/stickers/b/d;->b()Ljava/lang/String;

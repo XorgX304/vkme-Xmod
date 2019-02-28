@@ -3,7 +3,7 @@
 .source "DialogsFragment.java"
 
 # interfaces
-.implements Lcom/vk/im/ui/components/dialogs_header/c;
+.implements Lcom/vk/messenger/ui/components/dialogs_header/c;
 
 
 # annotations
@@ -72,15 +72,15 @@
     return-void
 .end method
 
-.method public a(Lcom/vk/im/engine/models/dialogs/DialogsFilter;)V
+.method public a(Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;)V
     .locals 2
 
     .line 491
     iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/dialogs/a$b;->a:Lcom/vkontakte/android/fragments/messages/dialogs/a;
 
-    sget-object v1, Lcom/vk/im/ui/components/common/DialogsFilterChangeSource;->SELECTOR:Lcom/vk/im/ui/components/common/DialogsFilterChangeSource;
+    sget-object v1, Lcom/vk/messenger/ui/components/common/DialogsFilterChangeSource;->SELECTOR:Lcom/vk/messenger/ui/components/common/DialogsFilterChangeSource;
 
-    invoke-static {v0, p1, v1}, Lcom/vkontakte/android/fragments/messages/dialogs/a;->a(Lcom/vkontakte/android/fragments/messages/dialogs/a;Lcom/vk/im/engine/models/dialogs/DialogsFilter;Lcom/vk/im/ui/components/common/DialogsFilterChangeSource;)V
+    invoke-static {v0, p1, v1}, Lcom/vkontakte/android/fragments/messages/dialogs/a;->a(Lcom/vkontakte/android/fragments/messages/dialogs/a;Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;Lcom/vk/messenger/ui/components/common/DialogsFilterChangeSource;)V
 
     return-void
 .end method
@@ -91,20 +91,20 @@
     .line 532
     iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/dialogs/a$b;->a:Lcom/vkontakte/android/fragments/messages/dialogs/a;
 
-    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/dialogs/a;->b(Lcom/vkontakte/android/fragments/messages/dialogs/a;)Lcom/vk/im/ui/components/dialogs_header/impl/vk/a;
+    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/dialogs/a;->b(Lcom/vkontakte/android/fragments/messages/dialogs/a;)Lcom/vk/messenger/ui/components/dialogs_header/impl/vk/a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/components/dialogs_header/impl/vk/a;->o()V
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/components/dialogs_header/impl/vk/a;->o()V
 
     .line 533
     iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/dialogs/a$b;->a:Lcom/vkontakte/android/fragments/messages/dialogs/a;
 
-    invoke-virtual {v0}, Lcom/vkontakte/android/fragments/messages/dialogs/a;->at()Lcom/vk/im/ui/components/msg_search/a;
+    invoke-virtual {v0}, Lcom/vkontakte/android/fragments/messages/dialogs/a;->at()Lcom/vk/messenger/ui/components/msg_search/a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/components/msg_search/a;->q()V
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/components/msg_search/a;->q()V
 
     return-void
 .end method

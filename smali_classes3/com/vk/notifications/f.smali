@@ -1,5 +1,5 @@
 .class public final Lcom/vk/notifications/f;
-.super Lcom/vk/imageloader/view/VKMultiImageView;
+.super Lcom/vk/messengerageloader/view/VKMultiImageView;
 .source "NotificationAttachmentsView.kt"
 
 # interfaces
@@ -61,7 +61,7 @@
     invoke-static {p5, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 20
-    invoke-direct {p0, p1}, Lcom/vk/imageloader/view/VKMultiImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lcom/vk/messengerageloader/view/VKMultiImageView;-><init>(Landroid/content/Context;)V
 
     iput p2, p0, Lcom/vk/notifications/f;->f:I
 
@@ -340,7 +340,7 @@
     .locals 4
 
     .line 97
-    invoke-super {p0, p1}, Lcom/vk/imageloader/view/VKMultiImageView;->onDraw(Landroid/graphics/Canvas;)V
+    invoke-super {p0, p1}, Lcom/vk/messengerageloader/view/VKMultiImageView;->onDraw(Landroid/graphics/Canvas;)V
 
     .line 99
     iget v0, p0, Lcom/vk/notifications/f;->c:I
@@ -731,9 +731,9 @@
 
     check-cast v4, Lcom/vk/dto/notifications/NotificationEntity;
 
-    sget-object v5, Lcom/vk/imageloader/ImageSize;->SIZE_36DP:Lcom/vk/imageloader/ImageSize;
+    sget-object v5, Lcom/vk/messengerageloader/ImageSize;->SIZE_36DP:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v3, v4, v5}, Lcom/vk/notifications/j$a;->a(Lcom/vk/dto/notifications/NotificationEntity;Lcom/vk/imageloader/ImageSize;)Ljava/lang/String;
+    invoke-virtual {v3, v4, v5}, Lcom/vk/notifications/j$a;->a(Lcom/vk/dto/notifications/NotificationEntity;Lcom/vk/messengerageloader/ImageSize;)Ljava/lang/String;
 
     move-result-object v3
 

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/vkontakte/android/fragments/money/b$a;->a(Lcom/vk/im/engine/models/content/MoneyRequest;Lcom/vk/im/engine/models/messages/g;Landroid/content/Context;)V
+    value = Lcom/vkontakte/android/fragments/money/b$a;->a(Lcom/vk/messenger/engine/models/content/MoneyRequest;Lcom/vk/messenger/engine/models/messages/g;Landroid/content/Context;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

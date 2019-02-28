@@ -156,9 +156,9 @@
     invoke-direct {p2, v0}, Lcom/facebook/cache/common/g;-><init>(Ljava/lang/String;)V
 
     .line 220
-    sget-object v0, Lcom/vk/imageloader/c;->a:Lcom/vk/imageloader/c;
+    sget-object v0, Lcom/vk/messengerageloader/c;->a:Lcom/vk/messengerageloader/c;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/c;->d()Lcom/facebook/imagepipeline/d/g;
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/c;->d()Lcom/facebook/imagepipeline/d/g;
 
     move-result-object v0
 
@@ -746,9 +746,9 @@
     check-cast v1, Ljava/lang/String;
 
     .line 261
-    sget-object v2, Lcom/vk/imageloader/c;->a:Lcom/vk/imageloader/c;
+    sget-object v2, Lcom/vk/messengerageloader/c;->a:Lcom/vk/messengerageloader/c;
 
-    invoke-virtual {v2}, Lcom/vk/imageloader/c;->d()Lcom/facebook/imagepipeline/d/g;
+    invoke-virtual {v2}, Lcom/vk/messengerageloader/c;->d()Lcom/facebook/imagepipeline/d/g;
 
     move-result-object v2
 
@@ -852,9 +852,9 @@
 
     .line 271
     :cond_1
-    sget-object v1, Lcom/vk/imageloader/c;->a:Lcom/vk/imageloader/c;
+    sget-object v1, Lcom/vk/messengerageloader/c;->a:Lcom/vk/messengerageloader/c;
 
-    invoke-virtual {v1}, Lcom/vk/imageloader/c;->c()Lcom/facebook/imagepipeline/d/j;
+    invoke-virtual {v1}, Lcom/vk/messengerageloader/c;->c()Lcom/facebook/imagepipeline/d/j;
 
     move-result-object v1
 

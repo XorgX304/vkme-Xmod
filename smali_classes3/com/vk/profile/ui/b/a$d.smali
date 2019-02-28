@@ -67,11 +67,11 @@
     :goto_0
     iget-object p3, p0, Lcom/vk/profile/ui/b/a$d;->a:Lcom/vk/profile/ui/b/a;
 
-    invoke-virtual {p3}, Lcom/vk/profile/ui/b/a;->getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p3}, Lcom/vk/profile/ui/b/a;->getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p3
 
-    invoke-virtual {p3}, Lcom/vk/imageloader/view/VKImageView;->getMeasuredWidth()I
+    invoke-virtual {p3}, Lcom/vk/messengerageloader/view/VKImageView;->getMeasuredWidth()I
 
     move-result p3
 
@@ -90,11 +90,11 @@
     .line 161
     iget-object p4, p0, Lcom/vk/profile/ui/b/a$d;->a:Lcom/vk/profile/ui/b/a;
 
-    invoke-virtual {p4}, Lcom/vk/profile/ui/b/a;->getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p4}, Lcom/vk/profile/ui/b/a;->getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p4
 
-    invoke-virtual {p4}, Lcom/vk/imageloader/view/VKImageView;->getMeasuredHeight()I
+    invoke-virtual {p4}, Lcom/vk/messengerageloader/view/VKImageView;->getMeasuredHeight()I
 
     move-result p4
 
@@ -114,11 +114,11 @@
 
     iget-object p5, p0, Lcom/vk/profile/ui/b/a$d;->a:Lcom/vk/profile/ui/b/a;
 
-    invoke-virtual {p5}, Lcom/vk/profile/ui/b/a;->getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p5}, Lcom/vk/profile/ui/b/a;->getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p5
 
-    invoke-virtual {p5}, Lcom/vk/imageloader/view/VKImageView;->getMeasuredHeight()I
+    invoke-virtual {p5}, Lcom/vk/messengerageloader/view/VKImageView;->getMeasuredHeight()I
 
     move-result p5
 
@@ -131,11 +131,11 @@
     .line 162
     iget-object p1, p0, Lcom/vk/profile/ui/b/a$d;->a:Lcom/vk/profile/ui/b/a;
 
-    invoke-virtual {p1}, Lcom/vk/profile/ui/b/a;->getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p1}, Lcom/vk/profile/ui/b/a;->getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->getImageMatrix()Landroid/graphics/Matrix;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->getImageMatrix()Landroid/graphics/Matrix;
 
     move-result-object p1
 
@@ -144,11 +144,11 @@
     .line 163
     iget-object p1, p0, Lcom/vk/profile/ui/b/a$d;->a:Lcom/vk/profile/ui/b/a;
 
-    invoke-virtual {p1}, Lcom/vk/profile/ui/b/a;->getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p1}, Lcom/vk/profile/ui/b/a;->getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->getImageMatrix()Landroid/graphics/Matrix;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->getImageMatrix()Landroid/graphics/Matrix;
 
     move-result-object p1
 
@@ -169,22 +169,22 @@
 
     iget-object p1, p0, Lcom/vk/profile/ui/b/a$d;->a:Lcom/vk/profile/ui/b/a;
 
-    invoke-virtual {p1}, Lcom/vk/profile/ui/b/a;->getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p1}, Lcom/vk/profile/ui/b/a;->getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->getImageMatrix()Landroid/graphics/Matrix;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->getImageMatrix()Landroid/graphics/Matrix;
 
     move-result-object p1
 
     .line 166
     iget-object p2, p0, Lcom/vk/profile/ui/b/a$d;->a:Lcom/vk/profile/ui/b/a;
 
-    invoke-virtual {p2}, Lcom/vk/profile/ui/b/a;->getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p2}, Lcom/vk/profile/ui/b/a;->getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/vk/imageloader/view/VKImageView;->getMeasuredWidth()I
+    invoke-virtual {p2}, Lcom/vk/messengerageloader/view/VKImageView;->getMeasuredWidth()I
 
     move-result p2
 
@@ -195,11 +195,11 @@
     .line 167
     iget-object p3, p0, Lcom/vk/profile/ui/b/a$d;->a:Lcom/vk/profile/ui/b/a;
 
-    invoke-virtual {p3}, Lcom/vk/profile/ui/b/a;->getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p3}, Lcom/vk/profile/ui/b/a;->getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p3
 
-    invoke-virtual {p3}, Lcom/vk/imageloader/view/VKImageView;->getMeasuredHeight()I
+    invoke-virtual {p3}, Lcom/vk/messengerageloader/view/VKImageView;->getMeasuredHeight()I
 
     move-result p3
 
@@ -216,13 +216,13 @@
     :cond_1
     iget-object p1, p0, Lcom/vk/profile/ui/b/a$d;->a:Lcom/vk/profile/ui/b/a;
 
-    invoke-virtual {p1}, Lcom/vk/profile/ui/b/a;->getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p1}, Lcom/vk/profile/ui/b/a;->getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
     sget-object p2, Landroid/widget/ImageView$ScaleType;->MATRIX:Landroid/widget/ImageView$ScaleType;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
 
     return-void
 .end method

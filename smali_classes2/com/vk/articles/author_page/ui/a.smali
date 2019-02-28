@@ -50,7 +50,7 @@
 
 .field private al:Landroid/view/View;
 
-.field private am:Lcom/vk/imageloader/view/VKImageView;
+.field private am:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private an:Landroid/widget/TextView;
 
@@ -338,11 +338,11 @@
     return-void
 .end method
 
-.method public static final synthetic g(Lcom/vk/articles/author_page/ui/a;)Lcom/vk/imageloader/view/VKImageView;
+.method public static final synthetic g(Lcom/vk/articles/author_page/ui/a;)Lcom/vk/messengerageloader/view/VKImageView;
     .locals 0
 
     .line 54
-    iget-object p0, p0, Lcom/vk/articles/author_page/ui/a;->am:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p0, p0, Lcom/vk/articles/author_page/ui/a;->am:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-object p0
 .end method
@@ -444,9 +444,9 @@
     .line 264
     move-object v3, v0
 
-    check-cast v3, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v3, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v3, p0, Lcom/vk/articles/author_page/ui/a;->am:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v3, p0, Lcom/vk/articles/author_page/ui/a;->am:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 265
     iput-object v2, p0, Lcom/vk/articles/author_page/ui/a;->an:Landroid/widget/TextView;
@@ -546,9 +546,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p2, p0, Lcom/vk/articles/author_page/ui/a;->am:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vk/articles/author_page/ui/a;->am:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p2, 0x7f0a07bc
 
@@ -738,7 +738,7 @@
     check-cast p2, Lkotlin/jvm/a/b;
 
     .line 140
-    iget-object v1, p0, Lcom/vk/articles/author_page/ui/a;->am:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/articles/author_page/ui/a;->am:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v1, :cond_5
 
@@ -1301,7 +1301,7 @@
 
     .line 306
     :cond_1
-    iget-object v0, p0, Lcom/vk/articles/author_page/ui/a;->am:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/articles/author_page/ui/a;->am:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_2
 
@@ -1309,7 +1309,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 308
     :cond_2
@@ -2071,11 +2071,11 @@
 
     .line 377
     :cond_0
-    iget-object v0, p0, Lcom/vk/articles/author_page/ui/a;->am:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/articles/author_page/ui/a;->am:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 379
     :cond_1

@@ -28,7 +28,7 @@
 
 
 # instance fields
-.field private final p:Lcom/vk/im/ui/views/image_zhukov/ZhukovLayout;
+.field private final p:Lcom/vk/messenger/ui/views/image_zhukov/ZhukovLayout;
 
 .field private final q:Lcom/vk/newsfeed/adapters/b;
 
@@ -94,7 +94,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Landroid/view/ViewGroup;Lcom/vk/im/ui/views/image_zhukov/k;)V
+.method public constructor <init>(Landroid/view/ViewGroup;Lcom/vk/messenger/ui/views/image_zhukov/k;)V
     .locals 4
 
     const-string v0, "parent"
@@ -127,9 +127,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/ui/views/image_zhukov/ZhukovLayout;
+    check-cast v0, Lcom/vk/messenger/ui/views/image_zhukov/ZhukovLayout;
 
-    iput-object v0, p0, Lcom/vk/newsfeed/holders/attachments/ay;->p:Lcom/vk/im/ui/views/image_zhukov/ZhukovLayout;
+    iput-object v0, p0, Lcom/vk/newsfeed/holders/attachments/ay;->p:Lcom/vk/messenger/ui/views/image_zhukov/ZhukovLayout;
 
     .line 39
     new-instance v0, Lcom/vk/newsfeed/adapters/b;
@@ -176,18 +176,18 @@
     invoke-virtual {p1, v0}, Lcom/vk/newsfeed/adapters/b;->a(Lcom/vk/newsfeed/holders/zhukov/a$a;)V
 
     .line 48
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ay;->p:Lcom/vk/im/ui/views/image_zhukov/ZhukovLayout;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ay;->p:Lcom/vk/messenger/ui/views/image_zhukov/ZhukovLayout;
 
-    invoke-virtual {p1, p2}, Lcom/vk/im/ui/views/image_zhukov/ZhukovLayout;->setPools(Lcom/vk/im/ui/views/image_zhukov/k;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messenger/ui/views/image_zhukov/ZhukovLayout;->setPools(Lcom/vk/messenger/ui/views/image_zhukov/k;)V
 
     .line 49
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ay;->p:Lcom/vk/im/ui/views/image_zhukov/ZhukovLayout;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/ay;->p:Lcom/vk/messenger/ui/views/image_zhukov/ZhukovLayout;
 
     iget-object p2, p0, Lcom/vk/newsfeed/holders/attachments/ay;->q:Lcom/vk/newsfeed/adapters/b;
 
-    check-cast p2, Lcom/vk/im/ui/views/image_zhukov/i;
+    check-cast p2, Lcom/vk/messenger/ui/views/image_zhukov/i;
 
-    invoke-virtual {p1, p2}, Lcom/vk/im/ui/views/image_zhukov/ZhukovLayout;->setAdapter(Lcom/vk/im/ui/views/image_zhukov/i;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messenger/ui/views/image_zhukov/ZhukovLayout;->setAdapter(Lcom/vk/messenger/ui/views/image_zhukov/i;)V
 
     return-void
 .end method
@@ -212,11 +212,11 @@
     return-object v0
 .end method
 
-.method public static final synthetic a(Lcom/vk/newsfeed/holders/attachments/ay;)Lcom/vk/im/ui/views/image_zhukov/ZhukovLayout;
+.method public static final synthetic a(Lcom/vk/newsfeed/holders/attachments/ay;)Lcom/vk/messenger/ui/views/image_zhukov/ZhukovLayout;
     .locals 0
 
     .line 34
-    iget-object p0, p0, Lcom/vk/newsfeed/holders/attachments/ay;->p:Lcom/vk/im/ui/views/image_zhukov/ZhukovLayout;
+    iget-object p0, p0, Lcom/vk/newsfeed/holders/attachments/ay;->p:Lcom/vk/messenger/ui/views/image_zhukov/ZhukovLayout;
 
     return-object p0
 .end method

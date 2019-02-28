@@ -3,7 +3,7 @@
 .source "NewChatFragment.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/components/new_chat/f$a;
+.implements Lcom/vk/messenger/ui/components/new_chat/f$a;
 
 
 # annotations
@@ -44,11 +44,11 @@
     .locals 8
 
     .line 127
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/b;->j()Lcom/vk/e/w;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/b;->j()Lcom/vk/e/w;
 
     move-result-object v1
 
@@ -141,15 +141,15 @@
     .locals 2
 
     .line 131
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/b;->r()Lcom/vk/im/ui/a/e;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/b;->r()Lcom/vk/messenger/ui/a/e;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/e;->a()Lcom/vk/im/ui/fragments/a;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/e;->a()Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object v0
 
@@ -158,14 +158,14 @@
     add-int/2addr p1, v1
 
     .line 132
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/fragments/a;->a(I)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/fragments/a;->a(I)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
     const-string v0, "create_conversation"
 
     .line 133
-    invoke-virtual {p1, v0}, Lcom/vk/im/ui/fragments/a;->d(Ljava/lang/String;)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/ui/fragments/a;->d(Ljava/lang/String;)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
@@ -174,7 +174,7 @@
 
     check-cast v0, Lcom/vk/core/fragments/d;
 
-    invoke-virtual {p1, v0}, Lcom/vk/im/ui/fragments/a;->a(Lcom/vk/core/fragments/d;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/ui/fragments/a;->a(Lcom/vk/core/fragments/d;)V
 
     return-void
 .end method

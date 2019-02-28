@@ -1357,7 +1357,7 @@
 
     check-cast v0, Landroid/os/Vibrator;
 
-    const-wide/16 v1, 0x32
+    const-wide/16 v1, 0xf
 
     .line 334
     invoke-virtual {v0, v1, v2}, Landroid/os/Vibrator;->vibrate(J)V

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->a(Lcom/vk/im/engine/models/messages/Msg;)V
+    value = Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->a(Lcom/vk/messenger/engine/models/messages/Msg;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
     value = {
         "Lkotlin/jvm/internal/FunctionReference;",
         "Lkotlin/jvm/a/b<",
-        "Lcom/vk/im/engine/models/messages/e;",
+        "Lcom/vk/messenger/engine/models/messages/e;",
         "Lkotlin/l;",
         ">;"
     }
@@ -44,9 +44,9 @@
     .locals 0
 
     .line 69
-    check-cast p1, Lcom/vk/im/engine/models/messages/e;
+    check-cast p1, Lcom/vk/messenger/engine/models/messages/e;
 
-    invoke-virtual {p0, p1}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc$onMessageReplyRequested$1;->a(Lcom/vk/im/engine/models/messages/e;)V
+    invoke-virtual {p0, p1}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc$onMessageReplyRequested$1;->a(Lcom/vk/messenger/engine/models/messages/e;)V
 
     sget-object p1, Lkotlin/l;->a:Lkotlin/l;
 
@@ -65,7 +65,7 @@
     return-object v0
 .end method
 
-.method public final a(Lcom/vk/im/engine/models/messages/e;)V
+.method public final a(Lcom/vk/messenger/engine/models/messages/e;)V
     .locals 1
 
     const-string v0, "p1"
@@ -77,7 +77,7 @@
     check-cast v0, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;
 
     .line 359
-    invoke-static {v0, p1}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->a(Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;Lcom/vk/im/engine/models/messages/e;)V
+    invoke-static {v0, p1}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->a(Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;Lcom/vk/messenger/engine/models/messages/e;)V
 
     return-void
 .end method
@@ -93,7 +93,7 @@
 .method public final c()Ljava/lang/String;
     .locals 1
 
-    const-string v0, "onMsgToReplyLoadSuccess(Lcom/vk/im/engine/models/messages/MsgsExt;)V"
+    const-string v0, "onMsgToReplyLoadSuccess(Lcom/vk/messenger/engine/models/messages/MsgsExt;)V"
 
     return-object v0
 .end method

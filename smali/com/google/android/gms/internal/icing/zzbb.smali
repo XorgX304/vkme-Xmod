@@ -20,7 +20,7 @@
 
 
 # static fields
-.field private static zzdj:Z = false
+.field private static zzdj:Z
 
 
 # instance fields

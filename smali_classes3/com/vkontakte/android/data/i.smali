@@ -49,7 +49,7 @@
     .line 33
     new-instance v4, Lcom/vk/api/base/e;
 
-    const-string v5, "account.setOnline"
+    const-string v5, "account.setOnliner"
 
     invoke-direct {v4, v5}, Lcom/vk/api/base/e;-><init>(Ljava/lang/String;)V
 

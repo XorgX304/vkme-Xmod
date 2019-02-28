@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.vk.imageloader.view.VKCircleImageView android:id="@id/user_photo" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+    <com.vk.messengerageloader.view.VKCircleImageView android:id="@id/user_photo" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
     <com.vkontakte.android.ui.OverlayLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/profile" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_centerVertical="true" android:paddingStart="42.0dip" android:paddingEnd="4.0dip" android:layout_marginEnd="100.0dip" android:layout_alignStart="@id/user_photo" app:overlay="@drawable/highlight_post_header">
         <FrameLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_toEndOf="@id/user_photo">
             <TextView android:textSize="14.0sp" android:textColor="#9affffff" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Poster Name" android:singleLine="true" android:fontFamily="@string/font_family_medium" android:layout_marginEnd="16.0dip" />

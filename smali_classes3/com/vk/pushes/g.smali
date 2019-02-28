@@ -3,7 +3,7 @@
 .source "VkPushBridge.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/a/l;
+.implements Lcom/vk/messenger/ui/a/l;
 .implements Lcom/vk/pushes/d;
 
 
@@ -178,11 +178,11 @@
     .locals 1
 
     .line 14
-    invoke-static {}, Lcom/vk/im/engine/f;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vk/messenger/engine/f;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/d;->d()Z
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/d;->d()Z
 
     move-result v0
 

@@ -24,33 +24,33 @@
     invoke-static {v2}, Lcom/vkontakte/android/utils/L;->c([Ljava/lang/Object;)V
 
     .line 128
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v2
 
     .line 129
-    new-instance v3, Lcom/vk/im/engine/b$a;
+    new-instance v3, Lcom/vk/messenger/engine/b$a;
 
-    invoke-direct {v3}, Lcom/vk/im/engine/b$a;-><init>()V
+    invoke-direct {v3}, Lcom/vk/messenger/engine/b$a;-><init>()V
 
     .line 130
-    invoke-static {}, Lcom/vkontakte/android/im/i;->b()Lcom/vk/im/engine/b;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->b()Lcom/vk/messenger/engine/b;
 
     move-result-object v5
 
-    invoke-virtual {v3, v5}, Lcom/vk/im/engine/b$a;->a(Lcom/vk/im/engine/b;)Lcom/vk/im/engine/b$a;
+    invoke-virtual {v3, v5}, Lcom/vk/messenger/engine/b$a;->a(Lcom/vk/messenger/engine/b;)Lcom/vk/messenger/engine/b$a;
 
     move-result-object v3
 
     const/4 v5, 0x0
 
     .line 131
-    invoke-virtual {v3, v5}, Lcom/vk/im/engine/b$a;->a(Lcom/vk/im/engine/models/credentials/UserCredentials;)Lcom/vk/im/engine/b$a;
+    invoke-virtual {v3, v5}, Lcom/vk/messenger/engine/b$a;->a(Lcom/vk/messenger/engine/models/credentials/UserCredentials;)Lcom/vk/messenger/engine/b$a;
 
     move-result-object v3
 
     .line 132
-    invoke-virtual {v3}, Lcom/vk/im/engine/b$a;->V()Lcom/vk/im/engine/b;
+    invoke-virtual {v3}, Lcom/vk/messenger/engine/b$a;->V()Lcom/vk/messenger/engine/b;
 
     move-result-object v3
 
@@ -58,7 +58,7 @@
     invoke-static {}, Lcom/vkontakte/android/im/e;->b()V
 
     .line 134
-    invoke-virtual {v2, v3}, Lcom/vk/im/engine/d;->b(Lcom/vk/im/engine/b;)V
+    invoke-virtual {v2, v3}, Lcom/vk/messenger/engine/d;->b(Lcom/vk/messenger/engine/b;)V
 
     .line 137
     invoke-static {}, Lcom/vkontakte/android/sync/online/g;->a()Lcom/vkontakte/android/sync/online/g;

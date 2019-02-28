@@ -1,5 +1,5 @@
 .class public Lcom/vk/stories/view/StoryCircleImageView;
-.super Lcom/vk/imageloader/view/VKCircleImageView;
+.super Lcom/vk/messengerageloader/view/VKCircleImageView;
 .source "StoryCircleImageView.java"
 
 
@@ -94,7 +94,7 @@
     .locals 1
 
     .line 65
-    invoke-direct {p0, p1}, Lcom/vk/imageloader/view/VKCircleImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lcom/vk/messengerageloader/view/VKCircleImageView;-><init>(Landroid/content/Context;)V
 
     .line 49
     new-instance p1, Landroid/graphics/Paint;
@@ -148,7 +148,7 @@
     .locals 0
 
     .line 70
-    invoke-direct {p0, p1, p2}, Lcom/vk/imageloader/view/VKCircleImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lcom/vk/messengerageloader/view/VKCircleImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 49
     new-instance p1, Landroid/graphics/Paint;
@@ -202,7 +202,7 @@
     .locals 0
 
     .line 75
-    invoke-direct {p0, p1, p2, p3}, Lcom/vk/imageloader/view/VKCircleImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/vk/messengerageloader/view/VKCircleImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 49
     new-instance p1, Landroid/graphics/Paint;
@@ -515,7 +515,7 @@
     .locals 1
 
     .line 81
-    invoke-super {p0, p1}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Lcom/facebook/drawee/generic/b;)V
+    invoke-super {p0, p1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Lcom/facebook/drawee/generic/b;)V
 
     const/high16 v0, 0x3f800000    # 1.0f
 
@@ -598,7 +598,7 @@
     .locals 7
 
     .line 114
-    invoke-super {p0, p1}, Lcom/vk/imageloader/view/VKCircleImageView;->onDraw(Landroid/graphics/Canvas;)V
+    invoke-super {p0, p1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->onDraw(Landroid/graphics/Canvas;)V
 
     .line 116
     iget-boolean v0, p0, Lcom/vk/stories/view/StoryCircleImageView;->o:Z
@@ -646,7 +646,7 @@
     .locals 0
 
     .line 97
-    invoke-super {p0, p1, p2, p3, p4}, Lcom/vk/imageloader/view/VKCircleImageView;->onSizeChanged(IIII)V
+    invoke-super {p0, p1, p2, p3, p4}, Lcom/vk/messengerageloader/view/VKCircleImageView;->onSizeChanged(IIII)V
 
     .line 98
     iget-object p3, p0, Lcom/vk/stories/view/StoryCircleImageView;->d:Landroid/graphics/drawable/Drawable;

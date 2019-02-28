@@ -22,7 +22,7 @@
 
 .field private final d:Lcom/vk/stories/c/a;
 
-.field private final e:Lcom/vk/im/engine/models/users/User;
+.field private final e:Lcom/vk/messenger/engine/models/users/User;
 
 .field private f:Z
 
@@ -42,7 +42,7 @@
     return-void
 .end method
 
-.method private constructor <init>(ILjava/lang/String;Lcom/vk/stories/c/a;Lcom/vk/im/engine/models/users/User;Z)V
+.method private constructor <init>(ILjava/lang/String;Lcom/vk/stories/c/a;Lcom/vk/messenger/engine/models/users/User;Z)V
     .locals 0
 
     .line 10
@@ -54,18 +54,18 @@
 
     iput-object p3, p0, Lcom/vk/stories/c/b;->d:Lcom/vk/stories/c/a;
 
-    iput-object p4, p0, Lcom/vk/stories/c/b;->e:Lcom/vk/im/engine/models/users/User;
+    iput-object p4, p0, Lcom/vk/stories/c/b;->e:Lcom/vk/messenger/engine/models/users/User;
 
     iput-boolean p5, p0, Lcom/vk/stories/c/b;->f:Z
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(ILjava/lang/String;Lcom/vk/stories/c/a;Lcom/vk/im/engine/models/users/User;ZLkotlin/jvm/internal/h;)V
+.method public synthetic constructor <init>(ILjava/lang/String;Lcom/vk/stories/c/a;Lcom/vk/messenger/engine/models/users/User;ZLkotlin/jvm/internal/h;)V
     .locals 0
 
     .line 10
-    invoke-direct/range {p0 .. p5}, Lcom/vk/stories/c/b;-><init>(ILjava/lang/String;Lcom/vk/stories/c/a;Lcom/vk/im/engine/models/users/User;Z)V
+    invoke-direct/range {p0 .. p5}, Lcom/vk/stories/c/b;-><init>(ILjava/lang/String;Lcom/vk/stories/c/a;Lcom/vk/messenger/engine/models/users/User;Z)V
 
     return-void
 .end method
@@ -108,11 +108,11 @@
     return-object v0
 .end method
 
-.method public final d()Lcom/vk/im/engine/models/users/User;
+.method public final d()Lcom/vk/messenger/engine/models/users/User;
     .locals 1
 
     .line 10
-    iget-object v0, p0, Lcom/vk/stories/c/b;->e:Lcom/vk/im/engine/models/users/User;
+    iget-object v0, p0, Lcom/vk/stories/c/b;->e:Lcom/vk/messenger/engine/models/users/User;
 
     return-object v0
 .end method

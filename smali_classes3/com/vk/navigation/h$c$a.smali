@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/vk/navigation/h$c;->a(Lcom/vk/im/engine/events/a;)V
+    value = Lcom/vk/navigation/h$c;->a(Lcom/vk/messenger/engine/events/a;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

@@ -72,17 +72,17 @@
 
     iget-object v1, v1, Lcom/vkontakte/android/fragments/messages/a/a$b;->a:Lcom/vkontakte/android/fragments/messages/a/a;
 
-    invoke-static {v1}, Lcom/vkontakte/android/fragments/messages/a/a;->c(Lcom/vkontakte/android/fragments/messages/a/a;)Lcom/vk/im/ui/a/b;
+    invoke-static {v1}, Lcom/vkontakte/android/fragments/messages/a/a;->c(Lcom/vkontakte/android/fragments/messages/a/a;)Lcom/vk/messenger/ui/a/b;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lcom/vk/im/ui/a/b;->t()Lcom/vk/im/ui/a/a;
+    invoke-interface {v1}, Lcom/vk/messenger/ui/a/b;->t()Lcom/vk/messenger/ui/a/a;
 
     move-result-object v1
 
     const v2, 0x9807
 
-    invoke-interface {v1, v0, v2}, Lcom/vk/im/ui/a/a;->b(Lcom/vk/navigation/a;I)V
+    invoke-interface {v1, v0, v2}, Lcom/vk/messenger/ui/a/a;->b(Lcom/vk/navigation/a;I)V
 
     .line 279
     sget-object v0, Lkotlin/l;->a:Lkotlin/l;

@@ -3,7 +3,7 @@
 .source "ChatAttachmentHistoryFragment.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/components/attaches_history/tabs/c;
+.implements Lcom/vk/messenger/ui/components/attaches_history/tabs/c;
 
 
 # annotations

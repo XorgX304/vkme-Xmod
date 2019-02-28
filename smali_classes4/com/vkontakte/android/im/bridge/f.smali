@@ -3,7 +3,7 @@
 .source "VkAppImBridge.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/a/b;
+.implements Lcom/vk/messenger/ui/a/b;
 
 
 # static fields
@@ -44,7 +44,7 @@
     return-object v0
 .end method
 
-.method public synthetic B()Lcom/vk/im/ui/a/f;
+.method public synthetic B()Lcom/vk/messenger/ui/a/f;
     .locals 1
 
     .line 9
@@ -52,7 +52,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/ui/a/f;
+    check-cast v0, Lcom/vk/messenger/ui/a/f;
 
     return-object v0
 .end method
@@ -66,7 +66,7 @@
     return-object v0
 .end method
 
-.method public synthetic D()Lcom/vk/im/ui/a/q;
+.method public synthetic D()Lcom/vk/messenger/ui/a/q;
     .locals 1
 
     .line 9
@@ -74,7 +74,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/ui/a/q;
+    check-cast v0, Lcom/vk/messenger/ui/a/q;
 
     return-object v0
 .end method
@@ -88,7 +88,7 @@
     return-object v0
 .end method
 
-.method public synthetic F()Lcom/vk/im/ui/a/h;
+.method public synthetic F()Lcom/vk/messenger/ui/a/h;
     .locals 1
 
     .line 9
@@ -96,7 +96,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/ui/a/h;
+    check-cast v0, Lcom/vk/messenger/ui/a/h;
 
     return-object v0
 .end method
@@ -110,7 +110,7 @@
     return-object v0
 .end method
 
-.method public synthetic H()Lcom/vk/im/ui/a/g;
+.method public synthetic H()Lcom/vk/messenger/ui/a/g;
     .locals 1
 
     .line 9
@@ -118,7 +118,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/ui/a/g;
+    check-cast v0, Lcom/vk/messenger/ui/a/g;
 
     return-object v0
 .end method
@@ -132,7 +132,7 @@
     return-object v0
 .end method
 
-.method public synthetic J()Lcom/vk/im/ui/a/d;
+.method public synthetic J()Lcom/vk/messenger/ui/a/d;
     .locals 1
 
     .line 9
@@ -140,7 +140,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/ui/a/d;
+    check-cast v0, Lcom/vk/messenger/ui/a/d;
 
     return-object v0
 .end method
@@ -154,7 +154,7 @@
     return-object v0
 .end method
 
-.method public synthetic L()Lcom/vk/im/ui/a/n;
+.method public synthetic L()Lcom/vk/messenger/ui/a/n;
     .locals 1
 
     .line 9
@@ -162,7 +162,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/ui/a/n;
+    check-cast v0, Lcom/vk/messenger/ui/a/n;
 
     return-object v0
 .end method
@@ -176,7 +176,7 @@
     return-object v0
 .end method
 
-.method public synthetic b()Lcom/vk/im/ui/a/m;
+.method public synthetic b()Lcom/vk/messenger/ui/a/m;
     .locals 1
 
     .line 9
@@ -184,7 +184,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/ui/a/m;
+    check-cast v0, Lcom/vk/messenger/ui/a/m;
 
     return-object v0
 .end method
@@ -198,7 +198,7 @@
     return-object v0
 .end method
 
-.method public synthetic d()Lcom/vk/im/ui/a/k;
+.method public synthetic d()Lcom/vk/messenger/ui/a/k;
     .locals 1
 
     .line 9
@@ -206,7 +206,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/ui/a/k;
+    check-cast v0, Lcom/vk/messenger/ui/a/k;
 
     return-object v0
 .end method
@@ -222,7 +222,7 @@
     return-object v0
 .end method
 
-.method public synthetic f()Lcom/vk/im/ui/a/j;
+.method public synthetic f()Lcom/vk/messenger/ui/a/j;
     .locals 1
 
     .line 9
@@ -230,7 +230,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/ui/a/j;
+    check-cast v0, Lcom/vk/messenger/ui/a/j;
 
     return-object v0
 .end method
@@ -246,7 +246,7 @@
     return-object v0
 .end method
 
-.method public synthetic h()Lcom/vk/im/ui/a/i;
+.method public synthetic h()Lcom/vk/messenger/ui/a/i;
     .locals 1
 
     .line 9
@@ -254,7 +254,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/ui/a/i;
+    check-cast v0, Lcom/vk/messenger/ui/a/i;
 
     return-object v0
 .end method
@@ -290,7 +290,7 @@
     return-object v0
 .end method
 
-.method public synthetic l()Lcom/vk/im/ui/media/audio/a;
+.method public synthetic l()Lcom/vk/messenger/ui/media/audio/a;
     .locals 1
 
     .line 9
@@ -298,7 +298,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/ui/media/audio/a;
+    check-cast v0, Lcom/vk/messenger/ui/media/audio/a;
 
     return-object v0
 .end method
@@ -312,7 +312,7 @@
     return-object v0
 .end method
 
-.method public synthetic n()Lcom/vk/im/ui/media/a/a;
+.method public synthetic n()Lcom/vk/messenger/ui/media/a/a;
     .locals 1
 
     .line 9
@@ -320,7 +320,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/ui/media/a/a;
+    check-cast v0, Lcom/vk/messenger/ui/media/a/a;
 
     return-object v0
 .end method
@@ -334,7 +334,7 @@
     return-object v0
 .end method
 
-.method public synthetic p()Lcom/vk/im/ui/a/r;
+.method public synthetic p()Lcom/vk/messenger/ui/a/r;
     .locals 1
 
     .line 9
@@ -342,7 +342,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/ui/a/r;
+    check-cast v0, Lcom/vk/messenger/ui/a/r;
 
     return-object v0
 .end method
@@ -356,7 +356,7 @@
     return-object v0
 .end method
 
-.method public synthetic r()Lcom/vk/im/ui/a/e;
+.method public synthetic r()Lcom/vk/messenger/ui/a/e;
     .locals 1
 
     .line 9
@@ -364,7 +364,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/ui/a/e;
+    check-cast v0, Lcom/vk/messenger/ui/a/e;
 
     return-object v0
 .end method
@@ -378,7 +378,7 @@
     return-object v0
 .end method
 
-.method public synthetic t()Lcom/vk/im/ui/a/a;
+.method public synthetic t()Lcom/vk/messenger/ui/a/a;
     .locals 1
 
     .line 9
@@ -386,7 +386,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/ui/a/a;
+    check-cast v0, Lcom/vk/messenger/ui/a/a;
 
     return-object v0
 .end method
@@ -400,7 +400,7 @@
     return-object v0
 .end method
 
-.method public synthetic v()Lcom/vk/im/ui/a/o;
+.method public synthetic v()Lcom/vk/messenger/ui/a/o;
     .locals 1
 
     .line 9
@@ -408,7 +408,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/ui/a/o;
+    check-cast v0, Lcom/vk/messenger/ui/a/o;
 
     return-object v0
 .end method
@@ -422,7 +422,7 @@
     return-object v0
 .end method
 
-.method public synthetic x()Lcom/vk/im/ui/a/p;
+.method public synthetic x()Lcom/vk/messenger/ui/a/p;
     .locals 1
 
     .line 9
@@ -430,7 +430,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/ui/a/p;
+    check-cast v0, Lcom/vk/messenger/ui/a/p;
 
     return-object v0
 .end method
@@ -444,7 +444,7 @@
     return-object v0
 .end method
 
-.method public synthetic z()Lcom/vk/im/ui/a/l;
+.method public synthetic z()Lcom/vk/messenger/ui/a/l;
     .locals 1
 
     .line 9
@@ -452,7 +452,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/im/ui/a/l;
+    check-cast v0, Lcom/vk/messenger/ui/a/l;
 
     return-object v0
 .end method

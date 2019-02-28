@@ -65,7 +65,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 136
-    sget-object p1, Lcom/vk/imageloader/a/f;->c:Lcom/vk/imageloader/a/f;
+    sget-object p1, Lcom/vk/messengerageloader/a/f;->c:Lcom/vk/messengerageloader/a/f;
 
     .line 137
     iget-object v0, p0, Lcom/vk/profile/ui/StaticMapWrapper$showBlurInternal$1$1$1;->a:Landroid/graphics/Bitmap;
@@ -84,7 +84,7 @@
     move-result-object v1
 
     .line 136
-    invoke-virtual {p1, v0, v1}, Lcom/vk/imageloader/a/f;->a(Landroid/graphics/Bitmap;Lcom/facebook/imagepipeline/b/f;)Lcom/facebook/common/references/a;
+    invoke-virtual {p1, v0, v1}, Lcom/vk/messengerageloader/a/f;->a(Landroid/graphics/Bitmap;Lcom/facebook/imagepipeline/b/f;)Lcom/facebook/common/references/a;
 
     move-result-object p1
 

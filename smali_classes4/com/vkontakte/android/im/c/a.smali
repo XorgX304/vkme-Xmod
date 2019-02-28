@@ -3,7 +3,7 @@
 .source "ImPhotoConverter.kt"
 
 # interfaces
-.implements Lcom/vk/im/engine/a;
+.implements Lcom/vk/messenger/engine/a;
 
 
 # annotations
@@ -111,18 +111,18 @@
     .locals 4
 
     .line 69
-    sget-object v0, Lcom/vk/im/engine/utils/o;->a:Lcom/vk/im/engine/utils/o;
+    sget-object v0, Lcom/vk/messenger/engine/utils/o;->a:Lcom/vk/messenger/engine/utils/o;
 
-    invoke-virtual {v0, p1, p2}, Lcom/vk/im/engine/utils/o;->b(Landroid/content/Context;Landroid/net/Uri;)Lcom/vk/im/engine/utils/o$a;
+    invoke-virtual {v0, p1, p2}, Lcom/vk/messenger/engine/utils/o;->b(Landroid/content/Context;Landroid/net/Uri;)Lcom/vk/messenger/engine/utils/o$a;
 
     move-result-object p1
 
     .line 70
-    invoke-virtual {p1}, Lcom/vk/im/engine/utils/o$a;->a()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/utils/o$a;->a()I
 
     move-result p2
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/utils/o$a;->b()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/utils/o$a;->b()I
 
     move-result v0
 
@@ -147,7 +147,7 @@
     if-eqz p2, :cond_1
 
     .line 72
-    invoke-virtual {p1}, Lcom/vk/im/engine/utils/o$a;->a()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/utils/o$a;->a()I
 
     move-result p2
 
@@ -156,7 +156,7 @@
     :cond_1
     if-eqz v0, :cond_3
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/utils/o$a;->b()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/utils/o$a;->b()I
 
     move-result p1
 
@@ -171,7 +171,7 @@
 
 
 # virtual methods
-.method public a(Landroid/content/Context;Landroid/net/Uri;Ljava/io/File;Lcom/vk/im/engine/internal/e;)Landroid/net/Uri;
+.method public a(Landroid/content/Context;Landroid/net/Uri;Ljava/io/File;Lcom/vk/messenger/engine/internal/e;)Landroid/net/Uri;
     .locals 9
 
     const-string v0, "context"
@@ -204,7 +204,7 @@
 
     .line 30
     :try_start_0
-    invoke-interface {p4, v2, v3}, Lcom/vk/im/engine/internal/e;->a(II)V
+    invoke-interface {p4, v2, v3}, Lcom/vk/messenger/engine/internal/e;->a(II)V
 
     goto :goto_0
 
@@ -226,11 +226,11 @@
 
     if-eqz v4, :cond_1
 
-    sget-object v4, Lcom/vk/im/engine/utils/o;->a:Lcom/vk/im/engine/utils/o;
+    sget-object v4, Lcom/vk/messenger/engine/utils/o;->a:Lcom/vk/messenger/engine/utils/o;
 
     const/16 v5, 0x640
 
-    invoke-virtual {v4, p1, p2, v5, v5}, Lcom/vk/im/engine/utils/o;->a(Landroid/content/Context;Landroid/net/Uri;II)Landroid/graphics/Bitmap;
+    invoke-virtual {v4, p1, p2, v5, v5}, Lcom/vk/messenger/engine/utils/o;->a(Landroid/content/Context;Landroid/net/Uri;II)Landroid/graphics/Bitmap;
 
     move-result-object v4
 
@@ -238,26 +238,26 @@
 
     .line 34
     :cond_1
-    sget-object v4, Lcom/vk/im/engine/utils/o;->a:Lcom/vk/im/engine/utils/o;
+    sget-object v4, Lcom/vk/messenger/engine/utils/o;->a:Lcom/vk/messenger/engine/utils/o;
 
-    invoke-virtual {v4, p1, p2}, Lcom/vk/im/engine/utils/o;->e(Landroid/content/Context;Landroid/net/Uri;)Landroid/graphics/Bitmap;
+    invoke-virtual {v4, p1, p2}, Lcom/vk/messenger/engine/utils/o;->e(Landroid/content/Context;Landroid/net/Uri;)Landroid/graphics/Bitmap;
 
     move-result-object v4
 
     .line 37
     :goto_1
-    sget-object v5, Lcom/vk/im/engine/utils/o;->a:Lcom/vk/im/engine/utils/o;
+    sget-object v5, Lcom/vk/messenger/engine/utils/o;->a:Lcom/vk/messenger/engine/utils/o;
 
-    invoke-virtual {v5, p1, p2}, Lcom/vk/im/engine/utils/o;->d(Landroid/content/Context;Landroid/net/Uri;)I
+    invoke-virtual {v5, p1, p2}, Lcom/vk/messenger/engine/utils/o;->d(Landroid/content/Context;Landroid/net/Uri;)I
 
     move-result v5
 
     if-eqz v5, :cond_2
 
     .line 39
-    sget-object v6, Lcom/vk/im/engine/utils/o;->a:Lcom/vk/im/engine/utils/o;
+    sget-object v6, Lcom/vk/messenger/engine/utils/o;->a:Lcom/vk/messenger/engine/utils/o;
 
-    invoke-virtual {v6, v4, v5}, Lcom/vk/im/engine/utils/o;->a(Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
+    invoke-virtual {v6, v4, v5}, Lcom/vk/messenger/engine/utils/o;->a(Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
 
     move-result-object v5
     :try_end_0
@@ -360,7 +360,7 @@
     if-eqz p1, :cond_3
 
     .line 53
-    sget-object p2, Lcom/vk/im/engine/utils/o;->a:Lcom/vk/im/engine/utils/o;
+    sget-object p2, Lcom/vk/messenger/engine/utils/o;->a:Lcom/vk/messenger/engine/utils/o;
 
     const-string v0, "dstRealPath"
 
@@ -368,13 +368,13 @@
 
     sget-object v0, Lcom/vkontakte/android/im/c/a;->e:Ljava/util/List;
 
-    invoke-virtual {p2, p1, p3, v0}, Lcom/vk/im/engine/utils/o;->a(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)V
+    invoke-virtual {p2, p1, p3, v0}, Lcom/vk/messenger/engine/utils/o;->a(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)V
 
     :cond_3
     if-eqz p4, :cond_4
 
     .line 56
-    invoke-interface {p4, v3, v3}, Lcom/vk/im/engine/internal/e;->a(II)V
+    invoke-interface {p4, v3, v3}, Lcom/vk/messenger/engine/internal/e;->a(II)V
 
     .line 58
     :cond_4
@@ -446,9 +446,9 @@
     invoke-static {p2, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 18
-    sget-object v0, Lcom/vk/im/engine/utils/o;->a:Lcom/vk/im/engine/utils/o;
+    sget-object v0, Lcom/vk/messenger/engine/utils/o;->a:Lcom/vk/messenger/engine/utils/o;
 
-    invoke-virtual {v0, p1, p2}, Lcom/vk/im/engine/utils/o;->c(Landroid/content/Context;Landroid/net/Uri;)Z
+    invoke-virtual {v0, p1, p2}, Lcom/vk/messenger/engine/utils/o;->c(Landroid/content/Context;Landroid/net/Uri;)Z
 
     move-result v0
 

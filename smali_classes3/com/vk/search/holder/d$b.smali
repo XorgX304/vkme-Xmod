@@ -21,7 +21,7 @@
 
 .field private p:Ljava/lang/String;
 
-.field private final q:Lcom/vk/imageloader/view/VKImageView;
+.field private final q:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final r:Landroid/widget/TextView;
 
@@ -82,9 +82,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/search/holder/d$b;->q:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/search/holder/d$b;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 48
     iget-object p1, p0, Lcom/vk/search/holder/d$b;->a:Landroid/view/View;
@@ -168,11 +168,11 @@
     if-eqz p1, :cond_1
 
     .line 72
-    iget-object v0, p0, Lcom/vk/search/holder/d$b;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/search/holder/d$b;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p1, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 73
     iget-object v0, p0, Lcom/vk/search/holder/d$b;->r:Landroid/widget/TextView;
@@ -242,9 +242,9 @@
 
     .line 79
     :cond_1
-    iget-object p1, p0, Lcom/vk/search/holder/d$b;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/search/holder/d$b;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 80
     iget-object p1, p0, Lcom/vk/search/holder/d$b;->r:Landroid/widget/TextView;

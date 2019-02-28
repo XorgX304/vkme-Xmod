@@ -53,16 +53,16 @@
     invoke-virtual {v0}, Lcom/vk/voip/VoipWrapper;->d()Z
 
     .line 185
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/d;->j()Lio/reactivex/j;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/d;->j()Lio/reactivex/j;
 
     move-result-object v0
 
     .line 186
-    const-class v1, Lcom/vk/im/engine/events/b;
+    const-class v1, Lcom/vk/messenger/engine/events/b;
 
     invoke-virtual {v0, v1}, Lio/reactivex/j;->b(Ljava/lang/Class;)Lio/reactivex/j;
 

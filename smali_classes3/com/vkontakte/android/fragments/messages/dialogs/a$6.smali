@@ -25,7 +25,7 @@
     .locals 4
 
     .line 567
-    invoke-static {}, Lcom/vk/im/engine/models/dialogs/DialogsFilter;->values()[Lcom/vk/im/engine/models/dialogs/DialogsFilter;
+    invoke-static {}, Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;->values()[Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;
 
     move-result-object v0
 
@@ -40,9 +40,9 @@
     :try_start_0
     sget-object v1, Lcom/vkontakte/android/fragments/messages/dialogs/a$6;->b:[I
 
-    sget-object v2, Lcom/vk/im/engine/models/dialogs/DialogsFilter;->MAIN:Lcom/vk/im/engine/models/dialogs/DialogsFilter;
+    sget-object v2, Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;->MAIN:Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;
 
-    invoke-virtual {v2}, Lcom/vk/im/engine/models/dialogs/DialogsFilter;->ordinal()I
+    invoke-virtual {v2}, Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;->ordinal()I
 
     move-result v2
 
@@ -56,9 +56,9 @@
     :try_start_1
     sget-object v2, Lcom/vkontakte/android/fragments/messages/dialogs/a$6;->b:[I
 
-    sget-object v3, Lcom/vk/im/engine/models/dialogs/DialogsFilter;->UNREAD:Lcom/vk/im/engine/models/dialogs/DialogsFilter;
+    sget-object v3, Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;->UNREAD:Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;
 
-    invoke-virtual {v3}, Lcom/vk/im/engine/models/dialogs/DialogsFilter;->ordinal()I
+    invoke-virtual {v3}, Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;->ordinal()I
 
     move-result v3
 
@@ -68,7 +68,7 @@
 
     .line 155
     :catch_1
-    invoke-static {}, Lcom/vk/im/ui/components/dialogs_list/SelectionMode;->values()[Lcom/vk/im/ui/components/dialogs_list/SelectionMode;
+    invoke-static {}, Lcom/vk/messenger/ui/components/dialogs_list/SelectionMode;->values()[Lcom/vk/messenger/ui/components/dialogs_list/SelectionMode;
 
     move-result-object v2
 
@@ -81,9 +81,9 @@
     :try_start_2
     sget-object v2, Lcom/vkontakte/android/fragments/messages/dialogs/a$6;->a:[I
 
-    sget-object v3, Lcom/vk/im/ui/components/dialogs_list/SelectionMode;->CHOOSE:Lcom/vk/im/ui/components/dialogs_list/SelectionMode;
+    sget-object v3, Lcom/vk/messenger/ui/components/dialogs_list/SelectionMode;->CHOOSE:Lcom/vk/messenger/ui/components/dialogs_list/SelectionMode;
 
-    invoke-virtual {v3}, Lcom/vk/im/ui/components/dialogs_list/SelectionMode;->ordinal()I
+    invoke-virtual {v3}, Lcom/vk/messenger/ui/components/dialogs_list/SelectionMode;->ordinal()I
 
     move-result v3
 
@@ -95,9 +95,9 @@
     :try_start_3
     sget-object v0, Lcom/vkontakte/android/fragments/messages/dialogs/a$6;->a:[I
 
-    sget-object v2, Lcom/vk/im/ui/components/dialogs_list/SelectionMode;->OPEN:Lcom/vk/im/ui/components/dialogs_list/SelectionMode;
+    sget-object v2, Lcom/vk/messenger/ui/components/dialogs_list/SelectionMode;->OPEN:Lcom/vk/messenger/ui/components/dialogs_list/SelectionMode;
 
-    invoke-virtual {v2}, Lcom/vk/im/ui/components/dialogs_list/SelectionMode;->ordinal()I
+    invoke-virtual {v2}, Lcom/vk/messenger/ui/components/dialogs_list/SelectionMode;->ordinal()I
 
     move-result v2
 

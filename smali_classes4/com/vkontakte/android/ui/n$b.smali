@@ -497,7 +497,7 @@
 
     invoke-direct {v3, p0}, Lcom/vkontakte/android/ui/n$b$3;-><init>(Lcom/vkontakte/android/ui/n$b;)V
 
-    invoke-interface {v2, v3}, Lcom/vkontakte/android/ui/n$e;->a(Lcom/vk/imageloader/j;)V
+    invoke-interface {v2, v3}, Lcom/vkontakte/android/ui/n$e;->a(Lcom/vk/messengerageloader/j;)V
 
     .line 1460
     iget-object v2, p0, Lcom/vkontakte/android/ui/n$b;->d:Lcom/vkontakte/android/ui/n$e;

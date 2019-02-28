@@ -25,7 +25,7 @@
 # instance fields
 .field final synthetic n:Lcom/vk/apps/a;
 
-.field private final o:Lcom/vk/imageloader/view/VKSnippetImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
 .field private final p:Landroid/widget/TextView;
 
@@ -73,9 +73,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKSnippetImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
-    iput-object p1, p0, Lcom/vk/apps/a$c;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iput-object p1, p0, Lcom/vk/apps/a$c;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     .line 355
     iget-object p1, p0, Lcom/vk/apps/a$c;->a:Landroid/view/View;
@@ -144,11 +144,11 @@
     invoke-static {p1, p2}, Lcom/vk/extensions/o;->b(Landroid/view/View;Lkotlin/jvm/a/b;)V
 
     .line 363
-    iget-object p1, p0, Lcom/vk/apps/a$c;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object p1, p0, Lcom/vk/apps/a$c;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     const/4 p2, 0x5
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKSnippetImageView;->setType(I)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->setType(I)V
 
     .line 365
     iget-object p1, p0, Lcom/vk/apps/a$c;->r:Landroid/widget/ImageView;
@@ -420,7 +420,7 @@
 
     .line 393
     :goto_4
-    iget-object v0, p0, Lcom/vk/apps/a$c;->o:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object v0, p0, Lcom/vk/apps/a$c;->o:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     iget-object p1, p1, Lcom/vkontakte/android/data/ApiApplication;->c:Lcom/vk/dto/photo/Photo;
 
@@ -438,7 +438,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKSnippetImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->a(Ljava/lang/String;)V
 
     return-void
 

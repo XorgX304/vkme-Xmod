@@ -121,7 +121,7 @@
 
     move-result-object p2
 
-    invoke-static {p1, p2}, Lcom/vk/im/ui/utils/a;->a(Landroid/content/Context;Ljava/lang/CharSequence;)V
+    invoke-static {p1, p2}, Lcom/vk/messenger/ui/utils/a;->a(Landroid/content/Context;Ljava/lang/CharSequence;)V
 
     const p1, 0x7f110c56
 

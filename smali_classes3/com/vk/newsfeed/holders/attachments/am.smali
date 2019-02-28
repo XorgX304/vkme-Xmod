@@ -159,9 +159,9 @@
     .line 41
     iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/am;->s:Lcom/vk/newsfeed/FrescoImageView;
 
-    sget-object v1, Lcom/vk/im/ui/views/ScaleType;->CENTER_CROP:Lcom/vk/im/ui/views/ScaleType;
+    sget-object v1, Lcom/vk/messenger/ui/views/ScaleType;->CENTER_CROP:Lcom/vk/messenger/ui/views/ScaleType;
 
-    invoke-virtual {v0, v1}, Lcom/vk/newsfeed/FrescoImageView;->setScaleType(Lcom/vk/im/ui/views/ScaleType;)V
+    invoke-virtual {v0, v1}, Lcom/vk/newsfeed/FrescoImageView;->setScaleType(Lcom/vk/messenger/ui/views/ScaleType;)V
 
     .line 42
     iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/am;->s:Lcom/vk/newsfeed/FrescoImageView;

@@ -32,7 +32,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/vk/imageloader/view/VKImageView;Lcom/vk/catalog/core/api/dto/Meta$ContentType;)V
+.method public final a(Lcom/vk/messengerageloader/view/VKImageView;Lcom/vk/catalog/core/api/dto/Meta$ContentType;)V
     .locals 1
 
     const-string v0, "image"
@@ -63,10 +63,10 @@
     :pswitch_0
     sget p2, Lcom/vk/catalog/core/c$c;->placeholder_user_72:I
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     .line 16
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setBackgroundImage(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setBackgroundImage(Landroid/graphics/drawable/Drawable;)V
 
     goto :goto_0
 
@@ -74,10 +74,10 @@
     :pswitch_1
     sget p2, Lcom/vk/catalog/core/c$c;->placeholder_users_72:I
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     .line 12
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setBackgroundImage(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setBackgroundImage(Landroid/graphics/drawable/Drawable;)V
 
     :goto_0
     return-void

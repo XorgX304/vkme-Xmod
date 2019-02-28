@@ -16,7 +16,7 @@
 
 .field private final c:F
 
-.field private final d:Lcom/vk/im/engine/d;
+.field private final d:Lcom/vk/messenger/engine/d;
 
 
 # direct methods
@@ -42,11 +42,11 @@
     iput v0, p0, Lcom/vkontakte/android/directshare/ImDirectShareService;->c:F
 
     .line 32
-    invoke-static {}, Lcom/vk/im/engine/f;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vk/messenger/engine/f;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/vkontakte/android/directshare/ImDirectShareService;->d:Lcom/vk/im/engine/d;
+    iput-object v0, p0, Lcom/vkontakte/android/directshare/ImDirectShareService;->d:Lcom/vk/messenger/engine/d;
 
     return-void
 .end method
@@ -84,15 +84,15 @@
 
     move-result-object v1
 
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object v2
 
-    invoke-interface {v2}, Lcom/vk/im/ui/a/b;->v()Lcom/vk/im/ui/a/o;
+    invoke-interface {v2}, Lcom/vk/messenger/ui/a/b;->v()Lcom/vk/messenger/ui/a/o;
 
     move-result-object v2
 
-    invoke-interface {v2}, Lcom/vk/im/ui/a/o;->a()Ljava/lang/Class;
+    invoke-interface {v2}, Lcom/vk/messenger/ui/a/o;->a()Ljava/lang/Class;
 
     move-result-object v2
 
@@ -105,11 +105,11 @@
     return-object v0
 .end method
 
-.method private final a(Lcom/vk/im/engine/models/j;)Landroid/graphics/drawable/Icon;
+.method private final a(Lcom/vk/messenger/engine/models/j;)Landroid/graphics/drawable/Icon;
     .locals 3
 
     .line 72
-    sget-object v0, Lcom/vk/im/ui/views/avatars/a;->a:Lcom/vk/im/ui/views/avatars/a;
+    sget-object v0, Lcom/vk/messenger/ui/views/avatars/a;->a:Lcom/vk/messenger/ui/views/avatars/a;
 
     const/16 v1, 0x30
 
@@ -119,11 +119,11 @@
 
     new-instance v2, Lcom/vkontakte/android/directshare/ImDirectShareService$getTargetIcon$1;
 
-    invoke-direct {v2, p1}, Lcom/vkontakte/android/directshare/ImDirectShareService$getTargetIcon$1;-><init>(Lcom/vk/im/engine/models/j;)V
+    invoke-direct {v2, p1}, Lcom/vkontakte/android/directshare/ImDirectShareService$getTargetIcon$1;-><init>(Lcom/vk/messenger/engine/models/j;)V
 
     check-cast v2, Lkotlin/jvm/a/b;
 
-    invoke-virtual {v0, v1, v2}, Lcom/vk/im/ui/views/avatars/a;->a(ILkotlin/jvm/a/b;)Landroid/graphics/Bitmap;
+    invoke-virtual {v0, v1, v2}, Lcom/vk/messenger/ui/views/avatars/a;->a(ILkotlin/jvm/a/b;)Landroid/graphics/Bitmap;
 
     move-result-object p1
 
@@ -144,15 +144,15 @@
         value = {
             "(I)",
             "Ljava/util/List<",
-            "Lcom/vk/im/engine/models/j;",
+            "Lcom/vk/messenger/engine/models/j;",
             ">;"
         }
     .end annotation
 
     .line 65
-    new-instance v6, Lcom/vk/im/engine/commands/contacts/l;
+    new-instance v6, Lcom/vk/messenger/engine/commands/contacts/l;
 
-    sget-object v2, Lcom/vk/im/engine/models/Source;->CACHE:Lcom/vk/im/engine/models/Source;
+    sget-object v2, Lcom/vk/messenger/engine/models/Source;->CACHE:Lcom/vk/messenger/engine/models/Source;
 
     const/4 v3, 0x0
 
@@ -164,16 +164,16 @@
 
     move v1, p1
 
-    invoke-direct/range {v0 .. v5}, Lcom/vk/im/engine/commands/contacts/l;-><init>(ILcom/vk/im/engine/models/Source;Ljava/lang/Object;ILkotlin/jvm/internal/h;)V
+    invoke-direct/range {v0 .. v5}, Lcom/vk/messenger/engine/commands/contacts/l;-><init>(ILcom/vk/messenger/engine/models/Source;Ljava/lang/Object;ILkotlin/jvm/internal/h;)V
 
     .line 66
-    iget-object p1, p0, Lcom/vkontakte/android/directshare/ImDirectShareService;->d:Lcom/vk/im/engine/d;
+    iget-object p1, p0, Lcom/vkontakte/android/directshare/ImDirectShareService;->d:Lcom/vk/messenger/engine/d;
 
     const-string v0, "DirectShare"
 
-    check-cast v6, Lcom/vk/im/engine/commands/c;
+    check-cast v6, Lcom/vk/messenger/engine/commands/c;
 
-    invoke-virtual {p1, v0, v6}, Lcom/vk/im/engine/d;->a(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)Ljava/lang/Object;
+    invoke-virtual {p1, v0, v6}, Lcom/vk/messenger/engine/d;->a(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -186,7 +186,7 @@
     return-object p1
 .end method
 
-.method private final b(Lcom/vk/im/engine/models/j;)Landroid/os/Bundle;
+.method private final b(Lcom/vk/messenger/engine/models/j;)Landroid/os/Bundle;
     .locals 3
 
     .line 78
@@ -197,7 +197,7 @@
     .line 79
     sget-object v1, Lcom/vk/navigation/x;->G:Ljava/lang/String;
 
-    invoke-interface {p1}, Lcom/vk/im/engine/models/j;->b()I
+    invoke-interface {p1}, Lcom/vk/messenger/engine/models/j;->b()I
 
     move-result v2
 
@@ -206,7 +206,7 @@
     const-string v1, "com.vkontakte.android.EXTRA_RECIPIENT_FULL_NAME"
 
     .line 80
-    invoke-interface {p1}, Lcom/vk/im/engine/models/j;->e()Ljava/lang/String;
+    invoke-interface {p1}, Lcom/vk/messenger/engine/models/j;->e()Ljava/lang/String;
 
     move-result-object v2
 
@@ -215,19 +215,19 @@
     const-string v1, "com.vkontakte.android.EXTRA_RECIPIENT_PHOTO"
 
     .line 81
-    invoke-interface {p1}, Lcom/vk/im/engine/models/j;->k()Lcom/vk/im/engine/models/ImageList;
+    invoke-interface {p1}, Lcom/vk/messenger/engine/models/j;->k()Lcom/vk/messenger/engine/models/ImageList;
 
     move-result-object p1
 
     check-cast p1, Ljava/lang/Iterable;
 
-    invoke-static {p1}, Lcom/vk/im/engine/models/g;->b(Ljava/lang/Iterable;)Lcom/vk/im/engine/models/Image;
+    invoke-static {p1}, Lcom/vk/messenger/engine/models/g;->b(Ljava/lang/Iterable;)Lcom/vk/messenger/engine/models/Image;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/Image;->d()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/Image;->d()Ljava/lang/String;
 
     move-result-object p1
 
@@ -365,13 +365,13 @@
 
     .line 39
     :cond_0
-    iget-object p1, p0, Lcom/vkontakte/android/directshare/ImDirectShareService;->d:Lcom/vk/im/engine/d;
+    iget-object p1, p0, Lcom/vkontakte/android/directshare/ImDirectShareService;->d:Lcom/vk/messenger/engine/d;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/d;->a()Lcom/vk/im/engine/b;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/d;->a()Lcom/vk/messenger/engine/b;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/b;->G()Z
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/b;->G()Z
 
     move-result p1
 
@@ -421,20 +421,20 @@
     move-result-object v0
 
     .line 100
-    check-cast v0, Lcom/vk/im/engine/models/j;
+    check-cast v0, Lcom/vk/messenger/engine/models/j;
 
     .line 46
     new-instance v9, Landroid/service/chooser/ChooserTarget;
 
     .line 47
-    invoke-interface {v0}, Lcom/vk/im/engine/models/j;->e()Ljava/lang/String;
+    invoke-interface {v0}, Lcom/vk/messenger/engine/models/j;->e()Ljava/lang/String;
 
     move-result-object v1
 
     check-cast v1, Ljava/lang/CharSequence;
 
     .line 48
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/directshare/ImDirectShareService;->a(Lcom/vk/im/engine/models/j;)Landroid/graphics/drawable/Icon;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/directshare/ImDirectShareService;->a(Lcom/vk/messenger/engine/models/j;)Landroid/graphics/drawable/Icon;
 
     move-result-object v2
 
@@ -444,7 +444,7 @@
     move-result v3
 
     .line 51
-    invoke-direct {p0, v0}, Lcom/vkontakte/android/directshare/ImDirectShareService;->b(Lcom/vk/im/engine/models/j;)Landroid/os/Bundle;
+    invoke-direct {p0, v0}, Lcom/vkontakte/android/directshare/ImDirectShareService;->b(Lcom/vk/messenger/engine/models/j;)Landroid/os/Bundle;
 
     move-result-object v5
 

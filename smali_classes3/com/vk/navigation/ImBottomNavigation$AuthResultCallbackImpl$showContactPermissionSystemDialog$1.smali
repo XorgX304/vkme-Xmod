@@ -70,17 +70,17 @@
     .locals 2
 
     .line 629
-    invoke-static {}, Lcom/vk/im/engine/f;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vk/messenger/engine/f;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
-    new-instance v1, Lcom/vk/im/engine/events/h;
+    new-instance v1, Lcom/vk/messenger/engine/events/h;
 
-    invoke-direct {v1}, Lcom/vk/im/engine/events/h;-><init>()V
+    invoke-direct {v1}, Lcom/vk/messenger/engine/events/h;-><init>()V
 
-    check-cast v1, Lcom/vk/im/engine/events/a;
+    check-cast v1, Lcom/vk/messenger/engine/events/a;
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/d;->a(Lcom/vk/im/engine/events/a;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/d;->a(Lcom/vk/messenger/engine/events/a;)V
 
     return-void
 .end method

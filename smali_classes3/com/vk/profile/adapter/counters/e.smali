@@ -4,21 +4,21 @@
 
 
 # direct methods
-.method public static final synthetic a(Lcom/vk/imageloader/view/b;Ljava/util/List;I)V
+.method public static final synthetic a(Lcom/vk/messengerageloader/view/b;Ljava/util/List;I)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Lcom/vk/profile/adapter/counters/e;->b(Lcom/vk/imageloader/view/b;Ljava/util/List;I)V
+    invoke-static {p0, p1, p2}, Lcom/vk/profile/adapter/counters/e;->b(Lcom/vk/messengerageloader/view/b;Ljava/util/List;I)V
 
     return-void
 .end method
 
-.method private static final b(Lcom/vk/imageloader/view/b;Ljava/util/List;I)V
+.method private static final b(Lcom/vk/messengerageloader/view/b;Ljava/util/List;I)V
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/vk/imageloader/view/b;",
+            "Lcom/vk/messengerageloader/view/b;",
             "Ljava/util/List<",
             "Ljava/lang/String;",
             ">;I)V"
@@ -28,7 +28,7 @@
     const v0, -0x191715
 
     .line 301
-    invoke-virtual {p0, v0}, Lcom/vk/imageloader/view/b;->setLayerPlaceholders(I)V
+    invoke-virtual {p0, v0}, Lcom/vk/messengerageloader/view/b;->setLayerPlaceholders(I)V
 
     if-eqz p1, :cond_1
 
@@ -51,7 +51,7 @@
 
     check-cast v2, Ljava/lang/String;
 
-    invoke-virtual {p0, v1, v2}, Lcom/vk/imageloader/view/b;->a(ILjava/lang/String;)V
+    invoke-virtual {p0, v1, v2}, Lcom/vk/messengerageloader/view/b;->a(ILjava/lang/String;)V
 
     :cond_0
     add-int/lit8 v1, v1, 0x1

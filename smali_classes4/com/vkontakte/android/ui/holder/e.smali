@@ -28,7 +28,7 @@
 
 .field private final q:Landroid/widget/TextView;
 
-.field private final r:Lcom/vk/imageloader/view/VKImageView;
+.field private final r:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final s:Landroid/widget/TextView;
 
@@ -92,9 +92,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/e;->r:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/e;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x7f0a0885
 
@@ -280,7 +280,7 @@
     invoke-static {v3}, Lcom/vkontakte/android/utils/L;->a([Ljava/lang/Object;)V
 
     .line 64
-    iget-object v3, p0, Lcom/vkontakte/android/ui/holder/e;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vkontakte/android/ui/holder/e;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/money/MoneyTransfer;->c()Lcom/vkontakte/android/UserProfile;
 
@@ -288,7 +288,7 @@
 
     iget-object v4, v4, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
-    invoke-virtual {v3, v4}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v3, v4}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 65
     iget-object v3, p0, Lcom/vkontakte/android/ui/holder/e;->o:Landroid/widget/TextView;

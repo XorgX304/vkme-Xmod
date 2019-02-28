@@ -254,13 +254,13 @@
     if-nez v3, :cond_1
 
     .line 35
-    new-instance v3, Lcom/vk/imageloader/view/VKImageView;
+    new-instance v3, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p0}, Lcom/vk/menu/StackedAppsView;->getContext()Landroid/content/Context;
 
     move-result-object v4
 
-    invoke-direct {v3, v4}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {v3, v4}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
     .line 36
     new-instance v4, Landroid/widget/FrameLayout$LayoutParams;
@@ -273,10 +273,10 @@
 
     check-cast v4, Landroid/view/ViewGroup$LayoutParams;
 
-    invoke-virtual {v3, v4}, Lcom/vk/imageloader/view/VKImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v3, v4}, Lcom/vk/messengerageloader/view/VKImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 38
-    invoke-virtual {v3}, Lcom/vk/imageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
+    invoke-virtual {v3}, Lcom/vk/messengerageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
 
     move-result-object v4
 
@@ -296,7 +296,7 @@
     invoke-virtual {v5, v2}, Lcom/facebook/drawee/generic/RoundingParams;->b(Z)Lcom/facebook/drawee/generic/RoundingParams;
 
     .line 40
-    invoke-virtual {v3}, Lcom/vk/imageloader/view/VKImageView;->getContext()Landroid/content/Context;
+    invoke-virtual {v3}, Lcom/vk/messengerageloader/view/VKImageView;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -348,7 +348,7 @@
 
     check-cast v2, Landroid/graphics/drawable/Drawable;
 
-    invoke-virtual {v3, v2}, Lcom/vk/imageloader/view/VKImageView;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v3, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     .line 50
     move-object v2, v3
@@ -382,7 +382,7 @@
     :cond_2
     move-object v3, v2
 
-    check-cast v3, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v3, Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 55
     :goto_1
@@ -408,7 +408,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v3, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v3, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto/16 :goto_0
 

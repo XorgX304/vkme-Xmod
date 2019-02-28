@@ -22,13 +22,13 @@
 # static fields
 .field public static final n:Lcom/vk/profile/adapter/holders/a$a;
 
-.field private static final s:Lcom/vk/imageloader/a/f;
+.field private static final s:Lcom/vk/messengerageloader/a/f;
 
 .field private static final t:Landroid/graphics/PorterDuffColorFilter;
 
 
 # instance fields
-.field private final p:Lcom/vk/imageloader/view/VKImageView;
+.field private final p:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final q:Landroid/widget/TextView;
 
@@ -48,15 +48,15 @@
     sput-object v0, Lcom/vk/profile/adapter/holders/a;->n:Lcom/vk/profile/adapter/holders/a$a;
 
     .line 65
-    new-instance v0, Lcom/vk/imageloader/a/f;
+    new-instance v0, Lcom/vk/messengerageloader/a/f;
 
     const/16 v1, 0x14
 
     const/16 v2, 0xc8
 
-    invoke-direct {v0, v1, v2}, Lcom/vk/imageloader/a/f;-><init>(II)V
+    invoke-direct {v0, v1, v2}, Lcom/vk/messengerageloader/a/f;-><init>(II)V
 
-    sput-object v0, Lcom/vk/profile/adapter/holders/a;->s:Lcom/vk/imageloader/a/f;
+    sput-object v0, Lcom/vk/profile/adapter/holders/a;->s:Lcom/vk/messengerageloader/a/f;
 
     .line 66
     new-instance v0, Landroid/graphics/PorterDuffColorFilter;
@@ -89,9 +89,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x7f0a0aff
 
@@ -116,20 +116,20 @@
     iput-object p1, p0, Lcom/vk/profile/adapter/holders/a;->r:Landroid/widget/TextView;
 
     .line 25
-    iget-object p1, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f0800be
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     .line 26
-    iget-object p1, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     sget-object v0, Lcom/vk/profile/adapter/holders/a;->t:Landroid/graphics/PorterDuffColorFilter;
 
     check-cast v0, Landroid/graphics/ColorFilter;
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setColorFilter(Landroid/graphics/ColorFilter;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setColorFilter(Landroid/graphics/ColorFilter;)V
 
     .line 27
     iget-object p1, p0, Lcom/vk/profile/adapter/holders/a;->a:Landroid/view/View;
@@ -173,16 +173,16 @@
     if-eqz v0, :cond_0
 
     .line 52
-    iget-object v0, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
 
     .line 53
-    iget-object v0, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
-    iget-object v1, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1}, Lcom/vk/imageloader/view/VKImageView;->getWidth()I
+    invoke-virtual {v1}, Lcom/vk/messengerageloader/view/VKImageView;->getWidth()I
 
     move-result v1
 
@@ -190,7 +190,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -203,16 +203,16 @@
     if-eqz v0, :cond_2
 
     .line 56
-    iget-object v0, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
-    sget-object v2, Lcom/vk/profile/adapter/holders/a;->s:Lcom/vk/imageloader/a/f;
+    sget-object v2, Lcom/vk/profile/adapter/holders/a;->s:Lcom/vk/messengerageloader/a/f;
 
     check-cast v2, Lcom/facebook/imagepipeline/request/a;
 
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
 
     .line 57
-    iget-object v0, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/articles/Article;->n()Lcom/vk/dto/newsfeed/Owner;
 
@@ -227,15 +227,15 @@
     move-result-object v1
 
     :cond_1
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 59
     :cond_2
-    iget-object p1, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     :goto_0
     return-void
@@ -289,9 +289,9 @@
     move-result-object p1
 
     .line 33
-    iget-object v0, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getWidth()I
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getWidth()I
 
     move-result v0
 
@@ -304,7 +304,7 @@
 
     .line 36
     :cond_0
-    iget-object v0, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/adapter/holders/a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance v1, Lcom/vk/profile/adapter/holders/a$b;
 
@@ -312,7 +312,7 @@
 
     check-cast v1, Ljava/lang/Runnable;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->post(Ljava/lang/Runnable;)Z
 
     .line 39
     :goto_0

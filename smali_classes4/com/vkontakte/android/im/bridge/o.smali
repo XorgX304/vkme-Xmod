@@ -3,7 +3,7 @@
 .source "VkImVideoBridge.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/a/r;
+.implements Lcom/vk/messenger/ui/a/r;
 
 
 # static fields
@@ -35,7 +35,7 @@
 
 
 # virtual methods
-.method public a(Landroid/content/Context;Lcom/vk/im/engine/models/attaches/AttachVideo;)V
+.method public a(Landroid/content/Context;Lcom/vk/messenger/engine/models/attaches/AttachVideo;)V
     .locals 1
 
     const-string v0, "activity"
@@ -47,7 +47,7 @@
     invoke-static {p2, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
-    invoke-static {p2}, Lcom/vkontakte/android/im/b;->a(Lcom/vk/im/engine/models/attaches/AttachVideo;)Lcom/vk/dto/common/VideoFile;
+    invoke-static {p2}, Lcom/vkontakte/android/im/b;->a(Lcom/vk/messenger/engine/models/attaches/AttachVideo;)Lcom/vk/dto/common/VideoFile;
 
     move-result-object p2
 

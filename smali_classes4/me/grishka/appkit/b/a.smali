@@ -188,14 +188,14 @@
     move-result-object p1
 
     .line 128
-    sget-object v0, Lcom/vk/imageloader/view/VKImageView;->b_:Lcom/facebook/imagepipeline/common/e;
+    sget-object v0, Lcom/vk/messengerageloader/view/VKImageView;->b_:Lcom/facebook/imagepipeline/common/e;
 
     invoke-virtual {p1, v0}, Lcom/facebook/imagepipeline/request/ImageRequestBuilder;->a(Lcom/facebook/imagepipeline/common/e;)Lcom/facebook/imagepipeline/request/ImageRequestBuilder;
 
     .line 129
-    sget-object v0, Lcom/vk/imageloader/c;->a:Lcom/vk/imageloader/c;
+    sget-object v0, Lcom/vk/messengerageloader/c;->a:Lcom/vk/messengerageloader/c;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/c;->d()Lcom/facebook/imagepipeline/d/g;
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/c;->d()Lcom/facebook/imagepipeline/d/g;
 
     move-result-object v0
 

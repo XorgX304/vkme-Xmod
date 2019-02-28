@@ -23,7 +23,7 @@
         ">",
         "Ljava/lang/Object;",
         "Lio/reactivex/b/g<",
-        "Lcom/vk/im/engine/models/dialogs/DialogsFilter;",
+        "Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;",
         ">;"
     }
 .end annotation
@@ -46,7 +46,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/vk/im/engine/models/dialogs/DialogsFilter;)V
+.method public final a(Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;)V
     .locals 2
 
     .line 109
@@ -56,7 +56,7 @@
 
     invoke-static {p1, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {v0, p1}, Lcom/vk/navigation/i;->a(Lcom/vk/navigation/i;Lcom/vk/im/engine/models/dialogs/DialogsFilter;)V
+    invoke-static {v0, p1}, Lcom/vk/navigation/i;->a(Lcom/vk/navigation/i;Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;)V
 
     return-void
 .end method
@@ -65,9 +65,9 @@
     .locals 0
 
     .line 28
-    check-cast p1, Lcom/vk/im/engine/models/dialogs/DialogsFilter;
+    check-cast p1, Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;
 
-    invoke-virtual {p0, p1}, Lcom/vk/navigation/i$d;->a(Lcom/vk/im/engine/models/dialogs/DialogsFilter;)V
+    invoke-virtual {p0, p1}, Lcom/vk/navigation/i$d;->a(Lcom/vk/messenger/engine/models/dialogs/DialogsFilter;)V
 
     return-void
 .end method

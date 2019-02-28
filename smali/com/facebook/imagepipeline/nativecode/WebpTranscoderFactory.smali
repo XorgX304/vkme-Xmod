@@ -4,9 +4,9 @@
 
 
 # static fields
-.field private static sWebpTranscoder:Lcom/facebook/imagepipeline/nativecode/WebpTranscoder; = null
+.field private static sWebpTranscoder:Lcom/facebook/imagepipeline/nativecode/WebpTranscoder;
 
-.field public static sWebpTranscoderPresent:Z = false
+.field public static sWebpTranscoderPresent:Z
 
 
 # direct methods

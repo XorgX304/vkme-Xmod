@@ -57,15 +57,15 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 150
-    new-instance v0, Lcom/vk/im/ui/dialogs_list/d$a;
+    new-instance v0, Lcom/vk/messenger/ui/dialogs_list/d$a;
 
-    invoke-direct {v0}, Lcom/vk/im/ui/dialogs_list/d$a;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/ui/dialogs_list/d$a;-><init>()V
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/dialogs_list/d$a;->a(Ljava/lang/String;)Lcom/vk/im/ui/dialogs_list/d$a;
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/dialogs_list/d$a;->a(Ljava/lang/String;)Lcom/vk/messenger/ui/dialogs_list/d$a;
 
     move-result-object p1
 
-    invoke-virtual {p1, p0}, Lcom/vk/im/ui/dialogs_list/d$a;->c(Landroid/content/Context;)V
+    invoke-virtual {p1, p0}, Lcom/vk/messenger/ui/dialogs_list/d$a;->c(Landroid/content/Context;)V
 
     return-void
 .end method
@@ -1052,11 +1052,11 @@
 
     if-eqz v2, :cond_14
 
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/b;->j()Lcom/vk/e/w;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/b;->j()Lcom/vk/e/w;
 
     move-result-object v0
 

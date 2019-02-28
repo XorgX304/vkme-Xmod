@@ -25,7 +25,7 @@
 # instance fields
 .field private n:Landroid/widget/TextView;
 
-.field private o:Lcom/vk/imageloader/view/VKImageView;
+.field private o:Lcom/vk/messengerageloader/view/VKImageView;
 
 
 # direct methods
@@ -64,9 +64,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/ui/k$d;->o:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/ui/k$d;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-void
 .end method
@@ -142,7 +142,7 @@
     if-eqz v0, :cond_2
 
     .line 108
-    iget-object v0, p0, Lcom/vkontakte/android/ui/k$d;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/k$d;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object p1, p1, Lcom/vkontakte/android/ui/k$c;->e:Ljava/lang/Object;
 
@@ -152,14 +152,14 @@
 
     move-result p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(I)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(I)V
 
     .line 109
-    iget-object p1, p0, Lcom/vkontakte/android/ui/k$d;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/k$d;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     sget-object v0, Lcom/facebook/drawee/drawable/p$b;->f:Lcom/facebook/drawee/drawable/p$b;
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
 
     goto :goto_1
 
@@ -172,20 +172,20 @@
     if-eqz v0, :cond_3
 
     .line 111
-    iget-object v0, p0, Lcom/vkontakte/android/ui/k$d;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/k$d;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object p1, p1, Lcom/vkontakte/android/ui/k$c;->e:Ljava/lang/Object;
 
     check-cast p1, Ljava/lang/String;
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 112
-    iget-object p1, p0, Lcom/vkontakte/android/ui/k$d;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/k$d;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     sget-object v0, Lcom/facebook/drawee/drawable/p$b;->a:Lcom/facebook/drawee/drawable/p$b;
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
 
     goto :goto_1
 
@@ -198,20 +198,20 @@
     if-eqz v0, :cond_4
 
     .line 114
-    iget-object v0, p0, Lcom/vkontakte/android/ui/k$d;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/k$d;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object p1, p1, Lcom/vkontakte/android/ui/k$c;->e:Ljava/lang/Object;
 
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 115
-    iget-object p1, p0, Lcom/vkontakte/android/ui/k$d;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/k$d;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     sget-object v0, Landroid/widget/ImageView$ScaleType;->CENTER:Landroid/widget/ImageView$ScaleType;
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
 
     :cond_4
     :goto_1

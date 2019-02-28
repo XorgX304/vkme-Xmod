@@ -41,11 +41,11 @@
     .line 271
     iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/dialogs/a$2;->a:Lcom/vkontakte/android/fragments/messages/dialogs/a;
 
-    invoke-static {p1}, Lcom/vkontakte/android/fragments/messages/dialogs/a;->a(Lcom/vkontakte/android/fragments/messages/dialogs/a;)Lcom/vk/im/ui/components/dialogs_list/c;
+    invoke-static {p1}, Lcom/vkontakte/android/fragments/messages/dialogs/a;->a(Lcom/vkontakte/android/fragments/messages/dialogs/a;)Lcom/vk/messenger/ui/components/dialogs_list/c;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/vk/im/ui/components/dialogs_list/c;->v()V
+    invoke-virtual {p1}, Lcom/vk/messenger/ui/components/dialogs_list/c;->v()V
 
     return-void
 .end method

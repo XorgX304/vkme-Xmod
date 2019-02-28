@@ -40,13 +40,13 @@
     .line 718
     iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc$d;->a:Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;
 
-    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->s(Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;)Lcom/vk/im/engine/models/dialogs/Dialog;
+    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->s(Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;)Lcom/vk/messenger/engine/models/dialogs/Dialog;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/models/dialogs/Dialog;->o()Lcom/vk/im/engine/models/conversations/BotKeyboard;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/models/dialogs/Dialog;->o()Lcom/vk/messenger/engine/models/conversations/BotKeyboard;
 
     move-result-object v0
 
@@ -64,7 +64,7 @@
 
     .line 720
     :cond_1
-    sget-object v1, Lcom/vk/im/ui/components/bot_keyboard/g;->a:Lcom/vk/im/ui/components/bot_keyboard/g;
+    sget-object v1, Lcom/vk/messenger/ui/components/bot_keyboard/g;->a:Lcom/vk/messenger/ui/components/bot_keyboard/g;
 
     iget-object v2, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc$d;->a:Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;
 
@@ -74,7 +74,7 @@
 
     check-cast v2, Landroid/content/Context;
 
-    invoke-virtual {v1, v2, v0}, Lcom/vk/im/ui/components/bot_keyboard/g;->a(Landroid/content/Context;Lcom/vk/im/engine/models/conversations/BotKeyboard;)I
+    invoke-virtual {v1, v2, v0}, Lcom/vk/messenger/ui/components/bot_keyboard/g;->a(Landroid/content/Context;Lcom/vk/messenger/engine/models/conversations/BotKeyboard;)I
 
     move-result v0
 

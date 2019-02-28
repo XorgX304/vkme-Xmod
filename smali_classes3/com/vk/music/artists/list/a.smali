@@ -32,7 +32,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/vk/imageloader/view/VKImageView;Ljava/lang/String;)V
+.method public final a(Lcom/vk/messengerageloader/view/VKImageView;Ljava/lang/String;)V
     .locals 3
 
     const-string v0, "image"
@@ -73,10 +73,10 @@
     const p2, 0x7f080735
 
     .line 17
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     .line 18
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setBackgroundImage(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setBackgroundImage(Landroid/graphics/drawable/Drawable;)V
 
     goto :goto_1
 
@@ -95,10 +95,10 @@
     .line 13
     sget-object v0, Lcom/facebook/drawee/drawable/p$b;->f:Lcom/facebook/drawee/drawable/p$b;
 
-    invoke-virtual {p1, p2, v0}, Lcom/vk/imageloader/view/VKImageView;->a(ILcom/facebook/drawee/drawable/p$b;)V
+    invoke-virtual {p1, p2, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(ILcom/facebook/drawee/drawable/p$b;)V
 
     .line 14
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->getContext()Landroid/content/Context;
 
     move-result-object p2
 
@@ -108,7 +108,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setBackgroundImage(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setBackgroundImage(Landroid/graphics/drawable/Drawable;)V
 
     goto :goto_1
 
@@ -117,10 +117,10 @@
     const p2, 0x7f080748
 
     .line 21
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     .line 22
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setBackgroundImage(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setBackgroundImage(Landroid/graphics/drawable/Drawable;)V
 
     :goto_1
     return-void

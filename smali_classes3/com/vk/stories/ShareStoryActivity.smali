@@ -101,7 +101,7 @@
     .end annotation
 .end field
 
-.field private a:Lcom/vk/im/engine/d;
+.field private a:Lcom/vk/messenger/engine/d;
 
 .field private b:Lcom/vk/dto/stories/model/StoryUploadParams;
 
@@ -141,7 +141,7 @@
 
 .field private u:Lcom/vk/lists/s;
 
-.field private v:Lcom/vk/imageloader/view/VKImageView;
+.field private v:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private w:Landroid/widget/TextView;
 
@@ -191,12 +191,12 @@
     return-object p0
 .end method
 
-.method private a(Lcom/vk/im/engine/commands/messages/v$a;)Ljava/util/List;
+.method private a(Lcom/vk/messenger/engine/commands/messages/v$a;)Ljava/util/List;
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/vk/im/engine/commands/messages/v$a;",
+            "Lcom/vk/messenger/engine/commands/messages/v$a;",
             ")",
             "Ljava/util/List<",
             "Lcom/vk/stories/c/b;",
@@ -205,12 +205,12 @@
     .end annotation
 
     .line 872
-    invoke-virtual {p1}, Lcom/vk/im/engine/commands/messages/v$a;->a()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/commands/messages/v$a;->a()Ljava/util/List;
 
     move-result-object v0
 
     .line 873
-    invoke-virtual {p1}, Lcom/vk/im/engine/commands/messages/v$a;->d()Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/commands/messages/v$a;->d()Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     move-result-object p1
 
@@ -239,14 +239,14 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/vk/im/engine/models/dialogs/Dialog;
+    check-cast v2, Lcom/vk/messenger/engine/models/dialogs/Dialog;
 
     .line 877
     sget-object v3, Lcom/vk/stories/c/b;->a:Lcom/vk/stories/c/b$a;
 
     iget-object v4, p0, Lcom/vk/stories/ShareStoryActivity;->O:Ljava/util/Set;
 
-    invoke-virtual {v2}, Lcom/vk/im/engine/models/dialogs/Dialog;->a()I
+    invoke-virtual {v2}, Lcom/vk/messenger/engine/models/dialogs/Dialog;->a()I
 
     move-result v5
 
@@ -258,7 +258,7 @@
 
     move-result v4
 
-    invoke-virtual {v3, v2, p1, v4}, Lcom/vk/stories/c/b$a;->a(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesSimpleInfo;Z)Lcom/vk/stories/c/b;
+    invoke-virtual {v3, v2, p1, v4}, Lcom/vk/stories/c/b$a;->a(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;Z)Lcom/vk/stories/c/b;
 
     move-result-object v2
 
@@ -270,11 +270,11 @@
     return-object v1
 .end method
 
-.method static synthetic a(Lcom/vk/stories/ShareStoryActivity;Lcom/vk/im/engine/commands/messages/v$a;)Ljava/util/List;
+.method static synthetic a(Lcom/vk/stories/ShareStoryActivity;Lcom/vk/messenger/engine/commands/messages/v$a;)Ljava/util/List;
     .locals 0
 
     .line 106
-    invoke-direct {p0, p1}, Lcom/vk/stories/ShareStoryActivity;->a(Lcom/vk/im/engine/commands/messages/v$a;)Ljava/util/List;
+    invoke-direct {p0, p1}, Lcom/vk/stories/ShareStoryActivity;->a(Lcom/vk/messenger/engine/commands/messages/v$a;)Ljava/util/List;
 
     move-result-object p0
 
@@ -599,11 +599,11 @@
     .locals 7
 
     .line 436
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/b;->t()Lcom/vk/im/ui/a/a;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/b;->t()Lcom/vk/messenger/ui/a/a;
 
     move-result-object v0
 
@@ -618,24 +618,24 @@
     if-eqz v1, :cond_0
 
     .line 439
-    sget-object v1, Lcom/vk/im/ui/b;->b:Lcom/vk/im/ui/b;
+    sget-object v1, Lcom/vk/messenger/ui/b;->b:Lcom/vk/messenger/ui/b;
 
-    sget-object v2, Lcom/vk/im/engine/models/camera/CameraState;->STORY:Lcom/vk/im/engine/models/camera/CameraState;
+    sget-object v2, Lcom/vk/messenger/engine/models/camera/CameraState;->STORY:Lcom/vk/messenger/engine/models/camera/CameraState;
 
-    invoke-virtual {v1, v2}, Lcom/vk/im/ui/b;->a(Lcom/vk/im/engine/models/camera/CameraState;)V
+    invoke-virtual {v1, v2}, Lcom/vk/messenger/ui/b;->a(Lcom/vk/messenger/engine/models/camera/CameraState;)V
 
     .line 440
-    sget-object v1, Lcom/vk/im/engine/utils/b;->a:Lcom/vk/im/engine/utils/b;
+    sget-object v1, Lcom/vk/messenger/engine/utils/b;->a:Lcom/vk/messenger/engine/utils/b;
 
     invoke-virtual {p0}, Lcom/vk/stories/ShareStoryActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object v2
 
-    invoke-interface {v0, v2}, Lcom/vk/im/ui/a/a;->c(Landroid/content/Intent;)Lcom/vk/im/engine/models/camera/StoryParams;
+    invoke-interface {v0, v2}, Lcom/vk/messenger/ui/a/a;->c(Landroid/content/Intent;)Lcom/vk/messenger/engine/models/camera/StoryParams;
 
     move-result-object v0
 
-    invoke-virtual {v1, v0}, Lcom/vk/im/engine/utils/b;->a(Lcom/vk/im/engine/models/camera/StoryParams;)Lcom/vk/im/engine/models/attaches/AttachStory;
+    invoke-virtual {v1, v0}, Lcom/vk/messenger/engine/utils/b;->a(Lcom/vk/messenger/engine/models/camera/StoryParams;)Lcom/vk/messenger/engine/models/attaches/AttachStory;
 
     move-result-object v0
 
@@ -650,24 +650,24 @@
     if-eqz v1, :cond_1
 
     .line 442
-    sget-object v1, Lcom/vk/im/ui/b;->b:Lcom/vk/im/ui/b;
+    sget-object v1, Lcom/vk/messenger/ui/b;->b:Lcom/vk/messenger/ui/b;
 
-    sget-object v2, Lcom/vk/im/engine/models/camera/CameraState;->PHOTO:Lcom/vk/im/engine/models/camera/CameraState;
+    sget-object v2, Lcom/vk/messenger/engine/models/camera/CameraState;->PHOTO:Lcom/vk/messenger/engine/models/camera/CameraState;
 
-    invoke-virtual {v1, v2}, Lcom/vk/im/ui/b;->a(Lcom/vk/im/engine/models/camera/CameraState;)V
+    invoke-virtual {v1, v2}, Lcom/vk/messenger/ui/b;->a(Lcom/vk/messenger/engine/models/camera/CameraState;)V
 
     .line 443
-    sget-object v1, Lcom/vk/im/engine/utils/b;->a:Lcom/vk/im/engine/utils/b;
+    sget-object v1, Lcom/vk/messenger/engine/utils/b;->a:Lcom/vk/messenger/engine/utils/b;
 
     invoke-virtual {p0}, Lcom/vk/stories/ShareStoryActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object v2
 
-    invoke-interface {v0, v2}, Lcom/vk/im/ui/a/a;->a(Landroid/content/Intent;)Lcom/vk/im/engine/models/camera/PhotoParams;
+    invoke-interface {v0, v2}, Lcom/vk/messenger/ui/a/a;->a(Landroid/content/Intent;)Lcom/vk/messenger/engine/models/camera/PhotoParams;
 
     move-result-object v0
 
-    invoke-virtual {v1, v0}, Lcom/vk/im/engine/utils/b;->a(Lcom/vk/im/engine/models/camera/PhotoParams;)Lcom/vk/im/engine/models/attaches/AttachImage;
+    invoke-virtual {v1, v0}, Lcom/vk/messenger/engine/utils/b;->a(Lcom/vk/messenger/engine/models/camera/PhotoParams;)Lcom/vk/messenger/engine/models/attaches/AttachImage;
 
     move-result-object v0
 
@@ -682,24 +682,24 @@
     if-eqz v1, :cond_2
 
     .line 445
-    sget-object v1, Lcom/vk/im/ui/b;->b:Lcom/vk/im/ui/b;
+    sget-object v1, Lcom/vk/messenger/ui/b;->b:Lcom/vk/messenger/ui/b;
 
-    sget-object v2, Lcom/vk/im/engine/models/camera/CameraState;->VIDEO:Lcom/vk/im/engine/models/camera/CameraState;
+    sget-object v2, Lcom/vk/messenger/engine/models/camera/CameraState;->VIDEO:Lcom/vk/messenger/engine/models/camera/CameraState;
 
-    invoke-virtual {v1, v2}, Lcom/vk/im/ui/b;->a(Lcom/vk/im/engine/models/camera/CameraState;)V
+    invoke-virtual {v1, v2}, Lcom/vk/messenger/ui/b;->a(Lcom/vk/messenger/engine/models/camera/CameraState;)V
 
     .line 446
-    sget-object v1, Lcom/vk/im/engine/utils/b;->a:Lcom/vk/im/engine/utils/b;
+    sget-object v1, Lcom/vk/messenger/engine/utils/b;->a:Lcom/vk/messenger/engine/utils/b;
 
     invoke-virtual {p0}, Lcom/vk/stories/ShareStoryActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object v2
 
-    invoke-interface {v0, v2}, Lcom/vk/im/ui/a/a;->b(Landroid/content/Intent;)Lcom/vk/im/engine/models/camera/VideoParams;
+    invoke-interface {v0, v2}, Lcom/vk/messenger/ui/a/a;->b(Landroid/content/Intent;)Lcom/vk/messenger/engine/models/camera/VideoParams;
 
     move-result-object v0
 
-    invoke-virtual {v1, v0}, Lcom/vk/im/engine/utils/b;->a(Lcom/vk/im/engine/models/camera/VideoParams;)Lcom/vk/im/engine/models/attaches/AttachVideo;
+    invoke-virtual {v1, v0}, Lcom/vk/messenger/engine/utils/b;->a(Lcom/vk/messenger/engine/models/camera/VideoParams;)Lcom/vk/messenger/engine/models/attaches/AttachVideo;
 
     move-result-object v0
 
@@ -1286,13 +1286,13 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v1, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {v0}, Lcom/vk/dto/stories/model/StoryOwner;->j()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-virtual {v1, v3}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v3}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     const/4 v1, 0x1
 
@@ -1716,7 +1716,7 @@
 
     .line 664
     :cond_0
-    iget-object v0, p0, Lcom/vk/stories/ShareStoryActivity;->v:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/stories/ShareStoryActivity;->v:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p0, Lcom/vk/stories/ShareStoryActivity;->G:Lcom/vk/stories/a/b;
 
@@ -1724,7 +1724,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 666
     iget-object v0, p0, Lcom/vk/stories/ShareStoryActivity;->G:Lcom/vk/stories/a/b;
@@ -2606,11 +2606,11 @@
     if-eqz v0, :cond_2
 
     .line 372
-    new-instance p2, Lcom/vk/im/engine/commands/messages/v;
+    new-instance p2, Lcom/vk/messenger/engine/commands/messages/v;
 
-    sget-object v3, Lcom/vk/im/engine/models/Source;->ACTUAL:Lcom/vk/im/engine/models/Source;
+    sget-object v3, Lcom/vk/messenger/engine/models/Source;->ACTUAL:Lcom/vk/messenger/engine/models/Source;
 
-    sget-object v4, Lcom/vk/im/engine/models/SearchMode;->PEERS:Lcom/vk/im/engine/models/SearchMode;
+    sget-object v4, Lcom/vk/messenger/engine/models/SearchMode;->PEERS:Lcom/vk/messenger/engine/models/SearchMode;
 
     const/16 v5, 0x32
 
@@ -2624,14 +2624,14 @@
 
     move v6, p1
 
-    invoke-direct/range {v1 .. v9}, Lcom/vk/im/engine/commands/messages/v;-><init>(Ljava/lang/String;Lcom/vk/im/engine/models/Source;Lcom/vk/im/engine/models/SearchMode;IILjava/lang/Long;Ljava/lang/Integer;Z)V
+    invoke-direct/range {v1 .. v9}, Lcom/vk/messenger/engine/commands/messages/v;-><init>(Ljava/lang/String;Lcom/vk/messenger/engine/models/Source;Lcom/vk/messenger/engine/models/SearchMode;IILjava/lang/Long;Ljava/lang/Integer;Z)V
 
     .line 373
-    iget-object p1, p0, Lcom/vk/stories/ShareStoryActivity;->a:Lcom/vk/im/engine/d;
+    iget-object p1, p0, Lcom/vk/stories/ShareStoryActivity;->a:Lcom/vk/messenger/engine/d;
 
     const-string v0, "StoryShare"
 
-    invoke-virtual {p1, v0, p2}, Lcom/vk/im/engine/d;->b(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)Lio/reactivex/q;
+    invoke-virtual {p1, v0, p2}, Lcom/vk/messenger/engine/d;->b(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)Lio/reactivex/q;
 
     move-result-object p1
 
@@ -2661,11 +2661,11 @@
 
     .line 384
     :cond_2
-    new-instance v0, Lcom/vk/im/engine/commands/messages/v;
+    new-instance v0, Lcom/vk/messenger/engine/commands/messages/v;
 
-    sget-object v3, Lcom/vk/im/engine/models/Source;->ACTUAL:Lcom/vk/im/engine/models/Source;
+    sget-object v3, Lcom/vk/messenger/engine/models/Source;->ACTUAL:Lcom/vk/messenger/engine/models/Source;
 
-    sget-object v4, Lcom/vk/im/engine/models/SearchMode;->PEERS:Lcom/vk/im/engine/models/SearchMode;
+    sget-object v4, Lcom/vk/messenger/engine/models/SearchMode;->PEERS:Lcom/vk/messenger/engine/models/SearchMode;
 
     invoke-virtual {p2}, Lcom/vk/lists/s;->e()I
 
@@ -2681,14 +2681,14 @@
 
     move v6, p1
 
-    invoke-direct/range {v1 .. v9}, Lcom/vk/im/engine/commands/messages/v;-><init>(Ljava/lang/String;Lcom/vk/im/engine/models/Source;Lcom/vk/im/engine/models/SearchMode;IILjava/lang/Long;Ljava/lang/Integer;Z)V
+    invoke-direct/range {v1 .. v9}, Lcom/vk/messenger/engine/commands/messages/v;-><init>(Ljava/lang/String;Lcom/vk/messenger/engine/models/Source;Lcom/vk/messenger/engine/models/SearchMode;IILjava/lang/Long;Ljava/lang/Integer;Z)V
 
     .line 385
-    iget-object p1, p0, Lcom/vk/stories/ShareStoryActivity;->a:Lcom/vk/im/engine/d;
+    iget-object p1, p0, Lcom/vk/stories/ShareStoryActivity;->a:Lcom/vk/messenger/engine/d;
 
     const-string p2, "StoryShare"
 
-    invoke-virtual {p1, p2, v0}, Lcom/vk/im/engine/d;->b(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)Lio/reactivex/q;
+    invoke-virtual {p1, p2, v0}, Lcom/vk/messenger/engine/d;->b(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)Lio/reactivex/q;
 
     move-result-object p1
 
@@ -3033,11 +3033,11 @@
     invoke-static {p1}, Lcom/vk/core/util/af;->b(Landroid/view/Window;)V
 
     .line 211
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/vk/stories/ShareStoryActivity;->a:Lcom/vk/im/engine/d;
+    iput-object p1, p0, Lcom/vk/stories/ShareStoryActivity;->a:Lcom/vk/messenger/engine/d;
 
     const p1, 0x7f0a023a
 
@@ -3417,9 +3417,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/stories/ShareStoryActivity;->v:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/stories/ShareStoryActivity;->v:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 330
     iget-object p1, p0, Lcom/vk/stories/ShareStoryActivity;->h:Landroid/view/View;

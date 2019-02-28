@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/vkontakte/android/directshare/ImDirectShareService;->a(Lcom/vk/im/engine/models/j;)Landroid/graphics/drawable/Icon;
+    value = Lcom/vkontakte/android/directshare/ImDirectShareService;->a(Lcom/vk/messenger/engine/models/j;)Landroid/graphics/drawable/Icon;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
     value = {
         "Lkotlin/jvm/internal/Lambda;",
         "Lkotlin/jvm/a/b<",
-        "Lcom/vk/im/ui/views/avatars/AvatarView;",
+        "Lcom/vk/messenger/ui/views/avatars/AvatarView;",
         "Lkotlin/l;",
         ">;"
     }
@@ -28,14 +28,14 @@
 
 
 # instance fields
-.field final synthetic $user:Lcom/vk/im/engine/models/j;
+.field final synthetic $user:Lcom/vk/messenger/engine/models/j;
 
 
 # direct methods
-.method constructor <init>(Lcom/vk/im/engine/models/j;)V
+.method constructor <init>(Lcom/vk/messenger/engine/models/j;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/vkontakte/android/directshare/ImDirectShareService$getTargetIcon$1;->$user:Lcom/vk/im/engine/models/j;
+    iput-object p1, p0, Lcom/vkontakte/android/directshare/ImDirectShareService$getTargetIcon$1;->$user:Lcom/vk/messenger/engine/models/j;
 
     const/4 p1, 0x1
 
@@ -50,16 +50,16 @@
     .locals 0
 
     .line 28
-    check-cast p1, Lcom/vk/im/ui/views/avatars/AvatarView;
+    check-cast p1, Lcom/vk/messenger/ui/views/avatars/AvatarView;
 
-    invoke-virtual {p0, p1}, Lcom/vkontakte/android/directshare/ImDirectShareService$getTargetIcon$1;->a(Lcom/vk/im/ui/views/avatars/AvatarView;)V
+    invoke-virtual {p0, p1}, Lcom/vkontakte/android/directshare/ImDirectShareService$getTargetIcon$1;->a(Lcom/vk/messenger/ui/views/avatars/AvatarView;)V
 
     sget-object p1, Lkotlin/l;->a:Lkotlin/l;
 
     return-object p1
 .end method
 
-.method public final a(Lcom/vk/im/ui/views/avatars/AvatarView;)V
+.method public final a(Lcom/vk/messenger/ui/views/avatars/AvatarView;)V
     .locals 1
 
     const-string v0, "it"
@@ -67,9 +67,9 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 73
-    iget-object v0, p0, Lcom/vkontakte/android/directshare/ImDirectShareService$getTargetIcon$1;->$user:Lcom/vk/im/engine/models/j;
+    iget-object v0, p0, Lcom/vkontakte/android/directshare/ImDirectShareService$getTargetIcon$1;->$user:Lcom/vk/messenger/engine/models/j;
 
-    invoke-virtual {p1, v0}, Lcom/vk/im/ui/views/avatars/AvatarView;->a(Lcom/vk/im/engine/models/j;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/ui/views/avatars/AvatarView;->a(Lcom/vk/messenger/engine/models/j;)V
 
     return-void
 .end method

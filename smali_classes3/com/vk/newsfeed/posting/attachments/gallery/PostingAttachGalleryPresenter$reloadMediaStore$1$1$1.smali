@@ -93,7 +93,7 @@
 
     iget-object p1, p1, Lcom/vk/mediastore/MediaStoreEntry;->b:Landroid/net/Uri;
 
-    invoke-static {v0, p1}, Lcom/vk/im/engine/internal/c/c;->b(Landroid/content/Context;Landroid/net/Uri;)Ljava/io/File;
+    invoke-static {v0, p1}, Lcom/vk/messenger/engine/internal/c/c;->b(Landroid/content/Context;Landroid/net/Uri;)Ljava/io/File;
 
     move-result-object p1
 

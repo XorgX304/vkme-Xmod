@@ -44,7 +44,7 @@
     .line 96
     iget-object v0, p0, Lcom/vk/photoviewer/f$c$a;->a:Lcom/vk/photoviewer/f$c;
 
-    iget-object v0, v0, Lcom/vk/photoviewer/f$c;->c:Lcom/vk/imageloader/view/VKZoomableImageView;
+    iget-object v0, v0, Lcom/vk/photoviewer/f$c;->c:Lcom/vk/messengerageloader/view/VKZoomableImageView;
 
     iget-object v1, p0, Lcom/vk/photoviewer/f$c$a;->b:Lcom/facebook/imagepipeline/g/e;
 
@@ -63,7 +63,7 @@
 
     move-result v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/vk/imageloader/view/VKZoomableImageView;->b(II)V
+    invoke-virtual {v0, v1, v2}, Lcom/vk/messengerageloader/view/VKZoomableImageView;->b(II)V
 
     .line 97
     iget-object v0, p0, Lcom/vk/photoviewer/f$c$a;->a:Lcom/vk/photoviewer/f$c;
@@ -107,20 +107,20 @@
     .line 101
     iget-object v0, p0, Lcom/vk/photoviewer/f$c$a;->a:Lcom/vk/photoviewer/f$c;
 
-    iget-object v0, v0, Lcom/vk/photoviewer/f$c;->c:Lcom/vk/imageloader/view/VKZoomableImageView;
+    iget-object v0, v0, Lcom/vk/photoviewer/f$c;->c:Lcom/vk/messengerageloader/view/VKZoomableImageView;
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKZoomableImageView;->setZoomable(Z)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKZoomableImageView;->setZoomable(Z)V
 
     .line 102
     iget-object v0, p0, Lcom/vk/photoviewer/f$c$a;->a:Lcom/vk/photoviewer/f$c;
 
-    iget-object v0, v0, Lcom/vk/photoviewer/f$c;->c:Lcom/vk/imageloader/view/VKZoomableImageView;
+    iget-object v0, v0, Lcom/vk/photoviewer/f$c;->c:Lcom/vk/messengerageloader/view/VKZoomableImageView;
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKZoomableImageView;->setAlpha(F)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKZoomableImageView;->setAlpha(F)V
 
     return-void
 .end method

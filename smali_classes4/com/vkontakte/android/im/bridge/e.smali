@@ -3,7 +3,7 @@
 .source "VkActionsBridge.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/a/a;
+.implements Lcom/vk/messenger/ui/a/a;
 
 
 # static fields
@@ -35,11 +35,11 @@
 
 
 # virtual methods
-.method public a(Landroid/content/Intent;)Lcom/vk/im/engine/models/camera/PhotoParams;
+.method public a(Landroid/content/Intent;)Lcom/vk/messenger/engine/models/camera/PhotoParams;
     .locals 0
 
     .line 21
-    invoke-static {p0, p1}, Lcom/vk/im/ui/a/a$b;->a(Lcom/vk/im/ui/a/a;Landroid/content/Intent;)Lcom/vk/im/engine/models/camera/PhotoParams;
+    invoke-static {p0, p1}, Lcom/vk/messenger/ui/a/a$b;->a(Lcom/vk/messenger/ui/a/a;Landroid/content/Intent;)Lcom/vk/messenger/engine/models/camera/PhotoParams;
 
     move-result-object p1
 
@@ -58,7 +58,7 @@
     .end annotation
 
     .line 21
-    invoke-static {p0}, Lcom/vk/im/ui/a/a$b;->a(Lcom/vk/im/ui/a/a;)Lio/reactivex/j;
+    invoke-static {p0}, Lcom/vk/messenger/ui/a/a$b;->a(Lcom/vk/messenger/ui/a/a;)Lio/reactivex/j;
 
     move-result-object v0
 
@@ -125,12 +125,12 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 21
-    invoke-static {p0, p1}, Lcom/vk/im/ui/a/a$b;->a(Lcom/vk/im/ui/a/a;Landroid/content/Context;)V
+    invoke-static {p0, p1}, Lcom/vk/messenger/ui/a/a$b;->a(Lcom/vk/messenger/ui/a/a;Landroid/content/Context;)V
 
     return-void
 .end method
 
-.method public a(Landroid/content/Context;Lcom/vk/im/engine/models/attaches/Attach;Lcom/vk/im/engine/models/messages/g;)V
+.method public a(Landroid/content/Context;Lcom/vk/messenger/engine/models/attaches/Attach;Lcom/vk/messenger/engine/models/messages/g;)V
     .locals 1
 
     const-string v0, "context"
@@ -146,12 +146,12 @@
 
     invoke-direct {v0, p1}, Lcom/vkontakte/android/im/h;-><init>(Landroid/content/Context;)V
 
-    invoke-virtual {v0, p3, p2}, Lcom/vkontakte/android/im/h;->a(Lcom/vk/im/engine/models/messages/g;Lcom/vk/im/engine/models/attaches/Attach;)V
+    invoke-virtual {v0, p3, p2}, Lcom/vkontakte/android/im/h;->a(Lcom/vk/messenger/engine/models/messages/g;Lcom/vk/messenger/engine/models/attaches/Attach;)V
 
     return-void
 .end method
 
-.method public a(Landroid/content/Context;Lcom/vk/im/engine/models/attaches/AttachDoc;)V
+.method public a(Landroid/content/Context;Lcom/vk/messenger/engine/models/attaches/AttachDoc;)V
     .locals 1
 
     const-string v0, "context"
@@ -167,11 +167,11 @@
 
     invoke-direct {v0, p1}, Lcom/vkontakte/android/im/h;-><init>(Landroid/content/Context;)V
 
-    invoke-virtual {p2}, Lcom/vk/im/engine/models/attaches/AttachDoc;->j()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/vk/messenger/engine/models/attaches/AttachDoc;->j()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {p2}, Lcom/vk/im/engine/models/attaches/AttachDoc;->f()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/vk/messenger/engine/models/attaches/AttachDoc;->f()Ljava/lang/String;
 
     move-result-object p2
 
@@ -180,7 +180,7 @@
     return-void
 .end method
 
-.method public a(Landroid/content/Context;Lcom/vk/im/ui/a/a$c;)V
+.method public a(Landroid/content/Context;Lcom/vk/messenger/ui/a/a$c;)V
     .locals 1
 
     const-string v0, "context"
@@ -192,7 +192,7 @@
     invoke-static {p2, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 21
-    invoke-static {p0, p1, p2}, Lcom/vk/im/ui/a/a$b;->a(Lcom/vk/im/ui/a/a;Landroid/content/Context;Lcom/vk/im/ui/a/a$c;)V
+    invoke-static {p0, p1, p2}, Lcom/vk/messenger/ui/a/a$b;->a(Lcom/vk/messenger/ui/a/a;Landroid/content/Context;Lcom/vk/messenger/ui/a/a$c;)V
 
     return-void
 .end method
@@ -225,7 +225,7 @@
             "(",
             "Landroid/content/Context;",
             "Ljava/util/Collection<",
-            "Lcom/vk/im/engine/models/contacts/a;",
+            "Lcom/vk/messenger/engine/models/contacts/a;",
             ">;)V"
         }
     .end annotation
@@ -239,7 +239,7 @@
     invoke-static {p2, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 21
-    invoke-static {p0, p1, p2}, Lcom/vk/im/ui/a/a$b;->a(Lcom/vk/im/ui/a/a;Landroid/content/Context;Ljava/util/Collection;)V
+    invoke-static {p0, p1, p2}, Lcom/vk/messenger/ui/a/a$b;->a(Lcom/vk/messenger/ui/a/a;Landroid/content/Context;Ljava/util/Collection;)V
 
     return-void
 .end method
@@ -279,7 +279,7 @@
     return-void
 .end method
 
-.method public a(Lcom/vk/navigation/a;Lcom/vk/im/engine/models/camera/CameraState;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Z)V
+.method public a(Lcom/vk/navigation/a;Lcom/vk/messenger/engine/models/camera/CameraState;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Z)V
     .locals 1
 
     const-string v0, "launcher"
@@ -291,7 +291,7 @@
     invoke-static {p2, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 21
-    invoke-static/range {p0 .. p8}, Lcom/vk/im/ui/a/a$b;->a(Lcom/vk/im/ui/a/a;Lcom/vk/navigation/a;Lcom/vk/im/engine/models/camera/CameraState;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Z)V
+    invoke-static/range {p0 .. p8}, Lcom/vk/messenger/ui/a/a$b;->a(Lcom/vk/messenger/ui/a/a;Lcom/vk/navigation/a;Lcom/vk/messenger/engine/models/camera/CameraState;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Z)V
 
     return-void
 .end method
@@ -352,11 +352,11 @@
     return-void
 .end method
 
-.method public b(Landroid/content/Intent;)Lcom/vk/im/engine/models/camera/VideoParams;
+.method public b(Landroid/content/Intent;)Lcom/vk/messenger/engine/models/camera/VideoParams;
     .locals 0
 
     .line 21
-    invoke-static {p0, p1}, Lcom/vk/im/ui/a/a$b;->b(Lcom/vk/im/ui/a/a;Landroid/content/Intent;)Lcom/vk/im/engine/models/camera/VideoParams;
+    invoke-static {p0, p1}, Lcom/vk/messenger/ui/a/a$b;->b(Lcom/vk/messenger/ui/a/a;Landroid/content/Intent;)Lcom/vk/messenger/engine/models/camera/VideoParams;
 
     move-result-object p1
 
@@ -416,11 +416,11 @@
     return-void
 .end method
 
-.method public c(Landroid/content/Intent;)Lcom/vk/im/engine/models/camera/StoryParams;
+.method public c(Landroid/content/Intent;)Lcom/vk/messenger/engine/models/camera/StoryParams;
     .locals 0
 
     .line 21
-    invoke-static {p0, p1}, Lcom/vk/im/ui/a/a$b;->c(Lcom/vk/im/ui/a/a;Landroid/content/Intent;)Lcom/vk/im/engine/models/camera/StoryParams;
+    invoke-static {p0, p1}, Lcom/vk/messenger/ui/a/a$b;->c(Lcom/vk/messenger/ui/a/a;Landroid/content/Intent;)Lcom/vk/messenger/engine/models/camera/StoryParams;
 
     move-result-object p1
 

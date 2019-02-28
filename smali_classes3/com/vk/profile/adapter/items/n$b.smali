@@ -76,7 +76,7 @@
     .line 54
     iget-object v0, p0, Lcom/vk/profile/adapter/items/n$b;->n:Lcom/vk/profile/ui/b/c;
 
-    invoke-virtual {v0}, Lcom/vk/profile/ui/b/c;->getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {v0}, Lcom/vk/profile/ui/b/c;->getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
@@ -86,7 +86,7 @@
 
     check-cast v1, Landroid/view/View$OnClickListener;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 61
     invoke-virtual {p1}, Lcom/vk/profile/adapter/items/n;->b()Lcom/vkontakte/android/api/ExtendedUserProfile;
@@ -125,22 +125,22 @@
     .line 69
     iget-object v0, p0, Lcom/vk/profile/adapter/items/n$b;->n:Lcom/vk/profile/ui/b/c;
 
-    invoke-virtual {v0}, Lcom/vk/profile/ui/b/c;->getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {v0}, Lcom/vk/profile/ui/b/c;->getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setClickable(Z)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setClickable(Z)V
 
     .line 70
     iget-object v0, p0, Lcom/vk/profile/adapter/items/n$b;->n:Lcom/vk/profile/ui/b/c;
 
-    invoke-virtual {v0}, Lcom/vk/profile/ui/b/c;->getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {v0}, Lcom/vk/profile/ui/b/c;->getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setLongClickable(Z)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setLongClickable(Z)V
 
     goto :goto_0
 
@@ -148,22 +148,22 @@
     :cond_1
     iget-object v0, p0, Lcom/vk/profile/adapter/items/n$b;->n:Lcom/vk/profile/ui/b/c;
 
-    invoke-virtual {v0}, Lcom/vk/profile/ui/b/c;->getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {v0}, Lcom/vk/profile/ui/b/c;->getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setClickable(Z)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setClickable(Z)V
 
     .line 73
     iget-object v0, p0, Lcom/vk/profile/adapter/items/n$b;->n:Lcom/vk/profile/ui/b/c;
 
-    invoke-virtual {v0}, Lcom/vk/profile/ui/b/c;->getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {v0}, Lcom/vk/profile/ui/b/c;->getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setLongClickable(Z)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setLongClickable(Z)V
 
     .line 77
     :goto_0

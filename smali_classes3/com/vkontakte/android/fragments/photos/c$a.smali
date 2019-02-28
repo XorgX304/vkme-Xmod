@@ -33,7 +33,7 @@
 
 .field private p:Landroid/widget/TextView;
 
-.field private q:Lcom/vk/imageloader/view/VKImageView;
+.field private q:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private r:Landroid/widget/ImageView;
 
@@ -90,21 +90,21 @@
     if-eqz p2, :cond_0
 
     .line 481
-    instance-of v0, p2, Lcom/vk/imageloader/view/VKImageView;
+    instance-of v0, p2, Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_0
 
     .line 482
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p2, p0, Lcom/vkontakte/android/fragments/photos/c$a;->q:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vkontakte/android/fragments/photos/c$a;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 483
-    iget-object p2, p0, Lcom/vkontakte/android/fragments/photos/c$a;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vkontakte/android/fragments/photos/c$a;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, -0xd0d0e
 
-    invoke-virtual {p2, v0}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderColor(I)V
+    invoke-virtual {p2, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderColor(I)V
 
     .line 486
     :cond_0
@@ -279,16 +279,16 @@
 
     if-lez v0, :cond_1
 
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/photos/c$a;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/photos/c$a;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_1
 
     .line 527
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/photos/c$a;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/photos/c$a;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object p1, p1, Lcom/vk/dto/photo/PhotoAlbum;->j:Ljava/lang/String;
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :cond_1
     return-void

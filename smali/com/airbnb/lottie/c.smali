@@ -4,7 +4,7 @@
 
 
 # static fields
-.field public static a:Z = false
+.field public static a:Z
 
 .field private static final b:Ljava/util/Set;
     .annotation system Ldalvik/annotation/Signature;
@@ -16,7 +16,7 @@
     .end annotation
 .end field
 
-.field private static c:Z = false
+.field private static c:Z
 
 .field private static d:[Ljava/lang/String;
 

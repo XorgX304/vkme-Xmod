@@ -75,7 +75,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 557
-    const-class v0, Lcom/vk/im/ui/components/e;
+    const-class v0, Lcom/vk/messenger/ui/components/e;
 
     invoke-virtual {p1}, Lcom/vk/core/fragments/FragmentEntry;->a()Ljava/lang/Class;
 

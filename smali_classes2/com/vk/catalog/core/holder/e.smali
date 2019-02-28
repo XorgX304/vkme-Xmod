@@ -16,7 +16,7 @@
 # instance fields
 .field private final n:Landroid/widget/TextView;
 
-.field private final o:Lcom/vk/imageloader/view/VKImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final p:Landroid/widget/ImageView;
 
@@ -98,9 +98,9 @@
 
     invoke-static {p1, p3}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/catalog/core/holder/e;->o:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/catalog/core/holder/e;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 28
     iget-object p1, p0, Lcom/vk/catalog/core/holder/e;->a:Landroid/view/View;
@@ -145,7 +145,7 @@
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setMaxLines(I)V
 
     .line 35
-    iget-object p1, p0, Lcom/vk/catalog/core/holder/e;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/catalog/core/holder/e;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 36
     invoke-static {}, Lcom/facebook/drawee/generic/RoundingParams;->e()Lcom/facebook/drawee/generic/RoundingParams;
@@ -155,7 +155,7 @@
     .line 41
     new-instance p3, Lcom/facebook/drawee/generic/b;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->getResources()Landroid/content/res/Resources;
 
     move-result-object p4
 
@@ -180,7 +180,7 @@
 
     check-cast p2, Lcom/facebook/drawee/d/b;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setHierarchy(Lcom/facebook/drawee/d/b;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setHierarchy(Lcom/facebook/drawee/d/b;)V
 
     return-void
 .end method
@@ -280,7 +280,7 @@
     .line 55
     sget-object v0, Lcom/vk/catalog/core/d/a;->a:Lcom/vk/catalog/core/d/a;
 
-    iget-object v1, p0, Lcom/vk/catalog/core/holder/e;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/catalog/core/holder/e;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/catalog/core/api/dto/CatalogLink;->f()Lcom/vk/catalog/core/api/dto/Meta;
 
@@ -300,10 +300,10 @@
     move-object v2, v3
 
     :goto_0
-    invoke-virtual {v0, v1, v2}, Lcom/vk/catalog/core/d/a;->a(Lcom/vk/imageloader/view/VKImageView;Lcom/vk/catalog/core/api/dto/Meta$ContentType;)V
+    invoke-virtual {v0, v1, v2}, Lcom/vk/catalog/core/d/a;->a(Lcom/vk/messengerageloader/view/VKImageView;Lcom/vk/catalog/core/api/dto/Meta$ContentType;)V
 
     .line 56
-    iget-object v0, p0, Lcom/vk/catalog/core/holder/e;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/catalog/core/holder/e;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/catalog/core/api/dto/CatalogLink;->e()Lcom/vk/dto/common/Image;
 
@@ -343,7 +343,7 @@
     move-object v1, v3
 
     :goto_1
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 57
     invoke-virtual {p1}, Lcom/vk/catalog/core/api/dto/CatalogLink;->f()Lcom/vk/catalog/core/api/dto/Meta;

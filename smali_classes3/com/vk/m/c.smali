@@ -8,7 +8,7 @@
 
 
 # instance fields
-.field private final o:Lcom/vk/imageloader/view/VKImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final p:Landroid/view/View;
 
@@ -71,14 +71,14 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/m/c;->o:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/m/c;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 39
-    iget-object p1, p0, Lcom/vk/m/c;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/m/c;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setHasOverlappingRendering(Z)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setHasOverlappingRendering(Z)V
 
     .line 41
     iget-object p1, p0, Lcom/vk/m/c;->a:Landroid/view/View;
@@ -150,15 +150,15 @@
     invoke-virtual {v0, p3}, Landroid/view/View;->setRotation(F)V
 
     .line 50
-    iget-object p3, p0, Lcom/vk/m/c;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p3, p0, Lcom/vk/m/c;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/masks/Mask;->p()Lcom/vk/dto/common/NotificationImage;
 
     move-result-object v0
 
-    sget-object v1, Lcom/vk/imageloader/ImageSize;->VERY_SMALL:Lcom/vk/imageloader/ImageSize;
+    sget-object v1, Lcom/vk/messengerageloader/ImageSize;->VERY_SMALL:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v1}, Lcom/vk/imageloader/ImageSize;->a()I
+    invoke-virtual {v1}, Lcom/vk/messengerageloader/ImageSize;->a()I
 
     move-result v1
 
@@ -166,9 +166,9 @@
 
     move-result-object v0
 
-    sget-object v1, Lcom/vk/imageloader/ImageSize;->VERY_SMALL:Lcom/vk/imageloader/ImageSize;
+    sget-object v1, Lcom/vk/messengerageloader/ImageSize;->VERY_SMALL:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {p3, v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {p3, v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     const/4 p3, 0x4
 
@@ -252,11 +252,11 @@
     if-eqz v2, :cond_2
 
     .line 63
-    iget-object p1, p0, Lcom/vk/m/c;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/m/c;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     const/high16 p2, 0x3f800000    # 1.0f
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setAlpha(F)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setAlpha(F)V
 
     .line 64
     iget-object p1, p0, Lcom/vk/m/c;->a:Landroid/view/View;
@@ -288,9 +288,9 @@
     if-eqz v3, :cond_3
 
     .line 68
-    iget-object p1, p0, Lcom/vk/m/c;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/m/c;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, v2}, Lcom/vk/imageloader/view/VKImageView;->setAlpha(F)V
+    invoke-virtual {p1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setAlpha(F)V
 
     .line 69
     iget-object p1, p0, Lcom/vk/m/c;->a:Landroid/view/View;
@@ -328,9 +328,9 @@
     if-nez p1, :cond_4
 
     .line 73
-    iget-object p1, p0, Lcom/vk/m/c;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/m/c;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, v2}, Lcom/vk/imageloader/view/VKImageView;->setAlpha(F)V
+    invoke-virtual {p1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setAlpha(F)V
 
     .line 74
     iget-object p1, p0, Lcom/vk/m/c;->a:Landroid/view/View;
@@ -351,9 +351,9 @@
 
     .line 78
     :cond_4
-    iget-object p1, p0, Lcom/vk/m/c;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/m/c;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, v2}, Lcom/vk/imageloader/view/VKImageView;->setAlpha(F)V
+    invoke-virtual {p1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setAlpha(F)V
 
     .line 79
     iget-object p1, p0, Lcom/vk/m/c;->a:Landroid/view/View;

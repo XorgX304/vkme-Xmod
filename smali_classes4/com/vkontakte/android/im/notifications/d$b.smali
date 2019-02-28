@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/vkontakte/android/im/notifications/d;->b(Landroid/content/Context;Lcom/vk/im/engine/d;II)V
+    value = Lcom/vkontakte/android/im/notifications/d;->b(Landroid/content/Context;Lcom/vk/messenger/engine/d;II)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,7 +22,7 @@
 
 .field final synthetic b:Landroid/content/Context;
 
-.field final synthetic c:Lcom/vk/im/engine/d;
+.field final synthetic c:Lcom/vk/messenger/engine/d;
 
 .field final synthetic d:I
 
@@ -30,14 +30,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/vkontakte/android/im/notifications/d;Landroid/content/Context;Lcom/vk/im/engine/d;II)V
+.method constructor <init>(Lcom/vkontakte/android/im/notifications/d;Landroid/content/Context;Lcom/vk/messenger/engine/d;II)V
     .locals 0
 
     iput-object p1, p0, Lcom/vkontakte/android/im/notifications/d$b;->a:Lcom/vkontakte/android/im/notifications/d;
 
     iput-object p2, p0, Lcom/vkontakte/android/im/notifications/d$b;->b:Landroid/content/Context;
 
-    iput-object p3, p0, Lcom/vkontakte/android/im/notifications/d$b;->c:Lcom/vk/im/engine/d;
+    iput-object p3, p0, Lcom/vkontakte/android/im/notifications/d$b;->c:Lcom/vk/messenger/engine/d;
 
     iput p4, p0, Lcom/vkontakte/android/im/notifications/d$b;->d:I
 
@@ -59,13 +59,13 @@
 
     iget-object v1, p0, Lcom/vkontakte/android/im/notifications/d$b;->b:Landroid/content/Context;
 
-    iget-object v2, p0, Lcom/vkontakte/android/im/notifications/d$b;->c:Lcom/vk/im/engine/d;
+    iget-object v2, p0, Lcom/vkontakte/android/im/notifications/d$b;->c:Lcom/vk/messenger/engine/d;
 
     iget v3, p0, Lcom/vkontakte/android/im/notifications/d$b;->d:I
 
     iget v4, p0, Lcom/vkontakte/android/im/notifications/d$b;->e:I
 
-    invoke-static {v0, v1, v2, v3, v4}, Lcom/vkontakte/android/im/notifications/d;->b(Lcom/vkontakte/android/im/notifications/d;Landroid/content/Context;Lcom/vk/im/engine/d;II)Lcom/vkontakte/android/im/notifications/h;
+    invoke-static {v0, v1, v2, v3, v4}, Lcom/vkontakte/android/im/notifications/d;->b(Lcom/vkontakte/android/im/notifications/d;Landroid/content/Context;Lcom/vk/messenger/engine/d;II)Lcom/vkontakte/android/im/notifications/h;
 
     move-result-object v0
 

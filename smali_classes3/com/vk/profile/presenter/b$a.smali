@@ -70,7 +70,7 @@
     invoke-virtual {p1, v0}, Lcom/vkontakte/android/api/k;->a(Z)V
 
     .line 280
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
@@ -78,7 +78,7 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/d;->e()Lcom/vk/im/engine/g;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/d;->e()Lcom/vk/messenger/engine/g;
 
     move-result-object v0
 
@@ -86,12 +86,12 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-interface {v0}, Lcom/vk/im/engine/g;->g()Lcom/vk/im/engine/internal/storage/d;
+    invoke-interface {v0}, Lcom/vk/messenger/engine/g;->g()Lcom/vk/messenger/engine/internal/storage/d;
 
     move-result-object v0
 
     .line 282
-    invoke-virtual {v0}, Lcom/vk/im/engine/internal/storage/d;->f()Lcom/vk/im/engine/internal/storage/delegates/groups/a;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/internal/storage/d;->f()Lcom/vk/messenger/engine/internal/storage/delegates/groups/a;
 
     move-result-object v0
 
@@ -117,7 +117,7 @@
 
     move-result v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/vk/im/engine/internal/storage/delegates/groups/a;->a(IZ)V
+    invoke-virtual {v0, v1, v2}, Lcom/vk/messenger/engine/internal/storage/delegates/groups/a;->a(IZ)V
 
     .line 284
     iget-object v0, p0, Lcom/vk/profile/presenter/b$a;->a:Lcom/vk/profile/presenter/b;

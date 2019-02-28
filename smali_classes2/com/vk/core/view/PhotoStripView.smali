@@ -1,5 +1,5 @@
 .class public Lcom/vk/core/view/PhotoStripView;
-.super Lcom/vk/imageloader/view/VKMultiImageView;
+.super Lcom/vk/messengerageloader/view/VKMultiImageView;
 .source "PhotoStripView.java"
 
 
@@ -38,7 +38,7 @@
     .locals 0
 
     .line 47
-    invoke-direct {p0, p1}, Lcom/vk/imageloader/view/VKMultiImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lcom/vk/messengerageloader/view/VKMultiImageView;-><init>(Landroid/content/Context;)V
 
     .line 24
     new-instance p1, Landroid/util/SparseIntArray;
@@ -88,7 +88,7 @@
     .locals 0
 
     .line 52
-    invoke-direct {p0, p1, p2}, Lcom/vk/imageloader/view/VKMultiImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lcom/vk/messengerageloader/view/VKMultiImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 24
     new-instance p1, Landroid/util/SparseIntArray;
@@ -138,7 +138,7 @@
     .locals 0
 
     .line 57
-    invoke-direct {p0, p1, p2, p3}, Lcom/vk/imageloader/view/VKMultiImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/vk/messengerageloader/view/VKMultiImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 24
     new-instance p1, Landroid/util/SparseIntArray;
@@ -431,7 +431,7 @@
     .locals 10
 
     .line 207
-    invoke-super {p0, p1}, Lcom/vk/imageloader/view/VKMultiImageView;->onDraw(Landroid/graphics/Canvas;)V
+    invoke-super {p0, p1}, Lcom/vk/messengerageloader/view/VKMultiImageView;->onDraw(Landroid/graphics/Canvas;)V
 
     .line 208
     invoke-virtual {p0}, Lcom/vk/core/view/PhotoStripView;->getHeight()I
@@ -836,7 +836,7 @@
     .locals 0
 
     .line 201
-    invoke-super {p0, p1, p2, p3, p4}, Lcom/vk/imageloader/view/VKMultiImageView;->onSizeChanged(IIII)V
+    invoke-super {p0, p1, p2, p3, p4}, Lcom/vk/messengerageloader/view/VKMultiImageView;->onSizeChanged(IIII)V
 
     .line 202
     iget p1, p0, Lcom/vk/core/view/PhotoStripView;->j:F
@@ -873,7 +873,7 @@
 
     .line 129
     :cond_0
-    invoke-super {p0, p1}, Lcom/vk/imageloader/view/VKMultiImageView;->onTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-super {p0, p1}, Lcom/vk/messengerageloader/view/VKMultiImageView;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
     move-result p1
 

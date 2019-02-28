@@ -1,5 +1,5 @@
 .class public final Lcom/vk/photoviewer/f$g;
-.super Lcom/vk/imageloader/b;
+.super Lcom/vk/messengerageloader/b;
 .source "PhotoAdapter.kt"
 
 
@@ -36,7 +36,7 @@
 
     iput-object p2, p0, Lcom/vk/photoviewer/f$g;->b:Lcom/vk/photoviewer/ClippingImageView;
 
-    invoke-direct {p0}, Lcom/vk/imageloader/b;-><init>()V
+    invoke-direct {p0}, Lcom/vk/messengerageloader/b;-><init>()V
 
     return-void
 .end method

@@ -1,0 +1,123 @@
+.class final Lcom/vk/messenger/ui/components/contacts/tasks/ContactsListLoadCmd$filterNewUsers$1;
+.super Lkotlin/jvm/internal/Lambda;
+.source "ContactsListLoadCmd.kt"
+
+# interfaces
+.implements Lkotlin/jvm/a/b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/vk/messenger/ui/components/contacts/tasks/b;->a(Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)Ljava/util/List;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/Lambda;",
+        "Lkotlin/jvm/a/b<",
+        "Lcom/vk/messenger/engine/models/contacts/Contact;",
+        "Ljava/lang/Boolean;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final a:Lcom/vk/messenger/ui/components/contacts/tasks/ContactsListLoadCmd$filterNewUsers$1;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/vk/messenger/ui/components/contacts/tasks/ContactsListLoadCmd$filterNewUsers$1;
+
+    invoke-direct {v0}, Lcom/vk/messenger/ui/components/contacts/tasks/ContactsListLoadCmd$filterNewUsers$1;-><init>()V
+
+    sput-object v0, Lcom/vk/messenger/ui/components/contacts/tasks/ContactsListLoadCmd$filterNewUsers$1;->a:Lcom/vk/messenger/ui/components/contacts/tasks/ContactsListLoadCmd$filterNewUsers$1;
+
+    return-void
+.end method
+
+.method constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public synthetic a(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 20
+    check-cast p1, Lcom/vk/messenger/engine/models/contacts/Contact;
+
+    invoke-virtual {p0, p1}, Lcom/vk/messenger/ui/components/contacts/tasks/ContactsListLoadCmd$filterNewUsers$1;->a(Lcom/vk/messenger/engine/models/contacts/Contact;)Z
+
+    move-result p1
+
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final a(Lcom/vk/messenger/engine/models/contacts/Contact;)Z
+    .locals 4
+
+    const-string v0, "it"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 59
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/contacts/Contact;->D()Z
+
+    move-result v0
+
+    const/4 v1, 0x1
+
+    const/4 v2, 0x0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/contacts/Contact;->C()Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v3
+
+    invoke-static {v0, v3}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    xor-int/2addr v0, v1
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/contacts/Contact;->E()Ljava/lang/Integer;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v1, 0x0
+
+    :goto_0
+    return v1
+.end method

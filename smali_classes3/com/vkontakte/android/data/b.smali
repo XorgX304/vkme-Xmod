@@ -3,7 +3,7 @@
 .source "BenchmarkTracker.java"
 
 # interfaces
-.implements Lcom/vk/imageloader/f$a;
+.implements Lcom/vk/messengerageloader/f$a;
 
 
 # annotations

@@ -20,7 +20,7 @@
     value = {
         "Ljava/lang/Object;",
         "Lio/reactivex/b/g<",
-        "Lcom/vk/im/engine/commands/messages/v$a;",
+        "Lcom/vk/messenger/engine/commands/messages/v$a;",
         ">;"
     }
 .end annotation
@@ -44,7 +44,7 @@
 
 
 # virtual methods
-.method public a(Lcom/vk/im/engine/commands/messages/v$a;)V
+.method public a(Lcom/vk/messenger/engine/commands/messages/v$a;)V
     .locals 1
 
     .line 326
@@ -55,7 +55,7 @@
     .line 327
     iget-object v0, p0, Lcom/vk/sharing/target/b$6;->a:Lcom/vk/sharing/target/b;
 
-    invoke-static {p1}, Lcom/vk/sharing/target/b;->a(Lcom/vk/im/engine/commands/messages/v$a;)Ljava/util/ArrayList;
+    invoke-static {p1}, Lcom/vk/sharing/target/b;->a(Lcom/vk/messenger/engine/commands/messages/v$a;)Ljava/util/ArrayList;
 
     move-result-object p1
 
@@ -73,9 +73,9 @@
     .end annotation
 
     .line 323
-    check-cast p1, Lcom/vk/im/engine/commands/messages/v$a;
+    check-cast p1, Lcom/vk/messenger/engine/commands/messages/v$a;
 
-    invoke-virtual {p0, p1}, Lcom/vk/sharing/target/b$6;->a(Lcom/vk/im/engine/commands/messages/v$a;)V
+    invoke-virtual {p0, p1}, Lcom/vk/sharing/target/b$6;->a(Lcom/vk/messenger/engine/commands/messages/v$a;)V
 
     return-void
 .end method

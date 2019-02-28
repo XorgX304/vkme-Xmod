@@ -14,9 +14,9 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKImageView;
 
-.field private final p:Lcom/vk/imageloader/view/VKImageView;
+.field private final p:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final q:Landroid/widget/TextView;
 
@@ -67,9 +67,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/narratives/holders/a;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/narratives/holders/a;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x7f0a0120
 
@@ -78,9 +78,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/narratives/holders/a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/narratives/holders/a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x7f0a0aff
 
@@ -94,7 +94,7 @@
     iput-object p1, p0, Lcom/vk/narratives/holders/a;->q:Landroid/widget/TextView;
 
     .line 20
-    iget-object p1, p0, Lcom/vk/narratives/holders/a;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/narratives/holders/a;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p0}, Lcom/vk/narratives/holders/a;->A()Landroid/content/Context;
 
@@ -106,7 +106,7 @@
 
     move-result p2
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderColor(I)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderColor(I)V
 
     .line 22
     iget-object p1, p0, Lcom/vk/narratives/holders/a;->a:Landroid/view/View;
@@ -139,9 +139,9 @@
     .locals 1
 
     .line 44
-    iget-object v0, p0, Lcom/vk/narratives/holders/a;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/narratives/holders/a;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getWidth()I
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getWidth()I
 
     move-result v0
 
@@ -152,17 +152,17 @@
     if-eqz p1, :cond_0
 
     .line 47
-    iget-object v0, p0, Lcom/vk/narratives/holders/a;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/narratives/holders/a;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 49
     :cond_0
-    iget-object p1, p0, Lcom/vk/narratives/holders/a;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/narratives/holders/a;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->i()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->i()V
 
     :goto_0
     return-void
@@ -216,9 +216,9 @@
     move-result-object p1
 
     .line 28
-    iget-object v0, p0, Lcom/vk/narratives/holders/a;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/narratives/holders/a;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getWidth()I
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getWidth()I
 
     move-result v0
 
@@ -231,7 +231,7 @@
 
     .line 31
     :cond_0
-    iget-object v0, p0, Lcom/vk/narratives/holders/a;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/narratives/holders/a;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance v1, Lcom/vk/narratives/holders/a$a;
 
@@ -239,7 +239,7 @@
 
     check-cast v1, Ljava/lang/Runnable;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->post(Ljava/lang/Runnable;)Z
 
     .line 34
     :goto_0
@@ -250,7 +250,7 @@
     if-eqz v0, :cond_2
 
     .line 35
-    iget-object v0, p0, Lcom/vk/narratives/holders/a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/narratives/holders/a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/narratives/Narrative;->i()Lcom/vk/dto/newsfeed/Owner;
 
@@ -265,15 +265,15 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_1
 
     .line 37
     :cond_2
-    iget-object v0, p0, Lcom/vk/narratives/holders/a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/narratives/holders/a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 40
     :goto_1

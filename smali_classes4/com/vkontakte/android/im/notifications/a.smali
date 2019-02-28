@@ -101,7 +101,7 @@
     invoke-static {v1, v2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 42
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v2
 
@@ -110,7 +110,7 @@
     invoke-static {v2, v3}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 40
-    invoke-virtual {v0, v1, v2, p1, p2}, Lcom/vkontakte/android/im/notifications/d;->a(Landroid/content/Context;Lcom/vk/im/engine/d;II)V
+    invoke-virtual {v0, v1, v2, p1, p2}, Lcom/vkontakte/android/im/notifications/d;->a(Landroid/content/Context;Lcom/vk/messenger/engine/d;II)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -215,7 +215,7 @@
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v2
 
@@ -223,7 +223,7 @@
 
     invoke-static {v2, v3}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v0, v1, v2, p1}, Lcom/vkontakte/android/im/notifications/f;->a(Landroid/content/Context;Lcom/vk/im/engine/d;I)V
+    invoke-virtual {v0, v1, v2, p1}, Lcom/vkontakte/android/im/notifications/f;->a(Landroid/content/Context;Lcom/vk/messenger/engine/d;I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -258,7 +258,7 @@
     invoke-static {v1, v2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 33
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v2
 
@@ -267,7 +267,7 @@
     invoke-static {v2, v3}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 31
-    invoke-virtual {v0, v1, v2, p1, p2}, Lcom/vkontakte/android/im/notifications/d;->b(Landroid/content/Context;Lcom/vk/im/engine/d;II)V
+    invoke-virtual {v0, v1, v2, p1, p2}, Lcom/vkontakte/android/im/notifications/d;->b(Landroid/content/Context;Lcom/vk/messenger/engine/d;II)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -285,7 +285,7 @@
     throw p1
 .end method
 
-.method public final declared-synchronized a(ILcom/vk/im/engine/utils/collection/d;)V
+.method public final declared-synchronized a(ILcom/vk/messenger/engine/utils/collection/d;)V
     .locals 1
 
     monitor-enter p0
@@ -300,9 +300,9 @@
 
     invoke-direct {v0, p1}, Lcom/vkontakte/android/im/notifications/a$b;-><init>(I)V
 
-    check-cast v0, Lcom/vk/im/engine/utils/collection/d$a;
+    check-cast v0, Lcom/vk/messenger/engine/utils/collection/d$a;
 
-    invoke-interface {p2, v0}, Lcom/vk/im/engine/utils/collection/d;->a(Lcom/vk/im/engine/utils/collection/d$a;)V
+    invoke-interface {p2, v0}, Lcom/vk/messenger/engine/utils/collection/d;->a(Lcom/vk/messenger/engine/utils/collection/d$a;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -320,7 +320,7 @@
     throw p1
 .end method
 
-.method public final declared-synchronized a(ILcom/vk/im/engine/utils/collection/d;Lcom/vk/im/engine/utils/collection/d;)V
+.method public final declared-synchronized a(ILcom/vk/messenger/engine/utils/collection/d;Lcom/vk/messenger/engine/utils/collection/d;)V
     .locals 1
 
     monitor-enter p0
@@ -337,11 +337,11 @@
     .line 22
     new-instance v0, Lcom/vkontakte/android/im/notifications/a$a;
 
-    invoke-direct {v0, p3, p1}, Lcom/vkontakte/android/im/notifications/a$a;-><init>(Lcom/vk/im/engine/utils/collection/d;I)V
+    invoke-direct {v0, p3, p1}, Lcom/vkontakte/android/im/notifications/a$a;-><init>(Lcom/vk/messenger/engine/utils/collection/d;I)V
 
-    check-cast v0, Lcom/vk/im/engine/utils/collection/d$a;
+    check-cast v0, Lcom/vk/messenger/engine/utils/collection/d$a;
 
-    invoke-interface {p2, v0}, Lcom/vk/im/engine/utils/collection/d;->a(Lcom/vk/im/engine/utils/collection/d$a;)V
+    invoke-interface {p2, v0}, Lcom/vk/messenger/engine/utils/collection/d;->a(Lcom/vk/messenger/engine/utils/collection/d$a;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -398,7 +398,7 @@
     invoke-static {v1, v2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 51
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v2
 
@@ -407,7 +407,7 @@
     invoke-static {v2, v3}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 49
-    invoke-virtual {v0, v1, v2, p1, p2}, Lcom/vkontakte/android/im/notifications/g;->a(Landroid/content/Context;Lcom/vk/im/engine/d;II)V
+    invoke-virtual {v0, v1, v2, p1, p2}, Lcom/vkontakte/android/im/notifications/g;->a(Landroid/content/Context;Lcom/vk/messenger/engine/d;II)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -475,7 +475,7 @@
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v2
 
@@ -483,7 +483,7 @@
 
     invoke-static {v2, v3}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v0, v1, v2, p1, p2}, Lcom/vkontakte/android/im/notifications/f;->a(Landroid/content/Context;Lcom/vk/im/engine/d;II)V
+    invoke-virtual {v0, v1, v2, p1, p2}, Lcom/vkontakte/android/im/notifications/f;->a(Landroid/content/Context;Lcom/vk/messenger/engine/d;II)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

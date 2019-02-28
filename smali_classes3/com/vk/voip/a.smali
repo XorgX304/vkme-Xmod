@@ -103,7 +103,7 @@
     move-object v4, p1
 
     .line 14
-    invoke-static/range {v3 .. v8}, Lcom/vk/imageloader/d;->a(Lcom/facebook/imagepipeline/b/f;Landroid/graphics/Bitmap;IIII)Lcom/facebook/common/references/a;
+    invoke-static/range {v3 .. v8}, Lcom/vk/messengerageloader/d;->a(Lcom/facebook/imagepipeline/b/f;Landroid/graphics/Bitmap;IIII)Lcom/facebook/common/references/a;
 
     move-result-object p1
 

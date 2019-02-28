@@ -42,7 +42,7 @@
 
 .field private t:Landroid/view/View;
 
-.field private u:Lcom/vk/imageloader/view/VKImageView;
+.field private u:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private v:Landroid/widget/TextView;
 
@@ -809,7 +809,7 @@
 
     .line 405
     :cond_7
-    iget-object v0, p0, Lcom/vk/attachpicker/GraffitiActivity;->u:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/attachpicker/GraffitiActivity;->u:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v2, 0x3fe66666    # 1.8f
 
@@ -829,14 +829,14 @@
 
     move-result v2
 
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->setAspectRatio(F)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setAspectRatio(F)V
 
     .line 406
-    iget-object v0, p0, Lcom/vk/attachpicker/GraffitiActivity;->u:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/attachpicker/GraffitiActivity;->u:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v2, p0, Lcom/vk/attachpicker/GraffitiActivity;->d:Landroid/graphics/Bitmap;
 
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     .line 408
     iget-object v0, p0, Lcom/vk/attachpicker/GraffitiActivity;->q:Lcom/vk/attachpicker/widget/RotateLayout;
@@ -975,7 +975,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/vk/imageloader/i;->d(Landroid/net/Uri;)V
+    invoke-static {v1}, Lcom/vk/messengerageloader/i;->d(Landroid/net/Uri;)V
 
     .line 441
     new-instance v1, Landroid/content/Intent;
@@ -1505,9 +1505,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/attachpicker/GraffitiActivity;->u:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/attachpicker/GraffitiActivity;->u:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x7f0a0b7a
 
@@ -1540,7 +1540,7 @@
     invoke-virtual {p1, v0}, Landroid/view/View;->setBackgroundColor(I)V
 
     .line 220
-    iget-object p1, p0, Lcom/vk/attachpicker/GraffitiActivity;->u:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/attachpicker/GraffitiActivity;->u:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {}, Lcom/vk/core/util/Screen;->f()I
 
@@ -1554,10 +1554,10 @@
 
     sub-int/2addr v1, v2
 
-    invoke-virtual {p1, v1}, Lcom/vk/imageloader/view/VKImageView;->setMaxHeight(I)V
+    invoke-virtual {p1, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setMaxHeight(I)V
 
     .line 221
-    iget-object p1, p0, Lcom/vk/attachpicker/GraffitiActivity;->u:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/attachpicker/GraffitiActivity;->u:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {}, Lcom/vk/core/util/Screen;->f()I
 
@@ -1571,16 +1571,16 @@
 
     sub-int/2addr v1, v2
 
-    invoke-virtual {p1, v1}, Lcom/vk/imageloader/view/VKImageView;->setMaxWidth(I)V
+    invoke-virtual {p1, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setMaxWidth(I)V
 
     .line 222
-    iget-object p1, p0, Lcom/vk/attachpicker/GraffitiActivity;->u:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/attachpicker/GraffitiActivity;->u:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance v1, Lcom/vk/attachpicker/GraffitiActivity$3;
 
     invoke-direct {v1, p0}, Lcom/vk/attachpicker/GraffitiActivity$3;-><init>(Lcom/vk/attachpicker/GraffitiActivity;)V
 
-    invoke-virtual {p1, v1}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p1, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 227
     iget-object p1, p0, Lcom/vk/attachpicker/GraffitiActivity;->s:Landroid/view/View;
@@ -1656,7 +1656,7 @@
     .line 247
     iget-object p1, p0, Lcom/vk/attachpicker/GraffitiActivity;->b:Ljava/lang/String;
 
-    invoke-static {p1}, Lcom/vk/imageloader/i;->f(Ljava/lang/String;)Lio/reactivex/j;
+    invoke-static {p1}, Lcom/vk/messengerageloader/i;->f(Ljava/lang/String;)Lio/reactivex/j;
 
     move-result-object p1
 

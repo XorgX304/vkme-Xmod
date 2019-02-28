@@ -1,5 +1,5 @@
 .class public Lcom/vkontakte/android/ui/widget/StateListenersImageView;
-.super Lcom/vk/imageloader/view/VKImageView;
+.super Lcom/vk/messengerageloader/view/VKImageView;
 .source "StateListenersImageView.java"
 
 
@@ -20,7 +20,7 @@
     .locals 0
 
     .line 16
-    invoke-direct {p0, p1}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
     .line 13
     new-instance p1, Ljava/util/ArrayList;
@@ -36,7 +36,7 @@
     .locals 0
 
     .line 20
-    invoke-direct {p0, p1, p2}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 13
     new-instance p1, Ljava/util/ArrayList;
@@ -52,7 +52,7 @@
     .locals 0
 
     .line 24
-    invoke-direct {p0, p1, p2, p3}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 13
     new-instance p1, Ljava/util/ArrayList;
@@ -70,7 +70,7 @@
     .locals 2
 
     .line 29
-    invoke-super {p0, p1}, Lcom/vk/imageloader/view/VKImageView;->addOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
+    invoke-super {p0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->addOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
 
     .line 30
     iget-object v0, p0, Lcom/vkontakte/android/ui/widget/StateListenersImageView;->a:Ljava/util/List;
@@ -119,7 +119,7 @@
     .locals 2
 
     .line 37
-    invoke-super {p0, p1}, Lcom/vk/imageloader/view/VKImageView;->removeOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
+    invoke-super {p0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->removeOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
 
     .line 38
     iget-object v0, p0, Lcom/vkontakte/android/ui/widget/StateListenersImageView;->a:Ljava/util/List;

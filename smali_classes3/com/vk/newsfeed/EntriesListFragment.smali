@@ -455,9 +455,9 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance v1, Lcom/vk/im/ui/utils/d/b;
+    new-instance v1, Lcom/vk/messenger/ui/utils/d/b;
 
-    invoke-direct {v1}, Lcom/vk/im/ui/utils/d/b;-><init>()V
+    invoke-direct {v1}, Lcom/vk/messenger/ui/utils/d/b;-><init>()V
 
     check-cast v1, Landroid/support/v7/widget/RecyclerView$o;
 

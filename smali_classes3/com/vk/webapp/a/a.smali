@@ -193,17 +193,17 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     const-string v1, "photoView"
 
     .line 33
     invoke-static {p2, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {p2, v0}, Lcom/vk/imageloader/view/VKCircleImageView;->setVisibility(I)V
+    invoke-virtual {p2, v0}, Lcom/vk/messengerageloader/view/VKCircleImageView;->setVisibility(I)V
 
     .line 34
-    invoke-virtual {p2, v2}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p2, v2}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     :cond_4
     const-string p2, "content"

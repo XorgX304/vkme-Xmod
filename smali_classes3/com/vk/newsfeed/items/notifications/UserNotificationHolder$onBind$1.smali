@@ -73,7 +73,7 @@
     .line 356
     iget-object v0, p0, Lcom/vk/newsfeed/items/notifications/UserNotificationHolder$onBind$1;->this$0:Lcom/vk/newsfeed/items/notifications/a;
 
-    invoke-static {v0}, Lcom/vk/newsfeed/items/notifications/a;->d(Lcom/vk/newsfeed/items/notifications/a;)Lcom/vk/imageloader/view/VKImageView;
+    invoke-static {v0}, Lcom/vk/newsfeed/items/notifications/a;->d(Lcom/vk/newsfeed/items/notifications/a;)Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
@@ -87,11 +87,11 @@
 
     iget-object v2, p0, Lcom/vk/newsfeed/items/notifications/UserNotificationHolder$onBind$1;->this$0:Lcom/vk/newsfeed/items/notifications/a;
 
-    invoke-static {v2}, Lcom/vk/newsfeed/items/notifications/a;->d(Lcom/vk/newsfeed/items/notifications/a;)Lcom/vk/imageloader/view/VKImageView;
+    invoke-static {v2}, Lcom/vk/newsfeed/items/notifications/a;->d(Lcom/vk/newsfeed/items/notifications/a;)Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/vk/imageloader/view/VKImageView;->getWidth()I
+    invoke-virtual {v2}, Lcom/vk/messengerageloader/view/VKImageView;->getWidth()I
 
     move-result v2
 
@@ -111,7 +111,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :cond_1
     return-void

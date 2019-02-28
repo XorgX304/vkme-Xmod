@@ -6,7 +6,7 @@
 # static fields
 .field private static a:I = -0x1
 
-.field private static b:Z = false
+.field private static b:Z
 
 
 # direct methods

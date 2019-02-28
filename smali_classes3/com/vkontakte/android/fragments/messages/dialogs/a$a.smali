@@ -42,9 +42,9 @@
     invoke-direct {p0, p1}, Lcom/vk/navigation/v;-><init>(Ljava/lang/Class;)V
 
     .line 94
-    sget-object p1, Lcom/vk/im/ui/themes/a;->b:Lcom/vk/im/ui/themes/a;
+    sget-object p1, Lcom/vk/messenger/ui/themes/a;->b:Lcom/vk/messenger/ui/themes/a;
 
-    invoke-virtual {p1}, Lcom/vk/im/ui/themes/a;->c()I
+    invoke-virtual {p1}, Lcom/vk/messenger/ui/themes/a;->c()I
 
     move-result p1
 
@@ -62,11 +62,11 @@
     .locals 1
 
     .line 101
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/b;->B()Lcom/vk/im/ui/a/f;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/b;->B()Lcom/vk/messenger/ui/a/f;
 
     move-result-object v0
 
@@ -74,7 +74,7 @@
 
     move-result-object p1
 
-    invoke-interface {v0, p1}, Lcom/vk/im/ui/a/f;->a(Landroid/content/Intent;)Landroid/content/Intent;
+    invoke-interface {v0, p1}, Lcom/vk/messenger/ui/a/f;->a(Landroid/content/Intent;)Landroid/content/Intent;
 
     move-result-object p1
 

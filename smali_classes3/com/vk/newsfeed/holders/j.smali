@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final p:Landroid/widget/TextView;
 
@@ -55,9 +55,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/j;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/j;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 17
     iget-object p1, p0, Lcom/vk/newsfeed/holders/j;->a:Landroid/view/View;
@@ -94,11 +94,11 @@
     iput-object p1, p0, Lcom/vk/newsfeed/holders/j;->q:Landroid/widget/TextView;
 
     .line 21
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/j;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/j;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f0802b2
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setImageResource(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setImageResource(I)V
 
     .line 22
     iget-object p1, p0, Lcom/vk/newsfeed/holders/j;->q:Landroid/widget/TextView;

@@ -48,9 +48,9 @@
     invoke-direct {p0, v0}, Lcom/vk/navigation/v;-><init>(Ljava/lang/Class;)V
 
     .line 46
-    sget-object v0, Lcom/vk/im/ui/themes/a;->b:Lcom/vk/im/ui/themes/a;
+    sget-object v0, Lcom/vk/messenger/ui/themes/a;->b:Lcom/vk/messenger/ui/themes/a;
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/themes/a;->c()I
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/themes/a;->c()I
 
     move-result v0
 
@@ -61,7 +61,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/vk/im/engine/models/dialogs/DialogExt;)Lcom/vkontakte/android/fragments/messages/b/c$a;
+.method public final a(Lcom/vk/messenger/engine/models/dialogs/DialogExt;)Lcom/vkontakte/android/fragments/messages/b/c$a;
     .locals 2
 
     const-string v0, "dialogExt"
@@ -80,7 +80,7 @@
     return-object p0
 .end method
 
-.method public final a(Lcom/vk/im/engine/models/messages/NestedMsg;)Lcom/vkontakte/android/fragments/messages/b/c$a;
+.method public final a(Lcom/vk/messenger/engine/models/messages/NestedMsg;)Lcom/vkontakte/android/fragments/messages/b/c$a;
     .locals 3
 
     const-string v0, "msg"
@@ -108,7 +108,7 @@
     return-object p0
 .end method
 
-.method public final a(Lcom/vk/im/engine/models/messages/PinnedMsg;)Lcom/vkontakte/android/fragments/messages/b/c$a;
+.method public final a(Lcom/vk/messenger/engine/models/messages/PinnedMsg;)Lcom/vkontakte/android/fragments/messages/b/c$a;
     .locals 3
 
     const-string v0, "msg"

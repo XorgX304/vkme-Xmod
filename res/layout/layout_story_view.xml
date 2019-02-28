@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.vk.imageloader.view.VKImageView android:id="@id/iv_image_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="centerCrop" />
+    <com.vk.messengerageloader.view.VKImageView android:id="@id/iv_image_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="centerCrop" />
     <com.vk.video.SimpleVideoView android:id="@id/vv_video_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <com.vk.video.view.VideoFastSeekView android:id="@id/story_fast_seek_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <View android:id="@id/back_gradient" android:background="@drawable/scrim_left_40percent" android:visibility="invisible" android:layout_width="88.0dip" android:layout_height="fill_parent" />
@@ -13,7 +13,7 @@
     <com.vk.stories.view.StoryProgressView android:id="@id/vrpv_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" />
     <LinearLayout android:orientation="horizontal" android:id="@id/ll_header" android:background="#01000000" android:paddingTop="14.0dip" android:layout_width="fill_parent" android:layout_height="100.0dip" android:paddingStart="8.0dip" android:paddingEnd="4.0dip">
         <LinearLayout android:orientation="horizontal" android:id="@id/owner_container" android:background="@drawable/picker_white_ripple_bounded_2dp" android:padding="4.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_weight="1.0">
-            <com.vk.imageloader.view.VKCircleImageView android:layout_gravity="center_vertical" android:id="@id/iv_avatar" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginEnd="12.0dip" />
+            <com.vk.messengerageloader.view.VKCircleImageView android:layout_gravity="center_vertical" android:id="@id/iv_avatar" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginEnd="12.0dip" />
             <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="8.0dip">
                 <TextView android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#52000000" android:shadowDy="2.0" android:shadowRadius="12.0" android:drawablePadding="2.0dip" android:fontFamily="@string/font_family_medium" />
                 <TextView android:textSize="12.0dip" android:textColor="#ccffffff" android:ellipsize="end" android:id="@id/tv_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:shadowColor="#52000000" android:shadowDy="2.0" android:shadowRadius="12.0" />

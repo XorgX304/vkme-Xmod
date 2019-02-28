@@ -54,11 +54,11 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->a(Lcom/vkontakte/android/attachments/DocumentAttachment$a;)Lcom/vk/imageloader/view/VKImageView;
+    invoke-static {v0}, Lcom/vkontakte/android/attachments/DocumentAttachment$a;->a(Lcom/vkontakte/android/attachments/DocumentAttachment$a;)Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->i()V
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->i()V
 
     :cond_0
     return-void

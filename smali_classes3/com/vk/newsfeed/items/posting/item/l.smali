@@ -22,7 +22,7 @@
 # instance fields
 .field private final n:Landroid/view/View;
 
-.field private final o:Lcom/vk/imageloader/view/VKImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final p:Landroid/widget/TextView;
 
@@ -76,9 +76,9 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/items/posting/item/l;->o:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/items/posting/item/l;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 86
     iget-object p1, p0, Lcom/vk/newsfeed/items/posting/item/l;->a:Landroid/view/View;
@@ -159,9 +159,9 @@
     .locals 1
 
     .line 109
-    iget-object v0, p0, Lcom/vk/newsfeed/items/posting/item/l;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/items/posting/item/l;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     return-void
 .end method

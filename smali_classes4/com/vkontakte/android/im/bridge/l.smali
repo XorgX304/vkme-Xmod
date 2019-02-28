@@ -3,7 +3,7 @@
 .source "VkImPollsBridge.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/a/k;
+.implements Lcom/vk/messenger/ui/a/k;
 
 
 # static fields

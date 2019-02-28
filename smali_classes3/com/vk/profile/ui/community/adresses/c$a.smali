@@ -1,5 +1,5 @@
 .class public final Lcom/vk/profile/ui/community/adresses/c$a;
-.super Lcom/vk/im/ui/utils/a/a;
+.super Lcom/vk/messenger/ui/utils/a/a;
 .source "AddressesRenderer.kt"
 
 
@@ -45,7 +45,7 @@
     .line 142
     iput-object p1, p0, Lcom/vk/profile/ui/community/adresses/c$a;->a:Lcom/vk/profile/ui/community/adresses/c;
 
-    invoke-direct {p0, p2}, Lcom/vk/im/ui/utils/a/a;-><init>(Landroid/graphics/drawable/Drawable;)V
+    invoke-direct {p0, p2}, Lcom/vk/messenger/ui/utils/a/a;-><init>(Landroid/graphics/drawable/Drawable;)V
 
     iput-object p2, p0, Lcom/vk/profile/ui/community/adresses/c$a;->d:Landroid/graphics/drawable/Drawable;
 

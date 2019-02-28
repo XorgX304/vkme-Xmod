@@ -27,10 +27,10 @@
         ">",
         "Ljava/lang/Object;",
         "Lio/reactivex/b/c<",
-        "Lcom/vk/im/engine/models/c<",
+        "Lcom/vk/messenger/engine/models/c<",
         "Ljava/lang/Integer;",
         ">;",
-        "Lcom/vk/im/engine/models/c<",
+        "Lcom/vk/messenger/engine/models/c<",
         "Ljava/lang/Integer;",
         ">;",
         "Ljava/lang/Integer;",
@@ -66,15 +66,15 @@
 
 
 # virtual methods
-.method public final a(Lcom/vk/im/engine/models/c;Lcom/vk/im/engine/models/c;)I
+.method public final a(Lcom/vk/messenger/engine/models/c;Lcom/vk/messenger/engine/models/c;)I
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/vk/im/engine/models/c<",
+            "Lcom/vk/messenger/engine/models/c<",
             "Ljava/lang/Integer;",
             ">;",
-            "Lcom/vk/im/engine/models/c<",
+            "Lcom/vk/messenger/engine/models/c<",
             "Ljava/lang/Integer;",
             ">;)I"
         }
@@ -89,7 +89,7 @@
     invoke-static {p2, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 121
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/c;->b()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/c;->b()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -109,7 +109,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-virtual {p2}, Lcom/vk/im/engine/models/c;->b()Ljava/lang/Object;
+    invoke-virtual {p2}, Lcom/vk/messenger/engine/models/c;->b()Ljava/lang/Object;
 
     move-result-object p2
 
@@ -131,11 +131,11 @@
     .locals 0
 
     .line 28
-    check-cast p1, Lcom/vk/im/engine/models/c;
+    check-cast p1, Lcom/vk/messenger/engine/models/c;
 
-    check-cast p2, Lcom/vk/im/engine/models/c;
+    check-cast p2, Lcom/vk/messenger/engine/models/c;
 
-    invoke-virtual {p0, p1, p2}, Lcom/vk/navigation/i$e;->a(Lcom/vk/im/engine/models/c;Lcom/vk/im/engine/models/c;)I
+    invoke-virtual {p0, p1, p2}, Lcom/vk/navigation/i$e;->a(Lcom/vk/messenger/engine/models/c;Lcom/vk/messenger/engine/models/c;)I
 
     move-result p1
 

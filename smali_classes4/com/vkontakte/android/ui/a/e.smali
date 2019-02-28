@@ -14,7 +14,7 @@
 
 
 # instance fields
-.field private n:Lcom/vk/imageloader/view/VKImageView;
+.field private n:Lcom/vk/messengerageloader/view/VKImageView;
 
 
 # direct methods
@@ -33,18 +33,18 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/ui/a/e;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/ui/a/e;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 19
-    iget-object p1, p0, Lcom/vkontakte/android/ui/a/e;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/a/e;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    new-instance v0, Lcom/vk/imageloader/a/b;
+    new-instance v0, Lcom/vk/messengerageloader/a/b;
 
-    invoke-direct {v0}, Lcom/vk/imageloader/a/b;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messengerageloader/a/b;-><init>()V
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
 
     return-void
 .end method
@@ -55,13 +55,13 @@
     .locals 2
 
     .line 24
-    iget-object v0, p0, Lcom/vkontakte/android/ui/a/e;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/ui/a/e;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object p1, p1, Lcom/vk/mediastore/MediaStoreEntry;->b:Landroid/net/Uri;
 
-    sget-object v1, Lcom/vk/imageloader/ImageSize;->BIG:Lcom/vk/imageloader/ImageSize;
+    sget-object v1, Lcom/vk/messengerageloader/ImageSize;->BIG:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v0, p1, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {v0, p1, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;)V
 
     return-void
 .end method

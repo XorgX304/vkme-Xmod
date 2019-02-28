@@ -108,11 +108,11 @@
     throw p1
 
     :cond_0
-    check-cast p1, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     iget-object p2, p2, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -138,13 +138,13 @@
     invoke-static {p1, p2}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 18
-    new-instance p2, Lcom/vk/imageloader/view/VKCircleImageView;
+    new-instance p2, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-direct {p2, v0}, Lcom/vk/imageloader/view/VKCircleImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p2, v0}, Lcom/vk/messengerageloader/view/VKCircleImageView;-><init>(Landroid/content/Context;)V
 
     .line 19
     new-instance v0, Landroid/support/v7/widget/RecyclerView$j;
@@ -157,7 +157,7 @@
 
     check-cast v0, Landroid/view/ViewGroup$LayoutParams;
 
-    invoke-virtual {p2, v0}, Lcom/vk/imageloader/view/VKCircleImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {p2, v0}, Lcom/vk/messengerageloader/view/VKCircleImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 20
     move-object v0, p2
@@ -180,7 +180,7 @@
 
     check-cast v1, Landroid/view/View$OnClickListener;
 
-    invoke-virtual {p2, v1}, Lcom/vk/imageloader/view/VKCircleImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p2, v1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 18
     new-instance p2, Lcom/vkontakte/android/live/views/i/a$b;

@@ -628,11 +628,11 @@
     .locals 3
 
     .line 690
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/b;->t()Lcom/vk/im/ui/a/a;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/b;->t()Lcom/vk/messenger/ui/a/a;
 
     move-result-object v0
 
@@ -644,7 +644,7 @@
 
     invoke-direct {v2, p0}, Lcom/vk/attachpicker/fragment/h$4;-><init>(Lcom/vk/attachpicker/fragment/h;)V
 
-    invoke-interface {v0, v1, v2}, Lcom/vk/im/ui/a/a;->a(Lcom/vk/navigation/a;Lkotlin/jvm/a/a;)V
+    invoke-interface {v0, v1, v2}, Lcom/vk/messenger/ui/a/a;->a(Lcom/vk/navigation/a;Lkotlin/jvm/a/a;)V
 
     return-void
 .end method

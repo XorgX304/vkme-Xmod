@@ -32,7 +32,7 @@
 
 
 # instance fields
-.field private af:Lcom/vk/im/ui/components/chat_invite/accept/a;
+.field private af:Lcom/vk/messenger/ui/components/chat_invite/accept/a;
 
 
 # direct methods
@@ -98,7 +98,7 @@
     invoke-super {p0}, Lcom/vk/core/fragments/a;->B_()V
 
     .line 51
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a;->af:Lcom/vk/im/ui/components/chat_invite/accept/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a;->af:Lcom/vk/messenger/ui/components/chat_invite/accept/a;
 
     if-nez v0, :cond_0
 
@@ -107,7 +107,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_0
-    invoke-virtual {v0}, Lcom/vk/im/ui/components/chat_invite/accept/a;->d()V
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/components/chat_invite/accept/a;->d()V
 
     return-void
 .end method
@@ -120,7 +120,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 46
-    iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a;->af:Lcom/vk/im/ui/components/chat_invite/accept/a;
+    iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a;->af:Lcom/vk/messenger/ui/components/chat_invite/accept/a;
 
     if-nez p1, :cond_0
 
@@ -134,7 +134,7 @@
     invoke-static {}, Lkotlin/jvm/internal/l;->a()V
 
     :cond_1
-    invoke-virtual {p1, p2, p3}, Lcom/vk/im/ui/components/chat_invite/accept/a;->a(Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-virtual {p1, p2, p3}, Lcom/vk/messenger/ui/components/chat_invite/accept/a;->a(Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     move-result-object p1
 
@@ -169,10 +169,10 @@
     invoke-virtual {p0, v0}, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a;->n_(Z)V
 
     .line 36
-    new-instance v0, Lcom/vk/im/ui/components/chat_invite/accept/a;
+    new-instance v0, Lcom/vk/messenger/ui/components/chat_invite/accept/a;
 
     .line 37
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v1
 
@@ -216,15 +216,15 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/vk/im/engine/models/chats/ChatPreview;
+    check-cast v3, Lcom/vk/messenger/engine/models/chats/ChatPreview;
 
     .line 36
-    invoke-direct {v0, p1, v1, v2, v3}, Lcom/vk/im/ui/components/chat_invite/accept/a;-><init>(Landroid/content/Context;Lcom/vk/im/engine/d;Ljava/lang/String;Lcom/vk/im/engine/models/chats/ChatPreview;)V
+    invoke-direct {v0, p1, v1, v2, v3}, Lcom/vk/messenger/ui/components/chat_invite/accept/a;-><init>(Landroid/content/Context;Lcom/vk/messenger/engine/d;Ljava/lang/String;Lcom/vk/messenger/engine/models/chats/ChatPreview;)V
 
-    iput-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a;->af:Lcom/vk/im/ui/components/chat_invite/accept/a;
+    iput-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a;->af:Lcom/vk/messenger/ui/components/chat_invite/accept/a;
 
     .line 40
-    iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a;->af:Lcom/vk/im/ui/components/chat_invite/accept/a;
+    iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a;->af:Lcom/vk/messenger/ui/components/chat_invite/accept/a;
 
     if-nez p1, :cond_2
 
@@ -237,9 +237,9 @@
 
     invoke-direct {v0, p0}, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$b;-><init>(Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a;)V
 
-    check-cast v0, Lcom/vk/im/ui/components/chat_invite/accept/a$a;
+    check-cast v0, Lcom/vk/messenger/ui/components/chat_invite/accept/a$a;
 
-    invoke-virtual {p1, v0}, Lcom/vk/im/ui/components/chat_invite/accept/a;->a(Lcom/vk/im/ui/components/chat_invite/accept/a$a;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/ui/components/chat_invite/accept/a;->a(Lcom/vk/messenger/ui/components/chat_invite/accept/a$a;)V
 
     return-void
 .end method
@@ -255,7 +255,7 @@
     invoke-super {p0, p1, p2}, Lcom/vk/core/fragments/a;->a(Landroid/view/View;Landroid/os/Bundle;)V
 
     .line 56
-    iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a;->af:Lcom/vk/im/ui/components/chat_invite/accept/a;
+    iget-object p1, p0, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a;->af:Lcom/vk/messenger/ui/components/chat_invite/accept/a;
 
     if-nez p1, :cond_0
 
@@ -264,7 +264,7 @@
     invoke-static {v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_0
-    invoke-virtual {p1, p2}, Lcom/vk/im/ui/components/chat_invite/accept/a;->a(Landroid/os/Bundle;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messenger/ui/components/chat_invite/accept/a;->a(Landroid/os/Bundle;)V
 
     return-void
 .end method
@@ -280,7 +280,7 @@
     invoke-super {p0, p1}, Lcom/vk/core/fragments/a;->e(Landroid/os/Bundle;)V
 
     .line 61
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a;->af:Lcom/vk/im/ui/components/chat_invite/accept/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a;->af:Lcom/vk/messenger/ui/components/chat_invite/accept/a;
 
     if-nez v0, :cond_0
 
@@ -289,7 +289,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_0
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/components/chat_invite/accept/a;->b(Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/components/chat_invite/accept/a;->b(Landroid/os/Bundle;)V
 
     return-void
 .end method
@@ -301,7 +301,7 @@
     invoke-super {p0, p1}, Lcom/vk/core/fragments/a;->k(Landroid/os/Bundle;)V
 
     .line 66
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a;->af:Lcom/vk/im/ui/components/chat_invite/accept/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a;->af:Lcom/vk/messenger/ui/components/chat_invite/accept/a;
 
     if-nez v0, :cond_0
 
@@ -310,7 +310,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_0
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/components/chat_invite/accept/a;->c(Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/components/chat_invite/accept/a;->c(Landroid/os/Bundle;)V
 
     return-void
 .end method
@@ -319,7 +319,7 @@
     .locals 2
 
     .line 70
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a;->af:Lcom/vk/im/ui/components/chat_invite/accept/a;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a;->af:Lcom/vk/messenger/ui/components/chat_invite/accept/a;
 
     if-nez v0, :cond_0
 
@@ -328,7 +328,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_0
-    invoke-virtual {v0}, Lcom/vk/im/ui/components/chat_invite/accept/a;->n()V
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/components/chat_invite/accept/a;->n()V
 
     const/4 v0, 0x1
 

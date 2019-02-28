@@ -164,21 +164,21 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesSimpleInfo;)V
+.method public constructor <init>(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)V
     .locals 1
 
     .line 71
     invoke-direct {p0}, Lcom/vk/core/serialize/Serializer$StreamParcelableAdapter;-><init>()V
 
     .line 72
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/dialogs/Dialog;->a()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/dialogs/Dialog;->a()I
 
     move-result v0
 
     iput v0, p0, Lcom/vk/sharing/target/Target;->a:I
 
     .line 73
-    invoke-static {p1, p2}, Lcom/vkontakte/android/im/f;->a(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesSimpleInfo;)Ljava/lang/String;
+    invoke-static {p1, p2}, Lcom/vkontakte/android/im/f;->a(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -190,14 +190,14 @@
     iput-object v0, p0, Lcom/vk/sharing/target/Target;->c:Ljava/lang/String;
 
     .line 75
-    invoke-static {p1, p2}, Lcom/vkontakte/android/im/f;->b(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesSimpleInfo;)Ljava/lang/String;
+    invoke-static {p1, p2}, Lcom/vkontakte/android/im/f;->b(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)Ljava/lang/String;
 
     move-result-object p2
 
     iput-object p2, p0, Lcom/vk/sharing/target/Target;->d:Ljava/lang/String;
 
     .line 76
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/dialogs/Dialog;->v()Z
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/dialogs/Dialog;->v()Z
 
     move-result p1
 

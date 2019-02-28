@@ -242,12 +242,12 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f080236
 
     .line 20
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(I)V
 
     return-void
 .end method

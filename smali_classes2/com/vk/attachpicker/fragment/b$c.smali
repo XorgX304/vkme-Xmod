@@ -58,7 +58,7 @@
 
 .field private final r:Landroid/widget/TextView;
 
-.field private final s:Lcom/vk/imageloader/view/VKImageView;
+.field private final s:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final t:Landroid/widget/ImageView;
 
@@ -227,9 +227,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/attachpicker/fragment/b$c;->s:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/attachpicker/fragment/b$c;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 174
     iget-object p1, p0, Lcom/vk/attachpicker/fragment/b$c;->a:Landroid/view/View;
@@ -258,9 +258,9 @@
     invoke-virtual {p1, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 178
-    iget-object p1, p0, Lcom/vk/attachpicker/fragment/b$c;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/attachpicker/fragment/b$c;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 179
     iget-object p1, p0, Lcom/vk/attachpicker/fragment/b$c;->t:Landroid/widget/ImageView;
@@ -374,7 +374,7 @@
     invoke-virtual {v0, v1}, Lcom/vk/attachpicker/base/c$c;->a(Lcom/vk/core/serialize/Serializer$StreamParcelable;)V
 
     .line 197
-    iget-object v0, p0, Lcom/vk/attachpicker/fragment/b$c;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/attachpicker/fragment/b$c;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/music/MusicTrack;->d()Lcom/vk/dto/music/Thumb;
 
@@ -394,7 +394,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 198
     iget-object v0, p0, Lcom/vk/attachpicker/fragment/b$c;->p:Landroid/widget/TextView;
@@ -542,7 +542,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setEnabled(Z)V
 
     .line 211
-    iget-object v0, p0, Lcom/vk/attachpicker/fragment/b$c;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/attachpicker/fragment/b$c;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/music/MusicTrack;->g()Z
 
@@ -558,7 +558,7 @@
     const/high16 p1, 0x3f800000    # 1.0f
 
     :goto_1
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->setAlpha(F)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->setAlpha(F)V
 
     return-void
 .end method

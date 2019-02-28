@@ -29,7 +29,7 @@
 
 .field private final h:Z
 
-.field private final i:Lcom/vk/imageloader/view/VKImageView;
+.field private final i:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private j:Landroid/view/View;
 
@@ -148,9 +148,9 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/profile/ui/b/a;->i:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/profile/ui/b/a;->i:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x7f0a042c
 
@@ -436,20 +436,20 @@
     invoke-virtual {p3, p2}, Lcom/vkontakte/android/ui/f;->a(Z)V
 
     .line 138
-    iget-object p2, p0, Lcom/vk/profile/ui/b/a;->i:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vk/profile/ui/b/a;->i:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p3, Landroid/graphics/drawable/Drawable;
 
-    invoke-virtual {p2, p3}, Lcom/vk/imageloader/view/VKImageView;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p2, p3}, Lcom/vk/messengerageloader/view/VKImageView;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     .line 140
     :cond_4
-    iget-object p2, p0, Lcom/vk/profile/ui/b/a;->i:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vk/profile/ui/b/a;->i:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p2, p1}, Lcom/vk/imageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p2, p1}, Lcom/vk/messengerageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 141
-    iget-object p2, p0, Lcom/vk/profile/ui/b/a;->i:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vk/profile/ui/b/a;->i:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance p3, Lcom/vk/profile/ui/b/a$c;
 
@@ -457,7 +457,7 @@
 
     check-cast p3, Landroid/view/View$OnLayoutChangeListener;
 
-    invoke-virtual {p2, p3}, Lcom/vk/imageloader/view/VKImageView;->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
+    invoke-virtual {p2, p3}, Lcom/vk/messengerageloader/view/VKImageView;->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
 
     goto :goto_1
 
@@ -465,18 +465,18 @@
     if-eqz p2, :cond_6
 
     .line 155
-    iget-object p3, p0, Lcom/vk/profile/ui/b/a;->i:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p3, p0, Lcom/vk/profile/ui/b/a;->i:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p3, p2}, Lcom/vk/imageloader/view/VKImageView;->setBackgroundColor(I)V
+    invoke-virtual {p3, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setBackgroundColor(I)V
 
     .line 156
     :cond_6
-    iget-object p2, p0, Lcom/vk/profile/ui/b/a;->i:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vk/profile/ui/b/a;->i:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p2, p1}, Lcom/vk/imageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p2, p1}, Lcom/vk/messengerageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 158
-    iget-object p2, p0, Lcom/vk/profile/ui/b/a;->i:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vk/profile/ui/b/a;->i:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance p3, Lcom/vk/profile/ui/b/a$d;
 
@@ -484,7 +484,7 @@
 
     check-cast p3, Landroid/view/View$OnLayoutChangeListener;
 
-    invoke-virtual {p2, p3}, Lcom/vk/imageloader/view/VKImageView;->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
+    invoke-virtual {p2, p3}, Lcom/vk/messengerageloader/view/VKImageView;->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
 
     :goto_1
     return-void
@@ -680,9 +680,9 @@
 
     .line 177
     :goto_0
-    iget-object v1, p0, Lcom/vk/profile/ui/b/a;->i:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/profile/ui/b/a;->i:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     .line 178
     iget-object v0, p0, Lcom/vk/profile/ui/b/a;->r:Landroid/view/View;
@@ -991,11 +991,11 @@
     return-object v0
 .end method
 
-.method public final getProfilePhoto()Lcom/vk/imageloader/view/VKImageView;
+.method public final getProfilePhoto()Lcom/vk/messengerageloader/view/VKImageView;
     .locals 1
 
     .line 45
-    iget-object v0, p0, Lcom/vk/profile/ui/b/a;->i:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/ui/b/a;->i:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-object v0
 .end method

@@ -222,11 +222,11 @@
     .line 1383
     iget-object p1, p0, Lcom/vkontakte/android/ui/WriteBar$d;->a:Lcom/vkontakte/android/ui/WriteBar;
 
-    invoke-static {p1}, Lcom/vkontakte/android/ui/WriteBar;->s(Lcom/vkontakte/android/ui/WriteBar;)Lcom/vk/im/ui/views/RichEditText;
+    invoke-static {p1}, Lcom/vkontakte/android/ui/WriteBar;->s(Lcom/vkontakte/android/ui/WriteBar;)Lcom/vk/messenger/ui/views/RichEditText;
 
     move-result-object p1
 
-    invoke-virtual {p1, v0}, Lcom/vk/im/ui/views/RichEditText;->setKeepFocus(Z)V
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/ui/views/RichEditText;->setKeepFocus(Z)V
 
     .line 1384
     iget-object p1, p0, Lcom/vkontakte/android/ui/WriteBar$d;->a:Lcom/vkontakte/android/ui/WriteBar;

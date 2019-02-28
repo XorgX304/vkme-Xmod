@@ -69,7 +69,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/vk/stickers/views/VKStickerCachedImageView;->setOnLoadCallback(Lcom/vk/imageloader/g;)V
+    invoke-virtual {v0, v1}, Lcom/vk/stickers/views/VKStickerCachedImageView;->setOnLoadCallback(Lcom/vk/messengerageloader/g;)V
 
     .line 59
     iget-object v0, p0, Lcom/vk/stickers/views/VKStickerCachedImageView$2;->b:Lcom/vk/stickers/views/VKStickerCachedImageView;

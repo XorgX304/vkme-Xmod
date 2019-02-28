@@ -16,7 +16,7 @@
 
 
 # static fields
-.field private static final a:Lcom/vk/imageloader/ImageSize;
+.field private static final a:Lcom/vk/messengerageloader/ImageSize;
 
 
 # instance fields
@@ -116,7 +116,7 @@
 
 .field protected final r:Lcom/vk/stories/view/f;
 
-.field protected s:Lcom/vk/imageloader/view/VKImageView;
+.field protected s:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field protected t:Landroid/widget/TextView;
 
@@ -124,7 +124,7 @@
 
 .field protected v:Lcom/vk/video/SimpleVideoView;
 
-.field protected w:Lcom/vk/imageloader/view/VKImageView;
+.field protected w:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field protected x:Landroid/view/ViewGroup;
 
@@ -138,9 +138,9 @@
     .locals 1
 
     .line 145
-    sget-object v0, Lcom/vk/imageloader/ImageSize;->BIG:Lcom/vk/imageloader/ImageSize;
+    sget-object v0, Lcom/vk/messengerageloader/ImageSize;->BIG:Lcom/vk/messengerageloader/ImageSize;
 
-    sput-object v0, Lcom/vk/stories/view/StoryView;->a:Lcom/vk/imageloader/ImageSize;
+    sput-object v0, Lcom/vk/stories/view/StoryView;->a:Lcom/vk/messengerageloader/ImageSize;
 
     return-void
 .end method
@@ -1098,7 +1098,7 @@
     .locals 3
 
     .line 1533
-    iget-object v0, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p0, Lcom/vk/stories/view/StoryView;->h:Lcom/vk/dto/stories/model/StoryEntry;
 
@@ -1118,7 +1118,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setColorFilter(Landroid/graphics/ColorFilter;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setColorFilter(Landroid/graphics/ColorFilter;)V
 
     .line 1534
     iget-object v0, p0, Lcom/vk/stories/view/StoryView;->aq:Lcom/vk/narratives/views/b;
@@ -1949,7 +1949,7 @@
 
     move-result-object v4
 
-    invoke-static {v4, v3}, Lcom/vk/imageloader/i;->a(Landroid/net/Uri;I)V
+    invoke-static {v4, v3}, Lcom/vk/messengerageloader/i;->a(Landroid/net/Uri;I)V
 
     .line 1722
     :cond_2
@@ -1967,7 +1967,7 @@
     if-nez v4, :cond_3
 
     .line 1724
-    invoke-static {v3}, Lcom/vk/imageloader/i;->e(Ljava/lang/String;)V
+    invoke-static {v3}, Lcom/vk/messengerageloader/i;->e(Ljava/lang/String;)V
 
     .line 1727
     :cond_3
@@ -4031,14 +4031,14 @@
 
     if-eqz v5, :cond_a
 
-    invoke-static {}, Lcom/vk/narratives/c;->c()Lcom/vk/imageloader/a/f;
+    invoke-static {}, Lcom/vk/narratives/c;->c()Lcom/vk/messengerageloader/a/f;
 
     move-result-object v5
 
     goto :goto_2
 
     :cond_a
-    sget-object v5, Lcom/vk/imageloader/a/f;->b:Lcom/vk/imageloader/a/f;
+    sget-object v5, Lcom/vk/messengerageloader/a/f;->b:Lcom/vk/messengerageloader/a/f;
 
     .line 1268
     :goto_2
@@ -4055,21 +4055,21 @@
     if-eqz v7, :cond_b
 
     .line 1269
-    iget-object v1, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1, v6}, Lcom/vk/imageloader/view/VKImageView;->setOnLoadCallback(Lcom/vk/imageloader/g;)V
+    invoke-virtual {v1, v6}, Lcom/vk/messengerageloader/view/VKImageView;->setOnLoadCallback(Lcom/vk/messengerageloader/g;)V
 
     .line 1270
-    iget-object v1, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1, v5}, Lcom/vk/imageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {v1, v5}, Lcom/vk/messengerageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
 
     .line 1271
-    iget-object v1, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/messengerageloader/view/VKImageView;
 
-    sget-object v5, Lcom/vk/stories/view/StoryView;->a:Lcom/vk/imageloader/ImageSize;
+    sget-object v5, Lcom/vk/stories/view/StoryView;->a:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v1, p1, v5}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {v1, p1, v5}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     goto :goto_4
 
@@ -4092,21 +4092,21 @@
     iput-boolean v4, p0, Lcom/vk/stories/view/StoryView;->l:Z
 
     .line 1276
-    iget-object v7, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v7, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance v8, Lcom/vk/stories/view/StoryView$26;
 
     invoke-direct {v8, p0}, Lcom/vk/stories/view/StoryView$26;-><init>(Lcom/vk/stories/view/StoryView;)V
 
-    invoke-virtual {v7, v8}, Lcom/vk/imageloader/view/VKImageView;->setOnLoadCallback(Lcom/vk/imageloader/g;)V
+    invoke-virtual {v7, v8}, Lcom/vk/messengerageloader/view/VKImageView;->setOnLoadCallback(Lcom/vk/messengerageloader/g;)V
 
     goto :goto_3
 
     .line 1289
     :cond_c
-    iget-object v7, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v7, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v7, v6}, Lcom/vk/imageloader/view/VKImageView;->setOnLoadCallback(Lcom/vk/imageloader/g;)V
+    invoke-virtual {v7, v6}, Lcom/vk/messengerageloader/view/VKImageView;->setOnLoadCallback(Lcom/vk/messengerageloader/g;)V
 
     .line 1292
     :goto_3
@@ -4117,49 +4117,49 @@
     if-nez v7, :cond_d
 
     .line 1293
-    iget-object v7, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v7, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v7, v5, v6}, Lcom/vk/imageloader/view/VKImageView;->a(Lcom/facebook/imagepipeline/request/a;Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {v7, v5, v6}, Lcom/vk/messengerageloader/view/VKImageView;->a(Lcom/facebook/imagepipeline/request/a;Lcom/facebook/imagepipeline/request/a;)V
 
     .line 1294
-    iget-object v5, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v5, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
 
-    sget-object v6, Lcom/vk/stories/view/StoryView;->a:Lcom/vk/imageloader/ImageSize;
+    sget-object v6, Lcom/vk/stories/view/StoryView;->a:Lcom/vk/messengerageloader/ImageSize;
 
     invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v1
 
-    sget-object v7, Lcom/vk/stories/view/StoryView;->a:Lcom/vk/imageloader/ImageSize;
+    sget-object v7, Lcom/vk/stories/view/StoryView;->a:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {v5, p1, v6, v1, v7}, Lcom/vk/imageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {v5, p1, v6, v1, v7}, Lcom/vk/messengerageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;)V
 
     goto :goto_4
 
     .line 1296
     :cond_d
-    iget-object p1, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, v6}, Lcom/vk/imageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {p1, v6}, Lcom/vk/messengerageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
 
     .line 1297
-    iget-object p1, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/messengerageloader/view/VKImageView;
 
-    sget-object v5, Lcom/vk/stories/view/StoryView;->a:Lcom/vk/imageloader/ImageSize;
+    sget-object v5, Lcom/vk/stories/view/StoryView;->a:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {p1, v1, v5}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {p1, v1, v5}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     goto :goto_4
 
     .line 1300
     :cond_e
-    iget-object p1, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 1304
     :goto_4
@@ -4615,7 +4615,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/vk/imageloader/i;->e(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/vk/messengerageloader/i;->e(Ljava/lang/String;)V
 
     if-eqz p1, :cond_1b
 
@@ -6115,9 +6115,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v0, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vk/stories/view/StoryView;->w:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f0a0c8f
 
@@ -6217,9 +6217,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v0, p0, Lcom/vk/stories/view/StoryView;->s:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vk/stories/view/StoryView;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f0a0b83
 
@@ -6418,7 +6418,7 @@
     invoke-virtual {v0, v2}, Lcom/vk/stories/view/StoryProgressView;->setCurrentSection(I)V
 
     .line 724
-    iget-object v0, p0, Lcom/vk/stories/view/StoryView;->s:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/stories/view/StoryView;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v2, p0, Lcom/vk/stories/view/StoryView;->f:Lcom/vk/dto/stories/model/StoriesContainer;
 
@@ -6426,7 +6426,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 725
     iget-object v0, p0, Lcom/vk/stories/view/StoryView;->t:Landroid/widget/TextView;

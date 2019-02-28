@@ -129,7 +129,7 @@
         value = {
             "(I",
             "Ljava/util/List<",
-            "Lcom/vk/im/engine/models/attaches/AttachImage;",
+            "Lcom/vk/messenger/engine/models/attaches/AttachImage;",
             ">;",
             "Landroid/app/Activity;",
             "Lcom/vk/e/k$a;",
@@ -196,10 +196,10 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/vk/im/engine/models/attaches/AttachImage;
+    check-cast v1, Lcom/vk/messenger/engine/models/attaches/AttachImage;
 
     .line 56
-    invoke-virtual {v1}, Lcom/vk/im/engine/models/attaches/AttachImage;->w()Z
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/models/attaches/AttachImage;->w()Z
 
     move-result v1
 
@@ -243,7 +243,7 @@
     return-void
 .end method
 
-.method public a(Lcom/vk/im/engine/models/attaches/AttachDoc;Landroid/app/Activity;Lcom/vk/e/k$a;)V
+.method public a(Lcom/vk/messenger/engine/models/attaches/AttachDoc;Landroid/app/Activity;Lcom/vk/e/k$a;)V
     .locals 1
 
     const-string v0, "gif"
@@ -264,7 +264,7 @@
     invoke-direct {v0, p3}, Lcom/vkontakte/android/a/g$a;-><init>(Lcom/vk/e/k$a;)V
 
     .line 25
-    invoke-static {p1}, Lcom/vkontakte/android/im/b;->b(Lcom/vk/im/engine/models/attaches/AttachDoc;)Lcom/vkontakte/android/api/Document;
+    invoke-static {p1}, Lcom/vkontakte/android/im/b;->b(Lcom/vk/messenger/engine/models/attaches/AttachDoc;)Lcom/vkontakte/android/api/Document;
 
     move-result-object p1
 
@@ -388,7 +388,7 @@
         value = {
             "(I",
             "Ljava/util/List<",
-            "Lcom/vk/im/engine/models/attaches/AttachDoc;",
+            "Lcom/vk/messenger/engine/models/attaches/AttachDoc;",
             ">;",
             "Landroid/app/Activity;",
             "Lcom/vk/e/k$a;",
@@ -455,10 +455,10 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/vk/im/engine/models/attaches/AttachDoc;
+    check-cast v3, Lcom/vk/messenger/engine/models/attaches/AttachDoc;
 
     .line 63
-    invoke-virtual {v3}, Lcom/vk/im/engine/models/attaches/AttachDoc;->w()Z
+    invoke-virtual {v3}, Lcom/vk/messenger/engine/models/attaches/AttachDoc;->w()Z
 
     move-result v3
 
@@ -508,10 +508,10 @@
     move-result-object v2
 
     .line 122
-    check-cast v2, Lcom/vk/im/engine/models/attaches/AttachDoc;
+    check-cast v2, Lcom/vk/messenger/engine/models/attaches/AttachDoc;
 
     .line 65
-    invoke-virtual {v2}, Lcom/vk/im/engine/models/attaches/AttachDoc;->f()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/vk/messenger/engine/models/attaches/AttachDoc;->f()Ljava/lang/String;
 
     move-result-object v2
 

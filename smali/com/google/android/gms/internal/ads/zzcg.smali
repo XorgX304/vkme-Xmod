@@ -5,11 +5,11 @@
 # static fields
 .field private static final TAG:Ljava/lang/String; = "zzcg"
 
-.field private static startTime:J = 0x0L
+.field private static startTime:J
 
 .field private static final zzqr:Ljava/lang/Object;
 
-.field private static zzqs:Z = false
+.field private static zzqs:Z
 
 
 # instance fields

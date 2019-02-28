@@ -30,7 +30,7 @@
 
 .field private s:Landroid/widget/TextView;
 
-.field private t:Lcom/vk/imageloader/view/VKImageView;
+.field private t:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private u:Landroid/widget/TextView;
 
@@ -138,9 +138,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p2, p0, Lcom/vkontakte/android/fragments/stickers/c;->t:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vkontakte/android/fragments/stickers/c;->t:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p2, 0x7f0a0aff
 
@@ -516,13 +516,13 @@
     .locals 6
 
     .line 149
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/stickers/c;->t:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/stickers/c;->t:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/stickers/StickerStockItem;->n()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 150
     iget-object v0, p0, Lcom/vkontakte/android/fragments/stickers/c;->s:Landroid/widget/TextView;

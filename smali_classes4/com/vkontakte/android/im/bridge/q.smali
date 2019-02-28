@@ -3,7 +3,7 @@
 .source "VkOnlinesBridge.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/a/i;
+.implements Lcom/vk/messenger/ui/a/i;
 
 
 # static fields
@@ -56,7 +56,7 @@
         value = {
             "(",
             "Landroid/util/SparseArray<",
-            "Lcom/vk/im/engine/models/users/User;",
+            "Lcom/vk/messenger/engine/models/users/User;",
             ">;)V"
         }
     .end annotation
@@ -85,13 +85,13 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/vk/im/engine/models/users/User;
+    check-cast v3, Lcom/vk/messenger/engine/models/users/User;
 
-    invoke-virtual {v3}, Lcom/vk/im/engine/models/users/User;->I()Lcom/vk/im/engine/models/Online;
+    invoke-virtual {v3}, Lcom/vk/messenger/engine/models/users/User;->I()Lcom/vk/messenger/engine/models/Online;
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/vkontakte/android/im/bridge/d;->a(Lcom/vk/im/engine/models/Online;)I
+    invoke-static {v3}, Lcom/vkontakte/android/im/bridge/d;->a(Lcom/vk/messenger/engine/models/Online;)I
 
     move-result v3
 

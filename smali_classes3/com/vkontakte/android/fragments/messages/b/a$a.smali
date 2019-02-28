@@ -24,7 +24,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/vk/im/engine/models/attaches/Attach;",
+            "Lcom/vk/messenger/engine/models/attaches/Attach;",
             ">;"
         }
     .end annotation
@@ -39,7 +39,7 @@
             "(",
             "Ljava/util/List<",
             "+",
-            "Lcom/vk/im/engine/models/attaches/Attach;",
+            "Lcom/vk/messenger/engine/models/attaches/Attach;",
             ">;)V"
         }
     .end annotation
@@ -66,11 +66,11 @@
     .line 91
     iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/b/a$a;->a:Lcom/vkontakte/android/fragments/messages/b/a;
 
-    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/b/a;->a(Lcom/vkontakte/android/fragments/messages/b/a;)Lcom/vk/im/ui/components/msg_view/content/f;
+    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/b/a;->a(Lcom/vkontakte/android/fragments/messages/b/a;)Lcom/vk/messenger/ui/components/msg_view/content/f;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/components/msg_view/content/f;->a()Landroid/view/View;
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/components/msg_view/content/f;->a()Landroid/view/View;
 
     move-result-object v0
 
@@ -103,7 +103,7 @@
     .line 90
     iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/b/a$a;->a:Lcom/vkontakte/android/fragments/messages/b/a;
 
-    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/b/a;->a(Lcom/vkontakte/android/fragments/messages/b/a;)Lcom/vk/im/ui/components/msg_view/content/f;
+    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/b/a;->a(Lcom/vkontakte/android/fragments/messages/b/a;)Lcom/vk/messenger/ui/components/msg_view/content/f;
 
     move-result-object v0
 
@@ -113,13 +113,13 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/im/engine/models/attaches/Attach;
+    check-cast p1, Lcom/vk/messenger/engine/models/attaches/Attach;
 
-    invoke-interface {p1}, Lcom/vk/im/engine/models/attaches/Attach;->b()I
+    invoke-interface {p1}, Lcom/vk/messenger/engine/models/attaches/Attach;->b()I
 
     move-result p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/components/msg_view/content/f;->a(I)Landroid/view/View;
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/components/msg_view/content/f;->a(I)Landroid/view/View;
 
     move-result-object p1
 
@@ -143,11 +143,11 @@
     .line 92
     iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/b/a$a;->a:Lcom/vkontakte/android/fragments/messages/b/a;
 
-    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/b/a;->a(Lcom/vkontakte/android/fragments/messages/b/a;)Lcom/vk/im/ui/components/msg_view/content/f;
+    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/b/a;->a(Lcom/vkontakte/android/fragments/messages/b/a;)Lcom/vk/messenger/ui/components/msg_view/content/f;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/components/msg_view/content/f;->c()V
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/components/msg_view/content/f;->c()V
 
     return-void
 .end method
@@ -158,11 +158,11 @@
     .line 93
     iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/b/a$a;->a:Lcom/vkontakte/android/fragments/messages/b/a;
 
-    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/b/a;->a(Lcom/vkontakte/android/fragments/messages/b/a;)Lcom/vk/im/ui/components/msg_view/content/f;
+    invoke-static {v0}, Lcom/vkontakte/android/fragments/messages/b/a;->a(Lcom/vkontakte/android/fragments/messages/b/a;)Lcom/vk/messenger/ui/components/msg_view/content/f;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/components/msg_view/content/f;->b()V
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/components/msg_view/content/f;->b()V
 
     return-void
 .end method

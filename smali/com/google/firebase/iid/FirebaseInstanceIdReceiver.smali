@@ -3,7 +3,7 @@
 
 
 # static fields
-.field private static a:Z = false
+.field private static a:Z
 
 .field private static b:Lcom/google/firebase/iid/ah;
     .annotation build Ljavax/annotation/concurrent/GuardedBy;

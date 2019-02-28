@@ -63,24 +63,24 @@
     .locals 0
 
     .line 27
-    check-cast p1, Lcom/vk/im/engine/events/b;
+    check-cast p1, Lcom/vk/messenger/engine/events/b;
 
-    invoke-virtual {p0, p1}, Lcom/vk/music/notifications/restriction/a$c;->a(Lcom/vk/im/engine/events/b;)Ljava/util/List;
+    invoke-virtual {p0, p1}, Lcom/vk/music/notifications/restriction/a$c;->a(Lcom/vk/messenger/engine/events/b;)Ljava/util/List;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final a(Lcom/vk/im/engine/events/b;)Ljava/util/List;
+.method public final a(Lcom/vk/messenger/engine/events/b;)Ljava/util/List;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/vk/im/engine/events/b;",
+            "Lcom/vk/messenger/engine/events/b;",
             ")",
             "Ljava/util/List<",
-            "Lcom/vk/im/engine/models/a/n;",
+            "Lcom/vk/messenger/engine/models/a/n;",
             ">;"
         }
     .end annotation
@@ -90,7 +90,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 50
-    invoke-virtual {p1}, Lcom/vk/im/engine/events/b;->a()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/events/b;->a()Ljava/util/List;
 
     move-result-object p1
 

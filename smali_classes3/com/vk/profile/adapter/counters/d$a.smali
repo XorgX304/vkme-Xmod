@@ -25,7 +25,7 @@
 # instance fields
 .field final synthetic n:Lcom/vk/profile/adapter/counters/d;
 
-.field private final p:Lcom/vk/imageloader/view/VKImageView;
+.field private final p:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final q:Landroid/widget/TextView;
 
@@ -53,15 +53,15 @@
     invoke-direct {p0, p1, v0, p2}, Lcom/vk/profile/adapter/counters/d$c;-><init>(Lcom/vk/profile/adapter/counters/d;ILandroid/view/ViewGroup;)V
 
     .line 146
-    new-instance p1, Lcom/vk/imageloader/view/VKImageView;
+    new-instance p1, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p2}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-direct {p1, v0}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
-    iput-object p1, p0, Lcom/vk/profile/adapter/counters/d$a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/profile/adapter/counters/d$a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 147
     new-instance p1, Landroid/widget/TextView;
@@ -115,9 +115,9 @@
     iput-object p1, p0, Lcom/vk/profile/adapter/counters/d$a;->q:Landroid/widget/TextView;
 
     .line 156
-    iget-object p1, p0, Lcom/vk/profile/adapter/counters/d$a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/profile/adapter/counters/d$a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
 
     move-result-object p1
 
@@ -154,7 +154,7 @@
 
     move-result-object p1
 
-    iget-object p2, p0, Lcom/vk/profile/adapter/counters/d$a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vk/profile/adapter/counters/d$a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p2, Landroid/view/View;
 
@@ -217,31 +217,31 @@
     invoke-super {p0, p1}, Lcom/vk/profile/adapter/counters/d$c;->c(Ljava/lang/Object;)V
 
     .line 168
-    iget-object v0, p0, Lcom/vk/profile/adapter/counters/d$a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/adapter/counters/d$a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/profile/adapter/counters/f$a;->d()Lcom/facebook/imagepipeline/request/a;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
 
     .line 169
-    iget-object v0, p0, Lcom/vk/profile/adapter/counters/d$a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/adapter/counters/d$a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/profile/adapter/counters/f$a;->e()Landroid/graphics/ColorFilter;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setActualColorFilter(Landroid/graphics/ColorFilter;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setActualColorFilter(Landroid/graphics/ColorFilter;)V
 
     .line 170
-    iget-object v0, p0, Lcom/vk/profile/adapter/counters/d$a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/adapter/counters/d$a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/profile/adapter/counters/f$a;->a()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 171
     invoke-virtual {p1}, Lcom/vk/profile/adapter/counters/f$a;->b()I
@@ -259,9 +259,9 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/vk/profile/adapter/counters/d$a;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/profile/adapter/counters/d$a;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1}, Lcom/vk/imageloader/view/VKImageView;->getContext()Landroid/content/Context;
+    invoke-virtual {v1}, Lcom/vk/messengerageloader/view/VKImageView;->getContext()Landroid/content/Context;
 
     move-result-object v1
 

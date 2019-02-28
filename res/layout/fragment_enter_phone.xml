@@ -9,5 +9,5 @@
     </LinearLayout>
     <TextView android:id="@id/error_text_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" style="@style/SignUpTheme.TextStyle.Error" />
     <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
-    <com.vk.im.signup.widgets.LoadingButton android:layout_gravity="center" android:id="@id/continue_login" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/sign_up_start_continue" style="@style/SignUpTheme.Button" />
+    <com.vk.messenger.signup.widgets.LoadingButton android:layout_gravity="center" android:id="@id/continue_login" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/sign_up_start_continue" style="@style/SignUpTheme.Button" />
 </LinearLayout>

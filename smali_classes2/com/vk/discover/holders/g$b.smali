@@ -27,7 +27,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final o:Landroid/widget/TextView;
 
@@ -76,9 +76,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/discover/holders/g$b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/discover/holders/g$b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 64
     iget-object p1, p0, Lcom/vk/discover/holders/g$b;->a:Landroid/view/View;
@@ -180,7 +180,7 @@
     if-eqz v0, :cond_6
 
     .line 77
-    iget-object v0, p0, Lcom/vk/discover/holders/g$b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/discover/holders/g$b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-boolean v1, p0, Lcom/vk/discover/holders/g$b;->q:Z
 
@@ -194,7 +194,7 @@
     const v1, 0x7f080245
 
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(I)V
 
     goto/16 :goto_7
 
@@ -209,7 +209,7 @@
     if-eqz v0, :cond_6
 
     .line 73
-    iget-object v0, p0, Lcom/vk/discover/holders/g$b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/discover/holders/g$b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-boolean v1, p0, Lcom/vk/discover/holders/g$b;->q:Z
 
@@ -223,7 +223,7 @@
     const v1, 0x7f080243
 
     :goto_1
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(I)V
 
     goto/16 :goto_7
 
@@ -238,7 +238,7 @@
     if-eqz v0, :cond_6
 
     .line 76
-    iget-object v0, p0, Lcom/vk/discover/holders/g$b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/discover/holders/g$b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-boolean v1, p0, Lcom/vk/discover/holders/g$b;->q:Z
 
@@ -252,7 +252,7 @@
     const v1, 0x7f080241
 
     :goto_2
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(I)V
 
     goto :goto_7
 
@@ -267,7 +267,7 @@
     if-eqz v0, :cond_6
 
     .line 75
-    iget-object v0, p0, Lcom/vk/discover/holders/g$b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/discover/holders/g$b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-boolean v1, p0, Lcom/vk/discover/holders/g$b;->q:Z
 
@@ -281,7 +281,7 @@
     const v1, 0x7f08023f
 
     :goto_3
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(I)V
 
     goto :goto_7
 
@@ -296,7 +296,7 @@
     if-eqz v0, :cond_6
 
     .line 74
-    iget-object v0, p0, Lcom/vk/discover/holders/g$b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/discover/holders/g$b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-boolean v1, p0, Lcom/vk/discover/holders/g$b;->q:Z
 
@@ -310,14 +310,14 @@
     const v1, 0x7f08023d
 
     :goto_4
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(I)V
 
     goto :goto_7
 
     .line 78
     :cond_6
     :goto_5
-    iget-object v0, p0, Lcom/vk/discover/holders/g$b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/discover/holders/g$b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/discover/Gateway;->d()Lcom/vk/dto/common/Image;
 
@@ -347,7 +347,7 @@
     const/4 v1, 0x0
 
     :goto_6
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 80
     :goto_7

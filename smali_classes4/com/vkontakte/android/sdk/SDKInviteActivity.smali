@@ -111,7 +111,7 @@
 
     new-instance v1, Lcom/vk/core/fragments/FragmentEntry;
 
-    const-class v2, Lcom/vk/im/ui/fragments/ChatFragment;
+    const-class v2, Lcom/vk/messenger/ui/fragments/ChatFragment;
 
     invoke-direct {v1, v2, v0}, Lcom/vk/core/fragments/FragmentEntry;-><init>(Ljava/lang/Class;Landroid/os/Bundle;)V
 

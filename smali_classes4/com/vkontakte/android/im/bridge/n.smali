@@ -3,7 +3,7 @@
 .source "VkImUi.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/a/q;
+.implements Lcom/vk/messenger/ui/a/q;
 
 
 # static fields
@@ -35,7 +35,7 @@
 
 
 # virtual methods
-.method public a(Lcom/vk/im/engine/d;Lcom/vk/im/ui/a/b;Lcom/vk/navigation/a;I)Lcom/vk/im/ui/components/viewcontrollers/b/a;
+.method public a(Lcom/vk/messenger/engine/d;Lcom/vk/messenger/ui/a/b;Lcom/vk/navigation/a;I)Lcom/vk/messenger/ui/components/viewcontrollers/b/a;
     .locals 1
 
     const-string v0, "engine"
@@ -53,9 +53,9 @@
     .line 15
     new-instance v0, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;
 
-    invoke-direct {v0, p1, p2, p3, p4}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;-><init>(Lcom/vk/im/engine/d;Lcom/vk/im/ui/a/b;Lcom/vk/navigation/a;I)V
+    invoke-direct {v0, p1, p2, p3, p4}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;-><init>(Lcom/vk/messenger/engine/d;Lcom/vk/messenger/ui/a/b;Lcom/vk/navigation/a;I)V
 
-    check-cast v0, Lcom/vk/im/ui/components/viewcontrollers/b/a;
+    check-cast v0, Lcom/vk/messenger/ui/components/viewcontrollers/b/a;
 
     return-object v0
 .end method

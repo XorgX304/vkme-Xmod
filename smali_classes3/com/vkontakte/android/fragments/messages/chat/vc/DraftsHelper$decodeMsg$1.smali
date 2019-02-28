@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/vkontakte/android/fragments/messages/chat/vc/a;->b(Ljava/lang/String;)Lcom/vk/im/engine/models/messages/MsgFromUser;
+    value = Lcom/vkontakte/android/fragments/messages/chat/vc/a;->b(Ljava/lang/String;)Lcom/vk/messenger/engine/models/messages/MsgFromUser;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
     value = {
         "Lkotlin/jvm/internal/Lambda;",
         "Lkotlin/jvm/a/a<",
-        "Lcom/vk/im/engine/models/messages/MsgFromUser;",
+        "Lcom/vk/messenger/engine/models/messages/MsgFromUser;",
         ">;"
     }
 .end annotation
@@ -49,14 +49,14 @@
     .locals 1
 
     .line 18
-    invoke-virtual {p0}, Lcom/vkontakte/android/fragments/messages/chat/vc/DraftsHelper$decodeMsg$1;->b()Lcom/vk/im/engine/models/messages/MsgFromUser;
+    invoke-virtual {p0}, Lcom/vkontakte/android/fragments/messages/chat/vc/DraftsHelper$decodeMsg$1;->b()Lcom/vk/messenger/engine/models/messages/MsgFromUser;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public final b()Lcom/vk/im/engine/models/messages/MsgFromUser;
+.method public final b()Lcom/vk/messenger/engine/models/messages/MsgFromUser;
     .locals 2
 
     .line 98
@@ -69,11 +69,11 @@
     goto :goto_0
 
     :cond_0
-    sget-object v0, Lcom/vk/im/engine/models/messages/MsgFromUser;->c:Lcom/vk/im/engine/models/messages/MsgFromUser$b;
+    sget-object v0, Lcom/vk/messenger/engine/models/messages/MsgFromUser;->c:Lcom/vk/messenger/engine/models/messages/MsgFromUser$b;
 
     iget-object v1, p0, Lcom/vkontakte/android/fragments/messages/chat/vc/DraftsHelper$decodeMsg$1;->$source:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/engine/models/messages/MsgFromUser$b;->a(Ljava/lang/String;)Lcom/vk/im/engine/models/messages/MsgFromUser;
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/engine/models/messages/MsgFromUser$b;->a(Ljava/lang/String;)Lcom/vk/messenger/engine/models/messages/MsgFromUser;
 
     move-result-object v0
 

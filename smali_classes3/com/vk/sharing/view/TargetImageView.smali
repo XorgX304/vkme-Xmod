@@ -1,5 +1,5 @@
 .class final Lcom/vk/sharing/view/TargetImageView;
-.super Lcom/vk/imageloader/view/VKMultiImageView;
+.super Lcom/vk/messengerageloader/view/VKMultiImageView;
 .source "TargetImageView.java"
 
 
@@ -49,7 +49,7 @@
     .locals 0
 
     .line 65
-    invoke-direct {p0, p1}, Lcom/vk/imageloader/view/VKMultiImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lcom/vk/messengerageloader/view/VKMultiImageView;-><init>(Landroid/content/Context;)V
 
     const/4 p1, 0x4
 
@@ -70,7 +70,7 @@
     .locals 0
 
     .line 69
-    invoke-direct {p0, p1, p2}, Lcom/vk/imageloader/view/VKMultiImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lcom/vk/messengerageloader/view/VKMultiImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/4 p1, 0x4
 
@@ -91,7 +91,7 @@
     .locals 0
 
     .line 73
-    invoke-direct {p0, p1, p2, p3}, Lcom/vk/imageloader/view/VKMultiImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/vk/messengerageloader/view/VKMultiImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p1, 0x4
 
@@ -115,7 +115,7 @@
     .end annotation
 
     .line 78
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/vk/imageloader/view/VKMultiImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/vk/messengerageloader/view/VKMultiImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     const/4 p1, 0x4
 
@@ -398,7 +398,7 @@
     .locals 2
 
     .line 83
-    invoke-super {p0, p1, p2}, Lcom/vk/imageloader/view/VKMultiImageView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-super {p0, p1, p2}, Lcom/vk/messengerageloader/view/VKMultiImageView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 84
     sget v0, Lcom/vk/sharing/view/TargetImageView;->c:I
@@ -771,7 +771,7 @@
     .locals 9
 
     .line 115
-    invoke-super {p0, p1, p2, p3, p4}, Lcom/vk/imageloader/view/VKMultiImageView;->onSizeChanged(IIII)V
+    invoke-super {p0, p1, p2, p3, p4}, Lcom/vk/messengerageloader/view/VKMultiImageView;->onSizeChanged(IIII)V
 
     .line 117
     invoke-virtual {p0}, Lcom/vk/sharing/view/TargetImageView;->getPaddingLeft()I

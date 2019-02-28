@@ -2,7 +2,7 @@
 <LinearLayout android:gravity="center_vertical" android:background="@drawable/rounded_list_selector" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip" android:paddingStart="@dimen/standard_list_item_padding" android:paddingEnd="4.0dip"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <FrameLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/small_photo_size" android:layout_height="@dimen/small_photo_size" android:layout_marginEnd="12.0dip">
-        <com.vk.imageloader.view.VKCircleImageView android:id="@id/photo" style="@style/UserSmallPhoto" />
+        <com.vk.messengerageloader.view.VKCircleImageView android:id="@id/photo" style="@style/UserSmallPhoto" />
         <ImageView android:layout_gravity="bottom|center|right" android:id="@id/online" style="@style/Online.Small" />
     </FrameLayout>
     <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0">

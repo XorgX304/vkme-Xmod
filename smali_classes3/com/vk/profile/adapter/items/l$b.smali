@@ -35,7 +35,7 @@
 
 
 # virtual methods
-.method public a(Lcom/vk/imageloader/view/VKImageView;Lcom/vk/imageloader/ImageSize;)V
+.method public a(Lcom/vk/messengerageloader/view/VKImageView;Lcom/vk/messengerageloader/ImageSize;)V
     .locals 2
 
     const-string v0, "imageView"
@@ -47,7 +47,7 @@
     invoke-static {p2, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 82
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -57,12 +57,12 @@
 
     move-result v0
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setActualColorFilter(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setActualColorFilter(I)V
 
     .line 83
     iget v0, p0, Lcom/vk/profile/adapter/items/l$b;->a:I
 
-    invoke-virtual {p1, v0, p2}, Lcom/vk/imageloader/view/VKImageView;->a(ILcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {p1, v0, p2}, Lcom/vk/messengerageloader/view/VKImageView;->a(ILcom/vk/messengerageloader/ImageSize;)V
 
     return-void
 .end method

@@ -95,22 +95,22 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
     const v1, 0x7f0801a7
 
     .line 333
-    invoke-virtual {p2, v1}, Lcom/vk/imageloader/view/VKImageView;->setBackgroundResource(I)V
+    invoke-virtual {p2, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setBackgroundResource(I)V
 
     .line 334
     sget-object v1, Landroid/widget/ImageView$ScaleType;->CENTER_INSIDE:Landroid/widget/ImageView$ScaleType;
 
-    invoke-virtual {p2, v1}, Lcom/vk/imageloader/view/VKImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
+    invoke-virtual {p2, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
 
     const v1, 0x7f080279
 
     .line 335
-    invoke-virtual {p2, v1}, Lcom/vk/imageloader/view/VKImageView;->setImageResource(I)V
+    invoke-virtual {p2, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setImageResource(I)V
 
     .line 337
     iget-object p2, p0, Lcom/vkontakte/android/fragments/r$c;->a:Landroid/view/View;

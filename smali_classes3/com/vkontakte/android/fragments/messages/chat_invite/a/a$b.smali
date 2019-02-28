@@ -3,7 +3,7 @@
 .source "ChatMakeLinkFragment.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/components/chat_invite/make_link/a$a;
+.implements Lcom/vk/messenger/ui/components/chat_invite/make_link/a$a;
 
 
 # annotations
@@ -40,7 +40,7 @@
 
 
 # virtual methods
-.method public a(Lcom/vk/im/engine/models/chats/a;)V
+.method public a(Lcom/vk/messenger/engine/models/chats/a;)V
     .locals 3
 
     const-string v0, "inviteLink"
@@ -48,17 +48,17 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 67
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/chats/a;->a()Lcom/vk/im/engine/models/dialogs/Dialog;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/chats/a;->a()Lcom/vk/messenger/engine/models/dialogs/Dialog;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/models/dialogs/Dialog;->n()Lcom/vk/im/engine/models/dialogs/ChatSettings;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/models/dialogs/Dialog;->n()Lcom/vk/messenger/engine/models/dialogs/ChatSettings;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/models/dialogs/ChatSettings;->k()Z
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/models/dialogs/ChatSettings;->k()Z
 
     move-result v0
 
@@ -75,7 +75,7 @@
     .line 69
     iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat_invite/a/a$b;->a:Lcom/vkontakte/android/fragments/messages/chat_invite/a/a;
 
-    invoke-static {v0, p1}, Lcom/vkontakte/android/fragments/messages/chat_invite/a/a;->a(Lcom/vkontakte/android/fragments/messages/chat_invite/a/a;Lcom/vk/im/engine/models/chats/a;)Ljava/lang/String;
+    invoke-static {v0, p1}, Lcom/vkontakte/android/fragments/messages/chat_invite/a/a;->a(Lcom/vkontakte/android/fragments/messages/chat_invite/a/a;Lcom/vk/messenger/engine/models/chats/a;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -87,17 +87,17 @@
     .line 70
     iget-object v0, p0, Lcom/vkontakte/android/fragments/messages/chat_invite/a/a$b;->a:Lcom/vkontakte/android/fragments/messages/chat_invite/a/a;
 
-    invoke-static {v0, p1}, Lcom/vkontakte/android/fragments/messages/chat_invite/a/a;->b(Lcom/vkontakte/android/fragments/messages/chat_invite/a/a;Lcom/vk/im/engine/models/chats/a;)Ljava/lang/String;
+    invoke-static {v0, p1}, Lcom/vkontakte/android/fragments/messages/chat_invite/a/a;->b(Lcom/vkontakte/android/fragments/messages/chat_invite/a/a;Lcom/vk/messenger/engine/models/chats/a;)Ljava/lang/String;
 
     move-result-object p1
 
     .line 72
     :goto_1
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/b;->v()Lcom/vk/im/ui/a/o;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/b;->v()Lcom/vk/messenger/ui/a/o;
 
     move-result-object v0
 
@@ -118,7 +118,7 @@
 
     check-cast v1, Landroid/content/Context;
 
-    invoke-interface {v0, v1, p1}, Lcom/vk/im/ui/a/o;->a(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-interface {v0, v1, p1}, Lcom/vk/messenger/ui/a/o;->a(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
 
@@ -131,7 +131,7 @@
     throw p1
 .end method
 
-.method public a(Lcom/vk/im/engine/models/dialogs/Dialog;)V
+.method public a(Lcom/vk/messenger/engine/models/dialogs/Dialog;)V
     .locals 1
 
     const-string v0, "dialog"
@@ -139,13 +139,13 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 76
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/dialogs/Dialog;->n()Lcom/vk/im/engine/models/dialogs/ChatSettings;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/dialogs/Dialog;->n()Lcom/vk/messenger/engine/models/dialogs/ChatSettings;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/dialogs/ChatSettings;->k()Z
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/dialogs/ChatSettings;->k()Z
 
     move-result p1
 

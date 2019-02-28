@@ -23,26 +23,26 @@
         "Ljava/lang/Throwable;",
         "Lio/reactivex/u<",
         "+",
-        "Lcom/vk/im/engine/commands/messages/v$a;",
+        "Lcom/vk/messenger/engine/commands/messages/v$a;",
         ">;>;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic a:Lcom/vk/im/engine/commands/messages/v;
+.field final synthetic a:Lcom/vk/messenger/engine/commands/messages/v;
 
 .field final synthetic b:Lcom/vk/sharing/target/b;
 
 
 # direct methods
-.method constructor <init>(Lcom/vk/sharing/target/b;Lcom/vk/im/engine/commands/messages/v;)V
+.method constructor <init>(Lcom/vk/sharing/target/b;Lcom/vk/messenger/engine/commands/messages/v;)V
     .locals 0
 
     .line 316
     iput-object p1, p0, Lcom/vk/sharing/target/b$8;->b:Lcom/vk/sharing/target/b;
 
-    iput-object p2, p0, Lcom/vk/sharing/target/b$8;->a:Lcom/vk/im/engine/commands/messages/v;
+    iput-object p2, p0, Lcom/vk/sharing/target/b$8;->a:Lcom/vk/messenger/engine/commands/messages/v;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -60,21 +60,21 @@
             ")",
             "Lio/reactivex/u<",
             "+",
-            "Lcom/vk/im/engine/commands/messages/v$a;",
+            "Lcom/vk/messenger/engine/commands/messages/v$a;",
             ">;"
         }
     .end annotation
 
     .line 319
-    invoke-static {}, Lcom/vk/sharing/target/b;->e()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vk/sharing/target/b;->e()Lcom/vk/messenger/engine/d;
 
     move-result-object p1
 
     const-string v0, "TargetsLoader"
 
-    iget-object v1, p0, Lcom/vk/sharing/target/b$8;->a:Lcom/vk/im/engine/commands/messages/v;
+    iget-object v1, p0, Lcom/vk/sharing/target/b$8;->a:Lcom/vk/messenger/engine/commands/messages/v;
 
-    invoke-virtual {p1, v0, v1}, Lcom/vk/im/engine/d;->b(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)Lio/reactivex/q;
+    invoke-virtual {p1, v0, v1}, Lcom/vk/messenger/engine/d;->b(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)Lio/reactivex/q;
 
     move-result-object p1
 

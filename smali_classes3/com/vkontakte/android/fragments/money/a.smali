@@ -20,7 +20,7 @@
 
 .field private aF:Z
 
-.field private aG:Lcom/vk/im/engine/models/dialogs/Dialog;
+.field private aG:Lcom/vk/messenger/engine/models/dialogs/Dialog;
 
 .field private aH:Lcom/vk/dto/money/MoneyGetCardsResult;
 
@@ -30,7 +30,7 @@
 
 .field private af:Landroid/widget/TextView;
 
-.field private ag:Lcom/vk/imageloader/view/VKImageView;
+.field private ag:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private ah:Landroid/widget/EditText;
 
@@ -136,11 +136,11 @@
     return-object p1
 .end method
 
-.method static synthetic a(Lcom/vkontakte/android/fragments/money/a;Lcom/vk/im/engine/models/dialogs/Dialog;)Lcom/vk/im/engine/models/dialogs/Dialog;
+.method static synthetic a(Lcom/vkontakte/android/fragments/money/a;Lcom/vk/messenger/engine/models/dialogs/Dialog;)Lcom/vk/messenger/engine/models/dialogs/Dialog;
     .locals 0
 
     .line 97
-    iput-object p1, p0, Lcom/vkontakte/android/fragments/money/a;->aG:Lcom/vk/im/engine/models/dialogs/Dialog;
+    iput-object p1, p0, Lcom/vkontakte/android/fragments/money/a;->aG:Lcom/vk/messenger/engine/models/dialogs/Dialog;
 
     return-object p1
 .end method
@@ -197,28 +197,28 @@
     return-void
 .end method
 
-.method private a(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesInfo;)V
+.method private a(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesInfo;)V
     .locals 5
 
     .line 287
     iget-object v0, p0, Lcom/vkontakte/android/fragments/money/a;->af:Landroid/widget/TextView;
 
-    invoke-virtual {p2}, Lcom/vk/im/engine/models/ProfilesInfo;->f()Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    invoke-virtual {p2}, Lcom/vk/messenger/engine/models/ProfilesInfo;->f()Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     move-result-object v1
 
-    invoke-static {p1, v1}, Lcom/vkontakte/android/im/f;->a(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesSimpleInfo;)Ljava/lang/String;
+    invoke-static {p1, v1}, Lcom/vkontakte/android/im/f;->a(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 289
-    invoke-virtual {p2}, Lcom/vk/im/engine/models/ProfilesInfo;->f()Lcom/vk/im/engine/models/ProfilesSimpleInfo;
+    invoke-virtual {p2}, Lcom/vk/messenger/engine/models/ProfilesInfo;->f()Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;
 
     move-result-object p2
 
-    invoke-static {p1, p2}, Lcom/vkontakte/android/im/f;->b(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesSimpleInfo;)Ljava/lang/String;
+    invoke-static {p1, p2}, Lcom/vkontakte/android/im/f;->b(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesSimpleInfo;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -241,19 +241,19 @@
     if-nez v0, :cond_0
 
     .line 292
-    iget-object p2, p0, Lcom/vkontakte/android/fragments/money/a;->ag:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vkontakte/android/fragments/money/a;->ag:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p2, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p2, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_1
 
     .line 295
     :cond_0
-    iget-object p1, p0, Lcom/vkontakte/android/fragments/money/a;->ag:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/fragments/money/a;->ag:Lcom/vk/messengerageloader/view/VKImageView;
 
     const/16 v0, 0x8
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 296
     iget-object p1, p0, Lcom/vkontakte/android/fragments/money/a;->aW:Landroid/view/ViewGroup;
@@ -396,11 +396,11 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/vkontakte/android/fragments/money/a;Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesInfo;)V
+.method static synthetic a(Lcom/vkontakte/android/fragments/money/a;Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesInfo;)V
     .locals 0
 
     .line 97
-    invoke-direct {p0, p1, p2}, Lcom/vkontakte/android/fragments/money/a;->a(Lcom/vk/im/engine/models/dialogs/Dialog;Lcom/vk/im/engine/models/ProfilesInfo;)V
+    invoke-direct {p0, p1, p2}, Lcom/vkontakte/android/fragments/money/a;->a(Lcom/vk/messenger/engine/models/dialogs/Dialog;Lcom/vk/messenger/engine/models/ProfilesInfo;)V
 
     return-void
 .end method
@@ -1505,13 +1505,13 @@
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 988
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/money/a;->ag:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/money/a;->ag:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p0, Lcom/vkontakte/android/fragments/money/a;->ao:Lcom/vkontakte/android/UserProfile;
 
     iget-object v1, v1, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :cond_1
     return-void
@@ -1521,32 +1521,32 @@
     .locals 4
 
     .line 232
-    new-instance v0, Lcom/vk/im/engine/commands/dialogs/p;
+    new-instance v0, Lcom/vk/messenger/engine/commands/dialogs/p;
 
     iget v1, p0, Lcom/vkontakte/android/fragments/money/a;->au:I
 
-    invoke-static {v1}, Lcom/vk/im/engine/utils/collection/IntArrayList;->c(I)Lcom/vk/im/engine/utils/collection/IntArrayList;
+    invoke-static {v1}, Lcom/vk/messenger/engine/utils/collection/IntArrayList;->c(I)Lcom/vk/messenger/engine/utils/collection/IntArrayList;
 
     move-result-object v1
 
-    sget-object v2, Lcom/vk/im/engine/models/Source;->ACTUAL:Lcom/vk/im/engine/models/Source;
+    sget-object v2, Lcom/vk/messenger/engine/models/Source;->ACTUAL:Lcom/vk/messenger/engine/models/Source;
 
     const/4 v3, 0x1
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/vk/im/engine/commands/dialogs/p;-><init>(Lcom/vk/im/engine/utils/collection/d;Lcom/vk/im/engine/models/Source;Z)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/vk/messenger/engine/commands/dialogs/p;-><init>(Lcom/vk/messenger/engine/utils/collection/d;Lcom/vk/messenger/engine/models/Source;Z)V
 
     .line 233
-    new-instance v1, Lcom/vk/im/engine/commands/dialogs/s;
+    new-instance v1, Lcom/vk/messenger/engine/commands/dialogs/s;
 
-    invoke-direct {v1, v0}, Lcom/vk/im/engine/commands/dialogs/s;-><init>(Lcom/vk/im/engine/commands/dialogs/p;)V
+    invoke-direct {v1, v0}, Lcom/vk/messenger/engine/commands/dialogs/s;-><init>(Lcom/vk/messenger/engine/commands/dialogs/p;)V
 
     .line 234
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
     .line 235
-    invoke-virtual {v0, p0, v1}, Lcom/vk/im/engine/d;->b(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)Lio/reactivex/q;
+    invoke-virtual {v0, p0, v1}, Lcom/vk/messenger/engine/d;->b(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)Lio/reactivex/q;
 
     move-result-object v0
 
@@ -1880,18 +1880,18 @@
     .locals 4
 
     .line 785
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/money/a;->aG:Lcom/vk/im/engine/models/dialogs/Dialog;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/money/a;->aG:Lcom/vk/messenger/engine/models/dialogs/Dialog;
 
     if-eqz v0, :cond_0
 
     .line 786
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/money/a;->aG:Lcom/vk/im/engine/models/dialogs/Dialog;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/money/a;->aG:Lcom/vk/messenger/engine/models/dialogs/Dialog;
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/models/dialogs/Dialog;->n()Lcom/vk/im/engine/models/dialogs/ChatSettings;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/models/dialogs/Dialog;->n()Lcom/vk/messenger/engine/models/dialogs/ChatSettings;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/models/dialogs/ChatSettings;->i()I
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/models/dialogs/ChatSettings;->i()I
 
     move-result v0
 
@@ -3077,9 +3077,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p2, p0, Lcom/vkontakte/android/fragments/money/a;->ag:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vkontakte/android/fragments/money/a;->ag:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p2, 0x7f0a0648
 

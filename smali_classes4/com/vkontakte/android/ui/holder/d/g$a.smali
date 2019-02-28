@@ -127,7 +127,7 @@
     if-eqz v0, :cond_0
 
     .line 164
-    iget-object v0, p1, Lcom/vkontakte/android/ui/holder/d/g$a$a;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p1, Lcom/vkontakte/android/ui/holder/d/g$a$a;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p2}, Lcom/vk/dto/common/ImageSize;->c()I
 
@@ -141,16 +141,16 @@
 
     int-to-float v2, v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/vk/imageloader/view/VKImageView;->a(FF)V
+    invoke-virtual {v0, v1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(FF)V
 
     .line 165
-    iget-object p1, p1, Lcom/vkontakte/android/ui/holder/d/g$a$a;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p1, Lcom/vkontakte/android/ui/holder/d/g$a$a;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p2}, Lcom/vk/dto/common/ImageSize;->a()Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :cond_0
     return-void

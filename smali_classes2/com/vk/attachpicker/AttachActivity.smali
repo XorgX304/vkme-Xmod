@@ -1966,7 +1966,7 @@
     .line 181
     iget v0, p0, Lcom/vk/attachpicker/AttachActivity;->I:I
 
-    invoke-static {v0}, Lcom/vk/im/engine/utils/g;->g(I)Z
+    invoke-static {v0}, Lcom/vk/messenger/engine/utils/g;->g(I)Z
 
     move-result v0
 

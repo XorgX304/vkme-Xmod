@@ -35,7 +35,7 @@
 
 .field private final p:Landroid/widget/TextView;
 
-.field private final q:Lcom/vk/imageloader/view/VKImageView;
+.field private final q:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final r:Lcom/vkontakte/android/fragments/d/a;
 
@@ -123,9 +123,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/documents/list/a$b;->q:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/documents/list/a$b;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 79
     iget-object p1, p0, Lcom/vk/documents/list/a$b;->a:Landroid/view/View;
@@ -177,11 +177,11 @@
     return-object v0
 .end method
 
-.method protected final B()Lcom/vk/imageloader/view/VKImageView;
+.method protected final B()Lcom/vk/messengerageloader/view/VKImageView;
     .locals 1
 
     .line 76
-    iget-object v0, p0, Lcom/vk/documents/list/a$b;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/documents/list/a$b;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-object v0
 .end method
@@ -309,7 +309,7 @@
 
     .line 89
     :cond_4
-    iget-object v0, p0, Lcom/vk/documents/list/a$b;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/documents/list/a$b;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_7
 
@@ -339,13 +339,13 @@
 
     .line 90
     :cond_7
-    iget-object v0, p0, Lcom/vk/documents/list/a$b;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/documents/list/a$b;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_8
 
     iget-object p1, p1, Lcom/vkontakte/android/api/Document;->m:Ljava/lang/String;
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :cond_8
     return-void

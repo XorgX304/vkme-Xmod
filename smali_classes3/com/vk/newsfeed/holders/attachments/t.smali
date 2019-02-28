@@ -25,7 +25,7 @@
 
 
 # instance fields
-.field private final p:Lcom/vk/imageloader/view/VKImageView;
+.field private final p:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final q:Landroid/widget/TextView;
 
@@ -87,9 +87,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/t;->p:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/attachments/t;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 18
     iget-object p1, p0, Lcom/vk/newsfeed/holders/attachments/t;->a:Landroid/view/View;
@@ -154,11 +154,11 @@
 
 
 # virtual methods
-.method protected final A()Lcom/vk/imageloader/view/VKImageView;
+.method protected final A()Lcom/vk/messengerageloader/view/VKImageView;
     .locals 1
 
     .line 17
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/t;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/t;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-object v0
 .end method

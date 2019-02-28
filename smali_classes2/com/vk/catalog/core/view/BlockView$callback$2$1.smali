@@ -132,7 +132,7 @@
 
     move-result-object v6
 
-    invoke-static {v6}, Lcom/vk/imageloader/i;->e(Ljava/lang/String;)V
+    invoke-static {v6}, Lcom/vk/messengerageloader/i;->e(Ljava/lang/String;)V
 
     add-int/lit8 v5, v5, 0x1
 

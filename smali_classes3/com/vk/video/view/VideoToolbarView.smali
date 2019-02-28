@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private final a:Lcom/vk/imageloader/view/VKImageView;
+.field private final a:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final b:Landroid/widget/ImageView;
 
@@ -116,9 +116,9 @@
 
     invoke-static {p3, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p3, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p3, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p3, p0, Lcom/vk/video/view/VideoToolbarView;->a:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p3, p0, Lcom/vk/video/view/VideoToolbarView;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p3, 0x7f0a08f3
 
@@ -375,9 +375,9 @@
     invoke-virtual {p2, p1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 94
-    iget-object p2, p0, Lcom/vk/video/view/VideoToolbarView;->a:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vk/video/view/VideoToolbarView;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p2, p1}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p2, p1}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 95
     iget-object p2, p0, Lcom/vk/video/view/VideoToolbarView;->l:Landroid/widget/ImageView;
@@ -424,9 +424,9 @@
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     .line 104
-    iget-object p1, p0, Lcom/vk/video/view/VideoToolbarView;->a:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/video/view/VideoToolbarView;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     .line 105
     iget-object p1, p0, Lcom/vk/video/view/VideoToolbarView;->l:Landroid/widget/ImageView;
@@ -645,11 +645,11 @@
     invoke-virtual {v3, v2}, Landroid/view/View;->setVisibility(I)V
 
     .line 132
-    iget-object v3, p0, Lcom/vk/video/view/VideoToolbarView;->a:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vk/video/view/VideoToolbarView;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v4, v0, Lcom/vk/dto/common/VideoFile;->aa:Ljava/lang/String;
 
-    invoke-virtual {v3, v4}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v3, v4}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_6
 
@@ -727,7 +727,7 @@
     invoke-virtual {v3, v1}, Landroid/view/View;->setVisibility(I)V
 
     .line 138
-    iget-object v3, p0, Lcom/vk/video/view/VideoToolbarView;->a:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vk/video/view/VideoToolbarView;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/video/view/VideoView$AdsDataProvider;->c()Lcom/vk/dto/newsfeed/Owner;
 
@@ -740,7 +740,7 @@
     move-result-object v5
 
     :cond_7
-    invoke-virtual {v3, v5}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v3, v5}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 141
     :goto_6

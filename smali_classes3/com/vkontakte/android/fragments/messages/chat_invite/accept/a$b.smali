@@ -3,7 +3,7 @@
 .source "ChatInviteFragment.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/components/chat_invite/accept/a$a;
+.implements Lcom/vk/messenger/ui/components/chat_invite/accept/a$a;
 
 
 # annotations

@@ -31,7 +31,7 @@
 
 .field private final o:Landroid/widget/TextView;
 
-.field private final p:Lcom/vk/imageloader/view/VKImageView;
+.field private final p:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final q:Lcom/vk/core/view/PhotoStripView;
 
@@ -75,9 +75,9 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/profile/adapter/items/l$d;->p:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/profile/adapter/items/l$d;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 37
     iget-object p1, p0, Lcom/vk/profile/adapter/items/l$d;->a:Landroid/view/View;
@@ -213,11 +213,11 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/vk/profile/adapter/items/l$d;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/profile/adapter/items/l$d;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
-    sget-object v2, Lcom/vk/imageloader/ImageSize;->SIZE_24DP:Lcom/vk/imageloader/ImageSize;
+    sget-object v2, Lcom/vk/messengerageloader/ImageSize;->SIZE_24DP:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-interface {v0, v1, v2}, Lcom/vk/profile/adapter/items/l$a;->a(Lcom/vk/imageloader/view/VKImageView;Lcom/vk/imageloader/ImageSize;)V
+    invoke-interface {v0, v1, v2}, Lcom/vk/profile/adapter/items/l$a;->a(Lcom/vk/messengerageloader/view/VKImageView;Lcom/vk/messengerageloader/ImageSize;)V
 
     .line 53
     invoke-virtual {p1}, Lcom/vk/profile/adapter/items/l;->b()Ljava/util/ArrayList;

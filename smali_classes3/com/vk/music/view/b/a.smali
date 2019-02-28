@@ -392,7 +392,7 @@
     check-cast v4, Lcom/vk/music/view/b/a$b;
 
     .line 139
-    iget-object v4, v4, Lcom/vk/music/view/b/a$b;->b:[Lcom/vk/imageloader/view/VKImageView;
+    iget-object v4, v4, Lcom/vk/music/view/b/a$b;->b:[Lcom/vk/messengerageloader/view/VKImageView;
 
     array-length v5, v4
 
@@ -440,13 +440,13 @@
     if-nez v9, :cond_1
 
     .line 142
-    invoke-virtual {v7, v8}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v7, v8}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_3
 
     .line 144
     :cond_1
-    invoke-virtual {v7}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {v7}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     :goto_3
     add-int/lit8 v6, v6, 0x1

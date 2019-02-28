@@ -12,7 +12,7 @@
 
 .field private e:Z
 
-.field private final f:Lcom/vk/imageloader/a/f;
+.field private final f:Lcom/vk/messengerageloader/a/f;
 
 .field private final g:Ljava/lang/String;
 
@@ -52,9 +52,9 @@
     iput-object p2, p0, Lcom/vk/profile/data/cover/model/c;->d:Lcom/vk/core/util/v;
 
     .line 27
-    sget-object p2, Lcom/vk/imageloader/a/f;->b:Lcom/vk/imageloader/a/f;
+    sget-object p2, Lcom/vk/messengerageloader/a/f;->b:Lcom/vk/messengerageloader/a/f;
 
-    iput-object p2, p0, Lcom/vk/profile/data/cover/model/c;->f:Lcom/vk/imageloader/a/f;
+    iput-object p2, p0, Lcom/vk/profile/data/cover/model/c;->f:Lcom/vk/messengerageloader/a/f;
 
     const/4 p2, 0x0
 
@@ -96,18 +96,18 @@
     if-nez v0, :cond_0
 
     .line 73
-    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
-    iget-object v2, p0, Lcom/vk/profile/data/cover/model/c;->f:Lcom/vk/imageloader/a/f;
+    iget-object v2, p0, Lcom/vk/profile/data/cover/model/c;->f:Lcom/vk/messengerageloader/a/f;
 
     check-cast v2, Lcom/facebook/imagepipeline/request/a;
 
-    invoke-virtual {v0, v2, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Lcom/facebook/imagepipeline/request/a;Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {v0, v2, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Lcom/facebook/imagepipeline/request/a;Lcom/facebook/imagepipeline/request/a;)V
 
     .line 74
-    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
@@ -117,7 +117,7 @@
 
     move-result-object v0
 
-    sget-object v1, Lcom/vk/imageloader/ImageSize;->BIG:Lcom/vk/imageloader/ImageSize;
+    sget-object v1, Lcom/vk/messengerageloader/ImageSize;->BIG:Lcom/vk/messengerageloader/ImageSize;
 
     iget-object v2, p0, Lcom/vk/profile/data/cover/model/c;->h:Ljava/lang/String;
 
@@ -125,30 +125,30 @@
 
     move-result-object v2
 
-    sget-object v3, Lcom/vk/imageloader/ImageSize;->BIG:Lcom/vk/imageloader/ImageSize;
+    sget-object v3, Lcom/vk/messengerageloader/ImageSize;->BIG:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {p1, v0, v1, v2, v3}, Lcom/vk/imageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;Landroid/net/Uri;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {p1, v0, v1, v2, v3}, Lcom/vk/messengerageloader/view/VKImageView;->a(Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;Landroid/net/Uri;Lcom/vk/messengerageloader/ImageSize;)V
 
     goto :goto_0
 
     .line 76
     :cond_0
-    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
 
     .line 77
-    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/vk/profile/data/cover/model/c;->h:Ljava/lang/String;
 
-    sget-object v1, Lcom/vk/imageloader/ImageSize;->BIG:Lcom/vk/imageloader/ImageSize;
+    sget-object v1, Lcom/vk/messengerageloader/ImageSize;->BIG:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {p1, v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {p1, v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     :goto_0
     return-void
@@ -324,33 +324,33 @@
     if-eqz v0, :cond_1
 
     .line 42
-    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setOnLoadCallback(Lcom/vk/imageloader/g;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setOnLoadCallback(Lcom/vk/messengerageloader/g;)V
 
     .line 43
-    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/vk/profile/data/cover/model/c;->f:Lcom/vk/imageloader/a/f;
+    iget-object v1, p0, Lcom/vk/profile/data/cover/model/c;->f:Lcom/vk/messengerageloader/a/f;
 
     check-cast v1, Lcom/facebook/imagepipeline/request/a;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
 
     .line 44
-    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/vk/profile/data/cover/model/c;->g:Ljava/lang/String;
 
-    sget-object v1, Lcom/vk/imageloader/ImageSize;->BIG:Lcom/vk/imageloader/ImageSize;
+    sget-object v1, Lcom/vk/messengerageloader/ImageSize;->BIG:Lcom/vk/messengerageloader/ImageSize;
 
-    invoke-virtual {p1, v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/imageloader/ImageSize;)V
+    invoke-virtual {p1, v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;Lcom/vk/messengerageloader/ImageSize;)V
 
     goto :goto_1
 
@@ -383,7 +383,7 @@
     invoke-virtual {p0, v0}, Lcom/vk/profile/data/cover/model/c;->b(I)V
 
     .line 49
-    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
@@ -391,19 +391,19 @@
 
     invoke-direct {v1, p0, p1}, Lcom/vk/profile/data/cover/model/c$a;-><init>(Lcom/vk/profile/data/cover/model/c;Lcom/vk/profile/ui/cover/c;)V
 
-    check-cast v1, Lcom/vk/imageloader/g;
+    check-cast v1, Lcom/vk/messengerageloader/g;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setOnLoadCallback(Lcom/vk/imageloader/g;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setOnLoadCallback(Lcom/vk/messengerageloader/g;)V
 
     goto :goto_0
 
     .line 63
     :cond_2
-    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setOnLoadCallback(Lcom/vk/imageloader/g;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setOnLoadCallback(Lcom/vk/messengerageloader/g;)V
 
     .line 65
     :goto_0
@@ -413,11 +413,11 @@
 
     .line 67
     :cond_3
-    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p1}, Lcom/vk/profile/ui/cover/c;->getImageView()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     :goto_1
     return-void

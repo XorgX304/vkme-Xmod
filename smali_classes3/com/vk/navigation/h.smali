@@ -116,7 +116,7 @@
     .line 66
     new-instance p2, Lcom/vk/core/fragments/FragmentEntry;
 
-    const-class v0, Lcom/vk/im/ui/dialogs_list/a;
+    const-class v0, Lcom/vk/messenger/ui/dialogs_list/a;
 
     new-instance v1, Landroid/os/Bundle;
 
@@ -309,17 +309,17 @@
 
     .line 149
     :cond_3
-    new-instance v2, Lcom/vk/im/ui/fragments/a;
+    new-instance v2, Lcom/vk/messenger/ui/fragments/a;
 
-    invoke-direct {v2}, Lcom/vk/im/ui/fragments/a;-><init>()V
+    invoke-direct {v2}, Lcom/vk/messenger/ui/fragments/a;-><init>()V
 
     .line 150
-    invoke-virtual {v2, v1}, Lcom/vk/im/ui/fragments/a;->a(I)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {v2, v1}, Lcom/vk/messenger/ui/fragments/a;->a(I)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object v1
 
     .line 151
-    invoke-virtual {v1, v0}, Lcom/vk/im/ui/fragments/a;->b(I)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {v1, v0}, Lcom/vk/messenger/ui/fragments/a;->b(I)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object v0
 
@@ -330,7 +330,7 @@
 
     check-cast v1, Landroid/content/Context;
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/fragments/a;->a(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/fragments/a;->a(Landroid/content/Context;)Landroid/content/Intent;
 
     move-result-object v0
 
@@ -353,7 +353,7 @@
     .line 154
     new-instance v1, Lcom/vk/core/fragments/FragmentEntry;
 
-    const-class v2, Lcom/vk/im/ui/fragments/ChatFragment;
+    const-class v2, Lcom/vk/messenger/ui/fragments/ChatFragment;
 
     invoke-direct {v1, v2, v0}, Lcom/vk/core/fragments/FragmentEntry;-><init>(Ljava/lang/Class;Landroid/os/Bundle;)V
 
@@ -385,7 +385,7 @@
     .line 133
     new-instance v1, Lcom/vk/core/fragments/FragmentEntry;
 
-    const-class v0, Lcom/vk/im/ui/dialogs_list/a;
+    const-class v0, Lcom/vk/messenger/ui/dialogs_list/a;
 
     new-instance v2, Landroid/os/Bundle;
 
@@ -1779,7 +1779,7 @@
     move-result-object v0
 
     .line 296
-    instance-of v0, v0, Lcom/vk/im/signup/a/c;
+    instance-of v0, v0, Lcom/vk/messenger/signup/a/c;
 
     if-eqz v0, :cond_0
 
@@ -1787,9 +1787,9 @@
 
     .line 298
     :cond_0
-    new-instance v0, Lcom/vk/im/signup/a/c$a;
+    new-instance v0, Lcom/vk/messenger/signup/a/c$a;
 
-    invoke-direct {v0}, Lcom/vk/im/signup/a/c$a;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/signup/a/c$a;-><init>()V
 
     invoke-virtual {p0}, Lcom/vk/navigation/h;->n()Landroid/app/Activity;
 
@@ -1797,7 +1797,7 @@
 
     check-cast v1, Landroid/content/Context;
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/signup/a/c$a;->a(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/signup/a/c$a;->a(Landroid/content/Context;)Landroid/content/Intent;
 
     move-result-object v0
 
@@ -1869,7 +1869,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_0
-    const-class v1, Lcom/vk/im/signup/a/c;
+    const-class v1, Lcom/vk/messenger/signup/a/c;
 
     invoke-virtual {v0, v1}, Lcom/vk/core/fragments/FragmentNavigationController;->a(Ljava/lang/Class;)Lcom/vk/core/fragments/d;
 
@@ -2119,13 +2119,13 @@
     invoke-virtual {v0, v1}, Lcom/vk/core/vc/a;->b(Lcom/vk/core/vc/a$a;)Z
 
     .line 471
-    sget-object v0, Lcom/vk/im/signup/e;->a:Lcom/vk/im/signup/e;
+    sget-object v0, Lcom/vk/messenger/signup/e;->a:Lcom/vk/messenger/signup/e;
 
     iget-object v1, p0, Lcom/vk/navigation/h;->f:Lcom/vk/navigation/h$a;
 
-    check-cast v1, Lcom/vk/im/signup/b;
+    check-cast v1, Lcom/vk/messenger/signup/b;
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/signup/e;->b(Lcom/vk/im/signup/b;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/signup/e;->b(Lcom/vk/messenger/signup/b;)V
 
     return-void
 .end method
@@ -2229,9 +2229,9 @@
     invoke-virtual {p1, v0}, Lcom/vk/h/a$a;->a(Lcom/vk/h/b;)Z
 
     .line 83
-    sget-object p1, Lcom/vk/im/ui/themes/a;->b:Lcom/vk/im/ui/themes/a;
+    sget-object p1, Lcom/vk/messenger/ui/themes/a;->b:Lcom/vk/messenger/ui/themes/a;
 
-    invoke-virtual {p1}, Lcom/vk/im/ui/themes/a;->c()I
+    invoke-virtual {p1}, Lcom/vk/messenger/ui/themes/a;->c()I
 
     move-result p1
 
@@ -2939,18 +2939,18 @@
     invoke-super {p0, p1}, Lcom/vk/navigation/r;->b(Landroid/os/Bundle;)V
 
     .line 96
-    invoke-static {}, Lcom/vk/im/engine/f;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vk/messenger/engine/f;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/d;->j()Lio/reactivex/j;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/d;->j()Lio/reactivex/j;
 
     move-result-object v0
 
     .line 97
-    sget-object v1, Lcom/vk/im/engine/concurrent/a;->b:Lcom/vk/im/engine/concurrent/a;
+    sget-object v1, Lcom/vk/messenger/engine/concurrent/a;->b:Lcom/vk/messenger/engine/concurrent/a;
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/concurrent/a;->e()Lio/reactivex/p;
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/concurrent/a;->e()Lio/reactivex/p;
 
     move-result-object v1
 
@@ -3227,13 +3227,13 @@
     iput-object v3, p0, Lcom/vk/navigation/h;->q:Lcom/vk/core/fragments/FragmentNavigationController;
 
     .line 114
-    sget-object v0, Lcom/vk/im/signup/e;->a:Lcom/vk/im/signup/e;
+    sget-object v0, Lcom/vk/messenger/signup/e;->a:Lcom/vk/messenger/signup/e;
 
     iget-object v1, p0, Lcom/vk/navigation/h;->f:Lcom/vk/navigation/h$a;
 
-    check-cast v1, Lcom/vk/im/signup/b;
+    check-cast v1, Lcom/vk/messenger/signup/b;
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/signup/e;->a(Lcom/vk/im/signup/b;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/signup/e;->a(Lcom/vk/messenger/signup/b;)V
 
     .line 115
     invoke-direct {p0}, Lcom/vk/navigation/h;->r()V

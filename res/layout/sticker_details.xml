@@ -2,7 +2,7 @@
 <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <com.vk.imageloader.view.VKHorizontalParallaxImageView android:id="@id/iv_parallax_bg" android:background="#ffe9ecf0" android:layout_width="fill_parent" android:layout_height="202.0dip" />
+        <com.vk.messengerageloader.view.VKHorizontalParallaxImageView android:id="@id/iv_parallax_bg" android:background="#ffe9ecf0" android:layout_width="fill_parent" android:layout_height="202.0dip" />
         <com.vkontakte.android.ui.widget.ViewPagerInfinite android:id="@id/pager" android:paddingTop="2.0dip" android:paddingBottom="25.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="202.0dip" app:nextPeriodSec="3" />
         <view android:gravity="center|top" android:id="@id/pager_dots_wrap" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_marginBottom="4.0dip" android:layout_alignBottom="@id/pager" class="com.vkontakte.android.fragments.stickers.StickersDetailsFragment$PagerDotsView" />
         <com.vkontakte.android.ui.BadooTextView android:textSize="16.0dip" android:textColor="#ff2e3033" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/sticker_btn_wrap" android:layout_below="@id/pager" android:layout_alignParentLeft="true" app:typeface="Medium" />

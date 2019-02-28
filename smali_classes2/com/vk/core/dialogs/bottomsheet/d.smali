@@ -42,7 +42,7 @@
 
 .field private d:Landroid/widget/ImageView;
 
-.field private e:Lcom/vk/imageloader/view/VKImageView;
+.field private e:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private f:Landroid/widget/TextView;
 
@@ -346,9 +346,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v0, p0, Lcom/vk/core/dialogs/bottomsheet/d;->e:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vk/core/dialogs/bottomsheet/d;->e:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 130
     sget v0, Lcom/vk/r/a$e;->title:I
@@ -488,7 +488,7 @@
     if-nez v0, :cond_9
 
     .line 143
-    iget-object v0, p0, Lcom/vk/core/dialogs/bottomsheet/d;->e:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/core/dialogs/bottomsheet/d;->e:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-nez v0, :cond_7
 
@@ -499,7 +499,7 @@
     :cond_7
     iget-object v5, p0, Lcom/vk/core/dialogs/bottomsheet/d;->x:Ljava/lang/String;
 
-    invoke-virtual {v0, v5}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v5}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 145
     iget-object v0, p0, Lcom/vk/core/dialogs/bottomsheet/d;->f:Landroid/widget/TextView;
@@ -523,7 +523,7 @@
 
     .line 147
     :cond_9
-    iget-object v0, p0, Lcom/vk/core/dialogs/bottomsheet/d;->e:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/core/dialogs/bottomsheet/d;->e:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-nez v0, :cond_a
 
@@ -532,7 +532,7 @@
     invoke-static {v5}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_a
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 148
     iget-object v0, p0, Lcom/vk/core/dialogs/bottomsheet/d;->b:Landroid/widget/LinearLayout;
@@ -544,7 +544,7 @@
     invoke-static {v5}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_b
-    iget-object v5, p0, Lcom/vk/core/dialogs/bottomsheet/d;->e:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v5, p0, Lcom/vk/core/dialogs/bottomsheet/d;->e:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-nez v5, :cond_c
 
@@ -576,7 +576,7 @@
 
     if-eqz v0, :cond_10
 
-    iget-object v0, p0, Lcom/vk/core/dialogs/bottomsheet/d;->e:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/core/dialogs/bottomsheet/d;->e:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-nez v0, :cond_e
 

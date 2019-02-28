@@ -3,7 +3,7 @@
 
 
 # static fields
-.field private static a:Z = false
+.field private static a:Z
     .annotation build Ljavax/annotation/concurrent/GuardedBy;
         value = "MapsInitializer.class"
     .end annotation

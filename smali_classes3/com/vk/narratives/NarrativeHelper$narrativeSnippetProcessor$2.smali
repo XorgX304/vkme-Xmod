@@ -20,7 +20,7 @@
     value = {
         "Lkotlin/jvm/internal/Lambda;",
         "Lkotlin/jvm/a/a<",
-        "Lcom/vk/imageloader/a/f;",
+        "Lcom/vk/messengerageloader/a/f;",
         ">;"
     }
 .end annotation
@@ -59,24 +59,24 @@
     .locals 1
 
     .line 18
-    invoke-virtual {p0}, Lcom/vk/narratives/NarrativeHelper$narrativeSnippetProcessor$2;->b()Lcom/vk/imageloader/a/f;
+    invoke-virtual {p0}, Lcom/vk/narratives/NarrativeHelper$narrativeSnippetProcessor$2;->b()Lcom/vk/messengerageloader/a/f;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public final b()Lcom/vk/imageloader/a/f;
+.method public final b()Lcom/vk/messengerageloader/a/f;
     .locals 3
 
     .line 30
-    new-instance v0, Lcom/vk/imageloader/a/f;
+    new-instance v0, Lcom/vk/messengerageloader/a/f;
 
     const/16 v1, 0x19
 
     const/16 v2, 0x64
 
-    invoke-direct {v0, v1, v2}, Lcom/vk/imageloader/a/f;-><init>(II)V
+    invoke-direct {v0, v1, v2}, Lcom/vk/messengerageloader/a/f;-><init>(II)V
 
     return-object v0
 .end method

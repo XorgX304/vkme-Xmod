@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->b(Lcom/vk/im/engine/models/dialogs/Dialog;)V
+    value = Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc;->b(Lcom/vk/messenger/engine/models/dialogs/Dialog;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

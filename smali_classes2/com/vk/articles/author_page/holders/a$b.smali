@@ -44,7 +44,7 @@
     .line 88
     iget-object v0, p0, Lcom/vk/articles/author_page/holders/a$b;->a:Lcom/vk/articles/author_page/holders/a;
 
-    invoke-static {v0}, Lcom/vk/articles/author_page/holders/a;->a(Lcom/vk/articles/author_page/holders/a;)Lcom/vk/imageloader/view/VKImageView;
+    invoke-static {v0}, Lcom/vk/articles/author_page/holders/a;->a(Lcom/vk/articles/author_page/holders/a;)Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
@@ -58,11 +58,11 @@
 
     iget-object v2, p0, Lcom/vk/articles/author_page/holders/a$b;->a:Lcom/vk/articles/author_page/holders/a;
 
-    invoke-static {v2}, Lcom/vk/articles/author_page/holders/a;->a(Lcom/vk/articles/author_page/holders/a;)Lcom/vk/imageloader/view/VKImageView;
+    invoke-static {v2}, Lcom/vk/articles/author_page/holders/a;->a(Lcom/vk/articles/author_page/holders/a;)Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/vk/imageloader/view/VKImageView;->getWidth()I
+    invoke-virtual {v2}, Lcom/vk/messengerageloader/view/VKImageView;->getWidth()I
 
     move-result v2
 
@@ -82,7 +82,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     return-void
 .end method

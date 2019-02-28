@@ -1,5 +1,5 @@
 .class public abstract Lcom/vk/newsfeed/holders/zhukov/a;
-.super Lcom/vk/im/ui/views/image_zhukov/l;
+.super Lcom/vk/messenger/ui/views/image_zhukov/l;
 .source "BaseHolder.kt"
 
 # interfaces
@@ -29,7 +29,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 7
-    invoke-direct {p0, p1, p2}, Lcom/vk/im/ui/views/image_zhukov/l;-><init>(Landroid/view/View;I)V
+    invoke-direct {p0, p1, p2}, Lcom/vk/messenger/ui/views/image_zhukov/l;-><init>(Landroid/view/View;I)V
 
     return-void
 .end method

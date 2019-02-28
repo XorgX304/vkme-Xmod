@@ -40,7 +40,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/vk/imageloader/view/VKImageView;",
+            "Lcom/vk/messengerageloader/view/VKImageView;",
             ">;"
         }
     .end annotation
@@ -89,7 +89,7 @@
     const/4 p1, 0x3
 
     .line 36
-    new-array p1, p1, [Lcom/vk/imageloader/view/VKImageView;
+    new-array p1, p1, [Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object p2, p0, Lcom/vk/friends/recommendations/e;->a:Landroid/view/View;
 
@@ -103,7 +103,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
     const/4 v0, 0x0
 
@@ -121,7 +121,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
     const/4 v0, 0x1
 
@@ -139,7 +139,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKImageView;
 
     const/4 v0, 0x2
 
@@ -371,11 +371,11 @@
 
     move-result-object v4
 
-    check-cast v4, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v4, Lcom/vk/messengerageloader/view/VKImageView;
 
     const/16 v5, 0x8
 
-    invoke-virtual {v4, v5}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v4, v5}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     goto :goto_1
 
@@ -387,9 +387,9 @@
 
     move-result-object v4
 
-    check-cast v4, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v4, Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v4, v2}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v4, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 50
     iget-object v4, v0, Lcom/vk/friends/recommendations/e;->o:Ljava/util/List;
@@ -398,7 +398,7 @@
 
     move-result-object v4
 
-    check-cast v4, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v4, Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-interface {p1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -408,7 +408,7 @@
 
     iget-object v5, v5, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
-    invoke-virtual {v4, v5}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v4, v5}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :goto_1
     add-int/lit8 v3, v3, 0x1

@@ -151,13 +151,13 @@
     invoke-virtual {p1, v0}, Landroid/view/View;->addOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
 
     .line 44
-    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/attachments/comments/d;->A()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/attachments/comments/d;->A()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
     const v0, 0x7f080752
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     return-void
 
@@ -540,7 +540,7 @@
     if-eqz p1, :cond_1
 
     .line 50
-    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/attachments/comments/d;->A()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/attachments/comments/d;->A()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
@@ -548,7 +548,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 51
     iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/comments/d;->p:Landroid/widget/TextView;

@@ -10,7 +10,7 @@
 
 .field private final c:Landroid/widget/FrameLayout;
 
-.field private final d:Lcom/vk/imageloader/view/VKImageView;
+.field private final d:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final e:Lcom/vkontakte/android/live/widgets/timeprogress/CircularTimeBar;
 
@@ -105,9 +105,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/live/views/recommended/a/a;->d:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/live/views/recommended/a/a;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x7f0a05d1
 
@@ -484,13 +484,13 @@
     if-eqz v0, :cond_6
 
     .line 107
-    iget-object v0, p0, Lcom/vkontakte/android/live/views/recommended/a/a;->d:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/live/views/recommended/a/a;->d:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object p1, p1, Lcom/vkontakte/android/api/models/VideoOwner;->d:Lcom/vk/dto/common/VideoFile;
 
     iget-object p1, p1, Lcom/vk/dto/common/VideoFile;->W:Ljava/lang/String;
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 109
     iget-object p1, p0, Lcom/vkontakte/android/live/views/recommended/a/a;->i:Lcom/vkontakte/android/api/models/VideoOwner;

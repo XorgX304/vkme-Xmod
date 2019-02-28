@@ -20,9 +20,9 @@
 
 .field private f:Landroid/view/View;
 
-.field private g:Lcom/vk/imageloader/view/VKImageView;
+.field private g:Lcom/vk/messengerageloader/view/VKImageView;
 
-.field private h:Lcom/vk/imageloader/view/VKImageView;
+.field private h:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private i:Landroid/view/ViewGroup;
 
@@ -81,9 +81,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/items/posting/floating/c;->g:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/items/posting/floating/c;->g:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x7f0a03d1
 
@@ -92,9 +92,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/items/posting/floating/c;->h:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/items/posting/floating/c;->h:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x7f0a03d2
 
@@ -306,7 +306,7 @@
     .locals 2
 
     .line 78
-    iget-object v0, p0, Lcom/vk/newsfeed/items/posting/floating/c;->h:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/items/posting/floating/c;->h:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_0
 
@@ -318,7 +318,7 @@
 
     .line 79
     :cond_0
-    iget-object v0, p0, Lcom/vk/newsfeed/items/posting/floating/c;->g:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/items/posting/floating/c;->g:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_1
 
@@ -330,18 +330,18 @@
     if-eqz p2, :cond_2
 
     .line 80
-    iget-object p2, p0, Lcom/vk/newsfeed/items/posting/floating/c;->g:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vk/newsfeed/items/posting/floating/c;->g:Lcom/vk/messengerageloader/view/VKImageView;
 
     goto :goto_0
 
     .line 81
     :cond_2
-    iget-object p2, p0, Lcom/vk/newsfeed/items/posting/floating/c;->h:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p2, p0, Lcom/vk/newsfeed/items/posting/floating/c;->h:Lcom/vk/messengerageloader/view/VKImageView;
 
     :goto_0
     if-eqz p2, :cond_3
 
-    invoke-virtual {p2, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p2, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :cond_3
     return-void

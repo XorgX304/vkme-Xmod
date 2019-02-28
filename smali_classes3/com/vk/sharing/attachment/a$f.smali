@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field private a:Lcom/vk/imageloader/view/VKImageView;
+.field private a:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private b:Landroid/widget/TextView;
 
@@ -62,14 +62,14 @@
     invoke-direct {v2, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
     .line 294
-    new-instance v3, Lcom/vk/imageloader/view/VKImageView;
+    new-instance v3, Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-direct {v3, p1}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {v3, p1}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
-    iput-object v3, p0, Lcom/vk/sharing/attachment/a$f;->a:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v3, p0, Lcom/vk/sharing/attachment/a$f;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 295
-    iget-object v3, p0, Lcom/vk/sharing/attachment/a$f;->a:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vk/sharing/attachment/a$f;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance v4, Landroid/graphics/drawable/ColorDrawable;
 
@@ -81,10 +81,10 @@
 
     invoke-direct {v4, v5}, Landroid/graphics/drawable/ColorDrawable;-><init>(I)V
 
-    invoke-virtual {v3, v4}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v3, v4}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(Landroid/graphics/drawable/Drawable;)V
 
     .line 296
-    iget-object v3, p0, Lcom/vk/sharing/attachment/a$f;->a:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vk/sharing/attachment/a$f;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance v4, Landroid/widget/FrameLayout$LayoutParams;
 
@@ -278,12 +278,12 @@
     .locals 2
 
     .line 334
-    iget-object v0, p0, Lcom/vk/sharing/attachment/a$f;->a:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/sharing/attachment/a$f;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_0
 
     .line 335
-    iget-object v0, p0, Lcom/vk/sharing/attachment/a$f;->a:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/sharing/attachment/a$f;->a:Lcom/vk/messengerageloader/view/VKImageView;
 
     const-string v1, "thumbUrl"
 
@@ -291,7 +291,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 337
     :cond_0

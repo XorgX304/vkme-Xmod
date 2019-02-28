@@ -16,7 +16,7 @@
 
 .field private b:Landroid/view/View;
 
-.field private c:Lcom/vk/imageloader/view/VKImageView;
+.field private c:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private d:Landroid/widget/TextView;
 
@@ -77,11 +77,11 @@
     return-void
 .end method
 
-.method public static final synthetic a(Lcom/vk/narratives/views/b;)Lcom/vk/imageloader/view/VKImageView;
+.method public static final synthetic a(Lcom/vk/narratives/views/b;)Lcom/vk/messengerageloader/view/VKImageView;
     .locals 1
 
     .line 15
-    iget-object p0, p0, Lcom/vk/narratives/views/b;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p0, p0, Lcom/vk/narratives/views/b;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-nez p0, :cond_0
 
@@ -107,9 +107,9 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v2, p0, Lcom/vk/narratives/views/b;->c:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v2, p0, Lcom/vk/narratives/views/b;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v2, 0x7f0a0c03
 
@@ -145,7 +145,7 @@
     iput-object p1, p0, Lcom/vk/narratives/views/b;->f:Landroid/widget/TextView;
 
     .line 119
-    iget-object p1, p0, Lcom/vk/narratives/views/b;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/narratives/views/b;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-nez p1, :cond_0
 
@@ -366,7 +366,7 @@
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
     .line 49
-    iget-object v1, p0, Lcom/vk/narratives/views/b;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/narratives/views/b;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-nez v1, :cond_5
 
@@ -375,10 +375,10 @@
     invoke-static {v3}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_5
-    invoke-virtual {v1}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {v1}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 50
-    iget-object v1, p0, Lcom/vk/narratives/views/b;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/narratives/views/b;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-nez v1, :cond_6
 
@@ -391,10 +391,10 @@
 
     check-cast v3, Landroid/graphics/drawable/Drawable;
 
-    invoke-virtual {v1, v3}, Lcom/vk/imageloader/view/VKImageView;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v1, v3}, Lcom/vk/messengerageloader/view/VKImageView;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     .line 51
-    iget-object v1, p0, Lcom/vk/narratives/views/b;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/narratives/views/b;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-nez v1, :cond_7
 
@@ -403,7 +403,7 @@
     invoke-static {v3}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_7
-    invoke-virtual {v1, v2}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 54
     iget-object v1, p0, Lcom/vk/narratives/views/b;->d:Landroid/widget/TextView;
@@ -498,7 +498,7 @@
 
     .line 64
     :cond_c
-    iget-object v3, p0, Lcom/vk/narratives/views/b;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vk/narratives/views/b;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-nez v3, :cond_d
 
@@ -511,12 +511,12 @@
 
     invoke-direct {v4, p0}, Lcom/vk/narratives/views/b$b;-><init>(Lcom/vk/narratives/views/b;)V
 
-    check-cast v4, Lcom/vk/imageloader/g;
+    check-cast v4, Lcom/vk/messengerageloader/g;
 
-    invoke-virtual {v3, v4}, Lcom/vk/imageloader/view/VKImageView;->setOnLoadCallback(Lcom/vk/imageloader/g;)V
+    invoke-virtual {v3, v4}, Lcom/vk/messengerageloader/view/VKImageView;->setOnLoadCallback(Lcom/vk/messengerageloader/g;)V
 
     .line 77
-    iget-object v3, p0, Lcom/vk/narratives/views/b;->c:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vk/narratives/views/b;->c:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-nez v3, :cond_e
 
@@ -525,7 +525,7 @@
     invoke-static {v4}, Lkotlin/jvm/internal/l;->b(Ljava/lang/String;)V
 
     :cond_e
-    invoke-virtual {v3, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v3, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 80
     iget-object v1, p0, Lcom/vk/narratives/views/b;->d:Landroid/widget/TextView;

@@ -20,7 +20,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final o:Landroid/widget/TextView;
 
@@ -67,9 +67,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/music/playlist/modern/holders/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/music/playlist/modern/holders/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 21
     iget-object p1, p0, Lcom/vk/music/playlist/modern/holders/b;->a:Landroid/view/View;
@@ -275,9 +275,9 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 55
-    iget-object v0, p0, Lcom/vk/music/playlist/modern/holders/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/music/playlist/modern/holders/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getWidth()I
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getWidth()I
 
     move-result v0
 
@@ -292,9 +292,9 @@
     goto :goto_0
 
     :cond_0
-    iget-object v0, p0, Lcom/vk/music/playlist/modern/holders/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/music/playlist/modern/holders/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getWidth()I
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getWidth()I
 
     move-result v0
 
@@ -316,9 +316,9 @@
 
     if-eqz v0, :cond_1
 
-    iget-object v1, p0, Lcom/vk/music/playlist/modern/holders/b;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/music/playlist/modern/holders/b;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 59
     :cond_1

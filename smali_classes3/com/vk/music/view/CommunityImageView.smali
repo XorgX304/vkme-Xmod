@@ -1,5 +1,5 @@
 .class public final Lcom/vk/music/view/CommunityImageView;
-.super Lcom/vk/imageloader/view/VKImageView;
+.super Lcom/vk/messengerageloader/view/VKImageView;
 .source "CommunityImageView.java"
 
 
@@ -12,7 +12,7 @@
     .locals 0
 
     .line 22
-    invoke-direct {p0, p1}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
     return-void
 .end method
@@ -21,7 +21,7 @@
     .locals 0
 
     .line 26
-    invoke-direct {p0, p1, p2}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
 .end method
@@ -30,7 +30,7 @@
     .locals 0
 
     .line 30
-    invoke-direct {p0, p1, p2, p3}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
 .end method
@@ -41,7 +41,7 @@
     .locals 1
 
     .line 43
-    invoke-super {p0, p1}, Lcom/vk/imageloader/view/VKImageView;->onDraw(Landroid/graphics/Canvas;)V
+    invoke-super {p0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->onDraw(Landroid/graphics/Canvas;)V
 
     .line 44
     iget-object v0, p0, Lcom/vk/music/view/CommunityImageView;->a:Landroid/graphics/drawable/Drawable;
@@ -61,7 +61,7 @@
     .locals 1
 
     .line 35
-    invoke-super {p0, p1, p2, p3, p4}, Lcom/vk/imageloader/view/VKImageView;->onSizeChanged(IIII)V
+    invoke-super {p0, p1, p2, p3, p4}, Lcom/vk/messengerageloader/view/VKImageView;->onSizeChanged(IIII)V
 
     .line 36
     iget-object p3, p0, Lcom/vk/music/view/CommunityImageView;->a:Landroid/graphics/drawable/Drawable;

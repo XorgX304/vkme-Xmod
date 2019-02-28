@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private final a:Lcom/vk/imageloader/view/VKCircleImageView;
+.field private final a:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
 .field private final b:Lcom/vkontakte/android/ui/LinkedTextView;
 
@@ -93,9 +93,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/live/views/chat/a/a;->a:Lcom/vk/imageloader/view/VKCircleImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/live/views/chat/a/a;->a:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     .line 49
     new-instance p1, Landroid/support/v7/widget/RecyclerView$j;
@@ -316,11 +316,11 @@
     if-eqz p2, :cond_0
 
     .line 99
-    iget-object p2, p0, Lcom/vkontakte/android/live/views/chat/a/a;->a:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object p2, p0, Lcom/vkontakte/android/live/views/chat/a/a;->a:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     iget-object v0, p1, Lcom/vk/dto/live/LiveEventModel;->G:Ljava/lang/String;
 
-    invoke-virtual {p2, v0}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p2, v0}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     .line 102
     :cond_0
@@ -349,13 +349,13 @@
     iput-boolean p2, p0, Lcom/vkontakte/android/live/views/chat/a/a;->g:Z
 
     .line 109
-    iget-object p2, p0, Lcom/vkontakte/android/live/views/chat/a/a;->a:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object p2, p0, Lcom/vkontakte/android/live/views/chat/a/a;->a:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     iget-object v0, p1, Lcom/vk/dto/live/LiveEventModel;->i:Lcom/vkontakte/android/UserProfile;
 
     iget-object v0, v0, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
-    invoke-virtual {p2, v0}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p2, v0}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -366,13 +366,13 @@
     if-eqz p2, :cond_3
 
     .line 111
-    iget-object p2, p0, Lcom/vkontakte/android/live/views/chat/a/a;->a:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object p2, p0, Lcom/vkontakte/android/live/views/chat/a/a;->a:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     iget-object v0, p1, Lcom/vk/dto/live/LiveEventModel;->j:Lcom/vkontakte/android/api/models/Group;
 
     iget-object v0, v0, Lcom/vkontakte/android/api/models/Group;->c:Ljava/lang/String;
 
-    invoke-virtual {p2, v0}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p2, v0}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     .line 113
     :cond_3

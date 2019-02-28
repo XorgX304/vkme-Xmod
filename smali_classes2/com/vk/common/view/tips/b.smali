@@ -169,7 +169,7 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     .line 20
     invoke-virtual {p0}, Lcom/vk/common/view/tips/b;->l()Landroid/os/Bundle;
@@ -185,7 +185,7 @@
     move-result-object v3
 
     :cond_1
-    invoke-virtual {p2, v3}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p2, v3}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     const-string p2, "content"
 

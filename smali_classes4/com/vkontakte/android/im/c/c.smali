@@ -3,7 +3,7 @@
 .source "ImVideoConverter.kt"
 
 # interfaces
-.implements Lcom/vk/im/engine/a;
+.implements Lcom/vk/messenger/engine/a;
 
 
 # instance fields
@@ -32,7 +32,7 @@
 
 
 # virtual methods
-.method public a(Landroid/content/Context;Landroid/net/Uri;Ljava/io/File;Lcom/vk/im/engine/internal/e;)Landroid/net/Uri;
+.method public a(Landroid/content/Context;Landroid/net/Uri;Ljava/io/File;Lcom/vk/messenger/engine/internal/e;)Landroid/net/Uri;
     .locals 4
 
     const-string v0, "context"
@@ -120,7 +120,7 @@
 
     .line 37
     :try_start_0
-    invoke-interface {p4, v3, p3}, Lcom/vk/im/engine/internal/e;->a(II)V
+    invoke-interface {p4, v3, p3}, Lcom/vk/messenger/engine/internal/e;->a(II)V
 
     goto :goto_0
 
@@ -161,7 +161,7 @@
     .line 41
     new-instance p2, Lcom/vkontakte/android/im/c/c$a;
 
-    invoke-direct {p2, p4}, Lcom/vkontakte/android/im/c/c$a;-><init>(Lcom/vk/im/engine/internal/e;)V
+    invoke-direct {p2, p4}, Lcom/vkontakte/android/im/c/c$a;-><init>(Lcom/vk/messenger/engine/internal/e;)V
 
     check-cast p2, Lcom/vk/media/ext/encoder/engine/f$a;
 
@@ -192,7 +192,7 @@
     if-eqz p4, :cond_1
 
     .line 52
-    invoke-interface {p4, p3, p3}, Lcom/vk/im/engine/internal/e;->a(II)V
+    invoke-interface {p4, p3, p3}, Lcom/vk/messenger/engine/internal/e;->a(II)V
 
     .line 54
     :cond_1

@@ -30,37 +30,37 @@
     return-void
 .end method
 
-.method private final a(I)Lcom/vk/im/engine/models/Online;
+.method private final a(I)Lcom/vk/messenger/engine/models/Online;
     .locals 0
 
     packed-switch p1, :pswitch_data_0
 
     .line 72
-    sget-object p1, Lcom/vk/im/engine/models/Online;->NONE:Lcom/vk/im/engine/models/Online;
+    sget-object p1, Lcom/vk/messenger/engine/models/Online;->NONE:Lcom/vk/messenger/engine/models/Online;
 
     goto :goto_0
 
     .line 69
     :pswitch_0
-    sget-object p1, Lcom/vk/im/engine/models/Online;->MOBILE:Lcom/vk/im/engine/models/Online;
+    sget-object p1, Lcom/vk/messenger/engine/models/Online;->MOBILE:Lcom/vk/messenger/engine/models/Online;
 
     goto :goto_0
 
     .line 70
     :pswitch_1
-    sget-object p1, Lcom/vk/im/engine/models/Online;->MOBILE:Lcom/vk/im/engine/models/Online;
+    sget-object p1, Lcom/vk/messenger/engine/models/Online;->MOBILE:Lcom/vk/messenger/engine/models/Online;
 
     goto :goto_0
 
     .line 71
     :pswitch_2
-    sget-object p1, Lcom/vk/im/engine/models/Online;->WEB:Lcom/vk/im/engine/models/Online;
+    sget-object p1, Lcom/vk/messenger/engine/models/Online;->WEB:Lcom/vk/messenger/engine/models/Online;
 
     goto :goto_0
 
     .line 68
     :pswitch_3
-    sget-object p1, Lcom/vk/im/engine/models/Online;->NONE:Lcom/vk/im/engine/models/Online;
+    sget-object p1, Lcom/vk/messenger/engine/models/Online;->NONE:Lcom/vk/messenger/engine/models/Online;
 
     :goto_0
     return-object p1
@@ -74,7 +74,7 @@
     .end packed-switch
 .end method
 
-.method public static final a(Lcom/vkontakte/android/UserProfile;)Lcom/vk/im/engine/models/users/User;
+.method public static final a(Lcom/vkontakte/android/UserProfile;)Lcom/vk/messenger/engine/models/users/User;
     .locals 30
 
     move-object/from16 v0, p0
@@ -101,9 +101,9 @@
     const/4 v5, 0x0
 
     .line 43
-    new-instance v8, Lcom/vk/im/engine/models/ImageList;
+    new-instance v8, Lcom/vk/messenger/engine/models/ImageList;
 
-    new-instance v2, Lcom/vk/im/engine/models/Image;
+    new-instance v2, Lcom/vk/messenger/engine/models/Image;
 
     iget-object v6, v0, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
@@ -115,9 +115,9 @@
     const-string v6, "http://vkontakte.ru/images/question_c.gif"
 
     :goto_0
-    invoke-direct {v2, v1, v1, v6}, Lcom/vk/im/engine/models/Image;-><init>(IILjava/lang/String;)V
+    invoke-direct {v2, v1, v1, v6}, Lcom/vk/messenger/engine/models/Image;-><init>(IILjava/lang/String;)V
 
-    invoke-direct {v8, v2}, Lcom/vk/im/engine/models/ImageList;-><init>(Lcom/vk/im/engine/models/Image;)V
+    invoke-direct {v8, v2}, Lcom/vk/messenger/engine/models/ImageList;-><init>(Lcom/vk/messenger/engine/models/Image;)V
 
     .line 44
     iget-object v1, v0, Lcom/vkontakte/android/UserProfile;->o:Ljava/lang/String;
@@ -160,7 +160,7 @@
 
     if-eqz v1, :cond_4
 
-    sget-object v1, Lcom/vk/im/engine/models/users/UserSex;->FEMALE:Lcom/vk/im/engine/models/users/UserSex;
+    sget-object v1, Lcom/vk/messenger/engine/models/users/UserSex;->FEMALE:Lcom/vk/messenger/engine/models/users/UserSex;
 
     :goto_5
     move-object v7, v1
@@ -168,7 +168,7 @@
     goto :goto_6
 
     :cond_4
-    sget-object v1, Lcom/vk/im/engine/models/users/UserSex;->MALE:Lcom/vk/im/engine/models/users/UserSex;
+    sget-object v1, Lcom/vk/messenger/engine/models/users/UserSex;->MALE:Lcom/vk/messenger/engine/models/users/UserSex;
 
     goto :goto_5
 
@@ -180,7 +180,7 @@
 
     iget v2, v0, Lcom/vkontakte/android/UserProfile;->v:I
 
-    invoke-direct {v1, v2}, Lcom/vkontakte/android/im/k;->a(I)Lcom/vk/im/engine/models/Online;
+    invoke-direct {v1, v2}, Lcom/vkontakte/android/im/k;->a(I)Lcom/vk/messenger/engine/models/Online;
 
     move-result-object v13
 
@@ -248,16 +248,16 @@
     const/16 v29, 0x0
 
     .line 41
-    new-instance v0, Lcom/vk/im/engine/models/users/User;
+    new-instance v0, Lcom/vk/messenger/engine/models/users/User;
 
     move-object v2, v0
 
-    invoke-direct/range {v2 .. v29}, Lcom/vk/im/engine/models/users/User;-><init>(ILjava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Lcom/vk/im/engine/models/users/UserSex;Lcom/vk/im/engine/models/ImageList;ZZZZLcom/vk/im/engine/models/Online;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZJILjava/lang/String;ZZILkotlin/jvm/internal/h;)V
+    invoke-direct/range {v2 .. v29}, Lcom/vk/messenger/engine/models/users/User;-><init>(ILjava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Lcom/vk/messenger/engine/models/users/UserSex;Lcom/vk/messenger/engine/models/ImageList;ZZZZLcom/vk/messenger/engine/models/Online;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZJILjava/lang/String;ZZILkotlin/jvm/internal/h;)V
 
     return-object v0
 .end method
 
-.method public static final b(Lcom/vkontakte/android/UserProfile;)Lcom/vk/im/engine/models/groups/Group;
+.method public static final b(Lcom/vkontakte/android/UserProfile;)Lcom/vk/messenger/engine/models/groups/Group;
     .locals 17
 
     move-object/from16 v0, p0
@@ -277,16 +277,16 @@
     move-result v1
 
     .line 58
-    new-instance v16, Lcom/vk/im/engine/models/groups/Group;
+    new-instance v16, Lcom/vk/messenger/engine/models/groups/Group;
 
     iget v2, v0, Lcom/vkontakte/android/UserProfile;->n:I
 
     neg-int v3, v2
 
     .line 59
-    new-instance v6, Lcom/vk/im/engine/models/ImageList;
+    new-instance v6, Lcom/vk/messenger/engine/models/ImageList;
 
-    new-instance v2, Lcom/vk/im/engine/models/Image;
+    new-instance v2, Lcom/vk/messenger/engine/models/Image;
 
     iget-object v4, v0, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
@@ -298,14 +298,14 @@
     const-string v4, "http://vkontakte.ru/images/question_c.gif"
 
     :goto_0
-    invoke-direct {v2, v1, v1, v4}, Lcom/vk/im/engine/models/Image;-><init>(IILjava/lang/String;)V
+    invoke-direct {v2, v1, v1, v4}, Lcom/vk/messenger/engine/models/Image;-><init>(IILjava/lang/String;)V
 
-    invoke-direct {v6, v2}, Lcom/vk/im/engine/models/ImageList;-><init>(Lcom/vk/im/engine/models/Image;)V
+    invoke-direct {v6, v2}, Lcom/vk/messenger/engine/models/ImageList;-><init>(Lcom/vk/messenger/engine/models/Image;)V
 
     const/4 v5, 0x0
 
     .line 60
-    sget-object v7, Lcom/vk/im/engine/models/groups/GroupType;->GROUP:Lcom/vk/im/engine/models/groups/GroupType;
+    sget-object v7, Lcom/vk/messenger/engine/models/groups/GroupType;->GROUP:Lcom/vk/messenger/engine/models/groups/GroupType;
 
     .line 61
     iget-object v1, v0, Lcom/vkontakte/android/UserProfile;->p:Ljava/lang/String;
@@ -341,7 +341,7 @@
     move-object/from16 v2, v16
 
     .line 58
-    invoke-direct/range {v2 .. v15}, Lcom/vk/im/engine/models/groups/Group;-><init>(ILjava/lang/String;Ljava/lang/String;Lcom/vk/im/engine/models/ImageList;Lcom/vk/im/engine/models/groups/GroupType;ZZJLcom/vk/im/engine/models/groups/OnlineStatus;IILkotlin/jvm/internal/h;)V
+    invoke-direct/range {v2 .. v15}, Lcom/vk/messenger/engine/models/groups/Group;-><init>(ILjava/lang/String;Ljava/lang/String;Lcom/vk/messenger/engine/models/ImageList;Lcom/vk/messenger/engine/models/groups/GroupType;ZZJLcom/vk/messenger/engine/models/groups/OnlineStatus;IILkotlin/jvm/internal/h;)V
 
     return-object v16
 .end method

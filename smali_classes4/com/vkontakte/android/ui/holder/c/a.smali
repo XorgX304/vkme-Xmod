@@ -30,7 +30,7 @@
 
 .field protected final r:Landroid/widget/TextView;
 
-.field protected final s:Lcom/vk/imageloader/view/VKImageView;
+.field protected final s:Lcom/vk/messengerageloader/view/VKImageView;
 
 
 # direct methods
@@ -82,9 +82,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/c/a;->s:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/c/a;->s:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-void
 .end method

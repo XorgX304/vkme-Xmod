@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private final n:Lcom/vk/imageloader/view/VKImageView;
+.field private final n:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final o:Landroid/widget/TextView;
 
@@ -55,9 +55,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/music/sections/types/h;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/music/sections/types/h;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 23
     iget-object p1, p0, Lcom/vk/music/sections/types/h;->a:Landroid/view/View;
@@ -111,9 +111,9 @@
     .locals 1
 
     .line 59
-    iget-object v0, p0, Lcom/vk/music/sections/types/h;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/music/sections/types/h;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
@@ -151,11 +151,11 @@
 
 
 # virtual methods
-.method protected final A()Lcom/vk/imageloader/view/VKImageView;
+.method protected final A()Lcom/vk/messengerageloader/view/VKImageView;
     .locals 1
 
     .line 22
-    iget-object v0, p0, Lcom/vk/music/sections/types/h;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/music/sections/types/h;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-object v0
 .end method
@@ -242,20 +242,20 @@
 
     if-eqz p1, :cond_4
 
-    iget-object v0, p0, Lcom/vk/music/sections/types/h;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/music/sections/types/h;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-direct {p0, p1}, Lcom/vk/music/sections/types/h;->a(Lcom/vk/dto/common/Image;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->b(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->b(Ljava/lang/String;)V
 
     goto :goto_1
 
     :cond_4
-    iget-object p1, p0, Lcom/vk/music/sections/types/h;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/music/sections/types/h;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     :goto_1
     return-void
@@ -383,7 +383,7 @@
     .line 54
     sget-object v0, Lcom/vk/music/artists/list/a;->a:Lcom/vk/music/artists/list/a;
 
-    iget-object v1, p0, Lcom/vk/music/sections/types/h;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/music/sections/types/h;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object p1, p1, Lcom/vk/dto/music/CustomImage;->e:Lcom/vk/dto/music/Meta;
 
@@ -397,7 +397,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-virtual {v0, v1, p1}, Lcom/vk/music/artists/list/a;->a(Lcom/vk/imageloader/view/VKImageView;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Lcom/vk/music/artists/list/a;->a(Lcom/vk/messengerageloader/view/VKImageView;Ljava/lang/String;)V
 
     return-void
 .end method

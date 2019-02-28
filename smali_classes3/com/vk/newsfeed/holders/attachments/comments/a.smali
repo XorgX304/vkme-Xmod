@@ -17,13 +17,13 @@
     invoke-direct {p0, v0, p1}, Lcom/vk/newsfeed/holders/attachments/comments/b;-><init>(ILandroid/view/ViewGroup;)V
 
     .line 13
-    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/attachments/comments/a;->A()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/attachments/comments/a;->A()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
     const v0, 0x7f0601d4
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     return-void
 .end method
@@ -55,7 +55,7 @@
     if-eqz v0, :cond_1
 
     .line 19
-    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/attachments/comments/a;->A()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/attachments/comments/a;->A()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
@@ -89,13 +89,13 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 21
     :cond_1
-    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/attachments/comments/a;->A()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p0}, Lcom/vk/newsfeed/holders/attachments/comments/a;->A()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
@@ -106,7 +106,7 @@
     move-result-object v1
 
     :cond_2
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :goto_0
     return-void

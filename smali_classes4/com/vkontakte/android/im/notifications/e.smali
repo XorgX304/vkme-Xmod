@@ -17,9 +17,9 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 14
-    sget-object v0, Lcom/vk/im/engine/concurrent/a;->b:Lcom/vk/im/engine/concurrent/a;
+    sget-object v0, Lcom/vk/messenger/engine/concurrent/a;->b:Lcom/vk/messenger/engine/concurrent/a;
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/concurrent/a;->b()Ljava/util/concurrent/ExecutorService;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/concurrent/a;->b()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
 

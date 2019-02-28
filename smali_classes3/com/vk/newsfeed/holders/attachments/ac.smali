@@ -9,7 +9,7 @@
 # instance fields
 .field private final n:Landroid/view/ViewGroup;
 
-.field private final p:Lcom/vk/imageloader/view/VKSnippetImageView;
+.field private final p:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
 
 # direct methods
@@ -57,29 +57,29 @@
     iput-object v0, p0, Lcom/vk/newsfeed/holders/attachments/ac;->n:Landroid/view/ViewGroup;
 
     .line 21
-    new-instance v0, Lcom/vk/imageloader/view/VKSnippetImageView;
+    new-instance v0, Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/vk/imageloader/view/VKSnippetImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/vk/messengerageloader/view/VKSnippetImageView;-><init>(Landroid/content/Context;)V
 
-    iput-object v0, p0, Lcom/vk/newsfeed/holders/attachments/ac;->p:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iput-object v0, p0, Lcom/vk/newsfeed/holders/attachments/ac;->p:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     .line 24
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/ac;->p:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/ac;->p:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     const/high16 v1, 0x44000000    # 512.0f
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKSnippetImageView;->setPlaceholderColor(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->setPlaceholderColor(I)V
 
     .line 25
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/ac;->p:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/attachments/ac;->p:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     sget-object v1, Landroid/widget/ImageView$ScaleType;->CENTER_CROP:Landroid/widget/ImageView$ScaleType;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKSnippetImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKSnippetImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
 
     .line 27
     new-instance v0, Landroid/widget/FrameLayout$LayoutParams;
@@ -117,7 +117,7 @@
     .line 28
     iget-object v1, p0, Lcom/vk/newsfeed/holders/attachments/ac;->n:Landroid/view/ViewGroup;
 
-    iget-object v2, p0, Lcom/vk/newsfeed/holders/attachments/ac;->p:Lcom/vk/imageloader/view/VKSnippetImageView;
+    iget-object v2, p0, Lcom/vk/newsfeed/holders/attachments/ac;->p:Lcom/vk/messengerageloader/view/VKSnippetImageView;
 
     check-cast v2, Landroid/view/View;
 

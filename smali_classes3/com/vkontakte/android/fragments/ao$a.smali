@@ -213,7 +213,7 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v3, Lcom/vk/messengerageloader/view/VKImageView;
 
     iget v4, v2, Lcom/vkontakte/android/UserProfile;->n:I
 
@@ -227,18 +227,18 @@
     const v4, 0x7f0807c5
 
     :goto_1
-    invoke-virtual {v3, v4}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {v3, v4}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     .line 229
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p3
 
-    check-cast p3, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p3, Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v3, v2, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
-    invoke-virtual {p3, v3}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p3, v3}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 231
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

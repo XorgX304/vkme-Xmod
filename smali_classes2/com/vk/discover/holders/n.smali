@@ -10,7 +10,7 @@
 
 .field private final q:Landroid/view/View;
 
-.field private final r:Lcom/vk/imageloader/view/VKImageView;
+.field private final r:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final s:Landroid/view/View;
 
@@ -193,9 +193,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/discover/holders/n;->r:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/discover/holders/n;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 42
     iget-object p1, p0, Lcom/vk/discover/holders/n;->a:Landroid/view/View;
@@ -288,15 +288,15 @@
     :goto_2
     if-eqz v2, :cond_3
 
-    iget-object v0, p0, Lcom/vk/discover/holders/n;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/discover/holders/n;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     goto :goto_3
 
     .line 47
     :cond_3
-    iget-object v2, p0, Lcom/vk/discover/holders/n;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v2, p0, Lcom/vk/discover/holders/n;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     new-instance v4, Lcom/vk/discover/l;
 
@@ -308,10 +308,10 @@
 
     check-cast v4, Lcom/facebook/drawee/drawable/p$b;
 
-    invoke-virtual {v2, v4}, Lcom/vk/imageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
+    invoke-virtual {v2, v4}, Lcom/vk/messengerageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
 
     .line 48
-    iget-object v2, p0, Lcom/vk/discover/holders/n;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v2, p0, Lcom/vk/discover/holders/n;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz v0, :cond_4
 
@@ -320,11 +320,11 @@
     move-result-object v1
 
     :cond_4
-    invoke-virtual {v2, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v2, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 50
     :goto_3
-    iget-object v0, p0, Lcom/vk/discover/holders/n;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/discover/holders/n;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/discover/DiscoverItem;->B()Lcom/vk/discover/DiscoverLayoutParams;
 
@@ -334,7 +334,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setAspectRatio(F)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setAspectRatio(F)V
 
     .line 51
     iget-object v0, p0, Lcom/vk/discover/holders/n;->s:Landroid/view/View;

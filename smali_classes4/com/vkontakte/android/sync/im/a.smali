@@ -102,7 +102,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/vk/im/engine/StartCause;)V
+.method public final a(Lcom/vk/messenger/engine/StartCause;)V
     .locals 3
 
     const-string v0, "cause"
@@ -146,12 +146,12 @@
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v0, v1, p1}, Lcom/vkontakte/android/sync/im/VkImSyncService$a;->a(Landroid/content/Context;Lcom/vk/im/engine/StartCause;)V
+    invoke-virtual {v0, v1, p1}, Lcom/vkontakte/android/sync/im/VkImSyncService$a;->a(Landroid/content/Context;Lcom/vk/messenger/engine/StartCause;)V
 
     return-void
 .end method
 
-.method public final a(Lcom/vk/im/engine/StopCause;)V
+.method public final a(Lcom/vk/messenger/engine/StopCause;)V
     .locals 3
 
     const-string v0, "cause"
@@ -200,7 +200,7 @@
     return-void
 .end method
 
-.method public final a(Lcom/vk/im/engine/StopCause;J)V
+.method public final a(Lcom/vk/messenger/engine/StopCause;J)V
     .locals 3
 
     const-string v0, "cause"
@@ -248,7 +248,7 @@
     if-gtz v0, :cond_0
 
     .line 63
-    invoke-virtual {p0, p1}, Lcom/vkontakte/android/sync/im/a;->b(Lcom/vk/im/engine/StopCause;)V
+    invoke-virtual {p0, p1}, Lcom/vkontakte/android/sync/im/a;->b(Lcom/vk/messenger/engine/StopCause;)V
 
     goto :goto_0
 
@@ -258,7 +258,7 @@
 
     new-instance v1, Lcom/vkontakte/android/sync/im/a$a;
 
-    invoke-direct {v1, p1}, Lcom/vkontakte/android/sync/im/a$a;-><init>(Lcom/vk/im/engine/StopCause;)V
+    invoke-direct {v1, p1}, Lcom/vkontakte/android/sync/im/a$a;-><init>(Lcom/vk/messenger/engine/StopCause;)V
 
     check-cast v1, Ljava/lang/Runnable;
 
@@ -277,7 +277,7 @@
     return v0
 .end method
 
-.method public final b(Lcom/vk/im/engine/StartCause;)V
+.method public final b(Lcom/vk/messenger/engine/StartCause;)V
     .locals 5
 
     const-string v0, "cause"
@@ -321,7 +321,7 @@
 
     invoke-static {v2, v4}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v1, v2, p1}, Lcom/vkontakte/android/sync/im/VkImSyncService$a;->b(Landroid/content/Context;Lcom/vk/im/engine/StartCause;)Z
+    invoke-virtual {v1, v2, p1}, Lcom/vkontakte/android/sync/im/VkImSyncService$a;->b(Landroid/content/Context;Lcom/vk/messenger/engine/StartCause;)Z
 
     move-result v1
 
@@ -355,7 +355,7 @@
     return-void
 .end method
 
-.method public final b(Lcom/vk/im/engine/StopCause;)V
+.method public final b(Lcom/vk/messenger/engine/StopCause;)V
     .locals 5
 
     const-string v0, "cause"
@@ -399,7 +399,7 @@
 
     invoke-static {v2, v4}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v1, v2, p1}, Lcom/vkontakte/android/sync/im/VkImSyncService$a;->a(Landroid/content/Context;Lcom/vk/im/engine/StopCause;)V
+    invoke-virtual {v1, v2, p1}, Lcom/vkontakte/android/sync/im/VkImSyncService$a;->a(Landroid/content/Context;Lcom/vk/messenger/engine/StopCause;)V
 
     sget-object v1, Lkotlin/l;->a:Lkotlin/l;
 

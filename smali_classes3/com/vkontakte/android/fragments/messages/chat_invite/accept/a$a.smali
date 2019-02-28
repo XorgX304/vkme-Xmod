@@ -74,7 +74,7 @@
     return-object v0
 .end method
 
-.method public final a(Lcom/vk/im/engine/models/chats/ChatPreview;)Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$a;
+.method public final a(Lcom/vk/messenger/engine/models/chats/ChatPreview;)Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$a;
     .locals 3
 
     .line 91

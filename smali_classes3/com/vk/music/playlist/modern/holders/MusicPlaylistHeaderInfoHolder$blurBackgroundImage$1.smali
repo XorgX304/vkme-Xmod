@@ -67,7 +67,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 31
-    new-instance v0, Lcom/vk/imageloader/a/c;
+    new-instance v0, Lcom/vk/messengerageloader/a/c;
 
     invoke-virtual {p1}, Lcom/vk/music/view/ThumbsImageView;->getContext()Landroid/content/Context;
 
@@ -81,7 +81,7 @@
 
     const/16 v2, 0x32
 
-    invoke-direct {v0, v2, v1}, Lcom/vk/imageloader/a/c;-><init>(II)V
+    invoke-direct {v0, v2, v1}, Lcom/vk/messengerageloader/a/c;-><init>(II)V
 
     check-cast v0, Lcom/facebook/imagepipeline/request/a;
 

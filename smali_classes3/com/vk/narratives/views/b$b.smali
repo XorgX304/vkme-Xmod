@@ -3,7 +3,7 @@
 .source "StoryNarrativeStubDelegate.kt"
 
 # interfaces
-.implements Lcom/vk/imageloader/g;
+.implements Lcom/vk/messengerageloader/g;
 
 
 # annotations
@@ -64,13 +64,13 @@
     .line 66
     iget-object p1, p0, Lcom/vk/narratives/views/b$b;->a:Lcom/vk/narratives/views/b;
 
-    invoke-static {p1}, Lcom/vk/narratives/views/b;->a(Lcom/vk/narratives/views/b;)Lcom/vk/imageloader/view/VKImageView;
+    invoke-static {p1}, Lcom/vk/narratives/views/b;->a(Lcom/vk/narratives/views/b;)Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
     const p2, 0x7f080148
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setBackgroundResource(I)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setBackgroundResource(I)V
 
     .line 67
     iget-object p1, p0, Lcom/vk/narratives/views/b$b;->a:Lcom/vk/narratives/views/b;

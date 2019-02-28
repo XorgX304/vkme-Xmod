@@ -71,7 +71,7 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v1, Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 415
     iget-object v2, p0, Lcom/vkontakte/android/fragments/stickers/b$a;->a:Lcom/vkontakte/android/fragments/stickers/b;
@@ -93,7 +93,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lcom/vk/imageloader/view/VKImageView;->b(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->b(Ljava/lang/String;)V
 
     .line 417
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V

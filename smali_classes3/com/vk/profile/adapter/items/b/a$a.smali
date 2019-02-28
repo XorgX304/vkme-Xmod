@@ -31,7 +31,7 @@
 
 .field private final q:Landroid/widget/TextView;
 
-.field private final r:Lcom/vk/imageloader/view/VKImageView;
+.field private final r:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final s:Landroid/view/View;
 
@@ -135,9 +135,9 @@
     invoke-static {}, Lkotlin/jvm/internal/l;->a()V
 
     :cond_4
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/profile/adapter/items/b/a$a;->r:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/profile/adapter/items/b/a$a;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 55
     iget-object p1, p0, Lcom/vk/profile/adapter/items/b/a$a;->a:Landroid/view/View;
@@ -621,19 +621,19 @@
     if-eqz v2, :cond_9
 
     .line 133
-    iget-object v0, p0, Lcom/vk/profile/adapter/items/b/a$a;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/adapter/items/b/a$a;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(Landroid/graphics/drawable/Drawable;)V
 
     .line 134
     :cond_9
-    iget-object v0, p0, Lcom/vk/profile/adapter/items/b/a$a;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/adapter/items/b/a$a;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/profile/adapter/items/b/a;->l()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_3
 
@@ -641,9 +641,9 @@
     if-eqz v2, :cond_b
 
     .line 136
-    iget-object v0, p0, Lcom/vk/profile/adapter/items/b/a$a;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/profile/adapter/items/b/a$a;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 140
     :cond_b

@@ -8,11 +8,11 @@
 
 
 # static fields
-.field private static sLock:Ljava/lang/Object; = null
+.field private static sLock:Ljava/lang/Object;
 
-.field private static zzcuv:Z = false
+.field private static zzcuv:Z
 
-.field private static zzcuw:Z = false
+.field private static zzcuw:Z
 
 .field private static zzcux:Lcom/google/android/gms/common/util/e;
 

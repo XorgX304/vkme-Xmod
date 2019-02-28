@@ -68,7 +68,7 @@
     .end annotation
 .end field
 
-.field private static volatile h:Z = false
+.field private static volatile h:Z
 
 .field private static final i:Ljava/util/concurrent/ExecutorService;
 
@@ -1107,7 +1107,7 @@
 
     .line 228
     :try_start_0
-    invoke-static {p2, v0, v1}, Lcom/vk/im/engine/internal/d/b;->a(Ljava/util/concurrent/Future;J)Ljava/lang/Object;
+    invoke-static {p2, v0, v1}, Lcom/vk/messenger/engine/internal/d/b;->a(Ljava/util/concurrent/Future;J)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

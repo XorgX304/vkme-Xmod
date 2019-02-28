@@ -27,7 +27,7 @@
 
 .field private C:Z
 
-.field private final q:Lcom/vk/imageloader/view/VKImageView;
+.field private final q:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private r:Lcom/vkontakte/android/o;
 
@@ -160,9 +160,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/inline/i;->q:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/inline/i;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 40
     new-instance p1, Landroid/graphics/Rect;
@@ -232,27 +232,27 @@
     iput-object p1, p0, Lcom/vk/newsfeed/holders/inline/i;->y:Lkotlin/d;
 
     .line 56
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/i;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/i;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p2, 0x7f0601d4
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(I)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(I)V
 
     .line 57
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/i;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/i;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     sget-object p2, Lcom/facebook/drawee/drawable/p$b;->g:Lcom/facebook/drawee/drawable/p$b;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
 
     .line 58
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/i;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/i;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     move-object p2, p0
 
     check-cast p2, Landroid/view/View$OnClickListener;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 59
     iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/i;->a:Landroid/view/View;
@@ -570,11 +570,11 @@
 
 
 # virtual methods
-.method protected final A()Lcom/vk/imageloader/view/VKImageView;
+.method protected final A()Lcom/vk/messengerageloader/view/VKImageView;
     .locals 1
 
     .line 37
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/inline/i;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/inline/i;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-object v0
 .end method
@@ -601,7 +601,7 @@
     .locals 0
 
     .line 166
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/i;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/i;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p1, Landroid/view/View;
 
@@ -662,7 +662,7 @@
     if-eqz p1, :cond_0
 
     .line 66
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/inline/i;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/inline/i;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {p1}, Lkotlin/collections/m;->f(Ljava/util/List;)Ljava/lang/Object;
 
@@ -670,7 +670,7 @@
 
     check-cast p1, Lcom/vk/dto/common/Attachment;
 
-    invoke-virtual {p0, v0, p1}, Lcom/vk/newsfeed/holders/inline/i;->a(Lcom/vk/imageloader/view/VKImageView;Lcom/vk/dto/common/Attachment;)V
+    invoke-virtual {p0, v0, p1}, Lcom/vk/newsfeed/holders/inline/i;->a(Lcom/vk/messengerageloader/view/VKImageView;Lcom/vk/dto/common/Attachment;)V
 
     return-void
 
@@ -681,7 +681,7 @@
     return-void
 .end method
 
-.method protected final a(Lcom/vk/imageloader/view/VKImageView;Lcom/vk/dto/common/Attachment;)V
+.method protected final a(Lcom/vk/messengerageloader/view/VKImageView;Lcom/vk/dto/common/Attachment;)V
     .locals 2
 
     const-string v0, "view"
@@ -697,7 +697,7 @@
 
     iget-object p2, p2, Lcom/vkontakte/android/attachments/PhotoAttachment;->i:Lcom/vk/dto/photo/Photo;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
@@ -735,7 +735,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -751,7 +751,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -771,13 +771,13 @@
 
     iget-object p2, p2, Lcom/vkontakte/android/attachments/DocumentAttachment;->e:Ljava/lang/String;
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     goto :goto_1
 
     .line 74
     :cond_3
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     :goto_1
     return-void
@@ -1287,7 +1287,7 @@
     iput-boolean v0, p0, Lcom/vk/newsfeed/holders/inline/i;->C:Z
 
     .line 89
-    iget-object v1, p0, Lcom/vk/newsfeed/holders/inline/i;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/newsfeed/holders/inline/i;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-static {p1, v1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1304,7 +1304,7 @@
     if-nez p1, :cond_4
 
     .line 90
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/i;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/inline/i;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p1, Landroid/view/View;
 

@@ -1606,24 +1606,24 @@
     :try_start_0
     sget-object v1, Lcom/vk/core/util/f;->a:Landroid/content/Context;
 
-    invoke-static {v1, p1}, Lcom/vk/im/engine/internal/c/d;->a(Landroid/content/Context;Landroid/net/Uri;)Lcom/vk/im/engine/internal/c/d$a;
+    invoke-static {v1, p1}, Lcom/vk/messenger/engine/internal/c/d;->a(Landroid/content/Context;Landroid/net/Uri;)Lcom/vk/messenger/engine/internal/c/d$a;
 
     move-result-object v1
 
     .line 159
-    iget v4, v1, Lcom/vk/im/engine/internal/c/d$a;->e:I
+    iget v4, v1, Lcom/vk/messenger/engine/internal/c/d$a;->e:I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 160
     :try_start_1
-    iget v5, v1, Lcom/vk/im/engine/internal/c/d$a;->g:I
+    iget v5, v1, Lcom/vk/messenger/engine/internal/c/d$a;->g:I
 
     const/16 v6, 0x5a
 
     if-eq v5, v6, :cond_9
 
-    iget v5, v1, Lcom/vk/im/engine/internal/c/d$a;->g:I
+    iget v5, v1, Lcom/vk/messenger/engine/internal/c/d$a;->g:I
 
     const/16 v6, 0x10e
 
@@ -1639,12 +1639,12 @@
     if-eqz v2, :cond_a
 
     .line 161
-    iget v5, v1, Lcom/vk/im/engine/internal/c/d$a;->b:I
+    iget v5, v1, Lcom/vk/messenger/engine/internal/c/d$a;->b:I
 
     goto :goto_5
 
     :cond_a
-    iget v5, v1, Lcom/vk/im/engine/internal/c/d$a;->a:I
+    iget v5, v1, Lcom/vk/messenger/engine/internal/c/d$a;->a:I
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -1653,12 +1653,12 @@
 
     .line 162
     :try_start_2
-    iget v1, v1, Lcom/vk/im/engine/internal/c/d$a;->a:I
+    iget v1, v1, Lcom/vk/messenger/engine/internal/c/d$a;->a:I
 
     goto :goto_6
 
     :cond_b
-    iget v1, v1, Lcom/vk/im/engine/internal/c/d$a;->b:I
+    iget v1, v1, Lcom/vk/messenger/engine/internal/c/d$a;->b:I
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_2
 

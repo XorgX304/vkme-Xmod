@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.vk.imageloader.view.VKImageView android:id="@id/achievements_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:actualImageScaleType="centerCrop" app:roundedCornerRadius="@dimen/games_sticker_achievements_banner_corner_radius" />
+    <com.vk.messengerageloader.view.VKImageView android:id="@id/achievements_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:actualImageScaleType="centerCrop" app:roundedCornerRadius="@dimen/games_sticker_achievements_banner_corner_radius" />
     <ImageView android:layout_gravity="end" android:id="@id/level_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" />
     <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="14.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
         <TextView android:textSize="20.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/games_my_achievements" android:fontFamily="@string/fontRobotoMedium" />

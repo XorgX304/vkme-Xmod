@@ -85,7 +85,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {p1}, Lcom/vk/imageloader/i;->e(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/vk/messengerageloader/i;->e(Ljava/lang/String;)V
 
     :cond_0
     return-void

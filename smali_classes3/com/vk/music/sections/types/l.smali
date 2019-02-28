@@ -32,15 +32,15 @@
     iput-object p1, p0, Lcom/vk/music/sections/types/l;->n:Landroid/view/View;
 
     .line 16
-    invoke-virtual {p0}, Lcom/vk/music/sections/types/l;->A()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p0}, Lcom/vk/music/sections/types/l;->A()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object p1
 
-    invoke-virtual {p0}, Lcom/vk/music/sections/types/l;->A()Lcom/vk/imageloader/view/VKImageView;
+    invoke-virtual {p0}, Lcom/vk/music/sections/types/l;->A()Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->getContext()Landroid/content/Context;
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -54,7 +54,7 @@
 
     move-result v0
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderColor(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderColor(I)V
 
     return-void
 .end method

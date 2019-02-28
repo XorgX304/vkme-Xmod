@@ -1,5 +1,5 @@
 .class public Lcom/vk/newsfeed/adapters/b;
-.super Lcom/vk/im/ui/views/image_zhukov/i;
+.super Lcom/vk/messenger/ui/views/image_zhukov/i;
 .source "ImagesAdapter.kt"
 
 
@@ -12,7 +12,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/vk/im/ui/views/image_zhukov/i<",
+        "Lcom/vk/messenger/ui/views/image_zhukov/i<",
         "Lcom/vk/newsfeed/holders/zhukov/a;",
         ">;"
     }
@@ -164,7 +164,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 16
-    invoke-direct {p0}, Lcom/vk/im/ui/views/image_zhukov/i;-><init>()V
+    invoke-direct {p0}, Lcom/vk/messenger/ui/views/image_zhukov/i;-><init>()V
 
     iput-object p1, p0, Lcom/vk/newsfeed/adapters/b;->e:Landroid/content/Context;
 
@@ -423,7 +423,7 @@
     .end packed-switch
 .end method
 
-.method public a(ILcom/vk/im/ui/views/image_zhukov/j;)V
+.method public a(ILcom/vk/messenger/ui/views/image_zhukov/j;)V
     .locals 3
 
     const-string v0, "outSize"
@@ -499,7 +499,7 @@
     sget v0, Lcom/vk/newsfeed/adapters/b;->f:I
 
     :goto_1
-    iput v0, p2, Lcom/vk/im/ui/views/image_zhukov/j;->a:I
+    iput v0, p2, Lcom/vk/messenger/ui/views/image_zhukov/j;->a:I
 
     if-lez v1, :cond_3
 
@@ -510,7 +510,7 @@
     sget v1, Lcom/vk/newsfeed/adapters/b;->g:I
 
     :goto_2
-    iput v1, p2, Lcom/vk/im/ui/views/image_zhukov/j;->b:I
+    iput v1, p2, Lcom/vk/messenger/ui/views/image_zhukov/j;->b:I
 
     goto/16 :goto_c
 
@@ -543,7 +543,7 @@
     sget v0, Lcom/vk/newsfeed/adapters/b;->h:I
 
     :goto_3
-    iput v0, p2, Lcom/vk/im/ui/views/image_zhukov/j;->a:I
+    iput v0, p2, Lcom/vk/messenger/ui/views/image_zhukov/j;->a:I
 
     .line 53
     invoke-virtual {p1}, Lcom/vkontakte/android/attachments/VideoAttachment;->m()Lcom/vk/dto/common/VideoFile;
@@ -566,7 +566,7 @@
     sget p1, Lcom/vk/newsfeed/adapters/b;->i:I
 
     :goto_4
-    iput p1, p2, Lcom/vk/im/ui/views/image_zhukov/j;->b:I
+    iput p1, p2, Lcom/vk/messenger/ui/views/image_zhukov/j;->b:I
 
     goto/16 :goto_c
 
@@ -634,7 +634,7 @@
     sget p1, Lcom/vk/newsfeed/adapters/b;->f:I
 
     :goto_6
-    iput p1, p2, Lcom/vk/im/ui/views/image_zhukov/j;->a:I
+    iput p1, p2, Lcom/vk/messenger/ui/views/image_zhukov/j;->a:I
 
     if-lez v1, :cond_c
 
@@ -645,7 +645,7 @@
     sget v1, Lcom/vk/newsfeed/adapters/b;->g:I
 
     :goto_7
-    iput v1, p2, Lcom/vk/im/ui/views/image_zhukov/j;->b:I
+    iput v1, p2, Lcom/vk/messenger/ui/views/image_zhukov/j;->b:I
 
     goto :goto_c
 
@@ -708,7 +708,7 @@
     sget v1, Lcom/vk/newsfeed/adapters/b;->f:I
 
     :goto_a
-    iput v1, p2, Lcom/vk/im/ui/views/image_zhukov/j;->a:I
+    iput v1, p2, Lcom/vk/messenger/ui/views/image_zhukov/j;->a:I
 
     if-lez p1, :cond_12
 
@@ -719,14 +719,14 @@
     sget p1, Lcom/vk/newsfeed/adapters/b;->g:I
 
     :goto_b
-    iput p1, p2, Lcom/vk/im/ui/views/image_zhukov/j;->b:I
+    iput p1, p2, Lcom/vk/messenger/ui/views/image_zhukov/j;->b:I
 
     :cond_13
     :goto_c
     return-void
 .end method
 
-.method public bridge synthetic a(Lcom/vk/im/ui/views/image_zhukov/l;I)V
+.method public bridge synthetic a(Lcom/vk/messenger/ui/views/image_zhukov/l;I)V
     .locals 0
 
     .line 14
@@ -737,7 +737,7 @@
     return-void
 .end method
 
-.method public bridge synthetic a(Lcom/vk/im/ui/views/image_zhukov/l;ZZZZ)V
+.method public bridge synthetic a(Lcom/vk/messenger/ui/views/image_zhukov/l;ZZZZ)V
     .locals 6
 
     .line 14
@@ -834,7 +834,7 @@
     return-void
 .end method
 
-.method public synthetic b(Landroid/view/ViewGroup;I)Lcom/vk/im/ui/views/image_zhukov/l;
+.method public synthetic b(Landroid/view/ViewGroup;I)Lcom/vk/messenger/ui/views/image_zhukov/l;
     .locals 0
 
     .line 14
@@ -842,7 +842,7 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/im/ui/views/image_zhukov/l;
+    check-cast p1, Lcom/vk/messenger/ui/views/image_zhukov/l;
 
     return-object p1
 .end method

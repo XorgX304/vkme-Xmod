@@ -33,7 +33,7 @@
 
 .field final p:Landroid/widget/TextView;
 
-.field final q:Lcom/vk/imageloader/view/VKImageView;
+.field final q:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field final synthetic r:Lcom/vkontakte/android/fragments/i/a;
 
@@ -90,9 +90,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/fragments/i/a$b;->q:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/fragments/i/a$b;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 663
     iget-object p1, p0, Lcom/vkontakte/android/fragments/i/a$b;->a:Landroid/view/View;
@@ -108,11 +108,11 @@
     .locals 3
 
     .line 668
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/i/a$b;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/i/a$b;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget-object v1, p1, Lcom/vkontakte/android/GeoPlace;->i:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 669
     iget-object v0, p0, Lcom/vkontakte/android/fragments/i/a$b;->n:Landroid/widget/TextView;
@@ -235,7 +235,7 @@
     if-eqz v0, :cond_6
 
     .line 685
-    iget-object v0, p0, Lcom/vkontakte/android/fragments/i/a$b;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vkontakte/android/fragments/i/a$b;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     iget v1, p1, Lcom/vkontakte/android/GeoPlace;->b:I
 
@@ -262,7 +262,7 @@
     const v1, 0x7f0802af
 
     :goto_2
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setImageResource(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setImageResource(I)V
 
     .line 687
     :cond_6

@@ -2055,13 +2055,13 @@
     invoke-direct {v2}, Lorg/json/JSONObject;-><init>()V
 
     .line 354
-    sget-object v0, Lcom/vk/im/ui/themes/a;->b:Lcom/vk/im/ui/themes/a;
+    sget-object v0, Lcom/vk/messenger/ui/themes/a;->b:Lcom/vk/messenger/ui/themes/a;
 
-    invoke-virtual {v0}, Lcom/vk/im/ui/themes/a;->b()Lcom/vk/im/ui/themes/ImTheme;
+    invoke-virtual {v0}, Lcom/vk/messenger/ui/themes/a;->b()Lcom/vk/messenger/ui/themes/ImTheme;
 
     move-result-object v0
 
-    sget-object v1, Lcom/vk/im/ui/themes/ImTheme;->VKME_DARK:Lcom/vk/im/ui/themes/ImTheme;
+    sget-object v1, Lcom/vk/messenger/ui/themes/ImTheme;->VKME_DARK:Lcom/vk/messenger/ui/themes/ImTheme;
 
     if-ne v0, v1, :cond_0
 

@@ -20,7 +20,7 @@
 # instance fields
 .field private final n:Landroid/widget/TextView;
 
-.field private final p:Lcom/vk/imageloader/view/VKCircleImageView;
+.field private final p:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
 .field private final q:Landroid/widget/TextView;
 
@@ -78,9 +78,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/m;->p:Lcom/vk/imageloader/view/VKCircleImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/m;->p:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     .line 32
     iget-object p1, p0, Lcom/vk/newsfeed/holders/m;->a:Landroid/view/View;
@@ -134,13 +134,13 @@
     iput-object p1, p0, Lcom/vk/newsfeed/holders/m;->s:Landroid/widget/TextView;
 
     .line 39
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/m;->p:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/m;->p:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     move-object v0, p0
 
     check-cast v0, Landroid/view/View$OnClickListener;
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKCircleImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKCircleImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 40
     iget-object p1, p0, Lcom/vk/newsfeed/holders/m;->a:Landroid/view/View;
@@ -229,11 +229,11 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 71
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/m;->p:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/m;->p:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     const v1, 0x7f080318
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKCircleImageView;->a(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(I)V
 
     goto :goto_2
 
@@ -264,7 +264,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 74
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/m;->p:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/m;->p:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/newsfeed/CommentPreview;->c()Lcom/vk/dto/newsfeed/Owner;
 
@@ -277,7 +277,7 @@
     move-result-object v2
 
     :cond_4
-    invoke-virtual {v0, v2}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v2}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     .line 76
     :goto_2
@@ -476,7 +476,7 @@
     check-cast v1, Lcom/vk/dto/newsfeed/entries/NewsEntry;
 
     .line 83
-    iget-object v2, p0, Lcom/vk/newsfeed/holders/m;->p:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object v2, p0, Lcom/vk/newsfeed/holders/m;->p:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     invoke-static {p1, v2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 

@@ -99,7 +99,7 @@
     return-void
 .end method
 
-.method public final a(Landroid/content/Context;Lcom/vk/im/engine/StartCause;)V
+.method public final a(Landroid/content/Context;Lcom/vk/messenger/engine/StartCause;)V
     .locals 2
 
     const-string v0, "context"
@@ -124,7 +124,7 @@
     return-void
 .end method
 
-.method public final a(Landroid/content/Context;Lcom/vk/im/engine/StopCause;)V
+.method public final a(Landroid/content/Context;Lcom/vk/messenger/engine/StopCause;)V
     .locals 2
 
     const-string v0, "context"
@@ -242,7 +242,7 @@
     return-object v0
 .end method
 
-.method public final b(Landroid/content/Context;Lcom/vk/im/engine/StartCause;)Z
+.method public final b(Landroid/content/Context;Lcom/vk/messenger/engine/StartCause;)Z
     .locals 2
 
     const-string v0, "context"

@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <LinearLayout android:orientation="vertical" android:background="@drawable/discover_post_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip">
         <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="54.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip">
-            <com.vk.imageloader.view.VKCircleImageView android:id="@id/user_photo" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginEnd="8.0dip" app:placeholderImage="@drawable/placeholder_user_32" />
+            <com.vk.messengerageloader.view.VKCircleImageView android:id="@id/user_photo" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginEnd="8.0dip" app:placeholderImage="@drawable/placeholder_user_32" />
             <com.vk.core.widget.FluidHorizontalLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
                 <TextView android:textSize="14.0dip" android:textColor="@color/almost_black" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:fontFamily="@string/font_family_medium" app:vk_layout_isFluid="true" />
                 <View android:layout_gravity="center_vertical" android:id="@id/verified_icon" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="4.0dip" android:scaleType="centerCrop" />

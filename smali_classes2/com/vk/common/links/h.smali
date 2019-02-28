@@ -1556,22 +1556,22 @@
     if-eqz p0, :cond_4
 
     .line 687
-    invoke-static {}, Lcom/vk/im/ui/fragments/ChatFragment;->as()Lcom/vk/im/ui/fragments/a;
+    invoke-static {}, Lcom/vk/messenger/ui/fragments/ChatFragment;->as()Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object v2
 
     .line 688
-    invoke-virtual {v2, p0}, Lcom/vk/im/ui/fragments/a;->a(I)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {v2, p0}, Lcom/vk/messenger/ui/fragments/a;->a(I)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p0
 
     .line 689
-    invoke-virtual {p0, p2}, Lcom/vk/im/ui/fragments/a;->b(I)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p0, p2}, Lcom/vk/messenger/ui/fragments/a;->b(I)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p0
 
     .line 690
-    invoke-virtual {p0, p3}, Lcom/vk/im/ui/fragments/a;->a(Ljava/lang/String;)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p0, p3}, Lcom/vk/messenger/ui/fragments/a;->a(Ljava/lang/String;)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p0
 
@@ -1584,7 +1584,7 @@
 
     .line 691
     :goto_1
-    invoke-virtual {p0, p4}, Lcom/vk/im/ui/fragments/a;->b(Ljava/lang/String;)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p0, p4}, Lcom/vk/messenger/ui/fragments/a;->b(Ljava/lang/String;)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p0
 
@@ -1597,28 +1597,28 @@
 
     .line 692
     :goto_2
-    invoke-virtual {p0, p5}, Lcom/vk/im/ui/fragments/a;->c(Ljava/lang/String;)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p0, p5}, Lcom/vk/messenger/ui/fragments/a;->c(Ljava/lang/String;)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p0
 
     .line 693
-    invoke-virtual {p0, p1}, Lcom/vk/im/ui/fragments/a;->a(Z)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p0, p1}, Lcom/vk/messenger/ui/fragments/a;->a(Z)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p0
 
     if-eqz p1, :cond_3
 
     .line 694
-    invoke-virtual {p0}, Lcom/vk/im/ui/fragments/a;->c()Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p0}, Lcom/vk/messenger/ui/fragments/a;->c()Lcom/vk/messenger/ui/fragments/a;
 
     goto :goto_3
 
     :cond_3
-    invoke-virtual {p0}, Lcom/vk/im/ui/fragments/a;->b()Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p0}, Lcom/vk/messenger/ui/fragments/a;->b()Lcom/vk/messenger/ui/fragments/a;
 
     .line 695
     :goto_3
-    invoke-virtual {p0}, Lcom/vk/im/ui/fragments/a;->g()Lcom/vk/navigation/v;
+    invoke-virtual {p0}, Lcom/vk/messenger/ui/fragments/a;->g()Lcom/vk/navigation/v;
 
     move-result-object p0
 
@@ -1629,11 +1629,11 @@
 
     .line 698
     :cond_4
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object p0
 
-    invoke-interface {p0}, Lcom/vk/im/ui/a/b;->r()Lcom/vk/im/ui/a/e;
+    invoke-interface {p0}, Lcom/vk/messenger/ui/a/b;->r()Lcom/vk/messenger/ui/a/e;
 
     move-result-object p0
 
@@ -1641,7 +1641,7 @@
 
     invoke-static {v0, p1}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-interface {p0, v0}, Lcom/vk/im/ui/a/e;->d(Landroid/content/Context;)Landroid/content/Intent;
+    invoke-interface {p0, v0}, Lcom/vk/messenger/ui/a/e;->d(Landroid/content/Context;)Landroid/content/Intent;
 
     move-result-object p0
 
@@ -2401,68 +2401,68 @@
 
     .line 826
     :cond_1
-    new-instance v3, Lcom/vk/im/engine/commands/etc/g$a;
+    new-instance v3, Lcom/vk/messenger/engine/commands/etc/g$a;
 
-    invoke-direct {v3}, Lcom/vk/im/engine/commands/etc/g$a;-><init>()V
+    invoke-direct {v3}, Lcom/vk/messenger/engine/commands/etc/g$a;-><init>()V
 
     .line 827
-    sget-object v4, Lcom/vk/im/engine/models/Source;->ACTUAL:Lcom/vk/im/engine/models/Source;
+    sget-object v4, Lcom/vk/messenger/engine/models/Source;->ACTUAL:Lcom/vk/messenger/engine/models/Source;
 
-    invoke-virtual {v3, v4}, Lcom/vk/im/engine/commands/etc/g$a;->a(Lcom/vk/im/engine/models/Source;)Lcom/vk/im/engine/commands/etc/g$a;
+    invoke-virtual {v3, v4}, Lcom/vk/messenger/engine/commands/etc/g$a;->a(Lcom/vk/messenger/engine/models/Source;)Lcom/vk/messenger/engine/commands/etc/g$a;
 
     move-result-object v3
 
     if-lez v0, :cond_2
 
     .line 828
-    sget-object v4, Lcom/vk/im/engine/models/Member;->a:Lcom/vk/im/engine/models/Member$b;
+    sget-object v4, Lcom/vk/messenger/engine/models/Member;->a:Lcom/vk/messenger/engine/models/Member$b;
 
-    invoke-virtual {v4, v0}, Lcom/vk/im/engine/models/Member$b;->a(I)Lcom/vk/im/engine/models/Member;
+    invoke-virtual {v4, v0}, Lcom/vk/messenger/engine/models/Member$b;->a(I)Lcom/vk/messenger/engine/models/Member;
 
     move-result-object v4
 
     goto :goto_0
 
     :cond_2
-    sget-object v4, Lcom/vk/im/engine/models/Member;->a:Lcom/vk/im/engine/models/Member$b;
+    sget-object v4, Lcom/vk/messenger/engine/models/Member;->a:Lcom/vk/messenger/engine/models/Member$b;
 
     neg-int v6, v0
 
-    invoke-virtual {v4, v6}, Lcom/vk/im/engine/models/Member$b;->b(I)Lcom/vk/im/engine/models/Member;
+    invoke-virtual {v4, v6}, Lcom/vk/messenger/engine/models/Member$b;->b(I)Lcom/vk/messenger/engine/models/Member;
 
     move-result-object v4
 
     :goto_0
-    invoke-virtual {v3, v4}, Lcom/vk/im/engine/commands/etc/g$a;->a(Lcom/vk/im/engine/models/Member;)Lcom/vk/im/engine/commands/etc/g$a;
+    invoke-virtual {v3, v4}, Lcom/vk/messenger/engine/commands/etc/g$a;->a(Lcom/vk/messenger/engine/models/Member;)Lcom/vk/messenger/engine/commands/etc/g$a;
 
     move-result-object v3
 
     const/4 v13, 0x1
 
     .line 829
-    invoke-virtual {v3, v13}, Lcom/vk/im/engine/commands/etc/g$a;->a(Z)Lcom/vk/im/engine/commands/etc/g$a;
+    invoke-virtual {v3, v13}, Lcom/vk/messenger/engine/commands/etc/g$a;->a(Z)Lcom/vk/messenger/engine/commands/etc/g$a;
 
     move-result-object v3
 
     .line 830
-    invoke-virtual {v3}, Lcom/vk/im/engine/commands/etc/g$a;->e()Lcom/vk/im/engine/commands/etc/g;
+    invoke-virtual {v3}, Lcom/vk/messenger/engine/commands/etc/g$a;->e()Lcom/vk/messenger/engine/commands/etc/g;
 
     move-result-object v3
 
     const-string v4, "OpenFunctions"
 
     .line 832
-    invoke-static {}, Lcom/vk/im/engine/f;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vk/messenger/engine/f;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v6
 
-    new-instance v7, Lcom/vk/im/engine/commands/etc/f;
+    new-instance v7, Lcom/vk/messenger/engine/commands/etc/f;
 
-    invoke-direct {v7, v3}, Lcom/vk/im/engine/commands/etc/f;-><init>(Lcom/vk/im/engine/commands/etc/g;)V
+    invoke-direct {v7, v3}, Lcom/vk/messenger/engine/commands/etc/f;-><init>(Lcom/vk/messenger/engine/commands/etc/g;)V
 
-    check-cast v7, Lcom/vk/im/engine/commands/c;
+    check-cast v7, Lcom/vk/messenger/engine/commands/c;
 
-    invoke-virtual {v6, v4, v7}, Lcom/vk/im/engine/d;->b(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)Lio/reactivex/q;
+    invoke-virtual {v6, v4, v7}, Lcom/vk/messenger/engine/d;->b(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)Lio/reactivex/q;
 
     move-result-object v4
 

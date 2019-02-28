@@ -3,7 +3,7 @@
 .source "VkImExperiments.kt"
 
 # interfaces
-.implements Lcom/vk/im/engine/models/f;
+.implements Lcom/vk/messenger/engine/models/f;
 
 
 # direct methods

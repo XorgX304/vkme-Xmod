@@ -23,7 +23,7 @@
         ">",
         "Ljava/lang/Object;",
         "Lio/reactivex/b/g<",
-        "Lcom/vk/im/engine/models/chats/ChatPreview;",
+        "Lcom/vk/messenger/engine/models/chats/ChatPreview;",
         ">;"
     }
 .end annotation
@@ -58,11 +58,11 @@
 
 
 # virtual methods
-.method public final a(Lcom/vk/im/engine/models/chats/ChatPreview;)V
+.method public final a(Lcom/vk/messenger/engine/models/chats/ChatPreview;)V
     .locals 7
 
     .line 111
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/chats/ChatPreview;->d()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/chats/ChatPreview;->d()I
 
     move-result v0
 
@@ -81,7 +81,7 @@
 
     move-object v6, p1
 
-    invoke-static/range {v1 .. v6}, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$c;->a(Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$c;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Lcom/vk/im/engine/models/chats/ChatPreview;)V
+    invoke-static/range {v1 .. v6}, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$c;->a(Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$c;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Lcom/vk/messenger/engine/models/chats/ChatPreview;)V
 
     goto :goto_0
 
@@ -89,7 +89,7 @@
     :cond_0
     sget-object v0, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a;->ae:Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$c;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/chats/ChatPreview;->d()I
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/chats/ChatPreview;->d()I
 
     move-result p1
 
@@ -105,9 +105,9 @@
     .locals 0
 
     .line 96
-    check-cast p1, Lcom/vk/im/engine/models/chats/ChatPreview;
+    check-cast p1, Lcom/vk/messenger/engine/models/chats/ChatPreview;
 
-    invoke-virtual {p0, p1}, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$c$a;->a(Lcom/vk/im/engine/models/chats/ChatPreview;)V
+    invoke-virtual {p0, p1}, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$c$a;->a(Lcom/vk/messenger/engine/models/chats/ChatPreview;)V
 
     return-void
 .end method

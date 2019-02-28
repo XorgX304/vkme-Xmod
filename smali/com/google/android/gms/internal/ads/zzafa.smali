@@ -12,7 +12,7 @@
 
 .field private static final zzcgc:J
 
-.field private static zzcgd:Z = false
+.field private static zzcgd:Z
     .annotation build Ljavax/annotation/concurrent/GuardedBy;
         value = "sLock"
     .end annotation

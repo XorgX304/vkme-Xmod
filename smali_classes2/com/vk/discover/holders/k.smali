@@ -9,9 +9,9 @@
 # instance fields
 .field private final n:Lcom/vk/common/view/FrameLayoutMinRatio;
 
-.field private final p:Lcom/vk/imageloader/view/VKImageView;
+.field private final p:Lcom/vk/messengerageloader/view/VKImageView;
 
-.field private final q:Lcom/vk/imageloader/view/VKImageView;
+.field private final q:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final r:Landroid/widget/TextView;
 
@@ -65,9 +65,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/discover/holders/k;->p:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/discover/holders/k;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 24
     iget-object p1, p0, Lcom/vk/discover/holders/k;->a:Landroid/view/View;
@@ -82,9 +82,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/discover/holders/k;->q:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/discover/holders/k;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 25
     iget-object p1, p0, Lcom/vk/discover/holders/k;->a:Landroid/view/View;
@@ -253,9 +253,9 @@
     if-nez v0, :cond_0
 
     .line 39
-    iget-object v0, p0, Lcom/vk/discover/holders/k;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/discover/holders/k;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     goto :goto_1
 
@@ -298,13 +298,13 @@
     invoke-virtual {v1, v2}, Lcom/vk/common/view/FrameLayoutMinRatio;->setRatio(F)V
 
     .line 42
-    iget-object v1, p0, Lcom/vk/discover/holders/k;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/discover/holders/k;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {v0}, Lcom/vk/dto/common/ImageSize;->a()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 45
     :goto_1
@@ -333,21 +333,21 @@
     if-nez p1, :cond_2
 
     .line 46
-    iget-object p1, p0, Lcom/vk/discover/holders/k;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/discover/holders/k;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     goto :goto_2
 
     .line 47
     :cond_2
-    iget-object v0, p0, Lcom/vk/discover/holders/k;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/discover/holders/k;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/common/ImageSize;->a()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     :cond_3
     :goto_2

@@ -21,7 +21,7 @@
         "Lkotlin/jvm/internal/Lambda;",
         "Lkotlin/jvm/a/b<",
         "Lcom/vk/dto/common/Attachment;",
-        "Lcom/vk/im/engine/models/attaches/Attach;",
+        "Lcom/vk/messenger/engine/models/attaches/Attach;",
         ">;"
     }
 .end annotation
@@ -56,13 +56,13 @@
 
 
 # virtual methods
-.method public final a(Lcom/vk/dto/common/Attachment;)Lcom/vk/im/engine/models/attaches/Attach;
+.method public final a(Lcom/vk/dto/common/Attachment;)Lcom/vk/messenger/engine/models/attaches/Attach;
     .locals 1
 
     .line 392
     sget-object v0, Lcom/vkontakte/android/im/a;->a:Lcom/vkontakte/android/im/a;
 
-    invoke-virtual {v0, p1}, Lcom/vkontakte/android/im/a;->a(Lcom/vk/dto/common/Attachment;)Lcom/vk/im/engine/models/attaches/Attach;
+    invoke-virtual {v0, p1}, Lcom/vkontakte/android/im/a;->a(Lcom/vk/dto/common/Attachment;)Lcom/vk/messenger/engine/models/attaches/Attach;
 
     move-result-object p1
 
@@ -75,7 +75,7 @@
     .line 69
     check-cast p1, Lcom/vk/dto/common/Attachment;
 
-    invoke-virtual {p0, p1}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc$sendMessage$attachList$2;->a(Lcom/vk/dto/common/Attachment;)Lcom/vk/im/engine/models/attaches/Attach;
+    invoke-virtual {p0, p1}, Lcom/vkontakte/android/fragments/messages/chat/vc/MsgSendVc$sendMessage$attachList$2;->a(Lcom/vk/dto/common/Attachment;)Lcom/vk/messenger/engine/models/attaches/Attach;
 
     move-result-object p1
 

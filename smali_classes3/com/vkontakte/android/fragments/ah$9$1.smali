@@ -54,11 +54,11 @@
     invoke-virtual {v0, v1}, Lcom/vk/analytics/eventtracking/VkTracker;->a(Ljava/lang/String;)V
 
     .line 203
-    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vkontakte/android/im/i;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/vk/im/engine/d;->i()Ljava/util/concurrent/Future;
+    invoke-virtual {v0}, Lcom/vk/messenger/engine/d;->i()Ljava/util/concurrent/Future;
 
     .line 204
     invoke-static {}, Lcom/vk/audio/a;->j()V

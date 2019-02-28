@@ -374,15 +374,15 @@
 
     iget-object v3, p0, Lcom/vkontakte/android/upload/tasks/live_cover/CoverVideoUploadTask;->h:Landroid/net/Uri;
 
-    invoke-static {v2, v3}, Lcom/vk/im/engine/internal/c/d;->a(Landroid/content/Context;Landroid/net/Uri;)Lcom/vk/im/engine/internal/c/d$a;
+    invoke-static {v2, v3}, Lcom/vk/messenger/engine/internal/c/d;->a(Landroid/content/Context;Landroid/net/Uri;)Lcom/vk/messenger/engine/internal/c/d$a;
 
     move-result-object v2
 
     .line 51
-    iget v3, v2, Lcom/vk/im/engine/internal/c/d$a;->a:I
+    iget v3, v2, Lcom/vk/messenger/engine/internal/c/d$a;->a:I
 
     .line 52
-    iget v2, v2, Lcom/vk/im/engine/internal/c/d$a;->b:I
+    iget v2, v2, Lcom/vk/messenger/engine/internal/c/d$a;->b:I
 
     int-to-float v4, v3
 

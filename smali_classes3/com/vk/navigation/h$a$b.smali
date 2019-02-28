@@ -33,11 +33,11 @@
     .locals 1
 
     .line 613
-    sget-object p1, Lcom/vk/im/ui/b;->b:Lcom/vk/im/ui/b;
+    sget-object p1, Lcom/vk/messenger/ui/b;->b:Lcom/vk/messenger/ui/b;
 
     const/4 v0, 0x1
 
-    invoke-virtual {p1, v0}, Lcom/vk/im/ui/b;->a(Z)V
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/ui/b;->a(Z)V
 
     return-void
 .end method

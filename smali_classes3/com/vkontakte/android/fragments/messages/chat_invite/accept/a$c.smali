@@ -66,15 +66,15 @@
     .locals 2
 
     .line 126
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/b;->r()Lcom/vk/im/ui/a/e;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/b;->r()Lcom/vk/messenger/ui/a/e;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lcom/vk/im/ui/a/e;->a()Lcom/vk/im/ui/fragments/a;
+    invoke-interface {v0}, Lcom/vk/messenger/ui/a/e;->a()Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object v0
 
@@ -82,22 +82,22 @@
 
     add-int/2addr p1, v1
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/fragments/a;->a(I)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/fragments/a;->a(I)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
     const-string v0, "chat_invite"
 
-    invoke-virtual {p1, v0}, Lcom/vk/im/ui/fragments/a;->d(Ljava/lang/String;)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/ui/fragments/a;->d(Ljava/lang/String;)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
-    invoke-virtual {p1, p2}, Lcom/vk/im/ui/fragments/a;->c(Landroid/content/Context;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messenger/ui/fragments/a;->c(Landroid/content/Context;)V
 
     return-void
 .end method
 
-.method private final a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Lcom/vk/im/engine/models/chats/ChatPreview;)V
+.method private final a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Lcom/vk/messenger/engine/models/chats/ChatPreview;)V
     .locals 1
 
     .line 131
@@ -111,7 +111,7 @@
     move-result-object p4
 
     .line 133
-    invoke-virtual {p4, p5}, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$a;->a(Lcom/vk/im/engine/models/chats/ChatPreview;)Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$a;
+    invoke-virtual {p4, p5}, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$a;->a(Lcom/vk/messenger/engine/models/chats/ChatPreview;)Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$a;
 
     move-result-object p4
 
@@ -139,16 +139,16 @@
     return-void
 .end method
 
-.method public static final synthetic a(Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$c;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Lcom/vk/im/engine/models/chats/ChatPreview;)V
+.method public static final synthetic a(Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$c;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Lcom/vk/messenger/engine/models/chats/ChatPreview;)V
     .locals 0
 
     .line 96
-    invoke-direct/range {p0 .. p5}, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Lcom/vk/im/engine/models/chats/ChatPreview;)V
+    invoke-direct/range {p0 .. p5}, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Lcom/vk/messenger/engine/models/chats/ChatPreview;)V
 
     return-void
 .end method
 
-.method static synthetic a(Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$c;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Lcom/vk/im/engine/models/chats/ChatPreview;ILjava/lang/Object;)V
+.method static synthetic a(Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$c;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Lcom/vk/messenger/engine/models/chats/ChatPreview;ILjava/lang/Object;)V
     .locals 6
 
     and-int/lit8 p6, p6, 0x10
@@ -158,7 +158,7 @@
     const/4 p5, 0x0
 
     .line 130
-    check-cast p5, Lcom/vk/im/engine/models/chats/ChatPreview;
+    check-cast p5, Lcom/vk/messenger/engine/models/chats/ChatPreview;
 
     :cond_0
     move-object v5, p5
@@ -173,7 +173,7 @@
 
     move-object v4, p4
 
-    invoke-direct/range {v0 .. v5}, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Lcom/vk/im/engine/models/chats/ChatPreview;)V
+    invoke-direct/range {v0 .. v5}, Lcom/vkontakte/android/fragments/messages/chat_invite/accept/a$c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Lcom/vk/messenger/engine/models/chats/ChatPreview;)V
 
     return-void
 .end method
@@ -212,7 +212,7 @@
     invoke-static {p4, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 104
-    new-instance v0, Lcom/vk/im/engine/commands/chats/c;
+    new-instance v0, Lcom/vk/messenger/engine/commands/chats/c;
 
     move-object v1, p0
 
@@ -224,16 +224,16 @@
 
     const/4 v2, 0x1
 
-    invoke-direct {v0, v1, v2}, Lcom/vk/im/engine/commands/chats/c;-><init>(Ljava/lang/String;Z)V
+    invoke-direct {v0, v1, v2}, Lcom/vk/messenger/engine/commands/chats/c;-><init>(Ljava/lang/String;Z)V
 
     .line 105
-    invoke-static {}, Lcom/vk/im/engine/f;->a()Lcom/vk/im/engine/d;
+    invoke-static {}, Lcom/vk/messenger/engine/f;->a()Lcom/vk/messenger/engine/d;
 
     move-result-object v1
 
-    check-cast v0, Lcom/vk/im/engine/commands/c;
+    check-cast v0, Lcom/vk/messenger/engine/commands/c;
 
-    invoke-virtual {v1, p0, v0}, Lcom/vk/im/engine/d;->b(Ljava/lang/Object;Lcom/vk/im/engine/commands/c;)Lio/reactivex/q;
+    invoke-virtual {v1, p0, v0}, Lcom/vk/messenger/engine/d;->b(Ljava/lang/Object;Lcom/vk/messenger/engine/commands/c;)Lio/reactivex/q;
 
     move-result-object v0
 

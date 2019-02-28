@@ -405,16 +405,16 @@
 
     move-object v10, v7
 
-    check-cast v10, Lcom/vk/im/ui/views/RichEditText;
+    check-cast v10, Lcom/vk/messenger/ui/views/RichEditText;
 
     .line 116
     new-instance v11, Lcom/vk/wall/a/c$b;
 
     invoke-direct {v11, v0, v3, v1}, Lcom/vk/wall/a/c$b;-><init>(Lcom/vk/wall/a/c;Landroid/app/Activity;Landroid/view/View;)V
 
-    check-cast v11, Lcom/vk/im/ui/views/RichEditText$b;
+    check-cast v11, Lcom/vk/messenger/ui/views/RichEditText$b;
 
-    invoke-virtual {v10, v11}, Lcom/vk/im/ui/views/RichEditText;->setSelectionChangeListener(Lcom/vk/im/ui/views/RichEditText$b;)V
+    invoke-virtual {v10, v11}, Lcom/vk/messenger/ui/views/RichEditText;->setSelectionChangeListener(Lcom/vk/messenger/ui/views/RichEditText$b;)V
 
     .line 120
     new-instance v11, Lcom/vk/wall/a/c$c;
@@ -423,12 +423,12 @@
 
     check-cast v11, Landroid/view/View$OnKeyListener;
 
-    invoke-virtual {v10, v11}, Lcom/vk/im/ui/views/RichEditText;->setOnKeyListener(Landroid/view/View$OnKeyListener;)V
+    invoke-virtual {v10, v11}, Lcom/vk/messenger/ui/views/RichEditText;->setOnKeyListener(Landroid/view/View$OnKeyListener;)V
 
     const v11, 0x7f110162
 
     .line 130
-    invoke-virtual {v10, v11}, Lcom/vk/im/ui/views/RichEditText;->setHint(I)V
+    invoke-virtual {v10, v11}, Lcom/vk/messenger/ui/views/RichEditText;->setHint(I)V
 
     .line 131
     invoke-virtual/range {p0 .. p0}, Lcom/vk/wall/a/c;->g()Lcom/vk/wall/a/a$b;
@@ -479,7 +479,7 @@
 
     check-cast v15, Landroid/text/TextWatcher;
 
-    invoke-virtual {v10, v15}, Lcom/vk/im/ui/views/RichEditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
+    invoke-virtual {v10, v15}, Lcom/vk/messenger/ui/views/RichEditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
     .line 132
     iput-object v8, v0, Lcom/vk/wall/a/c;->i:Lcom/vk/mentions/n;
@@ -500,7 +500,7 @@
 
     check-cast v8, [Landroid/text/InputFilter;
 
-    invoke-virtual {v10, v8}, Lcom/vk/im/ui/views/RichEditText;->setFilters([Landroid/text/InputFilter;)V
+    invoke-virtual {v10, v8}, Lcom/vk/messenger/ui/views/RichEditText;->setFilters([Landroid/text/InputFilter;)V
 
     .line 115
     check-cast v7, Landroid/widget/EditText;

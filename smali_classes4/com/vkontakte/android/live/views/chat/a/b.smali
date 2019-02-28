@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private final a:Lcom/vk/imageloader/view/VKCircleImageView;
+.field private final a:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
 .field private final b:Lcom/vkontakte/android/ui/LinkedTextView;
 
@@ -95,9 +95,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast p2, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    iput-object p2, p0, Lcom/vkontakte/android/live/views/chat/a/b;->a:Lcom/vk/imageloader/view/VKCircleImageView;
+    iput-object p2, p0, Lcom/vkontakte/android/live/views/chat/a/b;->a:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     const p2, 0x7f0a059b
 
@@ -610,13 +610,13 @@
     if-eqz p2, :cond_0
 
     .line 198
-    iget-object p2, p0, Lcom/vkontakte/android/live/views/chat/a/b;->a:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object p2, p0, Lcom/vkontakte/android/live/views/chat/a/b;->a:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     iget-object v0, p1, Lcom/vk/dto/live/LiveEventModel;->j:Lcom/vkontakte/android/api/models/Group;
 
     iget-object v0, v0, Lcom/vkontakte/android/api/models/Group;->c:Ljava/lang/String;
 
-    invoke-virtual {p2, v0}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p2, v0}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -627,13 +627,13 @@
     if-eqz p2, :cond_1
 
     .line 201
-    iget-object p2, p0, Lcom/vkontakte/android/live/views/chat/a/b;->a:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object p2, p0, Lcom/vkontakte/android/live/views/chat/a/b;->a:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     iget-object v0, p1, Lcom/vk/dto/live/LiveEventModel;->i:Lcom/vkontakte/android/UserProfile;
 
     iget-object v0, v0, Lcom/vkontakte/android/UserProfile;->r:Ljava/lang/String;
 
-    invoke-virtual {p2, v0}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p2, v0}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     .line 203
     :cond_1

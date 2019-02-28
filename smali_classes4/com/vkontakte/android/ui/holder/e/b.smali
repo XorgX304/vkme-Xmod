@@ -22,7 +22,7 @@
 
 .field final o:Landroid/widget/TextView;
 
-.field final p:Lcom/vk/imageloader/view/VKImageView;
+.field final p:Lcom/vk/messengerageloader/view/VKImageView;
 
 
 # direct methods
@@ -63,9 +63,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/e/b;->p:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/e/b;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 28
     iget-object p1, p0, Lcom/vkontakte/android/ui/holder/e/b;->a:Landroid/view/View;
@@ -73,23 +73,23 @@
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 30
-    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/e/b;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/e/b;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setAspectRatio(F)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setAspectRatio(F)V
 
     .line 31
-    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/e/b;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/e/b;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
     sget-object v0, Lcom/facebook/drawee/drawable/p$b;->h:Lcom/facebook/drawee/drawable/p$b;
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setActualScaleType(Lcom/facebook/drawee/drawable/p$b;)V
 
     .line 32
-    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/e/b;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/e/b;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
 
     move-result-object p1
 
@@ -169,9 +169,9 @@
 
     .line 43
     :goto_0
-    iget-object v1, p0, Lcom/vkontakte/android/ui/holder/e/b;->p:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vkontakte/android/ui/holder/e/b;->p:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 44
     iget-object v0, p0, Lcom/vkontakte/android/ui/holder/e/b;->n:Landroid/widget/TextView;

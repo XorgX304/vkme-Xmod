@@ -19,7 +19,7 @@
 
 
 # instance fields
-.field final n:Lcom/vk/imageloader/view/VKImageView;
+.field final n:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field final o:Landroid/widget/TextView;
 
@@ -49,9 +49,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/e/c;->n:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vkontakte/android/ui/holder/e/c;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
     const p1, 0x1020014
 
@@ -198,9 +198,9 @@
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 44
-    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/e/c;->n:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vkontakte/android/ui/holder/e/c;->n:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, v4}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p1, v4}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     return-void
 .end method

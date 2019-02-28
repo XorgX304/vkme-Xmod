@@ -3,7 +3,7 @@
 .source "ImAudioPlayer.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/media/audio/a;
+.implements Lcom/vk/messenger/ui/media/audio/a;
 
 
 # annotations
@@ -19,7 +19,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/ArrayList<",
-            "Lcom/vk/im/ui/media/audio/b;",
+            "Lcom/vk/messenger/ui/media/audio/b;",
             ">;"
         }
     .end annotation
@@ -31,7 +31,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/ArrayList<",
-            "Lcom/vk/im/ui/media/audio/AudioTrack;",
+            "Lcom/vk/messenger/ui/media/audio/AudioTrack;",
             ">;"
         }
     .end annotation
@@ -41,13 +41,13 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/vk/im/ui/media/audio/AudioTrack;",
+            "Lcom/vk/messenger/ui/media/audio/AudioTrack;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private e:Lcom/vk/im/ui/media/audio/AudioTrack;
+.field private e:Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
 .field private f:Z
 
@@ -96,49 +96,49 @@
     return-void
 .end method
 
-.method private final a(Lcom/vk/im/ui/media/audio/AudioTrack;)Lcom/vk/dto/music/MusicTrack;
+.method private final a(Lcom/vk/messenger/ui/media/audio/AudioTrack;)Lcom/vk/dto/music/MusicTrack;
     .locals 27
 
     .line 239
     new-instance v26, Lcom/vk/dto/music/MusicTrack;
 
     .line 240
-    invoke-virtual/range {p1 .. p1}, Lcom/vk/im/ui/media/audio/AudioTrack;->a()I
+    invoke-virtual/range {p1 .. p1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->a()I
 
     move-result v1
 
     .line 241
-    invoke-virtual/range {p1 .. p1}, Lcom/vk/im/ui/media/audio/AudioTrack;->b()I
+    invoke-virtual/range {p1 .. p1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->b()I
 
     move-result v2
 
     .line 242
-    invoke-virtual/range {p1 .. p1}, Lcom/vk/im/ui/media/audio/AudioTrack;->c()Ljava/lang/String;
+    invoke-virtual/range {p1 .. p1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->c()Ljava/lang/String;
 
     move-result-object v7
 
     .line 243
-    invoke-virtual/range {p1 .. p1}, Lcom/vk/im/ui/media/audio/AudioTrack;->d()Ljava/lang/String;
+    invoke-virtual/range {p1 .. p1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->d()Ljava/lang/String;
 
     move-result-object v3
 
     .line 244
-    invoke-virtual/range {p1 .. p1}, Lcom/vk/im/ui/media/audio/AudioTrack;->e()I
+    invoke-virtual/range {p1 .. p1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->e()I
 
     move-result v5
 
     .line 245
-    invoke-virtual/range {p1 .. p1}, Lcom/vk/im/ui/media/audio/AudioTrack;->f()Ljava/lang/String;
+    invoke-virtual/range {p1 .. p1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->f()Ljava/lang/String;
 
     move-result-object v8
 
     .line 246
-    invoke-virtual/range {p1 .. p1}, Lcom/vk/im/ui/media/audio/AudioTrack;->g()Ljava/lang/String;
+    invoke-virtual/range {p1 .. p1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->g()Ljava/lang/String;
 
     move-result-object v14
 
     .line 247
-    invoke-virtual/range {p1 .. p1}, Lcom/vk/im/ui/media/audio/AudioTrack;->i()I
+    invoke-virtual/range {p1 .. p1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->i()I
 
     move-result v6
 
@@ -182,23 +182,23 @@
     return-object v26
 .end method
 
-.method private final a(Lcom/vk/dto/music/MusicTrack;)Lcom/vk/im/ui/media/audio/AudioTrack;
+.method private final a(Lcom/vk/dto/music/MusicTrack;)Lcom/vk/messenger/ui/media/audio/AudioTrack;
     .locals 2
 
     .line 251
-    new-instance v0, Lcom/vk/im/ui/media/audio/AudioTrack;
+    new-instance v0, Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
-    invoke-direct {v0}, Lcom/vk/im/ui/media/audio/AudioTrack;-><init>()V
+    invoke-direct {v0}, Lcom/vk/messenger/ui/media/audio/AudioTrack;-><init>()V
 
     .line 252
     iget v1, p1, Lcom/vk/dto/music/MusicTrack;->b:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/media/audio/AudioTrack;->a(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->a(I)V
 
     .line 253
     iget v1, p1, Lcom/vk/dto/music/MusicTrack;->c:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/media/audio/AudioTrack;->b(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->b(I)V
 
     .line 254
     iget-object v1, p1, Lcom/vk/dto/music/MusicTrack;->g:Ljava/lang/String;
@@ -211,7 +211,7 @@
     const-string v1, ""
 
     :goto_0
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/media/audio/AudioTrack;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->a(Ljava/lang/String;)V
 
     .line 255
     iget-object v1, p1, Lcom/vk/dto/music/MusicTrack;->d:Ljava/lang/String;
@@ -224,12 +224,12 @@
     const-string v1, ""
 
     :goto_1
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/media/audio/AudioTrack;->b(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->b(Ljava/lang/String;)V
 
     .line 256
     iget v1, p1, Lcom/vk/dto/music/MusicTrack;->f:I
 
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/media/audio/AudioTrack;->c(I)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->c(I)V
 
     .line 257
     iget-object v1, p1, Lcom/vk/dto/music/MusicTrack;->h:Ljava/lang/String;
@@ -242,7 +242,7 @@
     const-string v1, ""
 
     :goto_2
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/media/audio/AudioTrack;->c(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->c(Ljava/lang/String;)V
 
     .line 258
     iget-object v1, p1, Lcom/vk/dto/music/MusicTrack;->n:Ljava/lang/String;
@@ -255,14 +255,14 @@
     const-string v1, ""
 
     :goto_3
-    invoke-virtual {v0, v1}, Lcom/vk/im/ui/media/audio/AudioTrack;->d(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->d(Ljava/lang/String;)V
 
     .line 259
     invoke-virtual {p1}, Lcom/vk/dto/music/MusicTrack;->h()I
 
     move-result p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/im/ui/media/audio/AudioTrack;->d(I)V
+    invoke-virtual {v0, p1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->d(I)V
 
     return-object v0
 .end method
@@ -298,11 +298,11 @@
     return-void
 .end method
 
-.method public static final synthetic b(Lcom/vkontakte/android/im/d;)Lcom/vk/im/ui/media/audio/AudioTrack;
+.method public static final synthetic b(Lcom/vkontakte/android/im/d;)Lcom/vk/messenger/ui/media/audio/AudioTrack;
     .locals 0
 
     .line 25
-    iget-object p0, p0, Lcom/vkontakte/android/im/d;->e:Lcom/vk/im/ui/media/audio/AudioTrack;
+    iget-object p0, p0, Lcom/vkontakte/android/im/d;->e:Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     return-object p0
 .end method
@@ -366,27 +366,27 @@
 
     .line 129
     :cond_0
-    iget-object v4, p0, Lcom/vkontakte/android/im/d;->e:Lcom/vk/im/ui/media/audio/AudioTrack;
+    iget-object v4, p0, Lcom/vkontakte/android/im/d;->e:Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     if-eqz v4, :cond_1
 
     goto :goto_0
 
     :cond_1
-    new-instance v4, Lcom/vk/im/ui/media/audio/AudioTrack;
+    new-instance v4, Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
-    invoke-direct {v4}, Lcom/vk/im/ui/media/audio/AudioTrack;-><init>()V
+    invoke-direct {v4}, Lcom/vk/messenger/ui/media/audio/AudioTrack;-><init>()V
 
     .line 130
     :goto_0
     iget v5, v1, Lcom/vk/dto/music/MusicTrack;->b:I
 
-    invoke-virtual {v4, v5}, Lcom/vk/im/ui/media/audio/AudioTrack;->a(I)V
+    invoke-virtual {v4, v5}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->a(I)V
 
     .line 131
     iget v5, v1, Lcom/vk/dto/music/MusicTrack;->c:I
 
-    invoke-virtual {v4, v5}, Lcom/vk/im/ui/media/audio/AudioTrack;->b(I)V
+    invoke-virtual {v4, v5}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->b(I)V
 
     .line 132
     iget-object v5, v1, Lcom/vk/dto/music/MusicTrack;->g:Ljava/lang/String;
@@ -399,7 +399,7 @@
     const-string v5, ""
 
     :goto_1
-    invoke-virtual {v4, v5}, Lcom/vk/im/ui/media/audio/AudioTrack;->a(Ljava/lang/String;)V
+    invoke-virtual {v4, v5}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->a(Ljava/lang/String;)V
 
     .line 133
     iget-object v5, v1, Lcom/vk/dto/music/MusicTrack;->d:Ljava/lang/String;
@@ -412,12 +412,12 @@
     const-string v5, ""
 
     :goto_2
-    invoke-virtual {v4, v5}, Lcom/vk/im/ui/media/audio/AudioTrack;->b(Ljava/lang/String;)V
+    invoke-virtual {v4, v5}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->b(Ljava/lang/String;)V
 
     .line 134
     iget v5, v1, Lcom/vk/dto/music/MusicTrack;->f:I
 
-    invoke-virtual {v4, v5}, Lcom/vk/im/ui/media/audio/AudioTrack;->c(I)V
+    invoke-virtual {v4, v5}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->c(I)V
 
     .line 135
     iget-object v1, v1, Lcom/vk/dto/music/MusicTrack;->h:Ljava/lang/String;
@@ -430,12 +430,12 @@
     const-string v1, ""
 
     :goto_3
-    invoke-virtual {v4, v1}, Lcom/vk/im/ui/media/audio/AudioTrack;->c(Ljava/lang/String;)V
+    invoke-virtual {v4, v1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->c(Ljava/lang/String;)V
 
     const-string v1, ""
 
     .line 136
-    invoke-virtual {v4, v1}, Lcom/vk/im/ui/media/audio/AudioTrack;->d(Ljava/lang/String;)V
+    invoke-virtual {v4, v1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->d(Ljava/lang/String;)V
 
     .line 137
     invoke-virtual {v2}, Lcom/vkontakte/android/audio/player/p;->j()I
@@ -458,7 +458,7 @@
     const/4 v1, 0x0
 
     :goto_4
-    invoke-virtual {v4, v1}, Lcom/vk/im/ui/media/audio/AudioTrack;->a(Z)V
+    invoke-virtual {v4, v1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->a(Z)V
 
     .line 138
     invoke-virtual {v2}, Lcom/vkontakte/android/audio/player/p;->j()I
@@ -471,7 +471,7 @@
 
     div-float/2addr v1, v5
 
-    invoke-virtual {v4, v1}, Lcom/vk/im/ui/media/audio/AudioTrack;->a(F)V
+    invoke-virtual {v4, v1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->a(F)V
 
     .line 139
     sget-object v1, Lcom/vkontakte/android/audio/player/PlayerState;->PLAYING:Lcom/vkontakte/android/audio/player/PlayerState;
@@ -481,7 +481,7 @@
     const/4 v6, 0x1
 
     :cond_6
-    invoke-virtual {v4, v6}, Lcom/vk/im/ui/media/audio/AudioTrack;->b(Z)V
+    invoke-virtual {v4, v6}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->b(Z)V
 
     .line 140
     invoke-virtual {v2}, Lcom/vkontakte/android/audio/player/p;->h()I
@@ -492,10 +492,10 @@
 
     div-float/2addr v0, v5
 
-    invoke-virtual {v4, v0}, Lcom/vk/im/ui/media/audio/AudioTrack;->b(F)V
+    invoke-virtual {v4, v0}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->b(F)V
 
     .line 142
-    iput-object v4, p0, Lcom/vkontakte/android/im/d;->e:Lcom/vk/im/ui/media/audio/AudioTrack;
+    iput-object v4, p0, Lcom/vkontakte/android/im/d;->e:Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     .line 143
     iget-object v0, p0, Lcom/vkontakte/android/im/d;->c:Ljava/util/ArrayList;
@@ -552,7 +552,7 @@
 
     invoke-static {v3, v4}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {p0, v3}, Lcom/vkontakte/android/im/d;->a(Lcom/vk/dto/music/MusicTrack;)Lcom/vk/im/ui/media/audio/AudioTrack;
+    invoke-direct {p0, v3}, Lcom/vkontakte/android/im/d;->a(Lcom/vk/dto/music/MusicTrack;)Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     move-result-object v3
 
@@ -594,9 +594,9 @@
     const/4 v0, 0x0
 
     .line 152
-    check-cast v0, Lcom/vk/im/ui/media/audio/AudioTrack;
+    check-cast v0, Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
-    iput-object v0, p0, Lcom/vkontakte/android/im/d;->e:Lcom/vk/im/ui/media/audio/AudioTrack;
+    iput-object v0, p0, Lcom/vkontakte/android/im/d;->e:Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     .line 153
     invoke-direct {p0}, Lcom/vkontakte/android/im/d;->j()V
@@ -626,13 +626,13 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/vk/im/ui/media/audio/b;
+    check-cast v2, Lcom/vk/messenger/ui/media/audio/b;
 
     move-object v3, p0
 
-    check-cast v3, Lcom/vk/im/ui/media/audio/a;
+    check-cast v3, Lcom/vk/messenger/ui/media/audio/a;
 
-    invoke-interface {v2, v3}, Lcom/vk/im/ui/media/audio/b;->a(Lcom/vk/im/ui/media/audio/a;)V
+    invoke-interface {v2, v3}, Lcom/vk/messenger/ui/media/audio/b;->a(Lcom/vk/messenger/ui/media/audio/a;)V
 
     add-int/lit8 v1, v1, 0x1
 
@@ -688,10 +688,10 @@
     move-result-object v2
 
     .line 293
-    check-cast v2, Lcom/vk/im/ui/media/audio/AudioTrack;
+    check-cast v2, Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     .line 263
-    invoke-direct {p0, v2}, Lcom/vkontakte/android/im/d;->a(Lcom/vk/im/ui/media/audio/AudioTrack;)Lcom/vk/dto/music/MusicTrack;
+    invoke-direct {p0, v2}, Lcom/vkontakte/android/im/d;->a(Lcom/vk/messenger/ui/media/audio/AudioTrack;)Lcom/vk/dto/music/MusicTrack;
 
     move-result-object v2
 
@@ -767,7 +767,7 @@
     return-void
 .end method
 
-.method public a(Lcom/vk/im/ui/media/audio/b;)V
+.method public a(Lcom/vk/messenger/ui/media/audio/b;)V
     .locals 1
 
     const-string v0, "e"
@@ -785,15 +785,15 @@
     return-void
 .end method
 
-.method public a(Ljava/util/List;Lcom/vk/im/ui/media/audio/AudioTrack;)V
+.method public a(Ljava/util/List;Lcom/vk/messenger/ui/media/audio/AudioTrack;)V
     .locals 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/vk/im/ui/media/audio/AudioTrack;",
+            "Lcom/vk/messenger/ui/media/audio/AudioTrack;",
             ">;",
-            "Lcom/vk/im/ui/media/audio/AudioTrack;",
+            "Lcom/vk/messenger/ui/media/audio/AudioTrack;",
             ")V"
         }
     .end annotation
@@ -885,20 +885,20 @@
     move-result-object v6
 
     .line 275
-    check-cast v6, Lcom/vk/im/ui/media/audio/AudioTrack;
+    check-cast v6, Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     .line 95
-    invoke-virtual {p2}, Lcom/vk/im/ui/media/audio/AudioTrack;->a()I
+    invoke-virtual {p2}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->a()I
 
     move-result v7
 
-    invoke-virtual {v6}, Lcom/vk/im/ui/media/audio/AudioTrack;->a()I
+    invoke-virtual {v6}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->a()I
 
     move-result v8
 
     if-ne v7, v8, :cond_3
 
-    invoke-virtual {v6}, Lcom/vk/im/ui/media/audio/AudioTrack;->i()I
+    invoke-virtual {v6}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->i()I
 
     move-result v6
 
@@ -931,17 +931,17 @@
     move-result p2
 
     .line 98
-    new-instance v1, Lcom/vk/im/ui/media/audio/AudioTrack;
+    new-instance v1, Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/im/ui/media/audio/AudioTrack;
+    check-cast p1, Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
-    invoke-direct {v1, p1}, Lcom/vk/im/ui/media/audio/AudioTrack;-><init>(Lcom/vk/im/ui/media/audio/AudioTrack;)V
+    invoke-direct {v1, p1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;-><init>(Lcom/vk/messenger/ui/media/audio/AudioTrack;)V
 
-    iput-object v1, p0, Lcom/vkontakte/android/im/d;->e:Lcom/vk/im/ui/media/audio/AudioTrack;
+    iput-object v1, p0, Lcom/vkontakte/android/im/d;->e:Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     .line 101
     invoke-direct {p0, v0, p2}, Lcom/vkontakte/android/im/d;->a(Ljava/util/List;I)V
@@ -982,14 +982,14 @@
     move-result-object v5
 
     .line 268
-    check-cast v5, Lcom/vk/im/ui/media/audio/AudioTrack;
+    check-cast v5, Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     .line 90
-    invoke-virtual {p2}, Lcom/vk/im/ui/media/audio/AudioTrack;->a()I
+    invoke-virtual {p2}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->a()I
 
     move-result v6
 
-    invoke-virtual {v5}, Lcom/vk/im/ui/media/audio/AudioTrack;->a()I
+    invoke-virtual {v5}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->a()I
 
     move-result v5
 
@@ -1076,7 +1076,7 @@
     return-void
 .end method
 
-.method public b(Lcom/vk/im/ui/media/audio/b;)V
+.method public b(Lcom/vk/messenger/ui/media/audio/b;)V
     .locals 1
 
     const-string v0, "e"
@@ -1114,14 +1114,14 @@
     return v0
 .end method
 
-.method public d()Lcom/vk/im/ui/media/audio/AudioTrack;
+.method public d()Lcom/vk/messenger/ui/media/audio/AudioTrack;
     .locals 1
 
     .line 115
     invoke-static {}, Lcom/vk/core/util/bb;->b()V
 
     .line 116
-    iget-object v0, p0, Lcom/vkontakte/android/im/d;->e:Lcom/vk/im/ui/media/audio/AudioTrack;
+    iget-object v0, p0, Lcom/vkontakte/android/im/d;->e:Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     return-object v0
 .end method
@@ -1148,7 +1148,7 @@
     .locals 7
 
     .line 186
-    iget-object v0, p0, Lcom/vkontakte/android/im/d;->e:Lcom/vk/im/ui/media/audio/AudioTrack;
+    iget-object v0, p0, Lcom/vkontakte/android/im/d;->e:Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     if-eqz v0, :cond_6
 
@@ -1193,18 +1193,18 @@
     move-result-object v3
 
     .line 286
-    check-cast v3, Lcom/vk/im/ui/media/audio/AudioTrack;
+    check-cast v3, Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     .line 187
-    invoke-virtual {v3}, Lcom/vk/im/ui/media/audio/AudioTrack;->a()I
+    invoke-virtual {v3}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->a()I
 
     move-result v3
 
-    iget-object v6, p0, Lcom/vkontakte/android/im/d;->e:Lcom/vk/im/ui/media/audio/AudioTrack;
+    iget-object v6, p0, Lcom/vkontakte/android/im/d;->e:Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     if-eqz v6, :cond_1
 
-    invoke-virtual {v6}, Lcom/vk/im/ui/media/audio/AudioTrack;->a()I
+    invoke-virtual {v6}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->a()I
 
     move-result v6
 
@@ -1254,7 +1254,7 @@
 
     .line 194
     :goto_3
-    new-instance v0, Lcom/vk/im/ui/media/audio/AudioTrack;
+    new-instance v0, Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     iget-object v2, p0, Lcom/vkontakte/android/im/d;->c:Ljava/util/ArrayList;
 
@@ -1266,11 +1266,11 @@
 
     invoke-static {v2, v3}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast v2, Lcom/vk/im/ui/media/audio/AudioTrack;
+    check-cast v2, Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
-    invoke-direct {v0, v2}, Lcom/vk/im/ui/media/audio/AudioTrack;-><init>(Lcom/vk/im/ui/media/audio/AudioTrack;)V
+    invoke-direct {v0, v2}, Lcom/vk/messenger/ui/media/audio/AudioTrack;-><init>(Lcom/vk/messenger/ui/media/audio/AudioTrack;)V
 
-    iput-object v0, p0, Lcom/vkontakte/android/im/d;->e:Lcom/vk/im/ui/media/audio/AudioTrack;
+    iput-object v0, p0, Lcom/vkontakte/android/im/d;->e:Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     .line 196
     invoke-direct {p0}, Lcom/vkontakte/android/im/d;->k()Ljava/util/List;

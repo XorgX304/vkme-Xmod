@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static final a(Landroid/content/Context;)Lcom/vk/imageloader/view/b;
+.method public static final a(Landroid/content/Context;)Lcom/vk/messengerageloader/view/b;
     .locals 12
 
     const-string v0, "context"
@@ -12,11 +12,11 @@
     invoke-static {p0, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
-    new-instance v0, Lcom/vk/imageloader/view/b;
+    new-instance v0, Lcom/vk/messengerageloader/view/b;
 
     const/4 v7, 0x3
 
-    invoke-direct {v0, p0, v7}, Lcom/vk/imageloader/view/b;-><init>(Landroid/content/Context;I)V
+    invoke-direct {v0, p0, v7}, Lcom/vk/messengerageloader/view/b;-><init>(Landroid/content/Context;I)V
 
     const/high16 p0, 0x42280000    # 42.0f
 
@@ -66,7 +66,7 @@
     move v4, v9
 
     .line 21
-    invoke-virtual/range {v1 .. v6}, Lcom/vk/imageloader/view/b;->a(IIIII)V
+    invoke-virtual/range {v1 .. v6}, Lcom/vk/messengerageloader/view/b;->a(IIIII)V
 
     goto :goto_1
 
@@ -84,7 +84,7 @@
     move v6, v9
 
     .line 20
-    invoke-virtual/range {v1 .. v6}, Lcom/vk/imageloader/view/b;->a(IIIII)V
+    invoke-virtual/range {v1 .. v6}, Lcom/vk/messengerageloader/view/b;->a(IIIII)V
 
     goto :goto_1
 
@@ -102,7 +102,7 @@
     move v5, v9
 
     .line 19
-    invoke-virtual/range {v1 .. v6}, Lcom/vk/imageloader/view/b;->a(IIIII)V
+    invoke-virtual/range {v1 .. v6}, Lcom/vk/messengerageloader/view/b;->a(IIIII)V
 
     :goto_1
     packed-switch v11, :pswitch_data_1
@@ -125,7 +125,7 @@
 
     move v2, v11
 
-    invoke-virtual/range {v1 .. v6}, Lcom/vk/imageloader/view/b;->b(IIIII)V
+    invoke-virtual/range {v1 .. v6}, Lcom/vk/messengerageloader/view/b;->b(IIIII)V
 
     goto :goto_2
 
@@ -145,7 +145,7 @@
 
     move v2, v11
 
-    invoke-virtual/range {v1 .. v6}, Lcom/vk/imageloader/view/b;->b(IIIII)V
+    invoke-virtual/range {v1 .. v6}, Lcom/vk/messengerageloader/view/b;->b(IIIII)V
 
     goto :goto_2
 
@@ -167,7 +167,7 @@
 
     move v2, v11
 
-    invoke-virtual/range {v1 .. v6}, Lcom/vk/imageloader/view/b;->b(IIIII)V
+    invoke-virtual/range {v1 .. v6}, Lcom/vk/messengerageloader/view/b;->b(IIIII)V
 
     :goto_2
     add-int/lit8 v11, v11, 0x1
@@ -194,7 +194,7 @@
     .end packed-switch
 .end method
 
-.method public static final b(Landroid/content/Context;)Lcom/vk/imageloader/view/b;
+.method public static final b(Landroid/content/Context;)Lcom/vk/messengerageloader/view/b;
     .locals 10
 
     const-string v0, "context"
@@ -202,11 +202,11 @@
     invoke-static {p0, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 34
-    new-instance v0, Lcom/vk/imageloader/view/b;
+    new-instance v0, Lcom/vk/messengerageloader/view/b;
 
     const/4 v7, 0x6
 
-    invoke-direct {v0, p0, v7}, Lcom/vk/imageloader/view/b;-><init>(Landroid/content/Context;I)V
+    invoke-direct {v0, p0, v7}, Lcom/vk/messengerageloader/view/b;-><init>(Landroid/content/Context;I)V
 
     const/high16 p0, 0x42280000    # 42.0f
 
@@ -249,7 +249,7 @@
     move v4, p0
 
     .line 46
-    invoke-virtual/range {v1 .. v6}, Lcom/vk/imageloader/view/b;->a(IIIII)V
+    invoke-virtual/range {v1 .. v6}, Lcom/vk/messengerageloader/view/b;->a(IIIII)V
 
     goto :goto_1
 
@@ -267,7 +267,7 @@
     move v5, p0
 
     .line 45
-    invoke-virtual/range {v1 .. v6}, Lcom/vk/imageloader/view/b;->a(IIIII)V
+    invoke-virtual/range {v1 .. v6}, Lcom/vk/messengerageloader/view/b;->a(IIIII)V
 
     goto :goto_1
 
@@ -285,7 +285,7 @@
     move v4, p0
 
     .line 44
-    invoke-virtual/range {v1 .. v6}, Lcom/vk/imageloader/view/b;->a(IIIII)V
+    invoke-virtual/range {v1 .. v6}, Lcom/vk/messengerageloader/view/b;->a(IIIII)V
 
     goto :goto_1
 
@@ -303,7 +303,7 @@
     move v6, p0
 
     .line 43
-    invoke-virtual/range {v1 .. v6}, Lcom/vk/imageloader/view/b;->a(IIIII)V
+    invoke-virtual/range {v1 .. v6}, Lcom/vk/messengerageloader/view/b;->a(IIIII)V
 
     goto :goto_1
 
@@ -321,7 +321,7 @@
     move v6, p0
 
     .line 42
-    invoke-virtual/range {v1 .. v6}, Lcom/vk/imageloader/view/b;->a(IIIII)V
+    invoke-virtual/range {v1 .. v6}, Lcom/vk/messengerageloader/view/b;->a(IIIII)V
 
     goto :goto_1
 
@@ -339,7 +339,7 @@
     move v6, p0
 
     .line 41
-    invoke-virtual/range {v1 .. v6}, Lcom/vk/imageloader/view/b;->a(IIIII)V
+    invoke-virtual/range {v1 .. v6}, Lcom/vk/messengerageloader/view/b;->a(IIIII)V
 
     :goto_1
     const/4 v1, 0x5
@@ -372,7 +372,7 @@
     move v2, v9
 
     .line 56
-    invoke-virtual/range {v1 .. v6}, Lcom/vk/imageloader/view/b;->b(IIIII)V
+    invoke-virtual/range {v1 .. v6}, Lcom/vk/messengerageloader/view/b;->b(IIIII)V
 
     goto :goto_3
 
@@ -402,7 +402,7 @@
 
     move v2, v9
 
-    invoke-virtual/range {v1 .. v6}, Lcom/vk/imageloader/view/b;->b(IIIII)V
+    invoke-virtual/range {v1 .. v6}, Lcom/vk/messengerageloader/view/b;->b(IIIII)V
 
     goto :goto_3
 
@@ -422,7 +422,7 @@
 
     move v2, v9
 
-    invoke-virtual/range {v1 .. v6}, Lcom/vk/imageloader/view/b;->b(IIIII)V
+    invoke-virtual/range {v1 .. v6}, Lcom/vk/messengerageloader/view/b;->b(IIIII)V
 
     goto :goto_3
 
@@ -442,7 +442,7 @@
 
     move v2, v9
 
-    invoke-virtual/range {v1 .. v6}, Lcom/vk/imageloader/view/b;->b(IIIII)V
+    invoke-virtual/range {v1 .. v6}, Lcom/vk/messengerageloader/view/b;->b(IIIII)V
 
     goto :goto_3
 
@@ -462,7 +462,7 @@
 
     move v2, v9
 
-    invoke-virtual/range {v1 .. v6}, Lcom/vk/imageloader/view/b;->b(IIIII)V
+    invoke-virtual/range {v1 .. v6}, Lcom/vk/messengerageloader/view/b;->b(IIIII)V
 
     :goto_3
     add-int/lit8 v9, v9, 0x1

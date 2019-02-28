@@ -760,7 +760,7 @@
 
     move-result-object p4
 
-    invoke-static {p4}, Lcom/vk/imageloader/i;->b(Ljava/lang/String;)Z
+    invoke-static {p4}, Lcom/vk/messengerageloader/i;->b(Ljava/lang/String;)Z
 
     move-result p4
 
@@ -771,7 +771,7 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/vk/imageloader/i;->c(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {p2}, Lcom/vk/messengerageloader/i;->c(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object p2
 
@@ -813,7 +813,7 @@
 
     check-cast p4, Lcom/facebook/imagepipeline/request/b;
 
-    invoke-static {p2, p4}, Lcom/vk/imageloader/i;->a(Landroid/net/Uri;Lcom/facebook/imagepipeline/request/b;)Lio/reactivex/j;
+    invoke-static {p2, p4}, Lcom/vk/messengerageloader/i;->a(Landroid/net/Uri;Lcom/facebook/imagepipeline/request/b;)Lio/reactivex/j;
 
     move-result-object p2
 
@@ -892,7 +892,7 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/vk/imageloader/i;->b(Ljava/lang/String;)Z
+    invoke-static {p2}, Lcom/vk/messengerageloader/i;->b(Ljava/lang/String;)Z
 
     move-result p2
 
@@ -903,7 +903,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/vk/imageloader/i;->c(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {p1}, Lcom/vk/messengerageloader/i;->c(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object p1
 
@@ -947,7 +947,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/vk/imageloader/i;->f(Landroid/net/Uri;)Lio/reactivex/j;
+    invoke-static {p1}, Lcom/vk/messengerageloader/i;->f(Landroid/net/Uri;)Lio/reactivex/j;
 
     move-result-object p1
 

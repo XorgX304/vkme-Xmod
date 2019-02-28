@@ -209,15 +209,15 @@
     if-eqz p1, :cond_2
 
     .line 42
-    new-instance p1, Lcom/vk/im/ui/settings/k$a;
+    new-instance p1, Lcom/vk/messenger/ui/settings/k$a;
 
-    invoke-direct {p1}, Lcom/vk/im/ui/settings/k$a;-><init>()V
+    invoke-direct {p1}, Lcom/vk/messenger/ui/settings/k$a;-><init>()V
 
     move-object v0, p0
 
     check-cast v0, Landroid/content/Context;
 
-    invoke-virtual {p1, v0}, Lcom/vk/im/ui/settings/k$a;->c(Landroid/content/Context;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/ui/settings/k$a;->c(Landroid/content/Context;)V
 
     .line 43
     invoke-virtual {p0}, Lcom/vk/links/ImLinkRedirActivity;->finish()V
@@ -412,32 +412,32 @@
     if-eqz p1, :cond_9
 
     .line 66
-    invoke-static {}, Lcom/vk/im/ui/a/c;->a()Lcom/vk/im/ui/a/b;
+    invoke-static {}, Lcom/vk/messenger/ui/a/c;->a()Lcom/vk/messenger/ui/a/b;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/vk/im/ui/a/b;->r()Lcom/vk/im/ui/a/e;
+    invoke-interface {p1}, Lcom/vk/messenger/ui/a/b;->r()Lcom/vk/messenger/ui/a/e;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/vk/im/ui/a/e;->a()Lcom/vk/im/ui/fragments/a;
+    invoke-interface {p1}, Lcom/vk/messenger/ui/a/e;->a()Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
     .line 67
-    invoke-virtual {p1, v6}, Lcom/vk/im/ui/fragments/a;->a(I)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p1, v6}, Lcom/vk/messenger/ui/fragments/a;->a(I)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
     .line 68
-    invoke-virtual {p1}, Lcom/vk/im/ui/fragments/a;->b()Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p1}, Lcom/vk/messenger/ui/fragments/a;->b()Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
     const-string v2, "conversation_link"
 
     .line 69
-    invoke-virtual {p1, v2}, Lcom/vk/im/ui/fragments/a;->d(Ljava/lang/String;)Lcom/vk/im/ui/fragments/a;
+    invoke-virtual {p1, v2}, Lcom/vk/messenger/ui/fragments/a;->d(Ljava/lang/String;)Lcom/vk/messenger/ui/fragments/a;
 
     move-result-object p1
 
@@ -446,7 +446,7 @@
 
     check-cast v2, Landroid/content/Context;
 
-    invoke-virtual {p1, v2}, Lcom/vk/im/ui/fragments/a;->c(Landroid/content/Context;)V
+    invoke-virtual {p1, v2}, Lcom/vk/messenger/ui/fragments/a;->c(Landroid/content/Context;)V
 
     .line 71
     invoke-virtual {p0}, Lcom/vk/links/ImLinkRedirActivity;->finish()V
@@ -566,7 +566,7 @@
     move-result p1
 
     .line 93
-    sget-object v2, Lcom/vk/im/bridge/im/a;->a:Lcom/vk/im/bridge/im/a;
+    sget-object v2, Lcom/vk/messenger/bridge/im/a;->a:Lcom/vk/messenger/bridge/im/a;
 
     move-object v3, p0
 
@@ -578,7 +578,7 @@
 
     check-cast v4, Lkotlin/jvm/a/a;
 
-    invoke-virtual {v2, v3, v1, p1, v4}, Lcom/vk/im/bridge/im/a;->a(Landroid/content/Context;Ljava/lang/String;ZLkotlin/jvm/a/a;)Z
+    invoke-virtual {v2, v3, v1, p1, v4}, Lcom/vk/messenger/bridge/im/a;->a(Landroid/content/Context;Ljava/lang/String;ZLkotlin/jvm/a/a;)Z
 
     move-result p1
 

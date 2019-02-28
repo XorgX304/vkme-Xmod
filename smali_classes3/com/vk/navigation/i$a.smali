@@ -3,7 +3,7 @@
 .source "ImBottomNavigationMenuController.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/media/audio/b;
+.implements Lcom/vk/messenger/ui/media/audio/b;
 
 
 # annotations
@@ -40,7 +40,7 @@
 
 
 # virtual methods
-.method public a(Lcom/vk/im/ui/media/audio/a;)V
+.method public a(Lcom/vk/messenger/ui/media/audio/a;)V
     .locals 2
 
     const-string v0, "player"
@@ -48,14 +48,14 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 165
-    invoke-interface {p1}, Lcom/vk/im/ui/media/audio/a;->d()Lcom/vk/im/ui/media/audio/AudioTrack;
+    invoke-interface {p1}, Lcom/vk/messenger/ui/media/audio/a;->d()Lcom/vk/messenger/ui/media/audio/AudioTrack;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
     .line 166
-    invoke-virtual {p1}, Lcom/vk/im/ui/media/audio/AudioTrack;->k()Z
+    invoke-virtual {p1}, Lcom/vk/messenger/ui/media/audio/AudioTrack;->k()Z
 
     move-result p1
 

@@ -20,7 +20,7 @@
 
 .field private final p:Landroid/widget/TextView;
 
-.field private final q:Lcom/vk/imageloader/view/VKImageView;
+.field private final q:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final r:Landroid/widget/ImageView;
 
@@ -130,9 +130,9 @@
 
     invoke-static {p1, p4}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/catalog/video/holder/a;->q:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/catalog/video/holder/a;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 28
     iget-object p1, p0, Lcom/vk/catalog/video/holder/a;->a:Landroid/view/View;
@@ -161,7 +161,7 @@
     invoke-virtual {p1, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 34
-    iget-object p1, p0, Lcom/vk/catalog/video/holder/a;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/catalog/video/holder/a;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p3}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
@@ -173,7 +173,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderImage(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p1, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderImage(Landroid/graphics/drawable/Drawable;)V
 
     .line 35
     iget-object p1, p0, Lcom/vk/catalog/video/holder/a;->r:Landroid/widget/ImageView;
@@ -387,7 +387,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 53
-    iget-object v0, p0, Lcom/vk/catalog/video/holder/a;->q:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/catalog/video/holder/a;->q:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p1}, Lcom/vk/catalog/video/api/dto/VideoAlbum;->f()Lcom/vk/dto/common/Image;
 
@@ -425,7 +425,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     return-void
 .end method

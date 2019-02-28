@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <FrameLayout android:layout_gravity="center_vertical" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_margin="8.0dip">
         <com.vkontakte.android.live.base.MaskableFrameLayout android:id="@id/liveSpectatorsMaskable" android:layout_width="40.0dip" android:layout_height="40.0dip">
-            <com.vk.imageloader.view.VKCircleImageView android:layout_gravity="center" android:id="@id/liveSpectatorsImage" android:background="@drawable/highlight_circle_white" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+            <com.vk.messengerageloader.view.VKCircleImageView android:layout_gravity="center" android:id="@id/liveSpectatorsImage" android:background="@drawable/highlight_circle_white" android:layout_width="32.0dip" android:layout_height="32.0dip" />
             <FrameLayout android:layout_gravity="center" android:background="@drawable/bg_live_avatar_pink" android:layout_width="40.0dip" android:layout_height="40.0dip" />
         </com.vkontakte.android.live.base.MaskableFrameLayout>
         <View android:layout_gravity="bottom|center|right" android:id="@id/liveSpectatorsVerified" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="4.0dip" />

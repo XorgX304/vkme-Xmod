@@ -27,7 +27,7 @@
 
 .field private final q:Landroid/widget/TextView;
 
-.field private final r:Lcom/vk/imageloader/view/VKImageView;
+.field private final r:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final s:Lcom/vk/common/view/SolidColorView;
 
@@ -121,9 +121,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/vk/imageloader/view/VKImageView;
+    check-cast v0, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object v0, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/imageloader/view/VKImageView;
+    iput-object v0, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 35
     iget-object v0, p0, Lcom/vk/discover/holders/m;->a:Landroid/view/View;
@@ -406,21 +406,21 @@
     if-eqz v2, :cond_8
 
     .line 52
-    iget-object p1, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
 
     .line 53
-    iget-object p1, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     const/4 v0, 0x4
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 54
-    iget-object p1, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 56
     iget-object p1, p0, Lcom/vk/discover/holders/m;->p:Landroid/widget/TextView;
@@ -465,19 +465,19 @@
     if-nez v2, :cond_9
 
     .line 59
-    iget-object p1, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, v0}, Lcom/vk/imageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {p1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
 
     .line 60
-    iget-object p1, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, v3}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {p1, v3}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 61
-    iget-object p1, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p1, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p1, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {p1, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 63
     iget-object p1, p0, Lcom/vk/discover/holders/m;->p:Landroid/widget/TextView;
@@ -493,21 +493,21 @@
 
     .line 66
     :cond_9
-    iget-object v1, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
-    sget-object v2, Lcom/vk/imageloader/a/f;->c:Lcom/vk/imageloader/a/f;
+    sget-object v2, Lcom/vk/messengerageloader/a/f;->c:Lcom/vk/messengerageloader/a/f;
 
     check-cast v2, Lcom/facebook/imagepipeline/request/a;
 
-    invoke-virtual {v1, v2}, Lcom/vk/imageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
+    invoke-virtual {v1, v2}, Lcom/vk/messengerageloader/view/VKImageView;->setPostprocessor(Lcom/facebook/imagepipeline/request/a;)V
 
     .line 67
-    iget-object v1, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v1, v3}, Lcom/vk/imageloader/view/VKImageView;->setVisibility(I)V
+    invoke-virtual {v1, v3}, Lcom/vk/messengerageloader/view/VKImageView;->setVisibility(I)V
 
     .line 68
-    iget-object v1, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/discover/holders/m;->r:Lcom/vk/messengerageloader/view/VKImageView;
 
     if-eqz p1, :cond_a
 
@@ -522,7 +522,7 @@
     move-result-object v0
 
     :cond_a
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 70
     iget-object p1, p0, Lcom/vk/discover/holders/m;->p:Landroid/widget/TextView;

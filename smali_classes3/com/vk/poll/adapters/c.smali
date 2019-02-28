@@ -16,7 +16,7 @@
 # instance fields
 .field private final n:Landroid/widget/ProgressBar;
 
-.field private final o:Lcom/vk/imageloader/view/VKImageView;
+.field private final o:Lcom/vk/messengerageloader/view/VKImageView;
 
 
 # direct methods
@@ -75,9 +75,9 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast p1, Lcom/vk/imageloader/view/VKImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKImageView;
 
-    iput-object p1, p0, Lcom/vk/poll/adapters/c;->o:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p1, p0, Lcom/vk/poll/adapters/c;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     return-void
 .end method
@@ -99,16 +99,16 @@
     if-nez v0, :cond_1
 
     .line 26
-    iget-object v0, p0, Lcom/vk/poll/adapters/c;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/poll/adapters/c;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/view/VKImageView;->h()V
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/view/VKImageView;->h()V
 
     .line 27
-    iget-object v0, p0, Lcom/vk/poll/adapters/c;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/poll/adapters/c;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setOverlayImage(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setOverlayImage(Landroid/graphics/drawable/Drawable;)V
 
     .line 28
     iget-object v0, p0, Lcom/vk/poll/adapters/c;->n:Landroid/widget/ProgressBar;
@@ -197,7 +197,7 @@
     move-result v2
 
     .line 43
-    iget-object v3, p0, Lcom/vk/poll/adapters/c;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v3, p0, Lcom/vk/poll/adapters/c;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     sget-object v4, Lcom/vk/polls/ui/views/b;->a:Lcom/vk/polls/ui/views/b$a;
 
@@ -218,7 +218,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v3, v4}, Lcom/vk/imageloader/view/VKImageView;->setDrawableFactory(Lcom/facebook/imagepipeline/f/a;)V
+    invoke-virtual {v3, v4}, Lcom/vk/messengerageloader/view/VKImageView;->setDrawableFactory(Lcom/facebook/imagepipeline/f/a;)V
 
     .line 49
     sget-object v3, Lcom/vk/polls/ui/views/b;->a:Lcom/vk/polls/ui/views/b$a;
@@ -228,16 +228,16 @@
     move-result-object v0
 
     .line 50
-    iget-object v1, p0, Lcom/vk/poll/adapters/c;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v1, p0, Lcom/vk/poll/adapters/c;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {v0}, Lcom/vk/dto/common/ImageSize;->a()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v1, v0}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 51
-    iget-object v0, p0, Lcom/vk/poll/adapters/c;->o:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/poll/adapters/c;->o:Lcom/vk/messengerageloader/view/VKImageView;
 
     invoke-virtual {p0}, Lcom/vk/poll/adapters/c;->P()Landroid/content/Context;
 
@@ -249,7 +249,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->setOverlayImage(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->setOverlayImage(Landroid/graphics/drawable/Drawable;)V
 
     .line 53
     :goto_0

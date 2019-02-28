@@ -557,7 +557,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/vk/imageloader/i;->f(Ljava/lang/String;)Lio/reactivex/j;
+    invoke-static {v2}, Lcom/vk/messengerageloader/i;->f(Ljava/lang/String;)Lio/reactivex/j;
 
     move-result-object v2
 
@@ -968,7 +968,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/vk/imageloader/i;->f(Ljava/lang/String;)Lio/reactivex/j;
+    invoke-static {v2}, Lcom/vk/messengerageloader/i;->f(Ljava/lang/String;)Lio/reactivex/j;
 
     move-result-object v2
 

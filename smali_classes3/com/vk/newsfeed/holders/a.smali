@@ -20,7 +20,7 @@
 # instance fields
 .field private final n:Landroid/widget/LinearLayout;
 
-.field private final p:Lcom/vk/imageloader/view/VKCircleImageView;
+.field private final p:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
 .field private final q:Landroid/widget/TextView;
 
@@ -74,9 +74,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/vk/imageloader/view/VKCircleImageView;
+    check-cast p1, Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    iput-object p1, p0, Lcom/vk/newsfeed/holders/a;->p:Lcom/vk/imageloader/view/VKCircleImageView;
+    iput-object p1, p0, Lcom/vk/newsfeed/holders/a;->p:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     .line 26
     iget-object p1, p0, Lcom/vk/newsfeed/holders/a;->a:Landroid/view/View;
@@ -463,21 +463,21 @@
     if-ne v0, v1, :cond_5
 
     .line 42
-    iget-object v0, p0, Lcom/vk/newsfeed/holders/a;->p:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object v0, p0, Lcom/vk/newsfeed/holders/a;->p:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
     invoke-virtual {p1}, Lcom/vk/dto/newsfeed/Owner;->f()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/vk/imageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->a(Ljava/lang/String;)V
 
     goto :goto_4
 
     .line 44
     :cond_5
-    iget-object p1, p0, Lcom/vk/newsfeed/holders/a;->p:Lcom/vk/imageloader/view/VKCircleImageView;
+    iget-object p1, p0, Lcom/vk/newsfeed/holders/a;->p:Lcom/vk/messengerageloader/view/VKCircleImageView;
 
-    invoke-virtual {p1}, Lcom/vk/imageloader/view/VKCircleImageView;->h()V
+    invoke-virtual {p1}, Lcom/vk/messengerageloader/view/VKCircleImageView;->h()V
 
     :goto_4
     return-void

@@ -6,11 +6,11 @@
 # static fields
 .field private static final a:Ljava/lang/String; = "a"
 
-.field private static b:Ljava/util/concurrent/locks/ReentrantReadWriteLock; = null
+.field private static b:Ljava/util/concurrent/locks/ReentrantReadWriteLock;
 
-.field private static c:Ljava/lang/String; = null
+.field private static c:Ljava/lang/String;
 
-.field private static volatile d:Z = false
+.field private static volatile d:Z
 
 
 # direct methods

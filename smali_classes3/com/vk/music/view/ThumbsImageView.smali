@@ -591,9 +591,9 @@
 
     .line 166
     :cond_3
-    sget-object v0, Lcom/vk/imageloader/c;->a:Lcom/vk/imageloader/c;
+    sget-object v0, Lcom/vk/messengerageloader/c;->a:Lcom/vk/messengerageloader/c;
 
-    invoke-virtual {v0}, Lcom/vk/imageloader/c;->b()Lcom/facebook/drawee/a/a/e;
+    invoke-virtual {v0}, Lcom/vk/messengerageloader/c;->b()Lcom/facebook/drawee/a/a/e;
 
     move-result-object v0
 

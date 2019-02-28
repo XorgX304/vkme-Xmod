@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private final b:Lcom/vk/imageloader/view/VKImageView;
+.field private final b:Lcom/vk/messengerageloader/view/VKImageView;
 
 .field private final c:Landroid/widget/TextView;
 
@@ -60,11 +60,11 @@
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 21
-    new-instance p2, Lcom/vk/imageloader/view/VKImageView;
+    new-instance p2, Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-direct {p2, p1}, Lcom/vk/imageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p2, p1}, Lcom/vk/messengerageloader/view/VKImageView;-><init>(Landroid/content/Context;)V
 
-    iput-object p2, p0, Lcom/vk/identity/b/b;->b:Lcom/vk/imageloader/view/VKImageView;
+    iput-object p2, p0, Lcom/vk/identity/b/b;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     .line 22
     new-instance p2, Landroid/widget/TextView;
@@ -102,7 +102,7 @@
     invoke-virtual {p0, p2}, Lcom/vk/identity/b/b;->setOrientation(I)V
 
     .line 30
-    iget-object p3, p0, Lcom/vk/identity/b/b;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p3, p0, Lcom/vk/identity/b/b;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     const v0, 0x7f0600e7
 
@@ -110,12 +110,12 @@
 
     move-result v0
 
-    invoke-virtual {p3, v0}, Lcom/vk/imageloader/view/VKImageView;->setPlaceholderColor(I)V
+    invoke-virtual {p3, v0}, Lcom/vk/messengerageloader/view/VKImageView;->setPlaceholderColor(I)V
 
     .line 31
-    iget-object p3, p0, Lcom/vk/identity/b/b;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p3, p0, Lcom/vk/identity/b/b;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
-    invoke-virtual {p3}, Lcom/vk/imageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
+    invoke-virtual {p3}, Lcom/vk/messengerageloader/view/VKImageView;->getHierarchy()Lcom/facebook/drawee/d/b;
 
     move-result-object p3
 
@@ -140,7 +140,7 @@
     invoke-virtual {p3, v1}, Lcom/facebook/drawee/generic/a;->a(Lcom/facebook/drawee/generic/RoundingParams;)V
 
     .line 32
-    iget-object p3, p0, Lcom/vk/identity/b/b;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object p3, p0, Lcom/vk/identity/b/b;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     check-cast p3, Landroid/view/View;
 
@@ -309,7 +309,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 52
-    iget-object v0, p0, Lcom/vk/identity/b/b;->b:Lcom/vk/imageloader/view/VKImageView;
+    iget-object v0, p0, Lcom/vk/identity/b/b;->b:Lcom/vk/messengerageloader/view/VKImageView;
 
     const/16 v1, 0x96
 
@@ -317,7 +317,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/vk/imageloader/view/VKImageView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/vk/messengerageloader/view/VKImageView;->a(Ljava/lang/String;)V
 
     .line 53
     iget-object v0, p0, Lcom/vk/identity/b/b;->c:Landroid/widget/TextView;

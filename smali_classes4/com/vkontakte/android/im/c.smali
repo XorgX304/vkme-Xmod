@@ -5,7 +5,7 @@
 # interfaces
 .implements Lcom/vk/audio/i;
 .implements Lcom/vk/core/service/c;
-.implements Lcom/vk/im/ui/media/a/a;
+.implements Lcom/vk/messenger/ui/media/a/a;
 
 
 # instance fields
@@ -23,7 +23,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/ArrayList<",
-            "Lcom/vk/im/ui/media/a/b;",
+            "Lcom/vk/messenger/ui/media/a/b;",
             ">;"
         }
     .end annotation
@@ -473,13 +473,13 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/vk/im/ui/media/a/b;
+    check-cast v2, Lcom/vk/messenger/ui/media/a/b;
 
     move-object v3, p0
 
-    check-cast v3, Lcom/vk/im/ui/media/a/a;
+    check-cast v3, Lcom/vk/messenger/ui/media/a/a;
 
-    invoke-interface {v2, v3}, Lcom/vk/im/ui/media/a/b;->a(Lcom/vk/im/ui/media/a/a;)V
+    invoke-interface {v2, v3}, Lcom/vk/messenger/ui/media/a/b;->a(Lcom/vk/messenger/ui/media/a/a;)V
 
     add-int/lit8 v1, v1, 0x1
 
@@ -619,7 +619,7 @@
     return-void
 .end method
 
-.method public a(Lcom/vk/im/ui/media/a/b;)V
+.method public a(Lcom/vk/messenger/ui/media/a/b;)V
     .locals 1
 
     const-string v0, "e"
@@ -792,7 +792,7 @@
     return-void
 .end method
 
-.method public b(Lcom/vk/im/ui/media/a/b;)V
+.method public b(Lcom/vk/messenger/ui/media/a/b;)V
     .locals 1
 
     const-string v0, "e"

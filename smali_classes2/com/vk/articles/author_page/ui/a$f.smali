@@ -75,13 +75,13 @@
     :goto_0
     iget-object v0, p0, Lcom/vk/articles/author_page/ui/a$f;->a:Lcom/vk/articles/author_page/ui/a;
 
-    invoke-static {v0}, Lcom/vk/articles/author_page/ui/a;->g(Lcom/vk/articles/author_page/ui/a;)Lcom/vk/imageloader/view/VKImageView;
+    invoke-static {v0}, Lcom/vk/articles/author_page/ui/a;->g(Lcom/vk/articles/author_page/ui/a;)Lcom/vk/messengerageloader/view/VKImageView;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0, p2}, Lcom/vk/imageloader/view/VKImageView;->setAlpha(F)V
+    invoke-virtual {v0, p2}, Lcom/vk/messengerageloader/view/VKImageView;->setAlpha(F)V
 
     .line 170
     :cond_1

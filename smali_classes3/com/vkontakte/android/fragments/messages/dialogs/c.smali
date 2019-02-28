@@ -16,11 +16,11 @@
 
 .field private final b:Landroid/content/Context;
 
-.field private final c:Lcom/vk/im/engine/d;
+.field private final c:Lcom/vk/messenger/engine/d;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/vk/im/engine/d;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/vk/messenger/engine/d;)V
     .locals 1
 
     const-string v0, "context"
@@ -36,7 +36,7 @@
 
     iput-object p1, p0, Lcom/vkontakte/android/fragments/messages/dialogs/c;->b:Landroid/content/Context;
 
-    iput-object p2, p0, Lcom/vkontakte/android/fragments/messages/dialogs/c;->c:Lcom/vk/im/engine/d;
+    iput-object p2, p0, Lcom/vkontakte/android/fragments/messages/dialogs/c;->c:Lcom/vk/messenger/engine/d;
 
     .line 22
     new-instance p1, Landroid/util/SparseArray;
@@ -96,9 +96,9 @@
     .line 51
     sget-object v0, Lcom/vkontakte/android/shortcuts/b;->a:Lcom/vkontakte/android/shortcuts/b;
 
-    iget-object v1, p0, Lcom/vkontakte/android/fragments/messages/dialogs/c;->c:Lcom/vk/im/engine/d;
+    iget-object v1, p0, Lcom/vkontakte/android/fragments/messages/dialogs/c;->c:Lcom/vk/messenger/engine/d;
 
-    invoke-virtual {v0, v1, p1}, Lcom/vkontakte/android/shortcuts/b;->a(Lcom/vk/im/engine/d;I)Lcom/vkontakte/android/shortcuts/a;
+    invoke-virtual {v0, v1, p1}, Lcom/vkontakte/android/shortcuts/b;->a(Lcom/vk/messenger/engine/d;I)Lcom/vkontakte/android/shortcuts/a;
 
     move-result-object p1
 
@@ -203,9 +203,9 @@
     move-result-object v0
 
     .line 31
-    sget-object v1, Lcom/vk/im/engine/concurrent/a;->b:Lcom/vk/im/engine/concurrent/a;
+    sget-object v1, Lcom/vk/messenger/engine/concurrent/a;->b:Lcom/vk/messenger/engine/concurrent/a;
 
-    invoke-virtual {v1}, Lcom/vk/im/engine/concurrent/a;->d()Lio/reactivex/p;
+    invoke-virtual {v1}, Lcom/vk/messenger/engine/concurrent/a;->d()Lio/reactivex/p;
 
     move-result-object v1
 

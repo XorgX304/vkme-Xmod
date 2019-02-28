@@ -43,7 +43,7 @@
     .locals 1
 
     .line 184
-    invoke-static {}, Lcom/vk/imageloader/i;->b()V
+    invoke-static {}, Lcom/vk/messengerageloader/i;->b()V
 
     .line 185
     iget-object v0, p0, Lcom/vkontakte/android/fragments/ah$8$1;->a:Lcom/vk/core/dialogs/a;

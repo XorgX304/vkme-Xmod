@@ -51,22 +51,22 @@
     .locals 0
 
     .line 15
-    check-cast p1, Lcom/vk/im/engine/models/b;
+    check-cast p1, Lcom/vk/messenger/engine/models/b;
 
-    invoke-virtual {p0, p1}, Lcom/vk/stories/d$b;->a(Lcom/vk/im/engine/models/b;)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Lcom/vk/stories/d$b;->a(Lcom/vk/messenger/engine/models/b;)Ljava/lang/String;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final a(Lcom/vk/im/engine/models/b;)Ljava/lang/String;
+.method public final a(Lcom/vk/messenger/engine/models/b;)Ljava/lang/String;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/vk/im/engine/models/b<",
-            "Lcom/vk/im/engine/models/dialogs/Dialog;",
+            "Lcom/vk/messenger/engine/models/b<",
+            "Lcom/vk/messenger/engine/models/dialogs/Dialog;",
             ">;)",
             "Ljava/lang/String;"
         }
@@ -79,7 +79,7 @@
     .line 31
     iget v0, p0, Lcom/vk/stories/d$b;->a:I
 
-    invoke-virtual {p1, v0}, Lcom/vk/im/engine/models/b;->h(I)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Lcom/vk/messenger/engine/models/b;->h(I)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -88,9 +88,9 @@
     invoke-static {}, Lkotlin/jvm/internal/l;->a()V
 
     :cond_0
-    check-cast p1, Lcom/vk/im/engine/models/dialogs/Dialog;
+    check-cast p1, Lcom/vk/messenger/engine/models/dialogs/Dialog;
 
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/dialogs/Dialog;->n()Lcom/vk/im/engine/models/dialogs/ChatSettings;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/dialogs/Dialog;->n()Lcom/vk/messenger/engine/models/dialogs/ChatSettings;
 
     move-result-object p1
 
@@ -99,7 +99,7 @@
     invoke-static {}, Lkotlin/jvm/internal/l;->a()V
 
     :cond_1
-    invoke-virtual {p1}, Lcom/vk/im/engine/models/dialogs/ChatSettings;->f()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/vk/messenger/engine/models/dialogs/ChatSettings;->f()Ljava/lang/String;
 
     move-result-object p1
 

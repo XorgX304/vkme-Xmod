@@ -3,7 +3,7 @@
 .source "VkStickersBridge.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/a/p;
+.implements Lcom/vk/messenger/ui/a/p;
 
 
 # static fields
@@ -56,7 +56,7 @@
     .locals 0
 
     .line 7
-    invoke-static {p0, p1}, Lcom/vk/im/ui/a/p$a;->a(Lcom/vk/im/ui/a/p;I)Z
+    invoke-static {p0, p1}, Lcom/vk/messenger/ui/a/p$a;->a(Lcom/vk/messenger/ui/a/p;I)Z
 
     move-result p1
 
@@ -67,7 +67,7 @@
     .locals 0
 
     .line 7
-    invoke-static {p0}, Lcom/vk/im/ui/a/p$a;->c(Lcom/vk/im/ui/a/p;)V
+    invoke-static {p0}, Lcom/vk/messenger/ui/a/p$a;->c(Lcom/vk/messenger/ui/a/p;)V
 
     return-void
 .end method
@@ -76,7 +76,7 @@
     .locals 0
 
     .line 7
-    invoke-static {p0}, Lcom/vk/im/ui/a/p$a;->d(Lcom/vk/im/ui/a/p;)V
+    invoke-static {p0}, Lcom/vk/messenger/ui/a/p$a;->d(Lcom/vk/messenger/ui/a/p;)V
 
     return-void
 .end method
@@ -85,7 +85,7 @@
     .locals 0
 
     .line 7
-    invoke-static {p0}, Lcom/vk/im/ui/a/p$a;->a(Lcom/vk/im/ui/a/p;)V
+    invoke-static {p0}, Lcom/vk/messenger/ui/a/p$a;->a(Lcom/vk/messenger/ui/a/p;)V
 
     return-void
 .end method
@@ -94,7 +94,7 @@
     .locals 1
 
     .line 7
-    invoke-static {p0}, Lcom/vk/im/ui/a/p$a;->b(Lcom/vk/im/ui/a/p;)Z
+    invoke-static {p0}, Lcom/vk/messenger/ui/a/p$a;->b(Lcom/vk/messenger/ui/a/p;)Z
 
     move-result v0
 

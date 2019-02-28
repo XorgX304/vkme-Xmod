@@ -3,7 +3,7 @@
 .source "VkImReportBridge.kt"
 
 # interfaces
-.implements Lcom/vk/im/ui/a/m;
+.implements Lcom/vk/messenger/ui/a/m;
 
 
 # static fields
