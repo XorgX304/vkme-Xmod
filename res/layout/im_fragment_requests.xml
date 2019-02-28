@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" app:title="@string/vkim_message_requests" style="@style/VkIm.Toolbar.Secondary" />
+    <TextView android:id="@id/decline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/vkim_msg_request_reject_all" android:layout_alignParentBottom="true" style="@style/VkIm.RejectButton" />
+    <View android:id="@id/divider" android:layout_above="@id/decline" style="?im_toolbar_shadow_style_thick" />
+    <FrameLayout android:id="@id/im_dialogs_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/divider" android:layout_below="@id/toolbar" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/toolbar_shadow" android:layout_below="@id/toolbar" android:contentDescription="@null" />
+</RelativeLayout>

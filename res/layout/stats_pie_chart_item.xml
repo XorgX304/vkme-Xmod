@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <View android:layout_gravity="start" android:id="@id/left_anchor" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_margin="8.0dip" />
+        <com.vkontakte.android.ui.BadooTextView android:textSize="13.0dip" android:textColor="@color/caption_gray" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="44.0dip" android:text="@string/stats_unique_visitors_and_views" android:maxLines="1" android:textAllCaps="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="84.0dip" app:typeface="Medium" />
+        <View android:layout_gravity="end" android:id="@id/right_anchor" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_margin="8.0dip" />
+        <com.vkontakte.android.ui.BadooTextView android:textSize="13.0dip" android:textColor="@color/header_blue" android:gravity="center_vertical" android:layout_gravity="end" android:id="@id/spinner" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/stats_range_by_days" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:typeface="Medium" />
+    </FrameLayout>
+    <com.vk.stats.view.SinglePieChartView android:id="@id/chart" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+</LinearLayout>

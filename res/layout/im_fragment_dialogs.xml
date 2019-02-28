@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:background="?background_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/im_appbar" style="?im_appbar_collapsing_style" />
+    <FrameLayout android:id="@id/im_dialogs_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <android.support.design.widget.FloatingActionButton android:id="@id/vkim_fab" android:padding="14.0dip" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginBottom="16.0dip" android:layout_marginEnd="16.0dip" app:backgroundTint="?modal_card_background" app:elevation="8.0dip" app:fabCustomSize="56.0dip" app:layout_anchor="@id/im_dialogs_list_container" app:layout_anchorGravity="end|bottom|center" app:layout_behavior="com.vk.core.ui.VkFabBehaviour" app:src="@drawable/ic_write_outline_28_new_accent" />
+    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <View style="?im_toolbar_shadow_style_thin" />
+        <me.zhanghai.android.materialprogressbar.MaterialProgressBar android:id="@id/im_sync_state_progress_bar" android:visibility="invisible" style="?im_dialogs_state_style" />
+    </FrameLayout>
+    <ViewStub android:id="@id/im_dialogs_search_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" />
+</android.support.design.widget.CoordinatorLayout>

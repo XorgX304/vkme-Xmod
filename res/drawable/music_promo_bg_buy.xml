@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <ripple android:color="#32001833">
+            <item>
+                <shape>
+                    <solid android:color="#fffe2c5b" />
+                    <corners android:radius="@dimen/music_promo_btn_corners" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="#ff71757a" />
+            <corners android:radius="@dimen/music_promo_btn_corners" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#ccfe2c5b" />
+            <corners android:radius="@dimen/music_promo_btn_corners" />
+        </shape>
+    </item>
+</selector>

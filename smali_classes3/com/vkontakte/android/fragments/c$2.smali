@@ -1,0 +1,63 @@
+.class Lcom/vkontakte/android/fragments/c$2;
+.super Ljava/lang/Object;
+.source "BarcodeShareFragment.java"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/vkontakte/android/fragments/c;->H()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/vkontakte/android/fragments/c;
+
+
+# direct methods
+.method constructor <init>(Lcom/vkontakte/android/fragments/c;)V
+    .locals 0
+
+    .line 103
+    iput-object p1, p0, Lcom/vkontakte/android/fragments/c$2;->a:Lcom/vkontakte/android/fragments/c;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onClick(Landroid/view/View;)V
+    .locals 1
+
+    .line 106
+    iget-object p1, p0, Lcom/vkontakte/android/fragments/c$2;->a:Lcom/vkontakte/android/fragments/c;
+
+    invoke-static {p1}, Lcom/vkontakte/android/fragments/c;->b(Lcom/vkontakte/android/fragments/c;)Lcom/vk/media/camera/c$b;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_0
+
+    .line 107
+    iget-object p1, p0, Lcom/vkontakte/android/fragments/c$2;->a:Lcom/vkontakte/android/fragments/c;
+
+    invoke-static {p1}, Lcom/vkontakte/android/fragments/c;->b(Lcom/vkontakte/android/fragments/c;)Lcom/vk/media/camera/c$b;
+
+    move-result-object p1
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0}, Lcom/vk/media/camera/c$b;->a(Landroid/hardware/Camera$AutoFocusCallback;)V
+
+    :cond_0
+    return-void
+.end method

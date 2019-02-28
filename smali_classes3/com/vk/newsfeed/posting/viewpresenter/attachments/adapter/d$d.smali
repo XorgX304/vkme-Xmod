@@ -1,0 +1,60 @@
+.class final Lcom/vk/newsfeed/posting/viewpresenter/attachments/adapter/d$d;
+.super Ljava/lang/Object;
+.source "PostingAttachmentsAdapter.kt"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/vk/newsfeed/posting/viewpresenter/attachments/adapter/d;->a(Landroid/support/v7/widget/RecyclerView$x;I)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/vk/dto/common/Attachment;
+
+.field final synthetic b:Lcom/vk/newsfeed/posting/viewpresenter/attachments/adapter/d;
+
+.field final synthetic c:Landroid/support/v7/widget/RecyclerView$x;
+
+
+# direct methods
+.method constructor <init>(Lcom/vk/dto/common/Attachment;Lcom/vk/newsfeed/posting/viewpresenter/attachments/adapter/d;Landroid/support/v7/widget/RecyclerView$x;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/vk/newsfeed/posting/viewpresenter/attachments/adapter/d$d;->a:Lcom/vk/dto/common/Attachment;
+
+    iput-object p2, p0, Lcom/vk/newsfeed/posting/viewpresenter/attachments/adapter/d$d;->b:Lcom/vk/newsfeed/posting/viewpresenter/attachments/adapter/d;
+
+    iput-object p3, p0, Lcom/vk/newsfeed/posting/viewpresenter/attachments/adapter/d$d;->c:Landroid/support/v7/widget/RecyclerView$x;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 1
+
+    .line 87
+    iget-object p1, p0, Lcom/vk/newsfeed/posting/viewpresenter/attachments/adapter/d$d;->b:Lcom/vk/newsfeed/posting/viewpresenter/attachments/adapter/d;
+
+    invoke-static {p1}, Lcom/vk/newsfeed/posting/viewpresenter/attachments/adapter/d;->a(Lcom/vk/newsfeed/posting/viewpresenter/attachments/adapter/d;)Lcom/vk/newsfeed/posting/viewpresenter/attachments/a;
+
+    move-result-object p1
+
+    iget-object v0, p0, Lcom/vk/newsfeed/posting/viewpresenter/attachments/adapter/d$d;->a:Lcom/vk/dto/common/Attachment;
+
+    invoke-interface {p1, v0}, Lcom/vk/newsfeed/posting/viewpresenter/attachments/a;->b(Lcom/vk/dto/common/Attachment;)V
+
+    return-void
+.end method

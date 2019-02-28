@@ -1,0 +1,66 @@
+.class public final Lcom/vk/im/ui/settings/g$d;
+.super Ljava/lang/Object;
+.source "ImSettingsDataFragment.kt"
+
+# interfaces
+.implements Lcom/vk/im/ui/views/settings/SwitchSettingsView$c;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/vk/im/ui/settings/g;->a(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/vk/im/ui/settings/g;
+
+
+# direct methods
+.method constructor <init>(Lcom/vk/im/ui/settings/g;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 56
+    iput-object p1, p0, Lcom/vk/im/ui/settings/g$d;->a:Lcom/vk/im/ui/settings/g;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Lcom/vk/im/ui/views/settings/SwitchSettingsView;ZZ)V
+    .locals 1
+
+    const-string v0, "view"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
+
+    if-nez p3, :cond_0
+
+    return-void
+
+    .line 59
+    :cond_0
+    sget-object p1, Lcom/vk/im/ui/b;->b:Lcom/vk/im/ui/b;
+
+    invoke-virtual {p1, p2}, Lcom/vk/im/ui/b;->e(Z)V
+
+    .line 60
+    iget-object p1, p0, Lcom/vk/im/ui/settings/g$d;->a:Lcom/vk/im/ui/settings/g;
+
+    invoke-static {p1}, Lcom/vk/im/ui/settings/g;->a(Lcom/vk/im/ui/settings/g;)V
+
+    return-void
+.end method

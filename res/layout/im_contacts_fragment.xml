@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:id="@id/im_appbar" style="?im_appbar_collapsing_style">
+        <android.support.v7.widget.Toolbar android:id="@id/im_toolbar" android:background="@null" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_marginTop="16.0dip" style="@style/VkIm.Toolbar.Style">
+            <TextView android:textAppearance="@style/VkIm.Toolbar.AppIm.Title" android:id="@id/vkim_toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/im_accessibility_contacts_tab" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout android:id="@id/vkim_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <View app:layout_anchor="@id/vkim_list_container" app:layout_anchorGravity="top" app:layout_behavior="@string/appbar_scrolling_view_behavior" style="?im_toolbar_shadow_style_thin" />
+    <ViewStub android:id="@id/im_contacts_search_stub" android:inflatedId="@id/im_contacts_search_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" />
+</android.support.design.widget.CoordinatorLayout>

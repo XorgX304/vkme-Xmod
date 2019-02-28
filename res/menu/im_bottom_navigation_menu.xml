@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_contacts_outline_28" android:id="@id/im_contacts_tab" android:title="" android:contentDescription="@string/im_accessibility_contacts_tab" />
+    <item android:icon="@drawable/ic_message_outline_28" android:id="@id/im_messages_tab" android:title="" android:contentDescription="@string/im_accessibility_messages_tab" />
+    <item android:icon="@drawable/ic_account_outline_28" android:id="@id/im_settings_tab" android:title="" android:contentDescription="@string/im_accessibility_settings_tab" />
+</menu>

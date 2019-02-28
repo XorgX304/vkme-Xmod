@@ -1,0 +1,47 @@
+.class Lcom/vkontakte/android/activities/SignupActivity$12;
+.super Ljava/lang/Object;
+.source "SignupActivity.java"
+
+# interfaces
+.implements Lcom/vkontakte/android/c/g;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/vkontakte/android/activities/SignupActivity;->c(I)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/vkontakte/android/activities/SignupActivity;
+
+
+# direct methods
+.method constructor <init>(Lcom/vkontakte/android/activities/SignupActivity;)V
+    .locals 0
+
+    .line 286
+    iput-object p1, p0, Lcom/vkontakte/android/activities/SignupActivity$12;->a:Lcom/vkontakte/android/activities/SignupActivity;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()V
+    .locals 1
+
+    .line 289
+    iget-object v0, p0, Lcom/vkontakte/android/activities/SignupActivity$12;->a:Lcom/vkontakte/android/activities/SignupActivity;
+
+    invoke-static {v0}, Lcom/vkontakte/android/activities/SignupActivity;->i(Lcom/vkontakte/android/activities/SignupActivity;)V
+
+    return-void
+.end method

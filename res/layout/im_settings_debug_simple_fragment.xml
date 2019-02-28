@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?background_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" app:title="@string/vkim_settings_debug" style="@style/VkIm.Toolbar.Secondary" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/toolbar">
+        <LinearLayout android:orientation="vertical" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.vk.im.ui.views.settings.LabelSettingsView android:id="@id/save_logs" app:vkim_titleText="@string/im_settings_save_logs" style="@style/VkIm.Settings.Label.Normal" />
+        </LinearLayout>
+    </ScrollView>
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/toolbar_shadow" android:layout_below="@id/toolbar" android:contentDescription="@null" />
+</RelativeLayout>

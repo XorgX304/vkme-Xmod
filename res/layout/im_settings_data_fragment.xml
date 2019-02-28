@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?background_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" app:title="@string/vkim_settings_data" style="@style/VkIm.Toolbar.Secondary" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/toolbar">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.vk.im.ui.views.settings.SwitchSettingsView android:id="@id/compress_photo" android:layout_marginTop="8.0dip" app:vkim_titleText="@string/vkim_settings_compress_photo" style="@style/VkIm.Settings.Label.Normal" />
+            <com.vk.im.ui.views.settings.SwitchSettingsView android:id="@id/compress_video" app:vkim_titleText="@string/vkim_settings_compress_video" style="@style/VkIm.Settings.Label.Normal" />
+            <com.vk.im.ui.views.settings.DividerSettingsView style="@style/VkIm.Settings.Divider" />
+            <com.vk.im.ui.views.settings.LabelSettingsView android:id="@id/clear_image_cache" app:vkim_titleText="@string/vkim_settings_clear_image_cache" style="@style/VkIm.Settings.Label.Normal" />
+            <com.vk.im.ui.views.settings.LabelSettingsView android:id="@id/clear_msg_cache" app:vkim_titleText="@string/vkim_settings_clear_msg_cache" style="@style/VkIm.Settings.Label.Normal" />
+            <com.vk.im.ui.views.settings.LabelSettingsView android:id="@id/clear_contacts" app:vkim_subtitleText="" app:vkim_titleText="@string/vkim_settings_clear_contacts" style="@style/VkIm.Settings.Label.Normal" />
+        </LinearLayout>
+    </ScrollView>
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/toolbar_shadow" android:layout_below="@id/toolbar" android:contentDescription="@null" />
+</RelativeLayout>

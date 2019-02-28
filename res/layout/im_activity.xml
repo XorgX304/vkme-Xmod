@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vk.navigation.ImRootView android:id="@id/fragment_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.vk.core.view.BottomMenuView android:layout_gravity="bottom" android:id="@id/im_bottom_navigation" android:background="?im_app_background_tabbar" android:layout_width="fill_parent" android:layout_height="@dimen/vkim_bottom_nav_height" app:defaultTintColor="?im_tabbar_icon_inactive" app:selectedTintColor="?im_tabbar_icon_active" />
+    <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="51.0dip">
+        <View android:id="@id/im_bottom_shadow" android:background="@drawable/bottombar_shadow" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+    </FrameLayout>
+</com.vk.navigation.ImRootView>

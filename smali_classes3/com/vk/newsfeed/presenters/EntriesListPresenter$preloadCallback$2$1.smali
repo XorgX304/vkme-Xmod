@@ -1,0 +1,91 @@
+.class final Lcom/vk/newsfeed/presenters/EntriesListPresenter$preloadCallback$2$1;
+.super Ljava/lang/Object;
+.source "EntriesListPresenter.kt"
+
+# interfaces
+.implements Lcom/vk/lists/w;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/vk/newsfeed/presenters/EntriesListPresenter$preloadCallback$2;->b()Lcom/vk/lists/w;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/vk/newsfeed/presenters/EntriesListPresenter$preloadCallback$2;
+
+
+# direct methods
+.method constructor <init>(Lcom/vk/newsfeed/presenters/EntriesListPresenter$preloadCallback$2;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/vk/newsfeed/presenters/EntriesListPresenter$preloadCallback$2$1;->a:Lcom/vk/newsfeed/presenters/EntriesListPresenter$preloadCallback$2;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(I)V
+    .locals 3
+
+    .line 129
+    iget-object v0, p0, Lcom/vk/newsfeed/presenters/EntriesListPresenter$preloadCallback$2$1;->a:Lcom/vk/newsfeed/presenters/EntriesListPresenter$preloadCallback$2;
+
+    iget-object v0, v0, Lcom/vk/newsfeed/presenters/EntriesListPresenter$preloadCallback$2;->this$0:Lcom/vk/newsfeed/presenters/d;
+
+    invoke-virtual {v0}, Lcom/vk/newsfeed/presenters/d;->u()Lcom/vk/newsfeed/adapters/d;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/vk/newsfeed/presenters/EntriesListPresenter$preloadCallback$2$1;->a:Lcom/vk/newsfeed/presenters/EntriesListPresenter$preloadCallback$2;
+
+    iget-object v1, v1, Lcom/vk/newsfeed/presenters/EntriesListPresenter$preloadCallback$2;->this$0:Lcom/vk/newsfeed/presenters/d;
+
+    invoke-virtual {v1, p1}, Lcom/vk/newsfeed/presenters/d;->b(I)I
+
+    move-result p1
+
+    invoke-virtual {v0, p1}, Lcom/vk/newsfeed/adapters/d;->h(I)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/vkontakte/android/ui/i/a;
+
+    const-string v0, "item"
+
+    .line 130
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p1}, Lcom/vkontakte/android/ui/i/a;->e()I
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    :goto_0
+    if-ge v1, v0, :cond_0
+
+    .line 132
+    invoke-virtual {p1, v1}, Lcom/vkontakte/android/ui/i/a;->a(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    .line 133
+    invoke-static {v2}, Lcom/vk/imageloader/i;->e(Ljava/lang/String;)V
+
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method

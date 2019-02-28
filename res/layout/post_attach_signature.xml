@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:paddingLeft="@dimen/post_side_padding" android:paddingTop="8.0dip" android:paddingRight="@dimen/post_side_padding" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="@color/name" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/attach_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="TextView" android:singleLine="true" android:drawableLeft="@drawable/ic_post_signature" android:drawablePadding="8.0dip" android:fontFamily="@string/font_family_medium" />
+    <android.support.v7.widget.AppCompatImageView android:layout_gravity="end|center" android:id="@id/attach_common_remove_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/picker_ic_close_24" android:scaleType="center" android:tint="@color/light_gray" />
+</FrameLayout>

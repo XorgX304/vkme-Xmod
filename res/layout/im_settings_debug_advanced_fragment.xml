@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?background_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" app:title="@string/vkim_settings_debug" style="@style/VkIm.Toolbar.Secondary" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/toolbar">
+        <LinearLayout android:orientation="vertical" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.vk.im.ui.views.settings.EditTextSettingsView android:id="@id/domain" app:vkim_titleText="Domain" style="@style/VkIm.Settings.EditText.Normal" />
+            <com.vk.im.ui.views.settings.CheckboxSettingsView android:id="@id/apply_spaces" app:vkim_titleText="Apply spaces" style="@style/VkIm.Settings.Checkbox.Normal" />
+            <com.vk.im.ui.views.settings.CheckboxSettingsView android:id="@id/back_to_vk" app:vkim_titleText="Back returns to vk" style="@style/VkIm.Settings.Checkbox.Normal" />
+            <com.vk.im.ui.views.settings.LabelSettingsView android:id="@id/switch_theme" app:vkim_titleText="Switch theme" style="@style/VkIm.Settings.Label.Normal" />
+            <com.vk.im.ui.views.settings.CheckboxSettingsView android:id="@id/send_stats_immediately" app:vkim_titleText="Send stats immediately" style="@style/VkIm.Settings.Checkbox.Normal" />
+            <com.vk.im.ui.views.settings.EditTextSettingsView android:id="@id/contacts_import" app:vkim_titleText="Contacts import batch size" style="@style/VkIm.Settings.EditText.Normal" />
+            <com.vk.im.ui.views.settings.CheckboxSettingsView android:id="@id/api_debug" app:vkim_titleText="Log full api requests" style="@style/VkIm.Settings.Checkbox.Normal" />
+            <com.vk.im.ui.views.settings.DividerSettingsView style="@style/VkIm.Settings.Divider" />
+            <com.vk.im.ui.views.settings.LabelSettingsView android:id="@id/send_logs" app:vkim_titleText="Send logs" style="@style/VkIm.Settings.Label.Normal" />
+        </LinearLayout>
+    </ScrollView>
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/toolbar_shadow" android:layout_below="@id/toolbar" android:contentDescription="@null" />
+</RelativeLayout>
